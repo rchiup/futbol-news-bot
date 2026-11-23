@@ -37,3 +37,5 @@ Force full test and Instagram photo-first publishing for verified footballer ima
 Check why scheduler stopped publishing on 2026-11-23, latest bot state is 13:39Z. Run all tests.
 
 Regression check after repair of Instagram user-token verification and shorter CI workflow.
+
+Validate premium full-bleed cover and hold generic-photo news, Nov 23 redesign.
