@@ -26,6 +26,7 @@ from graphics import render_card
 from ai_art import generate_illustration
 from portraits import name_in_story, find_portrait, download_portrait, photo_attribution
 from openverse_photos import find_openverse_photo, download_openverse_photo
+from curated_portraits import pick_curated
 
 ROOT = Path(__file__).resolve().parent
 QUEUE = ROOT / "data" / "queue.json"
@@ -333,26 +334,38 @@ def wrap_lines(draw, text: str, chosen_font, width: int) -> list[str]:
     return lines
 
 
-def make_card(item: dict, allow_ai: bool = False) -> Path:
-    """Render photo-led original card when exact-subject, rights-safe photo exists."""
+def make_card(item: dict, allow_ai: bool = False, lookup: bool = False,
+              network_lookup: bool = False) -> Path:
+    """Use a verified portrait bank first; avoid network searches during previews.
+
+    Read-only preview rendering never runs expensive external image searches.
+    Actual publication downloads one rights-checked image or falls back to art.
+    """
     portrait_path = None
     subject = item.get("visual_subject", "")
-    if subject and name_in_story(subject, item.get("title", ""), item.get("description", "")):
-        if not item.get("portrait_info"):
-            # Retry old failed lookups: newly supported Commons licenses may now yield a photo.
+    title, summary = item.get("title", ""), item.get("description", "")
+    dest = ROOT / "output" / "portraits" / (item["id"] + ".jpg")
+
+    if lookup:
+        approved = pick_curated(subject, title, summary)
+        if approved:
+            item["portrait_info"] = approved
+            item["visual_subject"] = approved["subject"]
+        elif (subject and name_in_story(subject, title, summary)
+              and network_lookup):
             try:
                 item["portrait_info"] = find_portrait(subject)
             except (requests.RequestException, KeyError, ValueError) as exc:
-                print(f"[PHOTO] Lookup skipped: {type(exc).__name__}")
+                print(f"[PHOTO] Wikimedia lookup unavailable: {type(exc).__name__}")
                 item["portrait_info"] = None
-        if not item.get("portrait_info"):
-            try:
-                item["portrait_info"] = find_openverse_photo(subject)
-            except (requests.RequestException, KeyError, ValueError) as exc:
-                print(f"[PHOTO] Openverse lookup skipped: {type(exc).__name__}")
+            if not item.get("portrait_info"):
+                try:
+                    item["portrait_info"] = find_openverse_photo(subject)
+                except (requests.RequestException, KeyError, ValueError) as exc:
+                    print(f"[PHOTO] Openverse lookup unavailable: {type(exc).__name__}")
+            item["photo_checked_at"] = iso(now_utc())
         if item.get("portrait_info"):
             try:
-                dest = ROOT / "output" / "portraits" / (item["id"] + ".jpg")
                 if dest.exists():
                     portrait_path = dest
                 elif item["portrait_info"].get("photo_provider") == "Openverse":
@@ -360,21 +373,22 @@ def make_card(item: dict, allow_ai: bool = False) -> Path:
                 else:
                     portrait_path = download_portrait(item["portrait_info"], dest)
             except (requests.RequestException, OSError, ValueError) as exc:
-                print(f"[PHOTO] Download skipped: {type(exc).__name__}")
+                print(f"[PHOTO] Image download unavailable: {type(exc).__name__}")
     ai_used = False
     if not portrait_path and allow_ai and os.getenv("ENABLE_AI_ART", "").lower() == "true":
         try:
             portrait_path = generate_illustration(
-                item, ROOT / "output" / "ai" / (item["id"] + ".jpg"),
+                item, ROOT / "output" / "ai" / (item["id"] + ".jpg")
             )
             item["ai_art_generated_at"] = iso(now_utc())
             ai_used = True
         except (requests.RequestException, OSError, ValueError, RuntimeError) as exc:
             print(f"[ART] Creative illustration unavailable: {type(exc).__name__}")
+
     item["ai_art_used"] = ai_used
     rendered = render_card(
         item, brand=BRAND, destination=PREVIEWS / (item["id"] + ".jpg"),
-        portrait_path=portrait_path, ai_art=ai_used,
+        portrait_path=portrait_path, ai_art=ai_used
     )
     item["portrait_used"] = bool(portrait_path) and not ai_used
     return rendered
@@ -484,6 +498,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
 
     published_count = 0
     generated_art_this_run = 0
+    network_photo_lookups = 0
     posts_per_run, morning_allowance = morning_burst_settings(reference, queue)
     publish_requested = (os.getenv("ENABLE_PUBLISH", "").lower() == "true" and
                          os.getenv("AUTO_APPROVE", "").lower() == "true")
@@ -530,7 +545,18 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     and generated_art_this_run < 2
                     and today_count(queue, "ai_art_generated_at", reference) < AI_ART_MAX_DAILY
                 )
-                path = make_card(item, allow_ai=can_generate_art)
+                photo_is_unchecked = (
+                    not item.get("photo_checked_at") or
+                    (parse_iso(item.get("photo_checked_at", "")) or reference - timedelta(days=2))
+                    < reference - timedelta(hours=12)
+                )
+                allow_network_photo = network_photo_lookups < 1 and photo_is_unchecked
+                path = make_card(
+                    item, allow_ai=can_generate_art, lookup=True,
+                    network_lookup=allow_network_photo,
+                )
+                if item.get("photo_checked_at") and allow_network_photo:
+                    network_photo_lookups += 1
                 if item.get("ai_art_used"):
                     generated_art_this_run += 1
                 caption = clean_public_caption(item["caption"])
