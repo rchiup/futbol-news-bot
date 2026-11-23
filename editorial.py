@@ -527,6 +527,17 @@ def run(reference: datetime | None = None, session=None) -> dict:
              "morning_day_cap": morning_allowance,
              "auto_publish_enabled": publish_requested and not missing}
     print("[SUMMARY] " + json.dumps(stats))
+    telemetry = {
+        "checked_at_utc": iso(reference),
+        "local_hour": reference.astimezone(PUBLISH_TZ).hour,
+        "statuses": {status: sum(1 for row in queue if row.get("status") == status)
+                     for status in ("published", "draft", "awaiting_ai", "needs_review", "publish_error")},
+        **stats,
+    }
+    (ROOT / "data" / "engine_status.json").write_text(
+        json.dumps(telemetry, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8"
+    )
     return stats
 
 
