@@ -26,7 +26,7 @@ from graphics import render_card
 from ai_art import generate_illustration
 from portraits import name_in_story, find_portrait, download_portrait, photo_attribution
 from openverse_photos import find_openverse_photo, download_openverse_photo
-from curated_portraits import pick_curated, generic_football_photo
+from curated_portraits import pick_curated
 
 ROOT = Path(__file__).resolve().parent
 QUEUE = ROOT / "data" / "queue.json"
@@ -340,28 +340,32 @@ def wrap_lines(draw, text: str, chosen_font, width: int) -> list[str]:
 
 def make_card(item: dict, allow_ai: bool = False, lookup: bool = False,
               network_lookup: bool = False) -> Path:
-    """Always render a source-licensed photograph for publishable news.
+    """Use only a news-relevant, identity-verified portrait.
 
-    Prioritize a person actually mentioned in the article. Without a verified
-    person, use a generic real football-pitch photograph marked REFERENCIAL.
-    Only look up/download images during publishing, not preview generation.
+    Random sports fields cannot illustrate a specific FIFA, football match,
+    player, tennis or NBA story. When there is no real relevant picture, render
+    the clean no-photo layout for REVIEW ONLY, never for automatic publication.
     """
     photo_path = None
-    non_football = item.get("sport", "FUTBOL") != "FUTBOL"
+    sport = item.get("sport", "FUTBOL")
     title, summary = item.get("title", ""), item.get("description", "")
     subject = item.get("visual_subject", "")
     dest = ROOT / "output" / "portraits" / (item["id"] + ".jpg")
 
-    if lookup and not non_football:
-        approved = pick_curated(subject, title, summary)
+    # Reject stale generic-photo information from the previous system.
+    if item.get("portrait_info", {}).get("reference_only"):
+        item["portrait_info"] = None
+
+    if lookup:
+        approved = pick_curated(subject, title, summary) if sport == "FUTBOL" else None
         if approved:
             item["portrait_info"] = approved
             item["visual_subject"] = approved["subject"]
-        elif subject and name_in_story(subject, title, summary) and network_lookup:
+        elif sport == "FUTBOL" and subject and name_in_story(subject, title, summary) and network_lookup:
             try:
                 item["portrait_info"] = find_portrait(subject)
             except (requests.RequestException, KeyError, ValueError) as exc:
-                print(f"[PHOTO] Wikidata lookup unavailable: {type(exc).__name__}")
+                print(f"[PHOTO] Wikimedia lookup unavailable: {type(exc).__name__}")
                 item["portrait_info"] = None
             if not item.get("portrait_info"):
                 try:
@@ -370,30 +374,20 @@ def make_card(item: dict, allow_ai: bool = False, lookup: bool = False,
                     print(f"[PHOTO] Openverse lookup unavailable: {type(exc).__name__}")
             item["photo_checked_at"] = iso(now_utc())
 
-        # Never silently switch to a different person's photograph.
-        # For stories without an available portrait, use a real generic pitch.
-        if not item.get("portrait_info"):
-            item["portrait_info"] = generic_football_photo()
-
-        def attempt_download(info: dict) -> Path:
-            if info.get("photo_provider") == "Openverse":
-                return download_openverse_photo(info, dest)
-            return download_portrait(info, dest)
-
-        try:
-            photo_path = dest if dest.exists() else attempt_download(item["portrait_info"])
-        except (requests.RequestException, OSError, ValueError) as exc:
-            print(f"[PHOTO] First download failed: {type(exc).__name__}")
-            # If the subject picture fails, use the fallback instead.
-            if not item["portrait_info"].get("reference_only"):
-                item["portrait_info"] = generic_football_photo()
-                try:
-                    photo_path = attempt_download(item["portrait_info"])
-                except (requests.RequestException, OSError, ValueError) as fallback:
-                    print(f"[PHOTO] Pitch download unavailable: {type(fallback).__name__}")
+        if item.get("portrait_info"):
+            try:
+                if dest.exists():
+                    photo_path = dest
+                elif item["portrait_info"].get("photo_provider") == "Openverse":
+                    photo_path = download_openverse_photo(item["portrait_info"], dest)
+                else:
+                    photo_path = download_portrait(item["portrait_info"], dest)
+            except (requests.RequestException, OSError, ValueError) as exc:
+                print(f"[PHOTO] Relevant portrait unavailable: {type(exc).__name__}")
 
     ai_used = False
-    if not photo_path and allow_ai and not non_football and os.getenv("ENABLE_AI_ART", "").lower() == "true":
+    if (not photo_path and allow_ai and sport == "FUTBOL"
+            and os.getenv("ENABLE_AI_ART", "").lower() == "true"):
         try:
             photo_path = generate_illustration(
                 item, ROOT / "output" / "ai" / (item["id"] + ".jpg")
@@ -405,14 +399,11 @@ def make_card(item: dict, allow_ai: bool = False, lookup: bool = False,
 
     item["ai_art_used"] = ai_used
     item["photo_used"] = bool(photo_path) and not ai_used
-    item["portrait_used"] = item["photo_used"] and not item.get("portrait_info", {}).get("reference_only")
-    item["reference_photo_used"] = item["photo_used"] and bool(
-        item.get("portrait_info", {}).get("reference_only")
-    )
+    item["portrait_used"] = bool(item["photo_used"])
+    item["reference_photo_used"] = False
     return render_card(
         item, brand=BRAND, destination=PREVIEWS / (item["id"] + ".jpg"),
         portrait_path=photo_path, ai_art=ai_used,
-        reference_photo=item["reference_photo_used"],
     )
 
 def today_count(items: list[dict], key: str, reference: datetime) -> int:
@@ -534,8 +525,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
         from publisher import publish_image, available_instagram_slots
         remaining_meta_slots = available_instagram_slots(fallback_slots=max(0, 40 - rolling_post_count(queue, reference)))
         allowed_this_run = min(posts_per_run, remaining_meta_slots)
-        # Publish grounded stories with a verified *person* photograph first.
-        # Others still get an explicitly referential football-pitch photo.
+        # Prefer news with confirmed footballer photos. Never publish generic sports photos.
         for item in sorted(queue, key=lambda x: (
             bool(pick_curated(x.get("visual_subject", ""), x.get("title", ""),
                               x.get("description", ""))) if x.get("sport", "FUTBOL") == "FUTBOL" else False,
@@ -579,15 +569,18 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     item, allow_ai=can_generate_art, lookup=True,
                     network_lookup=allow_network_photo,
                 )
-                # No photo is fine: render_card already produces original art.
-                if (os.getenv("REQUIRE_SUBJECT_PHOTO", "").lower() == "true"
-                        and item.get("sport", "FUTBOL") == "FUTBOL"
-                        and not item.get("portrait_used")):
-                    # Manual smoke test: publish an identifiable person or nothing.
-                    print(f"[PHOTO] Waiting for a real subject portrait: {item['id']}")
-                    continue
                 if item.get("photo_checked_at") and allow_network_photo:
                     network_photo_lookups += 1
+                # Never post a made-up stadium image, empty template or
+                # misleading generic sports photograph as if it were the news.
+                if not item.get("photo_used") and not item.get("ai_art_used"):
+                    item["photo_deferred_reason"] = "no_relevant_verified_image"
+                    print(f"[PHOTO] Holding story without relevant image: {item['id']}")
+                    continue
+                if (os.getenv("REQUIRE_SUBJECT_PHOTO", "").lower() == "true"
+                        and not item.get("portrait_used")):
+                    print(f"[PHOTO] Waiting for a verified subject portrait: {item['id']}")
+                    continue
                 if item.get("ai_art_used"):
                     generated_art_this_run += 1
                 caption = clean_public_caption(item["caption"])
