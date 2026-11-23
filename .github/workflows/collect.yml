@@ -42,7 +42,7 @@ jobs:
           if not os.getenv("CF_ACCOUNT_ID") or not os.getenv("CF_API_TOKEN"):
               print("[ART_SMOKE] Missing CF_ACCOUNT_ID or CF_API_TOKEN")
               raise SystemExit(1)
-          item = {"visual_subject": "", "sport": "FUTBOL"}
+          item = {"visual_subject": "Jannik Sinner", "sport": "TENIS", "title": "Jannik Sinner tennis portrait smoke test"}
           try:
               dest = generate_illustration(item, Path("output/cloudflare-smoke.jpg"))
               print(f"[ART_SMOKE] OK: {dest} ({dest.stat().st_size} bytes)")
