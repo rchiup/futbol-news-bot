@@ -1,1 +1,2 @@
 2026-11-23. Check Instagram Insights API read-only capabilities for @chaofelicevich. No posts or comments.
+Retry insights read-only probe with standalone tests.
