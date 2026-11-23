@@ -23,8 +23,8 @@ jobs:
           cache: pip
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Run automated tests
-        run: python -m unittest discover -s tests -v
+      - name: Run automated tests and save a health report
+        run: python diagnose_v2.py
       - name: Archive raw headlines (non-blocking, maximum 90s)
         run: timeout 90s python bot.py || echo "RSS archive unavailable; editorial engine continues"
       - name: Curate and generate Instagram image previews
@@ -66,7 +66,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/news.json data/queue.json data/engine_status.json
+          git add data/news.json data/queue.json data/engine_status.json data/health_v2.json
           if ! git diff --cached --quiet; then
             git commit -m "Refresh football headlines and editorial queue"
             for attempt in 1 2 3 4; do
