@@ -1,30 +1,37 @@
 {
-  "checked_at_utc": "2026-11-23T12:38:40.151375+00:00",
+  "checked_at_utc": "2026-11-23T12:43:12.206022+00:00",
   "results": [
     {
       "name": "Gianni Infantino",
       "found": false,
       "license": null,
       "filename": null,
-      "credit_required": false
+      "credit_required": false,
+      "openverse_error": "HTTPError",
+      "openverse_http_status": 504
     },
     {
       "name": "Lionel Messi",
       "found": false,
       "error": "HTTPError",
-      "http_status": 429
+      "http_status": 429,
+      "openverse_error": "ReadTimeout",
+      "openverse_http_status": null
     },
     {
       "name": "Cristiano Ronaldo",
       "found": false,
       "error": "HTTPError",
-      "http_status": 429
+      "http_status": 429,
+      "openverse_error": "ReadTimeout",
+      "openverse_http_status": null
     },
     {
       "name": "Chloe Mustaki",
       "found": false,
       "error": "HTTPError",
-      "http_status": 429
+      "http_status": 429,
+      "openverse_found": false
     }
   ]
 }
