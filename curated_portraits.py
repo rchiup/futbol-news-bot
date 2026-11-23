@@ -76,7 +76,7 @@ LIBRARY = {
     "Leandro Paredes": {
         "filename": "Leandro Paredes Argentina v Spain 19 July 2026-153.jpg",
         "author": "Bryan Berlin", "version": "4.0",
-        "aliases": ["leandro paredes"],
+        "aliases": ["leandro paredes", "paredes"],
     },
     "Nicolás Otamendi": {
         "filename": "Nicolas Otamendi Argentina v Spain 19 July 2026-059.jpg",
@@ -102,9 +102,9 @@ def pick_curated(subject: str, title: str, summary: str = "") -> dict | None:
         if subject and normalize(subject) not in {"", normalize(full_name)}:
             continue
         if _contains_phrase(story, full_name) or any(
-            _contains_phrase(title, alias)
+            _contains_phrase(story, alias)
+            and (alias != "paredes" or _contains_phrase(story, "boca"))
             for alias in record["aliases"]
-            if alias not in {"arturo vidal", "alexis sanchez"} or _contains_phrase(title, full_name)
         ):
             filename = record["filename"]
             clean_name = filename.replace(" ", "_")
