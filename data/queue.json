@@ -9,10 +9,12 @@
     "category": "SELECCIONES",
     "score": 36,
     "queued_at": "2026-11-23T00:47:43.234772+00:00",
-    "status": "draft",
+    "status": "published",
     "headline": "Fifa confirmará al Reino Unido como sede de la Copa Mundial Femenina 2035",
     "caption": "La FIFA confirmará el lunes que el Reino Unido será el anfitrión de la Copa Mundial Femenina 2035, el primer Mundial de fútbol que se celebra en el país desde 1966.\n\nFuente: BBC Sport\nhttps://www.bbc.co.uk/sport/football/articles/cx30g83716lzo?at_medium=RSS&at_campaign=rss",
-    "ai_generated_at": "2026-11-23T01:01:09.488812+00:00"
+    "ai_generated_at": "2026-11-23T01:01:09.488812+00:00",
+    "posted_at": "2026-11-23T02:28:07.513251+00:00",
+    "instagram_media_id": "18126608645298781"
   },
   {
     "id": "c4f35f77bfb23db379ee",
@@ -84,7 +86,10 @@
     "category": "LESIONES",
     "score": 31,
     "queued_at": "2026-11-23T00:48:09.514188+00:00",
-    "status": "awaiting_ai"
+    "status": "draft",
+    "headline": "Desire Doue del PSG se operará por rotura de ligamento cruzado anterior",
+    "caption": "El delantero del Paris Saint‑Germain, Desire Doue, se someterá a una operación a finales de este mes tras romperse el ligamento cruzado anterior de la rodilla derecha.\n\nFuente: BBC Sport\nhttps://www.bbc.co.uk/sport/football/articles/cw0k6x0764ero?at_medium=RSS&at_campaign=rss",
+    "ai_generated_at": "2026-11-23T02:28:07.513251+00:00"
   },
   {
     "id": "56a76a057fcc6d9987ac",
@@ -96,7 +101,10 @@
     "category": "FICHAJES",
     "score": 31,
     "queued_at": "2026-11-23T00:48:45.660935+00:00",
-    "status": "awaiting_ai"
+    "status": "draft",
+    "headline": "El Tottenham frena al Manchester City y complica su aspiración al título de la WSL",
+    "caption": "Manchester City sufrió su segunda derrota consecutiva en casa tras el doblete tardío de Vinberg y Naz del Tottenham, que se acercó a los puestos europeos a tres puntos. El sorprendente resultado llegó 24 horas después de que Chelsea, rival del título, perdiera puntos contra Liverpool. Fue la primera vez que City no ganó en casa bajo la dirección de Andrée Jeglertz en sus 16 meses.\n\nFuente: The Guardian\nhttps://www.theguardian.com/football/2026/nov/22/manchester-city-tottenham-wsl-match-report",
+    "ai_generated_at": "2026-11-23T02:28:07.513251+00:00"
   },
   {
     "id": "92db0d9f88dbcc2e1e80",
@@ -108,7 +116,10 @@
     "category": "ACTUALIDAD",
     "score": 28,
     "queued_at": "2026-11-23T00:48:45.660935+00:00",
-    "status": "awaiting_ai"
+    "status": "draft",
+    "headline": "¿Se benefició el Liverpool de la expulsión temprana de Leny Yoro?",
+    "caption": "Los analistas de Match of the Day, Danny Murphy y Ashley Young, consideran que el Liverpool pudo haber tenido suerte al ver expulsado a Leny Yoro del Manchester United en el minuto 8 en Anfield. La decisión generó debate sobre la influencia del árbitro en el desarrollo del partido.\n\nFuente: BBC Sport\nhttps://www.bbc.co.uk/sport/football/videos/cq23jmklrj33o?at_medium=RSS&at_campaign=rss",
+    "ai_generated_at": "2026-11-23T02:28:07.513251+00:00"
   },
   {
     "id": "264bd48304931548bcc8",
@@ -192,6 +203,42 @@
     "category": "PARTIDOS",
     "score": 26,
     "queued_at": "2026-11-23T01:02:35.498168+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "1870355ccb9b2ee162ec",
+    "title": "Ngumoha stars as Liverpool thrash 10-man Man Utd",
+    "source_url": "https://www.bbc.co.uk/sport/football/videos/c933g77knz00o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Mauricio Pochettino's reign as Manchester United head coach begins in desperate fashion as his team are thrashed by rivals Liverpool to remain in the Premier League relegation zone.",
+    "published_at": "2026-11-22T19:59:35+00:00",
+    "category": "ACTUALIDAD",
+    "score": 25,
+    "queued_at": "2026-11-23T02:28:07.513251+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "8609e7402523f993cf50",
+    "title": "Rio Ngumoha emulates Cristiano Ronaldo as Liverpool star dazzles hapless Man United",
+    "source_url": "https://talksport.com/football/4724748/rio-ngumoha-liverpool-man-utd-cristiano-ronaldo",
+    "source": "talkSPORT",
+    "description": "",
+    "published_at": "2026-11-22T18:55:12+00:00",
+    "category": "ACTUALIDAD",
+    "score": 25,
+    "queued_at": "2026-11-23T02:28:07.513251+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "10092a92eff956d9c1f1",
+    "title": "Liverpool hand Pochettino nightmare Manchester United start after Yoro sees red",
+    "source_url": "https://www.theguardian.com/football/2026/nov/22/liverpool-manchester-united-premier-league-match-report",
+    "source": "The Guardian",
+    "description": "Green shoots of recovery have lasted longer in a blast furnace than in the Mauricio Pochettino era at Manchester United. On another abysmal Anfield day for the fallen giants of Manchester, Pochettino endured a baptism of fire from the eighth minute onwards when Leny Yoro was sent off for denying Alexander Isak a clear goalscoring opportunity. Liverpool would not be denied anything else while tormenting their old rivals yet again. Andoni Iraola indulged in his first fist-pumps towards the Kop after an utterly dominant, comfortable win illuminate",
+    "published_at": "2026-11-22T18:35:14+00:00",
+    "category": "ACTUALIDAD",
+    "score": 25,
+    "queued_at": "2026-11-23T02:28:07.513251+00:00",
     "status": "awaiting_ai"
   }
 ]
