@@ -1,3 +1,5 @@
 Run and report V2 graphics / editorial unit tests.
 
 Validate source-free football posts and graphics after latest change.
+
+Retest captions without sources and 24-hour rolling publish quota.
