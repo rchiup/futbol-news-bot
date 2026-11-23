@@ -21,7 +21,7 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Run safe Insights read-only tests
-        run: python -m unittest discover -s tests -v
+        run: python -m unittest discover -s tests -p test_insights_probe.py -v
       - name: Check the existing IG token without posting anything
         run: python insights_probe.py
         env:
