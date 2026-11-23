@@ -9,6 +9,7 @@ from __future__ import annotations
 import io
 import os
 import re
+import unicodedata
 from pathlib import Path
 from urllib.parse import urlsplit
 
@@ -25,9 +26,15 @@ def safe_pixabay_url(value: str) -> bool:
     return url.scheme == "https" and (host == "pixabay.com" or host.endswith(".pixabay.com"))
 
 
+def _tokens(value: str) -> list[str]:
+    normalized = unicodedata.normalize("NFKD", str(value).casefold())
+    plain = "".join(char for char in normalized if not unicodedata.combining(char))
+    return re.findall(r"[a-z0-9]+", plain)
+
+
 def tags_match_subject(tags: str, subject: str) -> bool:
-    wanted = re.findall(r"[a-z0-9]+", subject.casefold())
-    available = set(re.findall(r"[a-z0-9]+", str(tags).casefold()))
+    wanted = _tokens(subject)
+    available = set(_tokens(tags))
     return len(wanted) >= 2 and all(word in available for word in wanted)
 
 
