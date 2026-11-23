@@ -2,3 +2,8 @@ __pycache__/
 .env
 .venv/
 *.pyc
+
+# Generated preview media (available as Actions artifacts)
+output/previews/
+*.tmp
+.pytest_cache/
