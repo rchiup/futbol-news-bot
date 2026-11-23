@@ -7,3 +7,5 @@ Retest captions without sources and 24-hour rolling publish quota.
 Test photo-led football V3 rendering, licensed subject resolution and fallbacks.
 
 Final regression check of image-rights V3 and scheduled auto-posting.
+
+Check 15-minute schedule, morning bursts, Commons CC BY images and optional AI fallback.
