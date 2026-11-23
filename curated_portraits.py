@@ -73,6 +73,16 @@ LIBRARY = {
         "author": "Bryan Berlin / WikiPortraits", "version": "4.0",
         "aliases": ["rayan cherki", "cherki"],
     },
+    "Lamine Yamal": {
+        "filename": "Lamine Yamal Argentina v Spain 19 July 2026-144 (cropped).jpg",
+        "author": "Bryan Berlin", "version": "4.0",
+        "aliases": ["lamine yamal", "yamal"],
+    },
+    "Eduardo Vargas": {
+        "filename": "2017 Confederation Cup - CMRCHI - Eduardo Vargas.jpg",
+        "author": "Voltmetro", "version": "4.0",
+        "aliases": ["eduardo vargas", "turboman"],
+    },
     "Leandro Paredes": {
         "filename": "Leandro Paredes Argentina v Spain 19 July 2026-153.jpg",
         "author": "Bryan Berlin", "version": "4.0",
