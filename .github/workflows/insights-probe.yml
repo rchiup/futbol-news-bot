@@ -29,11 +29,21 @@ jobs:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           META_AUTH_MODE: 'facebook'
           META_GRAPH_VERSION: 'v27.0'
+      - name: Check publishing authorization without publishing
+        run: python publish_preflight.py
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          META_GRAPH_VERSION: 'v27.0'
       - name: Store redacted capabilities report
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ig_insights_probe.json
+          git add data/ig_insights_probe.json data/publish_preflight.json
           if ! git diff --cached --quiet; then
             git commit -m "Record redacted Instagram insights API capabilities"
             for attempt in 1 2 3 4; do
