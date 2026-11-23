@@ -474,13 +474,14 @@
     "category": "ACTUALIDAD",
     "score": 28,
     "queued_at": "2026-11-23T13:25:25.486690+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "visual_subject": "",
     "headline": "Instituto y River decidirán sede del cuartos",
     "caption": "Instituto (La Gloria) eliminó 2-1 a Huracán y medirá fuerzas con River en cuartos de final del Clausura. El presidente del club cordobés ya habló del escenario, ¿en qué estadio se jugará el duelo? ⚽️",
     "ai_generated_at": "2026-11-23T13:25:25.486690+00:00",
     "ai_art_used": false,
-    "portrait_used": false
+    "portrait_used": false,
+    "moderation_reason": "Titular generado sugiere negociación entre clubes que el RSS no confirma."
   },
   {
     "id": "ae7a5dc6f4e221deba6f",
@@ -492,13 +493,14 @@
     "category": "ACTUALIDAD",
     "score": 28,
     "queued_at": "2026-11-23T13:25:25.486690+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "visual_subject": "",
     "headline": "Boca guarda minuto de silencio por Paredes y desafía a River",
     "caption": "Boca Juniors realizó un minuto de silencio en honor a Paredes y lanzó un mensaje a River. El gesto se dio tras celebrar la vuelta de Barranquilla con la Copa Sudamericana, y busca presionar al rival antes del próximo clásico. ¿Crees que este gesto motivará al Xeneize en el próximo duelo? ⚽️",
     "ai_generated_at": "2026-11-23T13:25:25.486690+00:00",
     "ai_art_used": false,
-    "portrait_used": false
+    "portrait_used": false,
+    "moderation_reason": "El titular generado confundió quién hizo el minuto de silencio con quién lo recibió."
   },
   {
     "id": "a7adda1e3110b3ade9b4",
