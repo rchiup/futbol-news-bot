@@ -19,6 +19,10 @@ THEMES = {
     "SELECCIONES": ("FÚTBOL MUNDIAL", (58, 223, 168)),
     "LESIONES": ("ACTUALIDAD", (255, 113, 103)),
     "ACTUALIDAD": ("FÚTBOL AL DÍA", (55, 199, 251)),
+    "TENIS": ("TENIS", (190, 234, 86)),
+    "GOLF": ("GOLF", (111, 208, 151)),
+    "F1": ("FÓRMULA 1", (241, 91, 97)),
+    "NBA": ("NBA", (246, 150, 76)),
 }
 FONT_BOLD = [
     "/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Bold.ttf",
@@ -94,6 +98,41 @@ def _pitch(draw: ImageDraw.ImageDraw, accent: tuple[int, int, int], offset: int)
         draw.line((x, 300, x + 320, 900), fill=(*accent, 16), width=4)
 
 
+def _sports_illustration(layer: Image.Image, accent, category: str):
+    """Original vector motifs for non-football sports; no licensed photos or logos."""
+    draw = ImageDraw.Draw(layer, "RGBA")
+    color = (*accent, 95)
+    if category == "TENIS":
+        # Court + net, seen from above.
+        draw.rounded_rectangle((180, 345, 950, 1015), radius=12, outline=color, width=7)
+        draw.line((565, 345, 565, 1015), fill=color, width=5)
+        draw.line((180, 680, 950, 680), fill=color, width=7)
+        draw.line((325, 345, 325, 1015), fill=(*accent, 45), width=4)
+        draw.line((805, 345, 805, 1015), fill=(*accent, 45), width=4)
+        draw.ellipse((725, 485, 910, 670), outline=(*accent, 170), width=11)
+        draw.arc((740, 495, 895, 665), 45, 225, fill=(*accent, 170), width=5)
+    elif category == "GOLF":
+        # Flagstick, putting green and golf ball.
+        draw.ellipse((170, 700, 1030, 1070), outline=color, width=7)
+        draw.line((740, 345, 740, 930), fill=(*accent, 160), width=9)
+        draw.polygon([(744, 365), (920, 440), (744, 515)], fill=(*accent, 100))
+        draw.ellipse((510, 790, 630, 910), outline=(*accent, 160), width=10)
+    elif category == "F1":
+        # Sweeping racing circuit curves; not any official track or logo.
+        draw.arc((100, 345, 1070, 1045), 0, 320, fill=color, width=22)
+        draw.arc((185, 425, 960, 945), 0, 320, fill=(*accent, 40), width=9)
+        for i in range(5):
+            draw.line((240 + i * 96, 920, 340 + i * 96, 980),
+                      fill=(*accent, 75), width=10)
+    elif category == "NBA":
+        # Basketball and simplified hardwood court.
+        draw.rounded_rectangle((170, 420, 980, 1010), radius=28, outline=color, width=8)
+        draw.ellipse((560, 450, 950, 840), outline=(*accent, 130), width=10)
+        draw.line((755, 450, 755, 840), fill=(*accent, 100), width=8)
+        draw.arc((560, 450, 950, 840), 45, 225, fill=(*accent, 90), width=9)
+        draw.ellipse((320, 630, 470, 780), outline=(*accent, 120), width=7)
+
+
 def _illustration(layer: Image.Image, accent, seed: int, category: str):
     draw = ImageDraw.Draw(layer, "RGBA")
     _pitch(draw, accent, seed)
@@ -147,7 +186,10 @@ def render_card(item: dict, brand="CHAO FELICEVICH", destination: Path | None = 
                     fill=(*accent, 39))
     overlay.polygon([(0, 1100), (175, 1350), (0, 1350)], fill=(*accent, 44))
     if not portrait_path:
-        _illustration(decorative, accent, sum(ord(c) for c in identity), category)
+        if category in {"TENIS", "GOLF", "F1", "NBA"}:
+            _sports_illustration(decorative, accent, category)
+        else:
+            _illustration(decorative, accent, sum(ord(c) for c in identity), category)
     else:
         # Keep pitch artwork subtly behind identity-verified photography.
         _pitch(overlay, accent, sum(ord(c) for c in identity))
