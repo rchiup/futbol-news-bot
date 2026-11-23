@@ -127,7 +127,7 @@ def _illustration(layer: Image.Image, accent, seed: int, category: str):
 
 
 def render_card(item: dict, brand="CHAO FELICEVICH", destination: Path | None = None,
-                portrait_path: Path | None = None) -> Path:
+                portrait_path: Path | None = None, ai_art: bool = False) -> Path:
     category = str(item.get("category", "ACTUALIDAD")).upper()
     ribbon, accent = THEMES.get(category, THEMES["ACTUALIDAD"])
     identity = str(item.get("id", "news"))[:36]
@@ -201,6 +201,12 @@ def render_card(item: dict, brand="CHAO FELICEVICH", destination: Path | None = 
     draw.rounded_rectangle((68, 238, 68+label_width, 302), radius=12, fill=(*accent, 245))
     draw.text((93, 255), ribbon, font=font(28), fill=(8, 19, 30, 255))
     draw.text((75, 639), "LA NOTICIA", font=font(22), fill=(*accent, 255))
+    if ai_art:
+        # Prevent fictional AI art from being mistaken for a documentary photo.
+        draw.rounded_rectangle((765, 316, 1009, 370), radius=14,
+                               fill=(4, 14, 26, 224), outline=(*accent, 245), width=2)
+        draw.text((782, 331), "ILUSTRACIÓN IA", font=font(22),
+                  fill=(255, 255, 255, 255))
 
     headline = str(item.get("headline") or item.get("title") or "").strip()
     face, lines = fit_lines(draw, headline, 935, top_size=82, max_lines=5)
