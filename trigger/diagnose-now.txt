@@ -31,3 +31,5 @@ Try Commons thumbnail CDN before image proxy for the footballer photos.
 Final regression run: 12 reviewed player portraits, layered CDN, source-free captions.
 
 Verify photo-required publishing, Otamendi/Paredes and generic soccer-pitch photo.
+
+Force full test and Instagram photo-first publishing for verified footballer images 2026-11-23.
