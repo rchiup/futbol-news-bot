@@ -22,5 +22,9 @@
   {
     "name": "talkSPORT",
     "url": "https://talksport.com/football/feed/"
+  },
+  {
+    "name": "Olé Argentina",
+    "url": "https://www.ole.com.ar/rss/ultimas-noticias/"
   }
 ]
