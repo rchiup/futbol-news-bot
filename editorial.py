@@ -222,6 +222,18 @@ def clean_public_caption(value: str) -> str:
     return re.sub(r"\n{3,}", "\n\n", value).strip()
 
 
+def fit_caption(value: str, max_len: int = 360) -> str:
+    """Keep complete sentences: never chop a news explanation mid-phrase."""
+    value = clean_html(value)
+    if len(value) <= max_len:
+        return value
+    candidate = value[:max_len].rstrip()
+    stops = [match.end() for match in re.finditer(r"[.!?](?=\\s|$)", candidate)]
+    if stops and stops[-1] >= 60:
+        return candidate[:stops[-1]].strip()
+    raise ValueError("AI caption exceeds limit without a complete factual sentence")
+
+
 def draft_with_ai(item: dict, session=None) -> tuple[str, str] | None:
     # Prefer Groq's free tier when both credentials are configured.
     groq_key = os.getenv("GROQ_API_KEY", "").strip()
@@ -281,7 +293,7 @@ def draft_with_ai(item: dict, session=None) -> tuple[str, str] | None:
     response.raise_for_status()
     result = json.loads(response.json()["choices"][0]["message"]["content"])
     headline = clean_html(str(result.get("headline", "")))[:80]
-    caption = clean_html(str(result.get("caption", "")))[:360]
+    caption = fit_caption(str(result.get("caption", "")))
     if len(headline) < 8 or len(caption) < 12:
         raise ValueError("Invalid AI response: empty or too short")
     if headline_needs_translation(headline):
