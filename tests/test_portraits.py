@@ -92,6 +92,26 @@ class PortraitTests(unittest.TestCase):
         self.assertIn("creativecommons.org/licenses/by/4.0", credit)
         self.assertIn("Wikimedia Commons", credit)
 
+    def test_commons_search_fallback_when_primary_photo_is_restricted(self):
+        class AlternativePhoto(WikimediaStub):
+            def get(self, url, **kwargs):
+                params = kwargs.get("params", {})
+                if params.get("list") == "search":
+                    return FakeResponse({"query": {"search": [
+                        {"title": "File:Lionel Messi official portrait 2026.jpg"},
+                        {"title": "File:Unrelated man on pitch.jpg"},
+                    ]}})
+                if params.get("action") == "query":
+                    if "official portrait" in params.get("titles", ""):
+                        self.license_name = "CC BY-SA 4.0"
+                    else:
+                        self.license_name = "Copyrighted"
+                return super().get(url, **kwargs)
+        photo = find_portrait("Lionel Messi", session=AlternativePhoto())
+        self.assertIsNotNone(photo)
+        self.assertEqual(photo["commons_filename"], "Lionel Messi official portrait 2026.jpg")
+        self.assertTrue(photo["share_alike"])
+
     def test_wrong_person_is_rejected(self):
         self.assertIsNone(find_portrait("Lionel Ronaldo", session=WikimediaStub()))
 
