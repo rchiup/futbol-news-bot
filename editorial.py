@@ -28,6 +28,7 @@ PREVIEWS = ROOT / "output" / "previews"
 FEEDS = json.loads((ROOT / "feeds.json").read_text(encoding="utf-8"))
 BRAND = os.getenv("BRAND_NAME", "FÚTBOL AL DÍA")
 MAX_AGE_HOURS = int(os.getenv("MAX_AGE_HOURS", "36"))
+MAX_POST_AGE_HOURS = max(1, min(24, int(os.getenv("MAX_POST_AGE_HOURS", "12"))))
 DRAFTS_PER_RUN = max(0, min(5, int(os.getenv("MAX_DRAFTS_PER_RUN", "3"))))
 DRAFTS_PER_DAY = max(0, min(60, int(os.getenv("MAX_DRAFTS_PER_DAY", "30"))))
 POSTS_PER_DAY = max(0, min(60, int(os.getenv("MAX_POSTS_PER_DAY", "30"))))
@@ -44,6 +45,10 @@ CATEGORIES = {
 POPULAR = ("real madrid", "barcelona", "manchester", "arsenal", "liverpool", "chelsea",
            "bayern", "psg", "inter milan", "juventus", "messi", "ronaldo", "mbapp", "haaland",
            "champions league", "premier league", "world cup", "mundial", "chile", "alexis")
+BLOCKED_TOPICS = ("nfl", "nba", "nhl", "super bowl", "baseball", "cricket", "rugby",
+                  "wwe", "formula 1", "f1 grand prix", "boxing", "ufc", "golf masters")
+BLOCKED_FORMATS = ("podcast", "player ratings", "0/10", "quiz", "live blog",
+                   "how to watch", "streaming guide", "fantasy football")
 STOP = {"the", "a", "an", "and", "of", "to", "in", "on", "for", "as", "at", "is",
         "de", "del", "la", "el", "los", "las", "en", "y", "por", "que", "un", "una"}
 
@@ -149,6 +154,8 @@ def fetch_candidates(reference: datetime | None = None, session=None) -> list[di
                 link = canonical_url(entry.get("link", ""))
                 published_at = rss_date(entry)
                 if not title or not link or not published_at:
+                    continue
+                if any(word in title.lower() for word in BLOCKED_TOPICS + BLOCKED_FORMATS):
                     continue
                 age = (reference - published_at).total_seconds() / 3600
                 if age < -0.25 or age > MAX_AGE_HOURS:
@@ -383,17 +390,21 @@ def run(reference: datetime | None = None, session=None) -> dict:
         print("[META] Outside local publishing window 08:00–23:59; drafts remain queued")
     if publish_requested and not missing and in_posting_window:
         from publisher import publish_image
-        for item in queue:
+        for item in sorted(queue, key=lambda x: (x.get("score", 0), x.get("published_at", "")), reverse=True):
             if published_count >= 1 or today_count(queue, "posted_at", reference) >= POSTS_PER_DAY:
                 break
             if item.get("status") != "draft":
+                continue
+            # Auto-feed only grounded, high-quality RSS stories, not empty-summary snippets.
+            if len(item.get("description", "").strip()) < 50 or item.get("score", 0) < 25:
+                item["status"] = "needs_review"
                 continue
             if headline_needs_translation(item.get("headline", "")):
                 item["status"] = "needs_review"
                 print(f"[EDITOR] Blocked untranslated headline: {item['id']}")
                 continue
             date = parse_iso(item.get("published_at", ""))
-            if not date or (reference - date).total_seconds() > MAX_AGE_HOURS * 3600:
+            if not date or (reference - date).total_seconds() > MAX_POST_AGE_HOURS * 3600:
                 item["status"] = "expired"
                 continue
             try:
