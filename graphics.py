@@ -59,7 +59,26 @@ def fit_lines(draw, value: str, limit: int, top_size=90, max_lines=5):
             lines.append(line)
         if len(lines) <= max_lines and all(draw.textbbox((0, 0), s, font=face)[2] <= limit for s in lines):
             return face, lines
-    raise ValueError("Headline is too long to render safely")
+    # Oversized RSS headlines are previews only; shrink and safely ellipsize.
+    face = font(38)
+    words = value.split()
+    while words:
+        short = " ".join(words) + "…"
+        lines, line = [], ""
+        for word in short.split():
+            trial = (line + " " + word).strip()
+            if draw.textbbox((0, 0), trial, font=face)[2] <= limit:
+                line = trial
+            else:
+                if line:
+                    lines.append(line)
+                line = word
+        if line:
+            lines.append(line)
+        if len(lines) <= max_lines and all(draw.textbbox((0, 0), s, font=face)[2] <= limit for s in lines):
+            return face, lines
+        words.pop()
+    return face, ["TITULAR EN REVISIÓN"]
 
 
 def _pitch(draw: ImageDraw.ImageDraw, accent: tuple[int, int, int], offset: int):
