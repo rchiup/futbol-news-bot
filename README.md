@@ -1,12 +1,12 @@
 # Chao Felicevich — futbolero, automatizado 24/7
 
 Python-first system for collecting fresh football headlines and preparing
-original Spanish Instagram posts. Designed for 20–30 high-quality posts per day
+original Spanish Instagram posts. Configured to target up to 60 high-quality posts per day
 when there is enough real news, **not** made-up content to hit a quota.
 
 ## Estado actual: AUTOPUBLICACIÓN ACTIVADA
 
-Cuenta verificada: **@chaofelicevich**. Groq redacta, `graphics.py` crea artes propios y Meta publica por su API oficial. Se ejecuta cada **15 minutos** mediante GitHub Actions; no requiere PC encendido. Máximo **30 publicaciones diarias**. Entre **07:00 y 11:59 hora de Chile**, hasta **3 por ejecución** y **10 en la mañana**, sujetos a los filtros editoriales. Si no hay noticias fiables, no inventa.
+Cuenta verificada: **@chaofelicevich**. Groq redacta, `graphics.py` crea artes propios y Meta publica por su API oficial. Se ejecuta cada **30 minutos** mediante GitHub Actions, sin requerir PC encendido. Meta: **60 publicaciones diarias como objetivo**, distribuidas en 48 turnos y 12 publicaciones adicionales durante el día. Solo publica noticias reales y frescas, y respeta la cuota vigente de la cuenta de Instagram. Si no hay noticias fiables, no inventa.
 
 - Run history: **Actions → Football News Engine**
 - Image previews: latest workflow run → **Artifacts → football-news-previews**
@@ -26,7 +26,7 @@ short captions grounded ONLY in the RSS title and summary.
 3. **publisher.py** (opt-in) uploads images to Cloudinary with a signed request,
    creates an Instagram container via Meta Graph API, waits for its status, then
    publishes it. Supports Instagram Login and Facebook Login.
-4. **GitHub Actions** runs automatically at minutes 7, 22, 37 and 52 of every hour,
+4. **GitHub Actions** runs automatically at minutes 7 and 37 of every hour,
    performs safety tests, uploads JPG previews, and commits the queue.
    A separate CI workflow tests code changes without calling paid APIs.
 
@@ -99,12 +99,12 @@ verification, duplicate detection and auditability. Headlines and summaries must
 be original paraphrases; this does not grant permission to copy publishers'
 photographs or protected text.
 
-**Volume:** 30 posts/day by default, one per 15-minute scheduled job outside morning;
-up to 3 per run 07:00–11:59 America/Santiago (maximum 10 morning posts), and a
-rolling 24-hour safety cap of min(POSTS_PER_DAY, 40). Meta's Content Publishing
-documentation refers to a 100-post rolling limit but some pages still mention
-50; use the account-specific endpoint to check before attempting higher volumes.
-This bot deliberately stays below either published limit.
+**Volume:** target 60 posts/day, one every 30 minutes, plus 12 extra posts at
+09:07–20:07 America/Santiago. This is a target rather than a guarantee: no
+fabricated or recycled news to fill slots. Before each run, the bot queries the
+account-specific Instagram publishing quota. If unavailable, a conservative
+40-post rolling-24h fallback applies. No photo is required: original illustrated
+cards are generated when a licensed real portrait is unavailable.
 
 ## Set up secrets
 
@@ -129,14 +129,14 @@ Repository **variables** (not secrets):
 | BRAND_NAME | CHAO FELICEVICH | Brand rendered on the cards |
 | GROQ_MODEL | openai/gpt-oss-120b | Default Groq-hosted open-weight model |
 | OPENAI_MODEL | gpt-4.1-mini | Optional OpenAI fallback model |
-| MAX_DRAFTS_PER_DAY | 30 | Max new selected headlines and AI drafts/day |
+| MAX_DRAFTS_PER_DAY | 75 | Max new selected headlines and AI drafts/day |
 | MAX_DRAFTS_PER_RUN | 5 | Max new candidates and Groq/OpenAI calls per execution |
-| MORNING_POSTS_PER_RUN | 3 | Max posts in one morning execution |
-| MORNING_MAX_POSTS | 10 | Max posts in local morning window |
+| MORNING_POSTS_PER_RUN | (legacy) | No longer used by the half-hour scheduler |
+| MORNING_MAX_POSTS | (legacy) | No longer used by the half-hour scheduler |
 | POST_SPACING_SECONDS | 12 | Spacing between multiple posts in one run |
 | ENABLE_AI_ART | false | Opt-in paid synthetic illustrations (off by default) |
 | AI_ART_MAX_DAILY | 6 | Safety cap when paid image generation enabled |
-| MAX_POSTS_PER_DAY | 30 | Hard local cap on Meta publication |
+| MAX_POSTS_PER_DAY | 60 | Hard local cap on Meta publication |
 | ENABLE_PUBLISH | true | Publishing gate, configure variable false to pause |
 | AUTO_APPROVE | true | Second gate, configure false to pause |
 | META_GRAPH_VERSION | v27.0 | Meta Graph API version (pinned in workflow) |
