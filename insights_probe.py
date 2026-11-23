@@ -72,7 +72,8 @@ def probe(session=requests):
         "checked_at_utc": datetime.now(timezone.utc).isoformat(),
         "auth_mode": mode, "api_version": version,
         "read_only": True, "account": {}, "account_insights": {},
-        "media_insights": {}, "conclusion": "unverified",
+        "media_insights": {}, "basic_media_counters": {},
+        "conclusion": "unverified",
     }
     if not token or not ig:
         report["conclusion"] = "missing_secrets"
@@ -127,6 +128,19 @@ def probe(session=requests):
                 response = safe_get(session, root, f"{item['id']}/insights",
                                     token, {"metric": metric})
                 report["media_insights"][metric] = extract_metric(response, metric)
+            # Basic media fields can sometimes be read even without the
+            # instagram_manage_insights permission; probe independently.
+            for fieldset in ("like_count,comments_count", "saved_count,shares_count,reposts_count"):
+                response = safe_get(session, root, item["id"], token, {"fields": fieldset})
+                if response.get("ok"):
+                    report["basic_media_counters"].update({
+                        k: v for k, v in response["data"].items()
+                        if k != "id" and isinstance(v, (int, float))
+                    })
+                else:
+                    report["basic_media_counters"][fieldset] = {
+                        k: v for k, v in response.items() if k != "data"
+                    }
     accepted = [
         name for name, obj in {**report["account_insights"], **report["media_insights"]}.items()
         if obj.get("ok")
@@ -146,6 +160,10 @@ def main():
           for k, v in result["account_insights"].items()})
     print("Media metric status:", {k: v.get("status", "denied")
           for k, v in result["media_insights"].items()})
+    print("Basic media fields:", {
+        k: "available" if isinstance(v, (int, float)) else "denied"
+        for k, v in result["basic_media_counters"].items()
+    })
 
 
 if __name__ == "__main__":
