@@ -1,1 +1,3 @@
 Check real rights-safe player portraits; no Instagram publishing.
+
+Probe Openverse as alternative after Wikidata 429 rate limits.
