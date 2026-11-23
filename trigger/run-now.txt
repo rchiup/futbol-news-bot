@@ -46,3 +46,5 @@ Publish carefully verified Lamine Yamal/Sabah injury absence with licensed portr
 2026-11-23: Test Google Images player portrait discovery and production posting after Google image pipeline PR4.
 
 2026-11-23: Verify Cloudflare Workers AI credentials and free image generation after PR #7.
+
+2026-11-23: Force standalone Cloudflare image generation smoke test after adding diagnostic action.
