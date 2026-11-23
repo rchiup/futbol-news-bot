@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-23T14:24:24.801214+00:00",
+  "checked_at_utc": "2026-11-23T14:26:20.053303+00:00",
   "auth_mode": "facebook",
   "api_version": "v27.0",
   "read_only": true,
@@ -99,6 +99,12 @@
       "meta_subcode": null,
       "error_type": "OAuthException"
     }
+  },
+  "basic_media_counters": {
+    "comments_count": 0,
+    "like_count": 0,
+    "reposts_count": 0,
+    "shares_count": 0
   },
   "conclusion": "insights_permission_or_metric_unavailable",
   "sample_media": {
