@@ -419,7 +419,7 @@
     "category": "ACTUALIDAD",
     "score": 28,
     "queued_at": "2026-11-23T12:22:01.412383+00:00",
-    "status": "publish_error",
+    "status": "needs_review",
     "visual_subject": "Diego Flores",
     "headline": "Diego Flores se muestra tajante antes de enfrentar a River",
     "caption": "El técnico del Instituto, Diego Flores, fue concreto al declarar su postura antes del partido contra River. El club se prepara para los cuartos de final del Clausura, donde buscará sorprender al rival. ¿Creen que su actitud será clave para lograr la victoria? ⚽",
@@ -443,7 +443,8 @@
     "photo_used": true,
     "reference_photo_used": true,
     "photo_checked_at": "2026-11-23T13:39:22.674653+00:00",
-    "error": "Target Instagram account ID is not assigned to this token"
+    "moderation_reason": "Old preflight authorization rejection before upload. Auto-retry withheld; requires recheck of headline freshness and accuracy.",
+    "auth_error_resolved": true
   },
   {
     "id": "32be351e0f2124f09920",
@@ -604,7 +605,7 @@
     "category": "PARTIDOS",
     "score": 31,
     "queued_at": "2026-11-23T13:36:16.939128+00:00",
-    "status": "publish_error",
+    "status": "needs_review",
     "visual_subject": "",
     "headline": "Boca Juniors gana la Copa Sudamericana y arriesga su plantilla",
     "caption": "Boca Juniors ganó la Copa Sudamericana, rompiendo una sequía de 20 años sin títulos continentales. El triunfo podría desencadenar la salida de jóvenes promesas que ya son objeto de interés europeo, lo que preocupa a la dirigencia. ¿Creen que el club podrá retener a sus estrellas? ⚽️",
@@ -627,7 +628,8 @@
       "reference_only": true,
       "subject": ""
     },
-    "error": "Target Instagram account ID is not assigned to this token"
+    "moderation_reason": "Old preflight authorization rejection before upload. Auto-retry withheld; requires recheck of headline freshness and accuracy.",
+    "auth_error_resolved": true
   },
   {
     "id": "87d3d6b3eeac6c754253",
@@ -674,7 +676,7 @@
     "category": "FICHAJES",
     "score": 31,
     "queued_at": "2026-11-23T13:36:16.939128+00:00",
-    "status": "publish_error",
+    "status": "needs_review",
     "visual_subject": "Virgil van Dijk",
     "headline": "Milan vigila a Virgil van Dijk del Liverpool",
     "caption": "AC Milan está siguiendo la situación de Virgil van Dijk, defensa del Liverpool. Si el club italiano avanza, sería un refuerzo clave para su línea defensiva. ¿Qué opinan los hinchas de este posible fichaje? ⚽",
@@ -698,7 +700,8 @@
       "subject": ""
     },
     "photo_checked_at": "2026-11-23T13:39:21.815605+00:00",
-    "error": "Target Instagram account ID is not assigned to this token"
+    "moderation_reason": "Old preflight authorization rejection before upload. Auto-retry withheld; requires recheck of headline freshness and accuracy.",
+    "auth_error_resolved": true
   },
   {
     "id": "4f361a8da4492390c374",
@@ -818,7 +821,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-23T15:16:16.529861+00:00",
-    "status": "publish_error",
+    "status": "needs_review",
     "visual_subject": "",
     "headline": "River vence a Lanús y deja dos jugadores lesionados",
     "caption": "River superó a Lanús en el Monumental y salió con dos jugadores con molestias. No se harán estudios y el entrenador Ponzio los seguirá a diario, lo que podría limitar opciones para los cuartos de final. ¿Podrá el equipo mantener su nivel sin esos titulares? ⚽",
@@ -841,7 +844,8 @@
       "reference_only": true,
       "subject": ""
     },
-    "error": "Target Instagram account ID is not assigned to this token"
+    "moderation_reason": "Old preflight authorization rejection before upload. Auto-retry withheld; requires recheck of headline freshness and accuracy.",
+    "auth_error_resolved": true
   },
   {
     "id": "75c16f7aefcd3fc5769f",
@@ -854,7 +858,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-23T15:16:16.529861+00:00",
-    "status": "publish_error",
+    "status": "needs_review",
     "visual_subject": "",
     "headline": "Racing celebra 2 años de su Copa Sudamericana 2024",
     "caption": "Este lunes se cumplen dos años de la Copa Sudamericana 2024 que ganó Racing. Los escasos jugadores que aún siguen activos son los únicos testigos de una generación que dejó huella en Paraguay. Su legado sigue inspirando a la cantera. ¿Quién será el próximo en perpetuar esa gloria? 🏆",
@@ -877,7 +881,8 @@
       "reference_only": true,
       "subject": ""
     },
-    "error": "Target Instagram account ID is not assigned to this token"
+    "moderation_reason": "Old preflight authorization rejection before upload. Auto-retry withheld; requires recheck of headline freshness and accuracy.",
+    "auth_error_resolved": true
   },
   {
     "id": "887327ddc1d9d2950ab4",
@@ -890,7 +895,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-23T15:16:16.529861+00:00",
-    "status": "publish_error",
+    "status": "needs_review",
     "visual_subject": "Nico Paz",
     "headline": "Mourinho descarta rumores sobre Nico Paz y su regreso al Real",
     "caption": "Mourinho descartó los rumores sobre el futuro de Nico Paz y una posible vuelta al Real Madrid, diciendo que no es su jugador. El técnico dejó claro que no intervendrá en la situación del joven del Como, lo que complica cualquier negociación y mantiene la incertidumbre sobre su destino. 🤔 ¿Crees que el Real Madrid seguirá interesado en fichar al delantero?",
@@ -913,7 +918,8 @@
       "reference_only": true,
       "subject": ""
     },
-    "error": "Target Instagram account ID is not assigned to this token"
+    "moderation_reason": "Old preflight authorization rejection before upload. Auto-retry withheld; requires recheck of headline freshness and accuracy.",
+    "auth_error_resolved": true
   },
   {
     "id": "a9a52d350460956766bd",
