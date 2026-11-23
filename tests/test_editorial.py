@@ -87,6 +87,12 @@ class EditorialTests(unittest.TestCase):
                 self.assertEqual(len(editorial.load_queue()), 1)
 
 
+    def test_untranslated_english_headline_is_rejected(self):
+        self.assertTrue(editorial.headline_needs_translation(
+            "Chelsea forward victim of robbery after defeat"))
+        self.assertFalse(editorial.headline_needs_translation(
+            "Chelsea: delantero sufre un robo tras derrota"))
+
     def test_groq_primary_uses_groq_endpoint_and_model(self):
         item = {"title": "Arsenal win important Champions League match",
                 "description": "Arsenal secured a victory.",
