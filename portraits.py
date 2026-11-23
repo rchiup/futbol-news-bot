@@ -161,13 +161,15 @@ def photo_attribution(info: dict | None) -> str:
     license_name = str(info.get("license", "")).strip().upper()
     page = str(info.get("file_page", "")).strip()
     license_url = str(info.get("license_url", "")).strip()
-    if not author or not page.startswith("https://commons.wikimedia.org/wiki/File:"):
+    if not author or not (page.startswith("https://commons.wikimedia.org/wiki/File:") or
+                          page.startswith("https://www.flickr.com/photos/")):
         raise ValueError("Licensed photo is missing attribution details")
     if not license_url.startswith("https://creativecommons.org/licenses/by"):
         raise ValueError("Licensed photo is missing Creative Commons license URL")
     extra = (" · Gráfica adaptada bajo la misma licencia CC BY-SA."
              if info.get("share_alike") else "")
-    return f"📷 Foto: {author} · {license_name} · Wikimedia Commons (recorte y edición). {page} · {license_url}{extra}"
+    provider = "Wikimedia Commons" if "wikimedia.org" in page else "Flickr (Openverse)"
+    return f"📷 Foto: {author} · {license_name} · {provider} (recorte y edición). {page} · {license_url}{extra}"
 
 
 def download_portrait(info: dict, destination: Path, session=requests) -> Path:
