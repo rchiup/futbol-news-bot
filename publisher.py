@@ -91,22 +91,19 @@ def verify_instagram_account(session=requests) -> dict:
     """Read-only guard: never post into a different professional Instagram account."""
     ig_id, token, mode, root = instagram_api_settings()
     headers = {"Authorization": f"Bearer {token}"}
-    if mode == "facebook":
-        response = session.get(
-            f"{root}/me/assigned_instagram_accounts",
-            params={"fields": "id,username", "limit": 100},
-            headers=headers, timeout=30,
-        )
-        response.raise_for_status()
-        accounts = response.json().get("data", [])
-    else:
-        response = session.get(
-            f"{root}/{ig_id}",
-            params={"fields": "id,username"},
-            headers=headers, timeout=30,
-        )
-        response.raise_for_status()
-        accounts = [response.json()]
+    # A Facebook User Token with valid Instagram Graph permissions can access
+    # the linked Instagram account directly, even when
+    # /me/assigned_instagram_accounts returns []. This was blocking all posts
+    # after the owner rotated the token to add insights permissions.
+    # Verify the *exact* account ID and username through the same token used
+    # for publishing; NEVER fall back to a different account.
+    response = session.get(
+        f"{root}/{ig_id}",
+        params={"fields": "id,username"},
+        headers=headers, timeout=30,
+    )
+    response.raise_for_status()
+    accounts = [response.json()]
     matched = next((item for item in accounts if str(item.get("id")) == ig_id), None)
     if not matched:
         raise RuntimeError("Target Instagram account ID is not assigned to this token")
