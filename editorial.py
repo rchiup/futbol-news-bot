@@ -528,7 +528,13 @@ def run(reference: datetime | None = None, session=None) -> dict:
     in_posting_window = True  # Football news can break at any hour.
     if publish_requested and not missing and in_posting_window:
         from publisher import publish_image
-        for item in sorted(queue, key=lambda x: (x.get("score", 0), x.get("published_at", "")), reverse=True):
+        # Publish grounded stories with a verified *person* photograph first.
+        # Others still get an explicitly referential football-pitch photo.
+        for item in sorted(queue, key=lambda x: (
+            bool(pick_curated(x.get("visual_subject", ""), x.get("title", ""),
+                              x.get("description", ""))),
+            x.get("score", 0), x.get("published_at", "")
+        ), reverse=True):
             if (published_count >= posts_per_run
                     or today_count(queue, "posted_at", reference) >= POSTS_PER_DAY
                     or (7 <= local_hour <= 11
