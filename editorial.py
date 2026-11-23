@@ -28,6 +28,7 @@ from portraits import (name_in_story, find_portrait, download_portrait,
                        photo_attribution, photo_attribution_compact)
 from openverse_photos import find_openverse_photo, download_openverse_photo
 from curated_portraits import pick_curated
+from news_novelty import duplicate_reason, novelty_priority, same_story
 
 ROOT = Path(__file__).resolve().parent
 QUEUE = ROOT / "data" / "queue.json"
@@ -201,6 +202,9 @@ def is_duplicate(candidate: dict, queue: list[dict]) -> bool:
     for item in queue[-800:]:
         if candidate["source_url"] == item.get("source_url"):
             return True
+        if item.get("status") in {"published", "draft", "awaiting_ai"}:
+            if same_story(candidate, item):
+                return True
         other = normalize_title(item.get("title", ""))
         if len(normalized) >= 22 and len(other) >= 22:
             if SequenceMatcher(None, normalized, other).ratio() >= 0.90:
@@ -457,7 +461,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
     # Keep the generated-draft count bounded; no runaway OpenAI bills.
     capacity = max(0, min(DRAFTS_PER_RUN, DRAFTS_PER_DAY - today_count(queue, "queued_at", reference)))
     added = 0
-    for item in fresh:
+    for item in sorted(fresh, key=lambda x: novelty_priority(x, reference), reverse=True):
         if added >= capacity:
             break
         if item["score"] < 15 or is_duplicate(item, queue):
@@ -470,8 +474,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
 
     budget = max(0, min(DRAFTS_PER_RUN, DRAFTS_PER_DAY - today_count(queue, "ai_generated_at", reference)))
     generated = 0
-    for item in sorted(queue, key=lambda row: (row.get("score", 0),
-                                                 row.get("published_at", "")), reverse=True):
+    for item in sorted(queue, key=lambda row: novelty_priority(row, reference), reverse=True):
         if generated >= budget or not (os.getenv("GROQ_API_KEY") or os.getenv("OPENAI_API_KEY")):
             break
         published = parse_iso(item.get("published_at", ""))
@@ -528,17 +531,21 @@ def run(reference: datetime | None = None, session=None) -> dict:
         from publisher import publish_image, available_instagram_slots
         remaining_meta_slots = available_instagram_slots(fallback_slots=max(0, 40 - rolling_post_count(queue, reference)))
         allowed_this_run = min(posts_per_run, remaining_meta_slots)
-        # Prefer news with confirmed footballer photos. Never publish generic sports photos.
-        for item in sorted(queue, key=lambda x: (
-            bool(pick_curated(x.get("visual_subject", ""), x.get("title", ""),
-                              x.get("description", ""))) if x.get("sport", "FUTBOL") == "FUTBOL" else False,
-            x.get("score", 0), x.get("published_at", "")
-        ), reverse=True):
+        # Novelty and recency outrank a saved portrait; never publish the
+        # same protagonist again just because their news came via another feed.
+        already_posted = [x for x in queue if x.get("status") == "published"]
+        for item in sorted(queue, key=lambda x: novelty_priority(x, reference), reverse=True):
             if (published_count >= allowed_this_run
                     or today_count(queue, "posted_at", reference) >= POSTS_PER_DAY
                     or rolling_post_count(queue, reference) >= POSTS_PER_DAY):
                 break
             if item.get("status") != "draft":
+                continue
+            repeated = duplicate_reason(item, already_posted, reference)
+            if repeated:
+                item["status"] = "duplicate"
+                item["duplicate_of"] = repeated
+                print(f"[NOVELTY] Repeated story held: {item['id']}")
                 continue
             if any(term in item.get("title", "").lower() for term in BLOCKED_TOPICS + BLOCKED_FORMATS):
                 item["status"] = "needs_review"
@@ -596,6 +603,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 item["status"] = "published"
                 item["posted_at"] = iso(reference)
                 item["instagram_media_id"] = media_id
+                already_posted.append(item)
                 published_count += 1
                 # Avoid a burst of near-simultaneous API publications.
                 if published_count < allowed_this_run and POST_SPACING_SECONDS:
