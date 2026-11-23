@@ -21,3 +21,5 @@ Test Openverse public photos from Flickr and restrictive license checks.
 Verify curated image bank and no API calls for previews.
 
 Run verified original JPG downloads through established diagnostic workflow.
+
+Re-run with retry-safe reports for the verified player photo bank.
