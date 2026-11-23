@@ -48,7 +48,7 @@ def build_prompt(item: dict) -> str:
     )
     return (
         f"Premium South American sports news magazine digital illustration of {person}. "
-        f"Sports category: {sport}. Clearly stylized painting, NOT documentary photography. "
+        f"Sports category: {sport}. Clearly stylized painting, NOT a photograph, NOT documentary photography. "
         "High-end sports editorial art direction, rich navy shadows, cinematic light, "
         "dynamic color gradients, bold expressive brush strokes, tasteful neon accents. "
         "4:5 vertical portrait layout, open negative space in lower half for separately overlaid headline. "
