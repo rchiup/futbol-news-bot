@@ -1,0 +1,30 @@
+{
+  "checked_at_utc": "2026-11-23T12:38:40.151375+00:00",
+  "results": [
+    {
+      "name": "Gianni Infantino",
+      "found": false,
+      "license": null,
+      "filename": null,
+      "credit_required": false
+    },
+    {
+      "name": "Lionel Messi",
+      "found": false,
+      "error": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "found": false,
+      "error": "HTTPError",
+      "http_status": 429
+    },
+    {
+      "name": "Chloe Mustaki",
+      "found": false,
+      "error": "HTTPError",
+      "http_status": 429
+    }
+  ]
+}
