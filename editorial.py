@@ -268,6 +268,8 @@ def draft_with_ai(item: dict, session=None) -> tuple[str, str] | None:
         "Si la fuente dice 'reportedly', 'could', 'rumour' o 'according to', conserva esa cautela. "
         "OBLIGATORIO: headline y caption 100% en español, conservando nombres propios. "
         "headline: 5 a 11 palabras, máximo 75 caracteres. Explica QUÉ PASÓ y A QUIÉN. "
+        "Escribe español gramatical, sin titulares telegráficos o verbos mal conjugados: "
+        "di 'Pochettino debuta', NUNCA 'Pochettino debut'. Evita exageraciones y lugares comunes. "
         "Si hay resultado confirmado incluye marcador; si hay lesión, indica quién y qué pasó; "
         "si es rumor, especifica podría, negocia o según reportes. Sin clickbait. "
         "caption: máximo 360 caracteres: primero el hecho comprobado, después un análisis breve basado en ese hecho. "
