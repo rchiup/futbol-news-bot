@@ -1,112 +1,80 @@
 {
-  "checked_at_utc": "2026-11-23T14:26:20.053303+00:00",
+  "checked_at_utc": "2026-11-23T15:06:14.201453+00:00",
   "auth_mode": "facebook",
   "api_version": "v27.0",
   "read_only": true,
   "account": {
     "username": "chaofelicevich",
-    "followers_count": 34,
+    "followers_count": 33,
     "media_count": 16
   },
   "account_insights": {
     "reach": {
-      "ok": false,
-      "status": "denied",
-      "http": 400,
-      "meta_code": 10,
-      "meta_subcode": null,
-      "error_type": "OAuthException"
+      "ok": true,
+      "status": "available",
+      "value": 9
     },
     "views": {
-      "ok": false,
-      "status": "denied",
-      "http": 400,
-      "meta_code": 10,
-      "meta_subcode": null,
-      "error_type": "OAuthException"
+      "ok": true,
+      "status": "available",
+      "value": 95
     },
     "total_interactions": {
-      "ok": false,
-      "status": "denied",
-      "http": 400,
-      "meta_code": 10,
-      "meta_subcode": null,
-      "error_type": "OAuthException"
+      "ok": true,
+      "status": "available",
+      "value": 3
     },
     "follower_count": {
-      "ok": false,
-      "status": "denied",
-      "http": 400,
-      "meta_code": 10,
-      "meta_subcode": null,
-      "error_type": "OAuthException"
+      "ok": true,
+      "status": "empty",
+      "value": null
     }
   },
   "media_insights": {
     "views": {
-      "ok": false,
-      "status": "denied",
-      "http": 400,
-      "meta_code": 10,
-      "meta_subcode": null,
-      "error_type": "OAuthException"
+      "ok": true,
+      "status": "available",
+      "value": 5
     },
     "reach": {
-      "ok": false,
-      "status": "denied",
-      "http": 400,
-      "meta_code": 10,
-      "meta_subcode": null,
-      "error_type": "OAuthException"
+      "ok": true,
+      "status": "available",
+      "value": 2
     },
     "shares": {
-      "ok": false,
-      "status": "denied",
-      "http": 400,
-      "meta_code": 10,
-      "meta_subcode": null,
-      "error_type": "OAuthException"
+      "ok": true,
+      "status": "available",
+      "value": 0
     },
     "saved": {
-      "ok": false,
-      "status": "denied",
-      "http": 400,
-      "meta_code": 10,
-      "meta_subcode": null,
-      "error_type": "OAuthException"
+      "ok": true,
+      "status": "available",
+      "value": 0
     },
     "likes": {
-      "ok": false,
-      "status": "denied",
-      "http": 400,
-      "meta_code": 10,
-      "meta_subcode": null,
-      "error_type": "OAuthException"
+      "ok": true,
+      "status": "available",
+      "value": 0
     },
     "comments": {
-      "ok": false,
-      "status": "denied",
-      "http": 400,
-      "meta_code": 10,
-      "meta_subcode": null,
-      "error_type": "OAuthException"
+      "ok": true,
+      "status": "available",
+      "value": 0
     },
     "follows": {
-      "ok": false,
-      "status": "denied",
-      "http": 400,
-      "meta_code": 10,
-      "meta_subcode": null,
-      "error_type": "OAuthException"
+      "ok": true,
+      "status": "available",
+      "value": 0
     }
   },
   "basic_media_counters": {
     "comments_count": 0,
     "like_count": 0,
     "reposts_count": 0,
+    "saved_count": 0,
     "shares_count": 0
   },
-  "conclusion": "insights_permission_or_metric_unavailable",
+  "conclusion": "insights_accessible",
   "sample_media": {
     "media_type": "IMAGE",
     "media_product_type": "FEED",
