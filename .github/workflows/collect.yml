@@ -74,6 +74,7 @@ jobs:
           if [ -f data/llm_free_usage.json ]; then git add data/llm_free_usage.json; fi
           if ! git diff --cached --quiet; then
             git commit -m "Refresh football headlines and editorial queue"
+            git stash push -u --keep-index -m "Temporary editorial outputs" || true
             for attempt in 1 2 3 4; do
               git pull --rebase origin "${GITHUB_REF_NAME:-main}" &&
               git push && break

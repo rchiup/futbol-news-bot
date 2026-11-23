@@ -29,6 +29,7 @@ jobs:
           git add data/health_v2.json
           if ! git diff --cached --quiet; then
             git commit -m "Record football V2 test health"
+            git stash push -u --keep-index -m "Temporary diagnostic outputs" || true
             for attempt in 1 2 3 4; do
               git pull --rebase origin "${GITHUB_REF_NAME:-main}" &&
               git push && break
