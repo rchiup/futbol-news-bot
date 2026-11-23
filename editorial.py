@@ -25,6 +25,7 @@ from PIL import Image, ImageDraw, ImageFont
 from graphics import render_card
 from ai_art import generate_illustration
 from portraits import name_in_story, find_portrait, download_portrait, photo_attribution
+from openverse_photos import find_openverse_photo, download_openverse_photo
 
 ROOT = Path(__file__).resolve().parent
 QUEUE = ROOT / "data" / "queue.json"
@@ -344,10 +345,20 @@ def make_card(item: dict, allow_ai: bool = False) -> Path:
             except (requests.RequestException, KeyError, ValueError) as exc:
                 print(f"[PHOTO] Lookup skipped: {type(exc).__name__}")
                 item["portrait_info"] = None
+        if not item.get("portrait_info"):
+            try:
+                item["portrait_info"] = find_openverse_photo(subject)
+            except (requests.RequestException, KeyError, ValueError) as exc:
+                print(f"[PHOTO] Openverse lookup skipped: {type(exc).__name__}")
         if item.get("portrait_info"):
             try:
                 dest = ROOT / "output" / "portraits" / (item["id"] + ".jpg")
-                portrait_path = dest if dest.exists() else download_portrait(item["portrait_info"], dest)
+                if dest.exists():
+                    portrait_path = dest
+                elif item["portrait_info"].get("photo_provider") == "Openverse":
+                    portrait_path = download_openverse_photo(item["portrait_info"], dest)
+                else:
+                    portrait_path = download_portrait(item["portrait_info"], dest)
             except (requests.RequestException, OSError, ValueError) as exc:
                 print(f"[PHOTO] Download skipped: {type(exc).__name__}")
     ai_used = False
