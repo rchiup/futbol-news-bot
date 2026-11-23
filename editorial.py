@@ -23,7 +23,7 @@ import feedparser
 import requests
 from PIL import Image, ImageDraw, ImageFont
 from graphics import render_card
-from ai_art import generate_illustration, ai_image_provider_configured
+from ai_art import generate_illustration, ai_image_provider_configured, resolve_athlete
 from portraits import (name_in_story, find_portrait, download_portrait,
                        photo_attribution, photo_attribution_compact)
 from openverse_photos import find_openverse_photo, download_openverse_photo
@@ -422,6 +422,12 @@ def make_card(item: dict, allow_ai: bool = False, lookup: bool = False,
     if (not photo_path and allow_ai
             and os.getenv("ENABLE_AI_ART", "").lower() == "true"):
         try:
+            resolved_name, resolved_sport = resolve_athlete(item)
+            if resolved_name:
+                item["visual_subject"] = resolved_name
+                item["sport"] = resolved_sport
+                if resolved_sport in {"TENIS", "GOLF", "F1", "NBA"}:
+                    item["category"] = resolved_sport
             photo_path = generate_illustration(
                 item, ROOT / "output" / "ai" / (item["id"] + ".jpg")
             )
@@ -643,7 +649,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 caption = clean_public_caption(item["caption"])
                 if item.get("ai_art_used"):
                     # Never pass synthetic images off as documentary photographs.
-                    caption += "\n\nImagen generada con IA (ilustración editorial)."
+                    caption += "\n\nImagen generada con IA (recreación editorial; no es una fotografía real)."
                 if item.get("photo_used"):
                     item["photo_credit_full"] = photo_attribution(item.get("portrait_info"))
                     credit = photo_attribution_compact(item.get("portrait_info"))
