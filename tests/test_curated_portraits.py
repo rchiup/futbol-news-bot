@@ -58,24 +58,40 @@ class CuratedPortraitTests(unittest.TestCase):
         self.assertIn("Football_pitch.jpg", photo["image_url"])
         self.assertIn("LensEye Media", photo_attribution(photo))
 
-    def test_photo_first_publish_makes_photo_and_labels_generic(self):
+    def test_no_relevant_subject_never_uses_random_pitch(self):
         with tempfile.TemporaryDirectory() as folder:
-            item = {"id": "generic-photo", "title": "Instituto recibe a River",
-                    "headline": "Instituto se enfrenta a River", "category": "PARTIDOS"}
-            from PIL import Image
-            fake = Path(folder) / "mock-photo.jpg"
-            Image.new("RGB", (800, 800), "#456633").save(fake)
+            item = {"id": "no-random-stadium",
+                    "title": "FIFA anuncia la sede del Mundial Femenino 2035",
+                    "headline": "Mundial Femenino 2035 será en Reino Unido",
+                    "category": "SELECCIONES", "sport": "FUTBOL"}
             with patch.object(editorial, "PREVIEWS", Path(folder)), \
                  patch.object(editorial, "ROOT", Path(folder)), \
-                 patch.object(editorial, "download_portrait", return_value=fake), \
+                 patch.object(editorial, "download_portrait") as downloader, \
                  patch.object(editorial, "find_portrait") as search:
                 out = editorial.make_card(item, lookup=True, network_lookup=False)
-                self.assertTrue(out.exists())
-                self.assertTrue(item["photo_used"])
-                self.assertTrue(item["reference_photo_used"])
+                self.assertTrue(out.exists())  # review-only graphic
+                self.assertFalse(item["photo_used"])
                 self.assertFalse(item["portrait_used"])
-                self.assertEqual(item["portrait_info"]["photographer"], "LensEye Media")
+                self.assertFalse(item["reference_photo_used"])
+                self.assertIsNone(item.get("portrait_info"))
+                downloader.assert_not_called()
                 search.assert_not_called()
+
+    def test_verified_protagonist_photo_takes_priority(self):
+        from PIL import Image
+        with tempfile.TemporaryDirectory() as folder:
+            item = {"id": "verified-subject", "title": "Otamendi habla con los hinchas",
+                    "headline": "Otamendi manda un mensaje a los hinchas",
+                    "category": "ACTUALIDAD", "sport": "FUTBOL"}
+            fake = Path(folder) / "otamendi.jpg"
+            Image.new("RGB", (850, 1050), "#456633").save(fake)
+            with patch.object(editorial, "PREVIEWS", Path(folder)), \
+                 patch.object(editorial, "ROOT", Path(folder)), \
+                 patch.object(editorial, "download_portrait", return_value=fake):
+                out = editorial.make_card(item, lookup=True, network_lookup=False)
+            self.assertTrue(out.exists())
+            self.assertTrue(item["portrait_used"])
+            self.assertEqual(item["portrait_info"]["subject"], "Nicolás Otamendi")
 
     def test_draft_preview_must_not_make_network_photo_requests(self):
         with tempfile.TemporaryDirectory() as folder:
