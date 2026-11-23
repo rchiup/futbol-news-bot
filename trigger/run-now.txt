@@ -8,3 +8,5 @@ Execute one confirmed Instagram publication to @chaofelicevich. Authorized by ac
 V2 broadcast-card and South-American-editor smoke test; approved automation.
 
 Morning burst smoke test with upgraded CC BY portrait resolver and 15-minute schedule.
+
+Trigger morning batch and write telemetry with 15-minute schedule + 8 feeds.
