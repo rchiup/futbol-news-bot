@@ -25,8 +25,8 @@ jobs:
         run: pip install -r requirements.txt
       - name: Run automated tests
         run: python -m unittest discover -s tests -v
-      - name: Archive raw headlines
-        run: python bot.py
+      - name: Archive raw headlines (non-blocking, maximum 90s)
+        run: timeout 90s python bot.py || echo "RSS archive unavailable; editorial engine continues"
       - name: Curate and generate Instagram image previews
         run: python editorial.py
         env:
