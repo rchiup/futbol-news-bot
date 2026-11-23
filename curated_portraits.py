@@ -73,6 +73,16 @@ LIBRARY = {
         "author": "Bryan Berlin / WikiPortraits", "version": "4.0",
         "aliases": ["rayan cherki", "cherki"],
     },
+    "Leandro Paredes": {
+        "filename": "Leandro Paredes Argentina v Spain 19 July 2026-153.jpg",
+        "author": "Bryan Berlin", "version": "4.0",
+        "aliases": ["leandro paredes"],
+    },
+    "Nicolás Otamendi": {
+        "filename": "Nicolas Otamendi Argentina v Spain 19 July 2026-059.jpg",
+        "author": "Bryan Berlin", "version": "4.0",
+        "aliases": ["nicolas otamendi", "otamendi"],
+    },
 }
 
 def _contains_phrase(text: str, phrase: str) -> bool:
@@ -117,3 +127,29 @@ def pick_curated(subject: str, title: str, summary: str = "") -> dict | None:
                 "verified": "2026-11-23",
             }
     return None
+
+
+def _commons_photo(filename: str, author: str, version: str = "4.0") -> dict:
+    """Build a URL for a *reviewed* CC BY-SA Commons photograph."""
+    clean_name = filename.replace(" ", "_")
+    digest = hashlib.md5(clean_name.encode("utf-8")).hexdigest()
+    url = ("https://upload.wikimedia.org/wikipedia/commons/"
+           + digest[0] + "/" + digest[:2] + "/" + quote(clean_name, safe="()"))
+    return {
+        "image_url": url,
+        "license": "CC BY-SA " + version,
+        "license_url": f"https://creativecommons.org/licenses/by-sa/{version}/",
+        "commons_filename": filename, "photographer": author,
+        "credit_required": True, "share_alike": True,
+        "file_page": "https://commons.wikimedia.org/wiki/File:"
+                     + quote(clean_name, safe="()"),
+        "photo_provider": "Curated Commons", "verified": "2026-11-23",
+    }
+
+
+def generic_football_photo() -> dict:
+    """A soccer pitch, clearly labeled as referential, not a match photo."""
+    info = _commons_photo("Football pitch.jpg", "LensEye Media")
+    info["reference_only"] = True
+    info["subject"] = ""
+    return info
