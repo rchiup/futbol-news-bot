@@ -39,10 +39,7 @@
     "category": "PARTIDOS",
     "score": 34,
     "queued_at": "2026-11-23T00:47:43.234772+00:00",
-    "status": "draft",
-    "headline": "Chelsea forward Emmanuel Emegha victim of robbery after defeat to Leeds",
-    "caption": "El delantero del Chelsea, Emmanuel Emegha, fue asaltado tras la derrota ante el Leeds. No se han confirmado más detalles del incidente.\n\nFuente: talkSPORT\nhttps://talksport.com/football/4724970/chelsea-emmanuel-emegha-victim-robbery",
-    "ai_generated_at": "2026-11-23T01:01:09.488812+00:00"
+    "status": "awaiting_ai"
   },
   {
     "id": "b452ec5ccb41b57f50df",
