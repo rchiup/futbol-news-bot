@@ -232,6 +232,31 @@ def clean_public_caption(value: str) -> str:
     return re.sub(r"\n{3,}", "\n\n", value).strip()
 
 
+def is_low_value_tactical_preview(item: dict) -> bool:
+    """Block live tickers and speculative tactical filler, not match results."""
+    title = str(item.get("title") or "").lower()
+    headline = str(item.get("headline") or "").lower()
+    description = str(item.get("description") or "").lower()
+    if re.search(r"(?:\s[-–—:]\s*live\b|\blive\s*(?:blog|updates|commentary)\b|\ben vivo\b|minuto a minuto)", title):
+        return True
+    # Real results and concrete events are not speculative previews.
+    actual_event = re.search(
+        r"\b(?:gan[oó]|venci[oó]|derrot[oó]|gole[oó]|empataron|marc[oó]|anot[oó]|"
+        r"victoria|derrota|resultado|golazo|expulsi[oó]n|tarjeta roja|"
+        r"won|beat|beaten|defeated|thrashed|scored|red card|"
+        r"final score|confirmed|confirm[oó]|lesi[oó]n|fichaje|signed|sacked)\b",
+        title + " " + description,
+    )
+    if actual_event:
+        return False
+    return bool(re.search(
+        r"\b(?:intentar[aá]|buscar[aá]|apuntar[aá]|podr[ií]a|planear[ií]a|"
+        r"tratar[aá] de|por las bandas|atacar por bandas|juego por bandas|"
+        r"will look to|could exploit|expected to attack|tactical preview|tactical analysis)\b",
+        headline,
+    ))
+
+
 def news_missing_critical_details(item: dict) -> bool:
     """Reject listicles and vague opinion pieces that cannot explain who/what.
 
@@ -499,8 +524,8 @@ def run(reference: datetime | None = None, session=None) -> dict:
             continue
         if len(item.get("description", "").strip()) < 30:
             continue  # Headlines without context are too risky to autopublish.
-        if news_missing_critical_details(item):
-            continue  # An unnamed player list or unspecific opinion is not news.
+        if news_missing_critical_details(item) or is_low_value_tactical_preview(item):
+            continue  # Avoid speculative previews and live tickers.
         item.update({"queued_at": iso(reference), "status": "awaiting_ai"})
         queue.append(item)
         added += 1
@@ -515,6 +540,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
             continue
         if (len(item.get("description", "").strip()) < 30 or
                 news_missing_critical_details(item) or
+                is_low_value_tactical_preview(item) or
                 any(term in item.get("title", "").lower() for term in BLOCKED_TOPICS + BLOCKED_FORMATS)):
             item["status"] = "needs_review"
             continue
@@ -591,6 +617,10 @@ def run(reference: datetime | None = None, session=None) -> dict:
             # Auto-feed only grounded, high-quality RSS stories, not empty-summary snippets.
             if len(item.get("description", "").strip()) < 50 or item.get("score", 0) < 25:
                 item["status"] = "needs_review"
+                continue
+            if is_low_value_tactical_preview(item):
+                item["status"] = "needs_review"
+                print("[EDITOR] Low-value tactical speculation/live ticker rejected")
                 continue
             if news_missing_critical_details(item):
                 item["status"] = "needs_review"
