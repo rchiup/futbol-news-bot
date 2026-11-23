@@ -241,7 +241,9 @@ class EditorialTests(unittest.TestCase):
                 return MockAIResponse()
 
         client = MockAI()
-        with patch.dict(os.environ, {"GROQ_API_KEY": "testing-groq-secret",
+        with tempfile.TemporaryDirectory() as temp,              patch.object(editorial, "ROOT", Path(temp)),              patch.dict(os.environ, {"GROQ_API_KEY": "testing-groq-secret",
+                                     "GEMINI_API_KEY": "", "CEREBRAS_API_KEY": "",
+                                     "OPENROUTER_API_KEY": "",
                                      "OPENAI_API_KEY": "testing-openai-secret"}):
             headline, caption = editorial.draft_with_ai(item, session=client)
         self.assertEqual(headline, "Arsenal ganó un partido importante")
@@ -251,31 +253,20 @@ class EditorialTests(unittest.TestCase):
         self.assertEqual(client.called[1]["headers"]["Authorization"],
                          "Bearer testing-groq-secret")
 
-    def test_openai_fallback_when_no_groq_secret(self):
-        item = {"title": "Arsenal win important match", "description": "",
+    def test_paid_openai_secret_is_never_used_as_fallback(self):
+        item = {"title": "Arsenal win important match",
+                "description": "Arsenal secured a victory.",
                 "source": "Example", "published_at": "2026-11-22T18:00:00+00:00"}
+        with tempfile.TemporaryDirectory() as temp, \
+             patch.object(editorial, "ROOT", Path(temp)), \
+             patch.dict(os.environ, {
+                 "GROQ_API_KEY": "", "GEMINI_API_KEY": "",
+                 "CEREBRAS_API_KEY": "", "OPENROUTER_API_KEY": "",
+                 "OPENAI_API_KEY": "a-paid-key-that-must-never-be-called",
+             }):
+            self.assertIsNone(editorial.draft_with_ai(item))
+            self.assertNotIn("llm_provider", item)
 
-        class MockAIResponse:
-            def raise_for_status(self):
-                pass
-
-            def json(self):
-                return {"choices": [{"message": {"content":
-                        '{"headline":"Arsenal ganó un partido importante",'
-                        '"caption":"El Arsenal consiguió una victoria importante."}'}}]}
-
-        class MockAI:
-            def __init__(self):
-                self.url = ""
-
-            def post(self, url, **kwargs):
-                self.url = url
-                return MockAIResponse()
-
-        client = MockAI()
-        with patch.dict(os.environ, {"GROQ_API_KEY": "", "OPENAI_API_KEY": "mock"}):
-            editorial.draft_with_ai(item, session=client)
-        self.assertEqual(client.url, "https://api.openai.com/v1/chat/completions")
 
 if __name__ == "__main__":
     unittest.main()
