@@ -306,7 +306,7 @@
     "category": "ACTUALIDAD",
     "score": 28,
     "queued_at": "2026-11-23T08:58:17.023219+00:00",
-    "status": "draft",
+    "status": "publish_error",
     "visual_subject": "Thierno Barry",
     "headline": "Thierno Barry anota doble y deja a Moyes satisfecho",
     "caption": "Thierno Barry volvió a brillar para el Everton, anotando dos goles en la victoria 2‑0 ante Coventry y recibiendo el elogio de David Moyes. Tras reconocer haber tocado fondo la temporada pasada, su remontada muestra que la constancia devuelve la confianza al delantero. ¿Mantendrá este nivel y seguirá presionando a los máximos goleadores? ⚽",
@@ -315,7 +315,8 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_deferred_reason": "no_relevant_verified_image"
+    "visual_mode": "original_graphic",
+    "error": "401 Client Error: Unauthorized for url: https://graph.facebook.com/v27.0/EAAl4h0aW2MkBTMAxEOqbudPM0hFxBpU5gIG0zCmXYfN2YAExPM0wuVnOZArO47WsJ41YlFaaXHvaZAeZAw9B5cDxzXFf9hMixZBmrNXwZCW1jd2UKLAdzXmkOZC6RS"
   },
   {
     "id": "a0ec0f087a72fa2e4635",
@@ -999,7 +1000,7 @@
     "sport": "FUTBOL",
     "score": 39,
     "queued_at": "2026-11-23T15:20:48.505307+00:00",
-    "status": "draft",
+    "status": "publish_error",
     "visual_subject": "David Raya",
     "headline": "David Raya no necesita cirugía, confirma Arteta",
     "caption": "El portero del Arsenal, David Raya, se recupera de una lesión en el hombro sin requerir operación, según Mikel Arteta. Evitar la cirugía acelera su vuelta al once titular. ¿Podrá retomar su nivel antes de la próxima fecha? ⚽",
@@ -1010,7 +1011,8 @@
     "reference_photo_used": false,
     "portrait_info": null,
     "photo_checked_at": "2026-11-23T17:36:28.258845+00:00",
-    "photo_deferred_reason": "no_relevant_verified_image"
+    "visual_mode": "original_graphic",
+    "error": "401 Client Error: Unauthorized for url: https://graph.facebook.com/v27.0/EAAl4h0aW2MkBTMAxEOqbudPM0hFxBpU5gIG0zCmXYfN2YAExPM0wuVnOZArO47WsJ41YlFaaXHvaZAeZAw9B5cDxzXFf9hMixZBmrNXwZCW1jd2UKLAdzXmkOZC6RS"
   },
   {
     "id": "5692302445d3cddab0fc",
@@ -1023,7 +1025,7 @@
     "sport": "FUTBOL",
     "score": 34,
     "queued_at": "2026-11-23T15:20:48.505307+00:00",
-    "status": "draft",
+    "status": "publish_error",
     "visual_subject": "David Raya",
     "headline": "David Raya (Arsenal) se perderá al Dortmund por hombro",
     "caption": "David Raya, arquero del Arsenal, quedó fuera del choque contra el Borussia Dortmund tras una sospecha de luxación de hombro en el empate 2‑2 ante Newcastle. Un MRI descartó cirugía y la lesión no es grave, por lo que podría estar disponible para el próximo partido contra el Manchester City. Su ausencia pone presión al sistema defensivo del Gunners.",
@@ -1032,9 +1034,10 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_deferred_reason": "no_relevant_verified_image",
     "portrait_info": null,
-    "photo_checked_at": "2026-11-23T17:47:01.516776+00:00"
+    "photo_checked_at": "2026-11-23T17:47:01.516776+00:00",
+    "visual_mode": "original_graphic",
+    "error": "401 Client Error: Unauthorized for url: https://graph.facebook.com/v27.0/EAAl4h0aW2MkBTMAxEOqbudPM0hFxBpU5gIG0zCmXYfN2YAExPM0wuVnOZArO47WsJ41YlFaaXHvaZAeZAw9B5cDxzXFf9hMixZBmrNXwZCW1jd2UKLAdzXmkOZC6RS"
   },
   {
     "id": "e7d59c2c40e6209d0626",
@@ -1128,7 +1131,7 @@
     "sport": "FUTBOL",
     "score": 34,
     "queued_at": "2026-11-23T15:41:26.839770+00:00",
-    "status": "draft",
+    "status": "publish_error",
     "visual_subject": "",
     "headline": "Boca evalúa solicitar cambio de fecha contra Independiente Rivadavia",
     "caption": "Boca Juniors, recién llegado a Argentina tras ganar la Sudamericana, está considerando pedir que se modifique la fecha del partido de playoffs contra Independiente Rivadavia programado para el miércoles. El ajuste buscaría evitar congestión y dar tiempo al equipo para recuperarse. ¿Será viable el cambio? ⚽️",
@@ -1137,7 +1140,8 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_deferred_reason": "no_relevant_verified_image"
+    "visual_mode": "original_graphic",
+    "error": "401 Client Error: Unauthorized for url: https://graph.facebook.com/v27.0/EAAl4h0aW2MkBTMAxEOqbudPM0hFxBpU5gIG0zCmXYfN2YAExPM0wuVnOZArO47WsJ41YlFaaXHvaZAeZAw9B5cDxzXFf9hMixZBmrNXwZCW1jd2UKLAdzXmkOZC6RS"
   },
   {
     "id": "87cf49fc1532bda74bfc",
@@ -1150,7 +1154,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-23T15:41:26.839770+00:00",
-    "status": "draft",
+    "status": "publish_error",
     "visual_subject": "Jagger Herrera",
     "headline": "Jagger Herrera cumple 100 días como clave de Boca campeón",
     "caption": "Jagger Herrera, central de 20 años, cumple 100 días desde su debut en Boca y ya fue pieza clave del título de la Copa Sudamericana. Su rápido ascenso refleja la confianza del técnico y refuerza la defensa, dándole mayor estabilidad al equipo. ¿Seguirá siendo protagonista la próxima temporada? ⚽️",
@@ -1159,7 +1163,8 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_deferred_reason": "no_relevant_verified_image"
+    "visual_mode": "original_graphic",
+    "error": "401 Client Error: Unauthorized for url: https://graph.facebook.com/v27.0/EAAl4h0aW2MkBTMAxEOqbudPM0hFxBpU5gIG0zCmXYfN2YAExPM0wuVnOZArO47WsJ41YlFaaXHvaZAeZAw9B5cDxzXFf9hMixZBmrNXwZCW1jd2UKLAdzXmkOZC6RS"
   },
   {
     "id": "a84cda95bd63bf3f1b06",
@@ -1209,7 +1214,7 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-23T15:41:26.839770+00:00",
-    "status": "draft",
+    "status": "publish_error",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -1218,7 +1223,8 @@
     "headline": "David Raya se pierde el choque contra Dortmund por lesión",
     "caption": "David Raya no jugará el partido de Champions League contra el Borussia Dortmund porque una lesión en el hombro no es grave y no requerirá operación. Su ausencia obliga a Arsenal a confiar en el arquero suplente, lo que complica la defensa en un choque decisivo. ¿Podrá el relevo mantener la seguridad bajo los tres palos? ⚽",
     "ai_generated_at": "2026-11-23T16:44:31.421556+00:00",
-    "photo_deferred_reason": "no_relevant_verified_image"
+    "visual_mode": "original_graphic",
+    "error": "401 Client Error: Unauthorized for url: https://graph.facebook.com/v27.0/EAAl4h0aW2MkBTMAxEOqbudPM0hFxBpU5gIG0zCmXYfN2YAExPM0wuVnOZArO47WsJ41YlFaaXHvaZAeZAw9B5cDxzXFf9hMixZBmrNXwZCW1jd2UKLAdzXmkOZC6RS"
   },
   {
     "id": "6bee6213c8b588c4dfa9",
@@ -1305,7 +1311,7 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-23T16:06:18.967254+00:00",
-    "status": "draft",
+    "status": "publish_error",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -1314,7 +1320,8 @@
     "headline": "Diego Simeone supera récord de victorias en La Liga",
     "caption": "Diego Simeone registró su 345ª victoria en La Liga, rompiendo el récord histórico de triunfos como entrenador. El técnico del Atlético de Madrid se consolida como el más exitoso del campeonato español, reforzando su legado y la estabilidad del club. 🏆⚽ ¿Podrá seguir ampliando su marca en los próximos años?",
     "ai_generated_at": "2026-11-23T16:44:31.421556+00:00",
-    "photo_deferred_reason": "no_relevant_verified_image"
+    "visual_mode": "original_graphic",
+    "error": "401 Client Error: Unauthorized for url: https://graph.facebook.com/v27.0/EAAl4h0aW2MkBTMAxEOqbudPM0hFxBpU5gIG0zCmXYfN2YAExPM0wuVnOZArO47WsJ41YlFaaXHvaZAeZAw9B5cDxzXFf9hMixZBmrNXwZCW1jd2UKLAdzXmkOZC6RS"
   },
   {
     "id": "ebe1329a8d7d544293b4",
@@ -1361,7 +1368,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-23T16:44:31.421556+00:00",
-    "status": "draft",
+    "status": "publish_error",
     "visual_subject": "",
     "headline": "Gimnasia CR gana 83-66 a Boca",
     "caption": "Gimnasia CR se impuso como local ante Boca con 83-66. El amplio margen evidencia la efectividad ofensiva del Mens Sana y pone en tela de juicio la defensa del Xeneize. ¿Podrá Boca reaccionar antes del parate de la Liga Nacional? ⚽",
@@ -1370,7 +1377,8 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_deferred_reason": "no_relevant_verified_image"
+    "visual_mode": "original_graphic",
+    "error": "401 Client Error: Unauthorized for url: https://graph.facebook.com/v27.0/EAAl4h0aW2MkBTMAxEOqbudPM0hFxBpU5gIG0zCmXYfN2YAExPM0wuVnOZArO47WsJ41YlFaaXHvaZAeZAw9B5cDxzXFf9hMixZBmrNXwZCW1jd2UKLAdzXmkOZC6RS"
   },
   {
     "id": "0bd8264f39c21acfd523",
@@ -1383,7 +1391,7 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-23T16:44:31.421556+00:00",
-    "status": "draft",
+    "status": "publish_error",
     "visual_subject": "",
     "headline": "Sinner se opera la rodilla y arriesga Australian Open",
     "caption": "Jannik Sinner, tenista italiano, optó por una cirugía de la rodilla derecha en Finlandia y podría perderse el Australian Open. Su baja elimina al número 2 del ranking del torneo, lo que abre la puerta a otros aspirantes. ¿Quién se beneficiará de su ausencia en Melbourne? 🎾",
@@ -1392,7 +1400,8 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_deferred_reason": "no_relevant_verified_image"
+    "visual_mode": "original_graphic",
+    "error": "401 Client Error: Unauthorized for url: https://graph.facebook.com/v27.0/EAAl4h0aW2MkBTMAxEOqbudPM0hFxBpU5gIG0zCmXYfN2YAExPM0wuVnOZArO47WsJ41YlFaaXHvaZAeZAw9B5cDxzXFf9hMixZBmrNXwZCW1jd2UKLAdzXmkOZC6RS"
   },
   {
     "id": "50882f7898dabb306c92",
@@ -1405,7 +1414,7 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-23T16:44:31.421556+00:00",
-    "status": "draft",
+    "status": "publish_error",
     "visual_subject": "",
     "headline": "Haas F1 retendrá a Rafael Cámara, termina sus opciones en F2",
     "caption": "Haas F1 anunció que Rafael Cámara terminará la temporada con la escudería en Qatar y Abu Dhabi, cerrando sus opciones al título de Fórmula 2. La medida acelera su paso a la máxima categoría, pero le quita la oportunidad de pelear por el campeonato en la F2. ¿Será este salto temprano la mejor ruta para su futuro en la F1? 🏎️",
@@ -1414,7 +1423,8 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_deferred_reason": "no_relevant_verified_image"
+    "visual_mode": "original_graphic",
+    "error": "401 Client Error: Unauthorized for url: https://graph.facebook.com/v27.0/EAAl4h0aW2MkBTMAxEOqbudPM0hFxBpU5gIG0zCmXYfN2YAExPM0wuVnOZArO47WsJ41YlFaaXHvaZAeZAw9B5cDxzXFf9hMixZBmrNXwZCW1jd2UKLAdzXmkOZC6RS"
   },
   {
     "id": "b3faba928192c2085960",
@@ -1427,11 +1437,17 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-23T16:44:31.421556+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Euro 2028: fecha del sorteo de clasificación",
+    "caption": "El equipo Ask Me Anything de BBC Sport explica la fecha del sorteo de clasificación para la Eurocopa 2028, que definirá los grupos de la fase de clasificación.",
+    "ai_generated_at": "2026-11-23T17:55:24.342767+00:00"
   },
   {
     "id": "bba02c7c1148a52cf91b",
@@ -1444,11 +1460,17 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-23T16:44:31.421556+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Marink Reedijk",
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Reedijk descarta jinx en Easter Road tras siete meses sin victoria",
+    "caption": "El entrenador del Hibernian, Marink Reedijk, rechazó la idea de que Easter Road esté maldito, tras una sequía de siete meses sin triunfos como local en la Premiership.",
+    "ai_generated_at": "2026-11-23T17:55:24.342767+00:00"
   },
   {
     "id": "55df217b67ce8781378c",
@@ -1461,7 +1483,7 @@
     "sport": "FUTBOL",
     "score": 34,
     "queued_at": "2026-11-23T17:36:06.165120+00:00",
-    "status": "draft",
+    "status": "publish_error",
     "visual_subject": "Abel Ferreira",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -1472,7 +1494,10 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_deferred_reason": "no_relevant_verified_image"
+    "portrait_info": null,
+    "photo_checked_at": "2026-11-23T17:55:50.860671+00:00",
+    "visual_mode": "original_graphic",
+    "error": "401 Client Error: Unauthorized for url: https://graph.facebook.com/v27.0/EAAl4h0aW2MkBTMAxEOqbudPM0hFxBpU5gIG0zCmXYfN2YAExPM0wuVnOZArO47WsJ41YlFaaXHvaZAeZAw9B5cDxzXFf9hMixZBmrNXwZCW1jd2UKLAdzXmkOZC6RS"
   },
   {
     "id": "76464db97f9d5a1e3609",
@@ -1485,7 +1510,7 @@
     "sport": "FUTBOL",
     "score": 34,
     "queued_at": "2026-11-23T17:36:06.165120+00:00",
-    "status": "draft",
+    "status": "publish_error",
     "visual_subject": "Edwin Cetré",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -1496,7 +1521,8 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_deferred_reason": "no_relevant_verified_image"
+    "visual_mode": "original_graphic",
+    "error": "401 Client Error: Unauthorized for url: https://graph.facebook.com/v27.0/EAAl4h0aW2MkBTMAxEOqbudPM0hFxBpU5gIG0zCmXYfN2YAExPM0wuVnOZArO47WsJ41YlFaaXHvaZAeZAw9B5cDxzXFf9hMixZBmrNXwZCW1jd2UKLAdzXmkOZC6RS"
   },
   {
     "id": "9b4e2f850f1bbaaadc46",
@@ -1509,7 +1535,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-23T17:36:06.165120+00:00",
-    "status": "draft",
+    "status": "publish_error",
     "visual_subject": "Alex Luna",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -1520,7 +1546,8 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_deferred_reason": "no_relevant_verified_image"
+    "visual_mode": "original_graphic",
+    "error": "401 Client Error: Unauthorized for url: https://graph.facebook.com/v27.0/EAAl4h0aW2MkBTMAxEOqbudPM0hFxBpU5gIG0zCmXYfN2YAExPM0wuVnOZArO47WsJ41YlFaaXHvaZAeZAw9B5cDxzXFf9hMixZBmrNXwZCW1jd2UKLAdzXmkOZC6RS"
   },
   {
     "id": "6caf20ad6b1547282005",
@@ -1571,7 +1598,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-23T17:36:06.165120+00:00",
-    "status": "draft",
+    "status": "publish_error",
     "visual_subject": "",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -1582,7 +1609,8 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_deferred_reason": "no_relevant_verified_image"
+    "visual_mode": "original_graphic",
+    "error": "401 Client Error: Unauthorized for url: https://graph.facebook.com/v27.0/EAAl4h0aW2MkBTMAxEOqbudPM0hFxBpU5gIG0zCmXYfN2YAExPM0wuVnOZArO47WsJ41YlFaaXHvaZAeZAw9B5cDxzXFf9hMixZBmrNXwZCW1jd2UKLAdzXmkOZC6RS"
   },
   {
     "id": "b97e589d71b2c716fa83",
@@ -1595,7 +1623,7 @@
     "sport": "FUTBOL",
     "score": 34,
     "queued_at": "2026-11-23T17:46:36.448224+00:00",
-    "status": "draft",
+    "status": "publish_error",
     "visual_subject": "",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -1606,7 +1634,8 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_deferred_reason": "no_relevant_verified_image"
+    "visual_mode": "original_graphic",
+    "error": "401 Client Error: Unauthorized for url: https://graph.facebook.com/v27.0/EAAl4h0aW2MkBTMAxEOqbudPM0hFxBpU5gIG0zCmXYfN2YAExPM0wuVnOZArO47WsJ41YlFaaXHvaZAeZAw9B5cDxzXFf9hMixZBmrNXwZCW1jd2UKLAdzXmkOZC6RS"
   },
   {
     "id": "b76f6ef1a607dca9a1c8",
@@ -1619,7 +1648,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-23T17:46:36.448224+00:00",
-    "status": "draft",
+    "status": "publish_error",
     "visual_subject": "",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -1630,7 +1659,8 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_deferred_reason": "no_relevant_verified_image"
+    "visual_mode": "original_graphic",
+    "error": "401 Client Error: Unauthorized for url: https://graph.facebook.com/v27.0/EAAl4h0aW2MkBTMAxEOqbudPM0hFxBpU5gIG0zCmXYfN2YAExPM0wuVnOZArO47WsJ41YlFaaXHvaZAeZAw9B5cDxzXFf9hMixZBmrNXwZCW1jd2UKLAdzXmkOZC6RS"
   },
   {
     "id": "0b5b3f798d56db13f8d2",
@@ -1643,7 +1673,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-23T17:46:36.448224+00:00",
-    "status": "draft",
+    "status": "publish_error",
     "visual_subject": "",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -1654,7 +1684,8 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_deferred_reason": "no_relevant_verified_image"
+    "visual_mode": "original_graphic",
+    "error": "401 Client Error: Unauthorized for url: https://graph.facebook.com/v27.0/EAAl4h0aW2MkBTMAxEOqbudPM0hFxBpU5gIG0zCmXYfN2YAExPM0wuVnOZArO47WsJ41YlFaaXHvaZAeZAw9B5cDxzXFf9hMixZBmrNXwZCW1jd2UKLAdzXmkOZC6RS"
   },
   {
     "id": "2b16c9354b0ced2f8cb7",
@@ -1667,7 +1698,7 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-23T17:46:36.448224+00:00",
-    "status": "draft",
+    "status": "publish_error",
     "visual_subject": "Colton Herta",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -1678,7 +1709,8 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_deferred_reason": "no_relevant_verified_image"
+    "visual_mode": "original_graphic",
+    "error": "401 Client Error: Unauthorized for url: https://graph.facebook.com/v27.0/EAAl4h0aW2MkBTMAxEOqbudPM0hFxBpU5gIG0zCmXYfN2YAExPM0wuVnOZArO47WsJ41YlFaaXHvaZAeZAw9B5cDxzXFf9hMixZBmrNXwZCW1jd2UKLAdzXmkOZC6RS"
   },
   {
     "id": "3a9c7e8ec323f3e88aeb",
@@ -1698,6 +1730,111 @@
     "headline": "Watford busca su 25.º entrenador bajo la gestión de Gino Pozzo",
     "caption": "Watford está en la búsqueda de su 25.º entrenador mientras Gino Pozzo celebra 14 años al mando. El club se encuentra en un punto crítico, evaluando si su modelo es pionero o si enfrenta problemas de dirección.",
     "ai_generated_at": "2026-11-23T17:46:36.448224+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "5301a1244f3403af7f9a",
+    "title": "Se pudrió: la pelea entre marroquíes y colombianos en el Mundial de Talla Baja",
+    "source_url": "https://www.ole.com.ar/fuera-de-juego/mundial-talla-baja-marruecos-colombia-pelea_0_yZ6xB0J2JW.html",
+    "source": "Olé Argentina",
+    "description": "Incidentes entre los jugadores de ambos seleccionados tras el empate 1-1. Mirá lo que pasó.",
+    "published_at": "2026-11-23T17:37:01+00:00",
+    "category": "SELECCIONES",
+    "sport": "FUTBOL",
+    "score": 34,
+    "queued_at": "2026-11-23T17:55:24.342767+00:00",
+    "status": "publish_error",
+    "visual_subject": "",
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Pelea entre jugadores marroquíes y colombianos tras empate",
+    "caption": "Hubo incidentes entre jugadores de Marruecos y Colombia después del empate 1‑1 en el Mundial de Talla Baja.",
+    "ai_generated_at": "2026-11-23T17:55:24.342767+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "original_graphic",
+    "error": "401 Client Error: Unauthorized for url: https://graph.facebook.com/v27.0/EAAl4h0aW2MkBTMAxEOqbudPM0hFxBpU5gIG0zCmXYfN2YAExPM0wuVnOZArO47WsJ41YlFaaXHvaZAeZAw9B5cDxzXFf9hMixZBmrNXwZCW1jd2UKLAdzXmkOZC6RS"
+  },
+  {
+    "id": "8fbfe2c1aa651a1d20ed",
+    "title": "El mensaje de Culotta a los hinchas de San Lorenzo: \"La gente tiene que ser consciente...\"",
+    "source_url": "https://www.ole.com.ar/san-lorenzo/sanlorenzo-marceloculotta-ciclon-torneoclausura-marcelomoretti_0_0slzVrprvF.html",
+    "source": "Olé Argentina",
+    "description": "En medio de un momento sensible y delicado, el presidente del Ciclón habló sobre la situación en la que se encuentra el club, el escenario económico y lo que se viene.",
+    "published_at": "2026-11-23T16:33:34+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-23T17:55:24.342767+00:00",
+    "status": "needs_review",
+    "visual_subject": "",
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Culotta habla a hinchas de San Lorenzo sobre situación del club",
+    "caption": "Culotta, presidente del Ciclón, dirigió un mensaje a los hinchas de San Lorenzo en un contexto sensible y delicado, abordando la situación económica del club y los próximos desafíos.",
+    "ai_generated_at": "2026-11-23T17:55:24.342767+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "6679297888adea20a45b",
+    "title": "I've wanted to crawl under a rock and hide - Pressley",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/cre3d9j5k4n8o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Steven Pressley says he felt embarrassed by Dundee's 8-0 \"humiliation\" by Hearts and that there is a \"fragility\" in his squad.",
+    "published_at": "2026-11-23T15:31:57+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-23T17:55:24.342767+00:00",
+    "status": "needs_review",
+    "visual_subject": "Steven Pressley",
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Pressley lamenta humillación 8-0 de Dundee y advierte fragilidad",
+    "caption": "Steven Pressley expresó vergüenza por la derrota 8-0 de Dundee ante Hearts y señaló que su escuadra muestra fragilidad, indicando la necesidad de reforzar el equipo y recuperar la confianza.",
+    "ai_generated_at": "2026-11-23T17:55:24.342767+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "0f64f12b40e23b5af3d0",
+    "title": "Nvidia restituyó a Huang entre alzas en la bolsa y elogios de Trump",
+    "source_url": "https://www.cooperativa.cl/noticias/economia/empresas/tecnologia/nvidia-restituyo-a-huang-entre-alzas-en-la-bolsa-y-elogios-de-trump/2026-11-23/121736.html",
+    "source": "Cooperativa Deportes Chile",
+    "description": "El directorio de Nvidia decidió por unanimidad restituir a Jensen Huang como presidente y director ejecutivo , 11 días después de su renuncia. Tras el anuncio de este lunes, las acciones de la compañía subían cerca de un 30% en la apertura de Wall Street y el presidente de Estados Unidos, Donald Trump, celebró el regreso del ejecutivo. Huang había renunciado el 12 de noviembre , después de que se conociera su relación con Alice Huang, empresaria tecnológica a quien los servicios de inteligencia estadounidenses acusan de espiar para China. La Ca",
+    "published_at": "2026-11-23T15:17:36+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-23T17:55:24.342767+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "d3fca2a2791472a34770",
+    "title": "Emery insists no change of plan for Aston Villa despite fears over Galatasaray surface",
+    "source_url": "https://www.theguardian.com/football/2026/nov/23/unai-emery-no-change-of-plan-aston-villa-galatasaray-surface",
+    "source": "The Guardian",
+    "description": "‘Hopefully the pitch will be as best as possible,’ says Villa manager Turkish champions had to move game on Saturday Unai Emery has insisted he will not alter his plans for Aston Villa’s Champions League game at ­Galatasaray on Tuesday night on account of concerns about the state of the pitch. The Turkish champions hastily moved Saturday’s home fixture from Rams Park after starting emergency repairs to the surface this month. The Villa defender Ian Maatsen said he and his teammates were aware the pitch was in a “bad condition”. Villa were infor",
+    "published_at": "2026-11-23T14:56:36+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-23T17:55:24.342767+00:00",
+    "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
