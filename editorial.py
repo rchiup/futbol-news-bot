@@ -515,6 +515,8 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 break
 
     published_count = 0
+    duplicates_suppressed = 0
+    no_photo_deferred = 0
     generated_art_this_run = 0
     network_photo_lookups = 0
     posts_per_run, morning_allowance = morning_burst_settings(reference, queue)
@@ -543,6 +545,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 continue
             repeated = duplicate_reason(item, already_posted, reference)
             if repeated:
+                duplicates_suppressed += 1
                 item["status"] = "duplicate"
                 item["duplicate_of"] = repeated
                 print(f"[NOVELTY] Repeated story held: {item['id']}")
@@ -584,6 +587,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 # Never post a made-up stadium image, empty template or
                 # misleading generic sports photograph as if it were the news.
                 if not item.get("photo_used") and not item.get("ai_art_used"):
+                    no_photo_deferred += 1
                     item["photo_deferred_reason"] = "no_relevant_verified_image"
                     print(f"[PHOTO] Holding story without relevant image: {item['id']}")
                     continue
@@ -616,6 +620,8 @@ def run(reference: datetime | None = None, session=None) -> dict:
     save_queue(queue)
     stats = {"fresh_candidates": len(fresh), "queued_new": added, "ai_generated": generated,
              "preview_images": rendered, "published": published_count,
+             "duplicates_suppressed": duplicates_suppressed,
+             "no_photo_deferred": no_photo_deferred,
              "total_queue": len(queue), "per_run_cap": posts_per_run,
              "morning_day_cap": morning_allowance,
              "auto_publish_enabled": publish_requested and not missing,
@@ -626,7 +632,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
         "checked_at_utc": iso(reference),
         "local_hour": reference.astimezone(PUBLISH_TZ).hour,
         "statuses": {status: sum(1 for row in queue if row.get("status") == status)
-                     for status in ("published", "draft", "awaiting_ai", "needs_review", "publish_error")},
+                     for status in ("published", "draft", "awaiting_ai", "needs_review", "publish_error", "duplicate")},
         **stats,
     }
     (ROOT / "data" / "engine_status.json").write_text(
