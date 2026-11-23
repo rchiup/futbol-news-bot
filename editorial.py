@@ -45,8 +45,6 @@ MORNING_POSTS_PER_RUN = max(1, min(3, int(os.getenv("MORNING_POSTS_PER_RUN", "3"
 MORNING_MAX_POSTS = max(1, min(12, int(os.getenv("MORNING_MAX_POSTS", "10"))))
 POST_SPACING_SECONDS = max(0, min(30, int(os.getenv("POST_SPACING_SECONDS", "12"))))
 AI_ART_MAX_DAILY = max(0, min(12, int(os.getenv("AI_ART_MAX_DAILY", "6"))))
-GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
-OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4.1-mini")
 PUBLISH_TZ = ZoneInfo(os.getenv("PUBLISH_TIMEZONE", "America/Santiago"))
 
 CATEGORIES = {
