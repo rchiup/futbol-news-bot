@@ -53,8 +53,8 @@ se descargan automáticamente.
 El LLM sugiere el nombre exacto de la persona protagonista, y el sistema
 exige que aparezca de manera explícita en el título RSS. Luego resuelve
 su entidad futbolera única en Wikidata y examina la imagen P18 en Wikimedia
-Commons. **Solo usa fotos con metadatos CC0, dominio público o CC BY verificables**;
-las fotos CC BY llevan crédito del fotógrafo y enlace a su licencia en el caption.
+Commons. **Solo usa fotos con metadatos CC0, dominio público, CC BY o CC BY-SA verificables**;
+las fotos CC BY o CC BY-SA llevan crédito del fotógrafo, enlace al archivo y a su licencia en el caption. Las gráficas derivadas de CC BY-SA se comparten bajo la misma licencia.
 Si no aparece una imagen segura o la foto falla, muestra nuestro diseño
 gráfico original. Nunca copia fotos de Google, agencias ni medios.
 
@@ -64,6 +64,8 @@ en el post o la gráfica. La disponibilidad de fotos de futbolistas actuales
 sin atribución obligatoria es limitada: por eso **no todas las publicaciones
 tendrán una foto**. Para ampliar cobertura, se necesitará contratar una
 fototeca con derechos o aportar retratos autorizados.
+
+Si el retrato principal en Wikidata no es reutilizable, el bot ahora busca fotos alternativas en Wikimedia Commons cuyo nombre incluya exactamente al protagonista. No descarga fotos aleatorias de Google. Nuevos titulares usan español simple, sin frases ambiguas.
 
 Las gráficas de fútbol usan composiciones 4:5, titular protagonista,
 tratamiento editorial fotográfico y 5 acentos de categoría.
