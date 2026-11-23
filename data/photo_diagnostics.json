@@ -1,6 +1,6 @@
 {
-  "checked_at_utc": "2026-11-23T13:18:51.981273+00:00",
-  "found": 4,
+  "checked_at_utc": "2026-11-23T13:34:32.370862+00:00",
+  "found": 7,
   "results": [
     {
       "name": "Gianni Infantino",
@@ -42,8 +42,8 @@
       "license": "CC BY-SA 4.0",
       "artist": "Bryan Berlin / WikiPortraits",
       "dimensions": [
-        1267,
-        1600
+        960,
+        1213
       ],
       "has_photographer_attribution": true
     },
@@ -59,6 +59,51 @@
       "dimensions": [
         960,
         1200
+      ],
+      "has_photographer_attribution": true
+    },
+    {
+      "name": "Leandro Paredes",
+      "valid_metadata": true,
+      "download_ok": true,
+      "render_ok": true,
+      "credit_required": true,
+      "filename": "Leandro Paredes Argentina v Spain 19 July 2026-153.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Bryan Berlin",
+      "dimensions": [
+        960,
+        640
+      ],
+      "has_photographer_attribution": true
+    },
+    {
+      "name": "Nicolás Otamendi",
+      "valid_metadata": true,
+      "download_ok": true,
+      "render_ok": true,
+      "credit_required": true,
+      "filename": "Nicolas Otamendi Argentina v Spain 19 July 2026-059.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Bryan Berlin",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "has_photographer_attribution": true
+    },
+    {
+      "name": "Cancha referencial",
+      "valid_metadata": true,
+      "download_ok": true,
+      "render_ok": true,
+      "credit_required": true,
+      "filename": "Football pitch.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "LensEye Media",
+      "dimensions": [
+        960,
+        640
       ],
       "has_photographer_attribution": true
     }
