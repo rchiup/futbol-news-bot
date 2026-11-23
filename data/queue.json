@@ -583,33 +583,25 @@
     "description": "El crack español arrastra molestias en uno de sus tobillos y no podrá decir presente en el partido del miércoles por el torneo internacional.",
     "published_at": "2026-11-23T13:14:58+00:00",
     "category": "PARTIDOS",
-    "score": 34,
+    "score": 65,
     "queued_at": "2026-11-23T13:36:16.939128+00:00",
     "status": "draft",
     "visual_subject": "Lamine Yamal",
-    "headline": "Lamine Yamal se pierde el partido de Champions por lesión",
-    "caption": "Lamine Yamal no jugará el partido de Champions del miércoles por una molestia en el tobillo. El delantero del Barcelona llega a la cita lesionado, lo que debilita al equipo en su próximo desafío. ¿Cómo afectará su ausencia al ataque del Barça? ⚽️",
+    "headline": "Lamine Yamal será baja ante Sabah por molestias en el tobillo",
+    "caption": "El Barcelona confirmó que Lamine Yamal no viajará a Bakú por molestias leves en el tobillo derecho. Se perderá el partido de Champions contra Sabah por precaución.",
     "ai_generated_at": "2026-11-23T13:36:16.939128+00:00",
     "ai_art_used": false,
     "photo_used": true,
     "portrait_used": false,
     "reference_photo_used": true,
-    "portrait_info": {
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Football_pitch.jpg",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "commons_filename": "Football pitch.jpg",
-      "photographer": "LensEye Media",
-      "credit_required": true,
-      "share_alike": true,
-      "file_page": "https://commons.wikimedia.org/wiki/File:Football_pitch.jpg",
-      "photo_provider": "Curated Commons",
-      "verified": "2026-11-23",
-      "reference_only": true,
-      "subject": ""
-    },
+    "portrait_info": null,
     "photo_checked_at": "2026-11-23T13:39:20.316148+00:00",
-    "recovery_reason": "Safe retry after 2026-11-23 token-account verification repair; previous failure occurred before image upload."
+    "recovery_reason": "Safe retry after 2026-11-23 token-account verification repair; previous failure occurred before image upload.",
+    "verification_note": "Verificado con RTVE y EFE, 23-11-2026. Molestias leves, no lesión grave confirmada.",
+    "verification_urls": [
+      "https://www.rtve.es/deportes/20261123/sabah-barcelona-champions-league-parte-medico-lamine-yamal/17326138.shtml",
+      "https://efe.com/deportes/2026-11-23/lamine-yamal-baja-sabah-molestias/"
+    ]
   },
   {
     "id": "de5dec18bcc3e970dfcf",
