@@ -43,17 +43,54 @@ def upload_public_image(path: Path, identifier: str, session=requests) -> str:
     return url
 
 
-def publish_image(path: Path, caption: str, identifier: str, session=requests) -> str:
+def instagram_api_settings() -> tuple[str, str, str, str]:
     ig_id = require("IG_USER_ID")
     token = require("IG_ACCESS_TOKEN")
-    version = os.getenv("META_GRAPH_VERSION", "v24.0")
+    mode = os.getenv("META_AUTH_MODE", "facebook").strip().lower()
+    if mode not in {"instagram", "facebook"}:
+        raise ValueError("Invalid META_AUTH_MODE")
+    version = os.getenv("META_GRAPH_VERSION", "v27.0")
     if not version.startswith("v") or "/" in version:
         raise ValueError("Invalid META_GRAPH_VERSION")
-    mode = os.getenv("META_AUTH_MODE", "instagram").strip().lower()
-    if mode not in {"instagram", "facebook"}:
-        raise ValueError("META_AUTH_MODE must be instagram or facebook")
-    host = "graph.instagram.com" if mode == "instagram" else "graph.facebook.com"
-    root = f"https://{host}/{version}"
+    host = "graph.facebook.com" if mode == "facebook" else "graph.instagram.com"
+    return ig_id, token, mode, f"https://{host}/{version}"
+
+
+def verify_instagram_account(session=requests) -> dict:
+    """Read-only guard: never post into a different professional Instagram account."""
+    ig_id, token, mode, root = instagram_api_settings()
+    headers = {"Authorization": f"Bearer {token}"}
+    if mode == "facebook":
+        response = session.get(
+            f"{root}/me/assigned_instagram_accounts",
+            params={"fields": "id,username", "limit": 100},
+            headers=headers, timeout=30,
+        )
+        response.raise_for_status()
+        accounts = response.json().get("data", [])
+    else:
+        response = session.get(
+            f"{root}/{ig_id}",
+            params={"fields": "id,username"},
+            headers=headers, timeout=30,
+        )
+        response.raise_for_status()
+        accounts = [response.json()]
+    matched = next((item for item in accounts if str(item.get("id")) == ig_id), None)
+    if not matched:
+        raise RuntimeError("Target Instagram account ID is not assigned to this token")
+    expected = os.getenv("EXPECTED_IG_USERNAME", "chaofelicevich").lstrip("@").lower()
+    username = str(matched.get("username") or "").lstrip("@").lower()
+    if not username or username != expected:
+        raise RuntimeError("Instagram account username does not match the expected destination")
+    return {"id": ig_id, "username": username, "mode": mode}
+
+
+def publish_image(path: Path, caption: str, identifier: str, session=requests) -> str:
+    verified = verify_instagram_account(session=session)
+    ig_id, token, _, root = instagram_api_settings()
+    if verified["id"] != ig_id:
+        raise RuntimeError("Instagram target verification mismatch")
     image_url = upload_public_image(path, identifier, session=session)
     auth_headers = {"Authorization": f"Bearer {token}"}
 
