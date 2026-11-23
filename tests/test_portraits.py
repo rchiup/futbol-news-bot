@@ -5,7 +5,7 @@ from pathlib import Path
 
 from PIL import Image
 
-from portraits import download_portrait, find_portrait, name_in_story
+from portraits import download_portrait, find_portrait, name_in_story, photo_attribution
 
 
 class FakeResponse:
@@ -42,6 +42,8 @@ class WikimediaStub:
                 "thumburl": "https://upload.wikimedia.org/wikipedia/commons/thumb/messi.jpg",
                 "extmetadata": {
                     "LicenseShortName": {"value": self.license_name},
+                    "LicenseUrl": {"value": "https://creativecommons.org/licenses/by/4.0/"},
+                    "Artist": {"value": "<a href='https://example.org'>Juan Fotógrafo</a>"},
                     "Copyrighted": {"value": "False"},
                 },
             }]}}}})
@@ -70,6 +72,15 @@ class PortraitTests(unittest.TestCase):
 
     def test_attribution_required_photo_is_rejected(self):
         self.assertIsNone(find_portrait("Lionel Messi", session=WikimediaStub("CC BY-SA 4.0")))
+
+    def test_cc_by_photo_requires_credit(self):
+        photo = find_portrait("Lionel Messi", session=WikimediaStub("CC BY 4.0"))
+        self.assertIsNotNone(photo)
+        self.assertTrue(photo["credit_required"])
+        credit = photo_attribution(photo)
+        self.assertIn("Juan Fotógrafo", credit)
+        self.assertIn("creativecommons.org/licenses/by/4.0", credit)
+        self.assertIn("Wikimedia Commons", credit)
 
     def test_wrong_person_is_rejected(self):
         self.assertIsNone(find_portrait("Lionel Ronaldo", session=WikimediaStub()))
