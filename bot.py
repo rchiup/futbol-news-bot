@@ -16,8 +16,11 @@ def main():
     existing = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else []
     seen = {item["id"] for item in existing}
     added = 0
-    for url in FEEDS:
-        feed = feedparser.parse(url, request_headers={"User-Agent": "FootballNewsBot/0.1"})
+    for source in FEEDS:
+        url = source.get("url", "") if isinstance(source, dict) else source
+        if not url:
+            continue
+        feed = feedparser.parse(url, request_headers={"User-Agent": "FootballNewsBot/1.0"})
         if feed.bozo:
             print(f"Warning parsing {url}: {feed.bozo_exception}")
         for entry in feed.entries:
