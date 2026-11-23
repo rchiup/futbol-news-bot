@@ -23,6 +23,20 @@ class GraphicTests(unittest.TestCase):
                         self.assertEqual(img.size, (1080, 1350))
                         self.assertEqual(img.format, "JPEG")
 
+    def test_licensed_portrait_produces_photo_led_design(self):
+        with tempfile.TemporaryDirectory() as folder:
+            photo = Path(folder) / "portrait.jpg"
+            Image.new("RGB", (820, 1100), "#aa6644").save(photo, "JPEG")
+            with_photo = Path(folder) / "with.jpg"
+            without_photo = Path(folder) / "without.jpg"
+            content = {"id": "photo-test", "category": "PARTIDOS",
+                       "headline": "Messi marca un golazo y enciende la cancha"}
+            render_card(content, destination=with_photo, portrait_path=photo)
+            render_card(content, destination=without_photo)
+            with Image.open(with_photo) as a, Image.open(without_photo) as b:
+                self.assertEqual(a.size, (1080, 1350))
+                self.assertNotEqual(a.getpixel((790, 520)), b.getpixel((790, 520)))
+
     def test_unusually_long_rss_title_does_not_crash_renderer(self):
         with tempfile.TemporaryDirectory() as folder:
             path = Path(folder) / "long-title.jpg"
