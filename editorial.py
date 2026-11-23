@@ -23,6 +23,8 @@ import feedparser
 import requests
 from PIL import Image, ImageDraw, ImageFont
 from graphics import render_card
+# Retained for compatibility with diagnostics; editorial deliberately never invokes paid image generation.
+from ai_art import generate_illustration
 from portraits import (name_in_story, find_portrait, download_portrait,
                        photo_attribution, photo_attribution_compact)
 from openverse_photos import find_openverse_photo, download_openverse_photo
