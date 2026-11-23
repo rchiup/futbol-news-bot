@@ -103,7 +103,11 @@
     "category": "FICHAJES",
     "score": 31,
     "queued_at": "2026-11-23T00:48:45.660935+00:00",
-    "status": "awaiting_ai"
+    "status": "draft",
+    "visual_subject": "",
+    "headline": "Spurs frustra al City y se acerca a puestos europeos",
+    "caption": "Spurs venció al Manchester City 2-1 con los goles de Vinberg y Naz en los últimos minutos, dejando al City sin ganar en casa bajo la dirección de Andrée Jeglertz y a tres puntos de los puestos europeos ⚽️. ¿Crees que el City podrá recuperarse antes del cierre?",
+    "ai_generated_at": "2026-11-23T08:58:17.023219+00:00"
   },
   {
     "id": "92db0d9f88dbcc2e1e80",
@@ -247,7 +251,13 @@
     "category": "PARTIDOS",
     "score": 34,
     "queued_at": "2026-11-23T02:37:17.762388+00:00",
-    "status": "awaiting_ai"
+    "status": "published",
+    "visual_subject": "",
+    "headline": "Pellegrino medita su futuro tras derrota de Lanús",
+    "caption": "El técnico Pellegrino anunció que se tomará unos días para decidir su continuidad después de la eliminación de Lanús ante River. La derrota cerró la campaña del Clausura y dejó al Granate sin opciones de seguir en la competencia. ¿Creen que debería seguir al mando del equipo? 🤔⚽️",
+    "ai_generated_at": "2026-11-23T08:58:17.023219+00:00",
+    "posted_at": "2026-11-23T08:58:17.023219+00:00",
+    "instagram_media_id": "17921464746533007"
   },
   {
     "id": "db418a806e10a5e87be2",
@@ -259,7 +269,11 @@
     "category": "PARTIDOS",
     "score": 34,
     "queued_at": "2026-11-23T02:37:17.762388+00:00",
-    "status": "awaiting_ai"
+    "status": "draft",
+    "visual_subject": "",
+    "headline": "River vence a Lanús con figura de Almada y avanza a cuartos",
+    "caption": "River superó a Lanús en el Monumental gracias a la figura de Almada. Con Leonardo Ponzio al mando, el equipo se metió en los cuartos del Torneo Clausura y ahora aguardará al ganador de Instituto‑Huracán. ¿Qué esperás del próximo rival? ⚽️🤔",
+    "ai_generated_at": "2026-11-23T08:58:17.023219+00:00"
   },
   {
     "id": "5fcf29b7d9d8e1832f7a",
@@ -271,6 +285,42 @@
     "category": "ACTUALIDAD",
     "score": 28,
     "queued_at": "2026-11-23T02:37:17.762388+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "884e61784402bc39e867",
+    "title": "‘Haaland must be worried’: Thierno Barry’s rise has David Moyes purring",
+    "source_url": "https://www.theguardian.com/football/2026/nov/23/thierno-barry-rise-david-moyes-purring-everton",
+    "source": "The Guardian",
+    "description": "Everton striker has worked hard to find his scoring touch after admitting he hit ‘rock bottom’ at times last season A most unexpected name sits behind the phenomenon Erling Haaland and the £125m proven marksman Alexander Isak in the Premier League goalscoring chart this season. The rise of Thierno Barry may have surprised even the man himself but stands as a fitting reward for single-minded perseverance and the refusal to quit. “Fabulous” was David Moyes’s take on Barry’s last performance for Everton, when a double against Coventry took the str",
+    "published_at": "2026-11-23T08:00:51+00:00",
+    "category": "ACTUALIDAD",
+    "score": 28,
+    "queued_at": "2026-11-23T08:58:17.023219+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "a0ec0f087a72fa2e4635",
+    "title": "Premier League: 10 talking points from the weekend’s action",
+    "source_url": "https://www.theguardian.com/football/2026/nov/23/premier-league-10-talking-points-from-the-weekends-action",
+    "source": "The Guardian",
+    "description": "Leeds offer Chelsea a lesson, Newcastle’s summer recruits struggle and Jules Ahoka makes a name for himself What to make of Manchester United’s utterly torrid start under Mauricio Pochettino? To go glass half full as the new head coach had only three days to prepare the side for the trip to Anfield, the hope will be that time will cast the 4-0 humbling from Liverpool as the falsest of false starts. The glass-half-empty scenario, though, is that here was an XI packed with internationals that had zero clue how to sort out a dire beginning themsel",
+    "published_at": "2026-11-23T08:00:50+00:00",
+    "category": "ACTUALIDAD",
+    "score": 28,
+    "queued_at": "2026-11-23T08:58:17.023219+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "046c4db5d19ccf5bc5ca",
+    "title": "Boca volvió con la Sudamericana: los festejos del plantel en un micro descapotable y la caravana con los hinchas",
+    "source_url": "https://www.ole.com.ar/boca-juniors/llegada-argentina-plantel-boca-campeon-copa-sudamericana-2026_0_bthegjdLx5.html",
+    "source": "Olé Argentina",
+    "description": "Después de conquistar el título en Barranquilla y cortar una sequía de 18 años sin títulos internacionales, el Xeneize aterrizó en Ezeiza y un grupo de hinchas acompañó al plantel por la autopista Riccheri hasta Boca Predio.",
+    "published_at": "2026-11-23T02:24:00+00:00",
+    "category": "ACTUALIDAD",
+    "score": 25,
+    "queued_at": "2026-11-23T08:58:17.023219+00:00",
     "status": "awaiting_ai"
   }
 ]
