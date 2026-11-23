@@ -1,0 +1,71 @@
+name: Publish one verified-photo football story
+on:
+  push:
+    paths:
+      - 'trigger/photo-publish-now.txt'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: football-news-engine
+  cancel-in-progress: false
+jobs:
+  photo-post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Validate news, photos and publishing code
+        run: python -m unittest discover -s tests -v
+      - name: Publish exactly one existing verified-face photo draft
+        run: python editorial.py
+        env:
+          MAX_DRAFTS_PER_RUN: '0'
+          MAX_DRAFTS_PER_DAY: '30'
+          MAX_POSTS_PER_DAY: '30'
+          MORNING_POSTS_PER_RUN: '1'
+          MORNING_MAX_POSTS: '10'
+          POST_SPACING_SECONDS: '0'
+          REQUIRE_SUBJECT_PHOTO: 'true'
+          ENABLE_PUBLISH: 'true'
+          AUTO_APPROVE: 'true'
+          ENABLE_AI_ART: 'false'
+          BRAND_NAME: 'CHAO FELICEVICH'
+          EXPECTED_IG_USERNAME: 'chaofelicevich'
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          CLOUDINARY_CLOUD_NAME: ${{ secrets.CLOUDINARY_CLOUD_NAME }}
+          CLOUDINARY_API_KEY: ${{ secrets.CLOUDINARY_API_KEY }}
+          CLOUDINARY_API_SECRET: ${{ secrets.CLOUDINARY_API_SECRET }}
+          META_AUTH_MODE: 'facebook'
+          META_GRAPH_VERSION: 'v27.0'
+      - name: Upload generated card for verification
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: photo-publication-preview
+          path: output/previews/*.jpg
+          retention-days: 2
+          if-no-files-found: ignore
+      - name: Persist confirmed Instagram media ID and photo metadata
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/queue.json data/engine_status.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record real football portrait publication"
+            for attempt in 1 2 3 4; do
+              git pull --rebase origin "main" &&
+              git push && break
+              if [ "$attempt" -eq 4 ]; then
+                echo "Failed to persist Instagram media ID"
+                exit 1
+              fi
+              sleep 4
+            done
+          fi
