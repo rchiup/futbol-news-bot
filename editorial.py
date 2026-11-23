@@ -354,6 +354,19 @@ def today_count(items: list[dict], key: str, reference: datetime) -> int:
                and value.astimezone(PUBLISH_TZ).date() == day)
 
 
+def segment_post_count(items: list[dict], reference: datetime, first_hour: int, last_hour: int) -> int:
+    """Count posts in a local-hour segment; night posts do not consume morning slots."""
+    day = reference.astimezone(PUBLISH_TZ).date()
+    count = 0
+    for item in items:
+        when = parse_iso(item.get("posted_at", ""))
+        if when:
+            local = when.astimezone(PUBLISH_TZ)
+            if local.date() == day and first_hour <= local.hour <= last_hour:
+                count += 1
+    return count
+
+
 def rolling_post_count(items: list[dict], reference: datetime) -> int:
     """Meta limits apply to rolling 24-hour windows, not calendar days."""
     start = reference - timedelta(hours=24)
@@ -455,7 +468,10 @@ def run(reference: datetime | None = None, session=None) -> dict:
         for item in sorted(queue, key=lambda x: (x.get("score", 0), x.get("published_at", "")), reverse=True):
             if (published_count >= posts_per_run
                     or today_count(queue, "posted_at", reference) >= POSTS_PER_DAY
-                    or today_count(queue, "posted_at", reference) >= morning_allowance
+                    or (7 <= local_hour <= 11
+                        and segment_post_count(queue, reference, 7, 11) >= morning_allowance)
+                    or (local_hour < 7
+                        and segment_post_count(queue, reference, 0, 6) >= 2)
                     or rolling_post_count(queue, reference) >= min(POSTS_PER_DAY, 40)):
                 # Keep margin under Meta's lower documented 50-post limit.
                 break
