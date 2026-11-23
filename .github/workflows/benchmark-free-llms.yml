@@ -1,0 +1,50 @@
+name: Compare Free Sports News LLMs
+on:
+  push:
+    paths:
+      - 'trigger/benchmark-llms-now.txt'
+  workflow_dispatch:
+  schedule:
+    - cron: "56 22 * * *"
+permissions:
+  contents: write
+concurrency:
+  group: football-news-engine
+  cancel-in-progress: false
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Unit tests (no live API requests)
+        run: python -m unittest discover -s tests -v
+      - name: Compare configured FREE models on exactly one real story
+        run: python benchmark_free_llms.py
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GEMINI_FREE_TIER_CONFIRMED: ${{ vars.GEMINI_FREE_TIER_CONFIRMED || 'false' }}
+          CEREBRAS_FREE_TIER_CONFIRMED: ${{ vars.CEREBRAS_FREE_TIER_CONFIRMED || 'false' }}
+          FREE_LLM_ORDER: 'groq,gemini,cerebras,openrouter'
+      - name: Persist redacted benchmark and usage
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/llm_benchmark.json data/llm_benchmark_history.json data/llm_free_usage.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record fair free-only LLM sports-news benchmark"
+            for attempt in 1 2 3 4; do
+              git pull --rebase origin main && git push && break
+              if [ "$attempt" -eq 4 ]; then exit 1; fi
+              sleep 4
+            done
+          fi
