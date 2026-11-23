@@ -180,6 +180,38 @@ class EditorialTests(unittest.TestCase):
         self.assertEqual(info["photographer"], "Bryan Berlin / WikiPortraits")
         self.assertTrue(info["image_url"].startswith("https://upload.wikimedia.org/"))
 
+    def test_brentford_generic_wing_preview_is_blocked(self):
+        item = {
+            "title": "Brentford v Everton: Premier League – live",
+            "headline": "Brentford intentará atacar por bandas a Everton",
+            "description": "Live coverage and tactical buildup before kickoff.",
+        }
+        self.assertTrue(editorial.is_low_value_tactical_preview(item))
+
+    def test_generic_tactical_prediction_without_result_is_blocked(self):
+        item = {
+            "title": "Brentford prepares to face Everton",
+            "headline": "Brentford buscará atacar por las bandas",
+            "description": "The visitors aim to create danger on the wings.",
+        }
+        self.assertTrue(editorial.is_low_value_tactical_preview(item))
+
+    def test_brentford_actual_victory_is_allowed(self):
+        item = {
+            "title": "Lewis-Potter double and Janelt stunner ease Brentford past 10-man Everton",
+            "headline": "Brentford vence a Everton con doblete de Lewis-Potter",
+            "description": "Brentford beat Everton thanks to two goals from Lewis-Potter.",
+        }
+        self.assertFalse(editorial.is_low_value_tactical_preview(item))
+
+    def test_confirmed_tactical_change_is_not_automatically_blocked(self):
+        item = {
+            "title": "Manager confirms tactical switch before Champions League",
+            "headline": "El entrenador confirma un nuevo esquema táctico",
+            "description": "The manager announced the lineup and confirmed the changes.",
+        }
+        self.assertFalse(editorial.is_low_value_tactical_preview(item))
+
     def test_untranslated_english_headline_is_rejected(self):
         self.assertTrue(editorial.headline_needs_translation(
             "Chelsea forward victim of robbery after defeat"))
