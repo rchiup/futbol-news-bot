@@ -173,11 +173,40 @@ def photo_attribution(info: dict | None) -> str:
 
 
 def download_portrait(info: dict, destination: Path, session=requests) -> Path:
+    """Download verified Commons photo with Wikimedia-friendly headers.
+
+    Image proxy fallback only processes already rights-checked upload.wikimedia
+    media URLs. Never submits user tokens, private file URLs or arbitrary hosts.
+    """
     url = str(info.get("image_url", ""))
-    if not url.startswith("https://upload.wikimedia.org/"):
-        raise ValueError("Untrusted portrait host")
-    response = session.get(url, headers={"User-Agent": USER_AGENT}, timeout=18)
-    response.raise_for_status()
+    if not url.startswith("https://upload.wikimedia.org/wikipedia/commons/"):
+        raise ValueError("Untrusted Commons upload host")
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Referer": "https://commons.wikimedia.org/",
+        "Accept": "image/jpeg,image/png,image/webp,*/*;q=0.8",
+    }
+    response = None
+    try:
+        response = session.get(url, headers=headers, timeout=18)
+        status = getattr(response, "status_code", 200)
+        if status not in (429, 502, 503, 504):
+            response.raise_for_status()
+        else:
+            response = None
+    except requests.RequestException:
+        response = None
+    if response is None:
+        # Wikimedia has documented sporadic 429s for third-party image
+        # clients. wsrv.nl is a public caching/resizing proxy for PUBLIC
+        # images; the source and CC author/license stay unchanged.
+        response = session.get(
+            "https://wsrv.nl/",
+            params={"url": url, "w": 1200, "output": "jpg", "q": 85},
+            headers={"User-Agent": USER_AGENT},
+            timeout=25,
+        )
+        response.raise_for_status()
     if len(response.content) > MAX_DOWNLOAD_BYTES:
         raise ValueError("Portrait is too large")
     with Image.open(io.BytesIO(response.content)) as source:
