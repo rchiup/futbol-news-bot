@@ -1,0 +1,110 @@
+{
+  "checked_at_utc": "2026-11-23T14:24:24.801214+00:00",
+  "auth_mode": "facebook",
+  "api_version": "v27.0",
+  "read_only": true,
+  "account": {
+    "username": "chaofelicevich",
+    "followers_count": 34,
+    "media_count": 16
+  },
+  "account_insights": {
+    "reach": {
+      "ok": false,
+      "status": "denied",
+      "http": 400,
+      "meta_code": 10,
+      "meta_subcode": null,
+      "error_type": "OAuthException"
+    },
+    "views": {
+      "ok": false,
+      "status": "denied",
+      "http": 400,
+      "meta_code": 10,
+      "meta_subcode": null,
+      "error_type": "OAuthException"
+    },
+    "total_interactions": {
+      "ok": false,
+      "status": "denied",
+      "http": 400,
+      "meta_code": 10,
+      "meta_subcode": null,
+      "error_type": "OAuthException"
+    },
+    "follower_count": {
+      "ok": false,
+      "status": "denied",
+      "http": 400,
+      "meta_code": 10,
+      "meta_subcode": null,
+      "error_type": "OAuthException"
+    }
+  },
+  "media_insights": {
+    "views": {
+      "ok": false,
+      "status": "denied",
+      "http": 400,
+      "meta_code": 10,
+      "meta_subcode": null,
+      "error_type": "OAuthException"
+    },
+    "reach": {
+      "ok": false,
+      "status": "denied",
+      "http": 400,
+      "meta_code": 10,
+      "meta_subcode": null,
+      "error_type": "OAuthException"
+    },
+    "shares": {
+      "ok": false,
+      "status": "denied",
+      "http": 400,
+      "meta_code": 10,
+      "meta_subcode": null,
+      "error_type": "OAuthException"
+    },
+    "saved": {
+      "ok": false,
+      "status": "denied",
+      "http": 400,
+      "meta_code": 10,
+      "meta_subcode": null,
+      "error_type": "OAuthException"
+    },
+    "likes": {
+      "ok": false,
+      "status": "denied",
+      "http": 400,
+      "meta_code": 10,
+      "meta_subcode": null,
+      "error_type": "OAuthException"
+    },
+    "comments": {
+      "ok": false,
+      "status": "denied",
+      "http": 400,
+      "meta_code": 10,
+      "meta_subcode": null,
+      "error_type": "OAuthException"
+    },
+    "follows": {
+      "ok": false,
+      "status": "denied",
+      "http": 400,
+      "meta_code": 10,
+      "meta_subcode": null,
+      "error_type": "OAuthException"
+    }
+  },
+  "conclusion": "insights_permission_or_metric_unavailable",
+  "sample_media": {
+    "media_type": "IMAGE",
+    "media_product_type": "FEED",
+    "timestamp": "2026-11-23T13:37:32+0000",
+    "permalink": "https://www.instagram.com/p/DgFgQ9NkpoI/"
+  }
+}
