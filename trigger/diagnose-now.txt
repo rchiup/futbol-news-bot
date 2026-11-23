@@ -25,3 +25,5 @@ Run verified original JPG downloads through established diagnostic workflow.
 Re-run with retry-safe reports for the verified player photo bank.
 
 Try referer and wsrv.nl fallback on originally 429 rate-limited player photos.
+
+Try Commons thumbnail CDN before image proxy for the footballer photos.
