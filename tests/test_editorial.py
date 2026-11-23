@@ -93,6 +93,15 @@ class EditorialTests(unittest.TestCase):
         self.assertFalse(editorial.headline_needs_translation(
             "Chelsea: delantero sufre un robo tras derrota"))
 
+    def test_rolling_24_hour_limit_crosses_midnight(self):
+        reference = datetime(2026, 11, 23, 5, tzinfo=timezone.utc)
+        queue = [
+            {"posted_at": (reference - timedelta(hours=2)).isoformat()},
+            {"posted_at": (reference - timedelta(hours=20)).isoformat()},
+            {"posted_at": (reference - timedelta(hours=26)).isoformat()},
+        ]
+        self.assertEqual(editorial.rolling_post_count(queue, reference), 2)
+
     def test_caption_has_no_source_credit_or_url(self):
         original = "¡Qué partidazo! ¿Quién fue la figura? ⚽\n\nFuente: BBC Sport\nhttps://example.com/news"
         clean = editorial.clean_public_caption(original)
