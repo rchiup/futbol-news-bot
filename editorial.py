@@ -647,9 +647,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 if item.get("ai_art_used"):
                     generated_art_this_run += 1
                 caption = clean_public_caption(item["caption"])
-                if item.get("ai_art_used"):
-                    # Never pass synthetic images off as documentary photographs.
-                    caption += "\n\nImagen generada con IA (recreación editorial; no es una fotografía real)."
+                # Keep AI provenance in queue metadata; the caption stays news-focused.
                 if item.get("photo_used"):
                     item["photo_credit_full"] = photo_attribution(item.get("portrait_info"))
                     credit = photo_attribution_compact(item.get("portrait_info"))
