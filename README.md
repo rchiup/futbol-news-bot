@@ -61,6 +61,22 @@ ejecución y 6 al día por defecto. Sin esta configuración, no se generan
 gastos ni imágenes IA. Las imágenes de Google sin licencia comprobada no
 se descargan automáticamente.
 
+### Diseño editorial V5 — sin fotos genéricas (23/11/2026)
+
+- El feed ahora utiliza **fotografía real del protagonista**, ocupando toda
+  la gráfica 1080×1350, degradado cinematográfico para leer el titular,
+  marca discreta y una sola etiqueta de categoría.
+- Eliminamos **«IMAGEN REFERENCIAL»**, «LA NOTICIA», canchas ajenas a la
+  noticia, barras y lemas de relleno.
+- Cuando no hay fotografía pertinente con derechos verificados, el bot **no
+  publica esa noticia automáticamente**. Puede seguir apareciendo una
+  gráfica abstracta original en previews internos, pero no en Instagram.
+  Esta decisión privilegia calidad visual y puede reducir la frecuencia.
+- Foto CC BY-SA: caption en una línea con **autor y licencia**; el archivo
+  de la cola conserva los detalles completos de autoría, modificaciones,
+  URL original y licencia (`portrait_info`, `photo_credit_full`).
+- La automatización sigue funcionando sin cambiar tokens ni comprar servicios.
+
 ### Banco de fotos reales (V4)
 
 `curated_portraits.py` incluye **12 protagonistas con archivos de Wikimedia Commons
