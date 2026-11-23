@@ -136,6 +136,18 @@ class EditorialTests(unittest.TestCase):
         ]
         self.assertEqual(editorial.rolling_post_count(queue, reference), 2)
 
+    def test_caption_never_ends_mid_sentence(self):
+        long_caption = ("River Plate ganó 2-0 y avanzó a cuartos. "
+                        "El equipo resolvió el partido con dos goles tras el descanso. "
+                        + "Esto no debe publicarse incompleto y sin puntuación " * 12)
+        clean = editorial.fit_caption(long_caption)
+        self.assertLessEqual(len(clean), 360)
+        self.assertTrue(clean.endswith("."))
+
+    def test_caption_raises_without_complete_sentence_to_preserve_clarity(self):
+        with self.assertRaises(ValueError):
+            editorial.fit_caption("palabras " * 65)
+
     def test_caption_has_no_source_credit_or_url(self):
         original = "¡Qué partidazo! ¿Quién fue la figura? ⚽\n\nFuente: BBC Sport\nhttps://example.com/news"
         clean = editorial.clean_public_caption(original)
