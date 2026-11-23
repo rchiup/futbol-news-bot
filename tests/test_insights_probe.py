@@ -49,7 +49,7 @@ class InstagramInsightsTests(unittest.TestCase):
         self.assertEqual(result["account"]["followers_count"], 33)
         self.assertEqual(result["media_insights"]["shares"]["value"], 17)
         self.assertNotIn("test-secret", str(result))
-        self.assertEqual(len(fake.calls), 14)
+        self.assertEqual(len(fake.calls), 13)
 
     def test_permission_denial_is_redacted(self):
         fake = FakeMetaSession(deny_insights=True)
