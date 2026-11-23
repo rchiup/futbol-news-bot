@@ -5,7 +5,7 @@ on:
       - 'trigger/run-now.txt'
   workflow_dispatch:
   schedule:
-    - cron: "7,37 * * * *"
+    - cron: "7,22,37,52 * * * *"
 permissions:
   contents: write
 concurrency:
