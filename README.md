@@ -32,6 +32,18 @@ short captions grounded ONLY in the RSS title and summary.
 
 No unlicensed celebrity or team photos/logos are used.
 
+**Public-facing content:** Posts and graphic cards do **not** display source names
+or raw news URLs. Source metadata is retained in the internal editorial queue for
+verification, duplicate detection and auditability. Headlines and summaries must
+be original paraphrases; this does not grant permission to copy publishers'
+photographs or protected text.
+
+**Volume:** 30 posts/day by default, one per 30-minute scheduled job, and a
+rolling 24-hour safety cap of min(POSTS_PER_DAY, 40). Meta's Content Publishing
+documentation refers to a 100-post rolling limit but some pages still mention
+50; use the account-specific endpoint to check before attempting higher volumes.
+This bot deliberately stays below either published limit.
+
 ## Set up secrets
 
 In your GitHub repository: Settings → Secrets and variables → Actions →
