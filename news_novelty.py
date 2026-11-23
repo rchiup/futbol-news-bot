@@ -19,7 +19,7 @@ COOLDOWN_HOURS = 36
 ACTIVE = frozenset({"published", "draft", "awaiting_ai", "publish_error", "publishing"})
 SPANISH_CHILE = (
     "universidad de chile", "colo colo", "cobreloa", "eduardo vargas",
-    "la roja", "campeonato nacional", "huachipato", "uc", "copa chile",
+    "seleccion chilena", "la roja de chile", "campeonato nacional", "huachipato", "copa chile",
     "palestino", "santiago wanderers",
 )
 EVENT_TERMS = {
