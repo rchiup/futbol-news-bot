@@ -568,7 +568,7 @@
     "category": "PARTIDOS",
     "score": 34,
     "queued_at": "2026-11-23T13:36:16.939128+00:00",
-    "status": "publish_error",
+    "status": "draft",
     "visual_subject": "Lamine Yamal",
     "headline": "Lamine Yamal se pierde el partido de Champions por lesión",
     "caption": "Lamine Yamal no jugará el partido de Champions del miércoles por una molestia en el tobillo. El delantero del Barcelona llega a la cita lesionado, lo que debilita al equipo en su próximo desafío. ¿Cómo afectará su ausencia al ataque del Barça? ⚽️",
@@ -592,7 +592,7 @@
       "subject": ""
     },
     "photo_checked_at": "2026-11-23T13:39:20.316148+00:00",
-    "error": "Target Instagram account ID is not assigned to this token"
+    "recovery_reason": "Safe retry after 2026-11-23 token-account verification repair; previous failure occurred before image upload."
   },
   {
     "id": "de5dec18bcc3e970dfcf",
@@ -746,7 +746,7 @@
     "sport": "FUTBOL",
     "score": 34,
     "queued_at": "2026-11-23T15:16:16.529861+00:00",
-    "status": "publish_error",
+    "status": "draft",
     "visual_subject": "Désiré Doué",
     "headline": "Lesiones de Doué y Kvaratskhelia ponen a prueba a Luis Enrique",
     "caption": "Désiré Doué se lesionó del ligamento cruzado anterior en la victoria 3‑2 del PSG ante el Nice y se suma a Khvicha Kvaratskhelia, también fuera de acción. Luis Enrique pierde a dos de sus principales armas ofensivas y deberá buscar alternativas en un ataque que ha sido el mejor de Europa. ¿Podrá el PSG seguir marcando goles sin Doué y Kvaratskhelia? ⚽️",
@@ -768,7 +768,7 @@
       "photo_provider": "Curated Commons",
       "verified": "2026-11-23"
     },
-    "error": "Target Instagram account ID is not assigned to this token"
+    "recovery_reason": "Safe retry after 2026-11-23 token-account verification repair; previous failure occurred before image upload."
   },
   {
     "id": "4843da08b62d1d4a38d0",
@@ -781,7 +781,7 @@
     "sport": "FUTBOL",
     "score": 34,
     "queued_at": "2026-11-23T15:16:16.529861+00:00",
-    "status": "publish_error",
+    "status": "draft",
     "visual_subject": "Leny Yoro",
     "headline": "Manchester United apelará la expulsión de Leny Yoro tras 4-0",
     "caption": "Manchester United anunció que apelará la tarjeta roja mostrada a Leny Yoro en el minuto 8 del 4‑0 que recibió ante Liverpool. El defensa fue expulsado tras una falta a Alexander Isak, aunque Pochettino asegura que no fue falta. La sanción podría aligerar su carga, pero el descenso temprano ya marcó el partido.",
@@ -803,7 +803,7 @@
       "file_page": "https://commons.wikimedia.org/wiki/File:Leny_Yoro_%2808-10-2023%29_12_%28cropped%29.jpg"
     },
     "photo_checked_at": "2026-11-23T15:16:32.091661+00:00",
-    "error": "Target Instagram account ID is not assigned to this token"
+    "recovery_reason": "Safe retry after 2026-11-23 token-account verification repair; previous failure occurred before image upload."
   },
   {
     "id": "eb2ae0c3266de996ff75",
