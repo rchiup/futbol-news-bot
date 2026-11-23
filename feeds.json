@@ -1,34 +1,82 @@
 [
   {
     "name": "BBC Sport",
-    "url": "https://feeds.bbci.co.uk/sport/football/rss.xml"
+    "url": "https://feeds.bbci.co.uk/sport/football/rss.xml",
+    "sport": "FUTBOL"
   },
   {
     "name": "The Guardian",
-    "url": "https://www.theguardian.com/football/rss"
+    "url": "https://www.theguardian.com/football/rss",
+    "sport": "FUTBOL"
   },
   {
     "name": "ESPN",
-    "url": "https://www.espn.com/espn/rss/soccer/news"
+    "url": "https://www.espn.com/espn/rss/soccer/news",
+    "sport": "FUTBOL"
   },
   {
     "name": "Football365",
-    "url": "https://www.football365.com/feed"
+    "url": "https://www.football365.com/feed",
+    "sport": "FUTBOL"
   },
   {
     "name": "90min",
-    "url": "https://www.90min.com/posts.rss"
+    "url": "https://www.90min.com/posts.rss",
+    "sport": "FUTBOL"
   },
   {
     "name": "talkSPORT",
-    "url": "https://talksport.com/football/feed/"
+    "url": "https://talksport.com/football/feed/",
+    "sport": "FUTBOL"
   },
   {
     "name": "Olé Argentina",
-    "url": "https://www.ole.com.ar/rss/ultimas-noticias/"
+    "url": "https://www.ole.com.ar/rss/ultimas-noticias/",
+    "sport": "FUTBOL"
   },
   {
     "name": "AS Fútbol",
-    "url": "https://as.com/rss/futbol/portada.xml"
+    "url": "https://as.com/rss/futbol/portada.xml",
+    "sport": "FUTBOL"
+  },
+  {
+    "name": "BBC Tennis",
+    "url": "https://feeds.bbci.co.uk/sport/tennis/rss.xml",
+    "sport": "TENIS"
+  },
+  {
+    "name": "ESPN Tennis",
+    "url": "https://www.espn.com/espn/rss/tennis/news",
+    "sport": "TENIS"
+  },
+  {
+    "name": "BBC Golf",
+    "url": "https://feeds.bbci.co.uk/sport/golf/rss.xml",
+    "sport": "GOLF"
+  },
+  {
+    "name": "ESPN Golf",
+    "url": "https://www.espn.com/espn/rss/golf/news",
+    "sport": "GOLF"
+  },
+  {
+    "name": "BBC Formula 1",
+    "url": "https://feeds.bbci.co.uk/sport/formula1/rss.xml",
+    "sport": "F1"
+  },
+  {
+    "name": "Motorsport F1",
+    "url": "https://es.motorsport.com/rss/f1/news/",
+    "sport": "F1"
+  },
+  {
+    "name": "ESPN NBA",
+    "url": "https://www.espn.com/espn/rss/nba/news",
+    "sport": "NBA"
+  },
+  {
+    "name": "The Guardian NBA",
+    "url": "https://www.theguardian.com/sport/nba/rss",
+    "sport": "NBA"
   }
 ]
