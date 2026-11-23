@@ -13,6 +13,11 @@ from portraits import normalize
 # Official Wikimedia Commons file pages and CC BY-SA grants verified 2026-11-23.
 # Some photos are archival. They illustrate the person, NOT the current event.
 LIBRARY = {
+    "Jamal Musiala": {
+        "filename": "Jamal Musiala Ecuador v Germany 25 June 2026-174 (cropped).jpg",
+        "author": "Bryan Berlin / WikiPortraits", "version": "4.0",
+        "aliases": ["jamal musiala", "musiala"],
+    },
     "Lionel Messi": {
         "filename": "Lionel Messi Argentina v Spain 19 July 2026-222.jpg",
         "author": "Bryan Berlin", "version": "4.0",

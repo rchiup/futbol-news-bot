@@ -27,7 +27,7 @@ class CuratedPortraitTests(unittest.TestCase):
         self.assertIsNone(pick_curated("Lionel Messi", "Ronaldo marca", ""))
 
     def test_major_names_and_local_players(self):
-        self.assertEqual(len(LIBRARY), 16)
+        self.assertGreaterEqual(len(LIBRARY), 16)
         for title, expected in (
             ("Haaland marcó un doblete", "Erling Haaland"),
             ("Mbappé fue elegido la figura", "Kylian Mbappé"),

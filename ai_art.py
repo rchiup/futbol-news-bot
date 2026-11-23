@@ -70,7 +70,9 @@ def generate_illustration(item: dict, path: Path, session=requests) -> Path:
                         "disable_safety_checker": False}},
         timeout=50,
     )
-    response.raise_for_status()
+    if getattr(response, 'status_code', 200) >= 400:
+        # Never print the bearer token or a URL embedding credentials.
+        raise RuntimeError(f"Replicate HTTP {response.status_code}")
     prediction = response.json()
     for _ in range(6):
         if prediction.get("status") == "succeeded" or prediction.get("output"):
@@ -83,7 +85,8 @@ def generate_illustration(item: dict, path: Path, session=requests) -> Path:
         time.sleep(2)
         status = session.get(f"https://api.replicate.com/v1/predictions/{pred_id}",
                              headers={"Authorization": f"Bearer {token}"}, timeout=25)
-        status.raise_for_status()
+        if getattr(status, 'status_code', 200) >= 400:
+            raise RuntimeError(f"Replicate status HTTP {status.status_code}")
         prediction = status.json()
     output = prediction.get("output")
     if isinstance(output, list):
@@ -91,7 +94,8 @@ def generate_illustration(item: dict, path: Path, session=requests) -> Path:
     if not safe_output_url(output):
         raise RuntimeError("AI provider did not return an accepted output URL")
     downloaded = session.get(output, timeout=25)
-    downloaded.raise_for_status()
+    if getattr(downloaded, 'status_code', 200) >= 400:
+        raise RuntimeError(f"Replicate image HTTP {downloaded.status_code}")
     if len(downloaded.content) > 9_000_000:
         raise ValueError("AI output is too large")
     with Image.open(io.BytesIO(downloaded.content)) as raw:

@@ -98,8 +98,8 @@ class EditorialTests(unittest.TestCase):
                 self.assertEqual(len(editorial.load_queue()), 1)
 
 
-    def test_no_relevant_photo_uses_original_graphic_and_publishes(self):
-        """Fallback has no unrelated photo and publishes the original graphic."""
+    def test_no_relevant_photo_never_publishes_blank_card(self):
+        """Preview fallback stays available but not published to Instagram."""
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             queue_path = root / "data" / "queue.json"
@@ -139,12 +139,46 @@ class EditorialTests(unittest.TestCase):
                 make.side_effect = render_without_photo
                 publish.return_value = "test-media-id"
                 result = editorial.run(reference=self.reference)
-                self.assertEqual(result["published"], 1)
-                publish.assert_called_once()
+                self.assertEqual(result["published"], 0)
+                publish.assert_not_called()
                 held = editorial.load_queue()
-                self.assertEqual(held[0]["status"], "published")
+                self.assertEqual(held[0]["status"], "needs_review")
                 self.assertEqual(held[0]["visual_mode"], "original_graphic")
                 self.assertNotIn("photo_deferred_reason", held[0])
+
+    def test_unnamed_18_player_list_is_not_auto_published(self):
+        entry = {
+            "title": "Which Premier League players face yellow card suspension?",
+            "description": "Eighteen players are on the brink of a one-match ban.",
+            "headline": "18 jugadores de Premier League al borde de suspensión",
+            "visual_subject": "",
+        }
+        self.assertTrue(editorial.news_missing_critical_details(entry))
+
+    def test_vague_musiala_opinion_is_held(self):
+        entry = {
+            "title": "Jamal Musiala controversy the nadir of Bayern's turbulent week",
+            "description": "Treatment of midfielder raised questions about club reputation.",
+            "headline": "Controversia de Musiala marca bajón del Bayern",
+            "visual_subject": "Jamal Musiala",
+        }
+        self.assertTrue(editorial.news_missing_critical_details(entry))
+
+    def test_specific_player_report_is_not_held(self):
+        entry = {
+            "title": "Lamine Yamal ruled out with ankle injury",
+            "description": "Barcelona confirm Lamine Yamal will miss two league games with ankle pain.",
+            "headline": "Lamine Yamal se pierde dos partidos por molestias",
+            "visual_subject": "Lamine Yamal",
+        }
+        self.assertFalse(editorial.news_missing_critical_details(entry))
+
+    def test_curated_musiala_photo_is_verified(self):
+        from curated_portraits import pick_curated
+        info = pick_curated("Jamal Musiala", "Jamal Musiala undergoes treatment at Bayern")
+        self.assertIsNotNone(info)
+        self.assertEqual(info["photographer"], "Bryan Berlin / WikiPortraits")
+        self.assertTrue(info["image_url"].startswith("https://upload.wikimedia.org/"))
 
     def test_untranslated_english_headline_is_rejected(self):
         self.assertTrue(editorial.headline_needs_translation(
