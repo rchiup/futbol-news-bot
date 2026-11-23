@@ -527,7 +527,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
     in_posting_window = True  # Football news can break at any hour.
     if publish_requested and not missing and in_posting_window:
         from publisher import publish_image, available_instagram_slots
-        remaining_meta_slots = available_instagram_slots()
+        remaining_meta_slots = available_instagram_slots(fallback_slots=max(0, 40 - rolling_post_count(queue, reference)))
         allowed_this_run = min(posts_per_run, remaining_meta_slots)
         # Publish grounded stories with a verified *person* photograph first.
         # Others still get an explicitly referential football-pitch photo.
