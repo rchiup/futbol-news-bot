@@ -98,6 +98,53 @@ class EditorialTests(unittest.TestCase):
                 self.assertEqual(len(editorial.load_queue()), 1)
 
 
+    def test_no_relevant_photo_blocks_automatic_publication(self):
+        """An unrelated stadium must never be posted for a FIFA news story."""
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            queue_path = root / "data" / "queue.json"
+            queue_path.parent.mkdir(parents=True, exist_ok=True)
+            entry = {
+                "id": "fifa-without-relevant-photo",
+                "title": "FIFA confirma la sede del Mundial Femenino 2035",
+                "headline": "FIFA confirma al Reino Unido como sede del Mundial Femenino",
+                "description": "La FIFA anunció al Reino Unido como sede del torneo en 2035.",
+                "source_url": "https://news.example.org/fifa-2035",
+                "status": "draft", "score": 34, "sport": "FUTBOL",
+                "category": "SELECCIONES",
+                "published_at": self.reference.isoformat(),
+                "caption": "La FIFA confirmó la sede para el Mundial Femenino.",
+            }
+            with patch.object(editorial, "ROOT", root), \
+                 patch.object(editorial, "QUEUE", queue_path), \
+                 patch.object(editorial, "PREVIEWS", root / "previews"), \
+                 patch.object(editorial, "fetch_candidates", return_value=[]), \
+                 patch.object(editorial, "make_card") as make, \
+                 patch("publisher.available_instagram_slots", return_value=3), \
+                 patch("publisher.publish_image") as publish, \
+                 patch.dict(os.environ, {
+                     "IG_USER_ID": "fake", "IG_ACCESS_TOKEN": "fake",
+                     "CLOUDINARY_CLOUD_NAME": "fake",
+                     "CLOUDINARY_API_KEY": "fake",
+                     "CLOUDINARY_API_SECRET": "fake",
+                     "ENABLE_PUBLISH": "true", "AUTO_APPROVE": "true",
+                     "GROQ_API_KEY": "", "OPENAI_API_KEY": "",
+                     "ENABLE_AI_ART": "false",
+                 }):
+                editorial.save_queue([entry])
+                def render_without_photo(item, **kwargs):
+                    item["photo_used"] = False
+                    item["ai_art_used"] = False
+                    return root / "preview.jpg"
+                make.side_effect = render_without_photo
+                result = editorial.run(reference=self.reference)
+                self.assertEqual(result["published"], 0)
+                publish.assert_not_called()
+                held = editorial.load_queue()
+                self.assertEqual(held[0]["status"], "draft")
+                self.assertEqual(held[0]["photo_deferred_reason"],
+                                 "no_relevant_verified_image")
+
     def test_untranslated_english_headline_is_rejected(self):
         self.assertTrue(editorial.headline_needs_translation(
             "Chelsea forward victim of robbery after defeat"))
