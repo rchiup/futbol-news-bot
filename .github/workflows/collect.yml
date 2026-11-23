@@ -5,7 +5,7 @@ on:
       - 'trigger/run-now.txt'
   workflow_dispatch:
   schedule:
-    - cron: "11,41 * * * *"
+    - cron: "7,22,37,52 * * * *"
 permissions:
   contents: write
 concurrency:
@@ -36,7 +36,10 @@ jobs:
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1-mini' }}
           BRAND_NAME: ${{ vars.BRAND_NAME || 'CHAO FELICEVICH' }}
           MAX_DRAFTS_PER_DAY: ${{ vars.MAX_DRAFTS_PER_DAY || '30' }}
-          MAX_DRAFTS_PER_RUN: ${{ vars.MAX_DRAFTS_PER_RUN || '3' }}
+          MAX_DRAFTS_PER_RUN: ${{ vars.MAX_DRAFTS_PER_RUN || '5' }}
+          MORNING_POSTS_PER_RUN: ${{ vars.MORNING_POSTS_PER_RUN || '3' }}
+          MORNING_MAX_POSTS: ${{ vars.MORNING_MAX_POSTS || '10' }}
+          POST_SPACING_SECONDS: ${{ vars.POST_SPACING_SECONDS || '12' }}
           MAX_POSTS_PER_DAY: ${{ vars.MAX_POSTS_PER_DAY || '30' }}
           ENABLE_PUBLISH: ${{ vars.ENABLE_PUBLISH || 'true' }}
           AUTO_APPROVE: ${{ vars.AUTO_APPROVE || 'true' }}
