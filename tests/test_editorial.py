@@ -93,6 +93,27 @@ class EditorialTests(unittest.TestCase):
         self.assertFalse(editorial.headline_needs_translation(
             "Chelsea: delantero sufre un robo tras derrota"))
 
+    def test_morning_bursts_use_chile_local_time(self):
+        from zoneinfo import ZoneInfo
+        local = ZoneInfo("America/Santiago")
+        at_0715 = datetime(2026, 11, 23, 7, 15, tzinfo=local).astimezone(timezone.utc)
+        at_0835 = datetime(2026, 11, 23, 8, 35, tzinfo=local).astimezone(timezone.utc)
+        at_1230 = datetime(2026, 11, 23, 12, 30, tzinfo=local).astimezone(timezone.utc)
+        self.assertEqual(editorial.morning_burst_settings(at_0715, []), (3, 3))
+        self.assertEqual(editorial.morning_burst_settings(at_0835, []), (3, 7))
+        self.assertEqual(editorial.morning_burst_settings(at_1230, []), (1, editorial.POSTS_PER_DAY))
+
+    def test_rendering_without_optional_ai_secret_does_not_generate_art(self):
+        with tempfile.TemporaryDirectory() as temp:
+            item = {"id": "no-art", "title": "Arsenal win football match", "category": "PARTIDOS"}
+            with patch.object(editorial, "PREVIEWS", Path(temp)), \
+                 patch.dict(os.environ, {"ENABLE_AI_ART": "false", "REPLICATE_API_TOKEN": ""}), \
+                 patch.object(editorial, "generate_illustration") as gen:
+                path = editorial.make_card(item, allow_ai=True)
+                gen.assert_not_called()
+                self.assertFalse(item["ai_art_used"])
+                self.assertTrue(path.exists())
+
     def test_rolling_24_hour_limit_crosses_midnight(self):
         reference = datetime(2026, 11, 23, 5, tzinfo=timezone.utc)
         queue = [
