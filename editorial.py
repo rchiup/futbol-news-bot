@@ -13,6 +13,7 @@ from datetime import datetime, timezone, timedelta
 from difflib import SequenceMatcher
 from html import unescape
 from pathlib import Path
+import time
 from time import struct_time, mktime
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 from calendar import timegm
@@ -31,9 +32,12 @@ FEEDS = json.loads((ROOT / "feeds.json").read_text(encoding="utf-8"))
 BRAND = os.getenv("BRAND_NAME", "FÚTBOL AL DÍA")
 MAX_AGE_HOURS = int(os.getenv("MAX_AGE_HOURS", "36"))
 MAX_POST_AGE_HOURS = max(1, min(24, int(os.getenv("MAX_POST_AGE_HOURS", "12"))))
-DRAFTS_PER_RUN = max(0, min(5, int(os.getenv("MAX_DRAFTS_PER_RUN", "3"))))
+DRAFTS_PER_RUN = max(0, min(5, int(os.getenv("MAX_DRAFTS_PER_RUN", "5"))))
 DRAFTS_PER_DAY = max(0, min(60, int(os.getenv("MAX_DRAFTS_PER_DAY", "30"))))
-POSTS_PER_DAY = max(0, min(60, int(os.getenv("MAX_POSTS_PER_DAY", "30"))))
+POSTS_PER_DAY = max(0, min(40, int(os.getenv("MAX_POSTS_PER_DAY", "30"))))
+MORNING_POSTS_PER_RUN = max(1, min(3, int(os.getenv("MORNING_POSTS_PER_RUN", "3"))))
+MORNING_MAX_POSTS = max(1, min(12, int(os.getenv("MORNING_MAX_POSTS", "10"))))
+POST_SPACING_SECONDS = max(0, min(30, int(os.getenv("POST_SPACING_SECONDS", "12"))))
 GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4.1-mini")
 PUBLISH_TZ = ZoneInfo(os.getenv("PUBLISH_TIMEZONE", "America/Santiago"))
@@ -344,6 +348,19 @@ def rolling_post_count(items: list[dict], reference: datetime) -> int:
     )
 
 
+def morning_burst_settings(reference: datetime, queue: list[dict]) -> tuple[int, int]:
+    """Allow 2–3 posts per run in Chilean mornings, spread through the morning.
+
+    The local daily and rolling-24h caps still apply to all publications.
+    """
+    local = reference.astimezone(PUBLISH_TZ)
+    if not 7 <= local.hour <= 11:
+        return 1, POSTS_PER_DAY
+    # Keep 07–11 bursts distributed instead of exhausting the quota at 07:00.
+    allowance = min(MORNING_MAX_POSTS, (local.hour - 6) * 3 + (1 if local.minute >= 30 else 0))
+    return MORNING_POSTS_PER_RUN, allowance
+
+
 def run(reference: datetime | None = None, session=None) -> dict:
     reference = reference or now_utc()
     queue = load_queue()
@@ -406,6 +423,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 break
 
     published_count = 0
+    posts_per_run, morning_allowance = morning_burst_settings(reference, queue)
     publish_requested = (os.getenv("ENABLE_PUBLISH", "").lower() == "true" and
                          os.getenv("AUTO_APPROVE", "").lower() == "true")
     required = ("IG_USER_ID", "IG_ACCESS_TOKEN", "CLOUDINARY_CLOUD_NAME",
@@ -418,8 +436,9 @@ def run(reference: datetime | None = None, session=None) -> dict:
     if publish_requested and not missing and in_posting_window:
         from publisher import publish_image
         for item in sorted(queue, key=lambda x: (x.get("score", 0), x.get("published_at", "")), reverse=True):
-            if (published_count >= 1
+            if (published_count >= posts_per_run
                     or today_count(queue, "posted_at", reference) >= POSTS_PER_DAY
+                    or today_count(queue, "posted_at", reference) >= morning_allowance
                     or rolling_post_count(queue, reference) >= min(POSTS_PER_DAY, 40)):
                 # Keep margin under Meta's lower documented 50-post limit.
                 break
@@ -447,6 +466,9 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 item["posted_at"] = iso(reference)
                 item["instagram_media_id"] = media_id
                 published_count += 1
+                # Avoid a burst of near-simultaneous API publications.
+                if published_count < posts_per_run and POST_SPACING_SECONDS:
+                    time.sleep(POST_SPACING_SECONDS)
             except Exception as exc:
                 # Retry manually after checking IG first: automatic retries risk duplicate posts.
                 item["status"] = "publish_error"
@@ -455,7 +477,9 @@ def run(reference: datetime | None = None, session=None) -> dict:
     save_queue(queue)
     stats = {"fresh_candidates": len(fresh), "queued_new": added, "ai_generated": generated,
              "preview_images": rendered, "published": published_count,
-             "total_queue": len(queue), "auto_publish_enabled": publish_requested and not missing}
+             "total_queue": len(queue), "per_run_cap": posts_per_run,
+             "morning_day_cap": morning_allowance,
+             "auto_publish_enabled": publish_requested and not missing}
     print("[SUMMARY] " + json.dumps(stats))
     return stats
 
