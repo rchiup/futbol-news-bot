@@ -23,6 +23,7 @@ import feedparser
 import requests
 from PIL import Image, ImageDraw, ImageFont
 from graphics import render_card
+from ai_art import generate_illustration
 from portraits import name_in_story, find_portrait, download_portrait, photo_attribution
 
 ROOT = Path(__file__).resolve().parent
@@ -38,6 +39,7 @@ POSTS_PER_DAY = max(0, min(40, int(os.getenv("MAX_POSTS_PER_DAY", "30"))))
 MORNING_POSTS_PER_RUN = max(1, min(3, int(os.getenv("MORNING_POSTS_PER_RUN", "3"))))
 MORNING_MAX_POSTS = max(1, min(12, int(os.getenv("MORNING_MAX_POSTS", "10"))))
 POST_SPACING_SECONDS = max(0, min(30, int(os.getenv("POST_SPACING_SECONDS", "12"))))
+AI_ART_MAX_DAILY = max(0, min(12, int(os.getenv("AI_ART_MAX_DAILY", "6"))))
 GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4.1-mini")
 PUBLISH_TZ = ZoneInfo(os.getenv("PUBLISH_TIMEZONE", "America/Santiago"))
@@ -311,7 +313,7 @@ def wrap_lines(draw, text: str, chosen_font, width: int) -> list[str]:
     return lines
 
 
-def make_card(item: dict) -> Path:
+def make_card(item: dict, allow_ai: bool = False) -> Path:
     """Render photo-led original card when exact-subject, rights-safe photo exists."""
     portrait_path = None
     subject = item.get("visual_subject", "")
@@ -328,11 +330,22 @@ def make_card(item: dict) -> Path:
                 portrait_path = dest if dest.exists() else download_portrait(item["portrait_info"], dest)
             except (requests.RequestException, OSError, ValueError) as exc:
                 print(f"[PHOTO] Download skipped: {type(exc).__name__}")
+    ai_used = False
+    if not portrait_path and allow_ai and os.getenv("ENABLE_AI_ART", "").lower() == "true":
+        try:
+            portrait_path = generate_illustration(
+                item, ROOT / "output" / "ai" / (item["id"] + ".jpg"),
+            )
+            item["ai_art_generated_at"] = iso(now_utc())
+            ai_used = True
+        except (requests.RequestException, OSError, ValueError, RuntimeError) as exc:
+            print(f"[ART] Creative illustration unavailable: {type(exc).__name__}")
+    item["ai_art_used"] = ai_used
     rendered = render_card(
         item, brand=BRAND, destination=PREVIEWS / (item["id"] + ".jpg"),
-        portrait_path=portrait_path,
+        portrait_path=portrait_path, ai_art=ai_used,
     )
-    item["portrait_used"] = bool(portrait_path)
+    item["portrait_used"] = bool(portrait_path) and not ai_used
     return rendered
 
 def today_count(items: list[dict], key: str, reference: datetime) -> int:
@@ -426,6 +439,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 break
 
     published_count = 0
+    generated_art_this_run = 0
     posts_per_run, morning_allowance = morning_burst_settings(reference, queue)
     publish_requested = (os.getenv("ENABLE_PUBLISH", "").lower() == "true" and
                          os.getenv("AUTO_APPROVE", "").lower() == "true")
@@ -463,7 +477,15 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 item["status"] = "expired"
                 continue
             try:
-                path = make_card(item)
+                can_generate_art = (
+                    os.getenv("ENABLE_AI_ART", "").lower() == "true"
+                    and bool(os.getenv("REPLICATE_API_TOKEN"))
+                    and generated_art_this_run < 2
+                    and today_count(queue, "ai_art_generated_at", reference) < AI_ART_MAX_DAILY
+                )
+                path = make_card(item, allow_ai=can_generate_art)
+                if item.get("ai_art_used"):
+                    generated_art_this_run += 1
                 caption = clean_public_caption(item["caption"])
                 if item.get("portrait_used"):
                     credit = photo_attribution(item.get("portrait_info"))
