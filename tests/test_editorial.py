@@ -114,6 +114,19 @@ class EditorialTests(unittest.TestCase):
                 self.assertFalse(item["ai_art_used"])
                 self.assertTrue(path.exists())
 
+    def test_overnight_posts_do_not_use_up_morning_slots(self):
+        from zoneinfo import ZoneInfo
+        local = ZoneInfo("America/Santiago")
+        current = datetime(2026, 11, 23, 8, 20, tzinfo=local).astimezone(timezone.utc)
+        posts = [
+            {"posted_at": datetime(2026, 11, 23, 1, 20, tzinfo=local).astimezone(timezone.utc).isoformat()},
+            {"posted_at": datetime(2026, 11, 23, 6, 50, tzinfo=local).astimezone(timezone.utc).isoformat()},
+            {"posted_at": datetime(2026, 11, 23, 7, 10, tzinfo=local).astimezone(timezone.utc).isoformat()},
+        ]
+        self.assertEqual(editorial.segment_post_count(posts, current, 0, 6), 2)
+        self.assertEqual(editorial.segment_post_count(posts, current, 7, 11), 1)
+        self.assertEqual(editorial.today_count(posts, "posted_at", current), 3)
+
     def test_rolling_24_hour_limit_crosses_midnight(self):
         reference = datetime(2026, 11, 23, 5, tzinfo=timezone.utc)
         queue = [
