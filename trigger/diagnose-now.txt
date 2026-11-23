@@ -19,3 +19,5 @@ Test source photo reuse under CC BY-SA and clearer Spanish captions without trun
 Test Openverse public photos from Flickr and restrictive license checks.
 
 Verify curated image bank and no API calls for previews.
+
+Run verified original JPG downloads through established diagnostic workflow.
