@@ -39,7 +39,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/llm_benchmark.json data/llm_benchmark_history.json data/llm_free_usage.json
+          git add data/llm_benchmark.json data/llm_benchmark_history.json data/llm_ranking.json
+          if [ -f data/llm_free_usage.json ]; then git add data/llm_free_usage.json; fi
           if ! git diff --cached --quiet; then
             git commit -m "Record fair free-only LLM sports-news benchmark"
             for attempt in 1 2 3 4; do
