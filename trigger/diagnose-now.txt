@@ -29,3 +29,5 @@ Try referer and wsrv.nl fallback on originally 429 rate-limited player photos.
 Try Commons thumbnail CDN before image proxy for the footballer photos.
 
 Final regression run: 12 reviewed player portraits, layered CDN, source-free captions.
+
+Verify photo-required publishing, Otamendi/Paredes and generic soccer-pitch photo.
