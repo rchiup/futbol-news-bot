@@ -26,7 +26,12 @@
     "category": "PARTIDOS",
     "score": 34,
     "queued_at": "2026-11-23T00:47:43.234772+00:00",
-    "status": "awaiting_ai"
+    "status": "published",
+    "headline": "Liverpool aplasta 4-0 a United y deja al nuevo técnico sin rebote",
+    "caption": "Liverpool venció 4-0 a Manchester United con diez jugadores en Anfield. El rojo recibió la expulsión de Leny Yoro a los ocho minutos y el equipo de Pochettino quedó 19.º, a un punto del descenso. El técnico aceptó la culpa pero reclamó una falta que habría generado penal. ¿Podrá el nuevo técnico darle la vuelta a la crisis? ⚽️\n\nFuente: The Guardian",
+    "ai_generated_at": "2026-11-23T02:37:17.762388+00:00",
+    "posted_at": "2026-11-23T02:37:17.762388+00:00",
+    "instagram_media_id": "17892389541687774"
   },
   {
     "id": "48cba9ff2478331e70d6",
@@ -53,7 +58,10 @@
     "category": "PARTIDOS",
     "score": 34,
     "queued_at": "2026-11-23T00:48:09.514188+00:00",
-    "status": "awaiting_ai"
+    "status": "draft",
+    "headline": "Barcelona supera 2-0 y vence 3-2 a Villarreal",
+    "caption": "El Barça dio vuelta al partido y ganó 3-2 al Villarreal después de ir 2-0 abajo. Los goles tempranos de Tajon Buchanan y Tani Oluwaseyi pusieron presión, y Lamine Yamal falló un penal antes del descanso. Con la victoria, el conjunto catalán recupera la ventaja de tres puntos en la lucha por la Liga. ¿Creen que este triunfo consolida al Barça como favorito de\n\nFuente: The Guardian",
+    "ai_generated_at": "2026-11-23T02:37:17.762388+00:00"
   },
   {
     "id": "72655a7e30548a7f504b",
@@ -80,7 +88,10 @@
     "category": "LESIONES",
     "score": 31,
     "queued_at": "2026-11-23T00:48:09.514188+00:00",
-    "status": "awaiting_ai"
+    "status": "draft",
+    "headline": "Desire Doué se operará de la rotura de ligamento cruzado",
+    "caption": "Desire Doué, delantero del PSG, se operará a finales de este mes tras romperse el ligamento cruzado anterior de la rodilla derecha. La lesión lo mantendrá alejado de los próximos partidos del club. ¿Cuánto tiempo estimas que tardará en volver al campo? 🏥⚽\n\nFuente: BBC Sport",
+    "ai_generated_at": "2026-11-23T02:37:17.762388+00:00"
   },
   {
     "id": "56a76a057fcc6d9987ac",
@@ -224,6 +235,42 @@
     "category": "ACTUALIDAD",
     "score": 25,
     "queued_at": "2026-11-23T02:28:07.513251+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "51f4174c57ded6d08366",
+    "title": "Pellegrino, tras la derrota de Lanús ante River: \"Nos tomaremos unos días para pensar en la continuidad\"",
+    "source_url": "https://www.ole.com.ar/lanus/mauricio-pellegrino-lanus-river-continuidad-tomaremos-dias_0_9qsZQFbU3T.html",
+    "source": "Olé Argentina",
+    "description": "Luego de la eliminación en el Clausura, el entrenador abrió la puerta de la duda sobre su futuro en el Granate: \"Vamos a descansar y después hablaremos\".",
+    "published_at": "2026-11-23T00:41:24+00:00",
+    "category": "PARTIDOS",
+    "score": 34,
+    "queued_at": "2026-11-23T02:37:17.762388+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "db418a806e10a5e87be2",
+    "title": "Con un Almada figura, River le ganó un partido chivo a Lanús y se metió en los cuartos del Torneo Clausura",
+    "source_url": "https://www.ole.com.ar/futbol-primera/river-vs-lanus-vivo-torneo-clausura-octavos-final-dia-hora-ver-tv-online-formaciones_0_MRF0JWz6I1.html",
+    "source": "Olé Argentina",
+    "description": "El equipo dirigido por Leonardo Ponzio sufrió de a tramos, pero supo sacar adelante el partido en el Monumental. Ahora espera por el ganador de Instituto-Huracán.",
+    "published_at": "2026-11-23T00:30:00+00:00",
+    "category": "PARTIDOS",
+    "score": 34,
+    "queued_at": "2026-11-23T02:37:17.762388+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "5fcf29b7d9d8e1832f7a",
+    "title": "Andrada: del aviso de Rivero dentro del área al gol para el triunfo de River",
+    "source_url": "https://www.ole.com.ar/futbol-primera/river-lanus-torneo-clausura-tobias-andrada-rivero_0_mFJD1ptYxe.html",
+    "source": "Olé Argentina",
+    "description": "El pibe contó lo que le dijo el defensor antes del tiro libre de Almada y cómo festejó su primer tanto en el Monumental. \"Ni siquiera vi cuando la pelota entró\", confesó.",
+    "published_at": "2026-11-23T00:55:33+00:00",
+    "category": "ACTUALIDAD",
+    "score": 28,
+    "queued_at": "2026-11-23T02:37:17.762388+00:00",
     "status": "awaiting_ai"
   }
 ]
