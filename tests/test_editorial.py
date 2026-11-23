@@ -98,8 +98,8 @@ class EditorialTests(unittest.TestCase):
                 self.assertEqual(len(editorial.load_queue()), 1)
 
 
-    def test_no_relevant_photo_blocks_automatic_publication(self):
-        """An unrelated stadium must never be posted for a FIFA news story."""
+    def test_no_relevant_photo_uses_original_graphic_and_publishes(self):
+        """Fallback has no unrelated photo and publishes the original graphic."""
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             queue_path = root / "data" / "queue.json"
@@ -137,13 +137,14 @@ class EditorialTests(unittest.TestCase):
                     item["ai_art_used"] = False
                     return root / "preview.jpg"
                 make.side_effect = render_without_photo
+                publish.return_value = "test-media-id"
                 result = editorial.run(reference=self.reference)
-                self.assertEqual(result["published"], 0)
-                publish.assert_not_called()
+                self.assertEqual(result["published"], 1)
+                publish.assert_called_once()
                 held = editorial.load_queue()
-                self.assertEqual(held[0]["status"], "draft")
-                self.assertEqual(held[0]["photo_deferred_reason"],
-                                 "no_relevant_verified_image")
+                self.assertEqual(held[0]["status"], "published")
+                self.assertEqual(held[0]["visual_mode"], "original_graphic")
+                self.assertNotIn("photo_deferred_reason", held[0])
 
     def test_untranslated_english_headline_is_rejected(self):
         self.assertTrue(editorial.headline_needs_translation(

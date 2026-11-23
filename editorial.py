@@ -509,7 +509,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
 
     published_count = 0
     duplicates_suppressed = 0
-    no_photo_deferred = 0
+    no_photo_deferred = 0  # Compatibility telemetry; no longer blocks posts
     generated_art_this_run = 0
     network_photo_lookups = 0
     posts_per_run, morning_allowance = morning_burst_settings(reference, queue)
@@ -577,13 +577,17 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 )
                 if item.get("photo_checked_at") and allow_network_photo:
                     network_photo_lookups += 1
-                # Never post a made-up stadium image, empty template or
-                # misleading generic sports photograph as if it were the news.
+                # The renderer makes an ORIGINAL sports graphic if no licensed
+                # photograph is available. Do not use scraped/copyrighted photos.
+                # Lack of a portrait should never prevent a valid factual post.
                 if not item.get("photo_used") and not item.get("ai_art_used"):
-                    no_photo_deferred += 1
-                    item["photo_deferred_reason"] = "no_relevant_verified_image"
-                    print(f"[PHOTO] Holding story without relevant image: {item['id']}")
-                    continue
+                    item["visual_mode"] = "original_graphic"
+                    item.pop("photo_deferred_reason", None)
+                    print(f"[PHOTO] Using original graphic for: {item['id']}")
+                else:
+                    item["visual_mode"] = (
+                        "licensed_photo" if item.get("photo_used") else "ai_illustration"
+                    )
                 if (os.getenv("REQUIRE_SUBJECT_PHOTO", "").lower() == "true"
                         and not item.get("portrait_used")):
                     print(f"[PHOTO] Waiting for a verified subject portrait: {item['id']}")
@@ -591,6 +595,9 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 if item.get("ai_art_used"):
                     generated_art_this_run += 1
                 caption = clean_public_caption(item["caption"])
+                if item.get("ai_art_used"):
+                    # Never pass synthetic images off as documentary photographs.
+                    caption += "\n\nImagen generada con IA (ilustración editorial)."
                 if item.get("photo_used"):
                     item["photo_credit_full"] = photo_attribution(item.get("portrait_info"))
                     credit = photo_attribution_compact(item.get("portrait_info"))

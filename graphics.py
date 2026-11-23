@@ -3,8 +3,7 @@
 Design principles: one strong subject image, one clear headline, one small
 category label and quiet branding. No fake location cues, random stadium photo,
 decorative football clipart, "LA NOTICIA" or "IMAGEN REFERENCIAL" watermarks.
-The fallback drawn from scratch is for previews only: editorial.py does not
-autopublish it.
+The fallback drawn from scratch is an original image safe to auto-publish.
 """
 from __future__ import annotations
 
@@ -87,7 +86,7 @@ def fit_lines(draw, value: str, limit: int, top_size=92, max_lines=4):
 
 
 def _original_background(accent):
-    """Original editorial pattern used exclusively in local previews."""
+    """Original editorial pattern for previews AND automatic publication."""
     canvas = Image.new("RGBA", (WIDTH, HEIGHT), (*BASE, 255))
     layer = ImageDraw.Draw(canvas, "RGBA")
     # A restrained spotlight and diagonal facets — NOT a random fake photo.
@@ -186,12 +185,7 @@ def render_card(item: dict, brand="CHAO FELICEVICH", destination: Path | None = 
 
     # One restrained accent mark, no decorative footer boilerplate.
     draw.rounded_rectangle((64, 1256, 175, 1263), radius=3, fill=(*accent, 245))
-    if ai_art:
-        # Real news cannot silently use AI art as apparent photographic evidence.
-        draw.rounded_rectangle((758, 165, 1014, 212), radius=10,
-                               fill=(5, 13, 22, 230))
-        draw.text((776, 177), "ILUSTRACIÓN IA", font=font(20),
-                  fill=(255, 255, 255, 255))
+    # AI-origin disclosure is handled in the caption, not burned into the image.
 
     canvas.convert("RGB").save(output, "JPEG", quality=91, optimize=True)
     return output

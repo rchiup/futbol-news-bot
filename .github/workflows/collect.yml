@@ -45,8 +45,9 @@ jobs:
           MORNING_POSTS_PER_RUN: ${{ vars.MORNING_POSTS_PER_RUN || '3' }}
           MORNING_MAX_POSTS: ${{ vars.MORNING_MAX_POSTS || '10' }}
           POST_SPACING_SECONDS: ${{ vars.POST_SPACING_SECONDS || '12' }}
-          ENABLE_AI_ART: 'false' # Replicate is usage-billed: no paid image calls
-          AI_ART_MAX_DAILY: ${{ vars.AI_ART_MAX_DAILY || '6' }}
+          REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
+          ENABLE_AI_ART: 'true' # Explicit opt-in; usage-billed, max 2 per run and 6/day
+          AI_ART_MAX_DAILY: '6' # Hard stop to limit paid generation
           MAX_POSTS_PER_DAY: '60'
           ENABLE_PUBLISH: ${{ vars.ENABLE_PUBLISH || 'true' }}
           AUTO_APPROVE: ${{ vars.AUTO_APPROVE || 'true' }}
