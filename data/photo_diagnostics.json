@@ -1,21 +1,18 @@
 {
-  "checked_at_utc": "2026-11-23T13:13:22.988709+00:00",
-  "found": 1,
+  "checked_at_utc": "2026-11-23T13:14:41.625400+00:00",
+  "found": 0,
   "results": [
     {
       "name": "Gianni Infantino",
       "valid_metadata": true,
-      "download_ok": true,
-      "render_ok": true,
+      "download_ok": false,
+      "render_ok": false,
       "credit_required": true,
       "filename": "Gianni Infantino - 55062516828.jpg",
       "license": "CC BY-SA 4.0",
       "artist": "Ricardo Stuckert",
-      "dimensions": [
-        703,
-        920
-      ],
-      "has_photographer_attribution": true
+      "error": "HTTPError",
+      "http_status": 429
     },
     {
       "name": "Lionel Messi",
