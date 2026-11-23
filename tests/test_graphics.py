@@ -37,6 +37,31 @@ class GraphicTests(unittest.TestCase):
                 self.assertEqual(a.size, (1080, 1350))
                 self.assertNotEqual(a.getpixel((790, 520)), b.getpixel((790, 520)))
 
+    def test_old_reference_photographs_are_rejected(self):
+        with tempfile.TemporaryDirectory() as folder:
+            photo = Path(folder) / "random-pitch.jpg"
+            Image.new("RGB", (850, 1150), "#336644").save(photo)
+            with self.assertRaisesRegex(ValueError, "Generic reference"):
+                render_card({"id": "bad-stadium", "category": "SELECCIONES",
+                             "headline": "FIFA anuncia Mundial Femenino 2035"},
+                            destination=Path(folder) / "out.jpg",
+                            portrait_path=photo, reference_photo=True)
+
+    def test_premium_photo_cover_is_full_bleed(self):
+        with tempfile.TemporaryDirectory() as folder:
+            photo = Path(folder) / "original.jpg"
+            Image.new("RGB", (850, 1150), "#b17045").save(photo)
+            out = Path(folder) / "designed.jpg"
+            render_card({"id": "clean-cover", "category": "ACTUALIDAD",
+                         "headline": "Messi confirma una noticia importante"},
+                        destination=out, portrait_path=photo)
+            with Image.open(out) as im:
+                self.assertEqual(im.size, (1080, 1350))
+                # The upper picture is true full-bleed, not a tiny side window.
+                r, g, b = im.getpixel((500, 380))
+                self.assertGreater(r, g)
+                self.assertGreater(g, b)
+
     def test_unusually_long_rss_title_does_not_crash_renderer(self):
         with tempfile.TemporaryDirectory() as folder:
             path = Path(folder) / "long-title.jpg"
