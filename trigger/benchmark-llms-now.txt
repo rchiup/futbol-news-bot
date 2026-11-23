@@ -1,3 +1,5 @@
 Run one fair free-only Groq Gemini Cerebras OpenRouter comparison for Chao Felicevich.
 
 Rerun after final free-only workflow wiring and scoring, 2026-11-23.
+
+2026-11-23: Compare active free LLM providers after repaired CI; only configured zero-cost keys. Do not publish benchmark output.
