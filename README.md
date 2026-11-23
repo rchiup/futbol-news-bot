@@ -32,6 +32,26 @@ short captions grounded ONLY in the RSS title and summary.
 
 No unlicensed celebrity or team photos/logos are used.
 
+### Foto protagonista (V3)
+
+El LLM sugiere el nombre exacto de la persona protagonista, y el sistema
+exige que aparezca de manera explícita en el título RSS. Luego resuelve
+su entidad futbolera única en Wikidata y examina la imagen P18 en Wikimedia
+Commons. **Solo usa fotos con metadatos CC0 o dominio público verificables**;
+si no aparece una imagen segura o la foto falla, muestra nuestro diseño
+gráfico original. Nunca copia fotos de Google, agencias ni medios.
+
+El sistema deja en la cola editorial los metadatos de la licencia y del
+archivo para auditoría. No coloca el nombre del medio noticioso ni su URL
+en el post o la gráfica. La disponibilidad de fotos de futbolistas actuales
+sin atribución obligatoria es limitada: por eso **no todas las publicaciones
+tendrán una foto**. Para ampliar cobertura, se necesitará contratar una
+fototeca con derechos o aportar retratos autorizados.
+
+Las gráficas de fútbol usan composiciones 4:5, titular protagonista,
+tratamiento editorial fotográfico y 5 acentos de categoría.
+
+
 **Public-facing content:** Posts and graphic cards do **not** display source names
 or raw news URLs. Source metadata is retained in the internal editorial queue for
 verification, duplicate detection and auditability. Headlines and summaries must
