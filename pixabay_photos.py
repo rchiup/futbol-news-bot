@@ -38,13 +38,13 @@ def tags_match_subject(tags: str, subject: str) -> bool:
     return len(wanted) >= 2 and all(word in available for word in wanted)
 
 
-def find_pixabay_photo(subject: str, session=requests) -> dict | None:
+def find_pixabay_photo(subject: str, sport: str = "FUTBOL", session=requests) -> dict | None:
     key = os.getenv("PIXABAY_API_KEY", "").strip()
     if not key or len(subject.split()) < 2:
         return None
     response = session.get(
         SEARCH_API,
-        params={"key": key, "q": subject, "image_type": "photo",
+        params={"key": key, "q": f"{subject} {sport}", "image_type": "photo",
                 "safesearch": "true", "per_page": 30, "order": "popular"},
         headers={"User-Agent": "ChaoFelicevichFootballBot/2.2 (free image search; GitHub)"},
         timeout=15,
