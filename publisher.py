@@ -102,6 +102,15 @@ def verify_instagram_account(session=requests) -> dict:
         params={"fields": "id,username"},
         headers=headers, timeout=30,
     )
+    if response.status_code >= 400:
+        try:
+            err = response.json().get("error", {})
+            code = err.get("code")
+            subcode = err.get("error_subcode")
+            token_hint = "token_invalid_or_expired" if code == 190 else "review_permissions_or_auth_mode"
+            print(f"[META_AUTH] Account check HTTP {response.status_code}; graph_code={code}; subcode={subcode}; hint={token_hint}")
+        except (ValueError, AttributeError):
+            print(f"[META_AUTH] Account check HTTP {response.status_code}; no structured error")
     response.raise_for_status()
     accounts = [response.json()]
     matched = next((item for item in accounts if str(item.get("id")) == ig_id), None)
