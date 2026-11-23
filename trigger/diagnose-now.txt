@@ -1,1 +1,3 @@
 Run and report V2 graphics / editorial unit tests.
+
+Validate source-free football posts and graphics after latest change.
