@@ -22,6 +22,14 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Probe Wikidata and Commons image availability without publishing
         run: python photo_probe.py
+      - name: Upload real portrait sample previews
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: licensed-football-portrait-samples
+          path: output/photo-proof/*-graphic.jpg
+          if-no-files-found: ignore
+          retention-days: 3
       - name: Save safe diagnostic results
         run: |
           git config user.name "github-actions[bot]"
