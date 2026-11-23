@@ -314,6 +314,8 @@ def run(reference: datetime | None = None, session=None) -> dict:
             break
         if item["score"] < 15 or is_duplicate(item, queue):
             continue
+        if len(item.get("description", "").strip()) < 30:
+            continue  # Headlines without context are too risky to autopublish.
         item.update({"queued_at": iso(reference), "status": "awaiting_ai"})
         queue.append(item)
         added += 1
@@ -325,6 +327,10 @@ def run(reference: datetime | None = None, session=None) -> dict:
             break
         published = parse_iso(item.get("published_at", ""))
         if item["status"] != "awaiting_ai" or published is None:
+            continue
+        if (len(item.get("description", "").strip()) < 30 or
+                any(term in item.get("title", "").lower() for term in BLOCKED_TOPICS + BLOCKED_FORMATS)):
+            item["status"] = "needs_review"
             continue
         # Never post a stale headline just because it sat in a queue.
         if not (-0.25 <= (reference - published).total_seconds() / 3600 <= MAX_AGE_HOURS):
