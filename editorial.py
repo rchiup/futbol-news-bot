@@ -210,9 +210,9 @@ def headline_needs_translation(headline: str) -> bool:
 
 def clean_public_caption(value: str) -> str:
     """Strip source credit lines and source links from all pending Instagram copy."""
-    value = re.sub(r"(?im)^\\s*(?:fuente|source)\\s*[:·-]\\s*.*$", "", value or "")
-    value = re.sub(r"https?://\\S+", "", value)
-    return re.sub(r"\\n{3,}", "\\n\\n", value).strip()
+    value = re.sub(r"(?im)^\s*(?:fuente|source)\s*[:·-]\s*.*$", "", value or "")
+    value = re.sub(r"https?://\S+", "", value)
+    return re.sub(r"\n{3,}", "\n\n", value).strip()
 
 
 def draft_with_ai(item: dict, session=None) -> tuple[str, str] | None:
