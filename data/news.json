@@ -6358,5 +6358,53 @@
     "source": "www.espn.com - NBA",
     "collected_at": "2026-11-23T15:20:48.345396+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "8d648537aa829064c7a8a27c46166cfb2ab59c024d4ed0c45b1ffe146af19b45",
+    "title": "Raya to miss Dortmund game but injury 'not serious'",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cjx2rqpr7l9lo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-23T15:41:23.378005+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "6679297888adea20a45b5379d3bccc924fd9fe6fad8c56de131f4be858d65624",
+    "title": "I've wanted to crawl under a rock and hide - Pressley",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cre3d9j5k4n8o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-23T15:41:23.378034+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "f5237be068956adc1979e89d8afe207cf9954a9777bbc63f3560c76577bf099f",
+    "title": "IFA 'positive' over upgrades needed for World Cup",
+    "url": "https://www.bbc.co.uk/sport/football/articles/crgqx3472depo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-23T15:41:23.378063+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "0d51057d1a58c92481cfab8aafe5acc1796aa378128ec0be1187c0f5db227045",
+    "title": "Gianni Infantino&#8217;s World Cup sell-off plans was to run for nearly 100 years",
+    "url": "https://talksport.com/football/world-cup/4726414/gianni-infantino-ffe-plans-world-cup-sell-off-100-years/",
+    "source": "Football News, Transfers, Opinion - talkSPORT",
+    "collected_at": "2026-11-23T15:41:24.799954+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "14a8791ac353004d8f515e501d5c28b77340429148b350f0598b298c0447447f",
+    "title": "Los fuertes palos de los jugadores de Argentinos",
+    "url": "https://www.ole.com.ar/argentinos/fuertes-palos-jugadores-argentinos_0_UFXVG1xkUs.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-23T15:41:25.057404+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "f45355cc4f4bbae75927756e1ab820f1339429b8d411878d9dd74571e0abdb19",
+    "title": "Por qué Boca evalúa pedir el cambio de fecha para el partido con Independiente Rivadavia",
+    "url": "https://www.ole.com.ar/boca-juniors/boca-evalua-pedir-cambio-fecha-partido-independiente-rivadavia-playoff_0_mJUBZc62GY.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-23T15:41:25.057419+00:00",
+    "status": "pending_review"
   }
 ]
