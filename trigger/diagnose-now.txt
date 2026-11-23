@@ -13,3 +13,5 @@ Check 15-minute schedule, morning bursts, Commons CC BY images and optional AI f
 Final morning segment quota regression suite (29 tests expected).
 
 Validate Commons fallback and plain-language editorial prompt.
+
+Test source photo reuse under CC BY-SA and clearer Spanish captions without truncation.
