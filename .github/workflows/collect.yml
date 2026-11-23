@@ -32,17 +32,21 @@ jobs:
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GROQ_MODEL: ${{ vars.GROQ_MODEL || 'openai/gpt-oss-120b' }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1-mini' }}
+          # EXCLUSIVELY free LLM providers. Paid OpenAI is not connected.
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_FREE_TIER_CONFIRMED: ${{ vars.GEMINI_FREE_TIER_CONFIRMED || 'false' }}
+          CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+          CEREBRAS_FREE_TIER_CONFIRMED: ${{ vars.CEREBRAS_FREE_TIER_CONFIRMED || 'false' }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          FREE_LLM_ORDER: ${{ vars.FREE_LLM_ORDER || 'groq,gemini,cerebras,openrouter' }}
           BRAND_NAME: ${{ vars.BRAND_NAME || 'CHAO FELICEVICH' }}
           MAX_DRAFTS_PER_DAY: '75'
           MAX_DRAFTS_PER_RUN: '5'
           MORNING_POSTS_PER_RUN: ${{ vars.MORNING_POSTS_PER_RUN || '3' }}
           MORNING_MAX_POSTS: ${{ vars.MORNING_MAX_POSTS || '10' }}
           POST_SPACING_SECONDS: ${{ vars.POST_SPACING_SECONDS || '12' }}
-          ENABLE_AI_ART: ${{ vars.ENABLE_AI_ART || 'true' }}
+          ENABLE_AI_ART: 'false' # Replicate is usage-billed: no paid image calls
           AI_ART_MAX_DAILY: ${{ vars.AI_ART_MAX_DAILY || '6' }}
-          REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
           MAX_POSTS_PER_DAY: '60'
           ENABLE_PUBLISH: ${{ vars.ENABLE_PUBLISH || 'true' }}
           AUTO_APPROVE: ${{ vars.AUTO_APPROVE || 'true' }}
@@ -66,7 +70,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/news.json data/queue.json data/engine_status.json data/health_v2.json
+          git add data/news.json data/queue.json data/engine_status.json data/health_v2.json data/llm_free_usage.json
           if ! git diff --cached --quiet; then
             git commit -m "Refresh football headlines and editorial queue"
             for attempt in 1 2 3 4; do
