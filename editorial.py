@@ -231,6 +231,32 @@ def clean_public_caption(value: str) -> str:
     return re.sub(r"\n{3,}", "\n\n", value).strip()
 
 
+def news_missing_critical_details(item: dict) -> bool:
+    """Reject listicles and vague opinion pieces that cannot explain who/what.
+
+    A headline claiming many suspended players must name at least one player
+    in source text; never make up a list. Vague controversy with no stated
+    incident is likewise not a factual breaking-news post.
+    """
+    title = str(item.get("title") or "").lower()
+    description = str(item.get("description") or "").lower()
+    headline = str(item.get("headline") or "").lower()
+    source_text = title + " " + description
+    if (re.search(r"\\b(?:which|what|who)\\b.*\\bplayers\\b", title)
+            and re.search(r"\\b(?:cards|suspension|suspended|yellow)\\b", source_text)
+            and not item.get("visual_subject")):
+        return True
+    if (re.search(r"\\b(?:\\d+|dieciocho|18)\\s+jugadores\\b", headline)
+            and not item.get("visual_subject")
+            and not re.search(r"\\b(?:including|incluyendo|entre ellos|among them)\\b", source_text)):
+        return True
+    if (re.search(r"\\b(?:controversy|controversia)\\b", title)
+            and re.search(r"\\b(?:turbulent week|questions about|raised questions)\\b", source_text)
+            and not re.search(r"\\b(?:said|announced|confirmed|suspended|fined|injured|accused|apologized)\\b", description)):
+        return True
+    return False
+
+
 def fit_caption(value: str, max_len: int = 360) -> str:
     """Keep complete sentences: never chop a news explanation mid-phrase."""
     value = clean_html(value)
@@ -340,11 +366,10 @@ def wrap_lines(draw, text: str, chosen_font, width: int) -> list[str]:
 
 def make_card(item: dict, allow_ai: bool = False, lookup: bool = False,
               network_lookup: bool = False) -> Path:
-    """Use only a news-relevant, identity-verified portrait.
+    """Prefer named, rights-verified photos over AI and original graphics.
 
-    Random sports fields cannot illustrate a specific FIFA, football match,
-    player, tennis or NBA story. When there is no real relevant picture, render
-    the clean no-photo layout for REVIEW ONLY, never for automatic publication.
+    Google results may help discover freely reusable images but do not grant
+    licensing rights. Do not substitute an unrelated photograph.
     """
     photo_path = None
     sport = item.get("sport", "FUTBOL")
@@ -461,6 +486,8 @@ def run(reference: datetime | None = None, session=None) -> dict:
             continue
         if len(item.get("description", "").strip()) < 30:
             continue  # Headlines without context are too risky to autopublish.
+        if news_missing_critical_details(item):
+            continue  # An unnamed player list or unspecific opinion is not news.
         item.update({"queued_at": iso(reference), "status": "awaiting_ai"})
         queue.append(item)
         added += 1
@@ -474,6 +501,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
         if item["status"] != "awaiting_ai" or published is None:
             continue
         if (len(item.get("description", "").strip()) < 30 or
+                news_missing_critical_details(item) or
                 any(term in item.get("title", "").lower() for term in BLOCKED_TOPICS + BLOCKED_FORMATS)):
             item["status"] = "needs_review"
             continue
@@ -511,6 +539,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
     duplicates_suppressed = 0
     no_photo_deferred = 0  # Compatibility telemetry; no longer blocks posts
     generated_art_this_run = 0
+    attempted_art_this_run = 0
     network_photo_lookups = 0
     posts_per_run, morning_allowance = morning_burst_settings(reference, queue)
     publish_requested = (os.getenv("ENABLE_PUBLISH", "").lower() == "true" and
@@ -550,6 +579,10 @@ def run(reference: datetime | None = None, session=None) -> dict:
             if len(item.get("description", "").strip()) < 50 or item.get("score", 0) < 25:
                 item["status"] = "needs_review"
                 continue
+            if news_missing_critical_details(item):
+                item["status"] = "needs_review"
+                print(f"[EDITOR] Missing essential names or story details: {item['id']}")
+                continue
             if headline_needs_translation(item.get("headline", "")):
                 item["status"] = "needs_review"
                 print(f"[EDITOR] Blocked untranslated headline: {item['id']}")
@@ -562,7 +595,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 can_generate_art = (
                     os.getenv("ENABLE_AI_ART", "").lower() == "true"
                     and bool(os.getenv("REPLICATE_API_TOKEN"))
-                    and generated_art_this_run < 2
+                    and attempted_art_this_run < 2
                     and today_count(queue, "ai_art_generated_at", reference) < AI_ART_MAX_DAILY
                 )
                 photo_is_unchecked = (
@@ -570,11 +603,13 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     (parse_iso(item.get("photo_checked_at", "")) or reference - timedelta(days=2))
                     < reference - timedelta(hours=12)
                 )
-                allow_network_photo = network_photo_lookups < 1 and photo_is_unchecked
+                allow_network_photo = network_photo_lookups < 3 and photo_is_unchecked
                 path = make_card(
                     item, allow_ai=can_generate_art, lookup=True,
                     network_lookup=allow_network_photo,
                 )
+                if can_generate_art:
+                    attempted_art_this_run += 1
                 if item.get("photo_checked_at") and allow_network_photo:
                     network_photo_lookups += 1
                 # The renderer makes an ORIGINAL sports graphic if no licensed
