@@ -54,5 +54,16 @@ class PublisherTests(unittest.TestCase):
         self.assertEqual(client.posts[0][1]["data"]["caption"], "An informative caption")
 
 
+    def test_can_choose_facebook_login(self):
+        client = FakeMeta()
+        with patch.dict(os.environ, {"IG_USER_ID": "1234567", "IG_ACCESS_TOKEN": "fake-token",
+                                     "META_AUTH_MODE": "facebook",
+                                     "META_GRAPH_VERSION": "v24.0"}):
+            with patch.object(publisher, "upload_public_image",
+                              return_value="https://res.cloudinary.com/demo/test.jpg"):
+                publisher.publish_image(Path("unused.jpg"), "Test", "abc", session=client)
+        self.assertTrue(client.posts[0][0].startswith("https://graph.facebook.com/"))
+        self.assertNotIn("access_token", client.posts[0][1]["data"])
+
 if __name__ == "__main__":
     unittest.main()
