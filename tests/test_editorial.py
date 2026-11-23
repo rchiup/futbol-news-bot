@@ -93,6 +93,13 @@ class EditorialTests(unittest.TestCase):
         self.assertFalse(editorial.headline_needs_translation(
             "Chelsea: delantero sufre un robo tras derrota"))
 
+    def test_caption_has_no_source_credit_or_url(self):
+        original = "¡Qué partidazo! ¿Quién fue la figura? ⚽\n\nFuente: BBC Sport\nhttps://example.com/news"
+        clean = editorial.clean_public_caption(original)
+        self.assertEqual(clean, "¡Qué partidazo! ¿Quién fue la figura? ⚽")
+        self.assertNotIn("BBC Sport", clean)
+        self.assertNotIn("http", clean)
+
     def test_groq_primary_uses_groq_endpoint_and_model(self):
         item = {"title": "Arsenal win important Champions League match",
                 "description": "Arsenal secured a victory.",
