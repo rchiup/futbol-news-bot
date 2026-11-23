@@ -53,9 +53,15 @@ jobs:
           MORNING_POSTS_PER_RUN: ${{ vars.MORNING_POSTS_PER_RUN || '3' }}
           MORNING_MAX_POSTS: ${{ vars.MORNING_MAX_POSTS || '10' }}
           POST_SPACING_SECONDS: ${{ vars.POST_SPACING_SECONDS || '12' }}
-          REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
-          ENABLE_AI_ART: 'true' # Explicit opt-in; usage-billed, max 2 per run and 6/day
-          AI_ART_MAX_DAILY: '6' # Hard stop to limit paid generation
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          ENABLE_HF_IMAGE: 'false' # HF free accounts do not have free recurring image credits
+          ENABLE_POLLINATIONS: 'false' # legacy anonymous endpoint is unreliable
+          AI_IMAGE_PROVIDER_ORDER: 'cloudflare,pollinations,huggingface'
+          ENABLE_AI_ART: 'true'
+          AI_ART_MAX_PER_RUN: '1'
+          AI_ART_MAX_DAILY: '8' # Daily generation cap, independent of provider
           MAX_POSTS_PER_DAY: '60'
           ENABLE_PUBLISH: ${{ vars.ENABLE_PUBLISH || 'true' }}
           AUTO_APPROVE: ${{ vars.AUTO_APPROVE || 'true' }}

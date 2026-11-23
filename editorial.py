@@ -23,7 +23,7 @@ import feedparser
 import requests
 from PIL import Image, ImageDraw, ImageFont
 from graphics import render_card
-from ai_art import generate_illustration
+from ai_art import generate_illustration, ai_image_provider_configured
 from portraits import (name_in_story, find_portrait, download_portrait,
                        photo_attribution, photo_attribution_compact)
 from openverse_photos import find_openverse_photo, download_openverse_photo
@@ -603,8 +603,8 @@ def run(reference: datetime | None = None, session=None) -> dict:
             try:
                 can_generate_art = (
                     os.getenv("ENABLE_AI_ART", "").lower() == "true"
-                    and bool(os.getenv("REPLICATE_API_TOKEN"))
-                    and attempted_art_this_run < 2
+                    and ai_image_provider_configured()
+                    and attempted_art_this_run < max(1, min(3, int(os.getenv("AI_ART_MAX_PER_RUN", "1"))))
                     and today_count(queue, "ai_art_generated_at", reference) < AI_ART_MAX_DAILY
                 )
                 photo_is_unchecked = (
@@ -675,8 +675,9 @@ def run(reference: datetime | None = None, session=None) -> dict:
              "total_queue": len(queue), "per_run_cap": posts_per_run,
              "morning_day_cap": morning_allowance,
              "auto_publish_enabled": publish_requested and not missing,
-             "ai_image_provider_configured": bool(os.getenv("REPLICATE_API_TOKEN", "").strip()),
+             "ai_image_provider_configured": ai_image_provider_configured(),
              "ai_art_enabled": os.getenv("ENABLE_AI_ART", "").lower() == "true",
+             "ai_image_provider_order": __import__("ai_art").enabled_providers(),
              "free_llm_providers": free_llm.providers(),
              "free_llm_metrics": free_llm.summary(ROOT / "data" / "llm_free_usage.json")}
     print("[SUMMARY] " + json.dumps(stats))

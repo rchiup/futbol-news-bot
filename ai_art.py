@@ -1,31 +1,46 @@
-"""Optional clearly marked AI football illustrations (Replicate).
+"""Optional original editorial illustrations via Cloudflare Workers AI.
 
-Disabled by default. Unlike factual photographs, these are creative magazine
-illustrations: never claim to portray actual match footage or documentary events.
-Replicate is usage-billed; requires explicit ENABLE_AI_ART=true and secret token.
+Uses Cloudflare's recurring free daily Neurons first, with strictly opt-in
+fallbacks. All outputs are validated and saved as 4:5 JPEG with no paid
+Replicate dependence. A generated scene is not real match photography.
 """
 from __future__ import annotations
 
+import base64
+import binascii
 import io
 import os
 import re
 import time
 from pathlib import Path
-from urllib.parse import urlsplit
+from urllib.parse import quote
 
 import requests
 from PIL import Image, ImageOps
 
-API = "https://api.replicate.com/v1/models/black-forest-labs/flux-schnell/predictions"
-ALLOWED_IMAGE_HOSTS = {"replicate.delivery"}
+MAX_IMAGE_BYTES = 9_000_000
+CF_MODEL = "@cf/black-forest-labs/flux-1-schnell"
+HF_MODEL = "black-forest-labs/FLUX.1-schnell"
+TARGET_SIZE = (864, 1080)
 
 
-def safe_output_url(value: str) -> bool:
-    url = urlsplit(str(value))
-    host = (url.hostname or "").lower()
-    return url.scheme == "https" and (
-        host in ALLOWED_IMAGE_HOSTS or host.endswith(".replicate.delivery")
-    )
+def enabled_providers() -> list[str]:
+    """Enabled in order; Hugging Face requires explicit opt-in as it isn't free."""
+    allowed = ("cloudflare", "pollinations", "huggingface")
+    order = os.getenv("AI_IMAGE_PROVIDER_ORDER", "cloudflare,pollinations,huggingface")
+    requested = [n.strip().lower() for n in order.split(",")]
+    available = {
+        "cloudflare": bool(os.getenv("CF_ACCOUNT_ID", "").strip()
+                           and os.getenv("CF_API_TOKEN", "").strip()),
+        "pollinations": os.getenv("ENABLE_POLLINATIONS", "false").lower() == "true",
+        "huggingface": (os.getenv("ENABLE_HF_IMAGE", "false").lower() == "true"
+                        and bool(os.getenv("HF_TOKEN", "").strip())),
+    }
+    return list(dict.fromkeys(n for n in requested if n in allowed and available[n]))
+
+
+def ai_image_provider_configured() -> bool:
+    return bool(enabled_providers())
 
 
 def build_prompt(item: dict) -> str:
@@ -57,51 +72,111 @@ def build_prompt(item: dict) -> str:
     )
 
 
-def generate_illustration(item: dict, path: Path, session=requests) -> Path:
-    token = os.getenv("REPLICATE_API_TOKEN", "").strip()
-    if not token or os.getenv("ENABLE_AI_ART", "").lower() != "true":
-        raise RuntimeError("AI art is disabled or Replicate token is missing")
-    headers = {"Authorization": f"Bearer {token}", "Prefer": "wait=35"}
+
+def _decode_response_image(response) -> bytes:
+    """Decode common API responses; reject non-images and oversized payloads."""
+    status = getattr(response, "status_code", 200)
+    if status != 200:
+        raise RuntimeError(f"HTTP {status}")
+    content = response.content
+    if len(content) > MAX_IMAGE_BYTES * 2:
+        raise ValueError("AI image response is too large")
+    ctype = str(getattr(response, "headers", {}).get("content-type", "")).lower()
+    if ctype.startswith("image/") or content.startswith((b"\xff\xd8\xff", b"\x89PNG\r\n\x1a\n", b"RIFF")):
+        return content
+    try:
+        obj = response.json()
+        if obj.get("success") is False:
+            raise ValueError("Provider returned no successful image")
+        payload = obj.get("result", obj)
+        encoded = payload.get("image") if isinstance(payload, dict) else None
+        if not isinstance(encoded, str):
+            raise ValueError("No base64 image in JSON")
+        if encoded.startswith("data:image/"):
+            encoded = encoded.split(",", 1)[-1]
+        return base64.b64decode(encoded, validate=True)
+    except (binascii.Error, KeyError, TypeError) as exc:
+        raise ValueError("Invalid base64 image") from exc
+
+
+def _cloudflare(prompt: str, session) -> bytes:
+    account = os.getenv("CF_ACCOUNT_ID", "").strip()
+    token = os.getenv("CF_API_TOKEN", "").strip()
+    if not re.fullmatch(r"[0-9a-fA-F]{32}", account):
+        raise ValueError("Cloudflare Account ID missing or malformed")
+    # Model is fixed to a known free-tier eligible image model.
+    endpoint = f"https://api.cloudflare.com/client/v4/accounts/{account}/ai/run/{CF_MODEL}"
     response = session.post(
-        API, headers=headers,
-        json={"input": {"prompt": build_prompt(item),
-                        "aspect_ratio": "4:5", "output_format": "webp",
-                        "num_outputs": 1, "num_inference_steps": 4,
-                        "disable_safety_checker": False}},
-        timeout=50,
+        endpoint,
+        headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
+        json={"prompt": prompt[:2048], "steps": 4},
+        timeout=(10, 60),
     )
-    if getattr(response, 'status_code', 200) >= 400:
-        # Never print the bearer token or a URL embedding credentials.
-        raise RuntimeError(f"Replicate HTTP {response.status_code}")
-    prediction = response.json()
-    for _ in range(6):
-        if prediction.get("status") == "succeeded" or prediction.get("output"):
-            break
-        if prediction.get("status") in {"failed", "canceled"}:
-            raise RuntimeError("AI illustration generation failed")
-        pred_id = str(prediction.get("id", ""))
-        if not re.fullmatch(r"[a-zA-Z0-9]{10,50}", pred_id):
-            raise RuntimeError("Missing valid AI prediction ID")
-        time.sleep(2)
-        status = session.get(f"https://api.replicate.com/v1/predictions/{pred_id}",
-                             headers={"Authorization": f"Bearer {token}"}, timeout=25)
-        if getattr(status, 'status_code', 200) >= 400:
-            raise RuntimeError(f"Replicate status HTTP {status.status_code}")
-        prediction = status.json()
-    output = prediction.get("output")
-    if isinstance(output, list):
-        output = output[0] if output else ""
-    if not safe_output_url(output):
-        raise RuntimeError("AI provider did not return an accepted output URL")
-    downloaded = session.get(output, timeout=25)
-    if getattr(downloaded, 'status_code', 200) >= 400:
-        raise RuntimeError(f"Replicate image HTTP {downloaded.status_code}")
-    if len(downloaded.content) > 9_000_000:
-        raise ValueError("AI output is too large")
-    with Image.open(io.BytesIO(downloaded.content)) as raw:
-        image = ImageOps.exif_transpose(raw).convert("RGB")
+    return _decode_response_image(response)
+
+
+def _huggingface(prompt: str, session) -> bytes:
+    # Paid/credit-dependent provider: disabled unless explicitly opted in.
+    model = os.getenv("HF_IMAGE_MODEL", HF_MODEL)
+    if not re.fullmatch(r"[a-zA-Z0-9._-]+/[a-zA-Z0-9._-]+", model):
+        raise ValueError("Invalid Hugging Face model ID")
+    response = session.post(
+        f"https://router.huggingface.co/hf-inference/models/{model}",
+        headers={"Authorization": f"Bearer {os.environ['HF_TOKEN']}",
+                 "Accept": "image/*"},
+        json={"inputs": prompt,
+              "parameters": {"width": 864, "height": 1080,
+                             "num_inference_steps": 4}},
+        timeout=(10, 70),
+    )
+    return _decode_response_image(response)
+
+
+def _pollinations(prompt: str, session) -> bytes:
+    # Optional provider; legacy no-key endpoint may be discontinued.
+    response = session.get(
+        "https://image.pollinations.ai/prompt/" + quote(prompt, safe=""),
+        params={"model": "flux", "width": 864, "height": 1080, "nologo": "true"},
+        headers={"Accept": "image/*"},
+        timeout=(10, 45),
+    )
+    return _decode_response_image(response)
+
+
+def _save_jpeg(raw_bytes: bytes, path: Path) -> Path:
+    if len(raw_bytes) > MAX_IMAGE_BYTES:
+        raise ValueError("AI output too large")
+    with Image.open(io.BytesIO(raw_bytes)) as source:
+        image = ImageOps.exif_transpose(source).convert("RGB")
+        image.load()
         if min(image.size) < 500:
             raise ValueError("AI output resolution too low")
+        image = ImageOps.fit(image, TARGET_SIZE, method=Image.Resampling.LANCZOS)
         path.parent.mkdir(parents=True, exist_ok=True)
         image.save(path, format="JPEG", quality=88, optimize=True)
     return path
+
+
+def generate_illustration(item: dict, path: Path, session=requests) -> Path:
+    if os.getenv("ENABLE_AI_ART", "").lower() != "true":
+        raise RuntimeError("AI art disabled")
+    providers = enabled_providers()
+    if not providers:
+        raise RuntimeError("No configured image providers")
+    prompt = build_prompt(item)
+    for name in providers:
+        try:
+            raw = {
+                "cloudflare": _cloudflare,
+                "pollinations": _pollinations,
+                "huggingface": _huggingface,
+            }[name](prompt, session)
+            output = _save_jpeg(raw, path)
+            item["ai_art_provider"] = name
+            print(f"[ART] Generated original illustration with {name}")
+            return output
+        except (requests.RequestException, ValueError, OSError, RuntimeError) as exc:
+            # Never print credentials or raw HTTP response URLs/bodies.
+            detail = str(exc) if isinstance(exc, RuntimeError) else type(exc).__name__
+            print(f"[ART] {name} unavailable: {detail[:65]}")
+    raise RuntimeError("All configured image providers failed")
