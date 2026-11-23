@@ -45,3 +45,5 @@ Check 2026-11-23 duplicate suppression Yamal Vargas picture bank and news novelt
 Validate novelty news tests after Chile red-card fix and Yamal injury, plus 16-player photos.
 
 Check free-only multi-LLM fallback and no paid calls, 2026-11-23.
+
+Rerun after final free-only workflow wiring and scoring, 2026-11-23.
