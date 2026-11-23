@@ -30,6 +30,10 @@ class FakeMeta:
         raise AssertionError(f"unexpected endpoint: {url}")
 
     def get(self, url, **kwargs):
+        if url.endswith("/me/assigned_instagram_accounts"):
+            return FakeResponse({"data": [{"id": "1234567", "username": "chaofelicevich"}]})
+        if url.endswith("/1234567"):
+            return FakeResponse({"id": "1234567", "username": "chaofelicevich"})
         return FakeResponse({"status_code": "FINISHED"})
 
 
@@ -64,6 +68,17 @@ class PublisherTests(unittest.TestCase):
                 publisher.publish_image(Path("unused.jpg"), "Test", "abc", session=client)
         self.assertTrue(client.posts[0][0].startswith("https://graph.facebook.com/"))
         self.assertNotIn("access_token", client.posts[0][1]["data"])
+
+    def test_refuses_incorrect_instagram_account(self):
+        client = FakeMeta()
+        with patch.dict(os.environ, {"IG_USER_ID": "1234567", "IG_ACCESS_TOKEN": "test",
+                                     "META_AUTH_MODE": "facebook",
+                                     "EXPECTED_IG_USERNAME": "different_account"}):
+            with patch.object(publisher, "upload_public_image") as uploader:
+                with self.assertRaises(RuntimeError):
+                    publisher.publish_image(Path("unused.jpg"), "Test", "abc", session=client)
+                uploader.assert_not_called()
+        self.assertEqual(len(client.posts), 0)
 
 if __name__ == "__main__":
     unittest.main()
