@@ -325,7 +325,8 @@ def make_card(item: dict, allow_ai: bool = False) -> Path:
     portrait_path = None
     subject = item.get("visual_subject", "")
     if subject and name_in_story(subject, item.get("title", ""), item.get("description", "")):
-        if "portrait_info" not in item:
+        if not item.get("portrait_info"):
+            # Retry old failed lookups: newly supported Commons licenses may now yield a photo.
             try:
                 item["portrait_info"] = find_portrait(subject)
             except (requests.RequestException, KeyError, ValueError) as exc:
