@@ -5,7 +5,8 @@ on:
       - 'trigger/run-now.txt'
   workflow_dispatch:
   schedule:
-    - cron: "7,22,37,52 * * * *"
+    # Shift off GitHub Actions top-of-quarter peaks; schedule can still be delayed.
+    - cron: "4,19,34,49 * * * *"
 permissions:
   contents: write
 concurrency:
