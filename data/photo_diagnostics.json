@@ -1,42 +1,51 @@
 {
-  "checked_at_utc": "2026-11-23T13:14:41.625400+00:00",
-  "found": 0,
+  "checked_at_utc": "2026-11-23T13:16:25.504073+00:00",
+  "found": 3,
   "results": [
     {
       "name": "Gianni Infantino",
       "valid_metadata": true,
-      "download_ok": false,
-      "render_ok": false,
+      "download_ok": true,
+      "render_ok": true,
       "credit_required": true,
       "filename": "Gianni Infantino - 55062516828.jpg",
       "license": "CC BY-SA 4.0",
       "artist": "Ricardo Stuckert",
-      "error": "HTTPError",
-      "http_status": 429
+      "dimensions": [
+        703,
+        920
+      ],
+      "has_photographer_attribution": true
     },
     {
       "name": "Lionel Messi",
       "valid_metadata": true,
-      "download_ok": false,
-      "render_ok": false,
+      "download_ok": true,
+      "render_ok": true,
       "credit_required": true,
       "filename": "Lionel Messi Argentina v Spain 19 July 2026-222.jpg",
       "license": "CC BY-SA 4.0",
       "artist": "Bryan Berlin",
-      "error": "HTTPError",
-      "http_status": 429
+      "dimensions": [
+        1600,
+        1067
+      ],
+      "has_photographer_attribution": true
     },
     {
       "name": "Kylian Mbappé",
       "valid_metadata": true,
-      "download_ok": false,
-      "render_ok": false,
+      "download_ok": true,
+      "render_ok": true,
       "credit_required": true,
       "filename": "Kylian Mbappe France v Senegal 16 June 2026-391 (cropped 2).jpg",
       "license": "CC BY-SA 4.0",
       "artist": "Bryan Berlin / WikiPortraits",
-      "error": "HTTPError",
-      "http_status": 429
+      "dimensions": [
+        1267,
+        1600
+      ],
+      "has_photographer_attribution": true
     },
     {
       "name": "Erling Haaland",
@@ -48,7 +57,7 @@
       "license": "CC BY-SA 4.0",
       "artist": "Jacek Stanislawek",
       "error": "HTTPError",
-      "http_status": 429
+      "http_status": 404
     }
   ]
 }
