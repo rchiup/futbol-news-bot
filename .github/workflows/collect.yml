@@ -27,6 +27,14 @@ jobs:
         run: python diagnose_v2.py
       - name: Archive raw headlines (non-blocking, maximum 90s)
         run: timeout 90s python bot.py || echo "RSS archive unavailable; editorial engine continues"
+      - name: Validate Meta account ID (never print secrets)
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: |
+          if ! [[ "$IG_USER_ID" =~ ^[0-9]{10,25}$ ]]; then
+            echo "::error::IG_USER_ID must be the numeric Instagram account ID, not an access token. Fix GitHub Actions Secrets."
+            exit 1
+          fi
       - name: Curate and generate Instagram image previews
         run: python editorial.py
         env:
