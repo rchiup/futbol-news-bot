@@ -25,7 +25,7 @@ SPANISH_CHILE = (
 EVENT_TERMS = {
     "injury": ("lesion", "baja", "dolencia", "molestia", "tobillo", "injur", "ankle",
                "sidelined", "out for", "miss ", "hospital", "operacion", "cirugia"),
-    "match": ("victoria", "derrota", "golea", "golazo", "defeat", "won ",
+    "match": ("victoria", "derrota", "golea", "golazo", "goal", "scores", "scored", "defeat", "won ",
               "beat ", "lost ", "loss ", "thrash", "aplasta", "4 0", "4-0"),
     "transfer": ("fichaj", "traspas", "negocia", "transfer", "signing", "rumor",
                  "renew", "renueva", "contrato", "loan"),
