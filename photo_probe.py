@@ -4,6 +4,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 from portraits import find_portrait
+from openverse_photos import find_openverse_photo
 
 SUBJECTS = ["Gianni Infantino", "Lionel Messi", "Cristiano Ronaldo", "Chloe Mustaki"]
 RESULT_PATH = Path("data/photo_diagnostics.json")
@@ -26,6 +27,23 @@ def main():
             status = getattr(getattr(exc, "response", None), "status_code", None)
             results.append({"name": name, "found": False, "error": type(exc).__name__,
                             "http_status": status})
+    # Second provider: safe-license Openverse photographs, no publishing.
+    for item in results:
+        if item.get("found"):
+            item["provider"] = "Wikimedia Commons"
+            continue
+        try:
+            photo = find_openverse_photo(item["name"])
+            item["openverse_found"] = photo is not None
+            if photo:
+                item["provider"] = "Openverse"
+                item["license"] = photo.get("license")
+                item["filename"] = photo.get("commons_filename")
+                item["credit_required"] = photo.get("credit_required")
+        except Exception as exc:
+            status = getattr(getattr(exc, "response", None), "status_code", None)
+            item["openverse_error"] = type(exc).__name__
+            item["openverse_http_status"] = status
     RESULT_PATH.parent.mkdir(parents=True, exist_ok=True)
     data = {"checked_at_utc": datetime.now(timezone.utc).isoformat(), "results": results}
     RESULT_PATH.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
