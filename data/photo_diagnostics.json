@@ -1,6 +1,6 @@
 {
-  "checked_at_utc": "2026-11-23T13:16:25.504073+00:00",
-  "found": 3,
+  "checked_at_utc": "2026-11-23T13:18:51.981273+00:00",
+  "found": 4,
   "results": [
     {
       "name": "Gianni Infantino",
@@ -50,14 +50,17 @@
     {
       "name": "Erling Haaland",
       "valid_metadata": true,
-      "download_ok": false,
-      "render_ok": false,
+      "download_ok": true,
+      "render_ok": true,
       "credit_required": true,
       "filename": "Erling Haaland 2023.jpg",
       "license": "CC BY-SA 4.0",
       "artist": "Jacek Stanislawek",
-      "error": "HTTPError",
-      "http_status": 404
+      "dimensions": [
+        960,
+        1200
+      ],
+      "has_photographer_attribution": true
     }
   ]
 }
