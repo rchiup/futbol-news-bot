@@ -58,7 +58,7 @@ def _check_commons_file(subject: str, qid: str, filename: str, session=requests)
         return None
     commons = _get_json(session, COMMONS_API, {
         "action": "query", "prop": "imageinfo", "titles": "File:" + filename,
-        "iiprop": "url|size|mime|extmetadata", "iiurlwidth": "1200",
+        "iiprop": "url|size|mime|extmetadata", "iiurlwidth": "1920",
     })
     for page in commons.get("query", {}).get("pages", {}).values():
         for record in page.get("imageinfo", []):
@@ -96,6 +96,7 @@ def _check_commons_file(subject: str, qid: str, filename: str, session=requests)
                 "license_url": license_url, "commons_filename": filename,
                 "photographer": artist if credited else "",
                 "credit_required": credited, "share_alike": share_alike,
+                "width": int(record.get("width", 0)), "height": int(record.get("height", 0)),
                 "file_page": "https://commons.wikimedia.org/wiki/File:" + quote(filename.replace(" ", "_")),
             }
     return None
@@ -204,7 +205,7 @@ def download_portrait(info: dict, destination: Path, session=requests) -> Path:
     thumb = ""
     if len(bits) == 3 and bits[0] and bits[1] and bits[2]:
         thumb = ("https://thumb.wikimedia.org/wikipedia/commons/thumb/"
-                 + "/".join(bits) + "/960px-" + bits[2])
+                 + "/".join(bits) + "/1920px-" + bits[2])
     headers = {
         "User-Agent": USER_AGENT,
         "Referer": "https://commons.wikimedia.org/",
@@ -239,7 +240,7 @@ def download_portrait(info: dict, destination: Path, session=requests) -> Path:
         if source.width < 400 or source.height < 400:
             raise ValueError("Portrait resolution too low")
         img = ImageOps.exif_transpose(source).convert("RGB")
-        img.thumbnail((1600, 1600))
+        img.thumbnail((1920, 1920))
         destination.parent.mkdir(parents=True, exist_ok=True)
         img.save(destination, "JPEG", quality=89, optimize=True)
     return destination
