@@ -1,37 +1,57 @@
 {
-  "checked_at_utc": "2026-11-23T12:43:12.206022+00:00",
+  "checked_at_utc": "2026-11-23T13:13:22.988709+00:00",
+  "found": 1,
   "results": [
     {
       "name": "Gianni Infantino",
-      "found": false,
-      "license": null,
-      "filename": null,
-      "credit_required": false,
-      "openverse_error": "HTTPError",
-      "openverse_http_status": 504
+      "valid_metadata": true,
+      "download_ok": true,
+      "render_ok": true,
+      "credit_required": true,
+      "filename": "Gianni Infantino - 55062516828.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Ricardo Stuckert",
+      "dimensions": [
+        703,
+        920
+      ],
+      "has_photographer_attribution": true
     },
     {
       "name": "Lionel Messi",
-      "found": false,
+      "valid_metadata": true,
+      "download_ok": false,
+      "render_ok": false,
+      "credit_required": true,
+      "filename": "Lionel Messi Argentina v Spain 19 July 2026-222.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Bryan Berlin",
       "error": "HTTPError",
-      "http_status": 429,
-      "openverse_error": "ReadTimeout",
-      "openverse_http_status": null
+      "http_status": 429
     },
     {
-      "name": "Cristiano Ronaldo",
-      "found": false,
+      "name": "Kylian Mbappé",
+      "valid_metadata": true,
+      "download_ok": false,
+      "render_ok": false,
+      "credit_required": true,
+      "filename": "Kylian Mbappe France v Senegal 16 June 2026-391 (cropped 2).jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Bryan Berlin / WikiPortraits",
       "error": "HTTPError",
-      "http_status": 429,
-      "openverse_error": "ReadTimeout",
-      "openverse_http_status": null
+      "http_status": 429
     },
     {
-      "name": "Chloe Mustaki",
-      "found": false,
+      "name": "Erling Haaland",
+      "valid_metadata": true,
+      "download_ok": false,
+      "render_ok": false,
+      "credit_required": true,
+      "filename": "Erling Haaland 2023.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Jacek Stanislawek",
       "error": "HTTPError",
-      "http_status": 429,
-      "openverse_found": false
+      "http_status": 429
     }
   ]
 }
