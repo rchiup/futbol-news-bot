@@ -3,7 +3,7 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-from curated_portraits import LIBRARY, pick_curated
+from curated_portraits import LIBRARY, pick_curated, generic_football_photo
 from portraits import photo_attribution
 import editorial
 
@@ -27,7 +27,7 @@ class CuratedPortraitTests(unittest.TestCase):
         self.assertIsNone(pick_curated("Lionel Messi", "Ronaldo marca", ""))
 
     def test_major_names_and_local_players(self):
-        self.assertEqual(len(LIBRARY), 12)
+        self.assertEqual(len(LIBRARY), 14)
         for title, expected in (
             ("Haaland marcó un doblete", "Erling Haaland"),
             ("Mbappé fue elegido la figura", "Kylian Mbappé"),
@@ -42,6 +42,40 @@ class CuratedPortraitTests(unittest.TestCase):
         ):
             with self.subTest(title=title):
                 self.assertEqual(pick_curated("", title, "")["subject"], expected)
+
+    def test_nicolas_otamendi_and_leandro_paredes_match_recent_articles(self):
+        otamendi = pick_curated("", "Mensaje de Otamendi a los hinchas de River", "")
+        self.assertIsNotNone(otamendi)
+        self.assertEqual(otamendi["subject"], "Nicolás Otamendi")
+        paredes = pick_curated("", "La llegada de Boca", "Paredes encabezó los festejos")
+        self.assertIsNotNone(paredes)
+        self.assertEqual(paredes["subject"], "Leandro Paredes")
+        self.assertIsNone(pick_curated("", "Paredes en una cancha de otro club", ""))
+
+    def test_fallback_is_real_soccer_photo_with_cc_credit(self):
+        photo = generic_football_photo()
+        self.assertTrue(photo["reference_only"])
+        self.assertIn("Football_pitch.jpg", photo["image_url"])
+        self.assertIn("LensEye Media", photo_attribution(photo))
+
+    def test_photo_first_publish_makes_photo_and_labels_generic(self):
+        with tempfile.TemporaryDirectory() as folder:
+            item = {"id": "generic-photo", "title": "Instituto recibe a River",
+                    "headline": "Instituto se enfrenta a River", "category": "PARTIDOS"}
+            from PIL import Image
+            fake = Path(folder) / "mock-photo.jpg"
+            Image.new("RGB", (800, 800), "#456633").save(fake)
+            with patch.object(editorial, "PREVIEWS", Path(folder)), \
+                 patch.object(editorial, "ROOT", Path(folder)), \
+                 patch.object(editorial, "download_portrait", return_value=fake), \
+                 patch.object(editorial, "find_portrait") as search:
+                out = editorial.make_card(item, lookup=True, network_lookup=False)
+                self.assertTrue(out.exists())
+                self.assertTrue(item["photo_used"])
+                self.assertTrue(item["reference_photo_used"])
+                self.assertFalse(item["portrait_used"])
+                self.assertEqual(item["portrait_info"]["photographer"], "LensEye Media")
+                search.assert_not_called()
 
     def test_draft_preview_must_not_make_network_photo_requests(self):
         with tempfile.TemporaryDirectory() as folder:
