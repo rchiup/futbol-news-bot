@@ -51,10 +51,11 @@ def publish_image(path: Path, caption: str, identifier: str, session=requests) -
         raise ValueError("Invalid META_GRAPH_VERSION")
     root = f"https://graph.facebook.com/{version}"
     image_url = upload_public_image(path, identifier, session=session)
+    auth_headers = {"Authorization": f"Bearer {token}"}
 
     response = session.post(
         f"{root}/{ig_id}/media",
-        data={"image_url": image_url, "caption": caption, "access_token": token},
+        data={"image_url": image_url, "caption": caption}, headers=auth_headers,
         timeout=35,
     )
     response.raise_for_status()
@@ -66,7 +67,7 @@ def publish_image(path: Path, caption: str, identifier: str, session=requests) -
     for _ in range(8):
         status_response = session.get(
             f"{root}/{creation_id}",
-            params={"fields": "status_code", "access_token": token},
+            params={"fields": "status_code"}, headers=auth_headers,
             timeout=25,
         )
         status_response.raise_for_status()
@@ -81,7 +82,7 @@ def publish_image(path: Path, caption: str, identifier: str, session=requests) -
 
     response = session.post(
         f"{root}/{ig_id}/media_publish",
-        data={"creation_id": creation_id, "access_token": token}, timeout=35,
+        data={"creation_id": creation_id}, headers=auth_headers, timeout=35,
     )
     response.raise_for_status()
     media_id = response.json().get("id")
