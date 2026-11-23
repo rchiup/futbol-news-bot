@@ -364,7 +364,8 @@ def run(reference: datetime | None = None, session=None) -> dict:
 
     budget = max(0, min(DRAFTS_PER_RUN, DRAFTS_PER_DAY - today_count(queue, "ai_generated_at", reference)))
     generated = 0
-    for item in queue:
+    for item in sorted(queue, key=lambda row: (row.get("score", 0),
+                                                 row.get("published_at", "")), reverse=True):
         if generated >= budget or not (os.getenv("GROQ_API_KEY") or os.getenv("OPENAI_API_KEY")):
             break
         published = parse_iso(item.get("published_at", ""))
