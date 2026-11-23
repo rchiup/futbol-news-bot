@@ -6,7 +6,7 @@ when there is enough real news, **not** made-up content to hit a quota.
 
 ## Estado actual: AUTOPUBLICACIÓN ACTIVADA
 
-Cuenta verificada: **@chaofelicevich**. Groq redacta, `graphics.py` crea artes propios y Meta publica por su API oficial. Se ejecuta cada **30 minutos** mediante GitHub Actions, sin requerir PC encendido. Meta: **60 publicaciones diarias como objetivo**, distribuidas en 48 turnos y 12 publicaciones adicionales durante el día. Solo publica noticias reales y frescas, y respeta la cuota vigente de la cuenta de Instagram. Si no hay noticias fiables, no inventa.
+Cuenta verificada: **@chaofelicevich**. Groq redacta, `graphics.py` crea artes propios y Meta publica por su API oficial. Se ejecuta cada **15 minutos** mediante GitHub Actions, sin requerir PC encendido. Meta: **60 publicaciones diarias como objetivo**, distribuidas en 48 turnos y 12 publicaciones adicionales durante el día. Solo publica noticias reales y frescas, y respeta la cuota vigente de la cuenta de Instagram. Si no hay noticias fiables, no inventa.
 
 - Run history: **Actions → Football News Engine**
 - Image previews: latest workflow run → **Artifacts → football-news-previews**
@@ -14,8 +14,25 @@ Cuenta verificada: **@chaofelicevich**. Groq redacta, `graphics.py` crea artes p
 - Editorial queue: data/queue.json
 
 By default, preview cards use the **original RSS headline** and status
-awaiting_ai. When GROQ_API_KEY (preferred) or OPENAI_API_KEY is configured, cards use Spanish headlines and
+awaiting_ai. When a configured FREE LLM provider (Groq / Gemini / Cerebras / OpenRouter Free) is available, cards use Spanish headlines and
 short captions grounded ONLY in the RSS title and summary.
+
+## LLM de texto — solo niveles gratuitos (23/11/2026)
+
+El bot usa `free_llm.py` y solo prueba proveedores configurados:
+
+1. **Groq (Free plan)**: `GROQ_API_KEY` ya funciona en la cuenta. Límite de seguridad local 75 solicitudes por día.
+2. **Gemini**: `GEMINI_API_KEY` de [Google AI Studio](https://aistudio.google.com/api-keys) y variable de Actions `GEMINI_FREE_TIER_CONFIRMED=true` **solo después de comprobar que el proyecto sigue en el plan Free sin facturación**. Usa `gemini-3.1-flash-lite`. Límite local 20 solicitudes diarias.
+3. **Cerebras Free**: `CEREBRAS_API_KEY` de [Cerebras Cloud](https://cloud.cerebras.ai/) y `CEREBRAS_FREE_TIER_CONFIRMED=true` **solo después de confirmar cuenta Free sin facturación**. Modelo `gpt-oss-120b`. Límite local 35 solicitudes diarias.
+4. **OpenRouter Free**: `OPENROUTER_API_KEY` de [OpenRouter](https://openrouter.ai/settings/keys). Usa **exclusivamente** `openrouter/free`, que enruta a modelos de precio cero; el bot prohíbe cambiar a otros modelos con costo. Límite local 40 solicitudes por día, por debajo de las 50 que OpenRouter documenta para cuentas gratuitas sin créditos.
+
+**No hay fallback a OpenAI de pago.** Aunque exista `OPENAI_API_KEY` en Secrets, el bot ya no la utiliza. Tampoco se activa Replicate/FLUX de imágenes: el workflow fuerza `ENABLE_AI_ART=false`, para evitar cargos inesperados.
+
+En [Actions Secrets](https://github.com/rchiup/futbol-news-bot/settings/secrets/actions), agrega las claves que falten sin enviarlas por chat. En [Actions Variables](https://github.com/rchiup/futbol-news-bot/settings/variables/actions), marca el nivel gratuito de Gemini/Cerebras únicamente tras confirmarlo. El orden es `groq,gemini,cerebras,openrouter`, configurable vía `FREE_LLM_ORDER`. Cada solicitud registra proveedor, latencia, éxito/error y puntaje heurístico de claridad en `data/llm_free_usage.json`.
+
+El workflow [Compare Free Sports News LLMs](https://github.com/rchiup/futbol-news-bot/actions/workflows/benchmark-free-llms.yml) compara a diario los modelos disponibles con **la misma noticia real** sin publicar sus pruebas. Guarda `data/llm_benchmark.json`, `data/llm_benchmark_history.json` y `data/llm_ranking.json`. El ranking no declara vencedor antes de contar con varias muestras, y **claridad no significa verificación factual**. Los hechos deben seguir sustentados en una fuente de noticias real.
+
+Los niveles gratuitos tienen restricciones propias y los cupos pueden variar: las APIs no pueden comprobar por sí solas si un proyecto externo activó facturación. Mantén Groq, Gemini y Cerebras en Free y sin facturación, y no habilites créditos automáticos. Si los cupos se agotan, las noticias se quedan en cola; el bot no compra capacidad.
 
 ## Cobertura multideporte (23/11/2026)
 
