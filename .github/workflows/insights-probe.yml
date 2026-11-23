@@ -1,0 +1,47 @@
+name: Check Instagram Insights Permissions
+on:
+  push:
+    paths:
+      - 'trigger/insights-now.txt'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: ig-insights-probe
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run safe Insights read-only tests
+        run: python -m unittest discover -s tests -v
+      - name: Check the existing IG token without posting anything
+        run: python insights_probe.py
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          META_AUTH_MODE: 'facebook'
+          META_GRAPH_VERSION: 'v27.0'
+      - name: Store redacted capabilities report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ig_insights_probe.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record redacted Instagram insights API capabilities"
+            for attempt in 1 2 3 4; do
+              git pull --rebase origin "main" &&
+              git push && break
+              if [ "$attempt" -eq 4 ]; then
+                exit 1
+              fi
+              sleep 4
+            done
+          fi
