@@ -321,7 +321,11 @@
     "category": "ACTUALIDAD",
     "score": 25,
     "queued_at": "2026-11-23T08:58:17.023219+00:00",
-    "status": "awaiting_ai"
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   },
   {
     "id": "706e5c81775ee1ba61b4",
@@ -420,9 +424,25 @@
     "headline": "Diego Flores se muestra tajante antes de enfrentar a River",
     "caption": "El técnico del Instituto, Diego Flores, fue concreto al declarar su postura antes del partido contra River. El club se prepara para los cuartos de final del Clausura, donde buscará sorprender al rival. ¿Creen que su actitud será clave para lograr la victoria? ⚽",
     "ai_generated_at": "2026-11-23T12:22:01.412383+00:00",
-    "portrait_info": null,
+    "portrait_info": {
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Football_pitch.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commons_filename": "Football pitch.jpg",
+      "photographer": "LensEye Media",
+      "credit_required": true,
+      "share_alike": true,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Football_pitch.jpg",
+      "photo_provider": "Curated Commons",
+      "verified": "2026-11-23",
+      "reference_only": true,
+      "subject": ""
+    },
     "ai_art_used": false,
-    "portrait_used": false
+    "portrait_used": false,
+    "photo_used": true,
+    "reference_photo_used": true,
+    "photo_checked_at": "2026-11-23T13:39:22.674653+00:00"
   },
   {
     "id": "32be351e0f2124f09920",
@@ -553,9 +573,24 @@
     "caption": "Lamine Yamal no jugará el partido de Champions del miércoles por una molestia en el tobillo. El delantero del Barcelona llega a la cita lesionado, lo que debilita al equipo en su próximo desafío. ¿Cómo afectará su ausencia al ataque del Barça? ⚽️",
     "ai_generated_at": "2026-11-23T13:36:16.939128+00:00",
     "ai_art_used": false,
-    "photo_used": false,
+    "photo_used": true,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": true,
+    "portrait_info": {
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Football_pitch.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commons_filename": "Football pitch.jpg",
+      "photographer": "LensEye Media",
+      "credit_required": true,
+      "share_alike": true,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Football_pitch.jpg",
+      "photo_provider": "Curated Commons",
+      "verified": "2026-11-23",
+      "reference_only": true,
+      "subject": ""
+    },
+    "photo_checked_at": "2026-11-23T13:39:20.316148+00:00"
   },
   {
     "id": "de5dec18bcc3e970dfcf",
@@ -573,9 +608,23 @@
     "caption": "Boca Juniors ganó la Copa Sudamericana, rompiendo una sequía de 20 años sin títulos continentales. El triunfo podría desencadenar la salida de jóvenes promesas que ya son objeto de interés europeo, lo que preocupa a la dirigencia. ¿Creen que el club podrá retener a sus estrellas? ⚽️",
     "ai_generated_at": "2026-11-23T13:36:16.939128+00:00",
     "ai_art_used": false,
-    "photo_used": false,
+    "photo_used": true,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": true,
+    "portrait_info": {
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Football_pitch.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commons_filename": "Football pitch.jpg",
+      "photographer": "LensEye Media",
+      "credit_required": true,
+      "share_alike": true,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Football_pitch.jpg",
+      "photo_provider": "Curated Commons",
+      "verified": "2026-11-23",
+      "reference_only": true,
+      "subject": ""
+    }
   },
   {
     "id": "87d3d6b3eeac6c754253",
@@ -628,9 +677,24 @@
     "caption": "AC Milan está siguiendo la situación de Virgil van Dijk, defensa del Liverpool. Si el club italiano avanza, sería un refuerzo clave para su línea defensiva. ¿Qué opinan los hinchas de este posible fichaje? ⚽",
     "ai_generated_at": "2026-11-23T13:36:16.939128+00:00",
     "ai_art_used": false,
-    "photo_used": false,
+    "photo_used": true,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": true,
+    "portrait_info": {
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Football_pitch.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commons_filename": "Football pitch.jpg",
+      "photographer": "LensEye Media",
+      "credit_required": true,
+      "share_alike": true,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Football_pitch.jpg",
+      "photo_provider": "Curated Commons",
+      "verified": "2026-11-23",
+      "reference_only": true,
+      "subject": ""
+    },
+    "photo_checked_at": "2026-11-23T13:39:21.815605+00:00"
   },
   {
     "id": "4f361a8da4492390c374",
