@@ -615,8 +615,12 @@ def run(reference: datetime | None = None, session=None) -> dict:
             except Exception as exc:
                 # Retry manually after checking IG first: automatic retries risk duplicate posts.
                 item["status"] = "publish_error"
-                item["error"] = str(exc)[:200]
-                print(f"[META] ERROR item={item['id']}: {str(exc)[:180]}")
+                # Never log request URLs: a malformed IG_USER_ID may be a token.
+                response = getattr(exc, "response", None)
+                code = getattr(response, "status_code", None)
+                diagnostic = f"http_{code}" if isinstance(code, int) else type(exc).__name__
+                item["error"] = diagnostic
+                print(f"[META] ERROR item={item['id']}: {diagnostic}")
     save_queue(queue)
     stats = {"fresh_candidates": len(fresh), "queued_new": added, "ai_generated": generated,
              "preview_images": rendered, "published": published_count,
