@@ -12,7 +12,7 @@ from __future__ import annotations
 import io
 import re
 from html import unescape
-from urllib.parse import quote
+from urllib.parse import quote, urlsplit
 import unicodedata
 from pathlib import Path
 
@@ -173,38 +173,47 @@ def photo_attribution(info: dict | None) -> str:
 
 
 def download_portrait(info: dict, destination: Path, session=requests) -> Path:
-    """Download verified Commons photo with Wikimedia-friendly headers.
+    """Download licence-verified Commons photo with layered public CDN fallback.
 
-    Image proxy fallback only processes already rights-checked upload.wikimedia
-    media URLs. Never submits user tokens, private file URLs or arbitrary hosts.
+    Referer avoids a known Wikimedia third-party 429 policy. Thumbnail and
+    proxy paths are only built from Wikimedia Commons upload URLs; never
+    process private data or arbitrary external URLs.
     """
     url = str(info.get("image_url", ""))
     if not url.startswith("https://upload.wikimedia.org/wikipedia/commons/"):
         raise ValueError("Untrusted Commons upload host")
+    parsed = urlsplit(url)
+    bits = parsed.path.removeprefix("/wikipedia/commons/").split("/")
+    thumb = ""
+    if len(bits) == 3 and bits[0] and bits[1] and bits[2]:
+        thumb = ("https://thumb.wikimedia.org/wikipedia/commons/thumb/"
+                 + "/".join(bits) + "/960px-" + bits[2])
     headers = {
         "User-Agent": USER_AGENT,
         "Referer": "https://commons.wikimedia.org/",
         "Accept": "image/jpeg,image/png,image/webp,*/*;q=0.8",
     }
     response = None
-    try:
-        response = session.get(url, headers=headers, timeout=18)
-        status = getattr(response, "status_code", 200)
-        if status not in (429, 502, 503, 504):
-            response.raise_for_status()
-        else:
-            response = None
-    except requests.RequestException:
-        response = None
+    # The original and preview CDNs are separate; the preview saves bandwidth.
+    for candidate in [url, thumb]:
+        if not candidate:
+            continue
+        try:
+            attempt = session.get(candidate, headers=headers, timeout=14)
+            status = getattr(attempt, "status_code", 200)
+            if status in (429, 502, 503, 504, 404):
+                continue
+            attempt.raise_for_status()
+            response = attempt
+            break
+        except requests.RequestException:
+            continue
     if response is None:
-        # Wikimedia has documented sporadic 429s for third-party image
-        # clients. wsrv.nl is a public caching/resizing proxy for PUBLIC
-        # images; the source and CC author/license stay unchanged.
         response = session.get(
             "https://wsrv.nl/",
-            params={"url": url, "w": 1200, "output": "jpg", "q": 85},
+            params={"url": url, "w": 1100, "output": "jpg", "q": 85},
             headers={"User-Agent": USER_AGENT},
-            timeout=25,
+            timeout=20,
         )
         response.raise_for_status()
     if len(response.content) > MAX_DOWNLOAD_BYTES:
