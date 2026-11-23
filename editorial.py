@@ -45,7 +45,11 @@ CATEGORIES = {
 }
 POPULAR = ("real madrid", "barcelona", "manchester", "arsenal", "liverpool", "chelsea",
            "bayern", "psg", "inter milan", "juventus", "messi", "ronaldo", "mbapp", "haaland",
-           "champions league", "premier league", "world cup", "mundial", "chile", "alexis")
+           "champions league", "premier league", "world cup", "mundial", "chile", "alexis",
+           "colo colo", "universidad de chile", "u. de chile", "universidad católica",
+           "católica", "cobreloa", "palestino", "huachipato", "everton", "boca", "river",
+           "racing", "independiente", "argentina", "brasil", "palmeiras", "flamengo",
+           "libertadores", "sudamericana", "liga de primera", "conmebol")
 BLOCKED_TOPICS = ("nfl", "nba", "nhl", "super bowl", "baseball", "cricket", "rugby",
                   "wwe", "formula 1", "f1 grand prix", "boxing", "ufc", "golf masters")
 BLOCKED_FORMATS = ("podcast", "player ratings", "0/10", "quiz", "live blog",
@@ -368,6 +372,9 @@ def run(reference: datetime | None = None, session=None) -> dict:
             if published_count >= 1 or today_count(queue, "posted_at", reference) >= POSTS_PER_DAY:
                 break
             if item.get("status") != "draft":
+                continue
+            if any(term in item.get("title", "").lower() for term in BLOCKED_TOPICS + BLOCKED_FORMATS):
+                item["status"] = "needs_review"
                 continue
             # Auto-feed only grounded, high-quality RSS stories, not empty-summary snippets.
             if len(item.get("description", "").strip()) < 50 or item.get("score", 0) < 25:
