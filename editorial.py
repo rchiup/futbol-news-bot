@@ -236,8 +236,9 @@ def draft_with_ai(item: dict, session=None) -> tuple[str, str] | None:
         "Habla como fan informado de Chile/Argentina, sin insultos ni argentinismos/chilenismos forzados. "
         "Estilo TNT Sports/TyC/433, pero con redacción propia: natural, emocionante y precisa. "
         "Escribe SOLO un JSON con claves headline, caption y visual_subject. "
-        "visual_subject debe ser el nombre COMPLETO y exacto de la persona futbolera principal "
-        "mencionada en el titular original; si no hay persona inequívoca, pon cadena vacía. "
+        "visual_subject: nombre completo de una persona futbolera real inequívocamente nombrada "
+        "en el titular O resumen original; jamás deduzcas nombre completo a partir de un apellido. "
+        "Si no aparece nombre y apellido juntos, pon cadena vacía. "
         "Trabaja EXCLUSIVAMENTE con el titular y resumen RSS proporcionados; "
         "NO inventes datos, resultados, citas, fechas, clubes ni confirmaciones. "
         "Si la fuente dice 'reportedly', 'could', 'rumour' o 'according to', conserva esa cautela. "
@@ -278,7 +279,7 @@ def draft_with_ai(item: dict, session=None) -> tuple[str, str] | None:
         raise ValueError("AI output headline appears untranslated; blocked pending retry")
     subject = clean_html(str(result.get("visual_subject", "")))[:75]
     # Anti-hallucination: NEVER use an AI-proposed name absent from the source title.
-    item["visual_subject"] = subject if name_in_story(subject, item["title"], "") else ""
+    item["visual_subject"] = subject if name_in_story(subject, item["title"], item.get("description", "")) else ""
     return headline, caption
 
 
@@ -314,7 +315,7 @@ def make_card(item: dict) -> Path:
     """Render photo-led original card when exact-subject, rights-safe photo exists."""
     portrait_path = None
     subject = item.get("visual_subject", "")
-    if subject and name_in_story(subject, item.get("title", ""), ""):
+    if subject and name_in_story(subject, item.get("title", ""), item.get("description", "")):
         if "portrait_info" not in item:
             try:
                 item["portrait_info"] = find_portrait(subject)
