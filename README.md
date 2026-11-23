@@ -26,7 +26,7 @@ El bot usa `free_llm.py` y solo prueba proveedores configurados:
 3. **Cerebras Free**: `CEREBRAS_API_KEY` de [Cerebras Cloud](https://cloud.cerebras.ai/) y `CEREBRAS_FREE_TIER_CONFIRMED=true` **solo después de confirmar cuenta Free sin facturación**. Modelo `gpt-oss-120b`. Límite local 35 solicitudes diarias.
 4. **OpenRouter Free**: `OPENROUTER_API_KEY` de [OpenRouter](https://openrouter.ai/settings/keys). Usa **exclusivamente** `openrouter/free`, que enruta a modelos de precio cero; el bot prohíbe cambiar a otros modelos con costo. Límite local 40 solicitudes por día, por debajo de las 50 que OpenRouter documenta para cuentas gratuitas sin créditos.
 
-**No hay fallback a OpenAI de pago.** Aunque exista `OPENAI_API_KEY` en Secrets, el bot ya no la utiliza. Tampoco se activa Replicate/FLUX de imágenes: el workflow fuerza `ENABLE_AI_ART=false`, para evitar cargos inesperados.
+**No hay fallback a OpenAI de pago.** Aunque exista `OPENAI_API_KEY` en Secrets, el bot ya no la utiliza. La generación de imágenes con Replicate está desactivada en código y workflow, aunque quede un token antiguo en Secrets.
 
 En [Actions Secrets](https://github.com/rchiup/futbol-news-bot/settings/secrets/actions), agrega las claves que falten sin enviarlas por chat. En [Actions Variables](https://github.com/rchiup/futbol-news-bot/settings/variables/actions), marca el nivel gratuito de Gemini/Cerebras únicamente tras confirmarlo. El orden es `groq,gemini,cerebras,openrouter`, configurable vía `FREE_LLM_ORDER`. Cada solicitud registra proveedor, latencia, éxito/error y puntaje heurístico de claridad en `data/llm_free_usage.json`.
 
@@ -62,21 +62,21 @@ ni publicación instantánea multideporte habilitada todavía.
 
 No unlicensed celebrity or team photos/logos are used.
 
-### Google Imágenes y dibujos IA
+### Fotos gratuitas y derechos de uso
 
-**Google Imágenes es un buscador, no una licencia**. Solo integramos retratos
-de protagonistas cuya identidad y licencia Creative Commons se verifican.
-Las fotos con licencia CC BY llevan el crédito fotográfico exigido por la
-licencia; la fuente informativa del artículo no se muestra.
+El bot busca fotografías reales del protagonista en Wikimedia Commons,
+Google Imágenes (solo descubrimiento con verificación posterior), Openverse
+y Pixabay. Agrega `PIXABAY_API_KEY` como GitHub Actions Secret para habilitar
+la búsqueda gratuita de Pixabay. Solo se aceptan resultados que nombren al
+protagonista en los metadatos y cumplan las comprobaciones de resolución y
+dominio. Se conserva el enlace de origen; el autor se acredita cuando aplica.
 
-La ilustración IA es opcional: si conectas `REPLICATE_API_TOKEN` en
-GitHub Secrets y activas la variable `ENABLE_AI_ART=true`, el bot puede
-crear posters artísticos cuando no consigue una foto legal. Muestra
-**ILUSTRACIÓN IA** sobre la imagen para no presentarla como foto documental.
-Replicate **cobra por imagen generada**; hay límites de 2 creaciones por
-ejecución y 6 al día por defecto. Sin esta configuración, no se generan
-gastos ni imágenes IA. Las imágenes de Google sin licencia comprobada no
-se descargan automáticamente.
+Google y Bing no son licencias: el bot no descarga fotos por aparecer en un
+buscador. La generación con Replicate/FLUX está desactivada tanto en el
+workflow como en el código editorial, aun si queda un token antiguo en Secrets.
+Si ninguna fuente entrega una foto pertinente con derechos verificables, se
+conserva una gráfica original para preview y la publicación queda retenida
+para revisión. No se usan fotos genéricas para aparentar que muestran el evento.
 
 ### Actualización de noticias nuevas (23/11/2026)
 
@@ -92,12 +92,13 @@ se descargan automáticamente.
   CC BY-SA 4.0) y Eduardo Vargas (Voltmetro, CC BY-SA 4.0) al banco
   de retratos de Wikimedia. No se publica una fotografía de otro evento
   presentándola como imagen del partido actual.
-- **Arte IA como respaldo opcional:** existe el generador editorial
-  Replicate FLUX (fútbol, tenis, golf, F1, NBA). Solo funciona cuando
-  `REPLICATE_API_TOKEN` está guardado como GitHub Secret; puede generar
-  cargos de Replicate, limitado a 2 ilustraciones por ejecución y 6 por día
-  por defecto. Todas las ilustraciones llevan la etiqueta «ILUSTRACIÓN IA».
-  Si no hay token, la publicación sin foto pertinente queda retenida.
+- **Fotos sin costo de generación:** búsqueda en Wikimedia Commons, Openverse
+  y Pixabay (requiere una clave API gratuita), con comprobaciones de identidad,
+  licencia, dominio y resolución. Google sirve para descubrir archivos de
+  Commons y la licencia se verifica en la fuente original.
+- **Sin cargos de Replicate:** el workflow y el código editorial no invocan
+  generación de imágenes. Sin una foto libre pertinente, se crea una gráfica
+  original para preview y la noticia queda retenida para revisión.
 - **Nunca inventar noticias:** Groq escribe titulares/captions únicamente
   sobre noticias RSS fechadas; el generador visual no crea hechos noticiosos.
   Las decisiones automáticas se guardan en `data/queue.json` y
@@ -186,7 +187,7 @@ Repository secrets.
 | --- | --- |
 | GROQ_API_KEY | Preferred text-generation key (GroqCloud free tier, usage limits apply) |
 | OPENAI_API_KEY | Optional paid OpenAI fallback if Groq key is absent |
-| REPLICATE_API_TOKEN | Optional **paid** illustrative AI generation, ignored unless enabled |
+| PIXABAY_API_KEY | Optional free API key for licensed player-photo discovery |
 | IG_USER_ID | Professional Instagram account ID |
 | IG_ACCESS_TOKEN | Token with Instagram publishing access |
 | CLOUDINARY_CLOUD_NAME | Media hosting destination |
@@ -205,8 +206,8 @@ Repository **variables** (not secrets):
 | MORNING_POSTS_PER_RUN | (legacy) | No longer used by the half-hour scheduler |
 | MORNING_MAX_POSTS | (legacy) | No longer used by the half-hour scheduler |
 | POST_SPACING_SECONDS | 12 | Spacing between multiple posts in one run |
-| ENABLE_AI_ART | false | Opt-in paid synthetic illustrations (off by default) |
-| AI_ART_MAX_DAILY | 6 | Safety cap when paid image generation enabled |
+| ENABLE_AI_ART | false | Image generation is disabled in code and workflow |
+| AI_ART_MAX_DAILY | 0 | No paid image generation |
 | MAX_POSTS_PER_DAY | 60 | Hard local cap on Meta publication |
 | ENABLE_PUBLISH | true | Publishing gate, configure variable false to pause |
 | AUTO_APPROVE | true | Second gate, configure false to pause |
