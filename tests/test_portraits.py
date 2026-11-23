@@ -121,6 +121,10 @@ class PortraitTests(unittest.TestCase):
                     denied = FakeResponse()
                     denied.status_code = 429
                     return denied
+                if url.startswith("https://thumb.wikimedia.org/"):
+                    denied_thumb = FakeResponse()
+                    denied_thumb.status_code = 429
+                    return denied_thumb
                 if url == "https://wsrv.nl/":
                     self.proxy_requested = True
                     self.assertion = kwargs["params"]["url"]
@@ -138,6 +142,36 @@ class PortraitTests(unittest.TestCase):
             self.assertTrue(downloaded.exists())
             self.assertTrue(client.proxy_requested)
             self.assertEqual(client.assertion, info["image_url"])
+
+    def test_official_thumbnail_rescues_original_rate_limit(self):
+        class ThumbnailFallback:
+            def __init__(self):
+                self.thumbnail_called = False
+                self.proxy_called = False
+            def get(self, url, **kwargs):
+                if url.startswith("https://upload.wikimedia.org/"):
+                    response = FakeResponse()
+                    response.status_code = 429
+                    return response
+                if url.startswith("https://thumb.wikimedia.org/"):
+                    self.thumbnail_called = True
+                    with io.BytesIO() as buf:
+                        Image.new("RGB", (700, 950), "#336677").save(buf, "JPEG")
+                        return FakeResponse(content=buf.getvalue())
+                if url == "https://wsrv.nl/":
+                    self.proxy_called = True
+                    raise AssertionError("Proxy should not be needed")
+                raise AssertionError("Untrusted download URL " + url)
+
+        client = ThumbnailFallback()
+        photo = {
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Gianni_Infantino_-_55062516828.jpg"
+        }
+        with tempfile.TemporaryDirectory() as folder:
+            dest = download_portrait(photo, Path(folder) / "out.jpg", session=client)
+            self.assertTrue(dest.exists())
+            self.assertTrue(client.thumbnail_called)
+            self.assertFalse(client.proxy_called)
 
     def test_wrong_person_is_rejected(self):
         self.assertIsNone(find_portrait("Lionel Ronaldo", session=WikimediaStub()))
