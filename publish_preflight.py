@@ -78,11 +78,12 @@ def check(session=requests):
         config = record.get("config") or {}
         result["quota"] = {"ok": True, "quota_usage": record.get("quota_usage"),
                            "quota_total": config.get("quota_total")}
-    result["status"] = (
-        "ready" if result["account_match"] and
-                   result["assigned_account"].get("target_found") else
-        "publishing_auth_problem"
-    )
+    # Facebook User Tokens may return zero Business Manager assigned accounts
+    # even while they can read and publish to their exact linked IG profile.
+    # The publisher uses direct id+username verification for this reason.
+    result["assigned_account"]["not_required_for_user_token"] = True
+    result["status"] = ("ready" if result["account_match"]
+                        else "publishing_auth_problem")
     return result
 
 
