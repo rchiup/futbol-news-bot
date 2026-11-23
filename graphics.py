@@ -1,7 +1,10 @@
-"""Original, football-first Instagram graphics (1080x1350).
+"""Premium photo-first 4:5 sports news covers for Chao Felicevich.
 
-No third-party photography or club logos are embedded. The graphic language
-uses our own football-pitch geometry and matchday-style broadcast treatments.
+Design principles: one strong subject image, one clear headline, one small
+category label and quiet branding. No fake location cues, random stadium photo,
+decorative football clipart, "LA NOTICIA" or "IMAGEN REFERENCIAL" watermarks.
+The fallback drawn from scratch is for previews only: editorial.py does not
+autopublish it.
 """
 from __future__ import annotations
 
@@ -12,31 +15,31 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 
 WIDTH, HEIGHT = 1080, 1350
-BASE = (7, 18, 30)
+BASE = (8, 16, 27)
 THEMES = {
-    "FICHAJES": ("MERCADO DE PASES", (146, 104, 255)),
-    "PARTIDOS": ("EN LA CANCHA", (255, 197, 53)),
-    "SELECCIONES": ("FÚTBOL MUNDIAL", (58, 223, 168)),
-    "LESIONES": ("ACTUALIDAD", (255, 113, 103)),
-    "ACTUALIDAD": ("FÚTBOL AL DÍA", (55, 199, 251)),
-    "TENIS": ("TENIS", (190, 234, 86)),
-    "GOLF": ("GOLF", (111, 208, 151)),
-    "F1": ("FÓRMULA 1", (241, 91, 97)),
-    "NBA": ("NBA", (246, 150, 76)),
+    "FICHAJES": ("MERCADO", (180, 140, 255)),
+    "PARTIDOS": ("PARTIDOS", (247, 206, 75)),
+    "SELECCIONES": ("SELECCIONES", (53, 229, 166)),
+    "LESIONES": ("ACTUALIDAD", (255, 117, 105)),
+    "ACTUALIDAD": ("ÚLTIMA HORA", (88, 212, 234)),
+    "TENIS": ("TENIS", (187, 237, 100)),
+    "GOLF": ("GOLF", (109, 208, 155)),
+    "F1": ("FÓRMULA 1", (255, 100, 92)),
+    "NBA": ("NBA", (255, 160, 100)),
 }
-FONT_BOLD = [
+FONTS_BOLD = (
     "/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Bold.ttf",
     "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
     "DejaVuSans-Bold.ttf",
-]
-FONT_NORMAL = [
+)
+FONTS_NORMAL = (
     "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
     "DejaVuSans.ttf",
-]
+)
 
 
-def font(size: int, bold=True):
-    for candidate in (FONT_BOLD if bold else FONT_NORMAL):
+def font(size: int, bold: bool = True):
+    for candidate in (FONTS_BOLD if bold else FONTS_NORMAL):
         try:
             return ImageFont.truetype(candidate, size)
         except OSError:
@@ -44,252 +47,151 @@ def font(size: int, bold=True):
     return ImageFont.load_default()
 
 
-def fit_lines(draw, value: str, limit: int, top_size=90, max_lines=5):
-    """Fit a compact title without chopping sentences in the image."""
-    value = re.sub(r"\s+", " ", value).strip().upper()
-    for size in range(top_size, 37, -2):
-        face = font(size)
-        words = value.split()
-        lines, line = [], ""
-        for word in words:
-            trial = (line + " " + word).strip()
-            if draw.textbbox((0, 0), trial, font=face)[2] <= limit:
-                line = trial
-            else:
-                if line:
-                    lines.append(line)
-                line = word
-        if line:
-            lines.append(line)
-        if len(lines) <= max_lines and all(draw.textbbox((0, 0), s, font=face)[2] <= limit for s in lines):
-            return face, lines
-    # Oversized RSS headlines are previews only; shrink and safely ellipsize.
-    face = font(38)
-    words = value.split()
-    while words:
-        short = " ".join(words) + "…"
-        lines, line = [], ""
-        for word in short.split():
-            trial = (line + " " + word).strip()
-            if draw.textbbox((0, 0), trial, font=face)[2] <= limit:
-                line = trial
-            else:
-                if line:
-                    lines.append(line)
-                line = word
-        if line:
-            lines.append(line)
-        if len(lines) <= max_lines and all(draw.textbbox((0, 0), s, font=face)[2] <= limit for s in lines):
-            return face, lines
-        words.pop()
-    return face, ["TITULAR EN REVISIÓN"]
+def _wrap(draw, words, chosen_font, limit):
+    lines, current = [], ""
+    for word in words:
+        candidate = (current + " " + word).strip()
+        if draw.textbbox((0, 0), candidate, font=chosen_font)[2] <= limit:
+            current = candidate
+        else:
+            if current:
+                lines.append(current)
+            current = word
+    if current:
+        lines.append(current)
+    return lines
 
 
-def _pitch(draw: ImageDraw.ImageDraw, accent: tuple[int, int, int], offset: int):
-    """Abstract football pitch details, no team intellectual property."""
-    faint = (*accent, 47)
-    draw.rounded_rectangle((80, 330, 1005, 1020), radius=20, outline=faint, width=3)
-    draw.line((542, 330, 542, 1020), fill=faint, width=3)
-    draw.ellipse((355, 510, 730, 885), outline=faint, width=3)
-    draw.rectangle((80, 470, 235, 875), outline=faint, width=3)
-    draw.rectangle((850, 470, 1005, 875), outline=faint, width=3)
-    for i in range(6):
-        x = 85 + i * 225 + (offset % 45)
-        draw.line((x, 300, x + 320, 900), fill=(*accent, 16), width=4)
+def fit_lines(draw, value: str, limit: int, top_size=92, max_lines=4):
+    """Shrink text to a readable 3–4 lines without silently changing meaning."""
+    words = re.sub(r"\s+", " ", value or "").strip().upper().split()
+    if not words:
+        return font(70), ["NOTICIA EN REVISIÓN"]
+    for size in range(top_size, 42, -2):
+        candidate = font(size)
+        lines = _wrap(draw, words, candidate, limit)
+        if len(lines) <= max_lines and all(
+            draw.textbbox((0, 0), line, font=candidate)[2] <= limit
+            for line in lines
+        ):
+            return candidate, lines
+    # Preview-only fallback. Publishing checks headline length upstream.
+    candidate = font(44)
+    short = words[:]
+    while short:
+        lines = _wrap(draw, short + ["…"], candidate, limit)
+        if len(lines) <= max_lines:
+            return candidate, lines
+        short.pop()
+    return candidate, ["NOTICIA EN REVISIÓN"]
 
 
-def _sports_illustration(layer: Image.Image, accent, category: str):
-    """Original vector motifs for non-football sports; no licensed photos or logos."""
-    draw = ImageDraw.Draw(layer, "RGBA")
-    color = (*accent, 95)
-    if category == "TENIS":
-        # Court + net, seen from above.
-        draw.rounded_rectangle((180, 345, 950, 1015), radius=12, outline=color, width=7)
-        draw.line((565, 345, 565, 1015), fill=color, width=5)
-        draw.line((180, 680, 950, 680), fill=color, width=7)
-        draw.line((325, 345, 325, 1015), fill=(*accent, 45), width=4)
-        draw.line((805, 345, 805, 1015), fill=(*accent, 45), width=4)
-        draw.ellipse((725, 485, 910, 670), outline=(*accent, 170), width=11)
-        draw.arc((740, 495, 895, 665), 45, 225, fill=(*accent, 170), width=5)
-    elif category == "GOLF":
-        # Flagstick, putting green and golf ball.
-        draw.ellipse((170, 700, 1030, 1070), outline=color, width=7)
-        draw.line((740, 345, 740, 930), fill=(*accent, 160), width=9)
-        draw.polygon([(744, 365), (920, 440), (744, 515)], fill=(*accent, 100))
-        draw.ellipse((510, 790, 630, 910), outline=(*accent, 160), width=10)
-    elif category == "F1":
-        # Sweeping racing circuit curves; not any official track or logo.
-        draw.arc((100, 345, 1070, 1045), 0, 320, fill=color, width=22)
-        draw.arc((185, 425, 960, 945), 0, 320, fill=(*accent, 40), width=9)
-        for i in range(5):
-            draw.line((240 + i * 96, 920, 340 + i * 96, 980),
-                      fill=(*accent, 75), width=10)
-    elif category == "NBA":
-        # Basketball and simplified hardwood court.
-        draw.rounded_rectangle((170, 420, 980, 1010), radius=28, outline=color, width=8)
-        draw.ellipse((560, 450, 950, 840), outline=(*accent, 130), width=10)
-        draw.line((755, 450, 755, 840), fill=(*accent, 100), width=8)
-        draw.arc((560, 450, 950, 840), 45, 225, fill=(*accent, 90), width=9)
-        draw.ellipse((320, 630, 470, 780), outline=(*accent, 120), width=7)
+def _original_background(accent):
+    """Original editorial pattern used exclusively in local previews."""
+    canvas = Image.new("RGBA", (WIDTH, HEIGHT), (*BASE, 255))
+    layer = ImageDraw.Draw(canvas, "RGBA")
+    # A restrained spotlight and diagonal facets — NOT a random fake photo.
+    for r in range(470, 40, -12):
+        k = 470 - r
+        alpha = max(0, min(12, int(10 * k / 470)))
+        layer.ellipse((580-r, 340-r, 580+r, 340+r), fill=(*accent, alpha))
+    layer.polygon([(650, 0), (1080, 0), (1080, 980), (935, 750)],
+                  fill=(*accent, 27))
+    layer.line((750, 0, 1080, 330), fill=(*accent, 65), width=6)
+    return canvas
 
 
-def _illustration(layer: Image.Image, accent, seed: int, category: str):
-    draw = ImageDraw.Draw(layer, "RGBA")
-    _pitch(draw, accent, seed)
-    cx, cy, r = (780, 590, 265)
-    # Branded abstract football on an illuminated pitch.
-    draw.ellipse((cx-r-35, cy-r-35, cx+r+35, cy+r+35), fill=(*accent, 13))
-    draw.ellipse((cx-r, cy-r, cx+r, cy+r), fill=(7, 18, 30, 208),
-                 outline=(*accent, 195), width=7)
-    for k in range(10):
-        t = 2 * math.pi * k / 10 + (seed % 8) * .01
-        ix, iy = cx + math.cos(t) * 110, cy + math.sin(t) * 110
-        ox, oy = cx + math.cos(t) * 255, cy + math.sin(t) * 255
-        draw.line([(ix, iy), (ox, oy)], fill=(*accent, 85), width=6)
-    polygon = []
-    for i in range(5):
-        a = (math.pi * 2 * i / 5) - math.pi / 2
-        polygon.append((cx + 99 * math.cos(a), cy + 99 * math.sin(a)))
-    draw.polygon(polygon, fill=(*accent, 135))
-    draw.line(polygon + polygon[:1], fill=(255, 255, 255, 160), width=5, joint="curve")
-    if category == "FICHAJES":
-        for i in range(4):
-            x = 62 + i * 82
-            draw.polygon([(x, 465), (x + 33, 514), (x, 563), (x + 20, 563),
-                          (x + 53, 514), (x + 20, 465)], fill=(*accent, 55))
-    elif category == "PARTIDOS":
-        draw.arc((180, 310, 1000, 1100), start=195, end=345, fill=(*accent, 122), width=10)
-    else:
-        for i in range(6):
-            draw.ellipse((85 + i * 32, 440 + i * 32, 95 + i * 32, 450 + i * 32),
-                         fill=(*accent, 110))
+def _photo_background(path: Path):
+    with Image.open(path) as original:
+        oriented = ImageOps.exif_transpose(original).convert("RGB")
+        if min(oriented.size) < 400:
+            raise ValueError("Photography has insufficient resolution")
+        # Full-bleed editorial image: subject's upper body dominates top two thirds.
+        canvas = ImageOps.fit(
+            oriented, (WIDTH, HEIGHT),
+            method=Image.Resampling.LANCZOS,
+            centering=(0.5, 0.29),
+        ).convert("RGBA")
+    return canvas
+
+
+def _cinematic_shade(canvas):
+    """Smooth, full-width shade: readable type without visible dark rectangles."""
+    mask = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
+    overlay = ImageDraw.Draw(mask, "RGBA")
+    for y in range(HEIGHT):
+        if y < 210:
+            opacity = int(135 * (1-y/210) + 33)
+        elif y < 510:
+            opacity = 37
+        else:
+            t = (y - 510) / (HEIGHT - 510)
+            opacity = int(40 + 213 * (t**1.4))
+        overlay.line((0, y, WIDTH, y), fill=(4, 11, 21, min(252, opacity)), width=1)
+    return Image.alpha_composite(canvas, mask)
+
+
+def _brand(draw, brand, accent):
+    # A quiet, premium publisher stamp, not a big banner.
+    draw.rounded_rectangle((62, 65, 130, 133), radius=16, fill=(*accent, 255))
+    draw.text((75, 80), "CF", font=font(30), fill=(4, 16, 23, 255))
+    draw.text((151, 78), brand.upper()[:25], font=font(31),
+              fill=(250, 253, 255, 255))
+    draw.ellipse((970, 94, 985, 109), fill=(*accent, 255))
 
 
 def render_card(item: dict, brand="CHAO FELICEVICH", destination: Path | None = None,
                 portrait_path: Path | None = None, ai_art: bool = False,
                 reference_photo: bool = False) -> Path:
+    """Produce a factual, clean 1080x1350 editorial card.
+
+    Generic reference photos are rejected: a stadium in another country must
+    never visually masquerade as the venue of a specific news event.
+    """
+    if reference_photo:
+        raise ValueError("Generic reference photography is not a valid news cover")
     category = str(item.get("category", "ACTUALIDAD")).upper()
     ribbon, accent = THEMES.get(category, THEMES["ACTUALIDAD"])
-    identity = str(item.get("id", "news"))[:36]
-    output = Path(destination or Path("output/previews") / f"{identity}.jpg")
+    key = str(item.get("id") or "preview")[:36]
+    output = Path(destination or Path("output/previews") / f"{key}.jpg")
     output.parent.mkdir(parents=True, exist_ok=True)
 
-    canvas = Image.new("RGB", (WIDTH, HEIGHT), BASE)
-    draw = ImageDraw.Draw(canvas)
-    for y in range(HEIGHT):
-        s = y / HEIGHT
-        draw.line((0, y, WIDTH, y), fill=(int(6 + 4*s), int(16 + 12*s), int(27 + 20*s)))
-
-    decorative = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
-    overlay = ImageDraw.Draw(decorative, "RGBA")
-    overlay.polygon([(660, 0), (1080, 0), (1080, 360), (990, 360)],
-                    fill=(*accent, 39))
-    overlay.polygon([(0, 1100), (175, 1350), (0, 1350)], fill=(*accent, 44))
-    if not portrait_path:
-        if category in {"TENIS", "GOLF", "F1", "NBA"}:
-            _sports_illustration(decorative, accent, category)
-        else:
-            _illustration(decorative, accent, sum(ord(c) for c in identity), category)
-    else:
-        # Keep pitch artwork subtly behind identity-verified photography.
-        _pitch(overlay, accent, sum(ord(c) for c in identity))
-    canvas = Image.alpha_composite(canvas.convert("RGBA"), decorative)
-    if portrait_path and reference_photo:
-        try:
-            with Image.open(portrait_path) as picture:
-                bg = ImageOps.fit(
-                    ImageOps.exif_transpose(picture).convert("RGB"),
-                    (WIDTH, 850), method=Image.Resampling.LANCZOS
-                ).convert("RGBA")
-            # Fade generic photograph toward caption area to preserve readability.
-            mask = Image.new("L", (WIDTH, 850), 0)
-            mask_draw = ImageDraw.Draw(mask)
-            for y in range(850):
-                fade = min(1, y / 130, (850-y) / 210)
-                mask_draw.line((0, y, WIDTH, y), fill=int(190 * max(0, fade)))
-            bg.putalpha(mask)
-            canvas.alpha_composite(bg, (0, 260))
-        except (OSError, ValueError) as exc:
-            raise RuntimeError("Referential photograph failed to render") from exc
-    elif portrait_path:
-        try:
-            with Image.open(portrait_path) as portrait_src:
-                portrait = ImageOps.fit(
-                    ImageOps.exif_transpose(portrait_src).convert("RGB"),
-                    (740, 825), method=Image.Resampling.LANCZOS,
-                    centering=(0.5, 0.30),
-                ).convert("RGBA")
-            # Right-weighted licensed portrait, feathered left and bottom edges.
-            mask = Image.new("L", (740, 825), 0)
-            mask_draw = ImageDraw.Draw(mask)
-            for x in range(740):
-                alpha = int(237 * min(1, max(0, (x - 10) / 225)))
-                mask_draw.line((x, 0, x, 825), fill=alpha)
-            shadow = Image.new("L", (740, 825), 0)
-            shadow_draw = ImageDraw.Draw(shadow)
-            for y in range(825):
-                fade = min(1, max(0, (825 - y) / 185))
-                shadow_draw.line((0, y, 740, y), fill=int(255 * fade))
-            from PIL import ImageChops
-            mask = ImageChops.multiply(mask, shadow)
-            portrait.putalpha(mask)
-            canvas.alpha_composite(portrait, dest=(340, 235))
-            photo_draw = ImageDraw.Draw(canvas, "RGBA")
-            photo_draw.line((1010, 285, 1010, 760), fill=(*accent, 230), width=7)
-        except (OSError, ValueError) as exc:
-            # A broken photo must NEVER silently become a text-only published card.
-            raise RuntimeError("Footballer photograph failed to render") from exc
-
-    # Dark lower-third separates short headlines from background geometry.
-    overlay2 = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
-    shade = ImageDraw.Draw(overlay2, "RGBA")
-    for y in range(625, 1235, 4):
-        opacity = min(244, 110 + int((y-625) / 610 * 136))
-        shade.rectangle((0, y, WIDTH, y+4), fill=(5, 13, 23, opacity))
-    canvas = Image.alpha_composite(canvas, overlay2)
+    canvas = _photo_background(Path(portrait_path)) if portrait_path else _original_background(accent)
+    canvas = _cinematic_shade(canvas)
     draw = ImageDraw.Draw(canvas, "RGBA")
-
-    # Broadcast brand bar.
-    draw.rounded_rectangle((66, 63, 164, 160), radius=24, fill=(*accent, 255))
-    draw.text((83, 82), "CF", font=font(42), fill=(5, 13, 23, 255))
-    draw.text((188, 77), brand.upper()[:27], font=font(34), fill=(248, 250, 255, 255))
-    draw.text((188, 126), "EL FÚTBOL SE VIVE ACÁ.", font=font(19, False),
-              fill=(168, 185, 198, 255))
-    draw.rectangle((65, 198, 1015, 203), fill=(*accent, 255))
-
-    label_width = min(730, max(285, draw.textbbox((0, 0), ribbon, font=font(28))[2] + 55))
-    draw.rounded_rectangle((68, 238, 68+label_width, 302), radius=12, fill=(*accent, 245))
-    draw.text((93, 255), ribbon, font=font(28), fill=(8, 19, 30, 255))
-    draw.text((75, 639), "LA NOTICIA", font=font(22), fill=(*accent, 255))
-    if reference_photo:
-        # Never imply a generic pitch photo depicts the team or event.
-        draw.rounded_rectangle((693, 316, 1009, 370), radius=14,
-                               fill=(4, 14, 26, 234), outline=(*accent, 245), width=2)
-        draw.text((708, 332), "IMAGEN REFERENCIAL", font=font(19),
-                  fill=(255, 255, 255, 255))
-    if ai_art:
-        # Prevent fictional AI art from being mistaken for a documentary photo.
-        draw.rounded_rectangle((765, 316, 1009, 370), radius=14,
-                               fill=(4, 14, 26, 224), outline=(*accent, 245), width=2)
-        draw.text((782, 331), "ILUSTRACIÓN IA", font=font(22),
-                  fill=(255, 255, 255, 255))
+    _brand(draw, brand, accent)
 
     headline = str(item.get("headline") or item.get("title") or "").strip()
-    face, lines = fit_lines(draw, headline, 935, top_size=82, max_lines=5)
-    line_h = face.size + 17 if hasattr(face, "size") else 65
-    y = max(726, 1082 - len(lines) * line_h)
+    title_font, lines = fit_lines(draw, headline, 940, top_size=88, max_lines=4)
+    line_h = getattr(title_font, "size", 60) + 15
+    height = len(lines) * line_h
+    title_bottom = 1182
+    title_top = max(738, title_bottom-height)
+
+    # Sports tag is small, above—not competing with—the actual news.
+    tag_face = font(25)
+    tag_label = ribbon
+    tag_width = min(520, draw.textbbox((0, 0), tag_label, font=tag_face)[2] + 45)
+    tag_y = max(617, title_top - 88)
+    draw.rounded_rectangle((66, tag_y, 66+tag_width, tag_y+54),
+                           radius=8, fill=(*accent, 245))
+    draw.text((87, tag_y+12), tag_label, font=tag_face, fill=(3, 18, 27, 255))
+
+    y = title_top
     for line in lines:
-        draw.text((70, y), line, font=face, fill=(250, 251, 255, 255),
-                  stroke_width=1, stroke_fill=(10, 17, 25, 200))
+        draw.text((64, y), line, font=title_font,
+                  fill=(255, 255, 255, 255),
+                  stroke_width=1, stroke_fill=(2, 6, 11, 135))
         y += line_h
 
-    draw.rectangle((70, 1190, 1010, 1193), fill=(*accent, 190))
-    draw.text((72, 1221), "CHAO FELICEVICH • FÚTBOL SIN FILTRO",
-              font=font(23, False), fill=(174, 193, 208, 255))
-    draw.text((73, 1282), "NOTICIAS • PASIÓN • DEBATE", font=font(19),
-              fill=(*accent, 255))
-    draw.text((1000, 1280), "24/7", anchor="ra", font=font(24),
-              fill=(185, 201, 212, 255))
+    # One restrained accent mark, no decorative footer boilerplate.
+    draw.rounded_rectangle((64, 1256, 175, 1263), radius=3, fill=(*accent, 245))
+    if ai_art:
+        # Real news cannot silently use AI art as apparent photographic evidence.
+        draw.rounded_rectangle((758, 165, 1014, 212), radius=10,
+                               fill=(5, 13, 22, 230))
+        draw.text((776, 177), "ILUSTRACIÓN IA", font=font(20),
+                  fill=(255, 255, 255, 255))
 
-    canvas.convert("RGB").save(output, "JPEG", quality=90, optimize=True)
+    canvas.convert("RGB").save(output, "JPEG", quality=91, optimize=True)
     return output
