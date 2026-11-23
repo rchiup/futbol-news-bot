@@ -3806,5 +3806,53 @@
     "source": "Sección Portada de Fútbol | Diario AS",
     "collected_at": "2026-11-23T12:22:01.275939+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "296eb28b927a63a7d9224437f1e9de793aaa9154cf97c21f3a2837dd1b765715",
+    "title": "Watford set to appoint former Romania boss Iordanescu",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cj7523r0vrp0o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-23T13:25:23.225928+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "2fc9fa5ac4eb5573d79db099de0d81214ccf677edcd83fd6bb2dc18e9c1f42e0",
+    "title": "Where to watch Sporting CP vs Manchester United as Mauricio Pochettino aims to move on from first game pain",
+    "url": "https://talksport.com/football/4725574/sporting-vs-manchester-united-tv-channel-stream-team-news/",
+    "source": "Football News, Transfers, Opinion - talkSPORT",
+    "collected_at": "2026-11-23T13:25:24.687923+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "c97316cb5cc3fa17ed081d011502748b495b7254c8792f24c4fd3ae96e63c408",
+    "title": "Fulham&#8217;s Baresi quit Champions League for second tier and is now locking up Premier League&#8217;s best",
+    "url": "https://talksport.com/football/4725278/fulham-baresi-david-affengruber-quit-champions-league-stats/",
+    "source": "Football News, Transfers, Opinion - talkSPORT",
+    "collected_at": "2026-11-23T13:25:24.687947+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "32be351e0f2124f099205e78a81d406f144b4c249d68ecb6e192b3721be8e2dd",
+    "title": "Contundente mensaje de Otamendi a los hinchas de River: \"Estamos en deuda y lo sabemos...\"",
+    "url": "https://www.ole.com.ar/river-plate/river-nicolas-otamendi-mensaje-hinchas-deuda-dejar-vida-ustedes-lanus-clausura-octavos-cuartos_0_91uM2ongBI.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-23T13:25:24.958461+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "87189c9a996d134e372dfdb26184bcc7c5f1767f2d1d21ebf501bbd61df4b522",
+    "title": "Este Boca va por todo: la mentalidad que baja Arruabarrena para seguir haciendo historia",
+    "url": "https://www.ole.com.ar/boca-juniors/boca-va-rodolfo-arruabarrena-campeon-copa-libertadores_0_0F6t8Ipdw9.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-23T13:25:24.958475+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "961d967d1aae5c69cbd4187c6425ff8d656a205475e1bb5aaf4c66c3fd378ca2",
+    "title": "Frank Darío Kudelka, un técnico acostumbrado a agarrar fierros calientes",
+    "url": "https://www.ole.com.ar/newells-old-boys/frank-dario-kudelka-newells_0_HoDQtUGCrn.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-23T13:25:24.958479+00:00",
+    "status": "pending_review"
   }
 ]
