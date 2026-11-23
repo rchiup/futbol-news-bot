@@ -17,6 +17,19 @@ By default, preview cards use the **original RSS headline** and status
 awaiting_ai. When GROQ_API_KEY (preferred) or OPENAI_API_KEY is configured, cards use Spanish headlines and
 short captions grounded ONLY in the RSS title and summary.
 
+## Cobertura multideporte (23/11/2026)
+
+El motor editorial RSS ahora considera **fútbol, tenis, golf, F1 y NBA**.
+Cada fuente tiene categoría explícita y se generan gráficas originales específicas
+para tenis, golf, F1 y NBA, sin depender de descargar fotografías.
+
+**Importante:** estos feeds incorporan noticias, **no** marcan automáticamente
+el instante exacto en que terminó un partido o una carrera. El módulo de
+resultados inmediatos necesita integrar APIs de datos con cuotas y credenciales:
+tenis (ATP/WTA), golf (torneos y clasificación final), F1 (resultado oficial
+de carrera) y NBA (marcador final/box score). No hay claves nuevas conectadas
+ni publicación instantánea multideporte habilitada todavía.
+
 ## Pipeline
 
 1. **bot.py** archives raw RSS titles.
