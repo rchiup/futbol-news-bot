@@ -14,3 +14,5 @@ Trigger morning batch and write telemetry with 15-minute schedule + 8 feeds.
 Manual Instagram publication request from owner, 2026-11-23 10:24 Chile: publish a fresh verified story; prefer a licensed photo when the subject matches.
 
 Force full test and Instagram photo-first publishing for verified footballer images 2026-11-23.
+
+Investigate stalled publication after IG token rotation, try scheduled collection now.
