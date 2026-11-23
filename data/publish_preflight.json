@@ -1,0 +1,28 @@
+{
+  "checked_at_utc": "2026-11-23T15:16:10.011246+00:00",
+  "read_only": true,
+  "account_match": true,
+  "graph_ig_profile": {
+    "ok": true,
+    "username_matches": true
+  },
+  "assigned_account": {
+    "ok": true,
+    "target_found": false,
+    "number_of_assigned_accounts": 0
+  },
+  "quota": {
+    "ok": true,
+    "quota_usage": 15,
+    "quota_total": 100
+  },
+  "credentials_present": {
+    "IG_USER_ID": true,
+    "IG_ACCESS_TOKEN": true,
+    "CLOUDINARY_CLOUD_NAME": true,
+    "CLOUDINARY_API_KEY": true,
+    "CLOUDINARY_API_SECRET": true,
+    "GROQ_API_KEY": true
+  },
+  "status": "publishing_auth_problem"
+}
