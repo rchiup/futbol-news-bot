@@ -66,7 +66,7 @@ def find_pixabay_photo(subject: str, session=requests) -> dict | None:
             "license": "Pixabay Content License",
             "license_url": "https://pixabay.com/service/license-summary/",
             "photographer": " ".join(str(row.get("user") or "").split())[:95],
-            "credit_required": False, "share_alike": False,
+            "credit_required": True, "share_alike": False,
             "file_page": page, "photo_provider": "Pixabay",
         }
     return None
