@@ -78,5 +78,10 @@
     "name": "The Guardian NBA",
     "url": "https://www.theguardian.com/sport/nba/rss",
     "sport": "NBA"
+  },
+  {
+    "name": "Cooperativa Deportes Chile",
+    "sport": "FUTBOL",
+    "url": "https://www.cooperativa.cl/noticias/site/tax/port/all/rss_6___1.xml"
   }
 ]
