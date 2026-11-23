@@ -228,7 +228,7 @@ def fit_caption(value: str, max_len: int = 360) -> str:
     if len(value) <= max_len:
         return value
     candidate = value[:max_len].rstrip()
-    stops = [match.end() for match in re.finditer(r"[.!?](?=\\s|$)", candidate)]
+    stops = [match.end() for match in re.finditer(r"[.!?](?=\s|$)", candidate)]
     if stops and stops[-1] >= 60:
         return candidate[:stops[-1]].strip()
     raise ValueError("AI caption exceeds limit without a complete factual sentence")
