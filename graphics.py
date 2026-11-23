@@ -179,8 +179,7 @@ def render_card(item: dict, brand="CHAO FELICEVICH", destination: Path | None = 
         y += line_h
 
     draw.rectangle((70, 1190, 1010, 1193), fill=(*accent, 190))
-    source = re.sub(r"\s+", " ", str(item.get("source", "Fuente original")))[:41]
-    draw.text((72, 1221), "FUENTE · " + source.upper(),
+    draw.text((72, 1221), "CHAO FELICEVICH • FÚTBOL SIN FILTRO",
               font=font(23, False), fill=(174, 193, 208, 255))
     draw.text((73, 1282), "NOTICIAS • PASIÓN • DEBATE", font=font(19),
               fill=(*accent, 255))
