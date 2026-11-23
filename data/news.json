@@ -6614,5 +6614,77 @@
     "source": "Cooperativa.cl: Noticias de Chile y el mundo - País, Deportes y más",
     "collected_at": "2026-11-23T16:44:31.267275+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "a133ed708140d8c18938f741db2c6d0fc473f033a08b66991ec9b6de37d98de4",
+    "title": "Football Daily | Neville, Keane and Manchester United meltdowns at world’s funniest comedy club",
+    "url": "https://www.theguardian.com/football/2026/nov/23/gary-neville-roy-keane-manchester-united-meltdown-comedy-club-football-daily-newsletter",
+    "source": "Football | The Guardian",
+    "collected_at": "2026-11-23T17:36:02.061663+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "9b4e2f850f1bbaaadc46792b3a3e473662a1b3e91a74a08b018f2822715ceefc",
+    "title": "La figura de Instituto palpitó el cruce con River: \"No me lo pierdo ni loco\"",
+    "url": "https://www.ole.com.ar/instituto/instituto-alex-luna-river-clausura_0_n9nt5PrD1f.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-23T17:36:03.335051+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "55df217b67ce8781378cf1432a89c9e7d429fa2d6dc129ec85d4b77b9004ed13",
+    "title": "Atento Pincha: el partido que Palmeiras tiene cuatro días antes de la final con Estudiantes",
+    "url": "https://www.ole.com.ar/futbol-internacional/libertadores/palmeiras-copalibertadores-estudiantes-montevideo-abelferreira-chapecoense-brasileirao_0_88a6ngOxxD.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-23T17:36:03.335063+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "6caf20ad6b1547282005fe9621af80b4d0a7214a27f70895d0d6cca6c4614679",
+    "title": "Courtois y la defensa a Vinicius: \"No se puede ser siempre un diez, solo Messi y CR7 lo han conseguido\"",
+    "url": "https://www.ole.com.ar/futbol-internacional/courtois-defensa-vinicius-real-madrid_0_75amcNXJ3t.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-23T17:36:03.335066+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "8fbfe2c1aa651a1d20ed2d7f138b83012931b36aedfe45dc442b9ce9504881cd",
+    "title": "El mensaje de Culotta a los hinchas de San Lorenzo: \"La gente tiene que ser consciente...\"",
+    "url": "https://www.ole.com.ar/san-lorenzo/sanlorenzo-marceloculotta-ciclon-torneoclausura-marcelomoretti_0_0slzVrprvF.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-23T17:36:03.335069+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "76464db97f9d5a1e36090f816f3c8db210756ccb9fc230027a6b4d74bd6d07f0",
+    "title": "El pedido que le hicieron los vecinos a Edwin Cetré antes de la final de la Libertadores",
+    "url": "https://www.ole.com.ar/estudiantes/edwin-cetre-estudiantes-final-libertadores-palmeiras-vecinos-pedido_0_hRq3D4kj85.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-23T17:36:03.335072+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "c709d6b31703d76e5416dd8c061c3501362540c15bde85f02a95e52abd02f911",
+    "title": "Total normalidad: Paredes y Merentiel volvieron de ganar la Sudamericana y se comieron un panchito en Canning",
+    "url": "https://www.ole.com.ar/boca-juniors/leandro-paredes-miguel-merentiel-panchito-canning-boca-campeon-copa-sudamericana_0_lmIsjInqJd.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-23T17:36:03.335075+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "bd1fe5004da4878d43464122d8adc2199b74be3645e76b58723dd9e259affe99",
+    "title": "Habló el hincha de Rosario Central que se hizo viral por el equívoco festejo: \"Pasó y hay que aceptarlo\"",
+    "url": "https://www.ole.com.ar/rosario-central/hablo-hincha-rosario-central-hizo-viral_0_brCC25hPB6.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-23T17:36:03.335078+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "aff1cf119925c4d1d716c5f054e4f2d00fb772cf5a9b5fcc6ffaa100a97c4a12",
+    "title": "Colton Herta, sustituido en Hitech antes del final de una mala temporada en la F2",
+    "url": "https://es.motorsport.com/fia-f2/news/colton-herta-sustituido-hitech-antes-final-mala-temporada-f2/10877264/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es",
+    "source": "Motorsport.com - FIA F2 - Historias",
+    "collected_at": "2026-11-23T17:36:04.563133+00:00",
+    "status": "pending_review"
   }
 ]

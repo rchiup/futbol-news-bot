@@ -119,11 +119,12 @@
     "category": "ACTUALIDAD",
     "score": 28,
     "queued_at": "2026-11-23T00:48:45.660935+00:00",
-    "status": "draft",
+    "status": "duplicate",
     "visual_subject": "Leny Yoro",
     "headline": "Liverpool se benefició de la expulsión de Leny Yoro",
     "caption": "Leny Yoro recibió la roja al minuto 8 en Anfield contra Liverpool, y los analistas Danny Murphy y Ashley Young opinan que el equipo inglés se benefició de la decisión. La baja temprana dejó a United con diez hombres, facilitando el dominio de Liverpool. ¿Crees que el resultado habría sido distinto sin la expulsión? ⚽️",
-    "ai_generated_at": "2026-11-23T16:06:18.967254+00:00"
+    "ai_generated_at": "2026-11-23T16:06:18.967254+00:00",
+    "duplicate_of": "same_story_as:a364f5a57a6b887f225e"
   },
   {
     "id": "264bd48304931548bcc8",
@@ -289,7 +290,7 @@
     "category": "ACTUALIDAD",
     "score": 28,
     "queued_at": "2026-11-23T02:37:17.762388+00:00",
-    "status": "draft",
+    "status": "expired",
     "visual_subject": "",
     "headline": "Andrada anota el gol de la victoria de River",
     "caption": "Andrada marcó el gol que le dio la victoria a River tras un aviso de Rivero dentro del área. Fue su primer tanto en el Monumental y aseguró los tres puntos al equipo ⚽️. ¿Podrá consolidarse como titular en los próximos partidos?",
@@ -309,7 +310,12 @@
     "visual_subject": "Thierno Barry",
     "headline": "Thierno Barry anota doble y deja a Moyes satisfecho",
     "caption": "Thierno Barry volvió a brillar para el Everton, anotando dos goles en la victoria 2‑0 ante Coventry y recibiendo el elogio de David Moyes. Tras reconocer haber tocado fondo la temporada pasada, su remontada muestra que la constancia devuelve la confianza al delantero. ¿Mantendrá este nivel y seguirá presionando a los máximos goleadores? ⚽",
-    "ai_generated_at": "2026-11-23T15:41:26.839770+00:00"
+    "ai_generated_at": "2026-11-23T15:41:26.839770+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_deferred_reason": "no_relevant_verified_image"
   },
   {
     "id": "a0ec0f087a72fa2e4635",
@@ -321,11 +327,12 @@
     "category": "ACTUALIDAD",
     "score": 28,
     "queued_at": "2026-11-23T08:58:17.023219+00:00",
-    "status": "draft",
+    "status": "duplicate",
     "visual_subject": "Mauricio Pochettino",
     "headline": "Manchester United sufre 4-0 ante Liverpool bajo Pochettino",
     "caption": "Manchester United cayó 4-0 ante Liverpool en Anfield, con Mauricio Pochettino a cargo tras solo tres días de preparación. El resultado evidencia problemas de cohesión y adaptación del nuevo técnico. El desafío ahora es lograr una respuesta rápida. ¿Podrá Pochettino revertir la tendencia en los próximos partidos? ⚽",
-    "ai_generated_at": "2026-11-23T16:06:18.967254+00:00"
+    "ai_generated_at": "2026-11-23T16:06:18.967254+00:00",
+    "duplicate_of": "same_story_as:7d80a1a154eabc10c720"
   },
   {
     "id": "046c4db5d19ccf5bc5ca",
@@ -585,23 +592,37 @@
     "category": "PARTIDOS",
     "score": 65,
     "queued_at": "2026-11-23T13:36:16.939128+00:00",
-    "status": "draft",
+    "status": "publish_error",
     "visual_subject": "Lamine Yamal",
     "headline": "Lamine Yamal será baja ante Sabah por molestias en el tobillo",
     "caption": "El Barcelona confirmó que Lamine Yamal no viajará a Bakú por molestias leves en el tobillo derecho. Se perderá el partido de Champions contra Sabah por precaución.",
     "ai_generated_at": "2026-11-23T13:36:16.939128+00:00",
     "ai_art_used": false,
     "photo_used": true,
-    "portrait_used": false,
-    "reference_photo_used": true,
-    "portrait_info": null,
+    "portrait_used": true,
+    "reference_photo_used": false,
+    "portrait_info": {
+      "subject": "Lamine Yamal",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Lamine_Yamal_Argentina_v_Spain_19_July_2026-144_(cropped).jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commons_filename": "Lamine Yamal Argentina v Spain 19 July 2026-144 (cropped).jpg",
+      "photographer": "Bryan Berlin",
+      "credit_required": true,
+      "share_alike": true,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Lamine_Yamal_Argentina_v_Spain_19_July_2026-144_(cropped).jpg",
+      "photo_provider": "Curated Commons",
+      "verified": "2026-11-23"
+    },
     "photo_checked_at": "2026-11-23T13:39:20.316148+00:00",
     "recovery_reason": "Safe retry after 2026-11-23 token-account verification repair; previous failure occurred before image upload.",
     "verification_note": "Verificado con RTVE y EFE, 23-11-2026. Molestias leves, no lesión grave confirmada.",
     "verification_urls": [
       "https://www.rtve.es/deportes/20261123/sabah-barcelona-champions-league-parte-medico-lamine-yamal/17326138.shtml",
       "https://efe.com/deportes/2026-11-23/lamine-yamal-baja-sabah-molestias/"
-    ]
+    ],
+    "photo_credit_full": "📷 Foto: Bryan Berlin · CC BY-SA 4.0 · Wikimedia Commons (recorte y edición). https://commons.wikimedia.org/wiki/File:Lamine_Yamal_Argentina_v_Spain_19_July_2026-144_(cropped).jpg · https://creativecommons.org/licenses/by-sa/4.0/ · Gráfica adaptada bajo la misma licencia CC BY-SA.",
+    "error": "401 Client Error: Unauthorized for url: https://graph.facebook.com/v27.0/17841464710644652?fields=id%2Cusername"
   },
   {
     "id": "de5dec18bcc3e970dfcf",
@@ -794,7 +815,7 @@
     "sport": "FUTBOL",
     "score": 34,
     "queued_at": "2026-11-23T15:16:16.529861+00:00",
-    "status": "draft",
+    "status": "duplicate",
     "visual_subject": "Leny Yoro",
     "headline": "Manchester United apelará la expulsión de Leny Yoro tras 4-0",
     "caption": "Manchester United anunció que apelará la tarjeta roja mostrada a Leny Yoro en el minuto 8 del 4‑0 que recibió ante Liverpool. El defensa fue expulsado tras una falta a Alexander Isak, aunque Pochettino asegura que no fue falta. La sanción podría aligerar su carga, pero el descenso temprano ya marcó el partido.",
@@ -816,7 +837,8 @@
       "file_page": "https://commons.wikimedia.org/wiki/File:Leny_Yoro_%2808-10-2023%29_12_%28cropped%29.jpg"
     },
     "photo_checked_at": "2026-11-23T15:16:32.091661+00:00",
-    "recovery_reason": "Safe retry after 2026-11-23 token-account verification repair; previous failure occurred before image upload."
+    "recovery_reason": "Safe retry after 2026-11-23 token-account verification repair; previous failure occurred before image upload.",
+    "duplicate_of": "same_story_as:7d80a1a154eabc10c720"
   },
   {
     "id": "eb2ae0c3266de996ff75",
@@ -985,7 +1007,10 @@
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "portrait_info": null,
+    "photo_checked_at": "2026-11-23T17:36:28.258845+00:00",
+    "photo_deferred_reason": "no_relevant_verified_image"
   },
   {
     "id": "5692302445d3cddab0fc",
@@ -1006,7 +1031,8 @@
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "photo_deferred_reason": "no_relevant_verified_image"
   },
   {
     "id": "e7d59c2c40e6209d0626",
@@ -1019,7 +1045,7 @@
     "sport": "FUTBOL",
     "score": 34,
     "queued_at": "2026-11-23T15:20:48.505307+00:00",
-    "status": "draft",
+    "status": "duplicate",
     "visual_subject": "",
     "headline": "EE.UU. será co-anfitrión 2031 y Reino Unido 2035",
     "caption": "EE.UU. ha sido confirmado como co-anfitrión de la Copa Mundial Femenina 2031 y el Reino Unido organizará la edición 2035. Este acuerdo amplía la visibilidad del fútbol femenino en dos continentes y podría atraer inversiones y talento. ¿Qué impacto tendrá en el desarrollo del deporte femenino en América y Europa? 🏆⚽",
@@ -1027,7 +1053,8 @@
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "duplicate_of": "same_story_as:a9a52d350460956766bd"
   },
   {
     "id": "a364f5a57a6b887f225e",
@@ -1077,7 +1104,7 @@
     "sport": "FUTBOL",
     "score": 34,
     "queued_at": "2026-11-23T15:41:26.839770+00:00",
-    "status": "draft",
+    "status": "duplicate",
     "visual_subject": "Angela Platt",
     "headline": "Angela Platt positiva sobre mejoras de Windsor Park 2035",
     "caption": "La directora del fútbol femenino del IFA, Angela Platt, confirmó que siguen negociando con el gobierno de NI para conseguir fondos y actualizar Windsor Park antes del Mundial 2035. La obra sería clave para elevar la infraestructura del fútbol local. ¿Podrán cerrar el acuerdo a tiempo? ⚽️",
@@ -1085,7 +1112,8 @@
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "duplicate_of": "same_story_as:a9a52d350460956766bd"
   },
   {
     "id": "f45355cc4f4bbae75927",
@@ -1106,7 +1134,8 @@
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "photo_deferred_reason": "no_relevant_verified_image"
   },
   {
     "id": "87cf49fc1532bda74bfc",
@@ -1127,7 +1156,8 @@
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "photo_deferred_reason": "no_relevant_verified_image"
   },
   {
     "id": "a84cda95bd63bf3f1b06",
@@ -1185,7 +1215,8 @@
     "visual_subject": "David Raya",
     "headline": "David Raya se pierde el choque contra Dortmund por lesión",
     "caption": "David Raya no jugará el partido de Champions League contra el Borussia Dortmund porque una lesión en el hombro no es grave y no requerirá operación. Su ausencia obliga a Arsenal a confiar en el arquero suplente, lo que complica la defensa en un choque decisivo. ¿Podrá el relevo mantener la seguridad bajo los tres palos? ⚽",
-    "ai_generated_at": "2026-11-23T16:44:31.421556+00:00"
+    "ai_generated_at": "2026-11-23T16:44:31.421556+00:00",
+    "photo_deferred_reason": "no_relevant_verified_image"
   },
   {
     "id": "6bee6213c8b588c4dfa9",
@@ -1280,7 +1311,8 @@
     "visual_subject": "Diego Simeone",
     "headline": "Diego Simeone supera récord de victorias en La Liga",
     "caption": "Diego Simeone registró su 345ª victoria en La Liga, rompiendo el récord histórico de triunfos como entrenador. El técnico del Atlético de Madrid se consolida como el más exitoso del campeonato español, reforzando su legado y la estabilidad del club. 🏆⚽ ¿Podrá seguir ampliando su marca en los próximos años?",
-    "ai_generated_at": "2026-11-23T16:44:31.421556+00:00"
+    "ai_generated_at": "2026-11-23T16:44:31.421556+00:00",
+    "photo_deferred_reason": "no_relevant_verified_image"
   },
   {
     "id": "ebe1329a8d7d544293b4",
@@ -1335,7 +1367,8 @@
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "photo_deferred_reason": "no_relevant_verified_image"
   },
   {
     "id": "0bd8264f39c21acfd523",
@@ -1356,7 +1389,8 @@
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "photo_deferred_reason": "no_relevant_verified_image"
   },
   {
     "id": "50882f7898dabb306c92",
@@ -1377,7 +1411,8 @@
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "photo_deferred_reason": "no_relevant_verified_image"
   },
   {
     "id": "b3faba928192c2085960",
@@ -1412,5 +1447,139 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "55df217b67ce8781378c",
+    "title": "Atento Pincha: el partido que Palmeiras tiene cuatro días antes de la final con Estudiantes",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/libertadores/palmeiras-copalibertadores-estudiantes-montevideo-abelferreira-chapecoense-brasileirao_0_88a6ngOxxD.html",
+    "source": "Olé Argentina",
+    "description": "El equipo de Abel Ferreira apunta con todo a la Copa luego de la frustración por el segundo puesto en el Brasileirao. Sin embargo, antes tendrá otro compromiso: el partido ante Chapecoense por el torneo local. El DT ya piensa en un equipo alternativo.",
+    "published_at": "2026-11-23T17:17:05+00:00",
+    "category": "PARTIDOS",
+    "sport": "FUTBOL",
+    "score": 34,
+    "queued_at": "2026-11-23T17:36:06.165120+00:00",
+    "status": "draft",
+    "visual_subject": "Abel Ferreira",
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Palmeiras jugará contra Chapecoense antes de la final",
+    "caption": "Palmeiras se medirá con Chapecoense en el torneo local cuatro días antes de la final contra Estudiantes. El técnico Abel Ferreira, tras la frustración por el segundo puesto en el Brasileirão, ya contempla un equipo alternativo para mantener la carga competitiva y apuntar a la Copa.",
+    "ai_generated_at": "2026-11-23T17:36:06.165120+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_deferred_reason": "no_relevant_verified_image"
+  },
+  {
+    "id": "76464db97f9d5a1e3609",
+    "title": "El pedido que le hicieron los vecinos a Edwin Cetré antes de la final de la Libertadores",
+    "source_url": "https://www.ole.com.ar/estudiantes/edwin-cetre-estudiantes-final-libertadores-palmeiras-vecinos-pedido_0_hRq3D4kj85.html",
+    "source": "Olé Argentina",
+    "description": "El delantero de Estudiantes reveló que los nenes que viven en su barrio le golpean la puerta a diario para reforzar un deseo de cara al encuentro contra Palmeiras.",
+    "published_at": "2026-11-23T16:32:12+00:00",
+    "category": "PARTIDOS",
+    "sport": "FUTBOL",
+    "score": 34,
+    "queued_at": "2026-11-23T17:36:06.165120+00:00",
+    "status": "draft",
+    "visual_subject": "Edwin Cetré",
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Vecinos piden a Edwin Cetré reforzar deseo antes de final",
+    "caption": "El delantero de Estudiantes, Edwin Cetré, contó que los niños de su barrio le golpean la puerta a diario para reforzar un deseo antes del encuentro contra Palmeiras.",
+    "ai_generated_at": "2026-11-23T17:36:06.165120+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_deferred_reason": "no_relevant_verified_image"
+  },
+  {
+    "id": "9b4e2f850f1bbaaadc46",
+    "title": "La figura de Instituto palpitó el cruce con River: \"No me lo pierdo ni loco\"",
+    "source_url": "https://www.ole.com.ar/instituto/instituto-alex-luna-river-clausura_0_n9nt5PrD1f.html",
+    "source": "Olé Argentina",
+    "description": "Aunque sufrió una molestia contra Huracán en octavos, Alex Luna aseguró que dará el presente contra el Millonario en los cuartos del Clausura.",
+    "published_at": "2026-11-23T17:21:04+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-23T17:36:06.165120+00:00",
+    "status": "draft",
+    "visual_subject": "Alex Luna",
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Alex Luna jugará contra River pese a molestia",
+    "caption": "Alex Luna sufrió una molestia en el partido de octavos contra Huracán, pero aseguró que estará presente para el cruce contra River en los cuartos del Clausura.",
+    "ai_generated_at": "2026-11-23T17:36:06.165120+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_deferred_reason": "no_relevant_verified_image"
+  },
+  {
+    "id": "6caf20ad6b1547282005",
+    "title": "Courtois y la defensa a Vinicius: \"No se puede ser siempre un diez, solo Messi y CR7 lo han conseguido\"",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/courtois-defensa-vinicius-real-madrid_0_75amcNXJ3t.html",
+    "source": "Olé Argentina",
+    "description": "En la previa al partido de Champions entre Real Madrid y PSV, el arquero belga apoyó al brasileño.",
+    "published_at": "2026-11-23T16:52:12+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-23T17:36:06.165120+00:00",
+    "status": "publish_error",
+    "visual_subject": "Lionel Messi",
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Courtois respalda a Vinicius antes del choque",
+    "caption": "En la previa del choque de Champions entre Real Madrid y PSV, el arquero Courtois respaldó a Vinícius, señalando que ser un número diez es difícil y que solo Messi y Cristiano Ronaldo lo han conseguido.",
+    "ai_generated_at": "2026-11-23T17:36:06.165120+00:00",
+    "ai_art_used": false,
+    "photo_used": true,
+    "portrait_used": true,
+    "reference_photo_used": false,
+    "portrait_info": {
+      "subject": "Lionel Messi",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Lionel_Messi_Argentina_v_Spain_19_July_2026-222.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commons_filename": "Lionel Messi Argentina v Spain 19 July 2026-222.jpg",
+      "photographer": "Bryan Berlin",
+      "credit_required": true,
+      "share_alike": true,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Lionel_Messi_Argentina_v_Spain_19_July_2026-222.jpg",
+      "photo_provider": "Curated Commons",
+      "verified": "2026-11-23"
+    },
+    "photo_credit_full": "📷 Foto: Bryan Berlin · CC BY-SA 4.0 · Wikimedia Commons (recorte y edición). https://commons.wikimedia.org/wiki/File:Lionel_Messi_Argentina_v_Spain_19_July_2026-222.jpg · https://creativecommons.org/licenses/by-sa/4.0/ · Gráfica adaptada bajo la misma licencia CC BY-SA.",
+    "error": "401 Client Error: Unauthorized for url: https://graph.facebook.com/v27.0/17841464710644652?fields=id%2Cusername"
+  },
+  {
+    "id": "c709d6b31703d76e5416",
+    "title": "Total normalidad: Paredes y Merentiel volvieron de ganar la Sudamericana y se comieron un panchito en Canning",
+    "source_url": "https://www.ole.com.ar/boca-juniors/leandro-paredes-miguel-merentiel-panchito-canning-boca-campeon-copa-sudamericana_0_lmIsjInqJd.html",
+    "source": "Olé Argentina",
+    "description": "Tras los festejos y la caravana, el capitán y la Bestia hicieron una parada en Canning. Las fotos con vecinos y el recuerdo de una celebración de Román en 2007.",
+    "published_at": "2026-11-23T16:31:12+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-23T17:36:06.165120+00:00",
+    "status": "draft",
+    "visual_subject": "",
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Paredes y Merentiel celebran Sudamericana comiendo panchito en Canning",
+    "caption": "Tras levantar la Copa Sudamericana, el capitán Paredes y Merentiel se detuvieron en Canning, donde compartieron un panchito con vecinos. Las imágenes mostraron la caravana y evocaron la celebración de Román en 2007.",
+    "ai_generated_at": "2026-11-23T17:36:06.165120+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_deferred_reason": "no_relevant_verified_image"
   }
 ]
