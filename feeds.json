@@ -26,5 +26,9 @@
   {
     "name": "Olé Argentina",
     "url": "https://www.ole.com.ar/rss/ultimas-noticias/"
+  },
+  {
+    "name": "AS Fútbol",
+    "url": "https://as.com/rss/futbol/portada.xml"
   }
 ]
