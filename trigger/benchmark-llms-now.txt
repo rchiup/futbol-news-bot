@@ -1,1 +1,3 @@
 Run one fair free-only Groq Gemini Cerebras OpenRouter comparison for Chao Felicevich.
+
+Rerun after final free-only workflow wiring and scoring, 2026-11-23.
