@@ -40,3 +40,5 @@ Publish carefully verified Lamine Yamal/Sabah injury absence with licensed portr
 2026-11-23: Re-run requested after user corrected IG_USER_ID GitHub secret; verify publication.
 
 2026-11-23: Retry requested after Instagram access token update, verify live publishing.
+
+2026-11-23: User requested visual and factual quality fixes; smoke test photo-required publication after PR 3.
