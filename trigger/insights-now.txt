@@ -5,3 +5,5 @@ Also verify public post likes/comments accessible with basic token.
 Verificar token actual y permisos Instagram Insights a pedido del usuario, 23-11-2026.
 
 Run IG publish authorization/limit preflight after rotating token, 2026-11-23.
+
+Run full regression suite to confirm Facebook user-token publishing fix, 2026-11-23.
