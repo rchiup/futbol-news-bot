@@ -27,13 +27,15 @@ class CuratedPortraitTests(unittest.TestCase):
         self.assertIsNone(pick_curated("Lionel Messi", "Ronaldo marca", ""))
 
     def test_major_names_and_local_players(self):
-        self.assertEqual(len(LIBRARY), 14)
+        self.assertEqual(len(LIBRARY), 16)
         for title, expected in (
             ("Haaland marcó un doblete", "Erling Haaland"),
             ("Mbappé fue elegido la figura", "Kylian Mbappé"),
             ("Arturo Vidal habla de Colo-Colo", "Arturo Vidal"),
             ("Alexis Sánchez volvió a entrenar", "Alexis Sánchez"),
             ("Cristiano Ronaldo anotó", "Cristiano Ronaldo"),
+            ("Lamine Yamal será baja por molestias de tobillo", "Lamine Yamal"),
+            ("Eduardo Vargas anotó en Rancagua", "Eduardo Vargas"),
             ("Pochettino revisa su equipo", "Mauricio Pochettino"),
             ("Bruno Fernandes renueva", "Bruno Fernandes"),
             ("Thiago Almada anota", "Thiago Almada"),
