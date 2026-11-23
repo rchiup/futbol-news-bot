@@ -112,6 +112,33 @@ class PortraitTests(unittest.TestCase):
         self.assertEqual(photo["commons_filename"], "Lionel Messi official portrait 2026.jpg")
         self.assertTrue(photo["share_alike"])
 
+    def test_static_wikimedia_429_uses_public_only_proxy(self):
+        class Wikimedia429:
+            def __init__(self):
+                self.proxy_requested = False
+            def get(self, url, **kwargs):
+                if url.startswith("https://upload.wikimedia.org/"):
+                    denied = FakeResponse()
+                    denied.status_code = 429
+                    return denied
+                if url == "https://wsrv.nl/":
+                    self.proxy_requested = True
+                    self.assertion = kwargs["params"]["url"]
+                    with io.BytesIO() as buf:
+                        Image.new("RGB", (750, 900), "#234466").save(buf, "JPEG")
+                        return FakeResponse(content=buf.getvalue())
+                raise AssertionError("Untrusted photo endpoint requested: " + url)
+
+        client = Wikimedia429()
+        info = {
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Gianni_Infantino_-_55062516828.jpg",
+        }
+        with tempfile.TemporaryDirectory() as folder:
+            downloaded = download_portrait(info, Path(folder) / "out.jpg", session=client)
+            self.assertTrue(downloaded.exists())
+            self.assertTrue(client.proxy_requested)
+            self.assertEqual(client.assertion, info["image_url"])
+
     def test_wrong_person_is_rejected(self):
         self.assertIsNone(find_portrait("Lionel Ronaldo", session=WikimediaStub()))
 
