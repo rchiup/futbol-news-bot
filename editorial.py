@@ -22,6 +22,7 @@ import feedparser
 import requests
 from PIL import Image, ImageDraw, ImageFont
 from graphics import render_card
+from portraits import name_in_story, find_portrait, download_portrait
 
 ROOT = Path(__file__).resolve().parent
 QUEUE = ROOT / "data" / "queue.json"
@@ -230,7 +231,9 @@ def draft_with_ai(item: dict, session=None) -> tuple[str, str] | None:
         "Eres editor creativo de CHAO FELICEVICH: medio futbolero sudamericano, cercano y ágil. "
         "Habla como fan informado de Chile/Argentina, sin insultos ni argentinismos/chilenismos forzados. "
         "Estilo TNT Sports/TyC/433, pero con redacción propia: natural, emocionante y precisa. "
-        "Escribe SOLO un JSON con claves headline y caption. "
+        "Escribe SOLO un JSON con claves headline, caption y visual_subject. "
+        "visual_subject debe ser el nombre COMPLETO y exacto de la persona futbolera principal "
+        "mencionada en el titular original; si no hay persona inequívoca, pon cadena vacía. "
         "Trabaja EXCLUSIVAMENTE con el titular y resumen RSS proporcionados; "
         "NO inventes datos, resultados, citas, fechas, clubes ni confirmaciones. "
         "Si la fuente dice 'reportedly', 'could', 'rumour' o 'according to', conserva esa cautela. "
@@ -269,6 +272,9 @@ def draft_with_ai(item: dict, session=None) -> tuple[str, str] | None:
         raise ValueError("Invalid AI response: empty or too short")
     if headline_needs_translation(headline):
         raise ValueError("AI output headline appears untranslated; blocked pending retry")
+    subject = clean_html(str(result.get("visual_subject", "")))[:75]
+    # Anti-hallucination: NEVER use an AI-proposed name absent from the source title.
+    item["visual_subject"] = subject if name_in_story(subject, item["title"], "") else ""
     return headline, caption
 
 
@@ -301,8 +307,26 @@ def wrap_lines(draw, text: str, chosen_font, width: int) -> list[str]:
 
 
 def make_card(item: dict) -> Path:
-    """Render our original football-broadcast V2 graphic."""
-    return render_card(item, brand=BRAND, destination=PREVIEWS / (item["id"] + ".jpg"))
+    """Render photo-led original card when exact-subject, rights-safe photo exists."""
+    portrait_path = None
+    subject = item.get("visual_subject", "")
+    if subject and name_in_story(subject, item.get("title", ""), ""):
+        if "portrait_info" not in item:
+            try:
+                item["portrait_info"] = find_portrait(subject)
+            except (requests.RequestException, KeyError, ValueError) as exc:
+                print(f"[PHOTO] Lookup skipped: {type(exc).__name__}")
+                item["portrait_info"] = None
+        if item.get("portrait_info"):
+            try:
+                dest = ROOT / "output" / "portraits" / (item["id"] + ".jpg")
+                portrait_path = dest if dest.exists() else download_portrait(item["portrait_info"], dest)
+            except (requests.RequestException, OSError, ValueError) as exc:
+                print(f"[PHOTO] Download skipped: {type(exc).__name__}")
+    return render_card(
+        item, brand=BRAND, destination=PREVIEWS / (item["id"] + ".jpg"),
+        portrait_path=portrait_path,
+    )
 
 def today_count(items: list[dict], key: str, reference: datetime) -> int:
     day = reference.astimezone(PUBLISH_TZ).date()
