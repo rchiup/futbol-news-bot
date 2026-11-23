@@ -37,5 +37,13 @@ jobs:
           git add data/photo_diagnostics.json
           if ! git diff --cached --quiet; then
             git commit -m "Report available licensed football portraits"
-            git push
+            for attempt in 1 2 3 4; do
+              git pull --rebase origin "${GITHUB_REF_NAME:-main}" &&
+              git push && break
+              if [ "$attempt" -eq 4 ]; then
+                echo "Could not persist diagnostics after concurrent commits"
+                exit 1
+              fi
+              sleep 4
+            done
           fi
