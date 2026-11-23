@@ -393,7 +393,7 @@ def make_card(item: dict, allow_ai: bool = False, lookup: bool = False,
                 print(f"[PHOTO] Relevant portrait unavailable: {type(exc).__name__}")
 
     ai_used = False
-    if (not photo_path and allow_ai and sport == "FUTBOL"
+    if (not photo_path and allow_ai
             and os.getenv("ENABLE_AI_ART", "").lower() == "true"):
         try:
             photo_path = generate_illustration(
@@ -618,7 +618,9 @@ def run(reference: datetime | None = None, session=None) -> dict:
              "preview_images": rendered, "published": published_count,
              "total_queue": len(queue), "per_run_cap": posts_per_run,
              "morning_day_cap": morning_allowance,
-             "auto_publish_enabled": publish_requested and not missing}
+             "auto_publish_enabled": publish_requested and not missing,
+             "ai_image_provider_configured": bool(os.getenv("REPLICATE_API_TOKEN", "").strip()),
+             "ai_art_enabled": os.getenv("ENABLE_AI_ART", "").lower() == "true"}
     print("[SUMMARY] " + json.dumps(stats))
     telemetry = {
         "checked_at_utc": iso(reference),
