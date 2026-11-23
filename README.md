@@ -61,6 +61,31 @@ ejecución y 6 al día por defecto. Sin esta configuración, no se generan
 gastos ni imágenes IA. Las imágenes de Google sin licencia comprobada no
 se descargan automáticamente.
 
+### Actualización de noticias nuevas (23/11/2026)
+
+- **Sin repetir protagonistas y titulares:** `news_novelty.py` compara contenido
+  entre medios y entre inglés/español, aplica una ventana de **36 horas** para
+  el mismo hecho/protagonista y permite otro evento si es claramente distinto
+  (por ejemplo, una lesión frente a un gol posterior).
+- **Primero lo reciente:** a la hora de seleccionar noticias, la novedad y
+  el interés en Chile pesan antes que tener una foto fácil. «La roja» como
+  sinónimo de tarjeta roja ya no se confunde con la selección de Chile.
+- **Más medios chilenos:** `Cooperativa Deportes Chile` se sumó a RSS.
+- **Más fotos pertinentes:** incorporamos Lamine Yamal (Bryan Berlin,
+  CC BY-SA 4.0) y Eduardo Vargas (Voltmetro, CC BY-SA 4.0) al banco
+  de retratos de Wikimedia. No se publica una fotografía de otro evento
+  presentándola como imagen del partido actual.
+- **Arte IA como respaldo opcional:** existe el generador editorial
+  Replicate FLUX (fútbol, tenis, golf, F1, NBA). Solo funciona cuando
+  `REPLICATE_API_TOKEN` está guardado como GitHub Secret; puede generar
+  cargos de Replicate, limitado a 2 ilustraciones por ejecución y 6 por día
+  por defecto. Todas las ilustraciones llevan la etiqueta «ILUSTRACIÓN IA».
+  Si no hay token, la publicación sin foto pertinente queda retenida.
+- **Nunca inventar noticias:** Groq escribe titulares/captions únicamente
+  sobre noticias RSS fechadas; el generador visual no crea hechos noticiosos.
+  Las decisiones automáticas se guardan en `data/queue.json` y
+  `data/engine_status.json`, con contadores de duplicados bloqueados.
+
 ### Diseño editorial V5 — sin fotos genéricas (23/11/2026)
 
 - El feed ahora utiliza **fotografía real del protagonista**, ocupando toda
