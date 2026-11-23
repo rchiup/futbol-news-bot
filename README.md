@@ -48,6 +48,28 @@ ejecución y 6 al día por defecto. Sin esta configuración, no se generan
 gastos ni imágenes IA. Las imágenes de Google sin licencia comprobada no
 se descargan automáticamente.
 
+### Banco de fotos reales (V4)
+
+`curated_portraits.py` incluye **12 protagonistas con archivos de Wikimedia Commons
+y metadatos fotográficos/CC BY-SA verificados**. No usa API de búsqueda para esos
+nombres, y construye el enlace de descarga de la imagen directamente desde el
+nombre de archivo. Los enlaces de Commons se comprobaron al integrar cada foto.
+Incluye Messi, Cristiano, Mbappé, Haaland, Infantino, Alexis Sánchez, Arturo Vidal,
+Désiré Doué, Pochettino, Thiago Almada, Bruno Fernandes y Rayan Cherki.
+
+Descarga en capas: original Wikimedia con Referer conforme, CDN oficial de
+miniaturas y, si Wikimedia devuelve 429/5xx, proxy público `wsrv.nl` para
+**ese mismo archivo previamente verificado**. El proxy no cambia autoría ni
+licencia y no recibe secretos. Las imágenes CC BY-SA llevan autor, enlace
+original y licencia explícitos; la gráfica derivada sigue la licencia
+correspondiente. El modo foto no implica que la imagen muestre el evento actual.
+
+Las previews no hacen búsquedas de fotos externas, evitando bloquear el
+proceso de publicación. Solo se permite una nueva búsqueda dinámica por
+ejecución; si no hay foto comprobable, se utiliza gráfica ilustrada propia.
+La prueba de descarga real vive en `photo_probe.py` y deja resultados en
+`data/photo_diagnostics.json`.
+
 ### Foto protagonista (V3)
 
 El LLM sugiere el nombre exacto de la persona protagonista, y el sistema
