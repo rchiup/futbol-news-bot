@@ -51,6 +51,17 @@ class EditorialTests(unittest.TestCase):
         self.assertEqual(result[0]["source_url"], "https://example.org/arsenal")
         self.assertGreater(result[0]["score"], 15)
 
+    def test_new_sports_have_distinct_categories(self):
+        for sport in ("TENIS", "GOLF", "F1", "NBA"):
+            self.assertEqual(editorial.category_for("Player wins championship", sport), sport)
+        self.assertEqual(editorial.category_for("Arsenal wins", "FUTBOL"), "ACTUALIDAD")
+        self.assertNotIn("nba", editorial.BLOCKED_TOPICS)
+        self.assertNotIn("formula 1", editorial.BLOCKED_TOPICS)
+
+    def test_news_sources_include_all_five_sports(self):
+        sports = {src.get("sport", "FUTBOL") for src in editorial.FEEDS if isinstance(src, dict)}
+        self.assertTrue({"FUTBOL", "TENIS", "GOLF", "F1", "NBA"}.issubset(sports))
+
     def test_missing_date_is_excluded(self):
         with patch.object(editorial, "FEEDS", ["https://example.org/rss"]):
             result = editorial.fetch_candidates(self.reference, FakeSession(rss_fixture(self.reference, False)))
