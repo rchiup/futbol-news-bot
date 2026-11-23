@@ -70,5 +70,41 @@
     "score": 31,
     "queued_at": "2026-11-23T00:48:09.514188+00:00",
     "status": "awaiting_ai"
+  },
+  {
+    "id": "56a76a057fcc6d9987ac",
+    "title": "Manchester City’s WSL title bid hit by Spurs after Vinberg and Naz’s late double",
+    "source_url": "https://www.theguardian.com/football/2026/nov/22/manchester-city-tottenham-wsl-match-report",
+    "source": "The Guardian",
+    "description": "This most unpredictable and evenly contested Women’s Super League campaign took another unexpected twist as Manchester City missed the chance to return to the top of the table as they suffered a second successive defeat, by virtue of a terrific performance from a Tottenham side who moved within three points of the European places. The shock result came just 24 hours after City’s title rivals Chelsea had dropped points at Liverpool. It was the first time City had failed to win a home league match during Andrée Jeglertz’s 16 months in charge, let",
+    "published_at": "2026-11-22T14:59:23+00:00",
+    "category": "FICHAJES",
+    "score": 31,
+    "queued_at": "2026-11-23T00:48:45.660935+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "92db0d9f88dbcc2e1e80",
+    "title": "Did Liverpool 'get lucky' with red card decision?",
+    "source_url": "https://www.bbc.co.uk/sport/football/videos/cq23jmklrj33o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Match of the Day pundits Danny Murphy and Ashley Young believe that Liverpool were perhaps \"lucky\" when Manchester United's Leny Yoro was sent off in the 8th-minute at Anfield.",
+    "published_at": "2026-11-22T23:59:59+00:00",
+    "category": "ACTUALIDAD",
+    "score": 28,
+    "queued_at": "2026-11-23T00:48:45.660935+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "264bd48304931548bcc8",
+    "title": "A 'wow' player - why Ngumoha is already a Liverpool game-changer",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/cmn80y5w84qqo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Match of the Day pundit Danny Murphy explains how Rio Ngumoha showed everyone what he is capable of in Liverpool's 4-0 win over Manchester United.",
+    "published_at": "2026-11-22T23:20:16+00:00",
+    "category": "ACTUALIDAD",
+    "score": 28,
+    "queued_at": "2026-11-23T00:48:45.660935+00:00",
+    "status": "awaiting_ai"
   }
 ]
