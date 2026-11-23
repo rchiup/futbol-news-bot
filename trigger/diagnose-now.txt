@@ -9,3 +9,5 @@ Test photo-led football V3 rendering, licensed subject resolution and fallbacks.
 Final regression check of image-rights V3 and scheduled auto-posting.
 
 Check 15-minute schedule, morning bursts, Commons CC BY images and optional AI fallback.
+
+Final morning segment quota regression suite (29 tests expected).
