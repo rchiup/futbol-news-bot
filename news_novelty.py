@@ -108,6 +108,11 @@ def same_story(candidate: dict, existing: dict, reference: datetime | None = Non
     # news just because the outlet changed or the headline was rewritten.
     leads_a, leads_b = story_subjects(candidate), story_subjects(existing)
     if leads_a & leads_b:
+        # A player's injury and a later match-winning goal are genuinely
+        # different stories; don't silence important new events about one star.
+        groups_a, groups_b = event_group(candidate), event_group(existing)
+        if groups_a and groups_b and groups_a.isdisjoint(groups_b):
+            return False
         return True
     text_a = norm(" ".join(str(candidate.get(k) or "") for k in ("title", "headline")))
     text_b = norm(" ".join(str(existing.get(k) or "") for k in ("title", "headline")))
