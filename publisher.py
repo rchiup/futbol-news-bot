@@ -1,6 +1,6 @@
 """Upload original JPEG to Cloudinary, then publish via Meta's official Graph API.
 
-Supports Instagram's Facebook-Login professional-account flow.
+Supports professional-account Instagram Login (default) and Facebook Login.
 Set IG_USER_ID, IG_ACCESS_TOKEN, CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_KEY,
 CLOUDINARY_API_SECRET in GitHub Actions Secrets. Never expose credentials in Git.
 """
@@ -49,7 +49,11 @@ def publish_image(path: Path, caption: str, identifier: str, session=requests) -
     version = os.getenv("META_GRAPH_VERSION", "v24.0")
     if not version.startswith("v") or "/" in version:
         raise ValueError("Invalid META_GRAPH_VERSION")
-    root = f"https://graph.facebook.com/{version}"
+    mode = os.getenv("META_AUTH_MODE", "instagram").strip().lower()
+    if mode not in {"instagram", "facebook"}:
+        raise ValueError("META_AUTH_MODE must be instagram or facebook")
+    host = "graph.instagram.com" if mode == "instagram" else "graph.facebook.com"
+    root = f"https://{host}/{version}"
     image_url = upload_public_image(path, identifier, session=session)
     auth_headers = {"Authorization": f"Bearer {token}"}
 
