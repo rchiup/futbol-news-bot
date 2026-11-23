@@ -27,6 +27,7 @@ from ai_art import generate_illustration
 from portraits import (name_in_story, find_portrait, download_portrait,
                        photo_attribution, photo_attribution_compact)
 from openverse_photos import find_openverse_photo, download_openverse_photo
+from google_images import find_google_image
 from curated_portraits import pick_curated
 import free_llm
 from news_novelty import duplicate_reason, novelty_priority, same_story
@@ -368,10 +369,10 @@ def wrap_lines(draw, text: str, chosen_font, width: int) -> list[str]:
 
 def make_card(item: dict, allow_ai: bool = False, lookup: bool = False,
               network_lookup: bool = False) -> Path:
-    """Prefer named, rights-verified photos over AI and original graphics.
+    """Use named athlete photos discovered through Google Images/Commons.
 
-    Google results may help discover freely reusable images but do not grant
-    licensing rights. Do not substitute an unrelated photograph.
+    Google discovery does not replace explicit reuse rights. Do not substitute
+    a photograph of an unrelated athlete or game.
     """
     photo_path = None
     sport = item.get("sport", "FUTBOL")
@@ -394,6 +395,11 @@ def make_card(item: dict, allow_ai: bool = False, lookup: bool = False,
             except (requests.RequestException, KeyError, ValueError) as exc:
                 print(f"[PHOTO] Wikimedia lookup unavailable: {type(exc).__name__}")
                 item["portrait_info"] = None
+            if not item.get("portrait_info"):
+                try:
+                    item["portrait_info"] = find_google_image(subject)
+                except (requests.RequestException, KeyError, ValueError) as exc:
+                    print(f"[PHOTO] Google Images discovery unavailable: {type(exc).__name__}")
             if not item.get("portrait_info"):
                 try:
                     item["portrait_info"] = find_openverse_photo(subject)
