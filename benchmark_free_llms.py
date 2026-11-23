@@ -5,6 +5,7 @@ checks facts. Human editorial review is still required for real accuracy.
 """
 from __future__ import annotations
 import json
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 import requests
@@ -46,6 +47,7 @@ def run():
                 entry["status"] = "not_configured"
             else:
                 try:
+                    started = time.monotonic()
                     data = free_llm.one(
                         name, messages, session=requests,
                         validator=lambda result: editorial.validate_llm_copy(result, source),
@@ -53,6 +55,7 @@ def run():
                     )
                     entry.update({
                         "status": "ok",
+                        "latency_ms": int((time.monotonic() - started) * 1000),
                         "headline": data["headline"], "caption": data["caption"],
                         "readability_score": free_llm.score_text(data),
                     })
@@ -71,6 +74,31 @@ def run():
     except (OSError, ValueError):
         history = []
     history.append(report)
+    # Only rank models after several independent samples; readability is
+    # heuristic and human review is needed before making editorial changes.
+    rank = {}
+    for name in free_llm.KEYS:
+        samples = [
+            row for run in history[-60:]
+            for row in run.get("results", [])
+            if row.get("provider") == name
+        ]
+        good = [x for x in samples if x.get("status") == "ok"]
+        if good:
+            mean_quality = round(sum(x["readability_score"] for x in good)/len(good), 1)
+            mean_latency = round(sum(x.get("latency_ms", 0) for x in good)/len(good))
+        else:
+            mean_quality, mean_latency = None, None
+        rank[name] = {
+            "sample_count": len(samples), "successful_samples": len(good),
+            "readability_avg": mean_quality, "latency_avg_ms": mean_latency,
+            "conclusion": "early_sample" if len(samples) < 3 else "can_compare",
+        }
+    (ROOT / "data" / "llm_ranking.json").write_text(
+        json.dumps({"checked_at_utc": now, "providers": rank,
+                    "warning": "Readability scores are not factual accuracy; review copies manually."},
+                   ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
     HISTORY.write_text(json.dumps(history[-60:], indent=2, ensure_ascii=False) + "\n",
                        encoding="utf-8")
     print("Free-only LLM benchmark:", report["status"],
