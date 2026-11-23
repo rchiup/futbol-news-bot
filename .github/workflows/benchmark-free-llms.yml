@@ -39,10 +39,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/llm_benchmark.json data/llm_benchmark_history.json data/llm_ranking.json
+          for file in data/llm_benchmark.json data/llm_benchmark_history.json data/llm_ranking.json; do
+            if [ -f "$file" ]; then git add "$file"; fi
+          done
           if [ -f data/llm_free_usage.json ]; then git add data/llm_free_usage.json; fi
           if ! git diff --cached --quiet; then
             git commit -m "Record fair free-only LLM sports-news benchmark"
+            git stash push -u --keep-index -m "Temporary untracked benchmark outputs" || true
             for attempt in 1 2 3 4; do
               git pull --rebase origin main && git push && break
               if [ "$attempt" -eq 4 ]; then exit 1; fi
