@@ -70,7 +70,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/news.json data/queue.json data/engine_status.json data/health_v2.json data/llm_free_usage.json
+          git add data/news.json data/queue.json data/engine_status.json data/health_v2.json
+          if [ -f data/llm_free_usage.json ]; then git add data/llm_free_usage.json; fi
           if ! git diff --cached --quiet; then
             git commit -m "Refresh football headlines and editorial queue"
             for attempt in 1 2 3 4; do
