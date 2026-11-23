@@ -43,34 +43,105 @@ def ai_image_provider_configured() -> bool:
     return bool(enabled_providers())
 
 
-def build_prompt(item: dict) -> str:
-    subject = re.sub(r"[^A-Za-zÀ-ÿ \-'.]", "", str(item.get("visual_subject", "")))[:65].strip()
-    # Never generate fake evidence of a match or pretend that an AI scene
-    # depicts the reported facts. This is always CLEARLY LABELLED editorial art.
-    sport = str(item.get("sport", "FUTBOL")).upper()
-    props = {
-        "FUTBOL": "abstract football pitch floodlights and an expressive football",
-        "TENIS": "tennis racket, dramatic tennis court lighting and green tennis ball",
-        "GOLF": "golf ball, distant flag and dramatic golf-course landscape",
-        "F1": "abstract racing car silhouette, track kerbs and dynamic speed streaks",
-        "NBA": "basketball, hardwood arena and glowing hoop",
-    }
-    motif = props.get(sport, props["FUTBOL"])
-    person = (
-        f"stylized hand-painted editorial portrait of athlete {subject}"
-        if len(subject.split()) >= 2
-        else f"symbolic artistic composition of {motif}"
-    )
-    return (
-        f"Premium South American sports news magazine digital illustration of {person}. "
-        f"Sports category: {sport}. Clearly stylized painting, NOT a photograph, NOT documentary photography. "
-        "High-end sports editorial art direction, rich navy shadows, cinematic light, "
-        "dynamic color gradients, bold expressive brush strokes, tasteful neon accents. "
-        "4:5 vertical portrait layout, open negative space in lower half for separately overlaid headline. "
-        "No text, no logos, no numbers, no badges, no watermarks, no fake photojournalism, "
-        "no precise depicted injury, no invented celebration, no real-world match reconstruction. "
-    )
+# Deterministic corrections for notorious RSS/LLM metadata mistakes.
+# Prefer editorial's source-validated visual_subject when it is available.
+KNOWN_ATHLETES = (
+    ("sinner", "Jannik Sinner", "TENIS"),
+    ("alcaraz", "Carlos Alcaraz", "TENIS"),
+    ("djokovic", "Novak Djokovic", "TENIS"),
+    ("swiatek", "Iga Świątek", "TENIS"),
+    ("verstappen", "Max Verstappen", "F1"),
+    ("leclerc", "Charles Leclerc", "F1"),
+    ("hamilton", "Lewis Hamilton", "F1"),
+    ("mbapp", "Kylian Mbappé", "FUTBOL"),
+    ("messi", "Lionel Messi", "FUTBOL"),
+    ("ronaldo", "Cristiano Ronaldo", "FUTBOL"),
+    ("haaland", "Erling Haaland", "FUTBOL"),
+    ("yamal", "Lamine Yamal", "FUTBOL"),
+)
 
+SPORT_SCENES = {
+    "FUTBOL": "association football player in a soccer kit, realistic football pitch, football boots",
+    "TENIS": "professional tennis player in a tennis shirt, hard-court tennis arena, tennis net and racket",
+    "GOLF": "professional golfer in golf attire on a golf course, a golf club in hand",
+    "F1": "professional Formula One racing driver in a race suit, pit lane and racing car",
+    "NBA": "professional basketball player in basketball kit, indoor basketball court and hoop",
+}
+
+SPORT_EXCLUSIONS = {
+    "FUTBOL": "No tennis rackets, no basketball hoops.",
+    "TENIS": "No soccer ball, no football field, no soccer goals, no football floodlight stadium.",
+    "GOLF": "No soccer ball, no football field, no tennis court.",
+    "F1": "No soccer ball, no football field, no tennis court.",
+    "NBA": "No soccer ball, no football field, no tennis court.",
+}
+
+
+def _named_person(subject: str) -> bool:
+    return len(re.findall(r"[A-Za-zÀ-ÿ]+", subject)) >= 2
+
+
+def resolve_athlete(item: dict) -> tuple[str, str]:
+    """Resolve athlete and sport from story, not an unreliable default sport.
+
+    No anonymous football-ball illustration when an athlete is named.
+    """
+    title = str(item.get("title") or "")
+    headline = str(item.get("headline") or "")
+    summary = str(item.get("description") or "")
+    story = (title + " " + headline + " " + summary).casefold()
+    subject = re.sub(r"[^A-Za-zÀ-ÿ \-'.]", "", str(item.get("visual_subject") or "")).strip()[:70]
+    sport = str(item.get("sport") or "").upper().strip()
+    for term, full, identified_sport in KNOWN_ATHLETES:
+        if re.search(r"(?<![a-zà-ÿ])" + re.escape(term) + r"(?![a-zà-ÿ])", story):
+            # If the model named a different person, prefer the name present in
+            # the reported story; known names are only used for exact-word matches.
+            if not _named_person(subject) or full.casefold() in subject.casefold():
+                subject = full
+                sport = identified_sport
+                break
+    if sport not in SPORT_SCENES:
+        sport = "FUTBOL"
+    if "australian open" in story or "atp " in story or "wta " in story:
+        sport = "TENIS"
+    if "grand prix" in story or "formula 1" in story or "fórmula 1" in story:
+        sport = "F1"
+    return subject, sport
+
+
+def build_prompt(item: dict) -> str:
+    """Player-first, recognizably sport-specific AI editorial recreation.
+
+    AI portraits must not be presented as an actual photo of the reported
+    injury, match, or real-world event; the public caption discloses AI.
+    """
+    subject, sport = resolve_athlete(item)
+    scene = SPORT_SCENES[sport]
+    exclusions = SPORT_EXCLUSIONS[sport]
+    if _named_person(subject):
+        subject_instruction = (
+            f"Main subject MUST BE {subject}, the real sports person. "
+            f"Depict a recognizable photographic-style portrait of {subject}, "
+            "visible face, realistic human anatomy and correct sporting attire. "
+            "One athlete as the large foreground subject (head, shoulders and upper torso). "
+            "Do NOT replace the person with a generic sports ball, floodlights, "
+            "a landscape, or an empty stadium. "
+        )
+    else:
+        # Reject vague stand-alone visuals instead of making misleading posters.
+        raise ValueError("AI portrait requires an identifiable athlete")
+    return (
+        f"High-end PHOTOREALISTIC sports magazine EDITORIAL RECREATION featuring {subject}. "
+        f"{subject_instruction}"
+        f"Accurate sport: {sport}. Visual setting: {scene}. {exclusions} "
+        "Editorial studio portrait/posed sports setting, NOT a documentary photograph, "
+        "NOT evidence of an actual match or a specific medical procedure. "
+        "Do not depict a real injury, operating room, bandages or invented match action. "
+        "Natural skin details, photographic lighting, 85mm portrait-lens look, sharp focus, "
+        "tasteful premium composition. Subject's face and torso prominent in TOP TWO THIRDS, "
+        "dark simple lower third reserved for overlay headline. Vertical 4:5. "
+        "No text, no logos, no watermark, no graphic labels, no extra people. "
+    )
 
 
 def _decode_response_image(response) -> bytes:
