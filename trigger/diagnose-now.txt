@@ -15,3 +15,5 @@ Final morning segment quota regression suite (29 tests expected).
 Validate Commons fallback and plain-language editorial prompt.
 
 Test source photo reuse under CC BY-SA and clearer Spanish captions without truncation.
+
+Test Openverse public photos from Flickr and restrictive license checks.
