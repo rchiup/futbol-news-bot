@@ -43,12 +43,20 @@ https://www.postman.com/meta/instagram/documentation/6yqw8pt/instagram-api
 Crea una cuenta en https://cloudinary.com/ y obtén Cloud name, API Key y API
 Secret en su dashboard. El bot usa *signed upload*, nunca URLs temporales.
 
-## 3. OpenAI API (opcional, necesaria para captions automáticos en español)
+## 3. GroqCloud (opción gratis por defecto)
 
-Crea tu API key en https://platform.openai.com/api-keys.
-Pon un límite mensual de gasto en la plataforma. ChatGPT Plus NO incluye
-créditos de API. El bot usa un máximo de 3 borradores por ejecución y 30
-borradores diarios de forma predeterminada.
+Crea tu API key en https://console.groq.com/keys y guárdala como **GROQ_API_KEY**
+en GitHub Secrets. Modelo predeterminado: **openai/gpt-oss-120b** en Groq.
+
+El bot puede usar **OPENAI_API_KEY** como alternativa si no configuraste Groq.
+NO necesitas pagar OpenAI ni tener ChatGPT Plus para usar Groq. El servicio
+gratis tiene límites de solicitudes y tokens: revisa tu cuota en GroqCloud.
+
+Nunca pegues tus claves en chats, código ni archivos del repositorio. Si una
+clave se expuso, **revócala y genera otra** antes de configurarla.
+
+Límites del bot: máximo 3 borradores nuevos por ejecución y 30 al día
+(predeterminados).
 
 ## 4. GitHub Secrets
 
@@ -56,7 +64,8 @@ Repositorio → Settings → Secrets and variables → Actions → New repositor
 
 Guarda:
 
-- OPENAI_API_KEY
+- GROQ_API_KEY (recomendado; gratis dentro de límites)
+- OPENAI_API_KEY (opcional, respaldo)
 - IG_USER_ID
 - IG_ACCESS_TOKEN
 - CLOUDINARY_CLOUD_NAME
