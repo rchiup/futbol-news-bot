@@ -310,6 +310,16 @@ def today_count(items: list[dict], key: str, reference: datetime) -> int:
                and value.astimezone(PUBLISH_TZ).date() == day)
 
 
+def rolling_post_count(items: list[dict], reference: datetime) -> int:
+    """Meta limits apply to rolling 24-hour windows, not calendar days."""
+    start = reference - timedelta(hours=24)
+    return sum(
+        1 for item in items
+        if (when := parse_iso(item.get("posted_at", ""))) is not None
+        and start < when <= reference
+    )
+
+
 def run(reference: datetime | None = None, session=None) -> dict:
     reference = reference or now_utc()
     queue = load_queue()
@@ -383,7 +393,10 @@ def run(reference: datetime | None = None, session=None) -> dict:
     if publish_requested and not missing and in_posting_window:
         from publisher import publish_image
         for item in sorted(queue, key=lambda x: (x.get("score", 0), x.get("published_at", "")), reverse=True):
-            if published_count >= 1 or today_count(queue, "posted_at", reference) >= POSTS_PER_DAY:
+            if (published_count >= 1
+                    or today_count(queue, "posted_at", reference) >= POSTS_PER_DAY
+                    or rolling_post_count(queue, reference) >= min(POSTS_PER_DAY, 40)):
+                # Keep margin under Meta's lower documented 50-post limit.
                 break
             if item.get("status") != "draft":
                 continue
