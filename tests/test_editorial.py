@@ -76,7 +76,7 @@ class EditorialTests(unittest.TestCase):
             with patch.object(editorial, "QUEUE", q), \
                  patch.object(editorial, "PREVIEWS", previews), \
                  patch.object(editorial, "FEEDS", ["https://example.org/rss"]), \
-                 patch.dict(os.environ, {"OPENAI_API_KEY": "", "ENABLE_PUBLISH": "", "AUTO_APPROVE": ""}):
+                 patch.dict(os.environ, {"OPENAI_API_KEY": "", "GROQ_API_KEY": "", "ENABLE_PUBLISH": "", "AUTO_APPROVE": ""}):
                 result = editorial.run(self.reference, FakeSession(rss_fixture(self.reference)))
                 self.assertEqual(result["queued_new"], 1)
                 self.assertEqual(result["published"], 0)
@@ -86,6 +86,65 @@ class EditorialTests(unittest.TestCase):
                 editorial.run(self.reference, FakeSession(rss_fixture(self.reference)))
                 self.assertEqual(len(editorial.load_queue()), 1)
 
+
+    def test_groq_primary_uses_groq_endpoint_and_model(self):
+        item = {"title": "Arsenal win important Champions League match",
+                "description": "Arsenal secured a victory.",
+                "source": "Example Sports", "published_at": "2026-11-22T18:00:00+00:00"}
+
+        class MockAIResponse:
+            def raise_for_status(self):
+                pass
+
+            def json(self):
+                return {"choices": [{"message": {"content":
+                        '{"headline":"Arsenal ganó un partido importante",'
+                        '"caption":"El Arsenal consiguió una victoria importante."}'}}]}
+
+        class MockAI:
+            def __init__(self):
+                self.called = None
+
+            def post(self, url, **kwargs):
+                self.called = (url, kwargs)
+                return MockAIResponse()
+
+        client = MockAI()
+        with patch.dict(os.environ, {"GROQ_API_KEY": "testing-groq-secret",
+                                     "OPENAI_API_KEY": "testing-openai-secret"}):
+            headline, caption = editorial.draft_with_ai(item, session=client)
+        self.assertEqual(headline, "Arsenal ganó un partido importante")
+        self.assertTrue(caption.startswith("El Arsenal"))
+        self.assertEqual(client.called[0], "https://api.groq.com/openai/v1/chat/completions")
+        self.assertEqual(client.called[1]["json"]["model"], "openai/gpt-oss-120b")
+        self.assertEqual(client.called[1]["headers"]["Authorization"],
+                         "Bearer testing-groq-secret")
+
+    def test_openai_fallback_when_no_groq_secret(self):
+        item = {"title": "Arsenal win important match", "description": "",
+                "source": "Example", "published_at": "2026-11-22T18:00:00+00:00"}
+
+        class MockAIResponse:
+            def raise_for_status(self):
+                pass
+
+            def json(self):
+                return {"choices": [{"message": {"content":
+                        '{"headline":"Arsenal ganó un partido importante",'
+                        '"caption":"El Arsenal consiguió una victoria importante."}'}}]}
+
+        class MockAI:
+            def __init__(self):
+                self.url = ""
+
+            def post(self, url, **kwargs):
+                self.url = url
+                return MockAIResponse()
+
+        client = MockAI()
+        with patch.dict(os.environ, {"GROQ_API_KEY": "", "OPENAI_API_KEY": "mock"}):
+            editorial.draft_with_ai(item, session=client)
+        self.assertEqual(client.url, "https://api.openai.com/v1/chat/completions")
 
 if __name__ == "__main__":
     unittest.main()
