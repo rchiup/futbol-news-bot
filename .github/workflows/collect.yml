@@ -25,6 +25,39 @@ jobs:
         run: pip install -r requirements.txt
       - name: Run automated tests and save a health report
         run: python diagnose_v2.py
+      - name: Check Cloudflare image generation on manual push
+        if: github.event_name == 'push'
+        continue-on-error: true
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          ENABLE_AI_ART: 'true'
+          ENABLE_POLLINATIONS: 'false'
+          ENABLE_HF_IMAGE: 'false'
+        run: |
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          from ai_art import generate_illustration
+          if not os.getenv("CF_ACCOUNT_ID") or not os.getenv("CF_API_TOKEN"):
+              print("[ART_SMOKE] Missing CF_ACCOUNT_ID or CF_API_TOKEN")
+              raise SystemExit(1)
+          item = {"visual_subject": "", "sport": "FUTBOL"}
+          try:
+              dest = generate_illustration(item, Path("output/cloudflare-smoke.jpg"))
+              print(f"[ART_SMOKE] OK: {dest} ({dest.stat().st_size} bytes)")
+          except Exception as exc:
+              print(f"[ART_SMOKE] FAIL: {type(exc).__name__}")
+              raise SystemExit(1)
+          PY
+      - name: Upload Cloudflare smoke image
+        if: github.event_name == 'push'
+        uses: actions/upload-artifact@v4
+        with:
+          name: cloudflare-image-smoke
+          path: output/cloudflare-smoke.jpg
+          if-no-files-found: ignore
+          retention-days: 1
       - name: Archive raw headlines (non-blocking, maximum 90s)
         run: timeout 90s python bot.py || echo "RSS archive unavailable; editorial engine continues"
       - name: Validate Meta account ID (never print secrets)
