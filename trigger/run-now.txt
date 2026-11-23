@@ -34,3 +34,5 @@ Publish carefully verified Lamine Yamal/Sabah injury absence with licensed portr
 2026-11-23: User explicitly requested a fresh live publication attempt after verifying Instagram profile access in Meta Explorer. Respect deduplication and quotas.
 
 2026-11-23: Live verification of opt-in Replicate AI illustrations and licensed-photo/original-graphic publishing fallback, respecting quotas and deduplication.
+
+2026-11-23T15:06:00-03:00: User requested immediate live publication run after updating Replicate and Meta credentials.
