@@ -23,7 +23,7 @@ import feedparser
 import requests
 from PIL import Image, ImageDraw, ImageFont
 from graphics import render_card
-from portraits import name_in_story, find_portrait, download_portrait
+from portraits import name_in_story, find_portrait, download_portrait, photo_attribution
 
 ROOT = Path(__file__).resolve().parent
 QUEUE = ROOT / "data" / "queue.json"
@@ -327,10 +327,12 @@ def make_card(item: dict) -> Path:
                 portrait_path = dest if dest.exists() else download_portrait(item["portrait_info"], dest)
             except (requests.RequestException, OSError, ValueError) as exc:
                 print(f"[PHOTO] Download skipped: {type(exc).__name__}")
-    return render_card(
+    rendered = render_card(
         item, brand=BRAND, destination=PREVIEWS / (item["id"] + ".jpg"),
         portrait_path=portrait_path,
     )
+    item["portrait_used"] = bool(portrait_path)
+    return rendered
 
 def today_count(items: list[dict], key: str, reference: datetime) -> int:
     day = reference.astimezone(PUBLISH_TZ).date()
@@ -461,7 +463,12 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 continue
             try:
                 path = make_card(item)
-                media_id = publish_image(path, clean_public_caption(item["caption"]), item["id"])
+                caption = clean_public_caption(item["caption"])
+                if item.get("portrait_used"):
+                    credit = photo_attribution(item.get("portrait_info"))
+                    if credit:
+                        caption += "\n\n" + credit
+                media_id = publish_image(path, caption, item["id"])
                 item["status"] = "published"
                 item["posted_at"] = iso(reference)
                 item["instagram_media_id"] = media_id
