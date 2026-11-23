@@ -1,5 +1,8 @@
 name: Football News Engine
 on:
+  push:
+    paths:
+      - 'trigger/run-now.txt'
   workflow_dispatch:
   schedule:
     - cron: "11,41 * * * *"
