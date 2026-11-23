@@ -4,7 +4,7 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 from PIL import Image
-from curated_portraits import pick_curated
+from curated_portraits import pick_curated, generic_football_photo
 from portraits import download_portrait, photo_attribution
 from graphics import render_card
 
@@ -13,6 +13,9 @@ SAMPLES = (
     ("Lionel Messi", "Messi marca otro gol con Argentina"),
     ("Kylian Mbappé", "Mbappé vuelve a marcar con Francia"),
     ("Erling Haaland", "Haaland sigue goleando"),
+    ("Leandro Paredes", "Boca celebra con Paredes"),
+    ("Nicolás Otamendi", "Otamendi dejó un mensaje a hinchas"),
+    ("Cancha referencial", "Instituto se enfrenta a River"),
 )
 OUT = Path("data/photo_diagnostics.json")
 PREVIEWS = Path("output/photo-proof")
@@ -24,7 +27,7 @@ def main():
         status = {"name": subject, "valid_metadata": False,
                   "download_ok": False, "render_ok": False}
         try:
-            photo = pick_curated("", title, subject)
+            photo = generic_football_photo() if subject == "Cancha referencial" else pick_curated("", title, subject)
             if not photo:
                 raise ValueError("Not found in curated library")
             status.update({
@@ -44,7 +47,7 @@ def main():
             render_card(sample, destination=output, portrait_path=image)
             with Image.open(output) as posted:
                 status["render_ok"] = posted.size == (1080, 1350)
-            status["has_photographer_attribution"] = subject and bool(photo_attribution(photo))
+            status["has_photographer_attribution"] = bool(photo_attribution(photo))
         except Exception as exc:
             status["error"] = type(exc).__name__
             status["http_status"] = getattr(getattr(exc, "response", None),
