@@ -48,6 +48,31 @@ LIBRARY = {
         "author": "Agencia de Noticias ANDES", "version": "4.0",
         "aliases": ["alexis sanchez"],
     },
+    "Désiré Doué": {
+        "filename": "Desire Doue France v Senegal 16 June 2026-223 (cropped).jpg",
+        "author": "Bryan Berlin / WikiPortraits", "version": "4.0",
+        "aliases": ["desire doue"],
+    },
+    "Mauricio Pochettino": {
+        "filename": "Mauricio Pochettino USMNT v Belgium Mar 28 2026-3 (cropped).jpg",
+        "author": "Bryan Berlin / WikiPortraits", "version": "4.0",
+        "aliases": ["mauricio pochettino", "pochettino"],
+    },
+    "Thiago Almada": {
+        "filename": "Thiago Almada Argentina v Spain 19 July 2026-025.jpg",
+        "author": "Bryan Berlin / WikiPortraits", "version": "4.0",
+        "aliases": ["thiago almada"],
+    },
+    "Bruno Fernandes": {
+        "filename": "Bruno Fernandes USMNT v Portugal Mar 31 2026-27.jpg",
+        "author": "Bryan Berlin / WikiPortraits", "version": "4.0",
+        "aliases": ["bruno fernandes"],
+    },
+    "Rayan Cherki": {
+        "filename": "Rayan Cherki France v Senegal 16 June 2026-497 (cropped).jpg",
+        "author": "Bryan Berlin / WikiPortraits", "version": "4.0",
+        "aliases": ["rayan cherki", "cherki"],
+    },
 }
 
 def _contains_phrase(text: str, phrase: str) -> bool:
