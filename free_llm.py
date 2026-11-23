@@ -141,6 +141,8 @@ def one(name, messages, session=requests, env=None, validator=None,
                "latencies_ms": [], "quality": []})
     if values["attempts"] >= CAPS[name]:
         raise ValueError("Local free-tier daily limit")
+    if values.get("blocked_until_utc", 0) > time.time():
+        raise ValueError("Provider temporarily unavailable; respecting retry cooldown")
     values["attempts"] += 1
     save(stats, path)  # Failed requests also consume a provider quota.
     start = time.monotonic()
@@ -157,6 +159,17 @@ def one(name, messages, session=requests, env=None, validator=None,
     except (requests.RequestException, ValueError, KeyError, IndexError, TypeError) as exc:
         values["failures"] += 1
         values["last_error"] = safe_error(exc)  # Never leak prompts/tokens.
+        if isinstance(exc, requests.HTTPError):
+            response = getattr(exc, "response", None)
+            code = getattr(response, "status_code", None)
+            if code in (401, 403, 429):
+                # Do not burn the remaining daily quota retrying unusable keys.
+                # The state is persisted across runs when the workflow commits it.
+                cooldown = 86400 if code in (401, 403) else 3600
+                retry = getattr(response, "headers", {}).get("Retry-After", "")
+                if code == 429 and str(retry).strip().isdigit():
+                    cooldown = max(60, min(86400, int(retry)))
+                values["blocked_until_utc"] = int(time.time()) + cooldown
         raise
     finally:
         save(stats, path)
