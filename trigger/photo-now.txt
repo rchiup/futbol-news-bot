@@ -3,3 +3,5 @@ Check real rights-safe player portraits; no Instagram publishing.
 Probe Openverse as alternative after Wikidata 429 rate limits.
 
 Verify 4 curated real CDN portraits and sample 4:5 graphics; no Instagram post.
+
+Re-run with retry-safe reports for the verified player photo bank.
