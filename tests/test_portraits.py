@@ -42,7 +42,7 @@ class WikimediaStub:
                 "thumburl": "https://upload.wikimedia.org/wikipedia/commons/thumb/messi.jpg",
                 "extmetadata": {
                     "LicenseShortName": {"value": self.license_name},
-                    "LicenseUrl": {"value": "https://creativecommons.org/licenses/by/4.0/"},
+                    "LicenseUrl": {"value": "https://creativecommons.org/licenses/by-sa/4.0/" if "BY-SA" in self.license_name else "https://creativecommons.org/licenses/by/4.0/"},
                     "Artist": {"value": "<a href='https://example.org'>Juan Fotógrafo</a>"},
                     "Copyrighted": {"value": "False"},
                 },
@@ -70,8 +70,18 @@ class PortraitTests(unittest.TestCase):
             with Image.open(dest) as result:
                 self.assertGreater(result.width, 400)
 
-    def test_attribution_required_photo_is_rejected(self):
-        self.assertIsNone(find_portrait("Lionel Messi", session=WikimediaStub("CC BY-SA 4.0")))
+    def test_share_alike_photo_is_allowed_with_compliant_credit(self):
+        photo = find_portrait("Lionel Messi", session=WikimediaStub("CC BY-SA 4.0"))
+        self.assertIsNotNone(photo)
+        self.assertTrue(photo["credit_required"])
+        self.assertTrue(photo["share_alike"])
+        credit = photo_attribution(photo)
+        self.assertIn("Juan Fotógrafo", credit)
+        self.assertIn("licenses/by-sa/4.0", credit)
+        self.assertIn("misma licencia CC BY-SA", credit)
+
+    def test_unlicensed_photo_is_rejected(self):
+        self.assertIsNone(find_portrait("Lionel Messi", session=WikimediaStub("Copyrighted")))
 
     def test_cc_by_photo_requires_credit(self):
         photo = find_portrait("Lionel Messi", session=WikimediaStub("CC BY 4.0"))
