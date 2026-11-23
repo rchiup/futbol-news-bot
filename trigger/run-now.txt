@@ -10,3 +10,5 @@ V2 broadcast-card and South-American-editor smoke test; approved automation.
 Morning burst smoke test with upgraded CC BY portrait resolver and 15-minute schedule.
 
 Trigger morning batch and write telemetry with 15-minute schedule + 8 feeds.
+
+Manual Instagram publication request from owner, 2026-11-23 10:24 Chile: publish a fresh verified story; prefer a licensed photo when the subject matches.
