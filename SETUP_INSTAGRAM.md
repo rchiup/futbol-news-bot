@@ -1,8 +1,9 @@
 # Conectar Instagram y dejarlo publicando
 
-El bot YA recopila noticias y genera gráficas de prueba. Para publicar faltan
-credenciales de tus propias cuentas. No hay que compartirlas con nadie ni
-pegarlas en un chat; guárdalas en GitHub Actions Secrets.
+**Estado actual: publicación automática activa en @chaofelicevich.**
+El bot recopila noticias, escribe con Groq, renderiza gráficas deportivas propias
+y publica mediante Meta y Cloudinary cada 30 minutos. No necesita PC encendido.
+Mantén las claves en GitHub Actions Secrets, nunca en chats ni código.
 
 ## 1. Cuenta profesional
 
@@ -87,15 +88,16 @@ En Settings → Secrets and variables → Actions → Variables agrega:
 
 - ENABLE_PUBLISH = true
 - AUTO_APPROVE = true
-- META_AUTH_MODE = instagram (o facebook, según tus credenciales)
+- META_AUTH_MODE = facebook (Unified Login probado en tu app)
 - BRAND_NAME = el nombre de tu medio
 
 Solo cuando ambas variables están en true, los secretos están completos y el
-borrador tiene copy generado con OpenAI, el bot intenta publicar.
+borrador tiene copy generado con Groq u OpenAI, el bot intenta publicar.
 
-El horario de publicación predeterminado es **08:00 a 23:59, horario chileno**,
-máximo una publicación por ejecución cada 30 minutos y 30 por día. La
-recolección funciona todo el día.
+**Publica 24/7** (si hay noticias relevantes y la API está disponible):
+máximo una publicación por ejecución cada 30 minutos y 30 por día.
+Para pausar desde GitHub sin tocar código: fija ENABLE_PUBLISH=false
+en Settings → Secrets and variables → Actions → Variables.
 
 ## Antes de escalar
 
