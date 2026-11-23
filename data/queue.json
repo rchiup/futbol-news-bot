@@ -39,7 +39,10 @@
     "category": "PARTIDOS",
     "score": 34,
     "queued_at": "2026-11-23T00:47:43.234772+00:00",
-    "status": "awaiting_ai"
+    "status": "draft",
+    "headline": "Delantero del Chelsea, Emmanuel Emegha, asaltado tras la derrota ante Leeds",
+    "caption": "El delantero del Chelsea, Emmanuel Emegha, fue víctima de un robo después de la derrota de su equipo ante el Leeds United. No se han dado más detalles sobre el incidente.\n\nFuente: talkSPORT\nhttps://talksport.com/football/4724970/chelsea-emmanuel-emegha-victim-robbery",
+    "ai_generated_at": "2026-11-23T01:02:35.498168+00:00"
   },
   {
     "id": "b452ec5ccb41b57f50df",
@@ -51,7 +54,10 @@
     "category": "PARTIDOS",
     "score": 34,
     "queued_at": "2026-11-23T00:48:09.514188+00:00",
-    "status": "awaiting_ai"
+    "status": "draft",
+    "headline": "El Barça se recupera y vence 3-2 al Villarreal tras ir 0-2",
+    "caption": "Barcelona ganó 3-2 en el Camp Nou, remontando dos goles en siete minutos de Tajon Buchanan y Tani Oluwaseyi. Lamine Yamal falló un penalti en la primera mitad. Con la victoria recupera la ventaja de tres puntos en la clasificación de LaLiga.\n\nFuente: The Guardian\nhttps://www.theguardian.com/football/2026/nov/22/european-football-barcelona-villarreal-juventus-milan-inter",
+    "ai_generated_at": "2026-11-23T01:02:35.498168+00:00"
   },
   {
     "id": "72655a7e30548a7f504b",
@@ -63,7 +69,10 @@
     "category": "PARTIDOS",
     "score": 31,
     "queued_at": "2026-11-23T00:48:09.514188+00:00",
-    "status": "awaiting_ai"
+    "status": "draft",
+    "headline": "El descenso es para el Manchester United – tres jugadores 0/10 tras desastre en Liverpool",
+    "caption": "talkSPORT indica que el descenso es una amenaza para el Manchester United tras la debacle en Liverpool, donde tres jugadores no lograron anotar ninguna de sus diez oportunidades. El club se encuentra en una situación crítica en la tabla.\n\nFuente: talkSPORT\nhttps://talksport.com/football/4724721/mauricio-pochettino-relegation-man-utd-michael-carrick",
+    "ai_generated_at": "2026-11-23T01:02:35.498168+00:00"
   },
   {
     "id": "935ac0b186e7f0d3ef9d",
@@ -147,6 +156,42 @@
     "category": "PARTIDOS",
     "score": 27,
     "queued_at": "2026-11-23T01:01:09.488812+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "59f68a439b8f4e6bb69e",
+    "title": "Villarreal forced to make statement about cause of Nicolas Pepe eye injury",
+    "source_url": "https://talksport.com/football/4724952/villarreal-statement-nicolas-pepe-eye-surgery",
+    "source": "talkSPORT",
+    "description": "",
+    "published_at": "2026-11-22T23:10:25+00:00",
+    "category": "LESIONES",
+    "score": 26,
+    "queued_at": "2026-11-23T01:02:35.498168+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "98cae80c70edc165bc89",
+    "title": "Broadcaster Emma Jones gives update after having gallbladder removal surgery",
+    "source_url": "https://talksport.com/football/4724900/emma-jones-health-update-gallbladder-surgery",
+    "source": "talkSPORT",
+    "description": "",
+    "published_at": "2026-11-22T22:35:14+00:00",
+    "category": "LESIONES",
+    "score": 26,
+    "queued_at": "2026-11-23T01:02:35.498168+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "a8ba78207531049fb291",
+    "title": "NFL round-up: Eagles stun Steelers and Cowboys score 51 in win",
+    "source_url": "https://www.skysports.com/nfl/live-blog/12040/13615440/nfl-2026-results-and-highlights-pittsburgh-steelers-suffer-shock-loss-to-philadelphia-eagles-as-dallas-cowboys-score-51-in-win",
+    "source": "Sky Sports",
+    "description": "",
+    "published_at": "2026-11-22T22:17:00+00:00",
+    "category": "PARTIDOS",
+    "score": 26,
+    "queued_at": "2026-11-23T01:02:35.498168+00:00",
     "status": "awaiting_ai"
   }
 ]
