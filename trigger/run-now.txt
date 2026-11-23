@@ -22,3 +22,5 @@ Post-token-rotation repair verified: direct /{ig_id} identity, quota 15/100, saf
 Editorial quality redesign smoke test: no generic stadium photo; full-bleed real image; short caption credit. 2026-11-23.
 
 2026-11-23: User confirmed continue autonomous multi-sport publishing with premium relevant-photo design; run collector now.
+
+Start fresh-only deduplicated sports feed now, include Yamal 2026-11-23 and Chilean Cooperativa RSS, 16-player photo bank and optional AI illustrations.
