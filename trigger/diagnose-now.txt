@@ -39,3 +39,5 @@ Check why scheduler stopped publishing on 2026-11-23, latest bot state is 13:39Z
 Regression check after repair of Instagram user-token verification and shorter CI workflow.
 
 Validate premium full-bleed cover and hold generic-photo news, Nov 23 redesign.
+
+Check 2026-11-23 duplicate suppression Yamal Vargas picture bank and news novelty test suite.
