@@ -280,6 +280,8 @@ def ai_messages(item: dict) -> list[dict]:
         "Si es rumor, dilo expresamente: según reportes, podría, negocia. "
         "Si la fuente dice molestias, no lo conviertas en lesión grave. "
         "Titular de 5 a 11 palabras, máximo 75 caracteres: quién, qué pasó y consecuencia. "
+        "Evita listas de futbolistas sin nombre, polémicas vagas y titulares sin el hecho específico. "
+        "Si el resumen no explica quiénes son los afectados o qué sucedió, no inventes nombres. "
         "Caption máximo 360 caracteres: primer hecho comprobable y después contexto breve. "
         "Prohibidos titulares telegráficos, metáforas raras y traducciones literales del inglés. "
         "Ejemplos correctos: 'Yamal será baja por molestias en el tobillo', "
@@ -420,7 +422,8 @@ def make_card(item: dict, allow_ai: bool = False, lookup: bool = False,
             item["ai_art_generated_at"] = iso(now_utc())
             ai_used = True
         except (requests.RequestException, OSError, ValueError, RuntimeError) as exc:
-            print(f"[ART] Creative illustration unavailable: {type(exc).__name__}")
+            diagnostic = str(exc) if isinstance(exc, RuntimeError) else type(exc).__name__
+            print(f"[ART] Creative illustration unavailable: {diagnostic[:70]}")
 
     item["ai_art_used"] = ai_used
     item["photo_used"] = bool(photo_path) and not ai_used
@@ -612,13 +615,15 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     attempted_art_this_run += 1
                 if item.get("photo_checked_at") and allow_network_photo:
                     network_photo_lookups += 1
-                # The renderer makes an ORIGINAL sports graphic if no licensed
-                # photograph is available. Do not use scraped/copyrighted photos.
-                # Lack of a portrait should never prevent a valid factual post.
+                # An ORIGINAL background is useful for previews but the live
+                # feed now requires a real licensed portrait or successful art.
+                # Blank visual covers harmed readability and the audience.
                 if not item.get("photo_used") and not item.get("ai_art_used"):
                     item["visual_mode"] = "original_graphic"
                     item.pop("photo_deferred_reason", None)
-                    print(f"[PHOTO] Using original graphic for: {item['id']}")
+                    print(f"[PHOTO] Awaiting relevant image; not publishing blank card: {item['id']}")
+                    item["status"] = "needs_review"
+                    continue
                 else:
                     item["visual_mode"] = (
                         "licensed_photo" if item.get("photo_used") else "ai_illustration"
