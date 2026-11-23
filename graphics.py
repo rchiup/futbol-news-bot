@@ -167,8 +167,8 @@ def render_card(item: dict, brand="CHAO FELICEVICH", destination: Path | None = 
                 mask_draw.line((0, y, WIDTH, y), fill=int(190 * max(0, fade)))
             bg.putalpha(mask)
             canvas.alpha_composite(bg, (0, 260))
-        except (OSError, ValueError):
-            pass
+        except (OSError, ValueError) as exc:
+            raise RuntimeError("Referential photograph failed to render") from exc
     elif portrait_path:
         try:
             with Image.open(portrait_path) as portrait_src:
@@ -194,9 +194,9 @@ def render_card(item: dict, brand="CHAO FELICEVICH", destination: Path | None = 
             canvas.alpha_composite(portrait, dest=(340, 235))
             photo_draw = ImageDraw.Draw(canvas, "RGBA")
             photo_draw.line((1010, 285, 1010, 760), fill=(*accent, 230), width=7)
-        except (OSError, ValueError):
-            # Broken licensed image should never break the newsletter.
-            pass
+        except (OSError, ValueError) as exc:
+            # A broken photo must NEVER silently become a text-only published card.
+            raise RuntimeError("Footballer photograph failed to render") from exc
 
     # Dark lower-third separates short headlines from background geometry.
     overlay2 = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
