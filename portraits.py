@@ -2,8 +2,9 @@
 
 Never reuse arbitrary Google/agency photos. Resolve a precise football-person
 entity on Wikidata; use its primary Wikimedia Commons portrait ONLY when
-machine-readable license metadata identifies CC0, public domain or CC BY.
-CC BY photographs require visible photographer credit and license reference.
+machine-readable license metadata identifies CC0, public domain, CC BY or CC BY-SA.
+Credited photographs need the author, license and file links; ShareAlike
+adaptations are shared under that same CC BY-SA license.
 If any validation is uncertain, the caller gets None and renders custom art.
 """
 from __future__ import annotations
@@ -22,7 +23,8 @@ WIKIDATA_API = "https://www.wikidata.org/w/api.php"
 COMMONS_API = "https://commons.wikimedia.org/w/api.php"
 USER_AGENT = "ChaoFelicevichFootballBot/2.0 (educational automated newsroom; GitHub rchiup/futbol-news-bot)"
 ALLOWED_LICENSES = {"cc0", "public domain", "public domain mark"}
-ATTRIBUTION_LICENSES = {"cc by 4.0", "cc by 3.0", "cc by 2.0"}
+ATTRIBUTION_LICENSES = {"cc by 4.0", "cc by 3.0", "cc by 2.0",
+                        "cc by sa 4.0", "cc by sa 3.0", "cc by sa 2.0"}
 FOOTBALL_DESCRIPTIONS = ("football", "soccer", "futbolista", "fútbol", "footballer",
                          "football manager", "football coach", "futebolista")
 MAX_DOWNLOAD_BYTES = 8 * 1024 * 1024
@@ -96,9 +98,9 @@ def find_portrait(subject: str, session=requests) -> dict | None:
                 # Never take an attributed photo when the author or license is absent.
                 if len(artist) < 3 or len(artist) > 95:
                     return None
-                if not license_url.startswith("https://creativecommons.org/licenses/by/"):
-                    return None
-                if f"/by/{normalized_license.split()[-1]}/" not in license_url:
+                expected_kind = "by-sa" if " by sa " in (" " + normalized_license + " ") else "by"
+                expected_url = f"https://creativecommons.org/licenses/{expected_kind}/{normalized_license.split()[-1]}/"
+                if not license_url.startswith(expected_url):
                     return None
             elif normalized_license not in {"cc0", "public domain", "public domain mark"} or (
                     normalized_license != "cc0" and rights not in {"false", "0"}):
@@ -116,6 +118,7 @@ def find_portrait(subject: str, session=requests) -> dict | None:
                 "license_url": license_url, "commons_filename": filename,
                 "photographer": artist if requires_credit else "",
                 "credit_required": requires_credit,
+                "share_alike": " by sa " in (" " + normalized_license + " "),
                 "file_page": "https://commons.wikimedia.org/wiki/File:" + quote(filename.replace(" ", "_")),
             }
     return None
@@ -131,9 +134,11 @@ def photo_attribution(info: dict | None) -> str:
     license_url = str(info.get("license_url", "")).strip()
     if not author or not page.startswith("https://commons.wikimedia.org/wiki/File:"):
         raise ValueError("Licensed photo is missing attribution details")
-    if not license_url.startswith("https://creativecommons.org/licenses/by/"):
+    if not license_url.startswith("https://creativecommons.org/licenses/by"):
         raise ValueError("Licensed photo is missing Creative Commons license URL")
-    return f"📷 Foto: {author} · {license_name} · Wikimedia Commons (recorte y edición). {page} · {license_url}"
+    extra = (" · Gráfica adaptada bajo la misma licencia CC BY-SA."
+             if info.get("share_alike") else "")
+    return f"📷 Foto: {author} · {license_name} · Wikimedia Commons (recorte y edición). {page} · {license_url}{extra}"
 
 
 def download_portrait(info: dict, destination: Path, session=requests) -> Path:
