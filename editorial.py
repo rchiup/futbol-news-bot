@@ -342,7 +342,14 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 break
 
     published_count = 0
-    if os.getenv("ENABLE_PUBLISH", "").lower() == "true" and os.getenv("AUTO_APPROVE", "").lower() == "true":
+    publish_requested = (os.getenv("ENABLE_PUBLISH", "").lower() == "true" and
+                         os.getenv("AUTO_APPROVE", "").lower() == "true")
+    required = ("IG_USER_ID", "IG_ACCESS_TOKEN", "CLOUDINARY_CLOUD_NAME",
+                "CLOUDINARY_API_KEY", "CLOUDINARY_API_SECRET")
+    missing = [name for name in required if not os.getenv(name, "").strip()]
+    if publish_requested and missing:
+        print("[META] Publishing disabled: missing " + ", ".join(missing))
+    if publish_requested and not missing:
         from publisher import publish_image
         for item in queue:
             if published_count >= 1 or today_count(queue, "posted_at", reference) >= POSTS_PER_DAY:
@@ -368,8 +375,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
     save_queue(queue)
     stats = {"fresh_candidates": len(fresh), "queued_new": added, "ai_generated": generated,
              "preview_images": rendered, "published": published_count,
-             "total_queue": len(queue), "auto_publish_enabled":
-                 os.getenv("ENABLE_PUBLISH", "").lower() == "true" and os.getenv("AUTO_APPROVE", "").lower() == "true"}
+             "total_queue": len(queue), "auto_publish_enabled": publish_requested and not missing}
     print("[SUMMARY] " + json.dumps(stats))
     return stats
 
