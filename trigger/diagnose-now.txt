@@ -35,3 +35,5 @@ Verify photo-required publishing, Otamendi/Paredes and generic soccer-pitch phot
 Force full test and Instagram photo-first publishing for verified footballer images 2026-11-23.
 
 Check why scheduler stopped publishing on 2026-11-23, latest bot state is 13:39Z. Run all tests.
+
+Regression check after repair of Instagram user-token verification and shorter CI workflow.
