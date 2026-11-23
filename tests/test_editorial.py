@@ -186,20 +186,22 @@ class EditorialTests(unittest.TestCase):
         self.assertFalse(editorial.headline_needs_translation(
             "Chelsea: delantero sufre un robo tras derrota"))
 
-    def test_half_hour_schedule_targets_sixty_in_chile_local_time(self):
+    def test_quarter_hourly_schedule_allows_multiple_posts_with_daily_cap(self):
         from zoneinfo import ZoneInfo
         local = ZoneInfo("America/Santiago")
         slots = [
             datetime(2026, 11, 23, hour, minute, tzinfo=local).astimezone(timezone.utc)
             for hour in range(24)
-            for minute in (7, 37)
+            for minute in (7, 22, 37, 52)
         ]
         caps = [editorial.morning_burst_settings(at, [])[0] for at in slots]
-        self.assertEqual(len(caps), 48)
-        self.assertEqual(sum(caps), 60)
-        self.assertEqual(editorial.morning_burst_settings(slots[0], [])[0], 1)
+        self.assertEqual(len(caps), 96)
+        self.assertEqual(caps.count(3), 56)
+        self.assertEqual(caps.count(2), 40)
+        self.assertLessEqual(editorial.POSTS_PER_DAY, 80)
+        self.assertEqual(editorial.morning_burst_settings(slots[0], [])[0], 2)
         self.assertEqual(editorial.morning_burst_settings(
-            datetime(2026, 11, 23, 9, 7, tzinfo=local).astimezone(timezone.utc), [])[0], 2)
+            datetime(2026, 11, 23, 9, 7, tzinfo=local).astimezone(timezone.utc), [])[0], 3)
 
     def test_rendering_without_optional_ai_secret_does_not_generate_art(self):
         with tempfile.TemporaryDirectory() as temp:

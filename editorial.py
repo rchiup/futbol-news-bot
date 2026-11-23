@@ -39,13 +39,13 @@ FEEDS = json.loads((ROOT / "feeds.json").read_text(encoding="utf-8"))
 BRAND = os.getenv("BRAND_NAME", "FÚTBOL AL DÍA")
 MAX_AGE_HOURS = int(os.getenv("MAX_AGE_HOURS", "36"))
 MAX_POST_AGE_HOURS = max(1, min(24, int(os.getenv("MAX_POST_AGE_HOURS", "12"))))
-DRAFTS_PER_RUN = max(0, min(8, int(os.getenv("MAX_DRAFTS_PER_RUN", "5"))))
-DRAFTS_PER_DAY = max(0, min(90, int(os.getenv("MAX_DRAFTS_PER_DAY", "75"))))
-POSTS_PER_DAY = max(0, min(60, int(os.getenv("MAX_POSTS_PER_DAY", "60"))))
+DRAFTS_PER_RUN = max(0, min(12, int(os.getenv("MAX_DRAFTS_PER_RUN", "8"))))
+DRAFTS_PER_DAY = max(0, min(240, int(os.getenv("MAX_DRAFTS_PER_DAY", "180"))))
+POSTS_PER_DAY = max(0, min(80, int(os.getenv("MAX_POSTS_PER_DAY", "72"))))
 MORNING_POSTS_PER_RUN = max(1, min(3, int(os.getenv("MORNING_POSTS_PER_RUN", "3"))))
 MORNING_MAX_POSTS = max(1, min(12, int(os.getenv("MORNING_MAX_POSTS", "10"))))
 POST_SPACING_SECONDS = max(0, min(30, int(os.getenv("POST_SPACING_SECONDS", "12"))))
-AI_ART_MAX_DAILY = max(0, min(12, int(os.getenv("AI_ART_MAX_DAILY", "6"))))
+AI_ART_MAX_DAILY = max(0, min(32, int(os.getenv("AI_ART_MAX_DAILY", "24"))))
 PUBLISH_TZ = ZoneInfo(os.getenv("PUBLISH_TIMEZONE", "America/Santiago"))
 
 CATEGORIES = {
@@ -476,15 +476,13 @@ def rolling_post_count(items: list[dict], reference: datetime) -> int:
 
 
 def morning_burst_settings(reference: datetime, queue: list[dict]) -> tuple[int, int]:
-    """One post every 30 minutes, plus twelve peak half-hours: 60/day target.
+    """Up to two news posts per 15-minute run, three during prime hours.
 
-    The workflow runs at minutes 07 and 37; at 09:07–20:07 Chile time
-    there are two posts instead of one. This never overrides the platform
-    quota, freshness requirements, or a lack of distinct genuine stories.
+    Daily cap and Meta live quota still apply; only qualified distinct
+    drafts with an athlete photo or verified original art can publish.
     """
     local = reference.astimezone(PUBLISH_TZ)
-    extra = 9 <= local.hour <= 20 and local.minute < 30
-    return (2 if extra else 1), POSTS_PER_DAY
+    return (3 if 9 <= local.hour <= 22 else 2), POSTS_PER_DAY
 
 
 def run(reference: datetime | None = None, session=None) -> dict:

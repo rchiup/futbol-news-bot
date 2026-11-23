@@ -81,8 +81,8 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           FREE_LLM_ORDER: ${{ vars.FREE_LLM_ORDER || 'groq,gemini,cerebras,openrouter' }}
           BRAND_NAME: ${{ vars.BRAND_NAME || 'CHAO FELICEVICH' }}
-          MAX_DRAFTS_PER_DAY: '75'
-          MAX_DRAFTS_PER_RUN: '5'
+          MAX_DRAFTS_PER_DAY: '180'
+          MAX_DRAFTS_PER_RUN: '8'
           MORNING_POSTS_PER_RUN: ${{ vars.MORNING_POSTS_PER_RUN || '3' }}
           MORNING_MAX_POSTS: ${{ vars.MORNING_MAX_POSTS || '10' }}
           POST_SPACING_SECONDS: ${{ vars.POST_SPACING_SECONDS || '12' }}
@@ -93,9 +93,9 @@ jobs:
           ENABLE_POLLINATIONS: 'false' # legacy anonymous endpoint is unreliable
           AI_IMAGE_PROVIDER_ORDER: 'cloudflare,pollinations,huggingface'
           ENABLE_AI_ART: 'true'
-          AI_ART_MAX_PER_RUN: '1'
-          AI_ART_MAX_DAILY: '8' # Daily generation cap, independent of provider
-          MAX_POSTS_PER_DAY: '60'
+          AI_ART_MAX_PER_RUN: '2'
+          AI_ART_MAX_DAILY: '24' # Free daily Cloudflare Neurons cap still applies
+          MAX_POSTS_PER_DAY: '72'
           ENABLE_PUBLISH: ${{ vars.ENABLE_PUBLISH || 'true' }}
           AUTO_APPROVE: ${{ vars.AUTO_APPROVE || 'true' }}
           EXPECTED_IG_USERNAME: 'chaofelicevich'
