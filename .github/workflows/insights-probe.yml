@@ -22,6 +22,9 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Run safe Insights read-only tests
         run: python -m unittest discover -s tests -p test_insights_probe.py -v
+      - name: Run full publishing regression suite and capture failures
+        continue-on-error: true
+        run: python diagnose_v2.py
       - name: Check the existing IG token without posting anything
         run: python insights_probe.py
         env:
@@ -43,7 +46,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ig_insights_probe.json data/publish_preflight.json
+          git add data/ig_insights_probe.json data/publish_preflight.json data/health_v2.json
           if ! git diff --cached --quiet; then
             git commit -m "Record redacted Instagram insights API capabilities"
             for attempt in 1 2 3 4; do
