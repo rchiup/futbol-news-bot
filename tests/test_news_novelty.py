@@ -57,6 +57,22 @@ class NoveltyTests(unittest.TestCase):
         updated = story("Yamal scores decisive goal", hours=1, id="new")
         self.assertFalse(same_story(updated, posted))
 
+    def test_same_player_different_match_event_is_allowed(self):
+        injury = story("Lamine Yamal misses match due to ankle injury",
+                       id="ankle", status="published")
+        goal = story("Lamine Yamal scores winning goal in a different match",
+                     id="winning-goal")
+        self.assertFalse(same_story(goal, injury))
+
+    def test_red_card_is_not_chilean_national_team(self):
+        # The earlier model boosted "la roja de Leny Yoro" as though La Roja
+        # were playing. That buried actual Barcelona breaking news.
+        yoro = story("Manchester United apelará la roja de Leny Yoro",
+                     hours=2, id="red-card")
+        yamal = story("Lamine Yamal sufre molestias y no jugará Champions",
+                      hours=2, id="yamal-ankle")
+        self.assertGreater(novelty_priority(yamal, NOW), novelty_priority(yoro, NOW))
+
     def test_2035_world_cup_host_different_languages(self):
         a = story("UK confirmed host 2035 Women's World Cup after FIFA meeting",
                   "FIFA confirma al Reino Unido sede del Mundial 2035",
