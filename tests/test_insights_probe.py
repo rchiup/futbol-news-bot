@@ -23,6 +23,11 @@ class FakeMetaSession:
         if url.endswith("/123") and "fields" in params:
             return Resp(200, {"id": "123", "username": "chaofelicevich",
                               "followers_count": 33, "media_count": 12})
+        if url.endswith("/456") and "fields" in params:
+            if params["fields"] == "like_count,comments_count":
+                return Resp(200, {"id": "456", "like_count": 4, "comments_count": 1})
+            return Resp(400, {"error": {"code": 10, "type": "OAuthException",
+                                        "message": "redact details"}})
         if url.endswith("/123/media"):
             return Resp(200, {"data": [{"id": "456", "media_type": "IMAGE",
                                       "media_product_type": "FEED",
@@ -49,7 +54,8 @@ class InstagramInsightsTests(unittest.TestCase):
         self.assertEqual(result["account"]["followers_count"], 33)
         self.assertEqual(result["media_insights"]["shares"]["value"], 17)
         self.assertNotIn("test-secret", str(result))
-        self.assertEqual(len(fake.calls), 13)
+        self.assertEqual(len(fake.calls), 15)
+        self.assertEqual(result['basic_media_counters']['like_count'], 4)
 
     def test_permission_denial_is_redacted(self):
         fake = FakeMetaSession(deny_insights=True)
