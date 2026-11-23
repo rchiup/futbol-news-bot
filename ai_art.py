@@ -30,21 +30,30 @@ def safe_output_url(value: str) -> bool:
 
 def build_prompt(item: dict) -> str:
     subject = re.sub(r"[^A-Za-zÀ-ÿ \-'.]", "", str(item.get("visual_subject", "")))[:65].strip()
-    # Real news must use real photographic evidence; the fallback is art, not a fake news photo.
+    # Never generate fake evidence of a match or pretend that an AI scene
+    # depicts the reported facts. This is always CLEARLY LABELLED editorial art.
+    sport = str(item.get("sport", "FUTBOL")).upper()
+    props = {
+        "FUTBOL": "abstract football pitch floodlights and an expressive football",
+        "TENIS": "tennis racket, dramatic tennis court lighting and green tennis ball",
+        "GOLF": "golf ball, distant flag and dramatic golf-course landscape",
+        "F1": "abstract racing car silhouette, track kerbs and dynamic speed streaks",
+        "NBA": "basketball, hardwood arena and glowing hoop",
+    }
+    motif = props.get(sport, props["FUTBOL"])
     person = (
-        f"stylized artistic magazine portrait of footballer {subject}"
+        f"stylized hand-painted editorial portrait of athlete {subject}"
         if len(subject.split()) >= 2
-        else "anonymous footballer silhouette with ball in stadium"
+        else f"symbolic artistic composition of {motif}"
     )
     return (
-        f"Premium South American football magazine cover illustration of {person}. "
-        "Highly artistic digital illustration, clearly NOT a photograph. "
-        "Bold painterly brush strokes, dramatic stadium floodlights, cinematic dark navy "
-        "with electric green and warm gold accents, dynamic magazine composition, "
-        "sport editorial art direction, 4:5 portrait framing, open negative space "
-        "in lower half for a separately overlaid Spanish headline. "
-        "No logos, no badges, no text, no watermarks, no scores, "
-        "no depiction of a specific real-world sporting event. "
+        f"Premium South American sports news magazine digital illustration of {person}. "
+        f"Sports category: {sport}. Clearly stylized painting, NOT documentary photography. "
+        "High-end sports editorial art direction, rich navy shadows, cinematic light, "
+        "dynamic color gradients, bold expressive brush strokes, tasteful neon accents. "
+        "4:5 vertical portrait layout, open negative space in lower half for separately overlaid headline. "
+        "No text, no logos, no numbers, no badges, no watermarks, no fake photojournalism, "
+        "no precise depicted injury, no invented celebration, no real-world match reconstruction. "
     )
 
 
