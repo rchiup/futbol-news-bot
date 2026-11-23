@@ -26,9 +26,10 @@ short captions grounded ONLY in the RSS title and summary.
    1080×1350 JPEGs with Pillow.
 3. **publisher.py** (opt-in) uploads images to Cloudinary with a signed request,
    creates an Instagram container via Meta Graph API, waits for its status, then
-   publishes it.
+   publishes it. Supports Instagram Login and Facebook Login.
 4. **GitHub Actions** runs automatically at minutes 11 and 41 of every hour,
-   performs all automated tests, uploads JPG previews, and commits the queue.
+   performs safety tests, uploads JPG previews, and commits the queue.
+   A separate CI workflow tests code changes without calling paid APIs.
 
 No unlicensed celebrity or team photos/logos are used.
 
@@ -57,15 +58,18 @@ Repository **variables** (not secrets):
 | MAX_POSTS_PER_DAY | 30 | Hard local cap on Meta publication |
 | ENABLE_PUBLISH | false | First switch for real Instagram publication |
 | AUTO_APPROVE | false | Second independent switch |
-| META_GRAPH_VERSION | v24.0 | Meta Facebook-Login Graph API version |
+| META_GRAPH_VERSION | v24.0 | Meta Graph API version |
+| META_AUTH_MODE | instagram | Set to facebook for Facebook Login |
+| PUBLISH_TIMEZONE | America/Santiago | Local-time daily quota and publishing hours |
 
 **To publish**, first verify the Instagram Business/Creator account, permissions,
 tokens and Cloudinary. Inspect the drafts. Only then set BOTH
 ENABLE_PUBLISH=true and AUTO_APPROVE=true.
 
-Meta publication requires public image URLs. This system supports the
-professional-account Facebook Login API route. Instagram-Login-only setups
-may require different permissions/host configuration.
+Meta publication requires public image URLs. The publisher supports Instagram
+Login (graph.instagram.com) and Facebook Login (graph.facebook.com); their
+permissions and token types are different. See [SETUP_INSTAGRAM.md](SETUP_INSTAGRAM.md).
+Real publishing is limited to 08:00–23:59 in the selected time zone.
 
 ### Safety and limitations
 
