@@ -9,3 +9,5 @@ Run IG publish authorization/limit preflight after rotating token, 2026-11-23.
 Run full regression suite to confirm Facebook user-token publishing fix, 2026-11-23.
 
 Refresh read-only publishing readiness after direct-profile identity fix.
+
+Run full test suite on new editorial graphic and license-credit regressions, 2026-11-23.
