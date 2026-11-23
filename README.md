@@ -6,7 +6,7 @@ when there is enough real news, **not** made-up content to hit a quota.
 
 ## Current status: safe preview mode
 
-No Instagram publishing and no OpenAI API charges by default.
+No Instagram publishing and no paid AI calls by default. Groq is the preferred free-tier option.
 
 - Run history: **Actions → Football News Engine**
 - Image previews: latest workflow run → **Artifacts → football-news-previews**
@@ -14,7 +14,7 @@ No Instagram publishing and no OpenAI API charges by default.
 - Editorial queue: data/queue.json
 
 By default, preview cards use the **original RSS headline** and status
-awaiting_ai. When OPENAI_API_KEY is configured, cards use Spanish headlines and
+awaiting_ai. When GROQ_API_KEY (preferred) or OPENAI_API_KEY is configured, cards use Spanish headlines and
 short captions grounded ONLY in the RSS title and summary.
 
 ## Pipeline
@@ -22,7 +22,7 @@ short captions grounded ONLY in the RSS title and summary.
 1. **bot.py** archives raw RSS titles.
 2. **editorial.py** fetches verified-fresh news with actual RSS publication
    timestamps, scores importance, removes tracking parameters, deduplicates
-   similar headlines, drafts text using OpenAI (optional), and generates original
+   similar headlines, drafts text using Groq (preferred) or OpenAI (fallback), and generates original
    1080×1350 JPEGs with Pillow.
 3. **publisher.py** (opt-in) uploads images to Cloudinary with a signed request,
    creates an Instagram container via Meta Graph API, waits for its status, then
@@ -40,7 +40,8 @@ Repository secrets.
 
 | Secret | Why |
 | --- | --- |
-| OPENAI_API_KEY | Optional Spanish copywriting; paid OpenAI API usage |
+| GROQ_API_KEY | Preferred text-generation key (GroqCloud free tier, usage limits apply) |
+| OPENAI_API_KEY | Optional paid OpenAI fallback if Groq key is absent |
 | IG_USER_ID | Professional Instagram account ID |
 | IG_ACCESS_TOKEN | Token with Instagram publishing access |
 | CLOUDINARY_CLOUD_NAME | Media hosting destination |
@@ -52,7 +53,8 @@ Repository **variables** (not secrets):
 | Variable | Default | Description |
 | --- | --- | --- |
 | BRAND_NAME | FÚTBOL AL DÍA | Brand rendered on the cards |
-| OPENAI_MODEL | gpt-4.1-mini | JSON-capable text model |
+| GROQ_MODEL | openai/gpt-oss-120b | Default Groq-hosted open-weight model |
+| OPENAI_MODEL | gpt-4.1-mini | Optional OpenAI fallback model |
 | MAX_DRAFTS_PER_DAY | 30 | Max new selected headlines and AI drafts/day |
 | MAX_DRAFTS_PER_RUN | 3 | Max new candidates and OpenAI calls per execution |
 | MAX_POSTS_PER_DAY | 30 | Hard local cap on Meta publication |
@@ -84,7 +86,9 @@ Real publishing is limited to 08:00–23:59 in the selected time zone.
   to Postgres or another transactional store.
 - Tokens and API keys MUST stay in GitHub Secrets, never source files.
 - For a private repository, review GitHub Actions usage quotas.
-- OpenAI API usage is billed separately from ChatGPT Plus.
+- Groq has free-tier rate limits that can change; keep a budget/usage eye on it.
+- OpenAI API usage is billed separately from ChatGPT Plus if you configure the fallback.
+- **Never paste API keys into chats, README files or code**. If exposed, revoke and rotate them.
 
 ## Local run
 
