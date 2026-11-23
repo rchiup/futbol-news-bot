@@ -28,3 +28,5 @@ Start fresh-only deduplicated sports feed now, include Yamal 2026-11-23 and Chil
 2026-11-23 run with 36h semantic dedup, newer Chile relevance and 16 licensed portraits. Request only new facts; avoid Pochettino/Doue reposts.
 
 Publish carefully verified Lamine Yamal/Sabah injury absence with licensed portrait; dedup after updated news priority and Cooperativa feed. 2026-11-23.
+
+2026-11-23: Restart verified auto publisher after fixing CI news-event classification and free LLM failover; no duplicated stories.
