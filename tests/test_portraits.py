@@ -5,7 +5,7 @@ from pathlib import Path
 
 from PIL import Image
 
-from portraits import download_portrait, find_portrait, name_in_story, photo_attribution
+from portraits import download_portrait, find_portrait, name_in_story, photo_attribution, photo_attribution_compact
 
 
 class FakeResponse:
@@ -172,6 +172,17 @@ class PortraitTests(unittest.TestCase):
             self.assertTrue(dest.exists())
             self.assertTrue(client.thumbnail_called)
             self.assertFalse(client.proxy_called)
+
+    def test_instagram_caption_photo_credit_is_compact_but_rights_checked(self):
+        photo = find_portrait("Lionel Messi", session=WikimediaStub("CC BY-SA 4.0"))
+        self.assertIsNotNone(photo)
+        short = photo_attribution_compact(photo)
+        full = photo_attribution(photo)
+        self.assertIn("Juan Fotógrafo", short)
+        self.assertIn("CC BY-SA", short)
+        self.assertIn("editada", short)
+        self.assertNotIn("https://commons.wikimedia.org", short)
+        self.assertIn("https://commons.wikimedia.org", full)
 
     def test_wrong_person_is_rejected(self):
         self.assertIsNone(find_portrait("Lionel Ronaldo", session=WikimediaStub()))
