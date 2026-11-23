@@ -1,0 +1,1 @@
+Run one fair free-only Groq Gemini Cerebras OpenRouter comparison for Chao Felicevich.
