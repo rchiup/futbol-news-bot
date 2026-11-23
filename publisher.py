@@ -56,6 +56,37 @@ def instagram_api_settings() -> tuple[str, str, str, str]:
     return ig_id, token, mode, f"https://{host}/{version}"
 
 
+def available_instagram_slots(session=requests, fallback_slots: int = 0) -> int:
+    """Check Instagram's account-specific rolling publishing limit.
+
+    Fail closed to the caller-supplied conservative number if Meta's usage
+    endpoint is unavailable. Quota is account-wide, not just this bot's posts.
+    """
+    try:
+        ig_id, token, _, root = instagram_api_settings()
+        response = session.get(
+            f"{root}/{ig_id}/content_publishing_limit",
+            params={"fields": "config,quota_usage"},
+            headers={"Authorization": f"Bearer {token}"},
+            timeout=20,
+        )
+        response.raise_for_status()
+        payload = response.json()
+        records = payload.get("data", [])
+        entry = records[0] if isinstance(records, list) and records else payload
+        usage = int(entry["quota_usage"])
+        config = entry.get("config") or {}
+        total = int(config["quota_total"])
+        if total <= 0 or usage < 0:
+            raise ValueError("Invalid publishing quota")
+        remaining = max(0, total - usage)
+        print(f"[META] Account publishing quota: {usage}/{total}; remaining {remaining}")
+        return remaining
+    except (requests.RequestException, ValueError, TypeError, KeyError, IndexError) as exc:
+        print(f"[META] Publishing quota unavailable; conservative fallback: {type(exc).__name__}")
+        return max(0, fallback_slots)
+
+
 def verify_instagram_account(session=requests) -> dict:
     """Read-only guard: never post into a different professional Instagram account."""
     ig_id, token, mode, root = instagram_api_settings()
