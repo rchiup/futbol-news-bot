@@ -582,6 +582,11 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     # The account is photo-first. Keep item queued for next run.
                     print(f"[PHOTO] Post deferred (no photo): {item['id']}")
                     continue
+                if (os.getenv("REQUIRE_SUBJECT_PHOTO", "").lower() == "true"
+                        and not item.get("portrait_used")):
+                    # Manual smoke test: publish an identifiable person or nothing.
+                    print(f"[PHOTO] Waiting for a real subject portrait: {item['id']}")
+                    continue
                 if item.get("photo_checked_at") and allow_network_photo:
                     network_photo_lookups += 1
                 if item.get("ai_art_used"):
