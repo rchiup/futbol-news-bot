@@ -17,3 +17,5 @@ Validate Commons fallback and plain-language editorial prompt.
 Test source photo reuse under CC BY-SA and clearer Spanish captions without truncation.
 
 Test Openverse public photos from Flickr and restrictive license checks.
+
+Verify curated image bank and no API calls for previews.
