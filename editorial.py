@@ -24,7 +24,8 @@ import requests
 from PIL import Image, ImageDraw, ImageFont
 from graphics import render_card
 from ai_art import generate_illustration
-from portraits import name_in_story, find_portrait, download_portrait, photo_attribution
+from portraits import (name_in_story, find_portrait, download_portrait,
+                       photo_attribution, photo_attribution_compact)
 from openverse_photos import find_openverse_photo, download_openverse_photo
 from curated_portraits import pick_curated
 
@@ -585,7 +586,8 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     generated_art_this_run += 1
                 caption = clean_public_caption(item["caption"])
                 if item.get("photo_used"):
-                    credit = photo_attribution(item.get("portrait_info"))
+                    item["photo_credit_full"] = photo_attribution(item.get("portrait_info"))
+                    credit = photo_attribution_compact(item.get("portrait_info"))
                     if credit:
                         caption += "\n\n" + credit
                 media_id = publish_image(path, caption, item["id"])
