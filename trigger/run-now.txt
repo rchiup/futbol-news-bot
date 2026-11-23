@@ -4,3 +4,5 @@ No Instagram publishing is enabled.
 Second smoke test: verify Spanish-only headlines and AI re-drafting.
 
 Execute one confirmed Instagram publication to @chaofelicevich. Authorized by account owner.
+
+V2 broadcast-card and South-American-editor smoke test; approved automation.
