@@ -9,7 +9,7 @@ import math
 import re
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageOps
 
 WIDTH, HEIGHT = 1080, 1350
 BASE = (7, 18, 30)
@@ -126,7 +126,8 @@ def _illustration(layer: Image.Image, accent, seed: int, category: str):
                          fill=(*accent, 110))
 
 
-def render_card(item: dict, brand="CHAO FELICEVICH", destination: Path | None = None) -> Path:
+def render_card(item: dict, brand="CHAO FELICEVICH", destination: Path | None = None,
+                portrait_path: Path | None = None) -> Path:
     category = str(item.get("category", "ACTUALIDAD")).upper()
     ribbon, accent = THEMES.get(category, THEMES["ACTUALIDAD"])
     identity = str(item.get("id", "news"))[:36]
@@ -144,8 +145,40 @@ def render_card(item: dict, brand="CHAO FELICEVICH", destination: Path | None = 
     overlay.polygon([(660, 0), (1080, 0), (1080, 360), (990, 360)],
                     fill=(*accent, 39))
     overlay.polygon([(0, 1100), (175, 1350), (0, 1350)], fill=(*accent, 44))
-    _illustration(decorative, accent, sum(ord(c) for c in identity), category)
+    if not portrait_path:
+        _illustration(decorative, accent, sum(ord(c) for c in identity), category)
+    else:
+        # Keep pitch artwork subtly behind identity-verified photography.
+        _pitch(overlay, accent, sum(ord(c) for c in identity))
     canvas = Image.alpha_composite(canvas.convert("RGBA"), decorative)
+    if portrait_path:
+        try:
+            with Image.open(portrait_path) as portrait_src:
+                portrait = ImageOps.fit(
+                    ImageOps.exif_transpose(portrait_src).convert("RGB"),
+                    (740, 825), method=Image.Resampling.LANCZOS,
+                    centering=(0.5, 0.30),
+                ).convert("RGBA")
+            # Right-weighted licensed portrait, feathered left and bottom edges.
+            mask = Image.new("L", (740, 825), 0)
+            mask_draw = ImageDraw.Draw(mask)
+            for x in range(740):
+                alpha = int(237 * min(1, max(0, (x - 10) / 225)))
+                mask_draw.line((x, 0, x, 825), fill=alpha)
+            shadow = Image.new("L", (740, 825), 0)
+            shadow_draw = ImageDraw.Draw(shadow)
+            for y in range(825):
+                fade = min(1, max(0, (825 - y) / 185))
+                shadow_draw.line((0, y, 740, y), fill=int(255 * fade))
+            from PIL import ImageChops
+            mask = ImageChops.multiply(mask, shadow)
+            portrait.putalpha(mask)
+            canvas.alpha_composite(portrait, dest=(340, 235))
+            photo_draw = ImageDraw.Draw(canvas, "RGBA")
+            photo_draw.line((1010, 285, 1010, 760), fill=(*accent, 230), width=7)
+        except (OSError, ValueError):
+            # Broken licensed image should never break the newsletter.
+            pass
 
     # Dark lower-third separates short headlines from background geometry.
     overlay2 = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
