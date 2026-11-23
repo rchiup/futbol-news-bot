@@ -353,7 +353,7 @@ def make_card(item: dict, allow_ai: bool = False, lookup: bool = False,
     dest = ROOT / "output" / "portraits" / (item["id"] + ".jpg")
 
     # Reject stale generic-photo information from the previous system.
-    if item.get("portrait_info", {}).get("reference_only"):
+    if (item.get("portrait_info") or {}).get("reference_only"):
         item["portrait_info"] = None
 
     if lookup:
