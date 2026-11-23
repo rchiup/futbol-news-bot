@@ -40,7 +40,7 @@ jobs:
           MORNING_POSTS_PER_RUN: ${{ vars.MORNING_POSTS_PER_RUN || '3' }}
           MORNING_MAX_POSTS: ${{ vars.MORNING_MAX_POSTS || '10' }}
           POST_SPACING_SECONDS: ${{ vars.POST_SPACING_SECONDS || '12' }}
-          ENABLE_AI_ART: ${{ vars.ENABLE_AI_ART || 'false' }}
+          ENABLE_AI_ART: ${{ vars.ENABLE_AI_ART || 'true' }}
           AI_ART_MAX_DAILY: ${{ vars.AI_ART_MAX_DAILY || '6' }}
           REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
           MAX_POSTS_PER_DAY: '60'
