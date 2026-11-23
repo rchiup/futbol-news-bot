@@ -59,8 +59,8 @@ POPULAR = ("real madrid", "barcelona", "manchester", "arsenal", "liverpool", "ch
            "católica", "cobreloa", "palestino", "huachipato", "everton", "boca", "river",
            "racing", "independiente", "argentina", "brasil", "palmeiras", "flamengo",
            "libertadores", "sudamericana", "liga de primera", "conmebol")
-BLOCKED_TOPICS = ("nfl", "nba", "nhl", "super bowl", "baseball", "cricket", "rugby",
-                  "wwe", "formula 1", "f1 grand prix", "boxing", "ufc", "golf masters")
+BLOCKED_TOPICS = ("nfl", "nhl", "super bowl", "baseball", "cricket", "rugby",
+                  "wwe", "boxing", "ufc")
 BLOCKED_FORMATS = ("podcast", "player ratings", "0/10", "quiz", "live blog",
                    "how to watch", "streaming guide", "fantasy football")
 STOP = {"the", "a", "an", "and", "of", "to", "in", "on", "for", "as", "at", "is",
@@ -112,7 +112,9 @@ def normalize_title(value: str) -> str:
     return " ".join(w for w in words if w not in STOP)
 
 
-def category_for(title: str) -> str:
+def category_for(title: str, sport: str = "FUTBOL") -> str:
+    if sport in {"TENIS", "GOLF", "F1", "NBA"}:
+        return sport
     low = title.lower()
     for category, words in CATEGORIES.items():
         if any(w in low for w in words):
@@ -120,12 +122,12 @@ def category_for(title: str) -> str:
     return "ACTUALIDAD"
 
 
-def score_for(title: str, published_at: datetime, reference: datetime) -> int:
+def score_for(title: str, published_at: datetime, reference: datetime, sport: str = "FUTBOL") -> int:
     age = max(0, (reference - published_at).total_seconds() / 3600)
     text = title.lower()
     points = 10 + (10 if age <= 3 else 7 if age <= 12 else 3 if age <= 24 else 0)
     points += 8 if any(word in text for word in POPULAR) else 0
-    points += 6 if category_for(title) != "ACTUALIDAD" else 0
+    points += 6 if category_for(title, sport) != "ACTUALIDAD" else 0
     points += 5 if any(w in text for w in ("official", "confirm", "breaking", "última hora", "oficial")) else 0
     points -= 8 if any(w in text for w in ("opinion:", "podcast", "quiz", "newsletter", "live blog")) else 0
     return max(0, points)
@@ -154,6 +156,7 @@ def fetch_candidates(reference: datetime | None = None, session=None) -> list[di
     for source in FEEDS:
         url = source if isinstance(source, str) else source.get("url")
         label = url if isinstance(source, str) else source.get("name", url)
+        sport = "FUTBOL" if isinstance(source, str) else source.get("sport", "FUTBOL")
         if not url:
             continue
         try:
@@ -182,8 +185,8 @@ def fetch_candidates(reference: datetime | None = None, session=None) -> list[di
                     "source": label or parsed.feed.get("title", url),
                     "description": clean_html(entry.get("summary", ""))[:550],
                     "published_at": iso(published_at),
-                    "category": category_for(title),
-                    "score": score_for(title, published_at, reference),
+                    "category": category_for(title, sport), "sport": sport,
+                    "score": score_for(title, published_at, reference, sport),
                 }
                 accepted += 1
             print(f"[RSS] {label}: {accepted} fresh items")
@@ -248,7 +251,7 @@ def draft_with_ai(item: dict, session=None) -> tuple[str, str] | None:
                 else "https://api.openai.com/v1/chat/completions")
     session = session or requests
     instructions = (
-        "Eres analista de CHAO FELICEVICH: medio futbolero sudamericano, filoso, cercano y ágil. "
+         "Eres analista de CHAO FELICEVICH: medio deportivo de fútbol, tenis, golf, Fórmula 1 y NBA, filoso, cercano y ágil. "
         "Habla como un hincha informado, en español sencillo que entienda cualquiera en Chile o Argentina. "
         "La claridad vale más que el estilo: análisis corto, entretenido y un poco polémico, sin agresiones. "
         "Ejemplos: 'Pellegrino duda seguir en Lanús' y 'Liverpool goleó 4-0 al United'. "
@@ -282,6 +285,7 @@ def draft_with_ai(item: dict, session=None) -> tuple[str, str] | None:
         "messages": [
             {"role": "system", "content": instructions},
             {"role": "user", "content": json.dumps({
+                "sport": item.get("sport", "FUTBOL"),
                 "original_title": item["title"],
                 "rss_summary": item.get("description", ""),
                 "source": item["source"],
@@ -343,11 +347,12 @@ def make_card(item: dict, allow_ai: bool = False, lookup: bool = False,
     Only look up/download images during publishing, not preview generation.
     """
     photo_path = None
+    non_football = item.get("sport", "FUTBOL") != "FUTBOL"
     title, summary = item.get("title", ""), item.get("description", "")
     subject = item.get("visual_subject", "")
     dest = ROOT / "output" / "portraits" / (item["id"] + ".jpg")
 
-    if lookup:
+    if lookup and not non_football:
         approved = pick_curated(subject, title, summary)
         if approved:
             item["portrait_info"] = approved
@@ -388,7 +393,7 @@ def make_card(item: dict, allow_ai: bool = False, lookup: bool = False,
                     print(f"[PHOTO] Pitch download unavailable: {type(fallback).__name__}")
 
     ai_used = False
-    if not photo_path and allow_ai and os.getenv("ENABLE_AI_ART", "").lower() == "true":
+    if not photo_path and allow_ai and not non_football and os.getenv("ENABLE_AI_ART", "").lower() == "true":
         try:
             photo_path = generate_illustration(
                 item, ROOT / "output" / "ai" / (item["id"] + ".jpg")
@@ -533,7 +538,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
         # Others still get an explicitly referential football-pitch photo.
         for item in sorted(queue, key=lambda x: (
             bool(pick_curated(x.get("visual_subject", ""), x.get("title", ""),
-                              x.get("description", ""))),
+                              x.get("description", ""))) if x.get("sport", "FUTBOL") == "FUTBOL" else False,
             x.get("score", 0), x.get("published_at", "")
         ), reverse=True):
             if (published_count >= allowed_this_run
@@ -576,6 +581,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 )
                 # No photo is fine: render_card already produces original art.
                 if (os.getenv("REQUIRE_SUBJECT_PHOTO", "").lower() == "true"
+                        and item.get("sport", "FUTBOL") == "FUTBOL"
                         and not item.get("portrait_used")):
                     # Manual smoke test: publish an identifiable person or nothing.
                     print(f"[PHOTO] Waiting for a real subject portrait: {item['id']}")
