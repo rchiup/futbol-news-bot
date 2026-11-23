@@ -1,9 +1,5 @@
 name: Football News Engine
 on:
-  push:
-    paths-ignore:
-      - 'data/**'
-      - 'output/**'
   workflow_dispatch:
   schedule:
     - cron: "11,41 * * * *"
