@@ -9,7 +9,10 @@
     "category": "SELECCIONES",
     "score": 36,
     "queued_at": "2026-11-23T00:47:43.234772+00:00",
-    "status": "awaiting_ai"
+    "status": "draft",
+    "headline": "Fifa confirmará al Reino Unido como sede de la Copa Mundial Femenina 2035",
+    "caption": "La FIFA confirmará el lunes que el Reino Unido será el anfitrión de la Copa Mundial Femenina 2035, el primer Mundial de fútbol que se celebra en el país desde 1966.\n\nFuente: BBC Sport\nhttps://www.bbc.co.uk/sport/football/articles/cx30g83716lzo?at_medium=RSS&at_campaign=rss",
+    "ai_generated_at": "2026-11-23T01:01:09.488812+00:00"
   },
   {
     "id": "c4f35f77bfb23db379ee",
@@ -21,7 +24,10 @@
     "category": "PARTIDOS",
     "score": 34,
     "queued_at": "2026-11-23T00:47:43.234772+00:00",
-    "status": "awaiting_ai"
+    "status": "draft",
+    "headline": "Pochettino lamenta derrota 4-0 de United ante Liverpool en su debut",
+    "caption": "Liverpool venció 4-0 a un Manchester United con diez jugadores en Anfield, subiendo al cuarto puesto y dejando al conjunto inglés en el puesto 19, a un punto del descenso. Pochettino, recién llegado, aceptó la responsabilidad del resultado y cuestionó la expulsión de Leny Yoro en el minuto ocho, alegando que debió concederse un penal por una falta sobre Bryan Mbeumo.\n\nFuente: The Guardian\nhttps://www.theguardian.com/football/video/2026/nov/22/we-feel-the-pain-pochettino-on-4-0-defeat-at-liverpool-to-start-manchester-united-era-video",
+    "ai_generated_at": "2026-11-23T01:01:09.488812+00:00"
   },
   {
     "id": "48cba9ff2478331e70d6",
@@ -33,7 +39,10 @@
     "category": "PARTIDOS",
     "score": 34,
     "queued_at": "2026-11-23T00:47:43.234772+00:00",
-    "status": "awaiting_ai"
+    "status": "draft",
+    "headline": "Chelsea forward Emmanuel Emegha victim of robbery after defeat to Leeds",
+    "caption": "El delantero del Chelsea, Emmanuel Emegha, fue asaltado tras la derrota ante el Leeds. No se han confirmado más detalles del incidente.\n\nFuente: talkSPORT\nhttps://talksport.com/football/4724970/chelsea-emmanuel-emegha-victim-robbery",
+    "ai_generated_at": "2026-11-23T01:01:09.488812+00:00"
   },
   {
     "id": "b452ec5ccb41b57f50df",
@@ -105,6 +114,42 @@
     "category": "ACTUALIDAD",
     "score": 28,
     "queued_at": "2026-11-23T00:48:45.660935+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "c1d84f001f9d80d24876",
+    "title": "World Cup winner collapses during live TV interview after historic cup win",
+    "source_url": "https://talksport.com/football/4724408/world-cup-winner-collapses-live-tv-leandro-paredes",
+    "source": "talkSPORT",
+    "description": "",
+    "published_at": "2026-11-22T11:34:50+00:00",
+    "category": "SELECCIONES",
+    "score": 27,
+    "queued_at": "2026-11-23T01:01:09.488812+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "e5a113268b65f4fb3c8e",
+    "title": "Bruno Fernandes reveals talks over new Manchester United contract are on hold",
+    "source_url": "https://www.theguardian.com/football/2026/nov/22/bruno-fernandes-reveals-talks-over-new-manchester-united-contract-are-on-hold",
+    "source": "The Guardian",
+    "description": "Club captain confirms he has been offered a new deal ‘Not the right moment to be talking about negotiations’ Bruno Fernandes has revealed that Manchester United have offered him a new contract, but discussions have been ⁠put on hold as the club focus on turning around their terrible start to the season. Fernandes’s current deal expires at the end of this campaign, although United ⁠hold an ​option to extend their captain’s contract by a further year until June 2028, giving the club more time to reach ⁠an agreement on fresh terms. Continue readin",
+    "published_at": "2026-11-22T11:33:54+00:00",
+    "category": "FICHAJES",
+    "score": 27,
+    "queued_at": "2026-11-23T01:01:09.488812+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "9a349d70b19ec034f58c",
+    "title": "Xabi Alonso addresses Cole Palmer ‘touchline row’ with Joao Pedro moments after Chelsea defeat",
+    "source_url": "https://talksport.com/football/4724409/xabi-alonso-cole-palmer-touchline-row-joao-pedro-chelsea",
+    "source": "talkSPORT",
+    "description": "",
+    "published_at": "2026-11-22T10:37:54+00:00",
+    "category": "PARTIDOS",
+    "score": 27,
+    "queued_at": "2026-11-23T01:01:09.488812+00:00",
     "status": "awaiting_ai"
   }
 ]
