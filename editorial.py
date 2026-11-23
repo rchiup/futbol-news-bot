@@ -242,17 +242,17 @@ def news_missing_critical_details(item: dict) -> bool:
     description = str(item.get("description") or "").lower()
     headline = str(item.get("headline") or "").lower()
     source_text = title + " " + description
-    if (re.search(r"\\b(?:which|what|who)\\b.*\\bplayers\\b", title)
-            and re.search(r"\\b(?:cards|suspension|suspended|yellow)\\b", source_text)
+    if (re.search(r"\b(?:which|what|who)\b.*\bplayers\b", title)
+            and re.search(r"\b(?:cards|suspension|suspended|yellow)\b", source_text)
             and not item.get("visual_subject")):
         return True
-    if (re.search(r"\\b(?:\\d+|dieciocho|18)\\s+jugadores\\b", headline)
+    if (re.search(r"\b(?:\d+|dieciocho|18)\s+jugadores\b", headline)
             and not item.get("visual_subject")
-            and not re.search(r"\\b(?:including|incluyendo|entre ellos|among them)\\b", source_text)):
+            and not re.search(r"\b(?:including|incluyendo|entre ellos|among them)\b", source_text)):
         return True
-    if (re.search(r"\\b(?:controversy|controversia)\\b", title)
-            and re.search(r"\\b(?:turbulent week|questions about|raised questions)\\b", source_text)
-            and not re.search(r"\\b(?:said|announced|confirmed|suspended|fined|injured|accused|apologized)\\b", description)):
+    if (re.search(r"\b(?:controversy|controversia)\b", title)
+            and re.search(r"\b(?:turbulent week|questions about|raised questions)\b", source_text)
+            and not re.search(r"\b(?:said|announced|confirmed|suspended|fined|injured|accused|apologized)\b", description)):
         return True
     return False
 
