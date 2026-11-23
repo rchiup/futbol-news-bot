@@ -6870,5 +6870,37 @@
     "source": "www.espn.com - SOCCER",
     "collected_at": "2026-11-23T19:32:09.429563+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "71900c10127c8711443bdd17ad04bcc707e3f5a67ac223d862380c28e09476fe",
+    "title": "Lucas Pratto con Olé: campeón en Chile, qué tan cerca ve el retiro y \"Siempre pensé que Ponzio iba a ser manager\"",
+    "url": "https://www.ole.com.ar/futbol-internacional/lucas-pratto-entrevista-ole-river-ponzio-coquimbo-unido_0_F3AGp4aqG2.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-23T19:42:40.446732+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "e1b788b9bfa2593c290461bf717bfb7bd591944f79e9f028d5b8dc1893b20ac0",
+    "title": "La joya que podría darle un alivio económico a San Lorenzo",
+    "url": "https://www.ole.com.ar/san-lorenzo/facundogulli-sanlorenzo-rubendarioinsua-mercadodeverano_0_LKASNjyKk1.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-23T19:42:40.446753+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "67081be19785db5b6707960ac0b1537cdb27fa31332290bed37557b7467d171d",
+    "title": "Pleno en Las Vegas: los números de la mejor carrera de Colapinto y Alpine en 2026",
+    "url": "https://www.ole.com.ar/autos/francocolapinto-alpine-lasvegas-pierregasly_0_mIjH2pjEWy.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-23T19:42:40.446765+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "e81e43215bfc0c6586119bdb32d5a439448e081adf535752d978257682fac199",
+    "title": "Horarios del GP de Qatar de F1 2026 y cómo verlo: ¡adiós madrugones!",
+    "url": "https://es.motorsport.com/f1/news/horarios-gp-qatar-2026-como-ver/10876883/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es",
+    "source": "Motorsport.com - Fórmula 1 - Historias",
+    "collected_at": "2026-11-23T19:42:41.823706+00:00",
+    "status": "pending_review"
   }
 ]
