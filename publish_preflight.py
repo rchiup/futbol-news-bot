@@ -25,7 +25,7 @@ def check(session=requests):
     }
     for name in ("IG_USER_ID", "IG_ACCESS_TOKEN",
                  "CLOUDINARY_CLOUD_NAME", "CLOUDINARY_API_KEY",
-                 "CLOUDINARY_API_SECRET", "GROQ_API_KEY"):
+                 "CLOUDINARY_API_SECRET", "GROQ_API_KEY", "PIXABAY_API_KEY"):
         result["credentials_present"][name] = bool(os.getenv(name, "").strip())
     if not token or not ig:
         result["status"] = "missing_token_or_id"

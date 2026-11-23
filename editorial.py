@@ -23,10 +23,12 @@ import feedparser
 import requests
 from PIL import Image, ImageDraw, ImageFont
 from graphics import render_card
+# Retained for compatibility with diagnostics; editorial deliberately never invokes paid image generation.
 from ai_art import generate_illustration
 from portraits import (name_in_story, find_portrait, download_portrait,
                        photo_attribution, photo_attribution_compact)
 from openverse_photos import find_openverse_photo, download_openverse_photo
+from pixabay_photos import find_pixabay_photo, download_pixabay_photo
 from google_images import find_google_image
 from curated_portraits import pick_curated
 import free_llm
@@ -389,22 +391,28 @@ def make_card(item: dict, allow_ai: bool = False, lookup: bool = False,
         if approved:
             item["portrait_info"] = approved
             item["visual_subject"] = approved["subject"]
-        elif sport == "FUTBOL" and subject and name_in_story(subject, title, summary) and network_lookup:
-            try:
-                item["portrait_info"] = find_portrait(subject)
-            except (requests.RequestException, KeyError, ValueError) as exc:
-                print(f"[PHOTO] Wikimedia lookup unavailable: {type(exc).__name__}")
-                item["portrait_info"] = None
+        elif subject and name_in_story(subject, title, summary) and network_lookup:
+            if sport == "FUTBOL":
+                try:
+                    item["portrait_info"] = find_portrait(subject)
+                except (requests.RequestException, KeyError, ValueError) as exc:
+                    print(f"[PHOTO] Wikimedia lookup unavailable: {type(exc).__name__}")
+                    item["portrait_info"] = None
+                if not item.get("portrait_info"):
+                    try:
+                        item["portrait_info"] = find_google_image(subject)
+                    except (requests.RequestException, KeyError, ValueError) as exc:
+                        print(f"[PHOTO] Google Images discovery unavailable: {type(exc).__name__}")
+                if not item.get("portrait_info"):
+                    try:
+                        item["portrait_info"] = find_openverse_photo(subject)
+                    except (requests.RequestException, KeyError, ValueError) as exc:
+                        print(f"[PHOTO] Openverse lookup unavailable: {type(exc).__name__}")
             if not item.get("portrait_info"):
                 try:
-                    item["portrait_info"] = find_google_image(subject)
+                    item["portrait_info"] = find_pixabay_photo(subject, sport=sport)
                 except (requests.RequestException, KeyError, ValueError) as exc:
-                    print(f"[PHOTO] Google Images discovery unavailable: {type(exc).__name__}")
-            if not item.get("portrait_info"):
-                try:
-                    item["portrait_info"] = find_openverse_photo(subject)
-                except (requests.RequestException, KeyError, ValueError) as exc:
-                    print(f"[PHOTO] Openverse lookup unavailable: {type(exc).__name__}")
+                    print(f"[PHOTO] Pixabay lookup unavailable: {type(exc).__name__}")
             item["photo_checked_at"] = iso(now_utc())
 
         if item.get("portrait_info"):
@@ -413,25 +421,16 @@ def make_card(item: dict, allow_ai: bool = False, lookup: bool = False,
                     photo_path = dest
                 elif item["portrait_info"].get("photo_provider") == "Openverse":
                     photo_path = download_openverse_photo(item["portrait_info"], dest)
+                elif item["portrait_info"].get("photo_provider") == "Pixabay":
+                    photo_path = download_pixabay_photo(item["portrait_info"], dest)
                 else:
                     photo_path = download_portrait(item["portrait_info"], dest)
             except (requests.RequestException, OSError, ValueError) as exc:
                 print(f"[PHOTO] Relevant portrait unavailable: {type(exc).__name__}")
 
+    # Image generation is disabled: no usage-billed image providers.
     ai_used = False
-    if (not photo_path and allow_ai
-            and os.getenv("ENABLE_AI_ART", "").lower() == "true"):
-        try:
-            photo_path = generate_illustration(
-                item, ROOT / "output" / "ai" / (item["id"] + ".jpg")
-            )
-            item["ai_art_generated_at"] = iso(now_utc())
-            ai_used = True
-        except (requests.RequestException, OSError, ValueError, RuntimeError) as exc:
-            diagnostic = str(exc) if isinstance(exc, RuntimeError) else type(exc).__name__
-            print(f"[ART] Creative illustration unavailable: {diagnostic[:70]}")
-
-    item["ai_art_used"] = ai_used
+    item["ai_art_used"] = False
     item["photo_used"] = bool(photo_path) and not ai_used
     item["portrait_used"] = bool(item["photo_used"])
     item["reference_photo_used"] = False
@@ -675,8 +674,8 @@ def run(reference: datetime | None = None, session=None) -> dict:
              "total_queue": len(queue), "per_run_cap": posts_per_run,
              "morning_day_cap": morning_allowance,
              "auto_publish_enabled": publish_requested and not missing,
-             "ai_image_provider_configured": bool(os.getenv("REPLICATE_API_TOKEN", "").strip()),
-             "ai_art_enabled": os.getenv("ENABLE_AI_ART", "").lower() == "true",
+             "ai_image_provider_configured": False,
+             "ai_art_enabled": False,
              "free_llm_providers": free_llm.providers(),
              "free_llm_metrics": free_llm.summary(ROOT / "data" / "llm_free_usage.json")}
     print("[SUMMARY] " + json.dumps(stats))

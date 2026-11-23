@@ -162,6 +162,11 @@ def photo_attribution(info: dict | None) -> str:
     license_name = str(info.get("license", "")).strip().upper()
     page = str(info.get("file_page", "")).strip()
     license_url = str(info.get("license_url", "")).strip()
+    if info.get("photo_provider") == "Pixabay":
+        if not page.startswith("https://pixabay.com/photos/") or not license_url.startswith("https://pixabay.com/"):
+            raise ValueError("Pixabay photo is missing its source link")
+        name = author or "Pixabay"
+        return f"📷 Foto: {name} · Pixabay. {page} · {license_url}"
     if not author or not (page.startswith("https://commons.wikimedia.org/wiki/File:") or
                           page.startswith("https://www.flickr.com/photos/")):
         raise ValueError("Licensed photo is missing attribution details")

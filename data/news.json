@@ -6806,5 +6806,29 @@
     "source": "www.espn.com - NBA",
     "collected_at": "2026-11-23T18:28:37.549481+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "5889a2090823f89f4b8aedd5311215c124395fc3cb70a640e1c43c63f0ff686c",
+    "title": "Brentford v Everton: Premier League – live",
+    "url": "https://www.theguardian.com/football/live/2026/nov/23/brentford-v-everton-premier-league-live",
+    "source": "Football | The Guardian",
+    "collected_at": "2026-11-23T18:54:56.450222+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "5536eb14180999df5abeb3643a5c70a9c323383cf1923b2ae49adfc249502361",
+    "title": "Los hinchas de Boca se quedaron con el cheque que la Conmebol le dio a Mineiro y siguieron los festejos",
+    "url": "https://www.ole.com.ar/boca-juniors/hinchas-boca-quedaron-cheque-atletico-mineiro-conmebol-boca-campeon-sudamericana_0_jAzM6yGi3n.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-23T18:54:57.817318+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "773ae746582bd6b8778b836084f9f8ec5319f993fa41add05e0132fdf83871db",
+    "title": "El recuerdo de Juanfer Quintero por la Sudamericana que conquistó con Racing",
+    "url": "https://www.ole.com.ar/racing/juanfer-quintero-racing-sudamericana-2024-recuerdo_0_MGSsT1JlC2.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-23T18:54:57.817332+00:00",
+    "status": "pending_review"
   }
 ]
