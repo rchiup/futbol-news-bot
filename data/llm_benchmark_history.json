@@ -1,0 +1,53 @@
+[
+  {
+    "checked_at_utc": "2026-11-23T17:38:03.797402+00:00",
+    "method": "same dated RSS title and summary",
+    "readability_is_not_fact_checking": true,
+    "configured_free_providers": [
+      "groq"
+    ],
+    "results": [
+      {
+        "provider": "groq",
+        "model": "openai/gpt-oss-120b",
+        "status": "ok",
+        "latency_ms": 1233,
+        "headline": "Alex Luna jugará contra River pese a molestia",
+        "caption": "Alex Luna sufrió una molestia en el partido contra Huracán en octavos, pero aseguró que estará presente en el enfrentamiento contra River en los cuartos del Clausura.",
+        "readability_score": 100
+      },
+      {
+        "provider": "gemini",
+        "model": "gemini-3.1-flash-lite",
+        "status": "not_configured"
+      },
+      {
+        "provider": "cerebras",
+        "model": "gpt-oss-120b",
+        "status": "not_configured"
+      },
+      {
+        "provider": "openrouter",
+        "model": "openrouter/free",
+        "status": "not_configured"
+      }
+    ],
+    "source_title": "La figura de Instituto palpitó el cruce con River: \"No me lo pierdo ni loco\"",
+    "sport": "FUTBOL",
+    "status": "complete",
+    "usage_summary": {
+      "date_utc": "2026-11-23",
+      "last_success": "groq",
+      "providers": {
+        "groq": {
+          "attempts": 6,
+          "success": 6,
+          "failures": 0,
+          "avg_latency_ms": 1429,
+          "avg_readability": 100.0,
+          "last_error": null
+        }
+      }
+    }
+  }
+]
