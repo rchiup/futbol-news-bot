@@ -127,7 +127,8 @@ def _illustration(layer: Image.Image, accent, seed: int, category: str):
 
 
 def render_card(item: dict, brand="CHAO FELICEVICH", destination: Path | None = None,
-                portrait_path: Path | None = None, ai_art: bool = False) -> Path:
+                portrait_path: Path | None = None, ai_art: bool = False,
+                reference_photo: bool = False) -> Path:
     category = str(item.get("category", "ACTUALIDAD")).upper()
     ribbon, accent = THEMES.get(category, THEMES["ACTUALIDAD"])
     identity = str(item.get("id", "news"))[:36]
@@ -151,7 +152,24 @@ def render_card(item: dict, brand="CHAO FELICEVICH", destination: Path | None = 
         # Keep pitch artwork subtly behind identity-verified photography.
         _pitch(overlay, accent, sum(ord(c) for c in identity))
     canvas = Image.alpha_composite(canvas.convert("RGBA"), decorative)
-    if portrait_path:
+    if portrait_path and reference_photo:
+        try:
+            with Image.open(portrait_path) as picture:
+                bg = ImageOps.fit(
+                    ImageOps.exif_transpose(picture).convert("RGB"),
+                    (WIDTH, 850), method=Image.Resampling.LANCZOS
+                ).convert("RGBA")
+            # Fade generic photograph toward caption area to preserve readability.
+            mask = Image.new("L", (WIDTH, 850), 0)
+            mask_draw = ImageDraw.Draw(mask)
+            for y in range(850):
+                fade = min(1, y / 130, (850-y) / 210)
+                mask_draw.line((0, y, WIDTH, y), fill=int(190 * max(0, fade)))
+            bg.putalpha(mask)
+            canvas.alpha_composite(bg, (0, 260))
+        except (OSError, ValueError):
+            pass
+    elif portrait_path:
         try:
             with Image.open(portrait_path) as portrait_src:
                 portrait = ImageOps.fit(
@@ -201,6 +219,12 @@ def render_card(item: dict, brand="CHAO FELICEVICH", destination: Path | None = 
     draw.rounded_rectangle((68, 238, 68+label_width, 302), radius=12, fill=(*accent, 245))
     draw.text((93, 255), ribbon, font=font(28), fill=(8, 19, 30, 255))
     draw.text((75, 639), "LA NOTICIA", font=font(22), fill=(*accent, 255))
+    if reference_photo:
+        # Never imply a generic pitch photo depicts the team or event.
+        draw.rounded_rectangle((693, 316, 1009, 370), radius=14,
+                               fill=(4, 14, 26, 234), outline=(*accent, 245), width=2)
+        draw.text((708, 332), "IMAGEN REFERENCIAL", font=font(19),
+                  fill=(255, 255, 255, 255))
     if ai_art:
         # Prevent fictional AI art from being mistaken for a documentary photo.
         draw.rounded_rectangle((765, 316, 1009, 370), radius=14,
