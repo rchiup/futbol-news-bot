@@ -65,7 +65,7 @@ sin atribución obligatoria es limitada: por eso **no todas las publicaciones
 tendrán una foto**. Para ampliar cobertura, se necesitará contratar una
 fototeca con derechos o aportar retratos autorizados.
 
-Si el retrato principal en Wikidata no es reutilizable, el bot ahora busca fotos alternativas en Wikimedia Commons cuyo nombre incluya exactamente al protagonista. No descarga fotos aleatorias de Google. Nuevos titulares usan español simple, sin frases ambiguas.
+Si el retrato principal en Wikidata no es reutilizable, el bot busca alternativas en Wikimedia Commons por el nombre completo del protagonista. Si Commons no responde o no devuelve una foto reutilizable, intenta Openverse: fotos Creative Commons de Flickr con nombre exacto, autor, licencia verificable y dominio de descarga permitido. Descarta imágenes de camisetas, murales, ilustraciones o personas diferentes. No descarga fotos aleatorias de Google. Nuevos titulares usan español simple, sin frases ambiguas y sin captions cortados por la mitad.
 
 Las gráficas de fútbol usan composiciones 4:5, titular protagonista,
 tratamiento editorial fotográfico y 5 acentos de categoría.
