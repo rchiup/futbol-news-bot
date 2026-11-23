@@ -1,2 +1,4 @@
 Smoke test Groq-assisted Spanish drafts. This file only triggers the trusted workflow.
 No Instagram publishing is enabled.
+
+Second smoke test: verify Spanish-only headlines and AI re-drafting.
