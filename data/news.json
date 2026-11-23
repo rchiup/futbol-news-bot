@@ -5830,5 +5830,533 @@
     "source": "NBA | The Guardian",
     "collected_at": "2026-11-23T15:16:16.383256+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "a9a52d350460956766bd7b92ffda7639446644a19b9149a8f1569caf5e83cc00",
+    "title": "UK confirmed as host of 2035 Women’s World Cup after Fifa meeting",
+    "url": "https://www.theguardian.com/football/2026/nov/23/uk-confirmed-hosts-2035-womens-world-cup-fifa",
+    "source": "Football | The Guardian",
+    "collected_at": "2026-11-23T15:20:46.493952+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "5692302445d3cddab0fc597d0bb341543dfdc6a106000cc38e453ef11ac8bdf5",
+    "title": "David Raya’s shoulder injury ‘not too serious’ and no surgery needed for Arsenal goalkeeper",
+    "url": "https://www.theguardian.com/football/2026/nov/23/david-raya-shoulder-injury-arsenal-surgery-mikel-arteta",
+    "source": "Football | The Guardian",
+    "collected_at": "2026-11-23T15:20:46.493966+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "e7d59c2c40e6209d0626e867bf67c2bc14b33d5a226c8680d29369c6dc57638f",
+    "title": "Women's World Cup in U.S. in 2031, United Kingdom in 2035",
+    "url": "https://www.espn.com/soccer/story/_/id/50571732/womens-world-cup-united-states-united-kindgom",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-23T15:20:46.524304+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "a364f5a57a6b887f225e324808822ce25cfd0d9ae4e557cea7be98c1d8f40887",
+    "title": "Sources: Man Utd to appeal Yoro red card against Liverpool",
+    "url": "https://www.espn.com/soccer/story/_/id/50572590/man-united-leny-yoro-red-card-liverpool-premier-league",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-23T15:20:46.524314+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "9b4ffdd2d537f9491247996ec2a5388ca268920b5e0c73738da1b470c8f6d5dd",
+    "title": "Raya won't require surgery, Arsenal's Mikel Arteta confirms",
+    "url": "https://www.espn.com/soccer/story/_/id/50572706/david-raya-arsenal-injury-update",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-23T15:20:46.524318+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "6b99af4ed1c7987cccdc9f54164042efd7e2512b384a1eb516c65be5716abdf4",
+    "title": "Real Madrid's Mourinho: Vinícius Jr. 'doesn't have to be MVP' to deliver",
+    "url": "https://www.espn.com/soccer/story/_/id/50573054/real-madrid-mourinho-vinicius-jr-does-not-mvp",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-23T15:20:46.524322+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "ca8c8808dae57a18f3363c2154a8e4490e4f2e8508f30d3352ec5d1cdb09c08a",
+    "title": "Morocco, Senegal to learn Africa Cup of Nations final fate on Tuesday",
+    "url": "https://www.espn.com/soccer/story/_/id/50572177/morocco-senegal-2025-africa-cup-nations-final-fate",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-23T15:20:46.524328+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "4ee1bdcb89177f7c582b77dc5bb98235cbcc6020f81b0ff0095ff4f4db6e0c34",
+    "title": "How B.J. Callaghan's long, winding coaching journey led to Nashville success",
+    "url": "https://www.espn.com/soccer/story/_/id/50542113/bj-callaghan-nashville-usmnt-coach",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-23T15:20:46.524333+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "340241f1e7c4e04fcc6fb39d801945e5ad52ec5d69249a84ec18b69e6d6bb0e8",
+    "title": "What does the future hold for the WTA Finals?",
+    "url": "https://www.espn.com/tennis/story/_/id/50504216/wta-finals-indian-wells-charlotte-north-carolina-andreeva",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-23T15:20:48.097925+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "1d5f9474a467283ec59ce2b2b9e6a2abdeff26c31964bd1cfdfc10b9dc436811",
+    "title": "ATP Finals preview: Can Alcaraz close out the year with a big win?",
+    "url": "https://www.espn.com/tennis/story/_/id/50473425/atp-finals-alcaraz-zverev-shelton-tiafoe-jodar-medvedev",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-23T15:20:48.097935+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "1ead5a5d2215d161ced9c84127471cc46a6fd908e0c7b3c2d55adc1f207d341f",
+    "title": "Consistent Zverev earns final No. 1 ATP ranking despite loss to Alcaraz",
+    "url": "https://www.espn.com/tennis/story/_/id/50572011/zverev-earns-final-no-1-atp-ranking-loss-alcaraz",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-23T15:20:48.097939+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "86957265d31fdf8d682e7ac4467f4c0776c1fd156058c376d42968b15ff0508b",
+    "title": "Alcaraz adds ATP Finals trophy to career Grand Slam",
+    "url": "https://www.espn.com/tennis/story/_/id/50563835/carlos-alcaraz-wins-season-ending-atp-finals",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-23T15:20:48.097942+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "b5fb712fbffec38a543fbe65cd7bc0b68c2b42b21e8b1a892937d28c9d99b1b9",
+    "title": "'Still no Maldives': Holiday postponed, Medvedev to face Zverev at ATP Finals",
+    "url": "https://www.espn.com/tennis/story/_/id/50544020/daniil-medvedev-defeats-frances-tiafoe-faces-alexander-zverev-atp-finals-semis",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-23T15:20:48.097945+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "f8b19d68c0f6cec18bbebcd9a7b02d481e38ce29b1928a7099969d3b17b087bf",
+    "title": "Alcaraz limits movement before ATP Finals semifinal vs. Shelton",
+    "url": "https://www.espn.com/tennis/story/_/id/50543676/carlos-alcaraz-wins-set-atp-finals-semi-vs-ben-shelton",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-23T15:20:48.097948+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "eaaf0476957d1b89373a8586408b3b687b70bc120e6f3163ae382aa2a3b86526",
+    "title": "ATP Tour unveils expanded compensation plan to benefit top 250 players",
+    "url": "https://www.espn.com/tennis/story/_/id/50539880/atp-tour-unveils-expanded-compensation-top-250-players",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-23T15:20:48.097951+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "2085f9a5c79680590e79209e6881949d276fd856b69f75e764751ce6ac537bb3",
+    "title": "Shelton beats Jodar, joins Zverev, Alcaraz in ATP Finals semis",
+    "url": "https://www.espn.com/tennis/story/_/id/50534384/shelton-beats-jodar-joins-zverev-alcaraz-atp-finals-semis",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-23T15:20:48.097954+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "c6822e95329646f115f462bf8b78af2341ca91d468ccf34269f60c5689916e79",
+    "title": "Barty, Kunieda elected to International Tennis Hall of Fame",
+    "url": "https://www.espn.com/tennis/story/_/id/50528209/ash-barty-shingo-kunieda-elected-international-tennis-hall-fame",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-23T15:20:48.097957+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "b5f555321d007afaa84f64f2d38b9c90a2ca8e38cf1618bfe97fdaba8de111a3",
+    "title": "FAQ: Why Zverev's rise to world No. 1 provokes mixed feelings",
+    "url": "https://www.espn.com/tennis/story/_/id/50354131/alexander-sasha-zverev-world-no-1-ranking-domestic-abuse-charges",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-23T15:20:48.097960+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "0dbc57a34bd89fbcd5db2464a3454f8794fb2dba8f6af2ba2e23745b62a0811c",
+    "title": "Where to watch Billie Jean King documentary 'Give Me the Ball!'",
+    "url": "https://www.espn.com/tennis/story/_/id/50542057/watch-billie-jean-king-documentary",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-23T15:20:48.097963+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "e618f92efd72e6a00bee31c0a0d9d05107585d80f27604e597a6f4a851021408",
+    "title": "Zverev officially notified of lawsuit by ex-partner in abuse case",
+    "url": "https://www.espn.com/tennis/story/_/id/50522116/alexander-zverev-notified-lawsuit-ex-partner-abuse-case",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-23T15:20:48.097966+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "34a830ec7900c13ec60f8afbbdf4825cab832a9c879c578a6527af5bd2547bf2",
+    "title": "Report: Home of tennis star Stephens targeted for burglary; 3 arrested",
+    "url": "https://www.espn.com/tennis/story/_/id/50521163/stephens-home-targeted-la-burglary-attempt-per-report",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-23T15:20:48.097969+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "330027cceffe17a640f8aa0c3aca52a9b960c5a1bdbb0ec8394f9f6f8d8d2476",
+    "title": "Alcaraz cruises past Medvedev at ATP Finals despite leg issue",
+    "url": "https://www.espn.com/tennis/story/_/id/50521030/alcaraz-cruises-medvedev-atp-finals-leg-issue",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-23T15:20:48.097971+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "1f8c98d8a7c812a8baa85e0f7406c7de27502e5cbe3f0a6787d549bb1955cb93",
+    "title": "Top-ranked Zverev gets 7th career win vs. Shelton to make semis of ATP Finals",
+    "url": "https://www.espn.com/tennis/story/_/id/50513841/alexander-zverev-beats-ben-shelton-semis-atp-finals",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-23T15:20:48.097974+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "c78f702691f8164c258c3a59556d136389e6c6219d24af43f8caae1781653586",
+    "title": "Alcaraz dominates Tiafoe in ATP Finals opener, extends win streak to 10 matches",
+    "url": "https://www.espn.com/tennis/story/_/id/50501663/carlos-alcaraz-dominates-frances-tiafoe-atp-finals-opener",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-23T15:20:48.097977+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "631da0486cc6a9ba4a1d988e2a5699047fd0c15dccc9531dcc13c5fe2c2a2cd5",
+    "title": "Andreeva, 19, takes WTA Finals, motivated to get license after winning convertible",
+    "url": "https://www.espn.com/tennis/story/_/id/50495386/mirra-andreeva-beats-elina-svitolina-win-wta-finals",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-23T15:20:48.097980+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "cc6743a941bebac22cfb2aa32af507baacc0b430bf6be99d937c98aa5b29733e",
+    "title": "Top-ranked Zverev opens ATP Finals with convincing win over Jodar",
+    "url": "https://www.espn.com/tennis/story/_/id/50490503/alexander-zverev-opens-atp-finals-win-rafael-jodar",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-23T15:20:48.097983+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "98d6773dce4b687c5cf3370e6051933419268b7b4f93e80bca7c44277b0b1582",
+    "title": "Sabalenka sorry for on-court outburst in loss to Svitolina, says fans upset her",
+    "url": "https://www.espn.com/tennis/story/_/id/50485803/sabalenka-sorry-court-outburst-loss-svitolina",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-23T15:20:48.097985+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "9daff0373085b165d8b3d3de23038a17f6f02fd0f1f18188492b8e784a9677cc",
+    "title": "Andreeva 1st teen to reach WTA Finals title match since '04",
+    "url": "https://www.espn.com/tennis/story/_/id/50483740/mirra-andreeva-1st-teen-wta-finals-title-match-maria-sharapova",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-23T15:20:48.097988+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "9bd029b812dbaec4c98bbab12844600b12b69798eb6445ff646231eca2d91d91",
+    "title": "Siniakova clinches record 6th year-end WTA No. 1 doubles finish",
+    "url": "https://www.espn.com/tennis/story/_/id/50475883/katerina-siniakova-clinches-record-6th-year-end-wta-top-doubles-finish",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-23T15:20:48.097991+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "b137d623533012fd9889462967aa3c26f86b83905dec0882792d921a40c8916c",
+    "title": "Svitolina beats Sabalenka in 3 sets to reach semis at WTA Finals",
+    "url": "https://www.espn.com/tennis/story/_/id/50475470/elina-svitolina-beats-aryna-sabalenka-3-sets-reach-semifinals-wta-finals",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-23T15:20:48.097994+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "923e475e1c736a9826f9f735f092ed3d593b5de9afe73ce1bb7e4a961fdcb917",
+    "title": "Muchova (illness) becomes 2nd player to withdraw from WTA Finals",
+    "url": "https://www.espn.com/tennis/story/_/id/50474113/karolina-muchova-withdraws-wta-finals-due-illness",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-23T15:20:48.097997+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "be0e3e6f8721e931600afb9fbcd1c839a9aa67d01ebc3386b1f385ff107d30b7",
+    "title": "Kevin Hart talks golf, his dream foursome and the first Live Más Open",
+    "url": "https://www.espn.com/golf/story/_/id/50531020/live-mas-open-taco-bell-golf-tournament-kevin-hart",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-23T15:20:48.151586+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "66f4f7bda636116fa48b7718e974e80e3b6ccaf4b3234111ec3b670df971893e",
+    "title": "Højgaard sinks 25-foot putt on final hole for share of RSM Classic lead",
+    "url": "https://www.espn.com/golf/story/_/id/50566027/rasmus-hojgaard-michael-thorbjornsen-share-lead-rsm-classic",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-23T15:20:48.151597+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "0ad3b5ca9034d90b0d5bf53aa5ba01078379a9b7e78e061f79ca71743fd13e70",
+    "title": "Thitikul again wins LPGA finale, passes Sorenstam atop career money list",
+    "url": "https://www.espn.com/golf/story/_/id/50564852/jeeno-thitikul-wins-lpga-finale-sets-career-earnings-record",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-23T15:20:48.151600+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "62df9312b3796a5dbae0bdfce9b05ec3eca5b8ed76f8d7174fdc78625a2dcad3",
+    "title": "Kim clings to 1-shot lead in LPGA finale; Korda back in mix",
+    "url": "https://www.espn.com/golf/story/_/id/50554344/kim-clings-1-shot-lead-lpga-finale-korda-back-mix",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-23T15:20:48.151603+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "3dda475adea6739f5d31f201e58fdbd9e89f16bf9c8fd969528db4a1656d86bd",
+    "title": "Rain at Sea Island washes out 3rd round of RSM Classic",
+    "url": "https://www.espn.com/golf/story/_/id/50552432/rain-sea-island-washes-3rd-round-rsm-classic",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-23T15:20:48.151607+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "dcefb351e174201d3284faec11a263fc7bdde41404c1476bcbc29638b44279d6",
+    "title": "Neergaard-Petersen shares lead at Sea Island; Horschel loses full cards",
+    "url": "https://www.espn.com/golf/story/_/id/50547115/neergaard-petersen-part-3-way-tie-lead-sea-island",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-23T15:20:48.151610+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "9e8c59daa211097689d4f8aaab2c1bcff8e36a265fa192d1d2bcf9d4f66002a9",
+    "title": "A Lim Kim aces par-3 16th, surges to 3-shot lead in LPGA season finale",
+    "url": "https://www.espn.com/golf/story/_/id/50544157/a-lim-kim-aces-16th-surges-3-shot-lead-lpga-finale",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-23T15:20:48.151613+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "250b775060c5004f37386db91b3d5d040c1160cc6df66829fbd9e4af02fd4777",
+    "title": "Thitikul birdies final 5 holes to share CME Group Tour lead",
+    "url": "https://www.espn.com/golf/story/_/id/50535191/jeeno-thitikul-birdies-final-5-holes-shares-cme-group-tour-lead",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-23T15:20:48.151616+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "942f46050ce205cdb3a656ab34fd59ea1bec63c8c151887609467703ee1b8573",
+    "title": "Is this really the end of LIV Golf, and what's next for some the world's best golfers?",
+    "url": "https://www.espn.com/golf/story/_/id/50390018/liv-golf-liquidation-next-bryson-dechambeau-jon-rahm",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-23T15:20:48.151618+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "44c49028a6567ac2b0030ccec1a4fe9022d27527897bca174a991ebaba50df60",
+    "title": "What to know ahead of the inaugural WTGL season",
+    "url": "https://www.espn.com/golf/story/_/id/50391580/inaugural-wtgl-season-lexi-thompson-michelle-wie-west",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-23T15:20:48.151621+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "1a3621e043546236717838b92487b5c3d8d0b227cb9347400e235349b35d1332",
+    "title": "Thorbjornsen dialed in with irons, fires 64 at season-ending RSM Classic",
+    "url": "https://www.espn.com/golf/story/_/id/50534530/jesper-svensson-michael-thorbjornsen-start-fast-rsm",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-23T15:20:48.151624+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "af8c6d2a832bacd95d1e2f33c73a44d2f71a4ad9c16ff9edaa049e6bdc1ea7b6",
+    "title": "2026 PGA The RSM Classic: Where to watch, schedule, golfers",
+    "url": "https://www.espn.com/golf/story/_/id/50521001/2026-pga-rsm-classic-where-watch-schedule-golfers",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-23T15:20:48.151627+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "b5ebfca5bef9cd90bc0f654652779d7c4faafcf3df5aaf9eb44f96091f6207f0",
+    "title": "Back on course: Tiger to return for Hero World Challenge next month",
+    "url": "https://www.espn.com/golf/story/_/id/50511075/tiger-woods-return-next-month-hero-world-challenge",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-23T15:20:48.151630+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "56e173c0d7d59660d7fd4e71457be412e8f4bf91a386ee8e837757a4fb9b0ea0",
+    "title": "DeChambeau to join European tour in 2027 after demise of LIV Golf",
+    "url": "https://www.espn.com/golf/story/_/id/50510068/bryson-dechambeau-join-european-tour-2027-liv-demise",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-23T15:20:48.151633+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "e739844d630712fff6c81c17e8b38d2e197ce6ed04380bea602b8f20ebf381e0",
+    "title": "PGA Tour approves revamped developmental system for top amateurs",
+    "url": "https://www.espn.com/golf/story/_/id/50504918/pga-tour-revamp-developmental-system-top-amateurs",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-23T15:20:48.151636+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "225007a87f52de53d7e530897c8ed0831ca4d278c1deae7f90e16eec0709aa7f",
+    "title": "Ramey wins rain-delayed Austin Championship, gets 2-year PGA Tour card exemption",
+    "url": "https://www.espn.com/golf/story/_/id/50504850/chad-ramey-wins-rain-delayed-austin-championship",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-23T15:20:48.151638+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "7f75c04399a301f6eecbfd73ee7746d1d94e4b8048b1bb9531c03b17b776d88b",
+    "title": "Former grocery delivery driver from England earns PGA Tour card",
+    "url": "https://www.espn.com/golf/story/_/id/50501641/joe-dean-former-uk-delivery-driver-earns-pga-tour-card",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-23T15:20:48.151641+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "6e7721eefb78dae258ab794f40d45c03bed24ec88210a345398457131bb4457a",
+    "title": "Cink wins for sixth time to capture second straight Schwab Cup",
+    "url": "https://www.espn.com/golf/story/_/id/50496868/cink-wins-6th-capture-second-straight-schwab-cup",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-23T15:20:48.151644+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "fd698fb48c0676edbf37fc2ee974fe0accede703ea45ccd330ac39636bf1f370",
+    "title": "Rain pushes Austin Championship to Monday finish with Crowe ahead by 1",
+    "url": "https://www.espn.com/golf/story/_/id/50495831/rain-pushes-austin-championship-monday-finish",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-23T15:20:48.151647+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "9a23b0956ca336902353091242ba66c5c7f156aee2b6bb15c01267a2421bbf93",
+    "title": "Duncan secures first LPGA title on 222nd attempt",
+    "url": "https://www.espn.com/golf/story/_/id/50494442/lindy-duncan-wins-lpga-tour-annika",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-23T15:20:48.151650+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "7faeff640e4cd8fe4c0641aee2506f652b69da05e9e92832a4d5c00fec1e3728",
+    "title": "Rory, fighting tears, dedicates latest Dubai title to ailing father: 'This one's for him'",
+    "url": "https://www.espn.com/golf/story/_/id/50489716/rory-mcilroy-wins-season-long-race-dubai-title",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-23T15:20:48.151652+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "913d59a5f5f365327be15258337a500f761f0985712f5eb72097c4cc13f1883f",
+    "title": "Crowe birdies final 2 holes for 1-shot lead in Austin",
+    "url": "https://www.espn.com/golf/story/_/id/50487092/trace-crowe-closes-birdies-take-1-shot-lead-austin",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-23T15:20:48.151655+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "f6e45d5cc8cf759716f456b2b1461394593e3f04ea45c1bd4df33e36293554f0",
+    "title": "Duncan plays it safe in bogey-free, 17-par round, leads The Annika by 1 shot",
+    "url": "https://www.espn.com/golf/story/_/id/50485430/lindy-duncan-leads-1-shot-17-par-round-annika",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-23T15:20:48.151658+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "fc615c2ca9dc2ec20381ed3082ad7d09ff003bfc1b7cdcc87779def0c49b34ca",
+    "title": "Golliver's too-early NBA All-Star picks: The 24 most deserving players right now",
+    "url": "https://www.espn.com/nba/story/_/id/50558987/all-star-selections-wembanyama-giannis-maxey",
+    "source": "www.espn.com - NBA",
+    "collected_at": "2026-11-23T15:20:48.345355+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "b05d14b54025876c9c6c512ac6f540ec30da067b58e72cdce9cfe38d384ac12a",
+    "title": "Vocal Green swats back at online critics, fuels Warriors' victory over Celtics",
+    "url": "https://www.espn.com/nba/story/_/id/50570668/vocal-green-defensive-stop-buzzer-fuels-warriors-win",
+    "source": "www.espn.com - NBA",
+    "collected_at": "2026-11-23T15:20:48.345365+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "7695f4758ca20e73f92b990827e4c6498e730faeb4119c1a9ec435afd9320a58",
+    "title": "With Giannis out, Adebayo authors triple-double in Heat's win over Thunder",
+    "url": "https://www.espn.com/nba/story/_/id/50568682/adebayo-triple-double-sparks-shorthanded-heat-victory",
+    "source": "www.espn.com - NBA",
+    "collected_at": "2026-11-23T15:20:48.345368+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "a29f85684088bb10ef4babe67b71b7b4f65fca126ffacd9c65896d606d1820fd",
+    "title": "Sources: Kings set to boost backcourt depth with Vincent signing",
+    "url": "https://www.espn.com/nba/story/_/id/50564924/sources-free-agent-gabe-vincent-kings-finalizing-deal",
+    "source": "www.espn.com - NBA",
+    "collected_at": "2026-11-23T15:20:48.345372+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "52106c2dcab54d9a383e86dd71ee31be99821ce52fc22b8531fb636b29fe4b14",
+    "title": "Bulls G Powell sidelined by hamstring injury, to be checked later in week",
+    "url": "https://www.espn.com/nba/story/_/id/50564049/bulls-g-norman-powell-sidelined-mild-hamstring-injury",
+    "source": "www.espn.com - NBA",
+    "collected_at": "2026-11-23T15:20:48.345375+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "a3c1cd7621d9735aa2d3cfd89ac5dbfd2f61765212624c3dcc3f2064a8467268",
+    "title": "Wemby makes history in 18 minutes, finishes game with 50 points",
+    "url": "https://www.espn.com/nba/story/_/id/50559763/victor-wembanyama-shows-50-point-5-block-performance",
+    "source": "www.espn.com - NBA",
+    "collected_at": "2026-11-23T15:20:48.345378+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "53fd90882e04b2224d3856f825d92190969b11dad15e253ed51634e6fc14ee8b",
+    "title": "Bridges shakes off slump, hits buzzer-beating 3 to save Knicks from collapse",
+    "url": "https://www.espn.com/nba/story/_/id/50559927/knicks-mikal-bridges-shakes-slump-3-buzzer-tops-blazers",
+    "source": "www.espn.com - NBA",
+    "collected_at": "2026-11-23T15:20:48.345381+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "af3b066f2731183d5da8c3633801af48d6ce47354fc5a3d7b1c607b5f43d56a0",
+    "title": "👀 What the first month has revealed about all 30 teams",
+    "url": "https://www.espn.com/nba/story/_/id/50502518/first-month-lakers-knicks-spurs-celtics",
+    "source": "www.espn.com - NBA",
+    "collected_at": "2026-11-23T15:20:48.345384+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "85eb0af43020b522e0ab7f5fc20f40d39be1f643f667fccbf07cd2192dd862e6",
+    "title": "What NBA insiders see from Boozer, Dybantsa and seven other top rookies",
+    "url": "https://www.espn.com/nba/story/_/id/50534111/rookies-dybantsa-peterson-boozer-acuff-yaxel",
+    "source": "www.espn.com - NBA",
+    "collected_at": "2026-11-23T15:20:48.345387+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "33a5f853d29204ed5df6a1a842e1d3245d181078ff273bfb7dc281cc88801505",
+    "title": "The hidden danger behind Luka Doncic's historic start﻿",
+    "url": "https://www.espn.com/nba/story/_/id/50522350/luka-doncic-lakers-offense-usage-rate",
+    "source": "www.espn.com - NBA",
+    "collected_at": "2026-11-23T15:20:48.345390+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "a0e7a58dfe35235f917c1263b6aa6b835a866193ba85f3ae78db42da728da56d",
+    "title": "How a season without their 'admiral' showed the Rockets what they were missing",
+    "url": "https://www.espn.com/nba/story/_/id/50524821/nba-houston-rockets-fred-vanvleet-injury-comeback",
+    "source": "www.espn.com - NBA",
+    "collected_at": "2026-11-23T15:20:48.345393+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "72c1fd12ca2e4dc14a0410843ae5bdd6d215f58a6188b5493620c9f56962a0c0",
+    "title": "Has Nikola Jokic been overtaken as the top player in fantasy basketball?",
+    "url": "https://www.espn.com/fantasy/basketball/story/_/id/50541753/fantasy-basketball-nba-analytics-top-players",
+    "source": "www.espn.com - NBA",
+    "collected_at": "2026-11-23T15:20:48.345396+00:00",
+    "status": "pending_review"
   }
 ]
