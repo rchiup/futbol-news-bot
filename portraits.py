@@ -52,30 +52,9 @@ def _get_json(session, endpoint: str, params: dict) -> dict:
     return response.json()
 
 
-def find_portrait(subject: str, session=requests) -> dict | None:
-    """Find a verified person portrait and safe license, or return None."""
-    search = _get_json(session, WIKIDATA_API, {
-        "action": "wbsearchentities", "search": subject,
-        "language": "en", "uselang": "en", "type": "item", "limit": 7,
-    })
-    exact = [
-        row for row in search.get("search", [])
-        if normalize(row.get("label", "")) == normalize(subject)
-        and any(w in row.get("description", "").lower() for w in FOOTBALL_DESCRIPTIONS)
-    ]
-    if len(exact) != 1:
-        return None  # ambiguous or no exact football entity: no photo
-    qid = exact[0].get("id", "")
-    if not re.fullmatch(r"Q[0-9]{1,12}", qid):
-        return None
-    details = _get_json(session, WIKIDATA_API, {
-        "action": "wbgetentities", "ids": qid, "props": "claims",
-    })
-    statements = details.get("entities", {}).get(qid, {}).get("claims", {}).get("P18", [])
-    if not statements:
-        return None
-    filename = statements[0].get("mainsnak", {}).get("datavalue", {}).get("value", "")
-    if not filename or len(filename) > 200 or "/" in filename:
+def _check_commons_file(subject: str, qid: str, filename: str, session=requests) -> dict | None:
+    """Check the exact Commons file's machine-readable metadata and credits."""
+    if not filename or len(filename) > 200 or "/" in filename or "|" in filename:
         return None
     commons = _get_json(session, COMMONS_API, {
         "action": "query", "prop": "imageinfo", "titles": "File:" + filename,
@@ -87,40 +66,90 @@ def find_portrait(subject: str, session=requests) -> dict | None:
             license_name = str(meta.get("LicenseShortName", {}).get("value", "")).strip().lower()
             license_url = str(meta.get("LicenseUrl", {}).get("value", ""))
             rights = str(meta.get("Copyrighted", {}).get("value", "")).strip().lower()
-            normalized_license = license_name.replace("-", " ").replace("_", " ").strip()
-            is_public_domain = normalized_license in ALLOWED_LICENSES
-            requires_credit = normalized_license in ATTRIBUTION_LICENSES
-            if not (is_public_domain or requires_credit):
-                return None
+            normalized_license = re.sub(r"\s+", " ", license_name.replace("-", " ").replace("_", " "))
+            public_domain = normalized_license in ALLOWED_LICENSES
+            credited = normalized_license in ATTRIBUTION_LICENSES
+            if not (public_domain or credited):
+                continue
             artist_html = str(meta.get("Artist", {}).get("value", ""))
             artist = " ".join(unescape(re.sub(r"<[^>]+>", " ", artist_html)).split())[:95]
-            if requires_credit:
-                # Never take an attributed photo when the author or license is absent.
-                if len(artist) < 3 or len(artist) > 95:
-                    return None
-                expected_kind = "by-sa" if " by sa " in (" " + normalized_license + " ") else "by"
-                expected_url = f"https://creativecommons.org/licenses/{expected_kind}/{normalized_license.split()[-1]}/"
-                if not license_url.startswith(expected_url):
-                    return None
-            elif normalized_license not in {"cc0", "public domain", "public domain mark"} or (
-                    normalized_license != "cc0" and rights not in {"false", "0"}):
-                return None
+            share_alike = normalized_license.startswith("cc by sa ")
+            if credited:
+                expected = "by-sa" if share_alike else "by"
+                version = normalized_license.split()[-1]
+                if len(artist) < 3:
+                    continue
+                if not license_url.startswith(f"https://creativecommons.org/licenses/{expected}/{version}/"):
+                    continue
+            elif normalized_license != "cc0" and rights not in {"false", "0"}:
+                continue
             if record.get("mime", "") not in {"image/jpeg", "image/png", "image/webp"}:
-                return None
+                continue
             if int(record.get("width", 0)) < 400 or int(record.get("height", 0)) < 400:
-                return None
+                continue
             url = record.get("thumburl") or record.get("url") or ""
             if not url.startswith("https://upload.wikimedia.org/"):
-                return None
+                continue
             return {
                 "subject": subject, "wikidata_id": qid,
                 "image_url": url, "license": license_name,
                 "license_url": license_url, "commons_filename": filename,
-                "photographer": artist if requires_credit else "",
-                "credit_required": requires_credit,
-                "share_alike": " by sa " in (" " + normalized_license + " "),
+                "photographer": artist if credited else "",
+                "credit_required": credited, "share_alike": share_alike,
                 "file_page": "https://commons.wikimedia.org/wiki/File:" + quote(filename.replace(" ", "_")),
             }
+    return None
+
+
+def find_portrait(subject: str, session=requests) -> dict | None:
+    """Find a verified football-person portrait, with wider Commons photo coverage."""
+    search = _get_json(session, WIKIDATA_API, {
+        "action": "wbsearchentities", "search": subject,
+        "language": "en", "uselang": "en", "type": "item", "limit": 7,
+    })
+    exact = [
+        row for row in search.get("search", [])
+        if normalize(row.get("label", "")) == normalize(subject)
+        and any(w in row.get("description", "").lower() for w in FOOTBALL_DESCRIPTIONS)
+    ]
+    if len(exact) != 1:
+        return None
+    qid = exact[0].get("id", "")
+    if not re.fullmatch(r"Q[0-9]{1,12}", qid):
+        return None
+    details = _get_json(session, WIKIDATA_API, {
+        "action": "wbgetentities", "ids": qid, "props": "claims",
+    })
+    claims = details.get("entities", {}).get(qid, {}).get("claims", {})
+    statements = claims.get("P18", [])
+    if statements:
+        filename = statements[0].get("mainsnak", {}).get("datavalue", {}).get("value", "")
+        photo = _check_commons_file(subject, qid, filename, session)
+        if photo:
+            return photo
+
+    # When Wikidata's profile photo has incompatible rights, search the Commons
+    # file index for alternative portraits explicitly naming this same person.
+    # Never search for random football images or rely on a Google thumbnail.
+    found = _get_json(session, COMMONS_API, {
+        "action": "query", "list": "search",
+        "srsearch": f'intitle:"{subject}"', "srnamespace": "6", "srlimit": "12",
+        "srprop": "",
+    })
+    subject_words = normalize(subject).split()
+    alternatives = []
+    for result in found.get("query", {}).get("search", []):
+        title = str(result.get("title", ""))
+        if not title.startswith("File:"):
+            continue
+        filename = title[5:]
+        name_words = normalize(filename).split()
+        if all(word in name_words for word in subject_words):
+            alternatives.append(filename)
+    for filename in alternatives[:5]:
+        photo = _check_commons_file(subject, qid, filename, session)
+        if photo:
+            return photo
     return None
 
 
