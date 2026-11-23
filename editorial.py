@@ -391,25 +391,26 @@ def make_card(item: dict, allow_ai: bool = False, lookup: bool = False,
         if approved:
             item["portrait_info"] = approved
             item["visual_subject"] = approved["subject"]
-        elif sport == "FUTBOL" and subject and name_in_story(subject, title, summary) and network_lookup:
-            try:
-                item["portrait_info"] = find_portrait(subject)
-            except (requests.RequestException, KeyError, ValueError) as exc:
-                print(f"[PHOTO] Wikimedia lookup unavailable: {type(exc).__name__}")
-                item["portrait_info"] = None
-            if not item.get("portrait_info"):
+        elif subject and name_in_story(subject, title, summary) and network_lookup:
+            if sport == "FUTBOL":
                 try:
-                    item["portrait_info"] = find_google_image(subject)
+                    item["portrait_info"] = find_portrait(subject)
                 except (requests.RequestException, KeyError, ValueError) as exc:
-                    print(f"[PHOTO] Google Images discovery unavailable: {type(exc).__name__}")
+                    print(f"[PHOTO] Wikimedia lookup unavailable: {type(exc).__name__}")
+                    item["portrait_info"] = None
+                if not item.get("portrait_info"):
+                    try:
+                        item["portrait_info"] = find_google_image(subject)
+                    except (requests.RequestException, KeyError, ValueError) as exc:
+                        print(f"[PHOTO] Google Images discovery unavailable: {type(exc).__name__}")
+                if not item.get("portrait_info"):
+                    try:
+                        item["portrait_info"] = find_openverse_photo(subject)
+                    except (requests.RequestException, KeyError, ValueError) as exc:
+                        print(f"[PHOTO] Openverse lookup unavailable: {type(exc).__name__}")
             if not item.get("portrait_info"):
                 try:
-                    item["portrait_info"] = find_openverse_photo(subject)
-                except (requests.RequestException, KeyError, ValueError) as exc:
-                    print(f"[PHOTO] Openverse lookup unavailable: {type(exc).__name__}")
-            if not item.get("portrait_info"):
-                try:
-                    item["portrait_info"] = find_pixabay_photo(subject)
+                    item["portrait_info"] = find_pixabay_photo(subject, sport=sport)
                 except (requests.RequestException, KeyError, ValueError) as exc:
                     print(f"[PHOTO] Pixabay lookup unavailable: {type(exc).__name__}")
             item["photo_checked_at"] = iso(now_utc())
