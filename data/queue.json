@@ -34,5 +34,41 @@
     "score": 34,
     "queued_at": "2026-11-23T00:47:43.234772+00:00",
     "status": "awaiting_ai"
+  },
+  {
+    "id": "b452ec5ccb41b57f50df",
+    "title": "European football: Barcelona roar back from two goals down to sink Villarreal",
+    "source_url": "https://www.theguardian.com/football/2026/nov/22/european-football-barcelona-villarreal-juventus-milan-inter",
+    "source": "The Guardian",
+    "description": "Barça prevail 3-2 despite Lamine Yamal’s missed penalty Atalanta snatch point in thrilling 4-4 draw with Inter Barcelona came back from two goals behind to beat Villarreal 3-2 at home on Sunday and restore their three-point lead at the top of La Liga. Two goals inside seven minutes from Tajon Buchanan and Tani Oluwaseyi gave Villarreal a commanding lead at Camp Nou and things got worse for Barça when winger Lamine Yamal missed a first-half penalty. Continue reading...",
+    "published_at": "2026-11-22T22:20:43+00:00",
+    "category": "PARTIDOS",
+    "score": 34,
+    "queued_at": "2026-11-23T00:48:09.514188+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "72655a7e30548a7f504b",
+    "title": "Relegation is very possible for Manchester United – three players scored 0/10 after shambles at Liverpool",
+    "source_url": "https://talksport.com/football/4724721/mauricio-pochettino-relegation-man-utd-michael-carrick",
+    "source": "talkSPORT",
+    "description": "",
+    "published_at": "2026-11-22T18:41:53+00:00",
+    "category": "PARTIDOS",
+    "score": 31,
+    "queued_at": "2026-11-23T00:48:09.514188+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "935ac0b186e7f0d3ef9d",
+    "title": "PSG's Doue to have surgery on ruptured ACL",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/cw0k6x0764ero?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Paris St-Germain forward Desire Doue will have surgery later this month after rupturing the anterior cruciate ligament in his right knee.",
+    "published_at": "2026-11-22T15:50:05+00:00",
+    "category": "LESIONES",
+    "score": 31,
+    "queued_at": "2026-11-23T00:48:09.514188+00:00",
+    "status": "awaiting_ai"
   }
 ]
