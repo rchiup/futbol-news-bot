@@ -102,7 +102,7 @@ def verify_instagram_account(session=requests) -> dict:
         params={"fields": "id,username"},
         headers=headers, timeout=30,
     )
-    if response.status_code >= 400:
+    if getattr(response, "status_code", 200) >= 400:
         try:
             err = response.json().get("error", {})
             code = err.get("code")
