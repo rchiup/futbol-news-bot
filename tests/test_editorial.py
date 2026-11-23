@@ -137,6 +137,7 @@ class EditorialTests(unittest.TestCase):
                     item["ai_art_used"] = False
                     return root / "preview.jpg"
                 make.side_effect = render_without_photo
+                publish.return_value = "test-media-id"
                 result = editorial.run(reference=self.reference)
                 self.assertEqual(result["published"], 1)
                 publish.assert_called_once()
