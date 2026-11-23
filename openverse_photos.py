@@ -50,6 +50,8 @@ def find_openverse_photo(subject: str, session=requests) -> dict | None:
     )
     res.raise_for_status()
     results = res.json().get("results", [])
+    # Rank suitable player photographs by available resolution, not API order.
+    results = sorted(results, key=lambda row: min(int(row.get("width") or 0), int(row.get("height") or 0)), reverse=True)
     for row in results:
         title = str(row.get("title") or "")
         if not title_matches_person(title, subject):
@@ -83,7 +85,8 @@ def find_openverse_photo(subject: str, session=requests) -> dict | None:
                 page.startswith("https://commons.wikimedia.org/wiki/File:")):
             continue
         return {
-            "subject": subject, "image_url": url, "license": (
+            "subject": subject, "image_url": url,
+            "width": int(row.get("width") or 0), "height": int(row.get("height") or 0), "license": (
                 "CC " + license_name.upper().replace("-", "-") + " " + license_version
                 if credit else license_name.upper()
             ),
@@ -107,7 +110,7 @@ def download_openverse_photo(info: dict, dest: Path, session=requests) -> Path:
         if source.width < 500 or source.height < 500:
             raise ValueError("Photo resolution too low")
         photo = ImageOps.exif_transpose(source).convert("RGB")
-        photo.thumbnail((1600, 1600))
+        photo.thumbnail((1920, 1920))
         dest.parent.mkdir(parents=True, exist_ok=True)
         photo.save(dest, "JPEG", quality=89, optimize=True)
     return dest

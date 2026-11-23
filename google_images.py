@@ -48,7 +48,8 @@ def find_google_image(subject: str, session=requests) -> dict | None:
             "tbm": "isch",
             "q": f'"{subject}" site:commons.wikimedia.org/wiki/File:',
             "tbs": "il:cl",
-            "num": "25",
+            "num": "35",
+            "isz": "l",
         },
         headers={"User-Agent": USER_AGENT, "Accept-Language": "en-US,en;q=0.8"},
         timeout=12,
@@ -59,7 +60,8 @@ def find_google_image(subject: str, session=requests) -> dict | None:
     # redirects. The source license is always verified, never assumed.
     links = re.findall(r'https?[^\s"<>]+', body)
     seen = set()
-    for raw in links[:200]:
+    best = None
+    for raw in links[:300]:
         filename = commons_filename_from_url(raw, subject)
         if not filename or filename in seen:
             continue
@@ -70,5 +72,9 @@ def find_google_image(subject: str, session=requests) -> dict | None:
             continue
         if info:
             info["photo_provider"] = "Google Images → Wikimedia Commons"
-            return info
-    return None
+            quality = min(int(info.get("width") or 0), int(info.get("height") or 0))
+            if best is None or quality > best[0]:
+                best = (quality, info)
+            if quality >= 1600:
+                break
+    return best[1] if best else None
