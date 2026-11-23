@@ -93,15 +93,20 @@ class EditorialTests(unittest.TestCase):
         self.assertFalse(editorial.headline_needs_translation(
             "Chelsea: delantero sufre un robo tras derrota"))
 
-    def test_morning_bursts_use_chile_local_time(self):
+    def test_half_hour_schedule_targets_sixty_in_chile_local_time(self):
         from zoneinfo import ZoneInfo
         local = ZoneInfo("America/Santiago")
-        at_0715 = datetime(2026, 11, 23, 7, 15, tzinfo=local).astimezone(timezone.utc)
-        at_0835 = datetime(2026, 11, 23, 8, 35, tzinfo=local).astimezone(timezone.utc)
-        at_1230 = datetime(2026, 11, 23, 12, 30, tzinfo=local).astimezone(timezone.utc)
-        self.assertEqual(editorial.morning_burst_settings(at_0715, []), (3, 3))
-        self.assertEqual(editorial.morning_burst_settings(at_0835, []), (3, 7))
-        self.assertEqual(editorial.morning_burst_settings(at_1230, []), (1, editorial.POSTS_PER_DAY))
+        slots = [
+            datetime(2026, 11, 23, hour, minute, tzinfo=local).astimezone(timezone.utc)
+            for hour in range(24)
+            for minute in (7, 37)
+        ]
+        caps = [editorial.morning_burst_settings(at, [])[0] for at in slots]
+        self.assertEqual(len(caps), 48)
+        self.assertEqual(sum(caps), 60)
+        self.assertEqual(editorial.morning_burst_settings(slots[0], [])[0], 1)
+        self.assertEqual(editorial.morning_burst_settings(
+            datetime(2026, 11, 23, 9, 7, tzinfo=local).astimezone(timezone.utc), [])[0], 2)
 
     def test_rendering_without_optional_ai_secret_does_not_generate_art(self):
         with tempfile.TemporaryDirectory() as temp:
