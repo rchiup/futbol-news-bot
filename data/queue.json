@@ -26,10 +26,7 @@
     "category": "PARTIDOS",
     "score": 34,
     "queued_at": "2026-11-23T00:47:43.234772+00:00",
-    "status": "draft",
-    "headline": "Pochettino lamenta derrota 4-0 de United ante Liverpool en su debut",
-    "caption": "Liverpool venció 4-0 a un Manchester United con diez jugadores en Anfield, subiendo al cuarto puesto y dejando al conjunto inglés en el puesto 19, a un punto del descenso. Pochettino, recién llegado, aceptó la responsabilidad del resultado y cuestionó la expulsión de Leny Yoro en el minuto ocho, alegando que debió concederse un penal por una falta sobre Bryan Mbeumo.\n\nFuente: The Guardian\nhttps://www.theguardian.com/football/video/2026/nov/22/we-feel-the-pain-pochettino-on-4-0-defeat-at-liverpool-to-start-manchester-united-era-video",
-    "ai_generated_at": "2026-11-23T01:01:09.488812+00:00"
+    "status": "awaiting_ai"
   },
   {
     "id": "48cba9ff2478331e70d6",
@@ -41,7 +38,7 @@
     "category": "PARTIDOS",
     "score": 34,
     "queued_at": "2026-11-23T00:47:43.234772+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "headline": "Delantero del Chelsea, Emmanuel Emegha, asaltado tras la derrota ante Leeds",
     "caption": "El delantero del Chelsea, Emmanuel Emegha, fue víctima de un robo después de la derrota de su equipo ante el Leeds United. No se han dado más detalles sobre el incidente.\n\nFuente: talkSPORT\nhttps://talksport.com/football/4724970/chelsea-emmanuel-emegha-victim-robbery",
     "ai_generated_at": "2026-11-23T01:02:35.498168+00:00"
@@ -56,10 +53,7 @@
     "category": "PARTIDOS",
     "score": 34,
     "queued_at": "2026-11-23T00:48:09.514188+00:00",
-    "status": "draft",
-    "headline": "El Barça se recupera y vence 3-2 al Villarreal tras ir 0-2",
-    "caption": "Barcelona ganó 3-2 en el Camp Nou, remontando dos goles en siete minutos de Tajon Buchanan y Tani Oluwaseyi. Lamine Yamal falló un penalti en la primera mitad. Con la victoria recupera la ventaja de tres puntos en la clasificación de LaLiga.\n\nFuente: The Guardian\nhttps://www.theguardian.com/football/2026/nov/22/european-football-barcelona-villarreal-juventus-milan-inter",
-    "ai_generated_at": "2026-11-23T01:02:35.498168+00:00"
+    "status": "awaiting_ai"
   },
   {
     "id": "72655a7e30548a7f504b",
@@ -71,7 +65,7 @@
     "category": "PARTIDOS",
     "score": 31,
     "queued_at": "2026-11-23T00:48:09.514188+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "headline": "El descenso es para el Manchester United – tres jugadores 0/10 tras desastre en Liverpool",
     "caption": "talkSPORT indica que el descenso es una amenaza para el Manchester United tras la debacle en Liverpool, donde tres jugadores no lograron anotar ninguna de sus diez oportunidades. El club se encuentra en una situación crítica en la tabla.\n\nFuente: talkSPORT\nhttps://talksport.com/football/4724721/mauricio-pochettino-relegation-man-utd-michael-carrick",
     "ai_generated_at": "2026-11-23T01:02:35.498168+00:00"
@@ -86,10 +80,7 @@
     "category": "LESIONES",
     "score": 31,
     "queued_at": "2026-11-23T00:48:09.514188+00:00",
-    "status": "draft",
-    "headline": "Desire Doue del PSG se operará por rotura de ligamento cruzado anterior",
-    "caption": "El delantero del Paris Saint‑Germain, Desire Doue, se someterá a una operación a finales de este mes tras romperse el ligamento cruzado anterior de la rodilla derecha.\n\nFuente: BBC Sport\nhttps://www.bbc.co.uk/sport/football/articles/cw0k6x0764ero?at_medium=RSS&at_campaign=rss",
-    "ai_generated_at": "2026-11-23T02:28:07.513251+00:00"
+    "status": "awaiting_ai"
   },
   {
     "id": "56a76a057fcc6d9987ac",
@@ -101,10 +92,7 @@
     "category": "FICHAJES",
     "score": 31,
     "queued_at": "2026-11-23T00:48:45.660935+00:00",
-    "status": "draft",
-    "headline": "El Tottenham frena al Manchester City y complica su aspiración al título de la WSL",
-    "caption": "Manchester City sufrió su segunda derrota consecutiva en casa tras el doblete tardío de Vinberg y Naz del Tottenham, que se acercó a los puestos europeos a tres puntos. El sorprendente resultado llegó 24 horas después de que Chelsea, rival del título, perdiera puntos contra Liverpool. Fue la primera vez que City no ganó en casa bajo la dirección de Andrée Jeglertz en sus 16 meses.\n\nFuente: The Guardian\nhttps://www.theguardian.com/football/2026/nov/22/manchester-city-tottenham-wsl-match-report",
-    "ai_generated_at": "2026-11-23T02:28:07.513251+00:00"
+    "status": "awaiting_ai"
   },
   {
     "id": "92db0d9f88dbcc2e1e80",
@@ -116,10 +104,7 @@
     "category": "ACTUALIDAD",
     "score": 28,
     "queued_at": "2026-11-23T00:48:45.660935+00:00",
-    "status": "draft",
-    "headline": "¿Se benefició el Liverpool de la expulsión temprana de Leny Yoro?",
-    "caption": "Los analistas de Match of the Day, Danny Murphy y Ashley Young, consideran que el Liverpool pudo haber tenido suerte al ver expulsado a Leny Yoro del Manchester United en el minuto 8 en Anfield. La decisión generó debate sobre la influencia del árbitro en el desarrollo del partido.\n\nFuente: BBC Sport\nhttps://www.bbc.co.uk/sport/football/videos/cq23jmklrj33o?at_medium=RSS&at_campaign=rss",
-    "ai_generated_at": "2026-11-23T02:28:07.513251+00:00"
+    "status": "awaiting_ai"
   },
   {
     "id": "264bd48304931548bcc8",
@@ -143,7 +128,7 @@
     "category": "SELECCIONES",
     "score": 27,
     "queued_at": "2026-11-23T01:01:09.488812+00:00",
-    "status": "awaiting_ai"
+    "status": "needs_review"
   },
   {
     "id": "e5a113268b65f4fb3c8e",
@@ -167,7 +152,7 @@
     "category": "PARTIDOS",
     "score": 27,
     "queued_at": "2026-11-23T01:01:09.488812+00:00",
-    "status": "awaiting_ai"
+    "status": "needs_review"
   },
   {
     "id": "59f68a439b8f4e6bb69e",
@@ -179,7 +164,7 @@
     "category": "LESIONES",
     "score": 26,
     "queued_at": "2026-11-23T01:02:35.498168+00:00",
-    "status": "awaiting_ai"
+    "status": "needs_review"
   },
   {
     "id": "98cae80c70edc165bc89",
@@ -191,7 +176,7 @@
     "category": "LESIONES",
     "score": 26,
     "queued_at": "2026-11-23T01:02:35.498168+00:00",
-    "status": "awaiting_ai"
+    "status": "needs_review"
   },
   {
     "id": "a8ba78207531049fb291",
@@ -203,7 +188,7 @@
     "category": "PARTIDOS",
     "score": 26,
     "queued_at": "2026-11-23T01:02:35.498168+00:00",
-    "status": "awaiting_ai"
+    "status": "needs_review"
   },
   {
     "id": "1870355ccb9b2ee162ec",
@@ -227,7 +212,7 @@
     "category": "ACTUALIDAD",
     "score": 25,
     "queued_at": "2026-11-23T02:28:07.513251+00:00",
-    "status": "awaiting_ai"
+    "status": "needs_review"
   },
   {
     "id": "10092a92eff956d9c1f1",
