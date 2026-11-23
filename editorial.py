@@ -16,6 +16,7 @@ from pathlib import Path
 from time import struct_time, mktime
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 from calendar import timegm
+from zoneinfo import ZoneInfo
 
 import feedparser
 import requests
@@ -31,6 +32,7 @@ DRAFTS_PER_RUN = max(0, min(5, int(os.getenv("MAX_DRAFTS_PER_RUN", "3"))))
 DRAFTS_PER_DAY = max(0, min(60, int(os.getenv("MAX_DRAFTS_PER_DAY", "30"))))
 POSTS_PER_DAY = max(0, min(60, int(os.getenv("MAX_POSTS_PER_DAY", "30"))))
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4.1-mini")
+PUBLISH_TZ = ZoneInfo(os.getenv("PUBLISH_TIMEZONE", "America/Santiago"))
 
 CATEGORIES = {
     "FICHAJES": ("transfer", "sign", "deal", "contract", "fichaje", "traspaso", "loan", "bid", "negotiat", "renueva"),
@@ -284,7 +286,9 @@ def make_card(item: dict) -> Path:
 
 
 def today_count(items: list[dict], key: str, reference: datetime) -> int:
-    return sum(1 for x in items if (parse_iso(x.get(key, "")) or datetime.min.replace(tzinfo=timezone.utc)).date() == reference.date())
+    day = reference.astimezone(PUBLISH_TZ).date()
+    return sum(1 for x in items if (value := parse_iso(x.get(key, ""))) is not None
+               and value.astimezone(PUBLISH_TZ).date() == day)
 
 
 def run(reference: datetime | None = None, session=None) -> dict:
@@ -349,7 +353,11 @@ def run(reference: datetime | None = None, session=None) -> dict:
     missing = [name for name in required if not os.getenv(name, "").strip()]
     if publish_requested and missing:
         print("[META] Publishing disabled: missing " + ", ".join(missing))
-    if publish_requested and not missing:
+    local_hour = reference.astimezone(PUBLISH_TZ).hour
+    in_posting_window = 8 <= local_hour <= 23
+    if publish_requested and not in_posting_window:
+        print("[META] Outside local publishing window 08:00–23:59; drafts remain queued")
+    if publish_requested and not missing and in_posting_window:
         from publisher import publish_image
         for item in queue:
             if published_count >= 1 or today_count(queue, "posted_at", reference) >= POSTS_PER_DAY:
