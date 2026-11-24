@@ -2898,11 +2898,31 @@
     "sport": "FUTBOL",
     "score": 17,
     "queued_at": "2026-11-23T20:40:11.244963+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Pio Esposito",
+    "visual_entities": {
+      "personas": [
+        "Pio Esposito",
+        "Christian Vieri"
+      ],
+      "clubes": [
+        "Inter",
+        "Atalanta"
+      ],
+      "competicion": [
+        "Serie A"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Esposito anota hat-trick",
+    "caption": "Pio Esposito se convirtió en el tercer italiano en anotar un hat-trick para Inter en la era de tres puntos por victoria, emulando a Christian Vieri, pero su equipo empató 4-4 con Atalanta después de tirar dos ventajas de dos goles en tres ocasiones.",
+    "ai_generated_at": "2026-11-24T19:42:54.474449+00:00"
   },
   {
     "id": "afa5864df653c685eff5",
@@ -3513,11 +3533,28 @@
     "sport": "FUTBOL",
     "score": 17,
     "queued_at": "2026-11-23T23:51:02.988804+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Edward Iordanescu's most recent job was with Legia Warsaw, who he left in October 2025\nWatford are set to appoint Edward Iordanescu as their new manager.\nBBC Three Counties Radio report the Romanian is due to become the Hornets' sixth manager inside 18 months after they sacked head coach Alessio Dionisi following Saturday's 4-0 defeat at Sheffield United in his 18th game in charge.\nThe 48-year-old is understood to be arriving in the UK on Tuesday to sign his contract and plans to bring three members of staff with him and hopes to be in the dugout for Wednesday's Championship fixture at home to Blackburn Rovers (19:45 GMT).\nIordanescu guided Romania at Euro 2024 where they topped their group ahead of Belgium with all four sides ending level on four points from three games before a 3-0 defeat against the Netherlands in the Round of 16.\nIordanescu - whose father Anghel had three spells in charge of the Romanian national team, leading them in two World Cups and two European Championships - left his last role at Polish club Legia Warsaw in October 2025.\nIt was the 48-year-old's ninth club over a 15-year coaching career which has taken in Bulgarian club CSKA Sofia as well as Steaua Bucharest and Cluj among others in his homeland.\nDionisi, who departed with the Hornets in 21st, four points above the relegation zone, was only appointed in June after the departure of Ed Still, who himself lasted only three months at Vicarage Road.\nStill, Javi Gracia and Paulo Pezzolano were all also given full-time contracts after Tom Cleverley left in May 2025.\nThe 46-year-old Italian was Watford's 12th head coach, not including interim bosses, since the end of the 2020-21 season, and leaves the Hornets searching for a 25th since the Pozzo family took over the club in 2012.\nThe club have had 57 permanent managers in their 145-year history.\nPioneer or coach-eater? The complex world of Pozzo's Watford\nPre-match, post-match and topical Hornets content\nSubscribe and listen for everything you love about Watford\nChampions League: Arsenal face Dortmund and Man City host Napoli after Villa lose\nChampionship: Eight games with West Ham, Boro & Wolves all playing\nGul breaks Villa's resistance in scrappy Galatasaray win\nA festive comedy featuring Jason Bateman, Olivia Munn and Jennifer Aniston\nIs cough medicine any better than just taking honey and lemon?\nLucy unlocks the secrets of four spectacular palaces\nThe controversial operation that transplanted a baboon's heart into a baby\n115 days, 39 private-jet flights, one election - Infantino's globetrotting\nWhy has De Bruyne struggled at Napoli as he returns to Man City?\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nTwo goals in 15 games - what's going on with Gyokeres?\nWho has made Troy's Premier League team of the week?\nEngland's tearaway quick bowler reinvented as a top-order batter\nChaotic week, nightmare start and huge reality check for Pochettino\nA 'wow' player - why Ngumoha is already a Liverpool game-changer\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland will not get carried away by beating All Blacks\nVerstappen a constant amid chaos as he says Russell is 'so far below my level'\nThe sandpaper plot - who was there, who said what?\nThe 3pm football blackout: Outdated or still relevant in 2026?\nJosh Kerr: The making of the man behind the shades\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "visual_subject": "Edward Iordanescu",
+    "visual_entities": {
+      "personas": [
+        "Edward Iordanescu"
+      ],
+      "clubes": [
+        "Watford"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Watford nombra a Iordanescu",
+    "caption": "El equipo inglés contrata al ex entrenador de Rumania como su nuevo entrenador, quien llegará al Reino Unido para firmar su contrato y planea debutar en el partido contra Blackburn Rovers. Iordanescu tiene una carrera de 15 años como entrenador y ha dirigido a nueve clubes, incluyendo Legia Warsaw y Steaua Bucharest.",
+    "ai_generated_at": "2026-11-24T19:42:54.474449+00:00"
   },
   {
     "id": "8e702ba82966b1c9befa",
@@ -3530,11 +3567,24 @@
     "sport": "FUTBOL",
     "score": 17,
     "queued_at": "2026-11-23T23:51:02.988804+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Sadio Mane was named best player at the 2025 Africa Cup of Nations\nEveryone knows a football match should take 90 minutes, but the final of the 2025 Africa Cup of Nations has been playing out for 10 months.\nNow, finally, Morocco or Senegal will be crowned winners. However, that moment of glory will come in a courtroom, not on the pitch.\nOn Tuesday afternoon sport's highest legal authority, the Court of Arbitration for Sport (Cas), will render its judgement on Senegal's appeal against the decision to strip them of the title they thought they won in January against the hosts in Rabat.\nThe case was heard in early October, and the wait is almost over.\nWith 66,000 fans creating an electric atmosphere in the Prince Moulay Abdellah Stadium, Morocco were chasing their first Afcon title since 1976.\nBut the final descended into chaos deep into second-half stoppage time.\nWith the match goalless, Senegal thought Ismaila Sarr had scored a dramatic winner, only to discover that referee Jean Jacques Ndala had blown for a Morocco free-kick.\nThe controversy deepened in the 98th minute when, after a video assistant referee (VAR) review, Ndala awarded Morocco a penalty.\nTempers boiled over on the touchline and in the stands. Senegal coach Pape Thiaw led some of his players and staff down the tunnel, while supporters clashed with security as order briefly collapsed.\nPlay eventually resumed and, in the 124th minute, Morocco missed a golden chance to end their 50-year wait for continental glory when Brahim Diaz failed to convert a penalty, chipping it 'Panenka' style into the arms of goalkeeper Edouard Mendy.\nPape Gueye's extra-time strike then secured a 1-0 win for Senegal, who lifted the trophy for a second time.\nThe Royal Moroccan Football Federation (FMRF) quickly lodged a complaint with the Confederation of African Football (Caf), arguing that Senegal had breached competition regulations.\nArticle 82, contained within a chapter titled 'Withdrawals', states: \"If, for any reason whatsoever, a team... refuses to play or leaves the ground before the regular end of the match without the authorisation of the referee\", they shall be \"considered [the loser] and shall be eliminated from the current competition\".\nIn March a Caf appeals board agreed, ruling that Senegal had forfeited the match and awarding Morocco a 3-0 victory.\nWhile there is precedent for Caf overturning results during Afcon and World Cup qualifying, some people, including one former senior Caf official, argued that only the referee has the authority to abandon a match if a walk-off occurs.\nThe FMRF said it was seeking the proper application of tournament regulations, but Senegal's federation (FSF) described the ruling as \"unfair, unprecedented and unacceptable\" and appealed to Cas.\nSome Senegal supporters were initially convicted of hooliganism offences after clashes during the final but eventually returned home after receiving a royal pardon\nFounded in 1984 and based in the Swiss city of Lausanne, Cas was set up as an independent legal body designed to settle disputes as global sport became more lucrative and, as a result, more litigious.\nFor governing bodies which recognise Cas' authority, it is deemed to be the supreme arbiter, meaning its ruling is final unless, in rare cases, Switzerland's highest court decides to set it aside based on a limited number of technicalities.\nMore than 900 cases are filed every year, from more than 50 different sports, covering issues such as employment contracts and transfers, doping, corruption, TV rights and, in this case, the organisation of sporting events.\nThe FSF's appeal was heard in private on 8 October by a panel of three arbitrators chosen by Cas for their expertise in sports law.\nThe panel was led by Frenchman Gerald Simon, founder of the Sports Law Laboratory at the University of Burgundy and a Cas member for 23 years.\nItalian international law professor Luigi Fumagalli and Hamburg-based attorney and professor of ​law at the University of Zurich Ulrich Haas completed the trio.\nIf the panel had failed to come to a consensus on the case, Cas president Simon will have made the final decision.\nAlthough Caf's appeals board is independent, a reversal of its judgement would deliver another blow to the reputation of African football's governing body, which has been heavily criticised for the retrospective decision to hand Morocco the title.\nCaf president Patrice Motsepe said in March that it will \"adhere to\" and \"respect\" whatever Cas decides, so, if things go in Senegal's favour, it could mean someone having to tinker with the Afcon rulebook.\nThe Senegal walk-off has, however, already brought about a change in football's rules.\n\"The referee may sanction with a red card any player who leaves the field of play in protest at ⁠a ​referee's decision,\" said Ifab, the game's lawmaking body, in April.\n\"This new rule will also apply ​to any team official who incites players to leave the field of play. A team that causes a match ​to be abandoned will, in principle, forfeit the match.\"\nThiaw lost his job following Senegal's last-32 World Cup exit this summer, while Walid Regragui, the man in the Morocco dugout in January, was dismissed in March.\nWhatever the outcome of the case, animosity is likely to linger between the two federations.\nThe FMRF's senior hierarchy was furious with Senegal's behaviour, believing the pictures beamed around the world irrevocably tarnished the image of the first Afcon hosted by the kingdom since 1988 - a tournament into which a huge amount of time and money had been invested.\nThe FSF and the Senegalese government have leaned into a feeling prevalent across the continent that Morocco holds too much influence within African football.\nOther incidents also irked Senegal, such as laser pens being directed into players' eyes and ball boys moving goalkeeper Mendy's towel, something which led to the barely believable sight of reserve keeper Yehvann Diouf being tackled to the ground by three ball boys when he tried to intervene.\nWith the next Afcon scheduled to take place in June and July next year, the chances of a high-profile rematch between Africa's best two teams is a tantalising thought.\nWhile the chaos of this year's final may have given birth to a new rivalry for fans to revel in, there is unanimous agreement that such encounters should be settled on the pitch and not in a courtroom.\n'Shameful' and 'terrible look' - the chaos that marred Senegal's triumph\nSenegal decries imprison",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Senegal y Marruecos esperan veredicto",
+    "caption": "La Corte de Arbitraje para el Deporte decidirá sobre la decisión de quitarle a Senegal el título de la Copa Africana de Naciones 2025. El caso se debatió en octubre y se espera la resolución después de que la Federación Real Marroquí de Fútbol presentara una queja contra Senegal por supuestamente incumplir las reglas de competición.",
+    "ai_generated_at": "2026-11-24T19:42:54.474449+00:00"
   },
   {
     "id": "43f202294aa3978b64fa",
@@ -5561,11 +5611,28 @@
     "sport": "FUTBOL",
     "score": 17,
     "queued_at": "2026-11-24T14:10:17.953874+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Beattie won the last of her 13 caps last year while the uncapped Haughey was last called into the senior squad in 2021\nMichael McArdle has decided the upcoming friendly double-header against Greece is the perfect time to bring back Kerry Beattie and Ella Haughey from the international wilderness.\nGlentoran midfielder Chloe McCarron is also in under McArdle for the first time after a lengthily absence, but the Glentoran midfielder would likely have been included sooner if not for a spell on the sidelines through injury.\nBeattie won her last cap a year ago while Haughey will hope to make a senior debut in one of the two games against Greece at Inver Park after she was an unused substitute in friendlies against England and Scotland in her sole call up in 2021.\nThe inclusion of both players, who have been in good form at their clubs, shows McArdle is willing to keep the door open for a return to the international squad if players are performing at club level.\nMagill returns to NI squad for Greece friendlies\nPortsmouth striker Beattie has been in and out of squads since her debut in 2021.\nThe 24-year-old has four goals in 13 caps, the last of which she won against Iceland in the Nations League play-off a year ago.\nA prolific forward during two spells at Glentoran, she has struggled for consistency in moves across to Scotland with the likes of Glasgow City, Hearts and Aberdeen.\nShe left the Dons in the summer and consulted with McArdle when deciding upon her next move, before joining WSL 2 side Portsmouth.\nBeattie has eight goals in all competitions for a Pompey side languishing at the bottom of the table and McArdle is pleased she has settled in well.\n\"Kerry had spells at Hearts and Aberdeen and for whatever reason it didn't quite work out at both, she had good spells but not a consistent run to express herself,\" McArdle said.\n\"The move to Portsmouth, I was delighted she reached out to me for some advice, it's an alignment for her and it's been a great move on and off the pitch. It's allowed her to enjoy herself but also play 90 minutes and be that focal point striker.\n\"She will have been disappointed not to make the squad for the [World Cup] play-off [against Portugal] with her form but she worked hard and she's back in, I'm delighted for her.\"\nBeattie faces stiff competition for the starting striker role from the likes of returning captain Simone Magill and Kess Elmore, who impressed in the last camp and scored against Portugal, but she should receive some minutes across the two games and will be keen to grasp her chance to make an impact.\nLeft-back Haughey was called up to the senior squad as a 16-year-old under Kenny Shiels, but did not feature\nWest Brom defender Haughey's last involvement with NI came when she represented the under-19s in 2023.\nA Lisburn Rangers player when Kenny Shiels included her in the senior squad as a 16-year-old, Haughey then moved to Nottingham Forest before settling at the Baggies, who play in the National League.\nThe left-back, 22, has been a regular this season for the club in the third tier and combines playing with her university studies.\nLeft-back has been a problem position for NI which McArdle has been trying to address as demonstrated by him bringing in Lucy-Jayne Grant in the last camp and Haughey for this window to allow Rebecca Holloway to play as a central defender.\nHaughey will be competing with Grant to fill that full-back role on the left side and McArdle believes she is more than capable of doing so having tried to bring her back into the squad earlier in his reign.\n\"Ella's been at West Brom for a few years now. She has real potential, strong, athletic potential. We tried to call her up sooner but there were some challenges,\" he explained.\n\"She's probably been one of their top performers and one of the top performers in the league. Delighted she's earned this opportunity and hopefully she can make her debut and achieve her first cap.\"\nMcArdle has made a concerted to continue to widen the player pool available to him as he aims to build depth ahead of the Nations League campaign next year, but if Beattie and Haughey catch the eye it will show that giving chances to those previously involved under different managers could be another possibility.\nChampions League: Arsenal face Dortmund and Man City host Napoli after Villa lose\nChampionship: Eight games with West Ham, Boro & Wolves all playing\nSenegal reinstated as Afcon 2025 winners by court ruling\nA festive comedy featuring Jason Bateman, Olivia Munn and Jennifer Aniston\nIs cough medicine any better than just taking honey and lemon?\nLucy unlocks the secrets of four spectacular palaces\nThe controversial operation that transplanted a baboon's heart into a baby\nAll the latest from Irish Rugby with BBC Sport NI\nAll the latest news from the Irish Premiership\n115 days, 39 private-jet flights, one election - Infantino's globetrotting\nWhy has De Bruyne struggled at Napoli as he returns to Man City?\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nTwo goals in 15 games - what's going on with Gyokeres?\nWho has made Troy's Premier League team of the week?\nEngland's tearaway quick bowler reinvented as a top-order batter\nChaotic week, nightmare start and huge reality check for Pochettino\nA 'wow' player - why Ngumoha is already a Liverpool game-changer\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland will not get carried away by beating All Blacks\nVerstappen a constant amid chaos as he says Russell is 'so far below my level'\nThe sandpaper plot - who was there, who said what?\nThe 3pm football blackout: Outdated or still relevant in 2026?\nJosh Kerr: The making of the man behind the shades\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "visual_subject": "Kerry Beattie",
+    "visual_entities": {
+      "personas": [
+        "Kerry Beattie",
+        "Ella Haughey",
+        "Michael McArdle"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Beattie y Haughey vuelven al seleccionado ante Grecia",
+    "caption": "El entrenador Michael McArdle reincorpora a la delantera Kerry Beattie (Portsmouth) y a la defensa izquierda Ella Haughey (West Brom) para los dos amistosos contra Grecia que se disputarán en Inver Park, Belfast. Beattie, con 13 convocatorias y cuatro goles, busca retomar su puesto tras una temporada en la que anotó ocho veces en la liga inglesa. Haughey, llamada por última vez en 2021, aspira a debutar en la selección senior. También vuelve al grupo la mediocampista Chloe McCarron. La competencia por el puesto de atacante incluye a Simone Magill y Kess Elmore, mientras que en la banda izquierda compite con Lucy‑Jayne Grant.",
+    "ai_generated_at": "2026-11-24T19:42:54.474449+00:00"
   },
   {
     "id": "0df561c6b454c72e29a2",
@@ -5578,11 +5645,29 @@
     "sport": "FUTBOL",
     "score": 17,
     "queued_at": "2026-11-24T14:10:17.953874+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Premier League club keep an eye on Celtic summer signing as Serie A sides monitor the champion's Swedish midfielder...\nLeeds United have sent scouts to watch Celtic striker Camilo Duran this season. ( The National , external )\nCeltic midfielder Benjamin Nygren is on the radar of Atalanta and Bologna . ( Rekatochklart via Daily Record , external )\nScott McTominay's Napoli future has been plunged into fresh doubt amid claims the 29-year-old Scotland midfielder's camp are seeking a staggering £10m-a-year deal to extend his stay in Italy. ( Corriere del Mezzogiorno via The Herald , external )\nHacken sporting director Erik Friberg has described 19-year-old Celtic -linked midfielder Abdoulaye Doumbia as \"incredible\". ( Glasgow Times , external )\nStuttgart are contemplating a move for Arne Engels only three months after the 23-year-old midfielder joined West Ham United from Celtic . ( Bild via The National , external )\nWolverhampton Wanderers are among several Championship clubs interested in signing former Celtic winger Liel Abada as a free agent in January when his Charlotte contract expires. ( Sky Sports , external )\nConnor Barron's frustrating Middlesbrough loan spell has suffered another setback with the Rangers midfielder currently sidelined by injury. ( The National , external )\nTuesday's English & European transfer rumours\nDunfermline Athletic are bracing themselves for Aberdeen to recall Dylan Lobban's from his loan because of the 21-year-old right-back's good form. ( The Courier , external )\nSteven Pressley insists he had no thoughts of quitting as Dundee head coach despite Saturday's 8-0 mauling at home to Heart of Midlothian. ( The Scotsman , external )\nThe Scottish Football Association has been advised by the Scottish Professional Football League's competitions working group to delay the vote on its radical young player reforms until the end of the season. ( Daily Record , external )\nCallum McGregor remains the driving force for Celtic and criticism of the captain is completely unwarranted, says the club's former midfielder Dylan McGeouch. ( Scottish Sun - subscription required , external )\nFormer Tynecastle goalkeeper Gilles Rousset reckons Hearts have a chance at home to Monaco on Thursday, the Frenchman saying the Conference League visitors are \"not at their very best at the moment\". Daily Record - subscription required , external\nThe financial crisis at Greenock Morton has taken another alarming turn after the club's main sponsor, Dalrada Technology Ltd, was placed into liquidation. ( The Herald , external )\nScotland goalkeeping coach Chris Woods is waiting to get approval from head coach Sebastien Pocognoli over a new contract days before the 67-year-old's agreement expires. ( Football Insider , external )\nSteven Gerrard has revealed he brought Fulham defender Calvin Bassey to Rangers \"on a steal\" during his time as manager at Ibrox. ( The Overlap , external )\nChampions League: Arsenal face Dortmund and Man City host Napoli after Villa lose\nChampionship: Eight games with West Ham, Boro & Wolves all playing\nSenegal reinstated as Afcon 2025 winners by court ruling\nA festive comedy featuring Jason Bateman, Olivia Munn and Jennifer Aniston\nIs cough medicine any better than just taking honey and lemon?\nLucy unlocks the secrets of four spectacular palaces\nThe controversial operation that transplanted a baboon's heart into a baby\nHow Scotland reached the World Cup - told by those who made it happen\nScotland men's internationals to be shown live on BBC\nHow Team GB is leading the way in curling's arms race\nHow McTominay became a Napoli icon after Man Utd exit\nWhy is it so special to be part of Team Scotland?\n115 days, 39 private-jet flights, one election - Infantino's globetrotting\nWhy has De Bruyne struggled at Napoli as he returns to Man City?\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nTwo goals in 15 games - what's going on with Gyokeres?\nWho has made Troy's Premier League team of the week?\nEngland's tearaway quick bowler reinvented as a top-order batter\nChaotic week, nightmare start and huge reality check for Pochettino\nA 'wow' player - why Ngumoha is already a Liverpool game-changer\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland will not get carried away by beating All Blacks\nVerstappen a constant amid chaos as he says Russell is 'so far below my level'\nThe sandpaper plot - who was there, who said what?\nThe 3pm football blackout: Outdated or still relevant in 2026?\nJosh Kerr: The making of the man behind the shades\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Celtic"
+      ],
+      "competicion": [
+        "Premier League",
+        "Serie A"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Leeds United y Serie A observan a Duran y Nygren",
+    "caption": "Leeds United ha enviado scouts para vigilar al delantero cameroñés Camilo Duran del Celtic, mientras que los clubes italianos Atalanta y Bologna tienen al mediocampista sueco Benjamin Nygren en su radar. Ambos jugadores del campeón escocés están atrayendo interés de equipos de la Premier League y de la Serie A, lo que podría abrir puertas para posibles traspasos en el próximo mercado.",
+    "ai_generated_at": "2026-11-24T19:42:54.474449+00:00"
   },
   {
     "id": "eb5b6d33a70a8dd7488d",
@@ -6047,11 +6132,31 @@
     "sport": "FUTBOL",
     "score": 17,
     "queued_at": "2026-11-24T15:48:48.176339+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Kevin de Bruyne won 16 trophies in 10 years at Manchester City\nKevin de Bruyne's move to Napoli in 2025 was supposed to mark a continuation of his glittering decade at Manchester City as he approaches the twilight years of his career.\nInstead, the midfielder, who is widely regarded as one of the standout players of his generation, has seen his time in Naples threaten to turn sour amid an early injury, friction with his team-mates and rumours of a January exit.\nNapoli were Serie A champions in 2024-25 - the year before De Bruyne's arrival - but are currently languishing in eighth, while they sit 27th in the Champions League after a heavy 4-1 defeat at Porto earlier this month.\nBelgium international De Bruyne lifted 16 trophies in his 10 years at City and is guaranteed a generous ovation when he returns to the Etihad Stadium on Tuesday but the highs of his time in England are in contrast to the struggles he is seemingly enduring in Italy.\n\"Not a lot I can say for the moment,\" said De Bruyne when asked about his future. \"I have played at 100% until now and obviously I am not 20 years old, I am turning 36.\n\"There is a lot of things going in my mind but there is not a lot to say. I am playing good football, trying to help the team to do well and it has been a bit of a challenging season with a lot of things happening.\"\nDe Bruyne's feelings for Man City will 'never change'\nStatue, Pep's tears & a missed sitter - De Bruyne's emotional farewell\nCity decided not to renew De Bruyne's contract during the 2024-25 season and the player had the choice of heading to the US with Chicago Fire or staying in one of the top-five leagues in Europe.\nThe 35-year-old felt he could still cut it at the highest level but his first season at Napoli was heavily disrupted by a hamstring injury which kept him out for more than four months, restricting him to 21 appearances.\nNapoli finished runners up to Inter Milan to lose their Serie A title and De Bruyne reportedly said , external he was \"happy\" manager Antonio Conte had departed in the summer as promises were not kept regarding the style of play.\nBut despite making his name as a technically gifted number 10, De Bruyne's role has been remodelled into a deeper holding one under Massimiliano Allegri in an ageing squad that has struggled this season.\nIn Porto, the fractures were clear to see, with De Bruyne having a heated on-field confrontation , external with striker Lorenzo Lucca and his team-mates were forced to step in to diffuse the situation.\nThe passionate side of De Bruyne's game was shown in Manchester too.\nThe midfielder shouted \"shut up\" at manager Pep Guardiola during a Champions League game against Real Madrid in 2023, and said \"let me talk\" when David Silva and Fernandinho were ushering him off the pitch at half-time shortly after he was booked against Napoli in 2017.\n\"Speaking about the pitch, De Bruyne is the best player this year at Napoli,\" Naples-based journalist Vincenzo Credendino tells BBC Sport. \"The point is that the whole team is having difficulties.\n\"We saw that there is a problem, at least between De Bruyne and Lorenzo Lucca. Their acting was very, very clear and I think that in that time, the two of them were wrong.\n\"On one hand you cannot swear at another team-mate but on the other hand, De Bruyne reproached Lucca without encouraging him, so it was a bad show.\"\nDe Bruyne has played 16 times for Napoli this season - contributing four goals and two assists - but his long-term future at the club remains unclear.\nIn September, De Bruyne's wife reportedly , external told a Belgian publication about their desire to move back home, saying \"the sooner we get there, the better\" as the player leads a \"very restricted life\" in Naples.\nAsked if the quotes had been misinterpreted, De Bruyne said: \"To be honest, I am pretty annoyed because if you read the article, that none of you have read, to understand what she said.\n\"I was away in Belgium and a lot of noise came and a lot of bad reactions to my wife and family. I saw pictures of my house, I don't think it is OK but it is what it is and some press created this in Italy. I don't know why.\n\"Nobody knows my life, you will never know. People who work with me are not allowed to say anything but obviously it is something that I take away and think about. It has not been nice for my wife or for my family.\"\nIt has led to interest from the Netherlands with PSV Eindhoven making a £1.67m offer to sign him in January, but the two clubs are apart in their valuations as Napoli want up to £6.7m, according to Credendino.\n\"Napoli fans were not happy [with the interview],\" he says. \"There are many fans that say, 'OK, you can leave if you want, we are not putting chains on anybody'.\"\nNapoli boss Allegri left the door open for a January exit by saying in his pre-match news conference the pair had \"not spoken\" about his future and it is \"down to the players and who wants to leave\" when the transfer window opens.\nCity manager Enzo Maresca was assistant to Pep Guardiola during the 2022-23 campaign in which De Bruyne helped the club to a Treble of trophies and the Italian has fond memories of the \"fantastic season\" they spent together.\n\"No doubt, [he is] one of the best,\" Maresca said of De Bruyne in his pre-match news conference. \"Not only personally but also for the history of this club. In the last 10 years all the trophies the club achieved Kevin was here.\n\"He was an important player, a top guy, polite and for me it was a pleasure to work with him.\"\nThis is not the first time De Bruyne will be facing his former club with a reunion with City in the Champions League last season.\nThat trip turned out to be a bitterly unhappy experience, with De Bruyne substituted after 26 minutes following Giovanni di Lorenzo's red card in the 2-0 defeat.\nThe midfielder will be hoping for a better result on Tuesday as he aims to park his struggles for one evening.\nCity and Belgium winger Jeremy Doku said: \"Kevin is someone that likes football. Even at this age he loves it.\n\"I don't have any doubts about his quality and I am sure everything will be fine in Napoli.\"\nChampions League: Villa goalless at Galatasaray before Arsenal and Man City in action\nSenegal reinstated as Afcon 2025 winners by court ruling\nScottish Premiership: Build-up to Hibs v Dundee and Rangers v Aberdeen\nA festive comedy featuring Jason Bateman, Olivia Munn and Jennifer Aniston\nIs cough medicine any better than just taking honey and lemon?\nLucy unlocks the sec",
+    "visual_subject": "Kevin de Bruyne",
+    "visual_entities": {
+      "personas": [
+        "Kevin de Bruyne"
+      ],
+      "clubes": [
+        "Napoli",
+        "Manchester City"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Manchester"
+      ]
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "De Bruyne regresa a Man City",
+    "caption": "El mediocampista belga ha tenido una temporada difícil en Napoli, con una lesión y problemas con sus compañeros de equipo. Regresa a Manchester City, donde jugó durante 10 años y ganó 16 títulos.",
+    "ai_generated_at": "2026-11-24T19:42:54.474449+00:00"
   },
   {
     "id": "8e5e847fd0f479e6dfc2",
@@ -6417,7 +6522,7 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-24T16:31:13.962347+00:00",
-    "status": "draft",
+    "status": "published",
     "visual_subject": "Draymond Green",
     "visual_entities": {
       "personas": [
@@ -6434,7 +6539,25 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Draymond Green sella victoria de Warriors 88-87",
     "caption": "Draymond Green, después de destacar sus logros en redes, cerró el partido con una parada defensiva en el último segundo, garantizando la victoria de Golden State Warriors por 88-87 ante Boston Celtics y celebró con entusiasmo el triunfo.",
-    "ai_generated_at": "2026-11-24T19:01:07.101607+00:00"
+    "ai_generated_at": "2026-11-24T19:01:07.101607+00:00",
+    "photo_checked_at": "2026-11-24T19:44:13.047038+00:00",
+    "portrait_info": null,
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "NBA",
+        "DraymondGreen",
+        "GoldenStateWarriors",
+        "BostonCeltics"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T19:42:54.474449+00:00",
+    "instagram_media_id": "18122840668982370"
   },
   {
     "id": "93ed3b609cfb63e98976",
@@ -6493,7 +6616,7 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-24T16:31:13.962347+00:00",
-    "status": "draft",
+    "status": "published",
     "visual_subject": "Gabe Vincent",
     "visual_entities": {
       "personas": [
@@ -6509,7 +6632,23 @@
     "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
     "headline": "Kings ficha a Gabe Vincent",
     "caption": "El guardia Gabe Vincent firmó un contrato con los Sacramento Kings para ocupar su 15ª plaza en el roster, se anunció el lunes. Vincent refuerza la profundidad del backcourt del equipo.",
-    "ai_generated_at": "2026-11-24T19:01:07.101607+00:00"
+    "ai_generated_at": "2026-11-24T19:01:07.101607+00:00",
+    "photo_checked_at": "2026-11-24T19:44:49.510258+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "NBA",
+        "GabeVincent",
+        "SacramentoKings"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T19:42:54.474449+00:00",
+    "instagram_media_id": "18129967700293465"
   },
   {
     "id": "af3b066f2731183d5da8",
@@ -8363,5 +8502,48 @@
     },
     "posted_at": "2026-11-24T19:40:03.257779+00:00",
     "instagram_media_id": "18130661950896550"
+  },
+  {
+    "id": "3e84f67693423016fba9",
+    "title": "Qué opinan los pilotos de F1 sobre el regreso de los motores V8 en 2030",
+    "source_url": "https://es.motorsport.com/f1/news/opinion-pilotos-regreso-v8/10875787",
+    "source": "Motorsport F1",
+    "description": "Los motores V8 fueron el gran tema de conversación del jueves que dio inicio al fin de semana del Gran Premio de Las Vegas de Fórmula 1. Y era inevitable. Desde hace unos días sabemos que, a partir de 2030, los motores de Fórmula 1 volverán a ser de ocho cilindros y 2,1 litros, acompañados de un turbo y un pequeño dispositivo eléctrico que permitirá que las unidades de potencia sigan ... Sigue leyendo",
+    "published_at": "2026-11-24T19:36:13+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-24T19:42:54.474449+00:00",
+    "status": "published",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [
+        "Fórmula 1"
+      ],
+      "ciudad": [
+        "Las Vegas"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Pilotos de F1 debaten regreso de V8 en 2030",
+    "caption": "En el inicio del fin de semana del Gran Premio de Las Vegas, los pilotos de Fórmula 1 conversaron sobre la decisión de volver a los motores V8 de 2,1 L con turbo y dispositivo eléctrico a partir de 2030. El tema dominó la agenda y generó distintas opiniones entre los conductores, sin que se citara a ninguno en concreto.",
+    "ai_generated_at": "2026-11-24T19:42:54.474449+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-24T19:43:49.138428+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Formula1"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T19:42:54.474449+00:00",
+    "instagram_media_id": "18084780404341906"
   }
 ]
