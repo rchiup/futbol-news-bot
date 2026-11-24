@@ -8606,5 +8606,21 @@
     "source": "Cooperativa.cl: Noticias de Chile y el mundo - País, Deportes y más",
     "collected_at": "2026-11-24T20:26:51.814853+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "4e05d402cbea3fd16a04b687dd3a75982d8d0404c9a616648d8c0daae4bd7e66",
+    "title": "Gul swoops late for buoyant Galatasaray to condemn Aston Villa to Champions League loss",
+    "url": "https://www.theguardian.com/football/2026/nov/24/galatasaray-aston-villa-champions-league-match-report",
+    "source": "Football | The Guardian",
+    "collected_at": "2026-11-24T20:38:45.428166+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "254a6b38fbbf74faa27aa8490505355e0b2de90f1b87328c5f4370cdb9fec4f3",
+    "title": "Colapinto avisó que Qatar va a ser diferente a Las Vegas: \"Volveremos a ver una carrera más normal\"",
+    "url": "https://www.ole.com.ar/autos/franco-colapinto-qatar-vegas-formula-1-diferente_0_MScOE13QPz.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-24T20:38:46.657353+00:00",
+    "status": "pending_review"
   }
 ]

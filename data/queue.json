@@ -9172,5 +9172,92 @@
     },
     "posted_at": "2026-11-24T20:26:52.048070+00:00",
     "instagram_media_id": "18067371581628594"
+  },
+  {
+    "id": "4e05d402cbea3fd16a04",
+    "title": "Gul swoops late for buoyant Galatasaray to condemn Aston Villa to Champions League loss",
+    "source_url": "https://www.theguardian.com/football/2026/nov/24/galatasaray-aston-villa-champions-league-match-report",
+    "source": "The Guardian",
+    "description": "This was Aston Villa’s third trip to Istanbul in the calendar year but, this time, they departed with contrasting emotions. Unlike on the banks of the Bosphorus at Besiktas Park in May, scene of their unforgettable Europa League triumph , or at Fenerbahce in January, they came away with a bloody nose. Galatasaray’s matchwinner, Deniz Gul, came away with worse than that, needing treatment after taking a boot to the face from Nicolas Jackson as he scored from a corner on 77min, the game’s first effort on target. Galatasaray maintained their comma",
+    "published_at": "2026-11-24T20:03:50+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T20:38:49.866462+00:00",
+    "status": "published",
+    "visual_subject": "Deniz Gul",
+    "visual_entities": {
+      "personas": [
+        "Deniz Gul",
+        "Nicolas Jackson"
+      ],
+      "clubes": [
+        "Galatasaray",
+        "Aston Villa"
+      ],
+      "competicion": [
+        "Champions League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Deniz Gul anota tarde y condena a Aston Villa",
+    "caption": "Deniz Gul marcó el gol de la victoria para Galatasaray contra Aston Villa en la Champions League, sellando la derrota del equipo inglés en Estambul. Tras el tanto, Gul recibió una patada en la cara de Nicolas Jackson y tuvo que recibir atención médica. Fue la tercera visita de Villa a la ciudad turca en el año, tras encuentros previos en la Europa League y en la fase de grupos.",
+    "ai_generated_at": "2026-11-24T20:38:49.866462+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-24T20:39:19.219873+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "DenizGul",
+        "NicolasJackson",
+        "Galatasaray",
+        "AstonVilla"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T20:38:49.866462+00:00",
+    "instagram_media_id": "17926233870241038"
+  },
+  {
+    "id": "254a6b38fbbf74faa27a",
+    "title": "Colapinto avisó que Qatar va a ser diferente a Las Vegas: \"Volveremos a ver una carrera más normal\"",
+    "source_url": "https://www.ole.com.ar/autos/franco-colapinto-qatar-vegas-formula-1-diferente_0_MScOE13QPz.html",
+    "source": "Olé Argentina",
+    "description": "El piloto de Alpine comenzó a palpitar la próxima fecha de la Fórmula 1 y anticipó que no se van a ver los trencitos eternos que se produjeron en el callejero estadounidense.",
+    "published_at": "2026-11-24T20:32:27+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T20:38:49.866462+00:00",
+    "status": "needs_review",
+    "article_context": "Franco Colapinto sigue contento. Risueño. Se sube al avión con el casco en la mano, apoya la cabeza en el asiento y recuerda los adelantamientos a los McLaren, las batallas con los pilotos de punta y el sexto puesto en el GP de Las Vegas , que seguramente ya atesoró en un lugar especial de su corazón. Pero en la Fórmula 1 hay que seguir, y hay semanas como estas en las que los corredores no tienen respiro: de inmediato, los 22 autos de la Máxima se dirigirán a Lusail, donde se disputará el GP de Qatar , que el bonaerense imagina que no se parecerá en nada al show estadounidense...\n\"Fue fantástico volver a sumar puntos en Las Vegas e igualar mi mejor resultado hasta la fecha en la Fórmula 1. Tuvimos un buen ritmo durante todo el fin de semana, ya que diversas características del circuito se adaptaron bien a nuestro monoplaza, y gestionamos el evento a la perfección con ambos coches. Esperamos mantener el impulso en Qatar \", pidió el corredor de 22 años.\nPalpitando lo que pasará en el Circuito Internacional de Lusail, y cómo espera que se dé, siguió: \"Probablemente volveremos a un tipo de carrera más normal , tras la intensa dinámica de succión que acabamos de vivir, que resultó ser algo muy singular\".\n¿Cuál será la clave? En pocas palabras, por cómo es este trazado, no equivocarse. \"El trazado castiga mucho los errores , con las escapatorias de grava situadas muy cerca de la salida de las curvas; cada vez que te abrís lo pagás. Pero el flujo de las curvas hace que completar una vuelta sea una experiencia muy gratificante. Estamos preparados para darlo todo de nuevo en la penúltima cita del año y, ojalá, lograr puntuar por segunda carrera consecutiva\".\nCaroline Smith coincidió con Franco en el vuelo de vuelta de Las Vegas y compartió el video en redes sociales. Video: @itscarolinescorner\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Alpine"
+      ],
+      "competicion": [
+        "Fórmula 1"
+      ],
+      "ciudad": [
+        "Las Vegas"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Colapinto anticipa carrera más normal en GP de Qatar",
+    "caption": "Franco Colapinto, piloto de Alpine, declaró que el próximo Gran Premio de Qatar será distinto al de Las Vegas, con una carrera más tradicional tras la dinámica singular de la cita estadounidense. El argentino recordó su sexto puesto en Las Vegas y señaló que el trazado de Lusail castiga los errores, por lo que espera un evento más equilibrado y la posibilidad de puntuar nuevamente.",
+    "ai_generated_at": "2026-11-24T20:38:49.866462+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
