@@ -8462,5 +8462,37 @@
     "source": "www.espn.com - NBA",
     "collected_at": "2026-11-24T19:16:00.063694+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "c01db75d4df5d406e4f00d50a5650cac1b2a34502b0febe4ba001dc530b3bb57",
+    "title": "La premonición de un jugador de Boca antes de la final de la Sudamericana",
+    "url": "https://www.ole.com.ar/boca-juniors/boca-campeon-final-copa-sudamericana-premonicion-rodrigo-battaglia_0_1niS4967Fz.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-24T19:30:58.602952+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "511b610c52f8b3adcdbc645284dea698a70b6cbff01ab707cd8a33736f231852",
+    "title": "Jadson Viera: del \"que las críticas caigan en mí\" al \"dejar a Independiente en lo más alto\"",
+    "url": "https://www.ole.com.ar/independiente/jadsonviera-independiente-torneoclausura-velez-argentinosjuniors_0_ckP1M0b3dR.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-24T19:30:58.602975+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "79e7fc384fab73ae2d85f1e479fb2696c639ed250edd924d121864b84e6f73fd",
+    "title": "Más problemas para Pochettino: el Manchester United le limita el presupuesto para fichar",
+    "url": "https://www.ole.com.ar/futbol-internacional/inglaterra/mauriciopochettino-manchesterunited-premierleague-reddevils-presupuesto_0_FwRc6dQekP.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-24T19:30:58.602982+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "8a5656822dfe6116f62946ffca79bdcdaf9a83891178de44657d18099f94bf27",
+    "title": "Qué dijeron en Marruecos tras el fallo que le dio la Copa Africana de Naciones a Senegal: \"Peligroso precedente\"",
+    "url": "https://www.ole.com.ar/futbol-internacional/reaccion-marruecos-decision-tas-copa-africa-senegal-medios_0_KFhE4Xeuru.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-24T19:30:58.602988+00:00",
+    "status": "pending_review"
   }
 ]

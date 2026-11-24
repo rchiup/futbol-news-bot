@@ -1,22 +1,22 @@
 {
-  "checked_at_utc": "2026-11-24T19:16:00.944115+00:00",
+  "checked_at_utc": "2026-11-24T19:31:01.457121+00:00",
   "local_hour": 16,
   "statuses": {
-    "published": 70,
-    "draft": 14,
-    "awaiting_ai": 38,
+    "published": 73,
+    "draft": 17,
+    "awaiting_ai": 33,
     "needs_review": 69,
     "publish_error": 25,
-    "duplicate": 13
+    "duplicate": 15
   },
   "fresh_candidates": 151,
-  "queued_new": 8,
+  "queued_new": 3,
   "ai_generated": 8,
   "preview_images": 5,
   "published": 3,
-  "duplicates_suppressed": 1,
+  "duplicates_suppressed": 2,
   "no_photo_deferred": 0,
-  "total_queue": 260,
+  "total_queue": 263,
   "per_run_cap": 3,
   "morning_day_cap": 72,
   "auto_publish_enabled": true,
@@ -38,35 +38,35 @@
     "last_success": "cloudflare",
     "providers": {
       "groq": {
-        "attempts": 92,
-        "success": 77,
-        "failures": 15,
-        "avg_latency_ms": 2135,
-        "avg_readability": 95.5,
+        "attempts": 98,
+        "success": 82,
+        "failures": 16,
+        "avg_latency_ms": 2211,
+        "avg_readability": 95.0,
         "last_error": "http_429"
       },
       "openrouter": {
-        "attempts": 7,
+        "attempts": 8,
         "success": 4,
-        "failures": 3,
+        "failures": 4,
         "avg_latency_ms": 17585,
         "avg_readability": 100.0,
         "last_error": "http_429"
       },
       "gemini": {
-        "attempts": 19,
-        "success": 1,
+        "attempts": 20,
+        "success": 2,
         "failures": 18,
-        "avg_latency_ms": 23629,
-        "avg_readability": 85.0,
+        "avg_latency_ms": 12604,
+        "avg_readability": 92.5,
         "last_error": "http_503"
       },
       "cloudflare": {
-        "attempts": 25,
-        "success": 11,
+        "attempts": 27,
+        "success": 13,
         "failures": 14,
-        "avg_latency_ms": 3238,
-        "avg_readability": 98.6,
+        "avg_latency_ms": 3388,
+        "avg_readability": 98.8,
         "last_error": "http_410"
       },
       "nvidia": {

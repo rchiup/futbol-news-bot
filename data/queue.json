@@ -6421,11 +6421,26 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-24T16:31:13.962347+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "Boozer",
+        "Dybantsa"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Boozer, Dybantsa y siete novatos analizados tras su primer mes",
+    "caption": "Insiders de la NBA revisan el desempeño de nueve jugadores de primera temporada, entre ellos Boozer y Dybantsa, tras el primer mes de la campaña 2026‑27.",
+    "ai_generated_at": "2026-11-24T19:31:01.457121+00:00"
   },
   {
     "id": "4f30a1fc21ccccb115fe",
@@ -6438,11 +6453,23 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-24T16:31:13.962347+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "NBA publica ranking de novatos de la temporada",
+    "caption": "ESPN NBA lanzó su primera edición del ranking de novatos, destacando a diez jugadores que se han destacado en los primeros partidos de la campaña 2026‑27.",
+    "ai_generated_at": "2026-11-24T19:31:01.457121+00:00"
   },
   {
     "id": "33316404e9abec7cce03",
@@ -6455,11 +6482,25 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-24T16:31:13.962347+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [
+        "Copa América"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Estados Unidos será sede de la Copa América 2028",
+    "caption": "El torneo continental regresará a territorio estadounidense para su edición de 2028, marcando la tercera ocasión en que el país organiza esta competición. Esta designación confirma la continuidad de la presencia del certamen en Estados Unidos tras la edición de 2024 y la próxima cita en el calendario futbolístico de la región.",
+    "ai_generated_at": "2026-11-24T19:31:01.457121+00:00"
   },
   {
     "id": "32b3f02561a7373d6ac1",
@@ -7086,11 +7127,30 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T18:31:03.288221+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Sadio Mané",
+    "visual_entities": {
+      "personas": [
+        "Sadio Mané",
+        "Koulibaly",
+        "Sarr",
+        "Diarra"
+      ],
+      "clubes": [],
+      "competicion": [
+        "Copa Africana de Naciones"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Sadio Mané festeja título",
+    "caption": "El extremo de Senegal celebró en Instagram la consagración de su selección en la Copa Africana de Naciones, junto a otros jugadores como Koulibaly, Sarr y Diarra.",
+    "ai_generated_at": "2026-11-24T19:31:01.457121+00:00"
   },
   {
     "id": "1edee30d99a3c70e218c",
@@ -7103,11 +7163,26 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T18:31:03.288221+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "La competencia volvió a dejar una selección de grandes acciones, con alley-oops, volcadas, tapas, triples y jugadas colectivas que se destacaron en distintos escenarios. Ányelo Cisneros y Martiniano Dato encabezaron el ranking con una conexión aérea en el triunfo de Gimnasia frente a Boca.\nPatricio Cogliati tuvo doble presencia en una misma secuencia de Quimsa-Ferro con dos volcadas , mientras que Bryan Carabalí y Franco Balbi protagonizaron otro alley-oop en Oberá-Atenas. También aparecen Valentín Bettiga junto a Jano Martínez, Dylan Smith, Zyon Patterson y Jonatan Torresi con distintas acciones ofensivas de alto nivel .\nEl Top 10 se completa con Sebastián Orresta y Manuel Rodríguez , protagonistas desde la defensa con una tapa y una doble tapa, respectivamente, además del triple de Franco Méndez en el duelo entre Quimsa y Regatas.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [
+        "La Liga Nacional"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Cisneros y Dato lideran el Top 10",
+    "caption": "La última semana de La Liga Nacional destacó grandes acciones, como la conexión aérea de Ányelo Cisneros y Martiniano Dato en el triunfo de Gimnasia frente a Boca, además de jugadas destacadas de Patricio Cogliati, Bryan Carabalí y Franco Balbi.",
+    "ai_generated_at": "2026-11-24T19:31:01.457121+00:00"
   },
   {
     "id": "a87df9d1e4c1ed5ae124",
@@ -7417,7 +7492,7 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-24T19:16:00.944115+00:00",
-    "status": "draft",
+    "status": "published",
     "article_context": "When the Boston Celtics stunningly traded star SF/SG Jaylen Brown to the rival Philadelphia 76ers this past summer, Celtics fans groaned not only about losing a key 10-year veteran who averaged 28.7 PPG last season, but about the once-great SF/PF Paul George joining the roster as his replacement. Meanwhile, 76ers fans mightily celebrated George leaving it.\nWas all that fair? Probably not, especially in retrospect, because we are in the seventh week of the NBA season with Brown and George performing at a similar statistical level, with George well ahead on the Player Rater (No. 42 to No. 75) and averaging 39.5 ESPN fantasy points per game, just a bit ahead of Brown at 38.5 points. Who would have expected this development?\nLet's focus not on Brown, who is doing precisely what the 76ers expected him to do in a star-filled lineup, averaging 22.4 PPG in 34.3 MPG, but on George, who has been a solid fit for Boston's aggressive 3-point field goal attack. George, 36 and averaging 19.9 PPG in 30.1 MPG, rested for Sunday night's road game versus the Golden State Warriors (which the Celtics lost!), but this tragic figure, who participated in only 78 of a possible 164 games during two disappointing 76ers seasons, has missed only three games this season -- just like Brown.\nDurability was likely the biggest concern for fantasy managers potentially interested in George, which is why he fell to Round 7, at least, in ESPN average live drafts. Most fantasy managers probably looked at Brown's lofty numbers from last season (achieved sans injured teammate Jayson Tatum ) and could not wait to invest among the first 30 selections. Still, one could see a path to similar production if the games were similar . We can check back on comparing these fellows in a month and, who knows, perhaps George is hurt again tomorrow, and the entire premise was silly. Then again, perhaps not.\nThere's still time to join or create a league in the No. 1 fantasy basketball game. Your league starts fresh on the first scoring period following completion of your draft.\nThe Celtics keep George's minutes in check, and more than half his attempted field goals are from 3-point range. He's hitting 40.7% on 3-pointers. George is also fourth in the NBA in steals per game , such a critical differentiator in roto formats. His three missed games each came during the second half of back-to-back outings, and we should expect that continues. That's fine, really, hardly atypical behavior for veterans in this league. If it keeps George healthy for 65 games, a figure he has reached in one of the past seven seasons, we are all for it. Give George credit. He was caught in an awkward situation, but these numbers are solid.\nUltimately, even though production and health are similar today , it is hard to make a great case to trade Brown for George in a points format or a roto/categories league, but it isn't nearly as wild a thought as it was when this real-life trade occurred, or even two months ago. One of these fellows is, predictably, not earning great value from his fantasy draft-day status . The other has been, well, a steal.",
     "visual_subject": "Paul George",
     "visual_entities": {
@@ -7436,7 +7511,19 @@
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-24T19:32:16.994902+00:00",
+    "portrait_info": null,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "NBA",
+        "PaulGeorge"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T19:31:01.457121+00:00",
+    "instagram_media_id": "17901290289405167"
   },
   {
     "id": "91e6c1aa04782e48f715",
@@ -7449,7 +7536,7 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-24T19:16:00.944115+00:00",
-    "status": "draft",
+    "status": "published",
     "article_context": "The Copa América is returning to the U.S. in 2028 , the third time in the past four editions that South America's premier international tournament will take place in North America. It will be the second straight edition of the competition to be held stateside, while the centenary-celebration tournament was hosted by the U.S. in 2016.\nIs that too much time for a continental competition to be held outside its own continent? And what kind of an opportunity does it present for the hosts, the U.S. men's national team , bang in the middle of the four-year cycle building to the 2030 FIFA World Cup ?\nTo answer those questions, ESPN turned to Jeff Carlisle and Tim Vickery.\nThe Copa América is returning to the United States, and that counts as great news for the U.S. men's national team.\nThe USMNT has at times struggled to fill out its schedule with quality opponents. Part of that is down to the top-heavy nature of Concacaf. As things stand, Canada , Mexico and Panama can provide the U.S. with a consistent challenge. From there, the standard falls significantly.\nThe international calendar does the USMNT no favors either. The biennial nature of the Gold Cup means that two out of the three summers in a World Cup cycle are dominated with matches against Concacaf opponents. World Cup qualifying and the Concacaf Nations League make the schedule even more Concacaf-centric. Elsewhere, international windows are often clogged with qualifying for continental competitions or other versions of the Nations League, restricting the availability of teams to play friendlies.\nThe Copa América offers a welcome dose of variety and quality. The U.S. invariably faces teams with which it isn't as familiar, and there is the potential to face some of the hemisphere's most accomplished sides like Argentina and Brazil . The fact that the USMNT failed to make it out of the group stage in the 2024 edition of the Copa -- yes, that included a defeat to Panama -- only reinforces the point that it can benefit from being tested in a tournament setting.\nThe benefits to the U.S. from hosting Copa América are enhanced given that the USMNT finds itself in a period of transition. Not only is the search on for a new manager, but a new generation of players has taken its first steps into the international arena. Time will be needed for coach and players to adapt and get to know each other. The Copa América is the perfect setting to test which players and tactics will suit the USMNT best going forward.\nOne minor complication is the fact that the U.S. will also be hosting the Olympic Games in 2028. This isn't to suggest that the Olympics are at all on par with the Copa América. In terms of soccer, the latter dwarfs the former in terms of prestige, but the Olympics garner a significant amount of attention in the U.S. As such, U.S. Soccer has placed an emphasis on performing well in the competition, hiring former LAFC manager Steve Cherundolo to coach what will be primarily a U23 team. Given the impressive starts with the USMNT by the likes of Red Bull New York 's Julian Hall and the Philadelphia Union 's Cavan Sullivan , the full national team may end up cannibalizing the Olympic team to a degree.\nThat said, such a dilemma is a champagne problem. Tournament experience, no matter where it happens, is a valuable resource when the big stage of a World Cup comes around. The Copa América will no doubt benefit the USMNT in that regard. -- Carlisle\nSouth America boasts the oldest continental competition in the world, but its history has been checkered and uneven. First played in 1916 and held on an annual basis at the start, the Copa América had fallen into disuse by the early 1980s, but then it was brought back in 1987. Two developments were key to its revival: instead of dictatorships snarling at each other, democratic regimes were returning to the region; and football as a televised spectacle was by this point making advances, with new powerful forces such as cable on the horizon.\nAnd so, initially on a two-year basis, the tournament went all around the continent -- in some places ( Paraguay in 1999, Colombia in 2001, Venezuela in 2007) for the first time. Fresh frontiers were explored even in places where the competition had been held before; 2004 in Peru , for example, was the first time the Copa moved outside the capital city of Lima. This process was important. There was an undoubted feel-good factor, a boost to national morale, in those places that were hosting the show for the first time. And it was also a boost to the construction of new stadiums.\nBut CONMEBOL now seem to have turned their backs on the idea. After 1987, the Copa did its tour of all ten of its nations, and then set off on a second lap in Argentina in 2011. But after Argentina, Chile and Brazil, the process has stalled. Ecuador were next in line -- and are still waiting, because the tournament keeps coming back to the United States.\nHerculez Gomez and Alejandro Moreno debate the biggest storylines and break down the best highlights that soccer in the Americas has to offer. Stream on ESPN+ (U.S. only)\nThe first time seemed to be a one off. In 2016, CONMEBOL bizarrely staged the centenary tournament outside its own borders, the justification being that the U.S. was well equipped to do a bigger version of the competition. Since 1993, it had been the custom to invite two teams from outside South America to make the number of competitors 12. Japan and Qatar have both been invited, but normally the invitees are from Concacaf. And so, instead of two extra Concacaf nations, the 2016 version had six, making the Copa bigger -- and more lucrative.\nThere was a repeat in 2024, this time sold as an important part of the U.S.'s preparations to stage this year's World Cup, and a chance for the South Americans to have some match practice in the conditions.\nThe decision to send 2028 up north has only one justification: money. The USA has plenty of large-capacity stadiums, and CONMEBOL have also been seduced by the cultural tradition of selling tickets using dynamic pricing. \"Football needs resources,\" is the often used line, although the morality of extracting ever larger amounts from committed fans is surely open to debate.\nAnd there is another debate to be had. This means that, in a 12-year period, South America's international tournament will only have been played in the U.S. and in Brazil. True, Argentina, Paraguay and Uruguay have a game each in the next World Cup, but that i",
     "visual_subject": "",
     "visual_entities": {
@@ -7468,7 +7555,18 @@
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-24T19:32:47.323834+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "CopaAmerica"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T19:31:01.457121+00:00",
+    "instagram_media_id": "18363197866174521"
   },
   {
     "id": "02c33608af7e57f2ac54",
@@ -7502,5 +7600,118 @@
     "portrait_used": false,
     "reference_photo_used": false,
     "duplicate_of": "same_story_as:3d8c6f798408850c2f5b"
+  },
+  {
+    "id": "c01db75d4df5d406e4f0",
+    "title": "La premonición de un jugador de Boca antes de la final de la Sudamericana",
+    "source_url": "https://www.ole.com.ar/boca-juniors/boca-campeon-final-copa-sudamericana-premonicion-rodrigo-battaglia_0_1niS4967Fz.html",
+    "source": "Olé Argentina",
+    "description": "Una nota escrita en la concentración previa al duelo en Barranquilla salió a la luz durante los festejos en redes y confirmó la fe intacta que reinaba dentro del vestuario xeneize.",
+    "published_at": "2026-11-24T19:22:43+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T19:31:01.457121+00:00",
+    "status": "published",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": [
+        "Barranquilla"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Jugador de Boca escribe premonición antes de final en Barranquilla",
+    "caption": "En la concentración previa al duelo de la final de la Copa Sudamericana en Barranquilla, un jugador de Boca Juniors dejó una nota que se difundió en redes, mostrando la fe intacta del vestuario xeneize.",
+    "ai_generated_at": "2026-11-24T19:31:01.457121+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-24T19:31:52.230361+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T19:31:01.457121+00:00",
+    "instagram_media_id": "17881522068562720"
+  },
+  {
+    "id": "511b610c52f8b3adcdbc",
+    "title": "Jadson Viera: del \"que las críticas caigan en mí\" al \"dejar a Independiente en lo más alto\"",
+    "source_url": "https://www.ole.com.ar/independiente/jadsonviera-independiente-torneoclausura-velez-argentinosjuniors_0_ckP1M0b3dR.html",
+    "source": "Olé Argentina",
+    "description": "Ya con la mente puesta en Vélez, el entrenador del Rojo analizó a su próximo rival, el momento del equipo y los objetivos que tiene por delante. Mirá qué dijo.",
+    "published_at": "2026-11-24T19:17:30+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T19:31:01.457121+00:00",
+    "status": "duplicate",
+    "article_context": "Jadson Viera buscará estirar su estadía en el club ante el Fortín. (Foto: Prensa Independiente).\nJadson Viera ya dio vuelta la página, dejó atrás la victoria ante Argentinos Juniors y piensa en el duelo de los cuartos de final del Torneo Clausura ante Vélez . El entrenador, que logró estirar su estadía en el club, analizó al rival de la próxima instancia, el momento que se encuentra atravesando el equipo, los juveniles y más.\nEl uruguayo calificó al Fortín como un conjunto que \"juega muy bien\" , sostuvo que es \"mucho más vertical\" que el Bicho y dio algunos indicios de sus facetas. \"Te ataca entre líneas directamente, con un poco menos de posesión. Es un equipo duro que trata de presionarte mucho todo el tiempo\", dejó en claro este martes por la tarde en diálogo con TyC Sports.\nCon el triunfo en La Paternal , el Rojo volvió a evidenciar que le sienta bien jugar fuera del Libertadores de América-Ricardo Enrique Bochini , donde apenas logró dos victorias en todo el segundo semestre y sintió la presión de los hinchas. \"Saben que nosotros somos duros de visitante. Vamos a tratar de aprovechar algún espacio. Seguramente, para los dos, sobre el final del partido los juveniles pueden llegar a hacer la diferencia\", dijo el charrúa.\nViera afirmó que \"estamos ilusionados\" con la posibilidad de dar pelea en el campeonato , blanqueó que a su Independiente le queda \"cómodo el partido a partido\" y que \"está todo muy parejo\" en el fútbol argentino. \"Hay que pensar en el partido que viene y que la ilusión vaya en función de lo que pasó con Argentinos y lo que pase con Vélez\", continuó.\nConsciente de que está en el blanco de los hinchas por la irregularidad del equipo, Jadson expresó que \"trato de no mirar mucho\", aunque confesó que prefiere que \"las críticas\" le caigan a él y \"no a los jugadores\" . La tensión por el clima electoral se sintió en cada encuentro que Independiente jugó en su cancha, uno de los ejes fundamentales por los malos resultados en el LdA-REB. \"No es fácil estar en esta etapa. Quiero dejar al club lo más alto posible\", afirmó.\nY agregó: \"El grupo me abrazó desde el primer día que llegamos. Yo voy a seguir para adelante como desde el primer día que llegué. No tenemos un gran plantel . Reducido, sí, de juveniles, pero con eso vamos a seguir trabajando\".\n-\"Cuando llegué le dije que quería que sea el Maxi Meza que yo conozco. Le encontré una función de libertad en la parte ofensiva, con algo de compromiso en la defensiva. Nos da muchos movimientos, nos da la pausa, el balón parado, el gol\".\n-\"Hablé con Rodrigo Rey abiertamente, le comenté un poco mi pensar. Estoy agradecido con él. Es un referente, un capitán que siempre nos está ayudando en lo que sea. Hay una buena unión. Obviamente que son decisiones y lo entendió bien y sigue tirando para adelante como loco\".\n-\"Me gusta la localía, que la gente pueda apoyarnos. Este último tiempo nos ha costado un poco de local. Este momento de los playoffs hubiera sido diferente. También resulta que somos un equipo duro de visitante\".\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "Jadson Viera",
+    "visual_entities": {
+      "personas": [
+        "Jadson Viera"
+      ],
+      "clubes": [
+        "Independiente"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Jadson Viera quiere dejar a Independiente en la cima",
+    "caption": "El entrenador uruguayo de Independiente, Jadón Viera, declaró que prefiere que las críticas recae en él y no en los jugadores, y que su objetivo es concluir su etapa en el club “lo más alto posible”. Con la vista puesta en el próximo duelo de cuartos de final del Torneo Clausura contra Vélez, analizó al rival y resaltó la fortaleza del equipo como visitante, mientras reconoce la necesidad de los juveniles para marcar la diferencia.",
+    "ai_generated_at": "2026-11-24T19:31:01.457121+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "duplicate_of": "same_story_as:3eca269b76d428caeb83"
+  },
+  {
+    "id": "81ea203f2c3334c164dc",
+    "title": "Florian Wirtz hails Iraola and Klopp as he reaches new levels for Liverpool",
+    "source_url": "https://www.theguardian.com/football/2026/nov/24/florian-wirtz-hails-iraola-and-klopp-as-he-reaches-new-levels-for-liverpool",
+    "source": "The Guardian",
+    "description": "Playmaker in best form since moving to Anfield ‘I am really enjoying playing under Iraola’ Florian Wirtz has credited Andoni Iraola with helping him recapture the form that made him one of the most coveted players in Europe when he joined Liverpool in a deal worth up to £116m in 2025. The Germany international believes he is in the best form of his Liverpool career, having had a difficult debut season under Arne Slot and also struggled in the early weeks of Iraola’s reign. Wirtz scored an exquisite improvised goal in the 4-0 defeat of Mancheste",
+    "published_at": "2026-11-24T19:02:09+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T19:31:01.457121+00:00",
+    "status": "duplicate",
+    "visual_subject": "Florian Wirtz",
+    "visual_entities": {
+      "personas": [
+        "Florian Wirtz",
+        "Andoni Iraola",
+        "Arne Slot",
+        "Klopp"
+      ],
+      "clubes": [
+        "Liverpool"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Florian Wirtz elogia a Iraola y Klopp, alcanza nivel en Liverpool",
+    "caption": "El mediocampista alemán Florian Wirtz agradeció a Andoni Iraola el papel clave en su recuperación de forma, describiendo que bajo su dirección está disfrutando más y ha alcanzado su mejor nivel en Liverpool. Tras una temporada debut complicada bajo Arne Slot, Wirtz anotó un gol improvisado en la victoria 4-0 del equipo.",
+    "ai_generated_at": "2026-11-24T19:31:01.457121+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "duplicate_of": "same_story_as:2b8065cdd43794117e06"
   }
 ]

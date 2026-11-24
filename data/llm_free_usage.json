@@ -2,15 +2,10 @@
   "date_utc": "2026-11-24",
   "providers": {
     "groq": {
-      "attempts": 92,
-      "success": 77,
-      "failures": 15,
+      "attempts": 98,
+      "success": 82,
+      "failures": 16,
       "latencies_ms": [
-        1496,
-        2045,
-        2397,
-        1817,
-        1306,
         1764,
         3338,
         1877,
@@ -35,15 +30,15 @@
         1425,
         1825,
         3654,
-        3040
+        3040,
+        1557,
+        3156,
+        3686,
+        1716,
+        1235
       ],
       "quality": [
         100,
-        100,
-        100,
-        100,
-        100,
-        100,
         85,
         100,
         85,
@@ -67,15 +62,20 @@
         100,
         100,
         85,
-        85
+        85,
+        100,
+        85,
+        100,
+        100,
+        100
       ],
       "last_error": "http_429",
-      "blocked_until_utc": 1795547843
+      "blocked_until_utc": 1795548760
     },
     "openrouter": {
-      "attempts": 7,
+      "attempts": 8,
       "success": 4,
-      "failures": 3,
+      "failures": 4,
       "latencies_ms": [
         15995,
         14975,
@@ -89,24 +89,26 @@
         100
       ],
       "last_error": "http_429",
-      "blocked_until_utc": 1795548701
+      "blocked_until_utc": 1795552302
     },
     "gemini": {
-      "attempts": 19,
-      "success": 1,
+      "attempts": 20,
+      "success": 2,
       "failures": 18,
       "latencies_ms": [
-        23629
+        23629,
+        1579
       ],
       "quality": [
-        85
+        85,
+        100
       ],
       "last_error": "http_503",
       "blocked_until_utc": 1795548674
     },
     "cloudflare": {
-      "attempts": 25,
-      "success": 11,
+      "attempts": 27,
+      "success": 13,
       "failures": 14,
       "latencies_ms": [
         3138,
@@ -119,7 +121,9 @@
         6343,
         3586,
         4440,
-        2400
+        2400,
+        2417,
+        6013
       ],
       "quality": [
         100,
@@ -128,6 +132,8 @@
         100,
         100,
         85,
+        100,
+        100,
         100,
         100,
         100,
