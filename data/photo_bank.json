@@ -52,5 +52,23 @@
     "entity_qid": "Q142794",
     "photo_provider": "Wikidata photo bank",
     "verified_at": "2026-11-24T16:03:16.356578+00:00"
+  },
+  "person:jannik sinner": {
+    "subject": "Jannik Sinner",
+    "wikidata_id": "Q54812588",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Jannik_Sinner_US_Open_2025_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "public domain",
+    "license_url": "",
+    "commons_filename": "Jannik Sinner US Open 2025 (cropped).jpg",
+    "photographer": "",
+    "credit_required": false,
+    "share_alike": false,
+    "width": 1204,
+    "height": 2000,
+    "file_page": "https://commons.wikimedia.org/wiki/File:Jannik_Sinner_US_Open_2025_%28cropped%29.jpg",
+    "entity_kind": "person",
+    "entity_qid": "Q54812588",
+    "photo_provider": "Wikidata photo bank",
+    "verified_at": "2026-11-24T19:02:21.083300+00:00"
   }
 }

@@ -6227,11 +6227,30 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-24T16:16:05.590842+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Victor Wembanyama",
+    "visual_entities": {
+      "personas": [
+        "Victor Wembanyama",
+        "De'Aaron Fox"
+      ],
+      "clubes": [
+        "San Antonio Spurs",
+        "Sacramento Kings",
+        "Portland Trail Blazers"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Spurs descartan a Wembanyama y Fox y vencen a Kings",
+    "caption": "Los San Antonio Spurs dejaron fuera a Victor Wembanyama y De'Aaron Fox menos de dos horas antes del inicio, pero lograron una victoria de 123-107 sobre los Sacramento Kings. El equipo confía en que ambos estarán disponibles para el próximo partido contra los Portland Trail Blazers el miércoles.",
+    "ai_generated_at": "2026-11-24T19:01:07.101607+00:00"
   },
   {
     "id": "b05d14b54025876c9c6c",
@@ -6244,7 +6263,24 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-24T16:31:13.962347+00:00",
-    "status": "awaiting_ai"
+    "status": "draft",
+    "visual_subject": "Draymond Green",
+    "visual_entities": {
+      "personas": [
+        "Draymond Green"
+      ],
+      "clubes": [
+        "Golden State Warriors",
+        "Boston Celtics"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Draymond Green sella victoria de Warriors 88-87",
+    "caption": "Draymond Green, después de destacar sus logros en redes, cerró el partido con una parada defensiva en el último segundo, garantizando la victoria de Golden State Warriors por 88-87 ante Boston Celtics y celebró con entusiasmo el triunfo.",
+    "ai_generated_at": "2026-11-24T19:01:07.101607+00:00"
   },
   {
     "id": "93ed3b609cfb63e98976",
@@ -6257,7 +6293,40 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-24T16:31:13.962347+00:00",
-    "status": "awaiting_ai"
+    "status": "published",
+    "visual_subject": "Nolan Traore",
+    "visual_entities": {
+      "personas": [
+        "Nolan Traore"
+      ],
+      "clubes": [
+        "Nets"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Traore con lesión de hamstring",
+    "caption": "El guardia de los Nets Nolan Traore sufrirá una reevaluación en 8-10 semanas debido a una lesión en el hamstring derecho, según anunció el equipo.",
+    "ai_generated_at": "2026-11-24T19:01:07.101607+00:00",
+    "photo_checked_at": "2026-11-24T19:03:28.948312+00:00",
+    "portrait_info": null,
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "NBA",
+        "NolanTraore",
+        "Nets"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T19:01:07.101607+00:00",
+    "instagram_media_id": "18088364522708244"
   },
   {
     "id": "a29f85684088bb10ef4b",
@@ -6270,7 +6339,23 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-24T16:31:13.962347+00:00",
-    "status": "awaiting_ai"
+    "status": "draft",
+    "visual_subject": "Gabe Vincent",
+    "visual_entities": {
+      "personas": [
+        "Gabe Vincent"
+      ],
+      "clubes": [
+        "Sacramento Kings"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Kings ficha a Gabe Vincent",
+    "caption": "El guardia Gabe Vincent firmó un contrato con los Sacramento Kings para ocupar su 15ª plaza en el roster, se anunció el lunes. Vincent refuerza la profundidad del backcourt del equipo.",
+    "ai_generated_at": "2026-11-24T19:01:07.101607+00:00"
   },
   {
     "id": "af3b066f2731183d5da8",
@@ -6283,11 +6368,25 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-24T16:31:13.962347+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Ben Golliver",
+    "visual_entities": {
+      "personas": [
+        "Ben Golliver"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Ben Golliver analiza",
+    "caption": "Examina la principal trama de los primeros 30 días para los 30 equipos de la NBA",
+    "ai_generated_at": "2026-11-24T19:01:07.101607+00:00"
   },
   {
     "id": "85eb0af43020b522e0ab",
@@ -6464,12 +6563,26 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-24T16:45:56.398387+00:00",
-    "status": "awaiting_ai",
-    "article_context": "Debbie Hewitt has been chair at the FA since 2022\nFootball Association chair Debbie Hewitt has signed a non-disclosure agreement (NDA) as a condition of viewing documents related to Fifa president Gianni Infantino's failed World Cup sell-off plot.\nHewitt was granted access to the information at the world governing body's headquarters in Zurich.\nEarlier this month, Fifa said \"key documents\" on the abandoned plan to sell stakes in its tournaments to private investors would be made available to members of its council, but only in person and under \"strict review protocols to preserve confidentiality\".\nUefa had demanded Fifa release details about the controversial Fifa Forward Enterprise (FFE) proposal, and answer questions relating to its decision-making.\nHewitt was among a group of council members who wrote to Fifa to say they were \"concerned that any review would seemingly be limited to certain 'key documents'… which in turn would only be available for review under unknown 'strict review protocols'\".\nThey also asked for clarity on what the protocols were, and \"an explanation as to why Fifa considers such restrictions necessary since it is not clear why our rights are being limited in such a way\".\nThe NDA means Hewitt cannot reveal what she has read, or comment about it publicly.\nFair Square, which campaigns for greater accountability in sport, told BBC Sport: \"Debbie Hewitt and the FA didn't need to see the details of FFE to know that it was a gross abuse of presidential power.\n\"As a member association, the FA is entitled to hold the Fifa president accountable for his actions, and as a Fifa Council vice-president, Hewitt should have seen these plans as soon as they were hatched.\n\"They had the right to demand to see these documents, and should have exercised that right forcefully and publicly, rather than signing a gagging clause that puts Fifa and Infantino back in control.\"\n115 days, 39 private-jet flights, one election - Infantino's globetrotting\nSenegal reinstated as Afcon 2025 winners by court ruling\nHewitt has previously criticised Infantino for a lack of transparency.\nHowever, she embraced the Fifa president at a ceremony in Zurich on Monday when the UK bid to host the 2035 Women's World Cup was ratified at a special ceremony.\nIt is unclear whether she viewed the files on the same day, and which documents have been made available.\nLast week, BBC Sport revealed the FA had considered challenging Infantino's eligibility to run for a fourth term as Fifa president, and that it is backing French candidate Philippe Diallo in next year's presidential election.\nFifa has been approached for comment. Sources have previously indicated Fifa's ability to answer some questions is limited by legal action that Uefa launched in October in the US, requesting disclosure of evidence and documents, warning it could lodge a criminal complaint in Switzerland.\nGet football news sent straight to your phone\nMan Utd's Yoro has Anfield red card overturned\nFA chief signs NDA to view Fifa sell-off plot documents\nA festive comedy featuring Jason Bateman, Olivia Munn and Jennifer Aniston\nIs cough medicine any better than just taking honey and lemon?\nLucy unlocks the secrets of four spectacular palaces\nThe controversial operation that transplanted a baboon's heart into a baby\nWhy has De Bruyne struggled at Napoli as he returns to Man City?\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nTwo goals in 15 games - what's going on with Gyokeres?\nWho has made Troy's Premier League team of the week?\nEngland's tearaway quick bowler reinvented as a top-order batter\nChaotic week, nightmare start and huge reality check for Pochettino\nA 'wow' player - why Ngumoha is already a Liverpool game-changer\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland will not get carried away by beating All Blacks\nVerstappen a constant amid chaos as he says Russell is 'so far below my level'\nThe sandpaper plot - who was there, who said what?\nThe 3pm football blackout: Outdated or still relevant in 2026?\nJosh Kerr: The making of the man behind the shades\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "status": "draft",
+    "article_context": "Debbie Hewitt has been chair at the FA since 2022\nFootball Association chair Debbie Hewitt has signed a non-disclosure agreement (NDA) as a condition of viewing documents related to Fifa president Gianni Infantino's failed World Cup sell-off plot.\nHewitt was granted access to the information at the world governing body's headquarters in Zurich.\nEarlier this month, Fifa said \"key documents\" on the abandoned plan to sell stakes in its tournaments to private investors would be made available to members of its council, but only in person and under \"strict review protocols to preserve confidentiality\".\nUefa had demanded Fifa release details about the controversial Fifa Forward Enterprise (FFE) proposal, and answer questions relating to its decision-making.\nHewitt was among a group of council members who wrote to Fifa to say they were \"concerned that any review would seemingly be limited to certain 'key documents'… which in turn would only be available for review under unknown 'strict review protocols'\".\nThey also asked for clarity on what the protocols were, and \"an explanation as to why Fifa considers such restrictions necessary since it is not clear why our rights are being limited in such a way\".\nThe NDA means Hewitt cannot reveal what she has read, or comment about it publicly.\nFair Square, which campaigns for greater accountability in sport, told BBC Sport: \"Debbie Hewitt and the FA didn't need to see the details of FFE to know that it was a gross abuse of presidential power.\n\"As a member association, the FA is entitled to hold the Fifa president accountable for his actions, and as a Fifa Council vice-president, Hewitt should have seen these plans as soon as they were hatched.\n\"They had the right to demand to see these documents, and should have exercised that right forcefully and publicly, rather than signing a gagging clause that puts Fifa and Infantino back in control.\"\n115 days, 39 private-jet flights, one election - Infantino's globetrotting\nSenegal reinstated as Afcon 2025 winners by court ruling\nHewitt has previously criticised Infantino for a lack of transparency.\nHowever, she embraced the Fifa president at a ceremony in Zurich on Monday when the UK bid to host the 2035 Women's World Cup was ratified at a special ceremony.\nIt is unclear whether she viewed the files on the same day, and which documents have been made available.\nLast week, BBC Sport revealed the FA had considered challenging Infantino's eligibility to run for a fourth term as Fifa president, and that it is backing French candidate Philippe Diallo in next year's presidential election.\nFifa has been approached for comment. Sources have previously indicated Fifa's ability to answer some questions is limited by legal action that Uefa launched in October in the US, requesting disclosure of evidence and documents, warning it could lodge a criminal complaint in Switzerland.\nGet football news sent straight to your phone\nChampions League: Villa goalless at Galatasaray before Arsenal and Man City in action\nYoro red card overturned, but refs' chief Webb backs decision\nA festive comedy featuring Jason Bateman, Olivia Munn and Jennifer Aniston\nIs cough medicine any better than just taking honey and lemon?\nLucy unlocks the secrets of four spectacular palaces\nThe controversial operation that transplanted a baboon's heart into a baby\nWhy has De Bruyne struggled at Napoli as he returns to Man City?\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nTwo goals in 15 games - what's going on with Gyokeres?\nWho has made Troy's Premier League team of the week?\nEngland's tearaway quick bowler reinvented as a top-order batter\nChaotic week, nightmare start and huge reality check for Pochettino\nA 'wow' player - why Ngumoha is already a Liverpool game-changer\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland will not get carried away by beating All Blacks\nVerstappen a constant amid chaos as he says Russell is 'so far below my level'\nThe sandpaper plot - who was there, who said what?\nThe 3pm football blackout: Outdated or still relevant in 2026?\nJosh Kerr: The making of the man behind the shades\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Debbie Hewitt",
+    "visual_entities": {
+      "personas": [
+        "Debbie Hewitt"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Debbie Hewitt firma NDA para ver documentos de FIFA",
+    "caption": "La presidenta de la FA, Debbie Hewitt, ha firmado un acuerdo de confidencialidad para poder consultar documentos que FIFA puso a disposición sobre el intento fallido de Gianni Infantino de vender participaciones de sus torneos. El acceso se realizó en la sede suiza de la FIFA en Zúrich, pero el NDA le impide comentar públicamente lo leído.",
+    "ai_generated_at": "2026-11-24T19:01:07.101607+00:00"
   },
   {
     "id": "feef6db2ddbcefbca546",
@@ -6576,7 +6689,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-24T17:16:00.500304+00:00",
-    "status": "draft",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -6597,7 +6710,21 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Diego Flores advierte a River: no intimida y deberá luchar",
     "caption": "El entrenador de Instituto, Diego Flores, declaró antes de los cuartos de final que River no intimida y que su equipo tendrá que dar mucho para avanzar. Recordó que el Millonario perdió seis partidos contra dos de la Gloria y subrayó la importancia de la localía en Alta Córdoba.",
-    "ai_generated_at": "2026-11-24T18:50:57.047638+00:00"
+    "ai_generated_at": "2026-11-24T18:50:57.047638+00:00",
+    "photo_checked_at": "2026-11-24T19:01:51.654525+00:00",
+    "portrait_info": null,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "DiegoFlores",
+        "Instituto",
+        "River"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T19:01:07.101607+00:00",
+    "instagram_media_id": "18161888635447309"
   },
   {
     "id": "032a582bb2c72d1d5020",
@@ -6646,11 +6773,25 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-24T17:16:00.500304+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [
+        "Copa América"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Copa América 2028 se disputará en EE.UU. con seis Concacaf",
+    "caption": "La Copa América 2028 se jugará en Estados Unidos y se ampliará para incluir a seis selecciones de la zona Concacaf, según anunció la CONMEBOL junto a la Concacaf. Será la tercera edición del torneo sudamericano realizada en EE.UU., después de los torneos de 2016 y 2024.",
+    "ai_generated_at": "2026-11-24T19:01:07.101607+00:00"
   },
   {
     "id": "447bffe62d78f94e2baa",
@@ -6858,10 +6999,10 @@
     "sport": "TENIS",
     "score": 26,
     "queued_at": "2026-11-24T18:15:57.986200+00:00",
-    "status": "draft",
+    "status": "published",
     "ai_art_used": false,
-    "photo_used": false,
-    "portrait_used": false,
+    "photo_used": true,
+    "portrait_used": true,
     "reference_photo_used": false,
     "article_context": "Jannik Sinner attended a ceremony for players who had become world number one at the ATP Finals in Turin\nWorld number two Jannik Sinner says he has had \"minor surgery\" on his knee, just seven weeks before January's Australian Open begins.\nThe five-time Grand Slam champion has not played competitively since winning Wimbledon on 12 July.\nIn a post on Instagram, Sinner said he had undergone surgery to \"improve the condition of my iliotibial band\" - a thick band of tissue that runs along the outside of the knee.\n\"Over the past few months, together with my team we've tried everything to treat my injury without surgery,\" the 25-year-old wrote.\n\"After some very encouraging progress early on, my knee unfortunately didn't respond as we'd all hoped.\n\"I really miss being on court and will now begin my recovery process together with my team.\"\nEarlier in November, Sinner said his goal was to go to Australia and potentially \"play a few tournaments\" before the first Grand Slam of the year begins on 17 January.\nHowever, the Italian has also stressed the need to think of his long-term career in protecting his body.\nThe Instagram post is the first time Sinner has specified what the knee issue is.\nIn a video posted on his Youtube channel in October, Sinner said he had also lost \"a lot of weight\" after having his tonsils removed.\nHe also described having \"days where I felt nothing and could play without any problems, and then days where I couldn't move at all\".\nHe suffered a nasty fall in the first match of his Wimbledon title defence and also had blood seeping through his shoes because of a problematic toenail.\nAlexander Zverev has become world number one in Sinner's absence, while rival Carlos Alcaraz swept four titles after returning from his injury lay-off in September.\nSinner comes from behind to retain Wimbledon title against Zverev\nSinner was the dominant player for the first half of the season, winning 44 and losing just three of his singles matches.\nHe won five Masters 1000 titles in a row between March and May, becoming the youngest man to complete the 'career Golden Masters' , and reclaimed the world's top ranking from Alcaraz along the way.\nHowever, he suffered a shock second-round exit at the French Open, with Zverev ultimately stepping up to win his first Grand Slam title.\nSinner bounced back on the grass courts, demolishing Novak Djokovic in the semi-finals before coming back from a set down against Zverev in the Wimbledon showpiece.\nHe ended his season in early October , meaning he was unable to defend the points he claimed with title triumphs in China, Vienna, Paris and the ATP Finals at the end of 2025.\nZverev went on to win the US Open and secure the year-end number one ranking.\nHaving met in three of the four Grand Slam finals last year, Sinner and Alcaraz played each other only once in 2026.\nSinner won their final at the Monte Carlo Masters shortly before Alcaraz spent four months out with a wrist injury.\nAlcaraz's victory at the season-ending ATP Finals means he is only 350 ranking points behind Sinner - although the Spaniard will be defending 2,000 of those at the Australian Open.\n\"It's a shame we don't have Jannik,\" Alcaraz told SuperTennis TV , external after winning the ATP Finals on Sunday.\n\"We really miss him. I have not seen him for many months right now since I got injured in April.\n\"I can't wait to see him fit, healthy. I am pretty sure that he is going to come back even better and stronger.\"\nAlcaraz will be the defending champion in Melbourne, having beaten Djokovic to complete a historic career Grand Slam in January.\n84 days, four titles, one historic feat - Alcaraz's remarkable return\n'Right time' for Smith exit - but Murray not ready for role\nChampions League: Villa goalless at Galatasaray before Arsenal and Man City in action\nSenegal reinstated as Afcon 2025 winners by court ruling\nYoro red card overturned, but refs' chief Webb backs decision\nA festive comedy featuring Jason Bateman, Olivia Munn and Jennifer Aniston\nIs cough medicine any better than just taking honey and lemon?\nLucy unlocks the secrets of four spectacular palaces\nThe controversial operation that transplanted a baboon's heart into a baby\n115 days, 39 private-jet flights, one election - Infantino's globetrotting\nWhy has De Bruyne struggled at Napoli as he returns to Man City?\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nTwo goals in 15 games - what's going on with Gyokeres?\nWho has made Troy's Premier League team of the week?\nEngland's tearaway quick bowler reinvented as a top-order batter\nChaotic week, nightmare start and huge reality check for Pochettino\nA 'wow' player - why Ngumoha is already a Liverpool game-changer\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland will not get carried away by beating All Blacks\nVerstappen a constant amid chaos as he says Russell is 'so far below my level'\nThe sandpaper plot - who was there, who said what?\nThe 3pm football blackout: Outdated or still relevant in 2026?\nJosh Kerr: The making of the man behind the shades\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
     "visual_subject": "Jannik Sinner",
@@ -6879,7 +7020,38 @@
     "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
     "headline": "Sinner se somete a cirugía menor en la rodilla",
     "caption": "El tenista italiano Jannik Sinner, número dos del mundo, ha anunciado que se ha sometido a una cirugía menor en la rodilla para mejorar la condición de su banda iliotibial. La operación se produce siete semanas antes del comienzo del Abierto de Australia en enero.",
-    "ai_generated_at": "2026-11-24T18:50:57.047638+00:00"
+    "ai_generated_at": "2026-11-24T18:50:57.047638+00:00",
+    "portrait_info": {
+      "subject": "Jannik Sinner",
+      "wikidata_id": "Q54812588",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Jannik_Sinner_US_Open_2025_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "license": "public domain",
+      "license_url": "",
+      "commons_filename": "Jannik Sinner US Open 2025 (cropped).jpg",
+      "photographer": "",
+      "credit_required": false,
+      "share_alike": false,
+      "width": 1204,
+      "height": 2000,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Jannik_Sinner_US_Open_2025_%28cropped%29.jpg",
+      "entity_kind": "person",
+      "entity_qid": "Q54812588",
+      "photo_provider": "Wikidata photo bank",
+      "verified_at": "2026-11-24T19:02:21.083300+00:00"
+    },
+    "photo_checked_at": "2026-11-24T19:02:21.084141+00:00",
+    "visual_mode": "licensed_photo",
+    "photo_credit_full": "",
+    "promotion": {
+      "hashtags": [
+        "Tenis",
+        "JannikSinner",
+        "AustralianOpen"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T19:01:07.101607+00:00",
+    "instagram_media_id": "18648974053038411"
   },
   {
     "id": "88156e1c8a5c7efce993",
@@ -6926,11 +7098,22 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T18:45:59.620660+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "source_brief",
+    "llm_model": "none",
+    "headline": "Dólar superó los $1.030 tras caída de 5,9% del cobre",
+    "caption": "Según publicó Emol , la divisa terminó sus operaciones más líquidas en puntas de 1.033,4 pesos comprador y 1.033,7 pesos vendedor . (Cooperativa Deportes Chile)",
+    "ai_generated_at": "2026-11-24T19:01:07.101607+00:00"
   },
   {
     "id": "941fef843bc510123571",
@@ -6959,5 +7142,36 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "9e5038af82d9d9191988",
+    "title": "Manchester City vs. Napoli, hoy EN VIVO por la Champions League: posibles formaciones, horario y por dónde ver",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/champions/manchester-city-napoli-champions-league-enzo-fernandez-juega-horario-resultado-ver-vivo_0_pbuQZdZp3j.html",
+    "source": "Olé Argentina",
+    "description": "El conjunto de Enzo Fernández llega al duelo con dos partidos consecutivos sin victorias y necesita sumar de a tres para no perderles pisada a los primeros de la tabla. Seguilo en Olé.",
+    "published_at": "2026-11-24T17:17:08+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T19:01:07.101607+00:00",
+    "status": "needs_review",
+    "visual_subject": "Enzo Fernández",
+    "visual_entities": {
+      "personas": [
+        "Enzo Fernández"
+      ],
+      "clubes": [
+        "Manchester City",
+        "Napoli"
+      ],
+      "competicion": [
+        "Champions League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Manchester City y Napoli se enfrentan en Champions",
+    "caption": "El duelo de hoy entre Manchester City y Napoli se transmite en vivo por la Champions League. Se analizan las posibles formaciones, el horario del partido y los canales donde verlo. El conjunto dirigido por Enzo Fernández llega sin victorias en los dos últimos encuentros y necesita tres puntos para no perder terreno frente a los líderes de la tabla."
   }
 ]
