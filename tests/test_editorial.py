@@ -119,6 +119,8 @@ class EditorialTests(unittest.TestCase):
                  patch.object(editorial, "QUEUE", queue_path), \
                  patch.object(editorial, "PREVIEWS", root / "previews"), \
                  patch.object(editorial, "fetch_candidates", return_value=[]), \
+                 patch.object(editorial.scorecards, "results", return_value=[]), \
+                 patch.object(editorial.tennis_scorecards, "results", return_value=[]), \
                  patch.object(editorial, "make_card") as make, \
                  patch("publisher.available_instagram_slots", return_value=3), \
                  patch("publisher.publish_image") as publish, \
