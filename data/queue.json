@@ -9724,5 +9724,111 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "75769435fbaeadb67987",
+    "title": "Rayan Cherki snatches draw for Manchester City against spirited Napoli",
+    "source_url": "https://www.theguardian.com/football/2026/nov/24/manchester-city-napoli-champions-league-match-report",
+    "source": "The Guardian",
+    "description": "This was the perfect snapshot of Manchester City’s autumn difficulties. They simply cannot keep the door shut and looked like being picked off by Napoli, who had scored through Rasmus Højlund and Noa Lang either side of Ayyoub Bouaddi’s equaliser. Then Rayan Cherki, insistent but frustrated for most of the evening, seized the mantle five minutes from time and earned a welcome but deeply flawed draw. It meant Kevin De Bruyne, whose return last season had been ill-starred, was denied a deserved victory on his old home turf. The buildup was largel",
+    "published_at": "2026-11-24T22:01:51+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T22:08:53.408327+00:00",
+    "status": "draft",
+    "visual_subject": "Rayan Cherki",
+    "visual_entities": {
+      "personas": [
+        "Rayan Cherki",
+        "Rasmus Højlund",
+        "Noa Lang",
+        "Ayyoub Bouaddi",
+        "Kevin De Bruyne"
+      ],
+      "clubes": [
+        "Manchester City",
+        "Napoli"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Rayan Cherki asegura empate de Manchester City ante Napoli",
+    "caption": "Rayan Cherki marcó el gol de la victoria cinco minutos antes del final, devolviendo a Manchester City al empate 2‑2 contra un Napoli combativo. El equipo italiano había adelantado con goles de Rasmus Højlund y Noa Lang, y Ayyoub Bouaddi había igualado antes del tanto de Cherki. Con el punto, Kevin De Bruyne no logró la victoria esperada en su antiguo estadio.",
+    "ai_generated_at": "2026-11-24T22:08:53.408327+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "13e200f2ddda8770724b",
+    "title": "Rice denied by post late on as Dortmund’s Beier holds Arsenal to frustrating draw",
+    "source_url": "https://www.theguardian.com/football/2026/nov/24/arsenal-borussia-dortmund-champions-league-match-report",
+    "source": "The Guardian",
+    "description": "Arsenal’s sky-high standards are slipping. For the second time in four days, Mikel Arteta’s side found themselves a goal up at half-time and apparently cruising towards victory, only for their opponents to rouse themselves and earn a deserved draw. After Newcastle on Saturday, this time it was an impressive Borussia Dortmund who became only the second side to take points off Arsenal in their past 15 group stage games in this competition. It could have been worse had an offside flag not ruled out Jobe Bellingham’s goal after Max Beier equalised ",
+    "published_at": "2026-11-24T22:01:50+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T22:08:53.408327+00:00",
+    "status": "draft",
+    "visual_subject": "Max Beier",
+    "visual_entities": {
+      "personas": [
+        "Max Beier",
+        "Rice",
+        "Jobe Bellingham",
+        "Mikel Arteta"
+      ],
+      "clubes": [
+        "Arsenal",
+        "Borussia Dortmund",
+        "Newcastle"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Beier frustra a Rice y empata a Arsenal",
+    "caption": "Max Beier marcó el gol de empate para el Borussia Dortmund, anulando la última oportunidad de Declan Rice tras la anulación del gol de Jobe Bellingham por fuera de juego. Arsenal, que lideraba al descanso bajo la dirección de Mikel Arteta, vio frustradas sus aspiraciones y se quedó con un empate en la fase de grupos de la Champions League.",
+    "ai_generated_at": "2026-11-24T22:08:53.408327+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "16916d2185252628344a",
+    "title": "El uno por uno de los argentinos en la Champions",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/champions/champions-league-quinta-fecha-argentinos_0_kMZlE2w3Lv.html",
+    "source": "Olé Argentina",
+    "description": "Repasá la actuación de los jugadores albicelestes en una nueva jornada del máximo certamen europeo de clubes.",
+    "published_at": "2026-11-24T22:00:54+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T22:08:53.408327+00:00",
+    "status": "draft",
+    "article_context": "Se juega la quinta fecha de la fase regular de la Champions League . 18 partidos entre martes y miércoles, con presencia argentina . A continuación, el uno por uno de los albicelestes con participación en la Orejona. ¿Cómo les fue?\nEmiliano Buendía (Aston Villa): entró a los 36' del segundo tiempo en la derrota por 1-0 ante Galatasaray. Poco pudo hacer.\nValentín Gómez (Betis) : titular como segundo marcador central en el buen triunfo 2-0 ante Slovan Bratislava.\nAlan Varela (Porto) : suplente en la victoria por 1-0 ante Feyenoord.\nN ico Paz (Como) : titular en el 1-0 ante AEK. Disputó los 90 minutos y vio una amarilla.\nMáximo Perrone (Como ): titular en el 1-0 ante AEK. Jugó los 90 minutos.\nEnzo Fernández (City) : titular en el 2-2 vs. Napoli. Bastante participativo, se mostró y buscó asociarse. Tuvo una de las ocasiones más claras en el primer tiempo con un remate dentro del área que bloqueó Gilmour y también participó en las jugadas de pelota parada. Le faltó un poco más de peso en los últimos metros y salió reemplazado a los 18' del ST.\nE ste miércoles, el Atlético de Madrid llegará obligado ante el Viking: el equipo de los Simeone y la banda argentina, necesita sumar para no quedar más relegado. Además, el Liverpool de Mac Allister visita al Brujas y el Inter (seguramente con Lautaro Martínez de arranque) recibe al Stuttgart.\nLos otros dos grandes cruces del miércoles tendrán como protagonistas a la Roma (con Dybala, Nahuel Molina, Balerdi, Soulé y Santi Castro) ante el bicampeón y con puntaje ideal PSG (llega con lesiones graves en la temporada). Además, el Manchester United en crisis, con Pochettino recién llegado y Licha Martínez, va a Portugal para jugar con el Sporting en Lisboa.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Resumen del desempeño de los argentinos en la Champions",
+    "caption": "En la quinta fecha de la fase regular de la Champions League, los seis argentinos que jugaron fueron: Emiliano Buendía entró a los 36' del segundo tiempo en la derrota 1‑0 del Aston Villa ante Galatasaray; Valentín Gómez fue titular y marcó como segundo central en la victoria 2‑0 del Betis sobre Slovan Bratislava; Alan Varela salió como suplente en el triunfo 1‑0 del Porto ante Feyenoord; Nico Paz y Máximo Perrone jugaron los 90 minutos como titulares en el 1‑0 del Como contra el AEK; Enzo Fernández comenzó en el City y participó en el 2‑2 contra Napoli, siendo sustituido a los 18' del segundo tiempo.",
+    "ai_generated_at": "2026-11-24T22:08:53.408327+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
