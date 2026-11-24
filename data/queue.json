@@ -1032,7 +1032,7 @@
     "sport": "FUTBOL",
     "score": 39,
     "queued_at": "2026-11-23T15:20:48.505307+00:00",
-    "status": "needs_review",
+    "status": "expired",
     "visual_subject": "David Raya",
     "headline": "David Raya no necesita cirugía, confirma Arteta",
     "caption": "El portero del Arsenal, David Raya, se recupera de una lesión en el hombro sin requerir operación, según Mikel Arteta. Evitar la cirugía acelera su vuelta al once titular. ¿Podrá retomar su nivel antes de la próxima fecha? ⚽",
@@ -2155,7 +2155,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-23T18:28:38.749686+00:00",
-    "status": "needs_review",
+    "status": "expired",
     "visual_subject": "Vinícius Júnior",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -2221,7 +2221,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-23T18:28:38.749686+00:00",
-    "status": "needs_review",
+    "status": "expired",
     "visual_subject": "",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -2245,7 +2245,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-23T18:28:38.749686+00:00",
-    "status": "needs_review",
+    "status": "expired",
     "visual_subject": "",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -2269,7 +2269,7 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-23T18:28:38.749686+00:00",
-    "status": "needs_review",
+    "status": "expired",
     "visual_subject": "Norman Powell",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -2293,7 +2293,7 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-23T18:32:56.980172+00:00",
-    "status": "needs_review",
+    "status": "expired",
     "visual_subject": "Mike Krack",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -2426,7 +2426,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-23T19:42:43.162435+00:00",
-    "status": "needs_review",
+    "status": "expired",
     "visual_subject": "",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -2450,7 +2450,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-23T19:42:43.162435+00:00",
-    "status": "needs_review",
+    "status": "expired",
     "visual_subject": "",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -2474,7 +2474,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-23T19:42:43.162435+00:00",
-    "status": "needs_review",
+    "status": "expired",
     "visual_subject": "",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -2498,7 +2498,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-23T19:42:43.162435+00:00",
-    "status": "needs_review",
+    "status": "expired",
     "visual_subject": "Juanfer Quintero",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -2524,7 +2524,7 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-23T19:42:43.162435+00:00",
-    "status": "needs_review",
+    "status": "expired",
     "visual_subject": "",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -2994,7 +2994,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-23T23:43:51.513870+00:00",
-    "status": "needs_review",
+    "status": "expired",
     "visual_subject": "",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -3018,7 +3018,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-23T23:43:51.513870+00:00",
-    "status": "needs_review",
+    "status": "expired",
     "visual_subject": "James Tarkowski",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -3044,7 +3044,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-23T23:43:51.513870+00:00",
-    "status": "needs_review",
+    "status": "expired",
     "visual_subject": "",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -3068,7 +3068,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-23T23:43:51.513870+00:00",
-    "status": "needs_review",
+    "status": "expired",
     "visual_subject": "",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -3092,7 +3092,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-23T23:43:51.513870+00:00",
-    "status": "needs_review",
+    "status": "expired",
     "visual_subject": "Julia Riera",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -3158,7 +3158,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-23T23:48:04.120647+00:00",
-    "status": "needs_review",
+    "status": "expired",
     "visual_subject": "",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -3182,7 +3182,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-23T23:48:04.120647+00:00",
-    "status": "needs_review",
+    "status": "expired",
     "visual_subject": "Antonio Nusa",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -3208,7 +3208,7 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-23T23:48:04.120647+00:00",
-    "status": "needs_review",
+    "status": "expired",
     "visual_subject": "",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -3232,7 +3232,7 @@
     "sport": "GOLF",
     "score": 26,
     "queued_at": "2026-11-23T23:48:04.120647+00:00",
-    "status": "needs_review",
+    "status": "expired",
     "visual_subject": "Marco Penge",
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
@@ -3745,7 +3745,7 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-24T01:16:17.010984+00:00",
-    "status": "needs_review",
+    "status": "expired",
     "visual_subject": "Maxi Rodríguez",
     "visual_entities": {
       "personas": [
@@ -3784,7 +3784,7 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-24T01:16:17.010984+00:00",
-    "status": "needs_review",
+    "status": "expired",
     "visual_subject": "",
     "visual_entities": {
       "personas": [],
@@ -3928,7 +3928,8 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "visual_mode": "original_graphic"
+    "visual_mode": "original_graphic",
+    "photo_deferred_reason": "no_relevant_photo"
   },
   {
     "id": "c021c1082c38f99865fb",
@@ -4023,7 +4024,8 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "visual_mode": "original_graphic"
+    "visual_mode": "original_graphic",
+    "photo_deferred_reason": "no_relevant_photo"
   },
   {
     "id": "fb22df5ffd8d383a24bc",
@@ -4060,7 +4062,8 @@
     "headline": "Estudiantes jugará final contra Palmeiras en Montevideo",
     "caption": "Estudiantes decidirá su suerte el 28 de noviembre ante Palmeiras en Montevideo, en la quinta final que el club disputa en la Copa Libertadores.",
     "ai_generated_at": "2026-11-24T12:59:35.838734+00:00",
-    "visual_mode": "original_graphic"
+    "visual_mode": "original_graphic",
+    "photo_deferred_reason": "no_relevant_photo"
   },
   {
     "id": "2d02cfdb27eeda1d5a0d",
@@ -4095,7 +4098,8 @@
     "headline": "Historial de finales entre Estudiantes y Palmeiras en la Libertadores",
     "caption": "El artículo repasa la historia de las finales de la Copa Libertadores disputadas entre equipos argentinos y brasileños, destacando el próximo duelo entre Estudiantes y Palmeiras.",
     "ai_generated_at": "2026-11-24T12:59:35.838734+00:00",
-    "visual_mode": "original_graphic"
+    "visual_mode": "original_graphic",
+    "photo_deferred_reason": "no_relevant_photo"
   },
   {
     "id": "fa6319a8b283de1d744c",
@@ -4159,7 +4163,29 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-24T11:08:54.831549+00:00",
-    "status": "awaiting_ai"
+    "status": "needs_review",
+    "visual_subject": "Carla Ward",
+    "visual_entities": {
+      "personas": [
+        "Carla Ward"
+      ],
+      "clubes": [],
+      "competicion": [
+        "Euro 2029"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Carla Ward renueva contrato hasta Euro 2029",
+    "caption": "La entrenadora de la República de Irlanda, Carla Ward, firmó una extensión de contrato que la mantendrá al mando hasta la conclusión de la campaña del Euro 2029, asegurando continuidad en la dirección del equipo nacional.",
+    "ai_generated_at": "2026-11-24T13:36:41.475440+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "original_graphic",
+    "photo_deferred_reason": "no_relevant_photo"
   },
   {
     "id": "59d955c7cf8701b3e88a",
@@ -4303,12 +4329,13 @@
     "caption": "El entrenador del Como, Cesc Fábregas, elogió a Nico Paz como un chico 10 con gran personalidad y carácter, mientras circulan rumores sobre una posible salida del jugador.",
     "ai_generated_at": "2026-11-24T12:59:35.838734+00:00",
     "portrait_info": null,
-    "photo_checked_at": "2026-11-24T13:00:08.128004+00:00",
+    "photo_checked_at": "2026-11-24T13:37:18.967928+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "visual_mode": "original_graphic"
+    "visual_mode": "original_graphic",
+    "photo_deferred_reason": "no_relevant_photo"
   },
   {
     "id": "bccdba91728b64ef1332",
@@ -4343,7 +4370,8 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "visual_mode": "original_graphic"
+    "visual_mode": "original_graphic",
+    "photo_deferred_reason": "no_relevant_photo"
   },
   {
     "id": "b20a336c5d8e6c70e799",
@@ -4378,7 +4406,8 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "visual_mode": "original_graphic"
+    "visual_mode": "original_graphic",
+    "photo_deferred_reason": "no_relevant_photo"
   },
   {
     "id": "fe9dd32e0f245fc19e02",
@@ -4415,7 +4444,8 @@
     "reference_photo_used": false,
     "portrait_info": null,
     "photo_checked_at": "2026-11-24T13:00:13.093890+00:00",
-    "visual_mode": "original_graphic"
+    "visual_mode": "original_graphic",
+    "photo_deferred_reason": "no_relevant_photo"
   },
   {
     "id": "e431ee8292ef7835e20e",
@@ -4456,7 +4486,8 @@
     "reference_photo_used": false,
     "portrait_info": null,
     "photo_checked_at": "2026-11-24T13:00:16.441872+00:00",
-    "visual_mode": "original_graphic"
+    "visual_mode": "original_graphic",
+    "photo_deferred_reason": "no_relevant_photo"
   },
   {
     "id": "f381846d940f9364d1eb",
@@ -4469,11 +4500,32 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-24T12:59:35.838734+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Fernando Alonso",
+    "visual_entities": {
+      "personas": [
+        "Fernando Alonso"
+      ],
+      "clubes": [
+        "Aston Martin"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Las Vegas",
+        "Losail"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Aston Martin asegura que Qatar será mejor que Las Vegas",
+    "caption": "Aston Martin afirma que en el Circuito Internacional de Losail, Qatar, tendrá más posibilidades de competir que en el Las Vegas Strip Circuit, donde sufrió un rendimiento inferior. En Las Vegas, Fernando Alonso fue 33,1 km/h más lento que Oscar, evidenciando la diferencia de velocidad.",
+    "ai_generated_at": "2026-11-24T13:36:41.475440+00:00",
+    "visual_mode": "original_graphic",
+    "photo_deferred_reason": "no_relevant_photo"
   },
   {
     "id": "f99cd0168273edfc82da",
@@ -4503,6 +4555,280 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T12:59:35.838734+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "503146d38c7668bd912e",
+    "title": "Primos y rivales: el pibe de River que jugará un partido especial ante Instituto",
+    "source_url": "https://www.ole.com.ar/river-plate/river-plate-instituto-espindola-tissera-primos-clausura-historia_0_zYn94i3NKS.html",
+    "source": "Olé Argentina",
+    "description": "Surgidos de Argentino de Rojas y con 12 años de diferencia, dos integrantes de la misma familia buscarán el pasaje a las semifinales del Clausura.",
+    "published_at": "2026-11-24T13:14:00+00:00",
+    "category": "PARTIDOS",
+    "sport": "FUTBOL",
+    "score": 34,
+    "queued_at": "2026-11-24T13:36:41.475440+00:00",
+    "status": "needs_review",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "River",
+        "Instituto",
+        "Argentino de Rojas"
+      ],
+      "competicion": [
+        "Clausura"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "River y su primo enfrentarán a Instituto por semifinales",
+    "caption": "Dos integrantes de la misma familia, surgidos de Argentino de Rojas, jugarán un partido especial: el pibe de River contra Instituto, con el objetivo de alcanzar las semifinales del Clausura.",
+    "ai_generated_at": "2026-11-24T13:36:41.475440+00:00",
+    "photo_checked_at": "2026-11-24T13:37:10.332392+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "original_graphic",
+    "photo_deferred_reason": "no_relevant_photo"
+  },
+  {
+    "id": "c07967d8f0459cff1192",
+    "title": "La noticia que recibió Palmeiras a días de la final de la Libertadores con Estudiantes",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/america/palmeiras-buena-noticia-final-libertadores-estudiantes-joaquin-piquerez_0_tPQIt8BDdF.html",
+    "source": "Olé Argentina",
+    "description": "Abel Ferreira sigue de cerca la evolución de Joaquín Piquerez y Murilo, quienes arrastran problemas físicos y ya estuvieron entre los suplentes frente a Flamengo.",
+    "published_at": "2026-11-24T13:24:56+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T13:36:41.475440+00:00",
+    "status": "needs_review",
+    "visual_subject": "Abel Ferreira",
+    "visual_entities": {
+      "personas": [
+        "Abel Ferreira",
+        "Joaquín Piquerez",
+        "Murilo"
+      ],
+      "clubes": [
+        "Palmeiras",
+        "Flamengo",
+        "Estudiantes"
+      ],
+      "competicion": [
+        "Libertadores"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Palmeiras vigila lesiones de Piquerez y Murilo antes de final",
+    "caption": "Abel Ferreira sigue de cerca la evolución de Joaquín Piquerez y Murilo, que arrastran problemas físicos y fueron suplentes frente a Flamengo, mientras el club se prepara para la final de la Libertadores contra Estudiantes.",
+    "ai_generated_at": "2026-11-24T13:36:41.475440+00:00",
+    "photo_checked_at": "2026-11-24T13:37:12.884901+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "original_graphic",
+    "photo_deferred_reason": "no_relevant_photo"
+  },
+  {
+    "id": "8ff681e0cb760ea50d69",
+    "title": "Úbeda, sobre el Boca campeón de la Sudamericana: \"La ganó con jerarquía\"",
+    "source_url": "https://www.ole.com.ar/boca-juniors/claudio-ubeda-boca-campeon-copa-sudamericana-nuevo-dt-central-cordoba_0_24A0Bo3uPk.html",
+    "source": "Olé Argentina",
+    "description": "El ex entrenador xeneize, que ya tiene un acuerdo para volver a dirigir en el fútbol argentino, se refirió a la obtención internacional del equipo de Arruabarrena.",
+    "published_at": "2026-11-24T13:12:20+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T13:36:41.475440+00:00",
+    "status": "needs_review",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "Úbeda",
+        "Arruabarrena"
+      ],
+      "clubes": [
+        "Boca"
+      ],
+      "competicion": [
+        "Sudamericana"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Úbeda dice que Boca ganó la Sudamericana con jerarquía",
+    "caption": "El ex entrenador xeneize Úbeda, que ya tiene un acuerdo para volver a dirigir en el fútbol argentino, comentó que Boca ganó la Copa Sudamericana con jerarquía, refiriéndose a la obtención internacional del equipo dirigido por Arruabarrena.",
+    "ai_generated_at": "2026-11-24T13:36:41.475440+00:00",
+    "photo_checked_at": "2026-11-24T13:37:14.780411+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "original_graphic",
+    "photo_deferred_reason": "no_relevant_photo"
+  },
+  {
+    "id": "abf9fd836ea3012f3dc1",
+    "title": "‘I’m loving it at Brugge’: Freddie Potts on going from West Ham’s bench to Champions League",
+    "source_url": "https://www.theguardian.com/football/2026/nov/24/freddie-potts-brugge-champions-league-liverpool-west-ham",
+    "source": "The Guardian",
+    "description": "Midfielder is preparing to face Liverpool after leaving the club he loves and overcoming a tough start in Belgium In April Freddie Potts was absorbing the disappointment of being substituted at half-time during West Ham’s FA Cup quarter-final defeat by Leeds. The midfielder was out of favour under Nuno Espírito Santo and could not have imagined that he would be preparing to face Liverpool in the Champions League seven months later. It is the 23-year-old’s reward for taking the difficult decision to leave his boyhood club last summer. Potts noti",
+    "published_at": "2026-11-24T13:00:47+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T13:36:41.475440+00:00",
+    "status": "needs_review",
+    "visual_subject": "Freddie Potts",
+    "visual_entities": {
+      "personas": [
+        "Freddie Potts",
+        "Nuno Espírito Santo"
+      ],
+      "clubes": [
+        "Liverpool"
+      ],
+      "competicion": [
+        "Champions League",
+        "FA Cup"
+      ],
+      "ciudad": [
+        "Brugge"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Freddie Potts listo para enfrentar a Liverpool con Brujas",
+    "caption": "El mediocampista Freddie Potts se prepara para medirse con Liverpool en la Champions League vistiendo a Club Brugge, tras dejar el West Ham donde estuvo en el banquillo y superar un inicio complicado en Bélgica.",
+    "ai_generated_at": "2026-11-24T13:36:41.475440+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-24T13:37:16.589707+00:00",
+    "visual_mode": "original_graphic",
+    "photo_deferred_reason": "no_relevant_photo"
+  },
+  {
+    "id": "21ce7dcffc8abca2dac5",
+    "title": "Neymar estrenó nuevo look, le anularon un gol de tiro libre y quedó complicado para clasificar a la Libertadores 2027 con el Santos",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/america/santos-tabla-posiciones-brasileirao-neymar-look-rubio-platinado-copa-libertadores-2027-clasificacion-cupos_0_IydPMzcFYC.html",
+    "source": "Olé Argentina",
+    "description": "El Peixe bajó al noveno puesto del Brasileirao después de perder con Gremio y está obligado a ganar ante Vitória y Botafogo para soñar con el ansiado boleto a la próxima edición de la Copa.",
+    "published_at": "2026-11-24T12:52:52+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T13:36:41.475440+00:00",
+    "status": "needs_review",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "Neymar"
+      ],
+      "clubes": [
+        "Santos",
+        "Gremio",
+        "Vitória",
+        "Botafogo"
+      ],
+      "competicion": [
+        "Brasileirão",
+        "Libertadores 2027"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Neymar y Santos complicados para la Libertadores 2027",
+    "caption": "Neymar estrenó nuevo look y le anuló un gol de tiro libre; Santos cayó al noveno puesto del Brasileirão tras perder contra Gremio y ahora debe vencer a Vitória y Botafogo para soñar con la Copa Libertadores 2027.",
+    "ai_generated_at": "2026-11-24T13:36:41.475440+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-24T13:37:17.480407+00:00",
+    "visual_mode": "original_graphic",
+    "photo_deferred_reason": "no_relevant_photo"
+  },
+  {
+    "id": "181bbf60206ffd47650c",
+    "title": "La advertencia del Pata Pereyra tras la clasificación de Gimnasia: \"El partido que viene va a ser más duro\"",
+    "source_url": "https://www.ole.com.ar/gimnasia-y-esgrima/ariel-pereyra-gimnasia-declaraciones-newells-torneo-clausura_0_xTi1gVqTMy.html",
+    "source": "Olé Argentina",
+    "description": "El entrenador del Lobo analizó el triunfo ante Newell's y destacó la actitud de sus dirigidos. Nacho Fernández, autor del primer gol y figura del encuentro, también dejó sus sensaciones.",
+    "published_at": "2026-11-24T13:25:03+00:00",
+    "category": "PARTIDOS",
+    "sport": "FUTBOL",
+    "score": 26,
+    "queued_at": "2026-11-24T13:36:41.475440+00:00",
+    "status": "needs_review",
+    "visual_subject": "Pata Pereyra",
+    "visual_entities": {
+      "personas": [
+        "Pata Pereyra",
+        "Nacho Fernández"
+      ],
+      "clubes": [
+        "Gimnasia",
+        "Newell's"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Pata Pereyra advierte: próximo partido será más duro",
+    "caption": "El entrenador del Lobo, Pablo Pereyra, analizó la victoria sobre Newell's y resaltó la actitud del equipo; Nacho Fernández, quien marcó el primer gol, compartió sus sensaciones.",
+    "ai_generated_at": "2026-11-24T13:36:41.475440+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "original_graphic",
+    "photo_deferred_reason": "no_relevant_photo"
+  },
+  {
+    "id": "0ec220033b1c38d4cfde",
+    "title": "Glens boss Ferguson apologises after seven-game ban",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/cm0evqv7nyq5o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Glentoran manager Duncan Ferguson will be suspended for seven games following his red card in the side's 3-2 defeat by Cliftonville last week.",
+    "published_at": "2026-11-24T11:36:18+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T13:36:41.475440+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "da323fd4d4f5d838c3b7",
+    "title": "Ejército de Irán endurece el bloqueo de Ormuz, hasta que EE.UU. \"ceda\"",
+    "source_url": "https://www.cooperativa.cl/noticias/mundo/iran/ejercito-de-iran-endurece-el-bloqueo-de-ormuz-hasta-que-ee-uu-ceda/2026-11-24/082751.html",
+    "source": "Cooperativa Deportes Chile",
+    "description": "El comandante en jefe del Ejército iraní, el mayor general Amir Hatami, ordenó a la Armada endurecer el bloqueo del estrecho de Ormuz, hasta que Estados Unidos cumpla las exigencias de Irán , tras el aumento de los incidentes contra buques reivindicados por Teherán en las últimas semanas. \"Hasta que se cumplan las siete condiciones de la República Islámica de Irán, no solo no se abrirá el estrecho de Ormuz sino que deberá cerrarse cada día más, se deberán endurecer las condiciones para el enemigo y se ejercerá un control más firme sobre él\", re",
+    "published_at": "2026-11-24T11:27:51+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T13:36:41.475440+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
