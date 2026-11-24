@@ -753,10 +753,10 @@ def run(reference: datetime | None = None, session=None) -> dict:
         # same protagonist again just because their news came via another feed.
         already_posted = [x for x in queue if x.get("status") == "published"]
         for item in sorted(queue, key=lambda x: (bool(x.get('match_result')), novelty_priority(x, reference)), reverse=True):
-            if (published_count >= allowed_this_run
-                    or today_count(queue, "posted_at", reference) >= POSTS_PER_DAY
-                    or rolling_post_count(queue, reference) >= POSTS_PER_DAY):
+            if published_count >= allowed_this_run:
                 break
+            if not item.get("match_result") and (today_count(queue, "posted_at", reference) >= POSTS_PER_DAY or rolling_post_count(queue, reference) >= POSTS_PER_DAY):
+                continue
             if item.get("status") != "draft" and not (item.get("status") == "needs_review" and (item.get("photo_deferred_reason") == "no_relevant_photo" or item.get("visual_mode") == "original_graphic") and item.get("headline") and item.get("caption")):
                 continue
             repeated = '' if item.get('match_result') else duplicate_reason(item, already_posted, reference)
