@@ -4016,7 +4016,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-24T10:55:16.866606+00:00",
-    "status": "needs_review",
+    "status": "published",
     "visual_subject": "",
     "visual_entities": {
       "personas": [
@@ -4040,8 +4040,21 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "visual_mode": "original_graphic",
-    "photo_deferred_reason": "no_relevant_photo"
+    "visual_mode": "editorial_typography",
+    "photo_checked_at": "2026-11-24T16:32:40.889209+00:00",
+    "portrait_info": null,
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "Ponzio",
+        "Ramon",
+        "River",
+        "Clausura"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T16:31:13.962347+00:00",
+    "instagram_media_id": "18160829914515438"
   },
   {
     "id": "fb22df5ffd8d383a24bc",
@@ -4054,7 +4067,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-24T10:55:16.866606+00:00",
-    "status": "needs_review",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -4078,8 +4091,19 @@
     "headline": "Estudiantes jugará final contra Palmeiras en Montevideo",
     "caption": "Estudiantes decidirá su suerte el 28 de noviembre ante Palmeiras en Montevideo, en la quinta final que el club disputa en la Copa Libertadores.",
     "ai_generated_at": "2026-11-24T12:59:35.838734+00:00",
-    "visual_mode": "original_graphic",
-    "photo_deferred_reason": "no_relevant_photo"
+    "visual_mode": "editorial_typography",
+    "photo_checked_at": "2026-11-24T16:33:38.535496+00:00",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "Estudiantes",
+        "Palmeiras",
+        "CopaLibertadores"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T16:31:13.962347+00:00",
+    "instagram_media_id": "18092684717268205"
   },
   {
     "id": "2d02cfdb27eeda1d5a0d",
@@ -4520,7 +4544,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-24T12:59:35.838734+00:00",
-    "status": "needs_review",
+    "status": "published",
     "visual_subject": "",
     "visual_entities": {
       "personas": [],
@@ -4542,8 +4566,18 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "visual_mode": "original_graphic",
-    "photo_deferred_reason": "no_relevant_photo"
+    "visual_mode": "editorial_typography",
+    "photo_checked_at": "2026-11-24T16:31:50.285971+00:00",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "CrystalPalace",
+        "Everton"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T16:31:13.962347+00:00",
+    "instagram_media_id": "18349156141285251"
   },
   {
     "id": "fe9dd32e0f245fc19e02",
@@ -5934,6 +5968,130 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-24T16:16:05.590842+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "b05d14b54025876c9c6c",
+    "title": "Vocal Green swats back at online critics, fuels Warriors' victory over Celtics",
+    "source_url": "https://www.espn.com/nba/story/_/id/50570668/vocal-green-defensive-stop-buzzer-fuels-warriors-win",
+    "source": "ESPN NBA",
+    "description": "After reinforcing his career​ accolades earlier in the day on social media, Golden State Warriors forward Draymond Green closed out an 88-87 win over the Boston Celtics on Sunday with a last-second defensive stop and rousing celebration from the veteran.",
+    "published_at": "2026-11-24T15:57:07+00:00",
+    "category": "NBA",
+    "sport": "NBA",
+    "score": 26,
+    "queued_at": "2026-11-24T16:31:13.962347+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "93ed3b609cfb63e98976",
+    "title": "Nets guard Traore (hamstring) to be reevaluated in 8-10 weeks",
+    "source_url": "https://www.espn.com/nba/story/_/id/50573732/nets-nolan-traore-hamstring-reevaluated-8-10-weeks",
+    "source": "ESPN NBA",
+    "description": "Nets guard Nolan Traore has been diagnosed with a right hamstring strain and will be reevaluated in eight to 10 weeks, the team announced Monday.",
+    "published_at": "2026-11-24T15:57:07+00:00",
+    "category": "NBA",
+    "sport": "NBA",
+    "score": 26,
+    "queued_at": "2026-11-24T16:31:13.962347+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "a29f85684088bb10ef4b",
+    "title": "Kings boost backcourt depth with Vincent signing",
+    "source_url": "https://www.espn.com/nba/story/_/id/50564924/sources-free-agent-gabe-vincent-kings-finalizing-deal",
+    "source": "ESPN NBA",
+    "description": "Guard Gabe Vincent signed a deal with the Sacramento Kings to fill their 15th roster spot, it was announced on Monday.",
+    "published_at": "2026-11-24T15:57:07+00:00",
+    "category": "NBA",
+    "sport": "NBA",
+    "score": 26,
+    "queued_at": "2026-11-24T16:31:13.962347+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "af3b066f2731183d5da8",
+    "title": "👀 What the first month has revealed about all 30 teams",
+    "source_url": "https://www.espn.com/nba/story/_/id/50502518/first-month-lakers-knicks-spurs-celtics",
+    "source": "ESPN NBA",
+    "description": "With the season's first month nearly in the books, Ben Golliver examines the biggest storyline so far for all 30 teams.",
+    "published_at": "2026-11-24T15:57:07+00:00",
+    "category": "NBA",
+    "sport": "NBA",
+    "score": 26,
+    "queued_at": "2026-11-24T16:31:13.962347+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "85eb0af43020b522e0ab",
+    "title": "What NBA insiders see from Boozer, Dybantsa and seven other top rookies",
+    "source_url": "https://www.espn.com/nba/story/_/id/50534111/rookies-dybantsa-peterson-boozer-acuff-yaxel",
+    "source": "ESPN NBA",
+    "description": "How has the first month unfolded for nine first-year stars?",
+    "published_at": "2026-11-24T15:57:04+00:00",
+    "category": "NBA",
+    "sport": "NBA",
+    "score": 26,
+    "queued_at": "2026-11-24T16:31:13.962347+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "4f30a1fc21ccccb115fe",
+    "title": "NBA Rookie Rankings: Which stars are rising early in season?",
+    "source_url": "https://www.espn.com/nba/story/_/id/50544296/nba-rookie-rankings-early-stats",
+    "source": "ESPN NBA",
+    "description": "Our first edition of rookie rankings features 10 players standing out early from a strong 2026 draft class.",
+    "published_at": "2026-11-24T15:57:03+00:00",
+    "category": "NBA",
+    "sport": "NBA",
+    "score": 26,
+    "queued_at": "2026-11-24T16:31:13.962347+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "33316404e9abec7cce03",
+    "title": "United States to host 2028 Copa América, its second tournament in a row",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50583160/united-states-2028-copa-america",
+    "source": "ESPN",
+    "description": "The United States will host the 2028 Copa América, seeing the tournament return to American soil for the third time.",
+    "published_at": "2026-11-24T15:34:07+00:00",
+    "category": "SELECCIONES",
+    "sport": "FUTBOL",
+    "score": 26,
+    "queued_at": "2026-11-24T16:31:13.962347+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "32b3f02561a7373d6ac1",
+    "title": "Shai Gilgeous-Alexander and the 'fun' of weathering the storm",
+    "source_url": "https://www.espn.com/nba/story/_/id/50574093/shai-gilgeous-alexander-okc-thunder-injuries-mvp",
+    "source": "ESPN NBA",
+    "description": "The Thunder's core has been decimated by injuries, leaving Shai Gilgeous-Alexander with a burden unlike any he has faced.",
+    "published_at": "2026-11-24T12:43:17+00:00",
+    "category": "NBA",
+    "sport": "NBA",
+    "score": 23,
+    "queued_at": "2026-11-24T16:31:13.962347+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
