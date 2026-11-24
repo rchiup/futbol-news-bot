@@ -417,6 +417,38 @@ def validate_llm_copy(result: dict, item: dict) -> dict:
     return {"headline": headline, "caption": caption, "visual_subject": subject, "visual_entities": entities(item, result)}
 
 
+def draft_without_ai(item: dict) -> tuple[str, str] | None:
+    """Conservative Spanish-only fallback: brief attributed source facts."""
+    title = clean_html(str(item.get("title", "")))
+    summary = clean_html(str(item.get("description", "")))
+    if not 20 <= len(title) <= 75 or len(summary) < 80:
+        return None
+    # Require positive Spanish-language evidence in both fields.
+    spanish = r"\b(?:el|la|los|las|del|al|que|con|por|para|tras|ante|fue|será|desde|una|en)\b"
+    if len(re.findall(spanish, title.lower())) < 1 or len(re.findall(spanish, summary.lower())) < 4:
+        return None
+    if headline_needs_translation(title) or headline_needs_translation(summary):
+        return None
+    # Reject lists, questions, vague teasers and duplicated summaries.
+    if "?" in title or "¿" in title or detail_gap({**item, "headline": title, "caption": summary}):
+        return None
+    if news_missing_critical_details(item) or low_value_match_preview(item):
+        return None
+    # Extract a short complete factual sentence rather than reproduce the article.
+    sentences = re.split(r"(?<=[.!?])\s+", summary)
+    first = next((x.strip() for x in sentences if 40 <= len(x.strip()) <= 160 and x.strip().endswith((".", "!", "?")) and SequenceMatcher(None, title.lower(), x.lower()).ratio() < .65), "")
+    if not first or "http" in first.lower():
+        return None
+    source = re.sub(r"[^\w .áéíóúÁÉÍÓÚñÑ-]", "", str(item.get("source", "")))[:55].strip()
+    if not source:
+        return None
+    caption = first + " (" + source + ")"
+    item["visual_entities"] = entities(item)
+    item["llm_provider"] = "source_brief"
+    item["llm_model"] = "none"
+    return title, caption
+
+
 def draft_with_ai(item: dict, session=None) -> tuple[str, str] | None:
     """Try only configured FREE providers, record provider and avoid paid rescue."""
     if not free_llm.providers():
@@ -617,8 +649,10 @@ def run(reference: datetime | None = None, session=None) -> dict:
 
     budget = max(0, min(DRAFTS_PER_RUN, DRAFTS_PER_DAY - today_count(queue, "ai_generated_at", reference)))
     generated = 0
+    ai_attempts = 0
+    ai_unavailable = False
     for item in sorted(queue, key=lambda row: novelty_priority(row, reference), reverse=True):
-        if generated >= budget or not free_llm.providers():
+        if generated >= budget:
             break
         published = parse_iso(item.get("published_at", ""))
         if item["status"] != "awaiting_ai" or published is None:
@@ -632,23 +666,29 @@ def run(reference: datetime | None = None, session=None) -> dict:
         if not (-0.25 <= (reference - published).total_seconds() / 3600 <= MAX_AGE_HOURS):
             item["status"] = "expired"
             continue
-        try:
-            result = draft_with_ai(item, session=session)
-            if result is None:
-                break
-            item["headline"], item["caption"] = result
-            item["caption"] = clean_public_caption(item["caption"])
-            if low_value_match_preview(item):
-                item["status"] = "needs_review"
-                print(f"[EDITOR] Rejected low-value live preview: {item['id']}")
-                continue
-            item["ai_generated_at"] = iso(reference)
-            item["status"] = "draft"
-            generated += 1
-        except (requests.RequestException, ValueError, KeyError, IndexError) as exc:
-            print(f"[AI] WARNING item={item['id']}: {str(exc)[:160]}")
-            # Skip repeated paid calls if the model/API is failing.
-            break
+        result = None
+        if not ai_unavailable and free_llm.providers() and ai_attempts < DRAFTS_PER_RUN:
+            ai_attempts += 1
+            try:
+                result = draft_with_ai(item, session=session)
+            except (requests.RequestException, ValueError, KeyError, IndexError) as exc:
+                print(f"[AI] WARNING item={item['id']}: {str(exc)[:160]}")
+                # Try another story after a validation failure, but avoid
+                # repeatedly calling every provider during an outage.
+                if ai_attempts >= 3:
+                    ai_unavailable = True
+        if result is None and os.getenv("ENABLE_SOURCE_BRIEF", "false").lower() == "true":
+            result = draft_without_ai(item)
+        if result is None:
+            continue
+        item["headline"], item["caption"] = result
+        item["caption"] = clean_public_caption(item["caption"])
+        if low_value_match_preview(item) or detail_gap(item):
+            item["status"] = "needs_review"
+            continue
+        item["ai_generated_at"] = iso(reference)
+        item["status"] = "draft"
+        generated += 1
 
     # Show several locally generated draft/awaiting-AI cards as workflow artifacts.
     PREVIEWS.mkdir(parents=True, exist_ok=True)
