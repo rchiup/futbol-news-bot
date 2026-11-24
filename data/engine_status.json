@@ -1,10 +1,10 @@
 {
-  "checked_at_utc": "2026-11-24T18:15:57.986200+00:00",
+  "checked_at_utc": "2026-11-24T18:31:03.288221+00:00",
   "local_hour": 15,
   "statuses": {
     "published": 61,
     "draft": 0,
-    "awaiting_ai": 53,
+    "awaiting_ai": 55,
     "needs_review": 65,
     "publish_error": 25,
     "duplicate": 12
@@ -16,7 +16,7 @@
   "published": 0,
   "duplicates_suppressed": 0,
   "no_photo_deferred": 0,
-  "total_queue": 247,
+  "total_queue": 249,
   "per_run_cap": 3,
   "morning_day_cap": 72,
   "auto_publish_enabled": true,
@@ -46,33 +46,33 @@
         "last_error": "invalid_output"
       },
       "openrouter": {
-        "attempts": 6,
+        "attempts": 7,
         "success": 4,
-        "failures": 2,
+        "failures": 3,
         "avg_latency_ms": 17585,
         "avg_readability": 100.0,
         "last_error": "http_429"
       },
       "gemini": {
-        "attempts": 15,
+        "attempts": 16,
         "success": 1,
-        "failures": 14,
+        "failures": 15,
         "avg_latency_ms": 23629,
         "avg_readability": 85.0,
         "last_error": "http_503"
       },
       "cloudflare": {
-        "attempts": 12,
+        "attempts": 13,
         "success": 0,
-        "failures": 12,
+        "failures": 13,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "http_410"
       },
       "nvidia": {
-        "attempts": 12,
+        "attempts": 13,
         "success": 0,
-        "failures": 12,
+        "failures": 13,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "http_410"

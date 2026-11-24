@@ -8302,5 +8302,37 @@
     "source": "BBC Sport",
     "collected_at": "2026-11-24T18:15:55.926390+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "52987ac207130c44011d117df7de2573bf7b421f88c80036746fb741b62cc06e",
+    "title": "Paul Scholes says &#8216;rabbit in the headlights&#8217; £52m Man United man is not Premier League level",
+    "url": "https://talksport.com/football/4728860/paul-scholes-leny-yoro-man-utd-premier-league-level/",
+    "source": "Football News, Transfers, Opinion - talkSPORT",
+    "collected_at": "2026-11-24T18:30:59.949428+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "88156e1c8a5c7efce993fe0f139ad5d4fa1376a639f731e2427a8c1e0a8bb098",
+    "title": "El posteo de Sadio Mané y los jugadores de Senegal tras el fallo del TAS que les devolvió la Copa Africana de Naciones",
+    "url": "https://www.ole.com.ar/futbol-internacional/posteo-sadio-mane-tas-senegal-marruecos-copa-africa_0_1UwHSuWkgX.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-24T18:31:00.212401+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "1edee30d99a3c70e218c6ebc0645da7a1319fa2106acb628fcb63670360b0679",
+    "title": "El Top 10 de la semana en La Liga Nacional",
+    "url": "https://www.ole.com.ar/basquet/liga-nacional-partidos-top-10-basquet_0_YicFKfEGpr.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-24T18:31:00.212420+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "8f15422566bf253898e36446d00e64d4c976f6a9b41edd2149279e97c7d39263",
+    "title": "Boca celebrará ser \"el verdadero Rey\" en la vuelta a la Bombonera tras la Sudamericana",
+    "url": "https://www.ole.com.ar/boca-juniors/festejos-boca-bombonera-campeon-copa-sudamericana_0_tplkK7XsZU.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-24T18:31:00.212426+00:00",
+    "status": "pending_review"
   }
 ]

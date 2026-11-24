@@ -6710,5 +6710,39 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "88156e1c8a5c7efce993",
+    "title": "El posteo de Sadio Mané y los jugadores de Senegal tras el fallo del TAS que les devolvió la Copa Africana de Naciones",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/posteo-sadio-mane-tas-senegal-marruecos-copa-africa_0_1UwHSuWkgX.html",
+    "source": "Olé Argentina",
+    "description": "En su cuenta de Instagram, el extremo escribió algunas palabras por la consagración. Además, Koulibaly, Sarr y Diarra publicaron historias en las que festejaron nuevamente el título.",
+    "published_at": "2026-11-24T18:14:41+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T18:31:03.288221+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "1edee30d99a3c70e218c",
+    "title": "El Top 10 de la semana en La Liga Nacional",
+    "source_url": "https://www.ole.com.ar/basquet/liga-nacional-partidos-top-10-basquet_0_YicFKfEGpr.html",
+    "source": "Olé Argentina",
+    "description": "Mirá las jugadas más destacadas de la última semana.",
+    "published_at": "2026-11-24T18:10:18+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T18:31:03.288221+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
