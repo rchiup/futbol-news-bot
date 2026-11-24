@@ -9486,5 +9486,41 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "56dc46caccae94698650",
+    "title": "¿Refuerzos para Colapinto? Los Wallabies cambiaron las gomas del Alpine",
+    "source_url": "https://www.ole.com.ar/poli/alpine-wallabies-colapinto-enstone-formula-1_0_UH783H0ukB.html",
+    "source": "Olé Argentina",
+    "description": "La selección australiana de rugby visitó la sede de Enstone, donde el equipo francés tiene su base de operaciones para la Fórmula 1, y participó de un juego clásico para los mecánicos.",
+    "published_at": "2026-11-24T20:52:50+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T20:58:48.856365+00:00",
+    "status": "draft",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Wallabies",
+        "Alpine"
+      ],
+      "competicion": [
+        "Fórmula 1"
+      ],
+      "ciudad": [
+        "Enstone"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Wallabies cambian gomas del Alpine en Enstone",
+    "caption": "La selección australiana de rugby, conocida como los Wallabies, visitó la sede de Enstone del equipo francés Alpine de Fórmula 1 y, como parte de un juego clásico para los mecánicos, sustituyó las gomas de los monoplazas Alpine.",
+    "ai_generated_at": "2026-11-24T20:58:48.856365+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
