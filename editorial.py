@@ -30,6 +30,7 @@ from openverse_photos import find_openverse_photo, download_openverse_photo
 from photo_bank import entities, choose_photo
 from curated_portraits import pick_curated
 import free_llm
+import scorecards
 from growth import append_promotion
 from news_novelty import duplicate_reason, novelty_priority, same_story
 
@@ -518,6 +519,10 @@ def make_card(item: dict, allow_ai: bool = False, lookup: bool = False,
     Google discovery does not replace explicit reuse rights. Do not substitute
     a photograph of an unrelated athlete or game.
     """
+    if item.get("match_result"):
+        item["photo_used"] = False
+        item["ai_art_used"] = False
+        return scorecards.render(item, PREVIEWS / (item["id"] + ".jpg"), BRAND)
     photo_path = None
     sport = item.get("sport", "FUTBOL")
     title, summary = item.get("title", ""), item.get("description", "")
@@ -642,6 +647,16 @@ def morning_burst_settings(reference: datetime, queue: list[dict]) -> tuple[int,
 def run(reference: datetime | None = None, session=None) -> dict:
     reference = reference or now_utc()
     queue = load_queue()
+    if session is None:
+        try:
+            known = {x.get("id") for x in queue}
+            for match in scorecards.results(reference.astimezone(PUBLISH_TZ)):
+                if match["id"] not in known:
+                    match["queued_at"] = iso(reference)
+                    queue.append(match)
+                    known.add(match["id"])
+        except (requests.RequestException, ValueError, KeyError, TypeError) as exc:
+            print(f"[SCORES] Feed unavailable: {type(exc).__name__}")
     fresh = fetch_candidates(reference=reference, session=session)
     # Keep the generated-draft count bounded; no runaway OpenAI bills.
     capacity = max(0, min(DRAFTS_PER_RUN, DRAFTS_PER_DAY - today_count(queue, "queued_at", reference)))
@@ -737,14 +752,14 @@ def run(reference: datetime | None = None, session=None) -> dict:
         # Novelty and recency outrank a saved portrait; never publish the
         # same protagonist again just because their news came via another feed.
         already_posted = [x for x in queue if x.get("status") == "published"]
-        for item in sorted(queue, key=lambda x: novelty_priority(x, reference), reverse=True):
+        for item in sorted(queue, key=lambda x: (bool(x.get('match_result')), novelty_priority(x, reference)), reverse=True):
             if (published_count >= allowed_this_run
                     or today_count(queue, "posted_at", reference) >= POSTS_PER_DAY
                     or rolling_post_count(queue, reference) >= POSTS_PER_DAY):
                 break
             if item.get("status") != "draft" and not (item.get("status") == "needs_review" and (item.get("photo_deferred_reason") == "no_relevant_photo" or item.get("visual_mode") == "original_graphic") and item.get("headline") and item.get("caption")):
                 continue
-            repeated = duplicate_reason(item, already_posted, reference)
+            repeated = '' if item.get('match_result') else duplicate_reason(item, already_posted, reference)
             if repeated:
                 duplicates_suppressed += 1
                 item["status"] = "duplicate"
@@ -758,7 +773,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
             if len(item.get("description", "").strip()) < 50 or item.get("score", 0) < 25:
                 item["status"] = "needs_review"
                 continue
-            if news_missing_critical_details(item):
+            if not item.get("match_result") and news_missing_critical_details(item):
                 item["status"] = "needs_review"
                 print(f"[EDITOR] Missing essential names or story details: {item['id']}")
                 continue
@@ -766,11 +781,11 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 item["status"] = "needs_review"
                 print(f"[EDITOR] Held speculative match preview without news: {item['id']}")
                 continue
-            if detail_gap(item):
+            if not item.get("match_result") and detail_gap(item):
                 item["status"] = "needs_review"
                 print(f"[EDITOR] Missing promised detail: {item['id']}")
                 continue
-            if headline_needs_translation(item.get("headline", "")) or headline_needs_translation(item.get("caption", "")):
+            if not item.get("match_result") and (headline_needs_translation(item.get("headline", "")) or headline_needs_translation(item.get("caption", ""))):
                 item["status"] = "needs_review"
                 print(f"[EDITOR] Blocked untranslated headline: {item['id']}")
                 continue
@@ -802,7 +817,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 if item.get("ai_art_used"):
                     item["status"] = "needs_review"
                     continue
-                item["visual_mode"] = "licensed_photo" if item.get("photo_used") else "editorial_typography"
+                item["visual_mode"] = "scorecard" if item.get("match_result") else ("licensed_photo" if item.get("photo_used") else "editorial_typography")
                 if not item.get("photo_used"):
                     print(f"[PHOTO] Using original typographic cover: {item['id']}")
                 if (os.getenv("REQUIRE_SUBJECT_PHOTO", "").lower() == "true"
