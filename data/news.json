@@ -8790,5 +8790,29 @@
     "source": "www.ole.com.ar - Home",
     "collected_at": "2026-11-24T22:38:50.698433+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "cd82bb76abf8485b4c2826fa43d34bcc7ac5768f77b3211fed4302d2bb844caa",
+    "title": "Leaked FIFA documents show 96-year plan for stakes in WC selloff",
+    "url": "https://www.espn.com/soccer/story/_/id/50585622/leaked-fifa-documents-96-year-world-cup-selloff",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-24T22:40:28.225952+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "d4da1e85933d2685fe63b6f0ab88ffd938dae048f4a45f22fb2f75375ca7bd48",
+    "title": "Cherki magic denies Napoli win but Man City's struggles continue",
+    "url": "https://www.espn.com/soccer/report/_/gameId/401915379",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-24T22:40:28.225972+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "c332d6a4319edba88a63574349a3425ad1ec8ce7ffaa8b5e8ec6463316db8887",
+    "title": "Sources: Man United to raise concerns after refs' chief backs Yoro red card",
+    "url": "https://www.espn.com/soccer/story/_/id/50585934/man-united-leny-yoro-red-card-howard-webb-premier-league",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-24T22:40:28.225980+00:00",
+    "status": "pending_review"
   }
 ]
