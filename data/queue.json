@@ -3816,11 +3816,26 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-24T01:16:17.010984+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Jensen Huang",
+    "visual_entities": {
+      "personas": [
+        "Jensen Huang",
+        "Alice Huang"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "zai",
+    "llm_model": "glm-4.5-flash",
+    "headline": "Nvidia sube 31,5% tras regreso de Jensen Huang",
+    "caption": "Las acciones de Nvidia registraron su mayor alza en 23 años, un 31,5%, tras el regreso de Jensen Huang como presidente y CEO de la compañía. Huang había anunciado su dimisión el 12 de noviembre tras revelarse una relación extramatrimonial con Alice Huang, empresaria tecnológica china.",
+    "ai_generated_at": "2026-11-24T16:01:01.187936+00:00"
   },
   {
     "id": "7b511f22e4715eb5f438",
@@ -4319,11 +4334,32 @@
     "sport": "F1",
     "score": 23,
     "queued_at": "2026-11-24T11:08:54.831549+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Isack Hadjar",
+    "visual_entities": {
+      "personas": [
+        "Isack Hadjar",
+        "Max Verstappen"
+      ],
+      "clubes": [
+        "Red Bull F1"
+      ],
+      "competicion": [
+        "Gran Premio de Las Vegas"
+      ],
+      "ciudad": [
+        "Las Vegas"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Hadjar sube a segunda en Las Vegas y enfrenta problema de radio",
+    "caption": "Isack Hadjar, que había salido cuarto, alcanzó la segunda posición detrás de Max Verstappen en la cuarta vuelta del Gran Premio de Las Vegas, marcando su primera vez en esa posición. En ese momento se reportó un problema con la radio del coche, que limitó la comunicación con el equipo.",
+    "ai_generated_at": "2026-11-24T16:01:01.187936+00:00"
   },
   {
     "id": "b903f10f7b2713adb5bc",
@@ -4404,7 +4440,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-24T12:59:35.838734+00:00",
-    "status": "needs_review",
+    "status": "duplicate",
     "visual_subject": "Cesc Fábregas",
     "visual_entities": {
       "personas": [
@@ -4430,7 +4466,8 @@
     "portrait_used": false,
     "reference_photo_used": false,
     "visual_mode": "original_graphic",
-    "photo_deferred_reason": "no_relevant_photo"
+    "photo_deferred_reason": "no_relevant_photo",
+    "duplicate_of": "same_story_as:38adc018cd56635f9334"
   },
   {
     "id": "bccdba91728b64ef1332",
@@ -4515,7 +4552,7 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-24T12:59:35.838734+00:00",
-    "status": "needs_review",
+    "status": "published",
     "visual_subject": "Cav Miley",
     "visual_entities": {
       "personas": [
@@ -4538,9 +4575,10 @@
     "portrait_used": false,
     "reference_photo_used": false,
     "portrait_info": null,
-    "photo_checked_at": "2026-11-24T13:00:13.093890+00:00",
-    "visual_mode": "original_graphic",
-    "photo_deferred_reason": "no_relevant_photo"
+    "photo_checked_at": "2026-11-24T16:04:12.784747+00:00",
+    "visual_mode": "editorial_typography",
+    "posted_at": "2026-11-24T16:01:01.187936+00:00",
+    "instagram_media_id": "18100500629545610"
   },
   {
     "id": "e431ee8292ef7835e20e",
@@ -4866,8 +4904,8 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-24T13:36:41.475440+00:00",
-    "status": "needs_review",
-    "visual_subject": "",
+    "status": "published",
+    "visual_subject": "Neymar",
     "visual_entities": {
       "personas": [
         "Neymar"
@@ -4890,12 +4928,32 @@
     "caption": "Neymar estrenó nuevo look y le anuló un gol de tiro libre; Santos cayó al noveno puesto del Brasileirão tras perder contra Gremio y ahora debe vencer a Vitória y Botafogo para soñar con la Copa Libertadores 2027.",
     "ai_generated_at": "2026-11-24T13:36:41.475440+00:00",
     "ai_art_used": false,
-    "photo_used": false,
-    "portrait_used": false,
+    "photo_used": true,
+    "portrait_used": true,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-24T13:37:17.480407+00:00",
-    "visual_mode": "original_graphic",
-    "photo_deferred_reason": "no_relevant_photo"
+    "photo_checked_at": "2026-11-24T16:03:16.357317+00:00",
+    "visual_mode": "licensed_photo",
+    "portrait_info": {
+      "subject": "Neymar",
+      "wikidata_id": "Q142794",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Neymar_-_Santos_vs_Juventude_-_04-08-2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "license": "cc0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "commons_filename": "Neymar - Santos vs Juventude - 04-08-2025.jpg",
+      "photographer": "",
+      "credit_required": false,
+      "share_alike": false,
+      "width": 1200,
+      "height": 1600,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Neymar_-_Santos_vs_Juventude_-_04-08-2025.jpg",
+      "entity_kind": "person",
+      "entity_qid": "Q142794",
+      "photo_provider": "Wikidata photo bank",
+      "verified_at": "2026-11-24T16:03:16.356578+00:00"
+    },
+    "photo_credit_full": "",
+    "posted_at": "2026-11-24T16:01:01.187936+00:00",
+    "instagram_media_id": "18650499661024446"
   },
   {
     "id": "181bbf60206ffd47650c",
@@ -4908,7 +4966,7 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-24T13:36:41.475440+00:00",
-    "status": "needs_review",
+    "status": "published",
     "visual_subject": "Pata Pereyra",
     "visual_entities": {
       "personas": [
@@ -4931,8 +4989,11 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "visual_mode": "original_graphic",
-    "photo_deferred_reason": "no_relevant_photo"
+    "visual_mode": "editorial_typography",
+    "photo_checked_at": "2026-11-24T16:05:03.532415+00:00",
+    "portrait_info": null,
+    "posted_at": "2026-11-24T16:01:01.187936+00:00",
+    "instagram_media_id": "18322063276303724"
   },
   {
     "id": "0ec220033b1c38d4cfde",
@@ -5153,11 +5214,28 @@
     "sport": "FUTBOL",
     "score": 23,
     "queued_at": "2026-11-24T14:10:17.953874+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Viktor Gyokeres has scored twice in all competitions this season\nA Premier League trophy and 21 goals in his debut season - on paper things have worked out perfectly for Viktor Gyokeres since his £64m transfer to Arsenal.\nBut, even with those achievements, it has been a tough start to the current campaign for the 28-year-old striker.\nThe Swede has started just one Premier League game this season and is yet to score in his eight league appearances.\nHe has started three games in the Champions League, two in the Carabao Cup, and has scored just twice in 15 games in all competitions. Not the numbers he would have hoped for after last season's glory.\nIt is not just this season that has seen Gyokeres suitability questioned for Arsenal though.\nEven though he scored more than 20 goals in his first season in all competitions as Arsenal ended their 22-year wait for a title, his all-round game had its critics.\nIt has been near enough a straight battle for the number nine role between Kai Havertz and Gyokeres since the Swedish international signed.\nAnd Gyokeres was thrust into leading the line for Arsenal quicker and more frequently than planned after injury kept Havertz out for long periods last season.\nAlthough the Swede may be the more natural finisher, Havertz's all-round play is considered superior with the German also one of Arteta's most trusted players for big games.\nGyokeres, a \"win-now signing\", was bought for his ability to find the net but also for how he could open up spaces for his team-mates, something they have praised him for.\nBut playing with his back to goal and linking up play is not natural to Gyokeres and his failure to hold up the ball or win duels with centre-backs has led to fan frustration.\nArteta has spoken about how the striker has been working on improving his hold-up play and connections, and there were hints of it in the Champions League win over Slavia Prague where Gyokeres assisted the opener and scored the winner in arguably his best game of the season.\nRaya to miss Dortmund game but injury 'not serious'\nA big reason that Gyokeres is not starting games is that Havertz is fit.\nLast season, Havertz suffered with knee and hamstring issues which meant Gyokeres was the only option Arteta had.\nHad Havertz been fit, he would have played a lot more and the fact that he started the Champions League final and the key match away at Manchester City in last season's title race back this up.\nThis season Gyokeres has just six starts and Arteta says that his gametime and situation is similar to other members in the squad.\n\"We have rotated the team a lot and used the competitions as well to give minutes to players and exposure because they are all starters in my opinion,\" Arteta said.\n\"Viktor's case is one of many that they have been in the same situation where they play more in the Premier League or more in the Champions League which is not bad, eh?\"\nArteta is open with his players about their standing in the squad and said that Gyokeres has not approached him directly about a lack of minutes.\n\"We have conversations with every player to make sure that they understand what we are doing and to gather information about the way we are feeling and so far it has been very positive with Viktor and the rest of the team,\" he said.\nThe signing of Gyokeres is an interesting one in its own right.\nThe Arsenal recruitment team had done a lot of due diligence on signing, now Manchester United forward, Benjamin Sesko.\nIt is understood work on that deal had been done but a change of direction to sign Gyokeres happened after Andrea Berta became Arsenal sporting director.\nSome around Arsenal have always thought that Gyokeres is not the usual forward that the Gunners would go for and his predicament of a lack of game time was always likely to happen, even if he did play a big part in them ending their trophy drought.\nGyokeres ended last season with 14 league goals but those strikes actually only won Arsenal two points on their way to winning the league.\nThat is because, although his penalty in the 1-0 win at Everton was the only goal of the game, Arsenal would have come away with a draw, so that strike factually only accounted for two points and not three.\nBut Gyokeres did put the Gunners ahead five times last season in the league which shows that, among the frustrating performances, he had plenty of impact.\nMax Dowman stole the show with his goal in the 2-0 home win over Everton , when he became the youngest scorer in Premier League history, but it was Gyokeres' goal in the 89th-minute which put Arsenal ahead and although it did not lead to a point score on its own, it set them on the way.\nGyokeres also scored in the 4-1 north London derby win, putting Arsenal ahead when Kolo Muani had equalised after Eberechi Eze's opener.\nIt is unlikely that Gyokeres will be sold in January as he continues to get games in the Champions League and is a senior player who can score goals in big moments.\nBut if his lack of minutes in the league continue, Gyokeres, who is a driven and ambitious individual, will not want to be the player who is left out of the starting XI in the long term.\nAdditional reporting Chris Collinson, BBC Sport Football data analyst and Sami Mokbel senior football correspondent.\nMadueke 'a consistent threat' - Newcastle v Arsenal player ratings\nMadueke snatches point for leaders Arsenal at Newcastle\n'The rest of the world noticed' - Welshman Donald demolishes Aussies\nWhy has De Bruyne struggled at Napoli as he returns to Man City?\nSooryavanshi, 15, breaks sixes record by scoring 204 off 53 balls\nA festive comedy featuring Jason Bateman, Olivia Munn and Jennifer Aniston\nIs cough medicine any better than just taking honey and lemon?\nLucy unlocks the secrets of four spectacular palaces\nThe controversial operation that transplanted a baboon's heart into a baby\n115 days, 39 private-jet flights, one election - Infantino's globetrotting\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nTwo goals in 15 games - what's going on with Gyokeres?\nWho has made Troy's Premier League team of the week?\nEngland's tearaway quick bowler reinvented as a top-order batter\nChaotic week, nightmare start and huge reality check for Pochettino\nA 'wow' player - why Ngumoha is already a Liverpool game-changer\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland will not get carried away by beating All Blacks\nVerstappen a constant amid chaos as he says Russell is 'so far below",
+    "visual_subject": "Viktor Gyokeres",
+    "visual_entities": {
+      "personas": [
+        "Viktor Gyokeres"
+      ],
+      "clubes": [
+        "Arsenal"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Gyokeres solo dos goles en 15 partidos y sigue sin titularizarse",
+    "caption": "Viktor Gyokeres ha anotado solo dos goles en 15 partidos en todas las competiciones esta temporada, con un solo inicio en Premier League y ocho apariciones sin marcar. Su escasa participación se debe a la preferencia de Mikel Arteta por Kai Havertz, quien ha recuperado forma y está disponible. Gyokeres, fichado por 64 millones de libras como delantero titular, ha sido rotado entre Premier League, Champions League y Carabao Cup, y aunque asistió y marcó en la victoria contra Slavia Praga, sigue sin consolidarse como número nueve.",
+    "ai_generated_at": "2026-11-24T16:01:01.187936+00:00"
   },
   {
     "id": "7614191db4cbf0d67633",
@@ -5653,6 +5731,42 @@
     "score": 17,
     "queued_at": "2026-11-24T15:48:48.176339+00:00",
     "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "8e5e847fd0f479e6dfc2",
+    "title": "Defender Heaven open to leaving Man Utd",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/crd61gy4ednvo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Manchester United defender Ayden Heaven is open to a loan move in January amid concerns over his game time as his side battles in the Premier League relegation zone.",
+    "published_at": "2026-11-24T15:56:55+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T16:01:01.187936+00:00",
+    "status": "draft",
+    "article_context": "Heaven has made 32 appearances for Manchester United\nManchester United defender Ayden Heaven is open to a loan move in January amid concerns over his game time as his side battles in the Premier League relegation zone.\nThe 20-year-old centre-back is concerned about what United's current situation means for his development, after new manager Mauricio Pochettino left him as an unused substitute in Sunday's 4-0 defeat at Liverpool .\nNow on his third manager in 21 months since joining from Arsenal in February 2025, Heaven accepts Pochettino may prefer more experienced options as United attempt to avoid a shock relegation.\nThe club have also been heavily linked with signing a centre-back in the coming January window, with targets said to include Fulham 's Calvin Bassey.\nHowever, the Cottagers regard Bassey as an important player and would not encourage any interest.\nFulham and Barcelona are among the clubs to have expressed an interest in Heaven, with both having tried to sign him when he decided to leave Arsenal .\nThe England U20s defender's preference is believed to be a loan move, though he would also entertain permanent offers.\nAt United he has largely been used as a back-up option and, after enjoying a run in the team under former manager Ruben Amorim, he lost his place under Michael Carrick. He returned to the side only after an injury crisis hit the club last season.\nHeaven is also capable of playing at left-back and in midfield, but does not expect to be trusted as a regular starter amid the instability at Old Trafford, with the club 19th in the league.\nHe is under contract until 2029 in a deal that includes an option for an extra year.\n'No-one's coming to save us' - but how can Man Utd save themselves?\nChaotic week, nightmare start and huge reality check for Pochettino\nWho has made Troy's Premier League team of the week?\nPre-match, post-match and topical United content\nSubscribe and listen for everything you love about the Red Devils\nSenegal reinstated as Afcon 2025 winners by court ruling\n'The rest of the world noticed' - Welshman Donald demolishes Aussies\nWhy has De Bruyne struggled at Napoli as he returns to Man City?\nA festive comedy featuring Jason Bateman, Olivia Munn and Jennifer Aniston\nIs cough medicine any better than just taking honey and lemon?\nLucy unlocks the secrets of four spectacular palaces\nThe controversial operation that transplanted a baboon's heart into a baby\n115 days, 39 private-jet flights, one election - Infantino's globetrotting\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nTwo goals in 15 games - what's going on with Gyokeres?\nEngland's tearaway quick bowler reinvented as a top-order batter\nA 'wow' player - why Ngumoha is already a Liverpool game-changer\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland will not get carried away by beating All Blacks\nVerstappen a constant amid chaos as he says Russell is 'so far below my level'\nThe sandpaper plot - who was there, who said what?\nThe 3pm football blackout: Outdated or still relevant in 2026?\nJosh Kerr: The making of the man behind the shades\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "visual_subject": "Ayden Heaven",
+    "visual_entities": {
+      "personas": [
+        "Ayden Heaven"
+      ],
+      "clubes": [
+        "Manchester United"
+      ],
+      "competicion": [
+        "Premier League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Ayden Heaven busca préstamo en enero para jugar",
+    "caption": "El defensa de Manchester United, Ayden Heaven, de 20 años, está abierto a un préstamo en enero tras ver limitada su participación en el equipo, que lucha contra el descenso en la Premier League. Tras haber sido suplente en la derrota 4-0 ante Liverpool y con el nuevo entrenador Mauricio Pochettino prefiriendo opciones más experimentadas, Heaven busca minutos de juego para su desarrollo, aunque también consideraría ofertas permanentes. El club tiene vinculada la llegada de Calvin Bassey, pero Fulham no fomentaría el interés. Heaven, bajo contrato hasta 2029, también puede jugar de lateral izquierdo o mediocampista.",
+    "ai_generated_at": "2026-11-24T16:01:01.187936+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,

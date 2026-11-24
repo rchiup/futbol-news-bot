@@ -1,22 +1,22 @@
 {
-  "checked_at_utc": "2026-11-24T15:48:48.176339+00:00",
-  "local_hour": 12,
+  "checked_at_utc": "2026-11-24T16:01:01.187936+00:00",
+  "local_hour": 13,
   "statuses": {
-    "published": 37,
-    "draft": 19,
-    "awaiting_ai": 32,
-    "needs_review": 61,
+    "published": 40,
+    "draft": 23,
+    "awaiting_ai": 29,
+    "needs_review": 57,
     "publish_error": 25,
-    "duplicate": 9
+    "duplicate": 10
   },
-  "fresh_candidates": 135,
-  "queued_new": 5,
-  "ai_generated": 8,
+  "fresh_candidates": 137,
+  "queued_new": 1,
+  "ai_generated": 4,
   "preview_images": 5,
   "published": 3,
-  "duplicates_suppressed": 0,
+  "duplicates_suppressed": 1,
   "no_photo_deferred": 0,
-  "total_queue": 213,
+  "total_queue": 214,
   "per_run_cap": 3,
   "morning_day_cap": 72,
   "auto_publish_enabled": true,
@@ -38,52 +38,52 @@
     "last_success": "groq",
     "providers": {
       "groq": {
-        "attempts": 59,
-        "success": 53,
-        "failures": 6,
-        "avg_latency_ms": 2231,
-        "avg_readability": 100.0,
+        "attempts": 64,
+        "success": 56,
+        "failures": 8,
+        "avg_latency_ms": 2315,
+        "avg_readability": 99.0,
         "last_error": "invalid_output"
       },
       "openrouter": {
-        "attempts": 4,
+        "attempts": 5,
         "success": 4,
-        "failures": 0,
+        "failures": 1,
         "avg_latency_ms": 17585,
         "avg_readability": 100.0,
-        "last_error": null
+        "last_error": "http_429"
       },
       "gemini": {
-        "attempts": 3,
+        "attempts": 5,
         "success": 0,
-        "failures": 3,
+        "failures": 5,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "http_503"
       },
       "cloudflare": {
-        "attempts": 1,
+        "attempts": 3,
         "success": 0,
-        "failures": 1,
+        "failures": 3,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "http_410"
       },
       "nvidia": {
-        "attempts": 1,
+        "attempts": 3,
         "success": 0,
-        "failures": 1,
+        "failures": 3,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "http_410"
       },
       "zai": {
-        "attempts": 1,
-        "success": 0,
-        "failures": 1,
-        "avg_latency_ms": null,
-        "avg_readability": null,
-        "last_error": "http_429"
+        "attempts": 3,
+        "success": 1,
+        "failures": 2,
+        "avg_latency_ms": 36694,
+        "avg_readability": 100.0,
+        "last_error": "invalid_output"
       }
     }
   }
