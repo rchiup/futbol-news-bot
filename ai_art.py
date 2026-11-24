@@ -110,38 +110,19 @@ def resolve_athlete(item: dict) -> tuple[str, str]:
 
 
 def build_prompt(item: dict) -> str:
-    """Player-first, recognizably sport-specific AI editorial recreation.
-
-    AI portraits must not be presented as an actual photo of the reported
-    injury, match, or real-world event; the public caption discloses AI.
-    """
-    subject, sport = resolve_athlete(item)
-    scene = SPORT_SCENES[sport]
-    exclusions = SPORT_EXCLUSIONS[sport]
-    if _named_person(subject):
-        subject_instruction = (
-            f"Main subject MUST BE {subject}, the real sports person. "
-            f"Depict a recognizable photographic-style portrait of {subject}, "
-            "visible face, realistic human anatomy and correct sporting attire. "
-            "One athlete as the large foreground subject (head, shoulders and upper torso). "
-            "Do NOT replace the person with a generic sports ball, floodlights, "
-            "a landscape, or an empty stadium. "
-        )
-    else:
-        # Reject vague stand-alone visuals instead of making misleading posters.
-        raise ValueError("AI portrait requires an identifiable athlete")
-    return (
-        f"High-end PHOTOREALISTIC sports magazine EDITORIAL RECREATION featuring {subject}. "
-        f"{subject_instruction}"
-        f"Accurate sport: {sport}. Visual setting: {scene}. {exclusions} "
-        "Editorial studio portrait/posed sports setting, NOT a documentary photograph, "
-        "NOT evidence of an actual match or a specific medical procedure. "
-        "Do not depict a real injury, operating room, bandages or invented match action. "
-        "Natural skin details, photographic lighting, 85mm portrait-lens look, sharp focus, "
-        "tasteful premium composition. Subject's face and torso prominent in TOP TWO THIRDS, "
-        "dark simple lower third reserved for overlay headline. Vertical 4:5. "
-        "No text, no logos, no watermark, no graphic labels, no extra people. "
-    )
+    """Symbolic sports backdrop only; never invent an athlete's likeness."""
+    _, sport = resolve_athlete(item)
+    scenes = {
+        "FUTBOL": "empty football pitch at dusk, a football on grass",
+        "TENIS": "empty tennis court, tennis racket and tennis ball",
+        "F1": "empty racing circuit with track kerbs",
+        "NBA": "empty basketball arena with hoop and basketball",
+        "GOLF": "empty golf course with flag and golf ball",
+    }
+    return ("Original clearly illustrated editorial sports backdrop, NOT a documentary photograph. "
+            + scenes[sport] + ". No people, no faces, no athletes, no logos, no words. "
+            "Vertical 4:5, premium cinematic lighting, dark lower third for headline. "
+            "No recognizable real venue or reconstruction of a specific event.")
 
 
 def _decode_response_image(response) -> bytes:

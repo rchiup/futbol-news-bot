@@ -75,39 +75,13 @@ class AiArtTests(unittest.TestCase):
                     self.assertEqual(image.size, (864, 1080))
         self.assertEqual(self.item["ai_art_provider"], "cloudflare")
         self.assertIn("NOT a documentary photograph", client.calls[0][2]["json"]["prompt"])
-        self.assertIn("Lionel Messi", client.calls[0][2]["json"]["prompt"])
+        self.assertIn("No people", client.calls[0][2]["json"]["prompt"])
 
-    def test_sinner_portrait_corrects_wrong_default_football(self):
-        item = {
-            "title": "Malas noticias para Sinner: se opera y arriesga Australian Open",
-            "headline": "Sinner se opera la rodilla",
-            "description": "El tenista italiano viaja a Finlandia",
-            "sport": "FUTBOL",
-            "visual_subject": "",
-        }
-        name, sport = ai_art.resolve_athlete(item)
-        self.assertEqual((name, sport), ("Jannik Sinner", "TENIS"))
-        prompt = ai_art.build_prompt(item)
-        self.assertIn("PHOTOREALISTIC", prompt)
-        self.assertIn("recognizable photographic-style portrait of Jannik Sinner", prompt)
-        self.assertIn("tennis net and racket", prompt)
-        self.assertIn("No soccer ball", prompt)
-        self.assertIn("Do NOT replace the person with a generic sports ball", prompt)
-
-    def test_alcaraz_and_f1_portraits_are_sport_correct(self):
-        for title, expected_name, expected_sport in (
-            ("Carlos Alcaraz avanza a semifinales", "Carlos Alcaraz", "TENIS"),
-            ("Verstappen ganó el Grand Prix", "Max Verstappen", "F1"),
-        ):
-            name, sport = ai_art.resolve_athlete({"title": title, "sport": "FUTBOL"})
-            self.assertEqual((name, sport), (expected_name, expected_sport))
-            self.assertIn(expected_name, ai_art.build_prompt({"title": title, "sport": "FUTBOL"}))
-
-    def test_anonymous_player_does_not_generate_generic_ball(self):
-        item = {"title": "La fecha decisiva del torneo", "sport": "FUTBOL",
-                "visual_subject": ""}
-        with self.assertRaisesRegex(ValueError, "identifiable athlete"):
-            ai_art.build_prompt(item)
+    def test_sinner_background_is_tennis_without_fake_people(self):
+        prompt = ai_art.build_prompt({"title":"Sinner se opera y arriesga Australian Open","sport":"FUTBOL"})
+        self.assertIn("empty tennis court", prompt)
+        self.assertIn("No people", prompt)
+        self.assertNotIn("Jannik Sinner", prompt)
 
     def test_cloudflare_binary_supported(self):
         client = Session(cf_response=Response(image=png_bytes(), ctype="image/png"))
