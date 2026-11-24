@@ -15,12 +15,12 @@ USAGE = ROOT / "data" / "llm_free_usage.json"
 KEYS = {"groq": "GROQ_API_KEY", "gemini": "GEMINI_API_KEY",
         "cerebras": "CEREBRAS_API_KEY", "openrouter": "OPENROUTER_API_KEY",
         "cloudflare": "CF_API_TOKEN", "nvidia": "NVIDIA_API_KEY", "zai": "ZAI_API_KEY"}
-CAPS = {"groq": 75, "gemini": 20, "cerebras": 35, "openrouter": 40, "cloudflare": 60, "nvidia": 40, "zai": 40}
+CAPS = {"groq": 180, "gemini": 20, "cerebras": 35, "openrouter": 40, "cloudflare": 60, "nvidia": 40, "zai": 40}
 MODELS = {"groq": "openai/gpt-oss-120b",
           "gemini": "gemini-3.1-flash-lite",
           "cerebras": "gpt-oss-120b", "openrouter": "openrouter/free",
-          "cloudflare": "@cf/meta/llama-3.1-8b-instruct-fp8",
-          "nvidia": "meta/llama-3.3-70b-instruct", "zai": "glm-4.5-flash"}
+          "cloudflare": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+          "nvidia": "meta/llama-3.1-8b-instruct", "zai": "glm-4.5-flash"}
 ENDPOINTS = {"groq": "https://api.groq.com/openai/v1/chat/completions",
              "cerebras": "https://api.cerebras.ai/v1/chat/completions",
              "openrouter": "https://openrouter.ai/api/v1/chat/completions",
@@ -171,10 +171,10 @@ def one(name, messages, session=requests, env=None, validator=None,
         if isinstance(exc, requests.HTTPError):
             response = getattr(exc, "response", None)
             code = getattr(response, "status_code", None)
-            if code in (401, 403, 429):
+            if code in (401, 403, 410, 429, 503):
                 # Do not burn the remaining daily quota retrying unusable keys.
                 # The state is persisted across runs when the workflow commits it.
-                cooldown = 86400 if code in (401, 403) else 3600
+                cooldown = 86400 if code in (401, 403) else (900 if code in (410, 503) else 3600)
                 retry = getattr(response, "headers", {}).get("Retry-After", "")
                 if code == 429 and str(retry).strip().isdigit():
                     cooldown = max(60, min(86400, int(retry)))
