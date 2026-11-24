@@ -6,13 +6,48 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "56 22 * * *"
+    - cron: "3,18,33,48 * * * *"
 permissions:
   contents: write
-concurrency:
-  group: football-news-engine
-  cancel-in-progress: false
 jobs:
+  watchdog:
+    if: github.ref_name == 'main' && github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    outputs:
+      stale: ${{ steps.check.outputs.stale }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - id: check
+        name: Check last completed publisher heartbeat
+        run: |
+          python - <<'PY'
+          import json, os
+          from datetime import datetime, timezone
+          try:
+              with open('data/engine_status.json') as f:
+                  status = json.load(f)
+              checked = datetime.fromisoformat(status['checked_at_utc'].replace('Z', '+00:00'))
+              age = (datetime.now(timezone.utc) - checked).total_seconds() / 60
+          except (OSError, ValueError, KeyError, TypeError):
+              age = 10000
+          stale = age >= 20
+          print(f'Publisher heartbeat age: {age:.1f} minutes; recovery needed: {stale}')
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write('stale=' + str(stale).lower() + '\n')
+          PY
+  recover-publisher:
+    needs: watchdog
+    if: needs.watchdog.outputs.stale == 'true'
+    uses: ./.github/workflows/collect.yml
+    secrets: inherit
   benchmark:
+    if: github.event_name != 'schedule' || github.event.schedule == '56 22 * * *'
+    concurrency:
+      group: football-news-engine
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     timeout-minutes: 9
     steps:
