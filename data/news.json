@@ -8550,5 +8550,21 @@
     "source": "Football News, Transfers, Opinion - talkSPORT",
     "collected_at": "2026-11-24T19:55:36.573237+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "0920175f5e0fffabc4638ea9fead3e36ac0f2f55bf3e5c3bcb4db40cc7ec29fe",
+    "title": "Resultados de la quinta fecha de la Champions League y posiciones",
+    "url": "https://www.ole.com.ar/futbol-internacional/champions/champions-league-resultados-quinta-fecha-partidos-posiciones_0_bog3Hk3x8H.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-24T19:58:50.551545+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "941681780648e333d479b74d61b47e8b4f1e389eaab7bf55d4ec40a388bc2354",
+    "title": "Alonso explica por qué cree en Aston Martin pese al enorme lastre de Honda",
+    "url": "https://es.motorsport.com/f1/news/alonso-explica-por-que-cree-aston-martin-pese-enorme-lastre-honda/10877551/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es",
+    "source": "Motorsport.com - Fórmula 1 - Historias",
+    "collected_at": "2026-11-24T19:58:52.109308+00:00",
+    "status": "pending_review"
   }
 ]
