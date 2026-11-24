@@ -9886,5 +9886,267 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "ucl-final-401915380",
+    "title": "Bodo/Glimt 1-0 LASK Linz",
+    "headline": "Bodo/Glimt 1-0 LASK Linz",
+    "description": "Resultado final de la Champions League: Bodo/Glimt 1-0 LASK Linz. Goles: Melayro Bogarde 90'+2'.",
+    "caption": "Resultado final de la Champions League: Bodo/Glimt 1-0 LASK Linz. Goles: Melayro Bogarde 90'+2'. Datos: ESPN.",
+    "score": 1000,
+    "sport": "FUTBOL",
+    "category": "PARTIDOS",
+    "source": "ESPN",
+    "published_at": "2026-11-24T19:22:26.936152-03:00",
+    "status": "draft",
+    "match_result": [
+      {
+        "name": "Bodo/Glimt",
+        "abbr": "BODO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+        "score": 1
+      },
+      {
+        "name": "LASK Linz",
+        "abbr": "LAS",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
+        "score": 0
+      }
+    ],
+    "queued_at": "2026-11-24T22:22:26.936152+00:00"
+  },
+  {
+    "id": "ucl-final-401915300",
+    "title": "Galatasaray 1-0 Aston Villa",
+    "headline": "Galatasaray 1-0 Aston Villa",
+    "description": "Resultado final de la Champions League: Galatasaray 1-0 Aston Villa. Goles: Deniz Gül 77'.",
+    "caption": "Resultado final de la Champions League: Galatasaray 1-0 Aston Villa. Goles: Deniz Gül 77'. Datos: ESPN.",
+    "score": 1000,
+    "sport": "FUTBOL",
+    "category": "PARTIDOS",
+    "source": "ESPN",
+    "published_at": "2026-11-24T19:22:26.936152-03:00",
+    "status": "draft",
+    "match_result": [
+      {
+        "name": "Galatasaray",
+        "abbr": "GAL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+        "score": 1
+      },
+      {
+        "name": "Aston Villa",
+        "abbr": "AVL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+        "score": 0
+      }
+    ],
+    "queued_at": "2026-11-24T22:22:26.936152+00:00"
+  },
+  {
+    "id": "ucl-final-401915295",
+    "title": "Arsenal 1-1 Borussia Dortmund",
+    "headline": "Arsenal 1-1 Borussia Dortmund",
+    "description": "Resultado final de la Champions League: Arsenal 1-1 Borussia Dortmund. Goles: Viktor Gyökeres 10', Maximilian Beier 55'.",
+    "caption": "Resultado final de la Champions League: Arsenal 1-1 Borussia Dortmund. Goles: Viktor Gyökeres 10', Maximilian Beier 55'. Datos: ESPN.",
+    "score": 1000,
+    "sport": "FUTBOL",
+    "category": "PARTIDOS",
+    "source": "ESPN",
+    "published_at": "2026-11-24T19:22:26.936152-03:00",
+    "status": "draft",
+    "match_result": [
+      {
+        "name": "Arsenal",
+        "abbr": "ARS",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+        "score": 1
+      },
+      {
+        "name": "Borussia Dortmund",
+        "abbr": "DOR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+        "score": 1
+      }
+    ],
+    "queued_at": "2026-11-24T22:22:26.936152+00:00"
+  },
+  {
+    "id": "ucl-final-401915296",
+    "title": "Como 1-0 AEK Athens",
+    "headline": "Como 1-0 AEK Athens",
+    "description": "Resultado final de la Champions League: Como 1-0 AEK Athens. Goles: Luis Milla 57'.",
+    "caption": "Resultado final de la Champions League: Como 1-0 AEK Athens. Goles: Luis Milla 57'. Datos: ESPN.",
+    "score": 1000,
+    "sport": "FUTBOL",
+    "category": "PARTIDOS",
+    "source": "ESPN",
+    "published_at": "2026-11-24T19:22:26.936152-03:00",
+    "status": "draft",
+    "match_result": [
+      {
+        "name": "Como",
+        "abbr": "COMO",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+        "score": 1
+      },
+      {
+        "name": "AEK Athens",
+        "abbr": "AEK",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
+        "score": 0
+      }
+    ],
+    "queued_at": "2026-11-24T22:22:26.936152+00:00"
+  },
+  {
+    "id": "ucl-final-401915294",
+    "title": "Feyenoord Rotterdam 0-1 FC Porto",
+    "headline": "Feyenoord Rotterdam 0-1 FC Porto",
+    "description": "Resultado final de la Champions League: Feyenoord Rotterdam 0-1 FC Porto. Goles: Oussama Targhaline 2'.",
+    "caption": "Resultado final de la Champions League: Feyenoord Rotterdam 0-1 FC Porto. Goles: Oussama Targhaline 2'. Datos: ESPN.",
+    "score": 1000,
+    "sport": "FUTBOL",
+    "category": "PARTIDOS",
+    "source": "ESPN",
+    "published_at": "2026-11-24T19:22:26.936152-03:00",
+    "status": "draft",
+    "match_result": [
+      {
+        "name": "Feyenoord Rotterdam",
+        "abbr": "FEY",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
+        "score": 0
+      },
+      {
+        "name": "FC Porto",
+        "abbr": "FCP",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
+        "score": 1
+      }
+    ],
+    "queued_at": "2026-11-24T22:22:26.936152+00:00",
+    "photo_used": false,
+    "ai_art_used": false
+  },
+  {
+    "id": "ucl-final-401915379",
+    "title": "Manchester City 2-2 Napoli",
+    "headline": "Manchester City 2-2 Napoli",
+    "description": "Resultado final de la Champions League: Manchester City 2-2 Napoli. Goles: Rasmus Højlund 55', Ayyoub Bouaddi 67', Noa Lang 76', Rayan Cherki 86'.",
+    "caption": "Resultado final de la Champions League: Manchester City 2-2 Napoli. Goles: Rasmus Højlund 55', Ayyoub Bouaddi 67', Noa Lang 76', Rayan Cherki 86'. Datos: ESPN.",
+    "score": 1000,
+    "sport": "FUTBOL",
+    "category": "PARTIDOS",
+    "source": "ESPN",
+    "published_at": "2026-11-24T19:22:26.936152-03:00",
+    "status": "draft",
+    "match_result": [
+      {
+        "name": "Manchester City",
+        "abbr": "MNC",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+        "score": 2
+      },
+      {
+        "name": "Napoli",
+        "abbr": "NAP",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+        "score": 2
+      }
+    ],
+    "queued_at": "2026-11-24T22:22:26.936152+00:00",
+    "photo_used": false,
+    "ai_art_used": false
+  },
+  {
+    "id": "ucl-final-401915299",
+    "title": "RB Leipzig 3-1 Lens",
+    "headline": "RB Leipzig 3-1 Lens",
+    "description": "Resultado final de la Champions League: RB Leipzig 3-1 Lens. Goles: David Raum 6', Antonio Nusa 9', Matthieu Udol 58', Antonio Nusa 90'+4'.",
+    "caption": "Resultado final de la Champions League: RB Leipzig 3-1 Lens. Goles: David Raum 6', Antonio Nusa 9', Matthieu Udol 58', Antonio Nusa 90'+4'. Datos: ESPN.",
+    "score": 1000,
+    "sport": "FUTBOL",
+    "category": "PARTIDOS",
+    "source": "ESPN",
+    "published_at": "2026-11-24T19:22:26.936152-03:00",
+    "status": "draft",
+    "match_result": [
+      {
+        "name": "RB Leipzig",
+        "abbr": "RBL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+        "score": 3
+      },
+      {
+        "name": "Lens",
+        "abbr": "RCL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+        "score": 1
+      }
+    ],
+    "queued_at": "2026-11-24T22:22:26.936152+00:00",
+    "photo_used": false,
+    "ai_art_used": false
+  },
+  {
+    "id": "ucl-final-401915298",
+    "title": "Real Madrid 5-1 PSV Eindhoven",
+    "headline": "Real Madrid 5-1 PSV Eindhoven",
+    "description": "Resultado final de la Champions League: Real Madrid 5-1 PSV Eindhoven. Goles: Ivan Perisic 32', Federico Valverde 50', Jude Bellingham 60', Kylian Mbappé 64', Kylian Mbappé 84', Vinícius Júnior 87'.",
+    "caption": "Resultado final de la Champions League: Real Madrid 5-1 PSV Eindhoven. Goles: Ivan Perisic 32', Federico Valverde 50', Jude Bellingham 60', Kylian Mbappé 64', Kylian Mbappé 84', Vinícius Júnior 87'. Datos: ESPN.",
+    "score": 1000,
+    "sport": "FUTBOL",
+    "category": "PARTIDOS",
+    "source": "ESPN",
+    "published_at": "2026-11-24T19:22:26.936152-03:00",
+    "status": "draft",
+    "match_result": [
+      {
+        "name": "Real Madrid",
+        "abbr": "RMA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+        "score": 5
+      },
+      {
+        "name": "PSV Eindhoven",
+        "abbr": "PSV",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+        "score": 1
+      }
+    ],
+    "queued_at": "2026-11-24T22:22:26.936152+00:00",
+    "photo_used": false,
+    "ai_art_used": false
+  },
+  {
+    "id": "ucl-final-401915297",
+    "title": "Slovan Bratislava 0-2 Real Betis",
+    "headline": "Slovan Bratislava 0-2 Real Betis",
+    "description": "Resultado final de la Champions League: Slovan Bratislava 0-2 Real Betis. Goles: Cucho Hernández 43', Cucho Hernández 57'.",
+    "caption": "Resultado final de la Champions League: Slovan Bratislava 0-2 Real Betis. Goles: Cucho Hernández 43', Cucho Hernández 57'. Datos: ESPN.",
+    "score": 1000,
+    "sport": "FUTBOL",
+    "category": "PARTIDOS",
+    "source": "ESPN",
+    "published_at": "2026-11-24T19:22:26.936152-03:00",
+    "status": "draft",
+    "match_result": [
+      {
+        "name": "Slovan Bratislava",
+        "abbr": "SLB",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/521.png",
+        "score": 0
+      },
+      {
+        "name": "Real Betis",
+        "abbr": "BET",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+        "score": 2
+      }
+    ],
+    "queued_at": "2026-11-24T22:22:26.936152+00:00",
+    "photo_used": false,
+    "ai_art_used": false
   }
 ]
