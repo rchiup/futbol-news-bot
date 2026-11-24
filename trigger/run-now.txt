@@ -84,3 +84,5 @@ Verify expanded Groq allowance and source brief fallback.
 Run Champions final scorecards.
 
 Publish today's Champions results within Meta quota.
+
+Validate ATP/WTA tennis scoreboard integration.
