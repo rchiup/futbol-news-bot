@@ -86,3 +86,5 @@ Run Champions final scorecards.
 Publish today's Champions results within Meta quota.
 
 Validate ATP/WTA tennis scoreboard integration.
+
+Retry tennis integration after test isolation fix.
