@@ -98,8 +98,8 @@ class EditorialTests(unittest.TestCase):
                 self.assertEqual(len(editorial.load_queue()), 1)
 
 
-    def test_no_relevant_photo_never_publishes_blank_card(self):
-        """Preview fallback stays available but not published to Instagram."""
+    def test_no_relevant_photo_publishes_original_editorial_card(self):
+        """Original typographic news cover can publish without a photograph."""
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             queue_path = root / "data" / "queue.json"
@@ -139,21 +139,15 @@ class EditorialTests(unittest.TestCase):
                 make.side_effect = render_without_photo
                 publish.return_value = "test-media-id"
                 result = editorial.run(reference=self.reference)
-                self.assertEqual(result["published"], 0)
-                publish.assert_not_called()
+                self.assertEqual(result["published"], 1)
+                publish.assert_called_once()
                 held = editorial.load_queue()
-                self.assertEqual(held[0]["status"], "needs_review")
-                self.assertEqual(held[0]["visual_mode"], "original_graphic")
-                self.assertEqual(held[0]["photo_deferred_reason"], "no_relevant_photo")
-                self.assertEqual(result["no_photo_deferred"], 1)
-                make.reset_mock()
-                publish.reset_mock()
+                self.assertEqual(held[0]["status"], "published")
+                self.assertEqual(held[0]["visual_mode"], "editorial_typography")
+                self.assertNotIn("photo_deferred_reason", held[0])
                 second = editorial.run(reference=self.reference)
                 self.assertEqual(second["published"], 0)
-                self.assertEqual(second["no_photo_deferred"], 1)
-                make.assert_called()
-                publish.assert_not_called()
-                self.assertEqual(editorial.load_queue()[0]["photo_deferred_reason"], "no_relevant_photo")
+                publish.assert_called_once()
 
     def test_unnamed_18_player_list_is_not_auto_published(self):
         entry = {
