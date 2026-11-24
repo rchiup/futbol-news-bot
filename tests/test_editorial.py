@@ -180,6 +180,30 @@ class EditorialTests(unittest.TestCase):
         self.assertEqual(info["photographer"], "Bryan Berlin / WikiPortraits")
         self.assertTrue(info["image_url"].startswith("https://upload.wikimedia.org/"))
 
+    def test_brentford_empty_tactical_preview_is_rejected(self):
+        item = {
+            "title": "Brentford v Everton: Premier League – live",
+            "headline": "Brentford intentará atacar por bandas a Everton",
+            "caption": "Brentford buscará presionar y atacar por las bandas.",
+        }
+        self.assertTrue(editorial.low_value_match_preview(item))
+
+    def test_brentford_actual_result_is_allowed(self):
+        item = {
+            "title": "Lewis-Potter double and Janelt stunner ease Brentford past Everton",
+            "headline": "Brentford vence a Everton con doblete de Lewis-Potter",
+            "caption": "Brentford derrotó a Everton 3-1 con dos goles de Lewis-Potter.",
+        }
+        self.assertFalse(editorial.low_value_match_preview(item))
+
+    def test_actual_live_match_score_is_allowed(self):
+        item = {
+            "title": "Brentford v Everton: Premier League – live",
+            "headline": "Brentford gana 3-1 a Everton",
+            "caption": "Brentford ganó 3-1 ante Everton.",
+        }
+        self.assertFalse(editorial.low_value_match_preview(item))
+
     def test_untranslated_english_headline_is_rejected(self):
         self.assertTrue(editorial.headline_needs_translation(
             "Chelsea forward victim of robbery after defeat"))
