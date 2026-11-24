@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-24T19:48:35.394761+00:00",
+  "checked_at_utc": "2026-11-24T19:50:43.305032+00:00",
   "local_hour": 16,
   "statuses": {
     "published": 89,
@@ -7,16 +7,16 @@
     "awaiting_ai": 0,
     "needs_review": 93,
     "publish_error": 25,
-    "duplicate": 21
+    "duplicate": 22
   },
   "fresh_candidates": 152,
-  "queued_new": 0,
-  "ai_generated": 0,
-  "preview_images": 5,
-  "published": 1,
-  "duplicates_suppressed": 6,
+  "queued_new": 1,
+  "ai_generated": 1,
+  "preview_images": 1,
+  "published": 0,
+  "duplicates_suppressed": 1,
   "no_photo_deferred": 0,
-  "total_queue": 273,
+  "total_queue": 274,
   "per_run_cap": 3,
   "morning_day_cap": 72,
   "auto_publish_enabled": true,
@@ -35,15 +35,15 @@
   ],
   "free_llm_metrics": {
     "date_utc": "2026-11-24",
-    "last_success": "groq",
+    "last_success": "cloudflare",
     "providers": {
       "groq": {
-        "attempts": 119,
+        "attempts": 120,
         "success": 97,
-        "failures": 22,
+        "failures": 23,
         "avg_latency_ms": 2349,
         "avg_readability": 94.0,
-        "last_error": "http_429"
+        "last_error": "http_503"
       },
       "openrouter": {
         "attempts": 8,
@@ -62,11 +62,11 @@
         "last_error": "http_503"
       },
       "cloudflare": {
-        "attempts": 44,
-        "success": 27,
+        "attempts": 45,
+        "success": 28,
         "failures": 17,
-        "avg_latency_ms": 3262,
-        "avg_readability": 96.7,
+        "avg_latency_ms": 3277,
+        "avg_readability": 96.2,
         "last_error": "invalid_output"
       },
       "nvidia": {

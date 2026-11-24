@@ -8614,5 +8614,40 @@
     },
     "posted_at": "2026-11-24T19:42:54.474449+00:00",
     "instagram_media_id": "18084780404341906"
+  },
+  {
+    "id": "8a5656822dfe6116f629",
+    "title": "Qué dijeron en Marruecos tras el fallo que le dio la Copa Africana de Naciones a Senegal: \"Peligroso precedente\"",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/reaccion-marruecos-decision-tas-copa-africa-senegal-medios_0_KFhE4Xeuru.html",
+    "source": "Olé Argentina",
+    "description": "La prensa marroquí reaccionó con distintas miradas a la resolución del TAS, que les sacó el título, y se los devolvió a los senegaleses.",
+    "published_at": "2026-11-24T19:06:19+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T19:50:43.305032+00:00",
+    "status": "duplicate",
+    "article_context": "Walid Regragui y Hakimi en la final ante Senegal. (EFE/EPA/JALAL MORCHIDI)\nA más de diez meses de la final, la Copa Africana de Naciones tiene un desenlace oficial. El Tribunal de Arbitraje Deportivo (TAS) falló a favor de Senegal y le devolvió el título que había conseguido el 18 de enero, cuando derrotó 1-0 a Marruecos . La resolución dejó sin efecto la decisión de la Confederación Africana de Fútbol , que había retirado el título a los Leones de Teranga y declarado campeón a los marroquíes.\nY lógicamente, el fallo generó repercusiones en Marruecos , donde los principales medios analizaron las consecuencias deportivas e institucionales de la resolución. Con focos cuestionando a los procedimientos hasta intentos de dejar atrás la polémica, enfocándose en el crecimiento de la selección .\nEl portal marroquí fue uno de los más críticos con la resolución y tituló: \" La decisión del TAS abre peligroso precedente para el fútbol mundial y trasciende el conflicto entre Marruecos y Senegal \". En su cuerpo agregó: \"Lo que está en juego es la coherencia del derecho deportivo, la autoridad de los reglamentos y la credibilidad de las instituciones encargadas de garantizar la justicia en el fútbol internacional\".\nAdemás, planteó una pregunta sobre las posibles consecuencias futuras: \" ¿Qué impedirá mañana que otros equipos reproduzcan este comportamiento en un Mundial o en la Champions League para presionar al árbitro y después regresar al terreno de juego? \".\nCon una postura diferente, este medio eligió poner el acento en el futuro de la selección marroquí. \" Para los Leones del Atlas, la historia continúa y sus ambiciones permanecen intactas \", fue el título de la nota. En el cuerpo, sostuvieron que el episodio no debería condicionar los objetivos del equipo.\n\"El asunto ya es cosa del pasado para los Leones del Atlas, cuyas ambiciones van mucho más allá de la decisión tomada en Lausana\", publicaron. También agregaron: \" Marruecos ha progresado lo suficiente como para que su trayectoria ya no pueda medirse con una sola final \".\n\"El TAS otorga el título a Senegal sobre Marruecos, absolviendo al árbitro final”, tituló el diario. Describió la resolución como el cierre de un conflicto que se extendió durante meses, sumó: \"El veredicto ya está dado, sellando definitivamente una de las sagas más turbulentas de la historia reciente del fútbol continental \".\nSin embargo, también reconoció el impacto que tuvo la decisión en el país. \" Para el fútbol marroquí, este fallo deja un sabor amargo \", ya que esperaban que se mantenga la decisión disciplinaria de la CAF.\nEl periódico eligió un título todavía más confrontativo: \" ¿Puede Marruecos todavía frustrar el robo? \". En su artículo, consideró que el fallo representa un revés judicial para el país, aunque dejó abierta la posibilidad de que la disputa continúe.\nAdemás, cuestionaron una supuesta llamada telefónica entre Abdoulaye Fall, presidente de la Federación Senegalesa, y Ulrich Haas, uno de los tres árbitros que analizaron el recurso de Senegal . \"Si este intercambio se confirmara, plantearía serios interrogantes sobre el respeto a las normas procesales, en particular aquellas que rigen la independencia y la imparcialidad de los árbitros \", señalaron.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [
+        "Copa Africana de Naciones"
+      ],
+      "ciudad": [
+        "Marruecos"
+      ]
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Marruecos pierde título",
+    "caption": "El Tribunal de Arbitraje Deportivo falló a favor de Senegal y le devolvió el título de la Copa Africana de Naciones, generando repercusiones en Marruecos. La prensa marroquí reaccionó con críticas y cuestionamientos sobre el procedimiento y las posibles consecuencias futuras.",
+    "ai_generated_at": "2026-11-24T19:50:43.305032+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "duplicate_of": "same_story_as:e871daf382b51a646dde"
   }
 ]
