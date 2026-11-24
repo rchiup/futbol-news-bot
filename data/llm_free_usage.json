@@ -2,9 +2,9 @@
   "date_utc": "2026-11-24",
   "providers": {
     "groq": {
-      "attempts": 163,
+      "attempts": 165,
       "success": 121,
-      "failures": 42,
+      "failures": 44,
       "latencies_ms": [
         2163,
         2094,
