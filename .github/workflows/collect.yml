@@ -68,6 +68,7 @@ jobs:
           FREE_LLM_ORDER: ${{ vars.FREE_LLM_ORDER || 'groq,gemini,openrouter,cloudflare,cerebras,nvidia,zai' }}
           ENABLE_REMBG: 'true'
           BRAND_NAME: ${{ vars.BRAND_NAME || 'CHAO FELICEVICH' }}
+          ENABLE_SOURCE_BRIEF: 'true'
           MAX_DRAFTS_PER_DAY: '180'
           MAX_DRAFTS_PER_RUN: '8'
           MORNING_POSTS_PER_RUN: ${{ vars.MORNING_POSTS_PER_RUN || '3' }}
