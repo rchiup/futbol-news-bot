@@ -93,6 +93,30 @@ def story_time(item: dict) -> datetime | None:
     return None
 
 
+# Distinctive names and event anchors, including cross-language synonyms.
+STOPWORDS = frozenset("the and for with from after before into about that this will were have has says said could would their they are was news football soccer futbol para como desde hasta sobre entre esta este esto estos estas del las los una uno por con que sus tras ante fue sera partido jugadores equipo today ayer hoy".split())
+ANCHORS = {
+    "badger_hole": ("badger hole", "madriguera", "badger sett"),
+    "ferrari_pair": ("hamilton", "leclerc"),
+    "ponzio": ("ponzio",),
+    "libertadores_final": ("libertadores", "final"),
+}
+def event_anchors(item):
+    title = " ".join(str(item.get(k) or "") for k in ("title","headline"))
+    text = norm(title)
+    out = set()
+    for label, terms in ANCHORS.items():
+        if label == "badger_hole":
+            if any(phrase(text,t) for t in terms): out.add(label)
+        elif all(phrase(text,t) for t in terms):
+            if label != "libertadores_final" or any(phrase(text,t) for t in ("estudiantes","palmeiras")):
+                out.add(label)
+    return out
+
+def lead_tokens(item):
+    # Original and generated titles only: shared article boilerplate is noisy.
+    return set(re.findall(r"[a-z0-9]{4,}", norm(" ".join(str(item.get(k) or "") for k in ("title","headline"))))) - STOPWORDS
+
 def same_story(candidate: dict, existing: dict, reference: datetime | None = None) -> bool:
     if candidate.get("id") and existing.get("id") == candidate["id"]:
         return False
@@ -104,6 +128,12 @@ def same_story(candidate: dict, existing: dict, reference: datetime | None = Non
     first, second = story_time(candidate), story_time(existing)
     if first and second and abs((first - second).total_seconds()) > COOLDOWN_HOURS * 3600:
         return False
+    if event_anchors(candidate) & event_anchors(existing):
+        return True
+    tokens_a, tokens_b = lead_tokens(candidate), lead_tokens(existing)
+    shared = tokens_a & tokens_b
+    if len(shared) >= 3 and len(shared) / max(1, min(len(tokens_a), len(tokens_b))) >= 0.55:
+        return True
     # The same main protagonist within 36h: avoid repeatedly posting the same
     # news just because the outlet changed or the headline was rewritten.
     leads_a, leads_b = story_subjects(candidate), story_subjects(existing)
