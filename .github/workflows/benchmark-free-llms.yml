@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'trigger/benchmark-llms-now.txt'
+      - 'trigger/watchdog-now.txt'
   workflow_dispatch:
   schedule:
     - cron: "56 22 * * *"
@@ -11,7 +12,7 @@ permissions:
   contents: write
 jobs:
   watchdog:
-    if: github.ref_name == 'main' && github.event_name == 'schedule'
+    if: github.ref_name == 'main' && (github.event_name == 'schedule' || (github.event_name == 'push' && contains(github.event.head_commit.message, '[watchdog]')))
     runs-on: ubuntu-latest
     timeout-minutes: 2
     outputs:
@@ -44,7 +45,7 @@ jobs:
     uses: ./.github/workflows/collect.yml
     secrets: inherit
   benchmark:
-    if: github.event_name != 'schedule' || github.event.schedule == '56 22 * * *'
+    if: (github.event_name == 'schedule' && github.event.schedule == '56 22 * * *') || github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && !contains(github.event.head_commit.message, '[watchdog]'))
     concurrency:
       group: football-news-engine
       cancel-in-progress: false
