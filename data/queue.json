@@ -9356,5 +9356,91 @@
     },
     "posted_at": "2026-11-24T20:52:53.649180+00:00",
     "instagram_media_id": "18017826611993768"
+  },
+  {
+    "id": "779c8cc630575d7809f0",
+    "title": "Operación exitosa para Aníbal Moreno de su lesión en la zona lumbar: cómo será su rehabilitación y cuándo podría volver a jugar en River",
+    "source_url": "https://www.ole.com.ar/river-plate/river-anibalmoreno-protrusiondiscal-leonardoponzio-pretemporada_0_jp6jYTMo3l.html",
+    "source": "Olé Argentina",
+    "description": "El volante central pasó por el quirófano este martes a la tarde y comenzará la recuperación con el objetivo de iniciar la pretemporada a la par del plantel.",
+    "published_at": "2026-11-24T20:41:16+00:00",
+    "category": "LESIONES",
+    "sport": "FUTBOL",
+    "score": 34,
+    "queued_at": "2026-11-24T20:54:50.516541+00:00",
+    "status": "published",
+    "article_context": "Aníbal Moreno, volante central de River (Instagram).\nPrimer paso cumplido para dejar atrás un calvario físico que lo tuvo a maltraer durante casi todo el segundo semestre de 2026. Este martes a la tarde, Aníbal Moreno fue intervenido quirúrgicamente con éxito de la protrusión discal en la zona lumbar que le permitió jugar apenas 705 minutos en nueve partidos después del receso por el Mundial. De esta manera, el volante central de River , de 27 años, comenzará con su rehabilitación desde este miércoles con el objetivo de iniciar la pretemporada de enero a la par del plantel que hoy dirige Leonardo Ponzio , quien solamente pudo utilzar al ex Palmeiras los 90' del 3-0 contra Belgrano y 17' en el clásico frente a Racing.\nEl problema en la parte baja de la espalda —una discopatía localizada entre la última vértebra lumbar y el sacro — comenzó a fines de agosto, inmediatamente después de la eliminación de River de la Copa Sudamericana frente a Independiente Santa Fe. Aquel episodio dejó al mediocampista catamarqueño 53 días sin actividad oficial y afuera de seis partidos consecutivos del Torneo Clausura (Banfield, Independiente Rivadavia, Atlético Tucumán, Huracán, Estudiantes de La Plata y Sarmiento), período en el que realizó un tratamiento conservador con kinesiología y ejercicios posturales en el gimnasio.\nRecuperado momentáneamente de los dolores más agudos, Moreno reapareció como titular el 18 de octubre en la goleada 3-0 frente a Belgrano en Córdoba, donde logró completar el partido. Sin embargo, una semana más tarde —el 25 de octubre, en el clásico contra su exequipo, Racing, en el Monumental— sufrió una fuerte recaída y debió pedir el cambio entre lágrimas a los 17' minutos del primer tiempo.\nA partir de ese momento no pudo volver a jugar Aníbal Moreno : se perdió el superclásico en la Bombonera , la visita ante Aldosivi y el mata-mata de octavos contra Lanús. Si bien en las semanas posteriores a resentirse de la lasión intentó evitar el quirófano apelando a sesiones de fisioterapia e infiltraciones mediante \"bloqueos\" lumbares para calmar el dolor, los procedimientos alternativos no lograron resolver la afección de raíz. Entonces, ante la persistencia de las molestias y el riesgo que implica una lesión crónica en una zona tan delicada como la columna, entre el cuerpo médico de River y el propio futbolista consensuaron recurrir a la cirugía para solucionar definitivamente la patología y encarar un 2027 desde cero.\nEn principio, Moreno tendrá que hacer un reposo de alrededor de un mes mientras realice sesiones de kinesiología y determinados ejercicios con escasa movilidad que le permitan ir recuperando la masa muscular que naturalmente perderá durante el proceso inicial de la recuperación. El paso siguiente será un intenso trabajo en el gimnasio y en la movilidad de todo su cuerpo, para luego empezar lentamente con ejercicios en el campo que debería aumentar durante el periodo de vacaciones del equipo para sumar chances de arrancar la pretemporada de verano al mismo ritmo que sus compañeros.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "Aníbal Moreno",
+    "visual_entities": {
+      "personas": [
+        "Aníbal Moreno"
+      ],
+      "clubes": [
+        "River"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Aníbal Moreno operado de lumbar, busca iniciar pretemporada",
+    "caption": "Aníbal Moreno, volante central de River, se sometió a una cirugía exitosa por una protrusión discal en la zona lumbar. A partir de mañana iniciará su rehabilitación con sesiones de kinesiología y ejercicios de baja movilidad, con el objetivo de reincorporarse al plantel y comenzar la pretemporada de enero junto a sus compañeros bajo la dirección de Leonardo Ponzio. La intervención busca evitar una lesión crónica y permitirle retomar la actividad competitiva en 2027.",
+    "ai_generated_at": "2026-11-24T20:54:50.516541+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-24T20:55:21.001311+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "AnibalMoreno",
+        "River"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T20:54:50.516541+00:00",
+    "instagram_media_id": "18115342127626623"
+  },
+  {
+    "id": "9311293127b0e4408e45",
+    "title": "Dybala en un deseo que ¿le cierra la puerta a Boca?",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/paulodybala-roma-championsleague-psg-boca-calcio_0_wJrMm9U1fm.html",
+    "source": "Olé Argentina",
+    "description": "Paulo contó que tiene la intención de terminar su carrera en el fútbol italiano. \"Espero que sí, para mí sería muy lindo\", afirmó. Aunque también aclaró: \"Después veremos\".",
+    "published_at": "2026-11-24T20:42:28+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T20:54:50.516541+00:00",
+    "status": "published",
+    "article_context": "Paulo Dybala pasó por la conferencia de prensa previa al partido que la Roma jugará este miércoles, a las 17.00, ante el PSG en París por la Champions League . Y formuló una declaración que parece que cierra la expectativa de un regreso al fútbol argentino. Un periodista le consultó por una frase en la web de la UEFA sobre su deseo de finalizar su carrera en el Calcio y la respuesta resultó contundente.\n\"Espero que sí, para mí sería muy lindo, como dije ahí. Llegué con 18 años y no me veo en otro lado, pero el fútbol cambia mucho, a veces cambia de golpe, sobre todo en este fútbol más moderno, digamos, donde hay muchos movimientos. Pero disfruto ahora, me queda un año de contrato acá y disfruto este momento, de lo que está haciendo el equipo y después veremos\", fue su respuesta.\nA su lado estaba el técnico del Giallorosso, Gian Piero Gasperini, que le consultó si podría ser en otro equipo de Italia, y se permitió sonreír.\nEl futbolista de la Roma habló en la previa de enfrentar al PSG por la Champions League.\nRecordar: varias veces se instaló la posibilidad de que se sume a Boca, club del que confesó ser hincha y en el cual juega Leandro Paredes, excompañero en la Selección Argentina y también en la Roma, un vínculo que potenciaba una incorporación. Esta frase relativiza esa chance, aunque tampoco resulta taxativa porque aclara: \"Después veremos\".\nPaulo se incorporó de Instituto a Palermo en 2012. En 2015 pasó a la Juventus, donde jugó siete temporadas. Desde 2022 es parte del equipo capitalino. Tiene 33 años.\nSobre su estado físico, declaró: \"En este momento me siento bien. No tuve tantos problemas durante el período de la lesión, también porque después hubo la pausa y pude trabajar dos semanas con el equipo. Me sentí bien en los minutos que jugué contra el Parma y, seguramente, con el tiempo, partido tras partido, me sentiré cada vez mejor\".\nLe preguntaron si en el plantel de la Roma hay ambiente ganador. \"En los años en los que estuve en Italia, sobre todo en la Juventus, tuve la posibilidad de ganar. Lo entendés más adelante, porque todavía es pronto para decir si somos un equipo que puede ganar. Creo que hay equipos fuertes en la Serie A que tienen seguramente más experiencia en ganar. Pero somos conscientes de ser un equipo fuerte, con valores. Tenemos un grupo muy sano, muy bonito, y esto muchas veces ayuda a ganar. Este año lo estamos haciendo bien. Ahora llegan muchos partidos difíciles, pero debemos continuar haciendo lo que estamos haciendo. Es lo que te puedo decir. Después, seguramente más adelante veremos si estamos en el camino correcto para aspirar a algo más\".\nLo consultaron por qué patea menos al arco. \"Yo siempre digo que ahora pateo menos porque al míster le gusta que metamos el pase cuando estamos cerca del área, y además (Donyell) Malen está bien. Pienso que es una cuestión de partidos, no creo haber pateado menos. Creo que a veces busqué la mejor solución, la de encontrar a un compañero dentro del área. He rematado en algunos partidos, pero todavía no he encontrado el gol, así que tal vez por eso piensan que tiro menos. Yo estoy tranquilo, sé que tuve esta lesión, que llegó en un momento en el que ni siquiera me lo esperaba, porque me sentía en uno de los mejores momentos del último año\".\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Dybala descarta regreso a Boca y quiere terminar en Italia",
+    "caption": "Paulo Dybala declaró que su intención es concluir su carrera en el fútbol italiano, lo que reduce la posibilidad de un futuro en Boca Juniors. El delantero de la Roma habló antes del duelo de Champions League contra el PSG en París, resaltó que se siente bien de forma física y que aún le queda un año de contrato con el club italiano. También comentó sobre el ambiente del equipo y su papel en el ataque, sin cerrar totalmente la puerta a decisiones posteriores.",
+    "ai_generated_at": "2026-11-24T20:54:50.516541+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-24T20:55:49.608928+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T20:54:50.516541+00:00",
+    "instagram_media_id": "18119491844012470"
   }
 ]
