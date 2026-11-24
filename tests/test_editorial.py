@@ -144,7 +144,16 @@ class EditorialTests(unittest.TestCase):
                 held = editorial.load_queue()
                 self.assertEqual(held[0]["status"], "needs_review")
                 self.assertEqual(held[0]["visual_mode"], "original_graphic")
-                self.assertNotIn("photo_deferred_reason", held[0])
+                self.assertEqual(held[0]["photo_deferred_reason"], "no_relevant_photo")
+                self.assertEqual(result["no_photo_deferred"], 1)
+                make.reset_mock()
+                publish.reset_mock()
+                second = editorial.run(reference=self.reference)
+                self.assertEqual(second["published"], 0)
+                self.assertEqual(second["no_photo_deferred"], 1)
+                make.assert_called()
+                publish.assert_not_called()
+                self.assertEqual(editorial.load_queue()[0]["photo_deferred_reason"], "no_relevant_photo")
 
     def test_unnamed_18_player_list_is_not_auto_published(self):
         entry = {
