@@ -423,18 +423,30 @@ def make_card(item: dict, allow_ai: bool = False, lookup: bool = False,
             item["portrait_info"] = approved
             if approved.get("entity_kind") != "club":
                 item["visual_subject"] = approved["subject"]
-        elif sport == "FUTBOL" and subject and name_in_story(subject, title, summary) and network_lookup:
-            try:
-                item["portrait_info"] = find_portrait(subject)
-            except (requests.RequestException, KeyError, ValueError) as exc:
-                print(f"[PHOTO] Wikimedia lookup unavailable: {type(exc).__name__}")
-                item["portrait_info"] = None
-            if not item.get("portrait_info"):
-                try:
-                    item["portrait_info"] = find_openverse_photo(subject)
-                except (requests.RequestException, KeyError, ValueError) as exc:
-                    print(f"[PHOTO] Openverse lookup unavailable: {type(exc).__name__}")
+        if network_lookup:
             item["photo_checked_at"] = iso(now_utc())
+            groups = entities(item, item.get("visual_entities") or item)
+            names = list(dict.fromkeys(([subject] if subject and name_in_story(subject, title, summary) else []) + groups["personas"]))
+            if not item.get("portrait_info"):
+                for name in names[:2]:
+                    try:
+                        item["portrait_info"] = find_portrait(name)
+                        if item["portrait_info"]:
+                            break
+                    except (requests.RequestException, KeyError, ValueError):
+                        pass
+            if not item.get("portrait_info"):
+                for kind, candidates in (("person", names[:2]), ("club", groups["clubes"][:2])):
+                    for name in candidates:
+                        try:
+                            photo = find_openverse_photo(name, kind=kind, sport=sport)
+                            if photo:
+                                item["portrait_info"] = photo
+                                break
+                        except (requests.RequestException, KeyError, ValueError) as exc:
+                            print(f"[PHOTO] Openverse lookup unavailable: {type(exc).__name__}")
+                    if item.get("portrait_info"):
+                        break
 
         if item.get("portrait_info"):
             try:
@@ -609,7 +621,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     or today_count(queue, "posted_at", reference) >= POSTS_PER_DAY
                     or rolling_post_count(queue, reference) >= POSTS_PER_DAY):
                 break
-            if item.get("status") != "draft":
+            if item.get("status") != "draft" and not (item.get("status") == "needs_review" and (item.get("photo_deferred_reason") == "no_relevant_photo" or item.get("visual_mode") == "original_graphic") and item.get("headline") and item.get("caption")):
                 continue
             repeated = duplicate_reason(item, already_posted, reference)
             if repeated:
@@ -651,23 +663,24 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 photo_is_unchecked = (
                     not item.get("photo_checked_at") or
                     (parse_iso(item.get("photo_checked_at", "")) or reference - timedelta(days=2))
-                    < reference - timedelta(hours=12)
+                    < reference - timedelta(minutes=20)
                 )
-                allow_network_photo = network_photo_lookups < 3 and photo_is_unchecked
+                allow_network_photo = network_photo_lookups < 6 and photo_is_unchecked
                 path = make_card(
                     item, allow_ai=False, lookup=True,
                     network_lookup=allow_network_photo,
                 )
                 if item.get("ai_art_used"):
                     attempted_art_this_run += 1
-                if item.get("photo_checked_at") and allow_network_photo:
+                if allow_network_photo:
                     network_photo_lookups += 1
                 # An ORIGINAL background is useful for previews but the live
                 # feed now requires a real licensed portrait or successful art.
                 # Blank visual covers harmed readability and the audience.
                 if not item.get("photo_used") or item.get("ai_art_used"):
                     item["visual_mode"] = "original_graphic"
-                    item.pop("photo_deferred_reason", None)
+                    item["photo_deferred_reason"] = "no_relevant_photo"
+                    no_photo_deferred += 1
                     print(f"[PHOTO] Awaiting relevant image; not publishing blank card: {item['id']}")
                     item["status"] = "needs_review"
                     continue
@@ -690,6 +703,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                         caption += "\n\n" + credit
                     if (item.get("portrait_info") or {}).get("entity_kind") == "club":
                         caption += "\nFoto de archivo: estadio asociado al club; no corresponde necesariamente al encuentro."
+                item.pop("photo_deferred_reason", None)
                 media_id = publish_image(path, caption, item["id"])
                 item["status"] = "published"
                 item["posted_at"] = iso(reference)
