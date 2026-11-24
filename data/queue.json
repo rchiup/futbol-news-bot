@@ -10381,5 +10381,56 @@
     "portrait_used": false,
     "reference_photo_used": false,
     "duplicate_of": "same_story_as:a364f5a57a6b887f225e"
+  },
+  {
+    "id": "c82cb2a239acf79ef7a8",
+    "title": "Cómo fue la vuelta de San Lorenzo a los entrenamientos",
+    "source_url": "https://www.ole.com.ar/san-lorenzo/sanlorenzo-ciudaddeportiva-rubendarioinsua-agremiados_0_jC3ekPQPWN.html",
+    "source": "Olé Argentina",
+    "description": "El plantel del Ciclón retornó a las prácticas en la Ciudad Deportiva después de cuatro días de descanso y en medio de los atrasos salariales. Los detalles.",
+    "published_at": "2026-11-24T22:30:05+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T22:48:25.590935+00:00",
+    "status": "needs_review",
+    "article_context": "El plantel volvió a los entrenamientos. (Foto: Prensa San Lorenzo)\nEl plantel profesional de San Lorenzo volvió este martes a los entrenamientos en la Ciudad Deportiva después de cuatro días de descanso. La medida había sido tomada por Ruben Darío Insua , en medio de una situación delicada a raíz de la falta de actividad por la imposibilidad de clasificarse a los playoffs y por los atrasos salariales que los viene afectando.\nEn la vuelta, los jugadores del Ciclón no tuvieron novedades sobre una posible solución al conflicto . Si bien hubo una serie de reuniones entre los referentes del equipo y los directivos que manejan las cuentas del club, la CD no mantuvo ayer una comunicación para tratar de darle un poco de claridad a un tema sensible y delicado.\nEl escenario económico y financiero del conjunto azulgrana continúa siendo uno de los principales problemas. Más allá de los cambios de gestión y la renovación de autoridades hace poco menos de seis meses, las dificultades para afrontar los diferentes compromisos se multiplican .\nLa semana pasada fue bastante caliente. Después de idas y vueltas, los empleados de la institución consiguieron que les acreditaran los sueldos , aunque la incertidumbre sobre lo que sucederá en el horizonte cercano es palpable. Distinto es lo que sucede con los jugadores, ya que todavía hay complicaciones para solucionar la situación .\nPor un lado, a los sueldos más altos se les adeuda una parte de agosto y la totalidad de septiembre . Por el otro, a los contratos más bajos se les canceló el noveno mes del año. En cuanto a la remuneración de octubre, según Agremiados (ya está al tanto del escenario), San Lorenzo tiene 45 días para pagar antes de entrar en mora .\n“La gente tiene que ser consciente de que San Lorenzo cuenta con los recursos que cuenta , más con los que se puedan generar de nuestra gestión. Estamos mirando hacia adelante con un 2027 que queremos y pretendemos que sea próspero en todas las áreas, sobre todo en la parte económica financiera y en la tesorería”, señaló hace pocos días Marcelo Culotta, presidente del club hasta diciembre del año que viene, en Equipo Desafío Radio.\nEn medio de esta situación, el Gallego buscará continuar con la planificación deportiva de un plantel que quedará muy reducido después de las vacaciones, las cuales se iniciarán el 4 de diciembre hasta la vuelta a la pretemporada, el 2/1.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "San Lorenzo"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Ciudad Deportiva"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "San Lorenzo vuelve a entrenar tras cuatro días",
+    "caption": "El plantel profesional de San Lorenzo regresó este martes a los entrenamientos en la Ciudad Deportiva después de cuatro días de descanso, medida adoptada por Ruben Darío Insua. El retorno se produce en medio de atrasos salariales y la imposibilidad de clasificar a los playoffs, sin que se haya anunciado una solución al conflicto. Se mantuvieron reuniones entre jugadores y directivos, pero la dirigencia del club no dio una comunicación clara sobre el tema financiero que afecta al conjunto azulgrana.",
+    "ai_generated_at": "2026-11-24T22:48:25.590935+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "c825effb72aa9433c42c",
+    "title": "Dólar superó los 1.032 pesos, mientras el cobre cayó a 5,46 dólares la libra",
+    "source_url": "https://www.cooperativa.cl/noticias/economia/divisas/dolar/dolar-supero-los-1-032-pesos-mientras-el-cobre-cayo-a-5-46-dolares-la/2026-11-24/150844.html",
+    "source": "Cooperativa Deportes Chile",
+    "description": "El dólar continúa fortaleciéndose frente al peso chileno , mientras el cobre mantiene una tendencia a la baja en los mercados internacionales. La divisa estadounidense cerró en 1.032,90 pesos , su mayor nivel desde julio de 2022 —cuando anotó 1.046 pesos—, con un incremento de 16,54 pesos respecto de la jornada anterior, según datos de Bloomberg . Uno de los principales factores detrás de esta alza es la mayor aversión al riesgo de los inversionistas , quienes están trasladando sus recursos hacia activos considerados más seguros, como el dólar ",
+    "published_at": "2026-11-24T18:08:44+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 17,
+    "queued_at": "2026-11-24T22:48:25.590935+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]

@@ -8814,5 +8814,29 @@
     "source": "www.espn.com - SOCCER",
     "collected_at": "2026-11-24T22:40:28.225980+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "e6a7bec3f02c4cd764e268a9f4dbe2b5b8b564c543a3ece30b74bf50deca268d",
+    "title": "Watch Tuesday's Sportscene highlights",
+    "url": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-24T22:48:21.279666+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "c82cb2a239acf79ef7a8b8788856449a7694e859de8feac7f1312239f970eb97",
+    "title": "Cómo fue la vuelta de San Lorenzo a los entrenamientos",
+    "url": "https://www.ole.com.ar/san-lorenzo/sanlorenzo-ciudaddeportiva-rubendarioinsua-agremiados_0_jC3ekPQPWN.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-24T22:48:22.696439+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "c825effb72aa9433c42c927baa91fe5b04b3023f36e4abd29c2b5714bf5ed7e8",
+    "title": "Dólar superó los 1.032 pesos, mientras el cobre cayó a 5,46 dólares la libra",
+    "url": "https://www.cooperativa.cl/noticias/economia/divisas/dolar/dolar-supero-los-1-032-pesos-mientras-el-cobre-cayo-a-5-46-dolares-la/2026-11-24/150844.html",
+    "source": "Cooperativa.cl: Noticias de Chile y el mundo - País, Deportes y más",
+    "collected_at": "2026-11-24T22:48:25.373189+00:00",
+    "status": "pending_review"
   }
 ]
