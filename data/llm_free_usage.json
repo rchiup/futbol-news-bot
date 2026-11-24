@@ -2,11 +2,10 @@
   "date_utc": "2026-11-24",
   "providers": {
     "groq": {
-      "attempts": 167,
-      "success": 121,
-      "failures": 46,
+      "attempts": 169,
+      "success": 122,
+      "failures": 47,
       "latencies_ms": [
-        2163,
         2094,
         1721,
         5267,
@@ -35,10 +34,10 @@
         2295,
         2034,
         2633,
-        2215
+        2215,
+        1552
       ],
       "quality": [
-        100,
         85,
         100,
         85,
@@ -67,10 +66,11 @@
         85,
         85,
         85,
-        85
+        85,
+        100
       ],
       "last_error": "http_429",
-      "blocked_until_utc": 1795561106
+      "blocked_until_utc": 1795562391
     },
     "openrouter": {
       "attempts": 10,
