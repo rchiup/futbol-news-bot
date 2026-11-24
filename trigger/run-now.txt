@@ -80,3 +80,5 @@ Retry publisher after corrected photo retry tests.
 Publish immediately with editorial typography fallback.
 
 Verify expanded Groq allowance and source brief fallback.
+
+Run Champions final scorecards.
