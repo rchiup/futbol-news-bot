@@ -4112,11 +4112,32 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-24T10:55:16.866606+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Ethan Nwaneri",
+    "visual_entities": {
+      "personas": [
+        "Ethan Nwaneri",
+        "Max Dowman"
+      ],
+      "clubes": [
+        "Arsenal",
+        "Dortmund"
+      ],
+      "competicion": [
+        "Premier League",
+        "Bundesliga"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Ethan Nwaneri corre riesgo de quedar olvidado en Arsenal",
+    "caption": "El joven Ethan Nwaneri, quien debutó como el jugador más joven en la Premier League, está cedido al Dortmund de la Bundesliga. Tras una semana de homenajes en Arsenal, su futuro parece incierto y podría quedar como el adolescente olvidado del club.",
+    "ai_generated_at": "2026-11-24T15:48:48.176339+00:00"
   },
   {
     "id": "dc7017a3faf6a8d7b309",
@@ -4160,11 +4181,34 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-24T10:55:16.866606+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Nico Paz",
+    "visual_entities": {
+      "personas": [
+        "Nico Paz",
+        "Enzo"
+      ],
+      "clubes": [
+        "City",
+        "Napoli",
+        "Como",
+        "Arsenal",
+        "Borussia Dortmund"
+      ],
+      "competicion": [
+        "Champions"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Champions inicia con City-Napoli y Arsenal-Dortmund",
+    "caption": "Arranca una nueva fecha de la Champions con el City de Enzo contra el Napoli y el enfrentamiento entre Arsenal y Borussia Dortmund. Los partidos se jugarán este martes y podrán verse por TV y plataformas online.",
+    "ai_generated_at": "2026-11-24T15:48:48.176339+00:00"
   },
   {
     "id": "3802ead40af8ace83ab3",
@@ -4212,7 +4256,26 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-24T11:08:54.831549+00:00",
-    "status": "awaiting_ai"
+    "status": "draft",
+    "visual_subject": "Oliver Bearman",
+    "visual_entities": {
+      "personas": [
+        "Oliver Bearman",
+        "Rafael Câmara"
+      ],
+      "clubes": [
+        "Haas F1"
+      ],
+      "competicion": [
+        "Fórmula 1"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Oliver Bearman sin contrato 2027 con Haas",
+    "caption": "Oliver Bearman sigue siendo el único piloto de la parrilla de Fórmula 1 sin contrato para 2027. Su continuidad en Haas se daba por sentada, pero la renovación está bloqueada por cuestiones salariales, a pesar de que el fichaje de Rafael Câmara antes del GP de Brasil parecía presagiar una extensión pronto.",
+    "ai_generated_at": "2026-11-24T15:48:48.176339+00:00"
   },
   {
     "id": "e5a90e1bcc70e264e29d",
@@ -4225,7 +4288,25 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-24T11:08:54.831549+00:00",
-    "status": "awaiting_ai"
+    "status": "draft",
+    "visual_subject": "Andrew Benson",
+    "visual_entities": {
+      "personas": [
+        "Andrew Benson",
+        "Hamilton",
+        "Leclerc"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": [
+        "Las Vegas"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Hamilton y Leclerc discuten viabilidad de su alianza en Ferrari",
+    "caption": "El corresponsal de BBC F1, Andrew Benson, respondió preguntas sobre la asociación entre Hamilton y Leclerc tras el Gran Premio de Las Vegas. El diálogo se centró en la sostenibilidad de la colaboración en Ferrari.",
+    "ai_generated_at": "2026-11-24T15:48:48.176339+00:00"
   },
   {
     "id": "ca6dc22fb63f33b0fd1c",
@@ -4701,7 +4782,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-24T13:36:41.475440+00:00",
-    "status": "needs_review",
+    "status": "published",
     "visual_subject": "",
     "visual_entities": {
       "personas": [
@@ -4721,13 +4802,15 @@
     "headline": "Úbeda dice que Boca ganó la Sudamericana con jerarquía",
     "caption": "El ex entrenador xeneize Úbeda, que ya tiene un acuerdo para volver a dirigir en el fútbol argentino, comentó que Boca ganó la Copa Sudamericana con jerarquía, refiriéndose a la obtención internacional del equipo dirigido por Arruabarrena.",
     "ai_generated_at": "2026-11-24T13:36:41.475440+00:00",
-    "photo_checked_at": "2026-11-24T13:37:14.780411+00:00",
+    "photo_checked_at": "2026-11-24T15:49:55.624654+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "visual_mode": "original_graphic",
-    "photo_deferred_reason": "no_relevant_photo"
+    "visual_mode": "editorial_typography",
+    "portrait_info": null,
+    "posted_at": "2026-11-24T15:48:48.176339+00:00",
+    "instagram_media_id": "18122902193004435"
   },
   {
     "id": "abf9fd836ea3012f3dc1",
@@ -4740,7 +4823,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-24T13:36:41.475440+00:00",
-    "status": "needs_review",
+    "status": "published",
     "visual_subject": "Freddie Potts",
     "visual_entities": {
       "personas": [
@@ -4767,9 +4850,10 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-24T13:37:16.589707+00:00",
-    "visual_mode": "original_graphic",
-    "photo_deferred_reason": "no_relevant_photo"
+    "photo_checked_at": "2026-11-24T15:50:19.109156+00:00",
+    "visual_mode": "editorial_typography",
+    "posted_at": "2026-11-24T15:48:48.176339+00:00",
+    "instagram_media_id": "17907000897672804"
   },
   {
     "id": "21ce7dcffc8abca2dac5",
@@ -4953,7 +5037,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-24T14:10:17.953874+00:00",
-    "status": "draft",
+    "status": "published",
     "visual_subject": "",
     "visual_entities": {
       "personas": [],
@@ -4971,7 +5055,15 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Seis equipos, incluido Inter, temen descenso en el Brasileirão",
     "caption": "Seis clubes aún no aseguraron su permanencia en la máxima categoría del fútbol brasileño, entre ellos el histórico Inter de Porto Alegre. El descenso se perfila mientras quedan varios partidos por disputar.",
-    "ai_generated_at": "2026-11-24T14:10:17.953874+00:00"
+    "ai_generated_at": "2026-11-24T14:10:17.953874+00:00",
+    "photo_checked_at": "2026-11-24T15:49:24.198842+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "editorial_typography",
+    "posted_at": "2026-11-24T15:48:48.176339+00:00",
+    "instagram_media_id": "17988956895104759"
   },
   {
     "id": "8aa55b549f68d943d1eb",
@@ -5412,6 +5504,155 @@
     "headline": "Bolonia acoge Final 8 de la Copa Davis",
     "caption": "Ocho selecciones competirán en Bolonia en la fase final de la Copa Davis, con partidos al mejor de tres sets para definir al campeón.",
     "ai_generated_at": "2026-11-24T15:45:20.694985+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "569ef8a80973d2f4abe9",
+    "title": "Escándalo en África a horas del fallo del TAS: Marruecos denunció una presunta llamada entre un juez del Tribunal y el presidente de la Federación de Senegal",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/marruecos-senegal-copaafricanadenaciones-tas-caf-abdoulayefall_0_CXQJvLqwyX.html",
+    "source": "Olé Argentina",
+    "description": "La Federación Marroquí sostiene que Abdoulaye Fall se comunicó por teléfono el pasado domingo con un miembro del panel. El apuntado sería Ulrich Haas. Desde el lado de Senegal, rechazaron categóricamente la acusación.",
+    "published_at": "2026-11-24T14:35:09+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T15:48:48.176339+00:00",
+    "status": "draft",
+    "visual_subject": "Abdoulaye Fall",
+    "visual_entities": {
+      "personas": [
+        "Abdoulaye Fall",
+        "Ulrich Haas"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Marruecos denuncia llamada entre juez y presidente senegalés",
+    "caption": "La Federación Marroquí afirma que Abdoulaye Fall habló por teléfono el domingo con Ulrich Haas, miembro del panel del Tribunal, mientras Senegal rechaza categóricamente la acusación, a horas del fallo del TAS.",
+    "ai_generated_at": "2026-11-24T15:48:48.176339+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "b1e5840fd5f5ca3c8e3c",
+    "title": "Millwall face partial stadium closure after discriminatory chants",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/c6wy474lxd22o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Millwall must play a home game in front of a partially-closed stadium as punishment for fans' discriminatory chants.",
+    "published_at": "2026-11-24T14:23:49+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T15:48:48.176339+00:00",
+    "status": "draft",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Millwall"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Millwall jugará con estadio parcialmente cerrado",
+    "caption": "Millwall debe jugar un partido como local con parte del estadio cerrado como sanción por cantos discriminatorios de sus seguidores.",
+    "ai_generated_at": "2026-11-24T15:48:48.176339+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "590af16a02c1c8a017bb",
+    "title": "Senegal restored as Africa Cup of Nations champions after court ruling",
+    "source_url": "https://www.theguardian.com/football/2026/nov/24/afcon-verdict-senegal-morocco-africa-cup-of-nations-champions-court-ruling-cas",
+    "source": "The Guardian",
+    "description": "Senegal won January’s final 1-0 after walking off Result was overturned in March as 3-0 win for Morocco Senegal have been restored as the Africa Cup of Nations champions after a ruling by the court of arbitration for sport (Cas). Senegal beat Morocco 1-0 in a chaotic Afcon final in January but the result was overturned two months later as a 3-0 default win for Morocco by an appeals panel appointed by the Confederation of African Football (Caf). Continue reading...",
+    "published_at": "2026-11-24T14:22:36+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T15:48:48.176339+00:00",
+    "status": "draft",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [
+        "Africa Cup of Nations"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Senegal recupera título de la Copa África tras fallo judicial",
+    "caption": "Senegal ha sido restituido como campeón de la Copa África después de que el Tribunal de Arbitraje Deportivo revocara la decisión que había otorgado una victoria por 3-0 a Marruecos, tras el polémico 1-0 de la final de enero.",
+    "ai_generated_at": "2026-11-24T15:48:48.176339+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "645f907ea38db4d38af3",
+    "title": "Por encima de Bianchi y Gallardo: la tremenda estadística de Arruabarrena en los mata-mata",
+    "source_url": "https://www.ole.com.ar/boca-juniors/boca-partido-eliminatorio-torneo-clausura-rodolfo-arruabarrena-efectividad_0_wZrtV7E9AG.html",
+    "source": "Olé Argentina",
+    "description": "En la previa de un nuevo partido de eliminación directa, y después de haberse consagrado campeón de la Sudamericana, el DT de Boca ostenta una marca envidiable.",
+    "published_at": "2026-11-24T14:18:57+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T15:48:48.176339+00:00",
+    "status": "draft",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "Arruabarrena",
+        "Bianchi",
+        "Gallardo",
+        "DT de Boca"
+      ],
+      "clubes": [
+        "Boca"
+      ],
+      "competicion": [
+        "Sudamericana"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Arruabarrena supera a Bianchi y Gallardo en mata‑mata",
+    "caption": "Arruabarrena registra una estadística sobresaliente en partidos de eliminación directa, superando a Bianchi y Gallardo. El dato surge en la previa de un nuevo encuentro, tras la reciente conquista de la Sudamericana y mientras el director técnico de Boca mantiene la marca.",
+    "ai_generated_at": "2026-11-24T15:48:48.176339+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "42becc96b36037e0dd86",
+    "title": "Why has De Bruyne struggled at Napoli as he returns to Man City?",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/cqglreexkk06o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Kevin de Bruyne's move to Napoli last summer was supposed to mark a continuation of his glittering decade at Manchester City as he approaches the twilight years of his career.",
+    "published_at": "2026-11-24T06:57:16+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 17,
+    "queued_at": "2026-11-24T15:48:48.176339+00:00",
+    "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
