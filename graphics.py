@@ -190,6 +190,33 @@ def render_card(item: dict, brand="CHAO FELICEVICH", destination: Path | None = 
     output = Path(destination or Path("output/previews") / f"{key}.jpg")
     output.parent.mkdir(parents=True, exist_ok=True)
 
+    if not portrait_path:
+        # Purpose-built typographic news cover, not an empty photo template.
+        canvas = Image.new("RGB", (WIDTH, HEIGHT), BASE)
+        d = ImageDraw.Draw(canvas)
+        for y in range(HEIGHT):
+            t = y / HEIGHT
+            d.line((0,y,WIDTH,y), fill=(int(8+12*t),int(16+17*t),int(27+23*t)))
+        d.polygon([(820,0),(1080,0),(1080,460)], fill=(30,43,57))
+        for i in range(5):
+            x = 810 + i*45
+            d.line((x,0,1080,270-i*45), fill=(48,65,78), width=2)
+        d.rectangle((64,196,1016,199), fill=accent)
+        _brand(d, brand, accent)
+        d.text((64,242), ribbon, font=font(32), fill=accent)
+        headline = str(item.get("headline") or item.get("title") or "").strip()
+        face, lines = fit_lines(d, headline, 920, top_size=112, max_lines=5)
+        y = 335
+        for line in lines:
+            d.text((64,y),line,font=face,fill=(249,250,252))
+            y += getattr(face,"size",70)+13
+        d.rectangle((64,y+32,180,y+40),fill=accent)
+        d.line((64,1190,1016,1190),fill=(65,83,98),width=2)
+        d.text((64,1223),"INFORMACIÓN DEPORTIVA",font=font(24,False),fill=(174,190,203))
+        d.text((1016,1223),"CF",font=font(30),fill=accent,anchor="ra")
+        canvas.save(output,"JPEG",quality=94,optimize=True)
+        return output
+
     canvas = None
     if portrait_path and not ai_art and (item.get("portrait_info") or {}).get("entity_kind") != "club":
         canvas = _cutout_background(Path(portrait_path), accent)
