@@ -1,27 +1,27 @@
 {
-  "checked_at_utc": "2026-11-24T00:10:52.980111+00:00",
-  "local_hour": 21,
+  "checked_at_utc": "2026-11-24T01:16:17.010984+00:00",
+  "local_hour": 22,
   "statuses": {
-    "published": 26,
+    "published": 27,
     "draft": 0,
-    "awaiting_ai": 16,
-    "needs_review": 68,
+    "awaiting_ai": 21,
+    "needs_review": 70,
     "publish_error": 25,
     "duplicate": 9
   },
   "fresh_candidates": 127,
   "queued_new": 8,
-  "ai_generated": 7,
+  "ai_generated": 3,
   "preview_images": 5,
   "published": 1,
   "duplicates_suppressed": 0,
   "no_photo_deferred": 0,
-  "total_queue": 152,
+  "total_queue": 160,
   "per_run_cap": 3,
   "morning_day_cap": 72,
   "auto_publish_enabled": true,
   "ai_image_provider_configured": true,
-  "ai_art_enabled": true,
+  "ai_art_enabled": false,
   "ai_image_provider_order": [
     "cloudflare"
   ],
@@ -33,12 +33,12 @@
     "last_success": "groq",
     "providers": {
       "groq": {
-        "attempts": 8,
-        "success": 7,
-        "failures": 1,
-        "avg_latency_ms": 1730,
+        "attempts": 12,
+        "success": 10,
+        "failures": 2,
+        "avg_latency_ms": 1702,
         "avg_readability": 100.0,
-        "last_error": "http_429"
+        "last_error": "invalid_output"
       }
     }
   }

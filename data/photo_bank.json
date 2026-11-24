@@ -1,0 +1,20 @@
+{
+  "person:pablo prigioni": {
+    "subject": "Pablo Prigioni",
+    "wikidata_id": "Q359401",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Prigioni_-_2023_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "public domain",
+    "license_url": "",
+    "commons_filename": "Prigioni - 2023 (cropped).jpg",
+    "photographer": "",
+    "credit_required": false,
+    "share_alike": false,
+    "width": 1267,
+    "height": 1691,
+    "file_page": "https://commons.wikimedia.org/wiki/File:Prigioni_-_2023_%28cropped%29.jpg",
+    "entity_kind": "person",
+    "entity_qid": "Q359401",
+    "photo_provider": "Wikidata photo bank",
+    "verified_at": "2026-11-24T01:16:38.645978+00:00"
+  }
+}
