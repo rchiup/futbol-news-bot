@@ -2,11 +2,10 @@
   "date_utc": "2026-11-24",
   "providers": {
     "groq": {
-      "attempts": 118,
-      "success": 96,
+      "attempts": 119,
+      "success": 97,
       "failures": 22,
       "latencies_ms": [
-        2376,
         1486,
         2245,
         1552,
@@ -35,10 +34,10 @@
         2094,
         1721,
         5267,
-        3035
+        3035,
+        2151
       ],
       "quality": [
-        85,
         100,
         100,
         100,
@@ -67,7 +66,8 @@
         85,
         100,
         85,
-        85
+        85,
+        100
       ],
       "last_error": "http_429",
       "blocked_until_utc": 1795549473
@@ -193,5 +193,5 @@
       "blocked_until_utc": 1795552464
     }
   },
-  "last_success": "cloudflare"
+  "last_success": "groq"
 }

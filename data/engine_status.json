@@ -1,17 +1,17 @@
 {
-  "checked_at_utc": "2026-11-24T19:42:54.474449+00:00",
+  "checked_at_utc": "2026-11-24T19:45:57.258275+00:00",
   "local_hour": 16,
   "statuses": {
-    "published": 85,
-    "draft": 33,
-    "awaiting_ai": 1,
+    "published": 88,
+    "draft": 31,
+    "awaiting_ai": 0,
     "needs_review": 69,
     "publish_error": 25,
     "duplicate": 15
   },
   "fresh_candidates": 152,
-  "queued_new": 1,
-  "ai_generated": 7,
+  "queued_new": 0,
+  "ai_generated": 1,
   "preview_images": 5,
   "published": 3,
   "duplicates_suppressed": 0,
@@ -35,14 +35,14 @@
   ],
   "free_llm_metrics": {
     "date_utc": "2026-11-24",
-    "last_success": "cloudflare",
+    "last_success": "groq",
     "providers": {
       "groq": {
-        "attempts": 118,
-        "success": 96,
+        "attempts": 119,
+        "success": 97,
         "failures": 22,
-        "avg_latency_ms": 2357,
-        "avg_readability": 93.5,
+        "avg_latency_ms": 2349,
+        "avg_readability": 94.0,
         "last_error": "http_429"
       },
       "openrouter": {

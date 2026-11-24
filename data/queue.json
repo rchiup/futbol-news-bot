@@ -5383,11 +5383,25 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T13:36:41.475440+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Amir Hatami",
+    "visual_entities": {
+      "personas": [
+        "Amir Hatami"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Irán endurece bloqueo de Ormuz hasta que EE.UU. cumpla exigencias",
+    "caption": "El mayor general Amir Hatami, comandante en jefe del Ejército iraní, ordenó a la Armada que refuerce el bloqueo del estrecho de Ormuz y lo cierre progresivamente hasta que Estados Unidos satisfaga las siete condiciones exigidas por Irán, tras el aumento de incidentes contra buques que Teherán considera suyos.",
+    "ai_generated_at": "2026-11-24T19:45:57.258275+00:00"
   },
   {
     "id": "378220ca539d21c52ac5",
@@ -6661,7 +6675,7 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-24T16:31:13.962347+00:00",
-    "status": "draft",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -6679,7 +6693,19 @@
     "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
     "headline": "Ben Golliver analiza",
     "caption": "Examina la principal trama de los primeros 30 días para los 30 equipos de la NBA",
-    "ai_generated_at": "2026-11-24T19:01:07.101607+00:00"
+    "ai_generated_at": "2026-11-24T19:01:07.101607+00:00",
+    "photo_checked_at": "2026-11-24T19:46:33.050079+00:00",
+    "portrait_info": null,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "NBA",
+        "BenGolliver"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T19:45:57.258275+00:00",
+    "instagram_media_id": "18001359729047623"
   },
   {
     "id": "85eb0af43020b522e0ab",
@@ -6692,7 +6718,7 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-24T16:31:13.962347+00:00",
-    "status": "draft",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -6711,7 +6737,20 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Boozer, Dybantsa y siete novatos analizados tras su primer mes",
     "caption": "Insiders de la NBA revisan el desempeño de nueve jugadores de primera temporada, entre ellos Boozer y Dybantsa, tras el primer mes de la campaña 2026‑27.",
-    "ai_generated_at": "2026-11-24T19:31:01.457121+00:00"
+    "ai_generated_at": "2026-11-24T19:31:01.457121+00:00",
+    "photo_checked_at": "2026-11-24T19:47:01.067106+00:00",
+    "portrait_info": null,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "NBA",
+        "Boozer",
+        "Dybantsa"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T19:45:57.258275+00:00",
+    "instagram_media_id": "18026967902718805"
   },
   {
     "id": "4f30a1fc21ccccb115fe",
@@ -6724,7 +6763,7 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-24T16:31:13.962347+00:00",
-    "status": "draft",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -6740,7 +6779,17 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "NBA publica ranking de novatos de la temporada",
     "caption": "ESPN NBA lanzó su primera edición del ranking de novatos, destacando a diez jugadores que se han destacado en los primeros partidos de la campaña 2026‑27.",
-    "ai_generated_at": "2026-11-24T19:31:01.457121+00:00"
+    "ai_generated_at": "2026-11-24T19:31:01.457121+00:00",
+    "photo_checked_at": "2026-11-24T19:47:26.692807+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "NBA"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T19:45:57.258275+00:00",
+    "instagram_media_id": "18120536663038946"
   },
   {
     "id": "33316404e9abec7cce03",
