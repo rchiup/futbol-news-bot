@@ -9688,5 +9688,41 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "92055fdcfcf267e64609",
+    "title": "Bellingham stunner helps Real Madrid see off PSV",
+    "source_url": "https://www.bbc.co.ukundefined/?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Jude Bellingham scores a stunning goal as Real Madrid come from behind to beat PSV Eindhoven and maintain their 100% start in the Champions League.",
+    "published_at": "2026-11-24T20:48:46+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T22:06:51.365578+00:00",
+    "status": "draft",
+    "visual_subject": "Jude Bellingham",
+    "visual_entities": {
+      "personas": [
+        "Jude Bellingham"
+      ],
+      "clubes": [
+        "Real Madrid",
+        "PSV Eindhoven"
+      ],
+      "competicion": [
+        "Champions League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Bellingham decide el triunfo del Real Madrid ante PSV",
+    "caption": "Jude Bellingham anotó un gol de antología que permitió al Real Madrid revertir el marcador y vencer al PSV Eindhoven, manteniendo su arranque perfecto en la fase de grupos de la Champions League.",
+    "ai_generated_at": "2026-11-24T22:06:51.365578+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
