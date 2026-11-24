@@ -24,6 +24,9 @@ jobs:
           cache: pip
       - name: Install dependencies
         run: pip install -r requirements.txt
+      - name: Install optional CPU photo cutout
+        continue-on-error: true
+        run: pip install 'rembg[cpu]>=2.0.66,<3'
       - name: Run automated tests and save a health report
         run: python diagnose_v2.py
       - name: Check Cloudflare image generation on manual push
@@ -81,6 +84,7 @@ jobs:
           CEREBRAS_FREE_TIER_CONFIRMED: ${{ vars.CEREBRAS_FREE_TIER_CONFIRMED || 'false' }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           FREE_LLM_ORDER: ${{ vars.FREE_LLM_ORDER || 'groq,gemini,cerebras,openrouter' }}
+          ENABLE_REMBG: 'true'
           BRAND_NAME: ${{ vars.BRAND_NAME || 'CHAO FELICEVICH' }}
           MAX_DRAFTS_PER_DAY: '180'
           MAX_DRAFTS_PER_RUN: '8'
