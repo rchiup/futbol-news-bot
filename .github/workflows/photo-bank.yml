@@ -23,8 +23,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -f data/photo_bank.json ]; then
-            git add data/photo_bank.json
+          if [ -f data/photo_bank.json ] || [ -f data/photo_bank_cursor.json ]; then
+            if [ -f data/photo_bank.json ]; then git add data/photo_bank.json; fi
+            if [ -f data/photo_bank_cursor.json ]; then git add data/photo_bank_cursor.json; fi
             if ! git diff --cached --quiet; then
               git commit -m "Warm verified photo bank"
               git pull --rebase origin main
