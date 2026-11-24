@@ -10521,5 +10521,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "6bf4e7b3885e8e49a0f5",
+    "title": "Fiscalía de Paraguay acusó al destituido Santiago Peña por lavado de activos y cohecho agravado",
+    "source_url": "https://www.cooperativa.cl/noticias/mundo/paraguay/fiscalia-de-paraguay-acuso-al-destituido-santiago-pena-por-lavado-de/2026-11-24/200320.html",
+    "source": "Cooperativa Deportes Chile",
+    "description": "La Fiscalía de Paraguay acusó este martes por presunto lavado de activos y cohecho pasivo agravado al expresidente Santiago Peña , dentro de la investigación por la intervención de Ueno bank , en la que también fue imputado su hermano Francisco Peña y su cuñada, Rocío Caballero Bosch , informó esa institución. Los nuevos cargos contra el exmandatario constituyen una ampliación de la imputación que se suman a la acusación inicial de lesión de confianza, administración en provecho propio y asociación criminal . La imputación se hizo pública despu",
+    "published_at": "2026-11-24T23:03:20+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T23:11:03.928859+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
