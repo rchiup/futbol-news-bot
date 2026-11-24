@@ -40,10 +40,11 @@ def title_matches_person(title: str, subject: str) -> bool:
     return not any(re.search(r"\b" + re.escape(word) + r"\b", norm) for word in bad)
 
 
-def find_openverse_photo(subject: str, session=requests) -> dict | None:
+def find_openverse_photo(subject: str, session=requests, kind="person", sport="FUTBOL") -> dict | None:
+    sport_query = {"FUTBOL":"football", "TENIS":"tennis", "NBA":"basketball", "F1":"formula one", "GOLF":"golf"}.get(sport,"sports")
     res = session.get(
         SEARCH_API,
-        params={"q": subject + " football", "license_type": "commercial,modification",
+        params={"q": subject + (" stadium" if kind == "club" else " " + sport_query), "license_type": "commercial,modification",
                 "page_size": 12},
         headers={"User-Agent": "ChaoFelicevichFootballBot/2.1 (open photos; contact via GitHub)"},
         timeout=12,
@@ -54,7 +55,15 @@ def find_openverse_photo(subject: str, session=requests) -> dict | None:
     results = sorted(results, key=lambda row: min(int(row.get("width") or 0), int(row.get("height") or 0)), reverse=True)
     for row in results:
         title = str(row.get("title") or "")
-        if not title_matches_person(title, subject):
+        if kind == "club":
+            norm, club = normalize(title), normalize(subject)
+            if len(club) < 4 or not re.search(r"(?<!\w)" + re.escape(club) + r"(?!\w)", norm):
+                continue
+            if not any(w in norm for w in ("stadium", "estadio", "arena", "ground", "stade")):
+                continue
+            if any(w in norm for w in ("model", "render", "illustration", "logo", "drawing")):
+                continue
+        elif not title_matches_person(title, subject):
             continue
         if str(row.get("category", "")).lower() != "photograph":
             continue
@@ -93,7 +102,7 @@ def find_openverse_photo(subject: str, session=requests) -> dict | None:
             "license_url": license_url, "commons_filename": title,
             "photographer": author if credit else "",
             "credit_required": credit, "share_alike": license_name == "by-sa",
-            "file_page": page, "photo_provider": "Openverse",
+            "file_page": page, "photo_provider": "Openverse", "entity_kind": kind,
         }
     return None
 
