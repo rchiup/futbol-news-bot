@@ -3916,7 +3916,7 @@
     "sport": "FUTBOL",
     "score": 34,
     "queued_at": "2026-11-24T10:55:16.866606+00:00",
-    "status": "needs_review",
+    "status": "published",
     "visual_subject": "Rio Ngumoha",
     "visual_entities": {
       "personas": [
@@ -3938,13 +3938,14 @@
     "caption": "Rio Ngumoha (Liverpool) y Luca Williams‑Barnett (Tottenham) se destacan como los delanteros más jóvenes en marcar en la Premier League esta temporada, según BBC Sport.",
     "ai_generated_at": "2026-11-24T10:55:16.866606+00:00",
     "portrait_info": null,
-    "photo_checked_at": "2026-11-24T10:55:30.819989+00:00",
+    "photo_checked_at": "2026-11-24T16:17:27.153871+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "visual_mode": "original_graphic",
-    "photo_deferred_reason": "no_relevant_photo"
+    "visual_mode": "editorial_typography",
+    "posted_at": "2026-11-24T16:16:05.590842+00:00",
+    "instagram_media_id": "18120734329814521"
   },
   {
     "id": "c021c1082c38f99865fb",
@@ -4480,7 +4481,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-24T12:59:35.838734+00:00",
-    "status": "needs_review",
+    "status": "published",
     "visual_subject": "",
     "visual_entities": {
       "personas": [
@@ -4502,8 +4503,11 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "visual_mode": "original_graphic",
-    "photo_deferred_reason": "no_relevant_photo"
+    "visual_mode": "editorial_typography",
+    "photo_checked_at": "2026-11-24T16:18:25.412630+00:00",
+    "portrait_info": null,
+    "posted_at": "2026-11-24T16:16:05.590842+00:00",
+    "instagram_media_id": "17901947436609455"
   },
   {
     "id": "b20a336c5d8e6c70e799",
@@ -5137,7 +5141,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T14:10:17.953874+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "visual_subject": "George Peat",
     "visual_entities": {
       "personas": [
@@ -5164,7 +5168,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T14:10:17.953874+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "visual_subject": "",
     "visual_entities": {
       "personas": [],
@@ -5435,7 +5439,7 @@
     "sport": "FUTBOL",
     "score": 25,
     "queued_at": "2026-11-24T15:45:20.694985+00:00",
-    "status": "draft",
+    "status": "published",
     "visual_subject": "",
     "visual_entities": {
       "personas": [],
@@ -5453,7 +5457,11 @@
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-24T16:16:58.574159+00:00",
+    "visual_mode": "editorial_typography",
+    "posted_at": "2026-11-24T16:16:05.590842+00:00",
+    "instagram_media_id": "18173166130480289"
   },
   {
     "id": "897552e6948cb78cfde4",
@@ -5466,7 +5474,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T15:45:20.694985+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "visual_subject": "Jannik Sinner",
     "visual_entities": {
       "personas": [
@@ -5499,7 +5507,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T15:45:20.694985+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "visual_subject": "",
     "visual_entities": {
       "personas": [
@@ -5532,7 +5540,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T15:45:20.694985+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "visual_subject": "Achraf Hakimi",
     "visual_entities": {
       "personas": [
@@ -5565,7 +5573,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T15:45:20.694985+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "visual_subject": "",
     "visual_entities": {
       "personas": [],
@@ -5598,7 +5606,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T15:48:48.176339+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "visual_subject": "Abdoulaye Fall",
     "visual_entities": {
       "personas": [
@@ -5630,7 +5638,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T15:48:48.176339+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "visual_subject": "",
     "visual_entities": {
       "personas": [],
@@ -5661,7 +5669,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T15:48:48.176339+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "visual_subject": "",
     "visual_entities": {
       "personas": [],
@@ -5692,7 +5700,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T15:48:48.176339+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "visual_subject": "",
     "visual_entities": {
       "personas": [
@@ -5747,7 +5755,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T16:01:01.187936+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "article_context": "Heaven has made 32 appearances for Manchester United\nManchester United defender Ayden Heaven is open to a loan move in January amid concerns over his game time as his side battles in the Premier League relegation zone.\nThe 20-year-old centre-back is concerned about what United's current situation means for his development, after new manager Mauricio Pochettino left him as an unused substitute in Sunday's 4-0 defeat at Liverpool .\nNow on his third manager in 21 months since joining from Arsenal in February 2025, Heaven accepts Pochettino may prefer more experienced options as United attempt to avoid a shock relegation.\nThe club have also been heavily linked with signing a centre-back in the coming January window, with targets said to include Fulham 's Calvin Bassey.\nHowever, the Cottagers regard Bassey as an important player and would not encourage any interest.\nFulham and Barcelona are among the clubs to have expressed an interest in Heaven, with both having tried to sign him when he decided to leave Arsenal .\nThe England U20s defender's preference is believed to be a loan move, though he would also entertain permanent offers.\nAt United he has largely been used as a back-up option and, after enjoying a run in the team under former manager Ruben Amorim, he lost his place under Michael Carrick. He returned to the side only after an injury crisis hit the club last season.\nHeaven is also capable of playing at left-back and in midfield, but does not expect to be trusted as a regular starter amid the instability at Old Trafford, with the club 19th in the league.\nHe is under contract until 2029 in a deal that includes an option for an extra year.\n'No-one's coming to save us' - but how can Man Utd save themselves?\nChaotic week, nightmare start and huge reality check for Pochettino\nWho has made Troy's Premier League team of the week?\nPre-match, post-match and topical United content\nSubscribe and listen for everything you love about the Red Devils\nSenegal reinstated as Afcon 2025 winners by court ruling\n'The rest of the world noticed' - Welshman Donald demolishes Aussies\nWhy has De Bruyne struggled at Napoli as he returns to Man City?\nA festive comedy featuring Jason Bateman, Olivia Munn and Jennifer Aniston\nIs cough medicine any better than just taking honey and lemon?\nLucy unlocks the secrets of four spectacular palaces\nThe controversial operation that transplanted a baboon's heart into a baby\n115 days, 39 private-jet flights, one election - Infantino's globetrotting\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nTwo goals in 15 games - what's going on with Gyokeres?\nEngland's tearaway quick bowler reinvented as a top-order batter\nA 'wow' player - why Ngumoha is already a Liverpool game-changer\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland will not get carried away by beating All Blacks\nVerstappen a constant amid chaos as he says Russell is 'so far below my level'\nThe sandpaper plot - who was there, who said what?\nThe 3pm football blackout: Outdated or still relevant in 2026?\nJosh Kerr: The making of the man behind the shades\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
     "visual_subject": "Ayden Heaven",
     "visual_entities": {
@@ -5767,6 +5775,166 @@
     "headline": "Ayden Heaven busca préstamo en enero para jugar",
     "caption": "El defensa de Manchester United, Ayden Heaven, de 20 años, está abierto a un préstamo en enero tras ver limitada su participación en el equipo, que lucha contra el descenso en la Premier League. Tras haber sido suplente en la derrota 4-0 ante Liverpool y con el nuevo entrenador Mauricio Pochettino prefiriendo opciones más experimentadas, Heaven busca minutos de juego para su desarrollo, aunque también consideraría ofertas permanentes. El club tiene vinculada la llegada de Calvin Bassey, pero Fulham no fomentaría el interés. Heaven, bajo contrato hasta 2029, también puede jugar de lateral izquierdo o mediocampista.",
     "ai_generated_at": "2026-11-24T16:01:01.187936+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "7273234a22d0604ea829",
+    "title": "Man United win appeal over Yoro red card against Liverpool",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50583223/man-united-win-appeal-leny-yoro-red-card",
+    "source": "ESPN",
+    "description": "Manchester United defender Leny Yoro's one-match suspension has been removed following a successful claim of wrongful dismissal.",
+    "published_at": "2026-11-24T15:34:07+00:00",
+    "category": "PARTIDOS",
+    "sport": "FUTBOL",
+    "score": 34,
+    "queued_at": "2026-11-24T16:16:05.590842+00:00",
+    "status": "duplicate",
+    "article_context": "Manchester United have won their appeal over Leny Yoro 's red card against Liverpool .\nThe Frenchman was dismissed after eight minutes at Anfield after a challenge on Alexander Isak . On-field referee Sam Barrott decided Yoro had denied a clear goalscoring opportunity, a view backed up by VAR John Brooks.\nUnited, who lost 4-0 in Mauricio Pochettino's first game as head coach, launched an appeal on Monday, insisting that Isak's heavy touch meant he would not have had the chance to score.\nThe Football Association announced on Tuesday that the claim of wrongful dismissal has been upheld and Yoro's one-match ban has been lifted.\nA statement issued by the FA read: \"Leny Yoro's one-match suspension has been removed following a successful claim of wrongful dismissal.\n\"The Manchester United player was sent off for denying an obvious goal scoring opportunity during their Premier League match against Liverpool on Sunday Nov. 22.\"\nBruno Fernandes told the BBC that it was \"never a red card,\" adding: \"I think it's too many referees on the pitch and too many on VAR, seated, with such a long time to see and put it back, go forward, put it back, do it in slow motion, whatsoever.\n\"To make a mistake like this can change a game. But obviously, then, it's not because of them that we concede the goal from the free-kick, but it changes completely the flow of the game.\"\nPochettino said: \"I wasn't agreeing with the red card because I think the situation was when Isak control the ball, the ball wasn't in his control.\"\nKobbie Mainoo added: \"The ball is already with the keeper when he's gone down, two players running at full speed. I mean, it's impossible to be a red, but it is what it is.\"\nLiverpool boss Andoni Iraola defended the referee's decision, saying: \"[Yoro] is clearly the last man, it is clearly a foul. Would Alex or the 'keeper arrive first to the ball? We will never know. It's a clear foul, he's a last player, Alex goes against the 'keeper.\"\nIt's the second major refereeing error in a game involving United this season. In September, referee's body Pro Ref apologised after Erling Haaland 's goal at Old Trafford was mistakenly allowed to stand.\nCity, who were reduced to 10 men in the first half after Phil Foden 's red card, won the game 1-0.",
+    "visual_subject": "Leny Yoro",
+    "visual_entities": {
+      "personas": [
+        "Leny Yoro"
+      ],
+      "clubes": [
+        "Manchester United",
+        "Liverpool"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Liverpool"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Manchester United anula suspensión de Leny Yoro",
+    "caption": "La sanción de un partido impuesta a Leny Yoro tras su expulsión contra Liverpool ha sido revocada después de que la FA aceptara la apelación del club. El defensor francés, expulsado en los ocho minutos iniciales por negar una clara oportunidad de gol, recupera su disponibilidad para el próximo encuentro de la Premier League.",
+    "ai_generated_at": "2026-11-24T16:16:05.590842+00:00",
+    "duplicate_of": "same_story_as:a364f5a57a6b887f225e"
+  },
+  {
+    "id": "8f15644bd1a3ab258e3c",
+    "title": "Women's World Cup returning to U.S. shows how the game has grown since 1999",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50576097/us-host-2031-womens-world-cup",
+    "source": "ESPN",
+    "description": "Women's soccer was forever changed when the U.S. hosted the 1999 World Cup. With it returning in 2031, ESPN charts the game's explosive growth.",
+    "published_at": "2026-11-24T12:33:52+00:00",
+    "category": "SELECCIONES",
+    "sport": "FUTBOL",
+    "score": 31,
+    "queued_at": "2026-11-24T16:16:05.590842+00:00",
+    "status": "duplicate",
+    "article_context": "The Women's World Cup is coming back to the United States, with FIFA making the announcement Monday that the U.S., along with Costa Rica, Jamaica and Mexico will be co-hosting the 2031 edition of the tournament .\nThe 2031 World Cup will mark the first time that 48 teams will compete for the trophy, signifying the immense growth that women's soccer has enjoyed in recent years.\n\"This is a historic moment for our four countries, but the opportunity is much bigger than any one of us. Together with FIFA, we want to deliver the biggest and most impactful Women's World Cup in history and use its success to accelerate the growth of women's soccer around the world,\" said U.S. Soccer president Cindy Parlow Cone. \"Our ambition is to create a tournament that not only inspires millions of players, but helps give them the opportunities to play, grow and pursue their dreams.\"\nAs such, it will have been 32 years since the U.S. first hosted the competition, when Brandi Chastain's iconic celebration capped off an epic run to the title by the U.S. women's national team . (The U.S. hosted the 2003 edition as well due to the SARS pandemic). Suffice it to say, the paths the women's game has trodden since make \"The Odyssey\" look like a Sunday cruise.\nThe U.S. witnessed two domestic leagues go under. Each failure seemed like a death knell for the sport, leaving fans to wonder whether there would ever be a viable club competition for the country's best players. Even as the third attempt, the NWSL , struggled to survive, it was deeply wounded by a sex abuse scandal . That outrage left scars that for some won't ever fully heal.\nYet the women's game has been nothing if not resilient. At club level, new investment poured into the NWSL, and with it, a level of stability and media attention that seemed unfathomable a decade ago. The league reported that total regular-season attendance rose to 2.5 million. According to Forbes, team valuations now average $200 million .\nThe developments abroad have been even more encouraging. For the first two decades after that fateful 1999 World Cup, the U.S. was the dominant power. The Americans won four World Cups in total and claimed another four Olympic gold medals following their victory in the inaugural competition in 1996.\nAs euphoric as those wins were for U.S. fans, it didn't necessarily speak to a healthy competition on a worldwide basis. But eventually, investment in other countries began to increase. Clubs in Spain, England and Mexico dedicated more resources to the women's game, and as a consequence rose up to challenge the sport's traditional powers, including the likes of the U.S., Japan , France and others.\nThat increase in investment and competition has seen some tangible results. Earlier this year, Club América claimed the Concacaf W Champions Cup, beating Gotham FC and the Washington Spirit along the way. At international level, Spain has assumed the mantle of the best women's national team in the world, claiming its first World Cup in 2023.\nThe oft-discussed gap between the USWNT and the rest of the world has vanished. Yes, the U.S. claimed Olympic gold again in 2024, but just a year before exited the World Cup in the round of 16. Claiming the top spot on the podium can no longer be expected like it was in the past.\nThat has resulted in plenty of introspection in the United States. The college game in the U.S. was once viewed as the gold standard for developing players. Not so now with players elsewhere entering professional environments at younger and younger ages.\nAli Krieger, Cristina Alexander and Jeff Kassouf debate the biggest storylines and break down the best highlights from women's soccer in the Americas. Stream on ESPN+ (U.S. only)\nThis is a healthy development for women's soccer. Steel sharpens steel, as the saying goes, and forcing clubs, leagues and other stakeholders to innovate to stay competitive is vital to the sport's overall growth.\nThat prospect is what makes the next five years so exciting. There are challenges to be sure. The fight for a bigger slice of resources -- from wages to sponsorship to infrastructure -- is never ending, but the trend in terms of gaining a bigger piece of those investments is decidedly upward.\nThose benefits look set to extend to the U.S.'s co-hosts. Much like the men's World Cup in 2026, the U.S. figures to host the vast majority of matches, but at the very least, there will more eyeballs and interest in the countries that are co-hosting.\nThe five-year window before the tournament kicks off provides a lengthy on-ramp in terms of securing sponsorship and generating interest. On the field, will countries like Colombia , Morocco and Portugal continue to develop and threaten to further upset the status quo?\nWomen's soccer has navigated a challenging path to get to its current, stable place in the world sporting landscape. Next year's Women's World Cup in Brazil should provide a dose of rocket fuel to help create even more momentum ahead of 2031. Charting the sport's continued growth is something observers of all stripes will look upon with interest.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "EE.UU. co-anfitrionará la Copa Mundial Femenina 2031",
+    "caption": "FIFA confirmó que Estados Unidos, junto a Costa Rica, Jamaica y México, será co-anfitrión de la edición 2031 de la Copa Mundial Femenina, la primera con 48 selecciones. La presidenta de la US Soccer, Cindy Parlow Cone, destacó que el torneo busca impulsar el crecimiento global del fútbol femenino. La ampliación del cuadro y la participación de cuatro países subrayan la evolución del deporte desde el histórico Mundial de 1999.",
+    "ai_generated_at": "2026-11-24T16:16:05.590842+00:00",
+    "duplicate_of": "same_story_as:cb0243147c6032f95dcc"
+  },
+  {
+    "id": "3a7db07afe04f04c1ead",
+    "title": "Champions League live updates: Arsenal host Dortmund, Man City take on Napoli",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50574152/uefa-champions-league-live-updates",
+    "source": "ESPN",
+    "description": "Enjoy all the updates from Tuesday's UEFA Champions League matches across Europe as Matchday 5 begins.",
+    "published_at": "2026-11-24T15:59:16+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T16:16:05.590842+00:00",
+    "status": "awaiting_ai",
+    "article_context": "The UEFA Champions League returns Tuesday for Matchday 5 of the league phase, with nine matches across the continent as the race for a place in the knockout rounds heats up!\nOne of our main matches of the day features reigning Premier League champions -- and current league leaders -- Arsenal taking on Bundesliga leaders Borussia Dortmund . We also have Manchester City welcoming Napoli and Real Madrid taking on PSV Eindhoven .\nIn our early matches, we have Bodø/Glimt taking on LASK , and Aston Villa in Istanbul taking on Galatasaray . Also on the schedule: Como vs. AEK Athens , Feyenoord vs. FC Porto , RB Leipzig vs. Lens and Slovan Bratislava vs. Real Betis .\nWith crucial points up for grabs, we'll have you covered throughout another action-packed day of the Champions League.\nEnjoy all the updates from Tuesday's matches across Europe!"
+  },
+  {
+    "id": "0bc9ca84b1586a78f2f1",
+    "title": "Del karma a los últimos festejos: cómo le fue a River en Alta Córdoba",
+    "source_url": "https://www.ole.com.ar/river-plate/river-plate-historial-alta-cordoba-instituto_0_LNf7EZJ7Kr.html",
+    "source": "Olé Argentina",
+    "description": "El equipo de Ponzio visitará un escenario complejo, que incluye una extensa mala racha y dos recientes triunfos en la casa de Instituto.",
+    "published_at": "2026-11-24T15:11:52+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T16:16:05.590842+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "93a4a1409e95cc2afc2c",
+    "title": "Grizzlies rookie Boozer out with sprained right ankle",
+    "source_url": "https://www.espn.com/nba/story/_/id/50577588/grizzlies-cameron-boozer-ankle-reevaluated-4-weeks",
+    "source": "ESPN NBA",
+    "description": "Grizzlies rookie forward Cameron Boozer has a sprained right ankle that will sideline him for at least a month.",
+    "published_at": "2026-11-24T15:57:07+00:00",
+    "category": "NBA",
+    "sport": "NBA",
+    "score": 26,
+    "queued_at": "2026-11-24T16:16:05.590842+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "c8b6298ca3516cd61214",
+    "title": "Embiid misses game with illness as 76ers fall to Trail Blazers",
+    "source_url": "https://www.espn.com/nba/story/_/id/50577428/76ers-rule-joel-embiid-vs-trail-blazers-illness",
+    "source": "ESPN NBA",
+    "description": "76ers center Joel Embiid missed Monday's game against the Trail Blazers because of an illness.",
+    "published_at": "2026-11-24T15:57:07+00:00",
+    "category": "NBA",
+    "sport": "NBA",
+    "score": 26,
+    "queued_at": "2026-11-24T16:16:05.590842+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "eb7499ed9adbf1698dd7",
+    "title": "Footballer injured after falling down a badger hole in training",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50581466/chelmsford-cav-miley-badger-hole",
+    "source": "ESPN",
+    "description": "A non-league footballer sustained an injured ankle after falling into a badger hole during training.",
+    "published_at": "2026-11-24T15:34:07+00:00",
+    "category": "LESIONES",
+    "sport": "FUTBOL",
+    "score": 26,
+    "queued_at": "2026-11-24T16:16:05.590842+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "eedbf7a2ba4735673789",
+    "title": "Spurs rule Wembanyama, Fox out 90 minutes before victory over Kings",
+    "source_url": "https://www.espn.com/nba/story/_/id/50578664/spurs-victor-wembanyama-deaaron-fox-kings",
+    "source": "ESPN NBA",
+    "description": "Less than two hours prior to tipoff Monday, the San Antonio Spurs ruled Victor Wembanyama and De'Aaron Fox out of their 123-107 win over the Sacramento Kings, but the club anticipates both will play in Wednesday's game against the Portland Trail Blazers.",
+    "published_at": "2026-11-24T15:57:07+00:00",
+    "category": "NBA",
+    "sport": "NBA",
+    "score": 26,
+    "queued_at": "2026-11-24T16:16:05.590842+00:00",
+    "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,

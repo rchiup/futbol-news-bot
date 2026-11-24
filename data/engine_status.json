@@ -1,22 +1,22 @@
 {
-  "checked_at_utc": "2026-11-24T16:01:01.187936+00:00",
+  "checked_at_utc": "2026-11-24T16:16:05.590842+00:00",
   "local_hour": 13,
   "statuses": {
-    "published": 40,
-    "draft": 23,
-    "awaiting_ai": 29,
-    "needs_review": 57,
+    "published": 43,
+    "draft": 11,
+    "awaiting_ai": 35,
+    "needs_review": 66,
     "publish_error": 25,
-    "duplicate": 10
+    "duplicate": 12
   },
-  "fresh_candidates": 137,
-  "queued_new": 1,
-  "ai_generated": 4,
+  "fresh_candidates": 141,
+  "queued_new": 8,
+  "ai_generated": 2,
   "preview_images": 5,
   "published": 3,
-  "duplicates_suppressed": 1,
+  "duplicates_suppressed": 2,
   "no_photo_deferred": 0,
-  "total_queue": 214,
+  "total_queue": 222,
   "per_run_cap": 3,
   "morning_day_cap": 72,
   "auto_publish_enabled": true,
@@ -38,11 +38,11 @@
     "last_success": "groq",
     "providers": {
       "groq": {
-        "attempts": 64,
-        "success": 56,
-        "failures": 8,
-        "avg_latency_ms": 2315,
-        "avg_readability": 99.0,
+        "attempts": 67,
+        "success": 58,
+        "failures": 9,
+        "avg_latency_ms": 2301,
+        "avg_readability": 98.5,
         "last_error": "invalid_output"
       },
       "openrouter": {
@@ -54,36 +54,36 @@
         "last_error": "http_429"
       },
       "gemini": {
-        "attempts": 5,
+        "attempts": 6,
         "success": 0,
-        "failures": 5,
+        "failures": 6,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "http_503"
       },
       "cloudflare": {
-        "attempts": 3,
+        "attempts": 4,
         "success": 0,
-        "failures": 3,
+        "failures": 4,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "http_410"
       },
       "nvidia": {
-        "attempts": 3,
+        "attempts": 4,
         "success": 0,
-        "failures": 3,
+        "failures": 4,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "http_410"
       },
       "zai": {
-        "attempts": 3,
+        "attempts": 4,
         "success": 1,
-        "failures": 2,
+        "failures": 3,
         "avg_latency_ms": 36694,
         "avg_readability": 100.0,
-        "last_error": "invalid_output"
+        "last_error": "timeout"
       }
     }
   }
