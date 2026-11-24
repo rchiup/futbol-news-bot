@@ -70,5 +70,23 @@
     "entity_qid": "Q54812588",
     "photo_provider": "Wikidata photo bank",
     "verified_at": "2026-11-24T19:02:21.083300+00:00"
+  },
+  "person:donte divincenzo": {
+    "subject": "Donte DiVincenzo",
+    "wikidata_id": "Q51318989",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Donte_DiVincenzo_%28White_House_visit%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "public domain",
+    "license_url": "",
+    "commons_filename": "Donte DiVincenzo (White House visit).jpg",
+    "photographer": "",
+    "credit_required": false,
+    "share_alike": false,
+    "width": 625,
+    "height": 873,
+    "file_page": "https://commons.wikimedia.org/wiki/File:Donte_DiVincenzo_%28White_House_visit%29.jpg",
+    "entity_kind": "person",
+    "entity_qid": "Q51318989",
+    "photo_provider": "Wikidata photo bank",
+    "verified_at": "2026-11-24T19:37:34.369013+00:00"
   }
 }

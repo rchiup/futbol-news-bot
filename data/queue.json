@@ -7848,5 +7848,328 @@
     "portrait_used": false,
     "reference_photo_used": false,
     "duplicate_of": "same_story_as:2b8065cdd43794117e06"
+  },
+  {
+    "id": "a98828433ea63f29b00b",
+    "title": "Wolves' DiVincenzo cleared for basketball activities",
+    "source_url": "https://www.espn.com/nba/story/_/id/50584000/wolves-dante-divincenzo-cleared-basketball-activities",
+    "source": "ESPN NBA",
+    "description": "The Timberwolves said Donte DiVincenzo has been cleared for basketball activities after Achilles surgery.",
+    "published_at": "2026-11-24T17:25:43+00:00",
+    "category": "NBA",
+    "sport": "NBA",
+    "score": 26,
+    "queued_at": "2026-11-24T19:36:54.801899+00:00",
+    "status": "published",
+    "article_context": "The Minnesota Timberwolves could be getting some help soon. Anthony Edwards is still out, but Donte DiVincenzo is getting closer to returning. Shams Charania reports that he is targeting around New Year's to make his season debut.\nThe guard tore his Achilles tendon in Game 4 of the Wolves' first-round series against the Nuggets last April. He had surgery on April 26.\nThe team issued a statement Tuesday saying that he's been cleared for basketball activities and is progressing toward a return to play.\nEdwards had knee surgery last month. There is no firm timetable for his return.\nWithout him, Minnesota has stayed afloat thanks to new addition LaMelo Ball . The Wolves are 13-5 and in third place in the West.\nDiVincenzo played in all 82 regular-season games last season, averaging 12 points, four rebounds and four assists per game.",
+    "visual_subject": "Donte DiVincenzo",
+    "visual_entities": {
+      "personas": [
+        "Donte DiVincenzo"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "DiVincenzo de los Wolves autorizado para entrenar",
+    "caption": "Donte DiVincenzo recibió el alta médica para participar en actividades de baloncesto tras su cirugía de tendón de Aquiles. Según el comunicado del Minnesota Timberwolves, el guardia avanza hacia su regreso y se espera que pueda debutar en la temporada alrededor de Año Nuevo. Mientras tanto, Anthony Edwards sigue fuera por una cirugía de rodilla y el equipo se mantiene competitivo con la incorporación de LaMelo Ball, ocupando el tercer puesto del Oeste con 13‑5.",
+    "ai_generated_at": "2026-11-24T19:36:54.801899+00:00",
+    "portrait_info": {
+      "subject": "Donte DiVincenzo",
+      "wikidata_id": "Q51318989",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Donte_DiVincenzo_%28White_House_visit%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "license": "public domain",
+      "license_url": "",
+      "commons_filename": "Donte DiVincenzo (White House visit).jpg",
+      "photographer": "",
+      "credit_required": false,
+      "share_alike": false,
+      "width": 625,
+      "height": 873,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Donte_DiVincenzo_%28White_House_visit%29.jpg",
+      "entity_kind": "person",
+      "entity_qid": "Q51318989",
+      "photo_provider": "Wikidata photo bank",
+      "verified_at": "2026-11-24T19:37:34.369013+00:00"
+    },
+    "photo_checked_at": "2026-11-24T19:37:34.369453+00:00",
+    "ai_art_used": false,
+    "photo_used": true,
+    "portrait_used": true,
+    "reference_photo_used": false,
+    "visual_mode": "licensed_photo",
+    "photo_credit_full": "",
+    "promotion": {
+      "hashtags": [
+        "NBA",
+        "DonteDiVincenzo"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T19:36:54.801899+00:00",
+    "instagram_media_id": "18072568034794774"
+  },
+  {
+    "id": "0af7760a128147efb2d8",
+    "title": "Caitlin Clark: Playing Augusta on her 'bucket list' during WNBA offseason",
+    "source_url": "https://www.espn.com/golf/story/_/id/50583744/caitlin-clark-wants-play-augusta-wnba-offseason",
+    "source": "ESPN Golf",
+    "description": "During the WNBA offseason, Caitlin Clark said it's on her \"bucket list\" to play at Augusta for the first time.",
+    "published_at": "2026-11-24T17:17:33+00:00",
+    "category": "GOLF",
+    "sport": "GOLF",
+    "score": 26,
+    "queued_at": "2026-11-24T19:36:54.801899+00:00",
+    "status": "published",
+    "article_context": "Caitlin Clark heads into the WNBA offseason with golf on her mind, specifically one course. She has never played the home of the Masters.\n\"I want to play Augusta for the first time,\" Clark said on the \"New Heights\" podcast with Jason and Travis Kelce. \"I haven't played there yet. I have a couple of opportunities to do that, so I'm looking forward to that. That's probably on my bucket list.\"\nShe said she has a 15 handicap index and that she's hitting her drives in the 230-yard range, giving her a wedge into most greens when she's playing the forward tees.\nClark said she recently played The Grove XXIII in Florida owned by Michael Jordan, which she called \"not very challenging.\" That was intended as a compliment.\n\"It's like a fun, good hang course, where you actually feel good about golfing,\" Clark said. \"Some of these places are so challenging it's not even fun.\"",
+    "visual_subject": "Caitlin Clark",
+    "visual_entities": {
+      "personas": [
+        "Caitlin Clark"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": [
+        "Augusta"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Caitlin Clark quiere jugar Augusta en su offseason",
+    "caption": "Durante la pausa de la WNBA, la estrella Caitlin Clark declaró que jugar en Augusta, la sede del Masters, está en su lista de deseos. Comentó su handicap de 15, sus drives de 230 yardas y que recientemente jugó en The Grove XXIII de Florida, describiéndolo como un campo \"divertido y agradable\".",
+    "ai_generated_at": "2026-11-24T19:36:54.801899+00:00",
+    "photo_checked_at": "2026-11-24T19:38:28.429403+00:00",
+    "portrait_info": null,
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Golf",
+        "CaitlinClark"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T19:36:54.801899+00:00",
+    "instagram_media_id": "18642864496057423"
+  },
+  {
+    "id": "477d8b1303fda14d2812",
+    "title": "Koepka's return ultimately improved PGA Tour status for Day, 2 others",
+    "source_url": "https://www.espn.com/golf/story/_/id/50583808/brooks-koepka-return-helps-3-golfers-improve-2027-status",
+    "source": "ESPN Golf",
+    "description": "Jason Day, Max McGreevy and Pontus Nyholm all moved up a spot in the final FedEx Cup standings because of Brooks Koepka's return, improving their tour status.",
+    "published_at": "2026-11-24T16:56:01+00:00",
+    "category": "GOLF",
+    "sport": "GOLF",
+    "score": 26,
+    "queued_at": "2026-11-24T19:36:54.801899+00:00",
+    "status": "published",
+    "article_context": "ST. SIMONS ISLAND, Ga. -- PGA Tour players were allowed to move up in the FedEx Cup standings and on the career money list in 2022 to account for the defections to LIV Golf. Now three players will be able to move up their status because of someone who came back.\nThat would be Brooks Koepka , who returned this year under a \"Returning Member Program\" once he was able to get out of his LIV contract. Among the stipulations for his return was two players added to the field each time he played.\nDavid Skinns (38 points in one event), Séamus Power (28 points in two events) and A.J. Ewart (27 points in one event) took advantage, though not enough to affect their standing.\nHowever, the PGA Tour did not want Koepka to affect another player's ranking for eligibility in 2027. The five-time major champion finished at No. 108 in the FedEx Cup.\nThat means Jason Day moves up one spot to No. 110, giving him conditional status in a category that will remain the same (no reshuffle) all year. Day also could choose a career money exemption.\nMax McGreevy tied for 10th at the RSM Classic and narrowly missed out on the top 125 for conditional status. But with Koepka ahead of him, McGreevy now is No. 125. Pontus Nyholm goes from No. 151 -- no status at all -- to conditional status at No. 150.",
+    "visual_subject": "Brooks Koepka",
+    "visual_entities": {
+      "personas": [
+        "Brooks Koepka",
+        "Jason Day",
+        "Max McGreevy",
+        "Pontus Nyholm"
+      ],
+      "clubes": [],
+      "competicion": [
+        "PGA Tour",
+        "FedEx Cup"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Koepka's regreso eleva estatus de Day, McGreevy y Nyholm",
+    "caption": "Brooks Koepka volvió al PGA Tour bajo el programa de miembros retornantes, lo que permite que dos jugadores suban de posición cada vez que compite. Gracias a su regreso, Jason Day subió al puesto 110 del FedEx Cup y obtuvo estatus condicional; Max McGreevy alcanzó el puesto 125 y también quedó con estatus condicional; y Pontus Nyholm pasó del 151 al 150, asegurando también estatus condicional.",
+    "ai_generated_at": "2026-11-24T19:36:54.801899+00:00",
+    "photo_checked_at": "2026-11-24T19:38:55.916421+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Golf",
+        "BrooksKoepka",
+        "JasonDay",
+        "MaxMcGreevy",
+        "PontusNyholm"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T19:36:54.801899+00:00",
+    "instagram_media_id": "17959328997279680"
+  },
+  {
+    "id": "fdacb1f5f66828d827de",
+    "title": "Senegal reinstated as Africa Cup of Nations winners over Morocco by CAS ruling",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50582074/senegal-africa-cup-nations-morocco-cas",
+    "source": "ESPN",
+    "description": "Senegal won back the Africa Cup of Nations title in a legal fight Tuesday after the Court of Arbitration for Sport overturned an earlier ruling.",
+    "published_at": "2026-11-24T19:29:41+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T19:36:54.801899+00:00",
+    "status": "draft",
+    "article_context": "More than 10 months on from a chaotic, controversial final, Senegal are Africa's champions once again.\nSenegal won back the Africa Cup of Nations title in a legal fight Tuesday after the Court of Arbitration for Sport overturned an earlier ruling that handed the trophy to Morocco .\nSenegal won the Africa Cup of Nations on the field in a chaotic final in Morocco in January and then lost it in a legal case in March because their players walked off the field in protest in second-half stoppage time.\n- AFCON 2025 Final: Nothing could have been more embarrassing for African football\nCAS has now rejected that earlier ruling, citing referee Jean-Jacques Ndala's decision to let the game resume after the protest.\n\"Once again and forever, champions of Africa,\" the Senegalese soccer federation posted on social media.\nTournament regulations said a team that refuses to play should be considered to have lost the game, but CAS said those rules were meant only for cases \"when a team's conduct leads the referee to call off the game permanently.\"\nNdala \"did not err in law\" when he resumed the game, CAS added.\n\"The panel acknowledged that the referee had to make a decision in an atmosphere of extreme tension,\" CAS said. \"However, these circumstances do not justify describing the decision as 'arbitrary.' On the contrary, the referee's judgment did not appear to have been affected by factors external to the game.\"\nMorocco's soccer federation detailed plans for an appeal that targets one of the three judges on the CAS panel.\nIn a statement, the Moroccan federation protested what it described as the court's failure to address potential integrity concerns, alleging \"confirmed communication\" between German arbitrator Ulrich Haas and Fall, the Senegalese soccer president, 48 hours before the decision was issued.\nThe CAS director general, Matthieu Reeb, acknowledged to reporters at the court in Lausanne that a Moroccan protest was received just minutes before the verdict was announced.\nReeb said the court's panel \"in charge of petitions for challenge has conceded that there was not enough elements at this stage to postpone the notification of the award.\"\nCAS verdicts can be challenged at Switzerland's supreme court, also in Lausanne, though only on limited procedural grounds of which a judge's integrity could be one.\nHaas has been among the most respected and in-demand CAS judges in the past 20 years, selected by parties in storied cases involving Manchester City beating a Champions League ban by UEFA, tennis star Simona Halep's doping case and Africa's Champions League final in 2019.\nPatrick Kabou, a lawyer for the Senegalese Soccer Federation, called the alleged communication between Fall and Haas \"unreal.\"\nThe Confederation of African Football (CAF) said that it \"respects the CAS Award and will take all the necessary measures to implement it.\"\nSenegal won the final 1-0 after extra time with chaos on the field and violent clashes in the stands. Even the ball boys were involved in scuffles as they tried to snatch towels that Senegal goalkeeper Edouard Mendy was using to keep his gloves dry.\nThe result was overturned two months later as a 3-0 default win for Morocco by an appeals panel appointed by CAF.\nSenegal beat AFCON host nation Morocco after a 15-minute delay in play. At 0-0, Senegal's team walked off the field to protest Morocco being awarded a penalty kick in the last minute of regulation time.\nMatch referee Ndala of Congo eventually allowed the game to restart, Morocco's penalty by Brahim Diaz was saved, and Senegal won in extra time.\nThe drama continued through the months of legal tussles. Senegal's players paraded with the trophy ahead of a game in March against Peru, even though Morocco was recognized as the champion at that point. Both teams played at the World Cup believing themselves to be the rightful champion of Africa.\nSenegal had the laws of the game on its side, and Morocco had the tournament regulations.\nThe laws of soccer state that referee decisions are final. CAS backed that position with its own \"field of play\" doctrine, that on-field calls by a referee generally can't be taken to the sports court.\n\"By blowing his whistle to restart play, the referee considered that the conditions for resuming the match had been met -- both teams were on the pitch again, and both expressed their willingness to resume,\" CAS said.\nIn the first legal case in March, CAF appeal judges cited AFCON tournament regulations that if a team \"refuses to play or leaves the ground before the regular end of the match without the authorization of the referee, it shall be considered loser and shall be eliminated for good from the current competition.\"\nThe CAS judges heard evidence at a one-day hearing last month, and the court promised a verdict by the end of November with a full written ruling of its judges setting out reasons for their decision.\nThe Senegalese federation (FSF) said it welcomed the ruling with \"deep satisfaction.\"\n\"Far from consecrating the pre-eminence of one party over another, this decision affirms above all the triumph of sporting fairness and recalls a cardinal principle: the truth of a match is established exclusively on the field, under the protection of sports law,\" the federation said in its statement.\nThe next men's AFCON starts in June co-hosted by Kenya, Uganda and Tanzania. Morocco will aim to end a wait for the title, which now stands at 50 years.\nTh Associated Press and PA contributed to this report.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [
+        "Africa Cup of Nations"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Senegal recupera título de la CAN tras fallo del CAS",
+    "caption": "El Tribunal de Arbitraje Deportivo anuló la decisión que había otorgado el título de la Copa Africana de Naciones a Marruecos y devolvió el campeonato a Senegal. La medida se basó en que el árbitro Jean‑Jacques Ndala había reanudado el juego tras la protesta de los senegaleses, por lo que la normativa que penaliza la retirada del campo no era aplicable. La federación senegalesa celebró el fallo, mientras Marruecos anunció su intención de apelar.",
+    "ai_generated_at": "2026-11-24T19:36:54.801899+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "6866eaeaba5c659dd9e3",
+    "title": "Son Heung-Min: Thomas Müller spot-on about lack of pressure in MLS",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50574293/son-heung-min-thomas-muller-mls-no-pressure-relegation",
+    "source": "ESPN",
+    "description": "LAFC forward Son Heung-Min has backed Thomas Müller's comments about the \"careless\" playing style in the MLS and the lack of pressure that players feel due to the absence of a promotion/relegation system.",
+    "published_at": "2026-11-24T19:29:41+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T19:36:54.801899+00:00",
+    "status": "draft",
+    "visual_subject": "Son Heung-Min",
+    "visual_entities": {
+      "personas": [
+        "Son Heung-Min",
+        "Thomas Müller"
+      ],
+      "clubes": [
+        "LAFC"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Son Heung-Min respalda a Thomas Müller sobre presión en MLS",
+    "caption": "El delantero de LAFC, Son Heung-Min, ha respaldado los comentarios de Thomas Müller, quien describió el estilo de juego de la MLS como \"descuidado\" y señaló la falta de presión derivada de la ausencia de un sistema de ascenso y descenso. Este apoyo refuerza la visión de que la liga carece de la intensidad competitiva que se observa en otras competiciones.",
+    "ai_generated_at": "2026-11-24T19:36:54.801899+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "16241e0b8d8a8aa07bb6",
+    "title": "⚽ 'Ted Lasso' to return for Season 5 on Apple TV",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50583598/ted-lasso-season-5-apple-tv",
+    "source": "ESPN",
+    "description": "A release date for the upcoming season of the award-winning show has yet to be announced.",
+    "published_at": "2026-11-24T19:29:41+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T19:36:54.801899+00:00",
+    "status": "draft",
+    "article_context": "\"Ted Lasso\" is coming back for a fifth season.\nApple TV announced the series' renewal in a news release Monday . The fourth season covered the eponymous Lasso -- a former American college football coach who made a dramatic career change by coaching a struggling Premier League team -- as he returned to AFC Richmond to coach its second-division women's team. The season ended with him stepping down to the assistant coach position to spend more time with his family.\nThanks for believing. #TedLasso has been renewed for Season 5. https://t.co/epfW8riG7b\n\"Ted Lasso\" won back-to-back Emmy Awards for outstanding comedy series for its first two seasons. Jason Sudeikis, who plays Lasso, also won two outstanding lead actor in a comedy series awards for those seasons. The show also stars Hannah Waddingham, Brett Goldstein, Juno Temple and Jeremy Swift.\nA release date for the upcoming season has not yet been announced.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Ted Lasso renovado",
+    "caption": "La serie de Apple TV ha sido renovada para una quinta temporada, después de ganar premios Emmy por sus dos primeras temporadas.",
+    "ai_generated_at": "2026-11-24T19:36:54.801899+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "440674fda5f4aeb39c59",
+    "title": "Transfer rumors, news: PSG eye Estêvão and Luis Díaz amid injury woes",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50580721/transfer-rumors-news-psg-estevao-luis-diaz-chelsea-bayern",
+    "source": "ESPN",
+    "description": "Paris Saint-Germain have added Bayern Munich's Luis Díaz and Chelsea's Estêvão to their shortlist. Transfer Talk has the latest.",
+    "published_at": "2026-11-24T08:31:56+00:00",
+    "category": "FICHAJES",
+    "sport": "FUTBOL",
+    "score": 31,
+    "queued_at": "2026-11-24T19:36:54.801899+00:00",
+    "status": "draft",
+    "article_context": "Bayern Munich 's Luis Díaz and Chelsea 's Estêvão are on the shortlist of UEFA Champions League winners Paris Saint-Germain , while Tottenham Hotspur winger Luca Williams-Barnett is being tracked by Chelsea. Join us for the latest transfer news and rumors from around the globe.\nTransfers home page | Men's summer grades | Women's grades\n- Paris Saint-Germain have added Bayern Munich 's Luis Díaz and Chelsea 's Estêvão to their shortlist, as they consider whether to strengthen their forward line following the long-term injuries sustained by Désiré Doué and Khvicha Kvaratskhelia , according to Diario AS . PSG manager Luis Enrique wants to take time before making a decision, amid plans to assess the squad in the coming weeks, but the club have identified the 29-year-old Díaz as an option due to his direct dribbling style and Estêvão, 19, is also on the Ligue 1 club's radar due to his limited minutes in London.\n- Chelsea are keeping tabs on Tottenham Hotspur winger Luca Williams-Barnett , who is closing in on signing a new contract, the Daily Telegraph reports . The Blues are watching the 18-year-old's situation alongside Borussia Dortmund , but Spurs are reportedly now handling the final details on an extension which could ward off interest in his signature. Williams-Barnett registered a goal and an assist on his first Premier League start in the 2-0 win over Ipswich Town on Saturday.\n- Manchester United are preparing an approach for United States and Villarreal right back Alex Freeman , Football Insider reports . Scouts are reported to have been impressed by the 22-year-old's performances on multiple occasions, and the Red Devils have made him one of their top priorities for January in a move that would see him reunite with former USMNT manager Mauricio Pochettino. Freeman has made 16 appearances for the Yellow Submarine this season, continuing form since impressing at the 2026 World Cup in the summer.\n- Arsenal and Newcastle United are monitoring Internazionale striker Pio Esposito , according to Nicolo Schira . The Serie A club are repored to have turned down approaches worth around €60 million for the 21-year-old, who is contracted until 2032, and viewed as an indispensable member of manager Cristian Chivu's squad. Esposito scored a hat trick in the 4-4 league draw with Atalanta on Sunday and was also on target in both of Italy 's Nations League clashes this month, as he scored a brace in the 3-1 win over France on Nov. 12.\n- Bayern Munich are considering an approach for New York Red Bulls striker Eric Maxim Choupo-Moting , Sky Germany reports. The Bundesliga club are keen to acquire a short-term replacement for Harry Kane , who is set to be sidelined for several months following a ligament tear. Choupo-Moting, 37, is expected to be available as a free agent at the end of the year when his contract expires in Major League Soccer, and he is seen as a strong option due to his familiarity with the club. He directly contributed to 51 goals in 122 matches during a four-year spell at the Allianz Arena which ended in 2024.\n- Manchester United are interested in Brentford defender Nathan Collins as a potential alternative to Everton's Jarrad Branthwaite , whose transfer would require an offer worth in excess of £70 million. ( Daily Mail )\n- Real Madrid midfielder Jude Bellingham is in advanced talks regarding a new contract. ( Athletic )\n- Liverpool have begun contract talks with 34-year-old goalkeeper Alisson. ( Nicolo Schira )\n- Manchester United are keen to sign a striker in January. ( Times )\nWatch your favorite events in the newly enhanced ESPN App. Learn more about what plan is right for you. Sign Up Now\n- Bayern Munich aren't currently exploring a move for Real Madrid right back Trent Alexander-Arnold despite reports. ( Christian Falk )\n- Manchester United and Chelsea are weighing up approaches for Napoli midfielder Scott McTominay . ( Il Mattino )\n- Liverpool and Brighton are battling to sign Borussia Monchengladbach attacking midfielder Wael Mohya . ( TEAMtalk )\n- Como are monitoring the situation of Manchester United striker Joshua Zirkzee . ( Nicolo Schira )\n- Atletico Madrid and Juventus are planning to send scouts to watch Sporting CP left back Maxi Araujo during the Champions League match against Manchester United on Wednesday. ( Record )\n- Chelsea are tracking Bayern Munich goalkeeper Leonard Prescott . ( Christian Falk )\n- Juventus, Newcastle, Brentford and Bournemouth are interested in Lazio midfielder Kenneth Taylor . ( TEAMtalk )",
+    "visual_subject": "Luis Díaz",
+    "visual_entities": {
+      "personas": [
+        "Luis Díaz",
+        "Estêvão"
+      ],
+      "clubes": [
+        "Paris Saint-Germain",
+        "Bayern Munich",
+        "Chelsea"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "PSG considera a Luis Díaz",
+    "caption": "Paris Saint-Germain ha agregado a Luis Díaz de Bayern Munich y a Estêvão de Chelsea a su lista de posibles refuerzos debido a las lesiones de Désiré Doué y Khvicha Kvaratskhelia.",
+    "ai_generated_at": "2026-11-24T19:36:54.801899+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "fc615c2ca9dc2ec20381",
+    "title": "Golliver's too-early NBA All-Star picks: The 24 most deserving players right now",
+    "source_url": "https://www.espn.com/nba/story/_/id/50558987/all-star-selections-wembanyama-giannis-maxey",
+    "source": "ESPN NBA",
+    "description": "So what if the All-Star Game is three months away? We're picking locks and position battles to watch across both conferences.",
+    "published_at": "2026-11-24T12:38:32+00:00",
+    "category": "NBA",
+    "sport": "NBA",
+    "score": 23,
+    "queued_at": "2026-11-24T19:36:54.801899+00:00",
+    "status": "draft",
+    "article_context": "There's a lot a basketball to be played before the 2027 NBA All-Star Game tips off in Phoenix on Feb. 21, but it's never too early to start surveying the field. With more than a month of regular-season games on the books, here's a rundown of the 12 most deserving candidates from each conference.\nThese picks were made to reward games played through Sunday and are not intended to be a projection of the rosters, which won't be announced until the new year. Criteria for selection included health, individual production, impact on winning and team success.\nNote: Picks conform to the NBA's 2026 mandate of at least eight international players among the 24 selections. The NBA has not yet announced whether last year's \" U.S. vs. the World \" tournament format will return.\nThe \"Greek Freak\" is back on track in South Beach after a contentious final season with the Milwaukee Bucks . Antetokounmpo, who ranks in the top five leaguewide in scoring and rebounding, is guiding the No. 6 offense that has ironed out some of its wrinkles after a rough opening week.\nWhile there was some cause for concern that a string of lower-body injuries might limit his effectiveness, the 31-year-old forward remains a forces going downhill to the rim. Antetokounmpo is tied for second in dunks and is shooting 72.2% in the basket area. While the two-time MVP has enjoyed perfect availability to start the season, his health deserves continued scrutiny; he has missed or barely played in three of the last four All-Star Games due to injuries.\nCunningham has picked up right where he left off during the Pistons' 60-win campaign in 2025-26, with one noticeable improvement. The 25-year-old guard is back as Detroit's offensive playmaker, ranking in the top 10 in scoring and assists. But after struggling with ball-control issues in last year's playoffs, he is averaging a career-low 3.1 turnovers per game. In one of the most impressive individual efforts of the young season, Cunningham posted 52 points, 11 assists and no turnovers in a Nov. 12 double-overtime win over the Washington Wizards .\nThanks to Cunningham's extraordinary offensive impact and an elite team defense, the Pistons have weathered the early-season absence of center Jalen Duren and the offseason departure of Tobias Harris to remain in the East's playoff picture.\nThe 26-year-old Maxey is the youngest and least accomplished of Philadelphia's four stars, but he would be the first pick if they were all placed into a fantasy draft. The two-time All-Star is the leading scorer and most reliable night-to-night producer for the 76ers, who sit atop the East standings after adding LeBron James and Jaylen Brown during the offseason.\nThe not-so-secret key to Philadelphia's early success is its 12-0 record in clutch games. Maxey ranks third leaguewide in plus-minus during clutch situations, and his late-game brilliance was pivotal in wins over the Indiana Pacers and the Cleveland Cavaliers .\nTatum hasn't quite fully returned to his pre-Achilles tear form, but he's still been awfully good. The six-time All-Star has reestablished himself as the No. 1 option for a potent Boston offense and joins Luka Doncic as the only players averaging at least 26 points, six rebounds and six assists per game.\nTatum's career-high free throw rate is an especially positive indicator for his recovery and a welcome development for the Celtics' outside-in offense, which lost Brown over the summer. After finishing last in free throw attempts in 2025-26, Boston is up to 26th to start this campaign. The Celtics are back in the East's top tier, but there's room to climb higher if Tatum's outside shooting efficiency returns to his career standard.\nTowns has channeled his disappointment at not receiving a contract extension last offseason into exceptional all-around play. While some of his teammates have battled malaise at the start of what figures to be a grueling title defense, Towns ranks in the top five at his position by player efficiency rating (PER) and win shares.\nThe 31-year-old center has helped compensate for Mitchell Robinson 's offseason departure with a career-high 13.9 rebounds per game, and he leads the NBA with 16 double-doubles. As the Knicks search for more reliable contributions from Josh Hart and Mikal Bridges , Towns has easily boasted the best net rating among New York's starters.\nThe 2026 Finals MVP accepted responsibility for the Knicks' 0-3 start -- \"Everything falls on my shoulders,\" he said -- and he has been instrumental in stabilizing the team in recent weeks. New York's offensive efficiency has fallen well short of the level of its 2025-26 championship campaign, but Brunson has lifted it back into the top 10 over the past 10 games.\nBrunson, 30, continues to rank among the league's top 10 scorers and is second in time of possession. So far, he is holding up well despite that high-usage role and his struggling teammates: The three-time All-Star hasn't missed a game and has upped his scoring and 3-point efficiency from last season.\nThe Cavaliers' stars all share blame for the team's thoroughly mediocre start after their conference finals appearance last season. James Harden was playing sluggish and sloppy basketball until he broke out with a 51-point effort against the Pacers on Friday, and Evan Mobley might never escape his cutting \"18 and 8\" nickname on social media.\nMitchell remains the leading scorer on a top-five Cleveland offense, though his production has slipped slightly as compared with that of last season. While there is a bigger conversation brewing about how Cleveland might pivot if it takes a step back in the playoffs, Mitchell's 24/4/5 averages look good enough to land his eighth straight All-Star selection.\nWhen judging Brown's acclimation to Philadelphia after a blockbuster summer trade, one must differentiate between his strange off-court comments and his solid on-court play. Brown's passive-aggressive statements about Tatum blew up in his face when he played poorly in his first head-to-head matchup against his former teammate.\nThat sequence of events hasn't been representative of Brown's start in Philadelphia. He has slotted in nicely as a sturdy second option for the 76ers, who have kept winning despite poor shooting from Joel Embiid and inconsistent impact from James. Brown occupied a range of offensive roles during his 10 years in Boston, and that flexibility has been an asset since his big move.\nThe eight names listed above were all no-brainer picks as est",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Estrellas destacadas",
+    "caption": "Giannis Antetokounmpo, Cade Cunningham y Tyrese Maxey son algunos de los jugadores que destacan en la temporada de la NBA y podrían ser elegidos para el Juego de Estrellas. Otros jugadores como Jayson Tatum, Karl-Anthony Towns y Jalen Brunson también han mostrado un gran rendimiento.",
+    "ai_generated_at": "2026-11-24T19:36:54.801899+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
