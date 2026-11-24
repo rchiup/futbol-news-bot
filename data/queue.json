@@ -6744,5 +6744,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "a87df9d1e4c1ed5ae124",
+    "title": "Dólar superó los $1.030 tras caída de 5,9% del cobre",
+    "source_url": "https://www.cooperativa.cl/noticias/economia/divisas/dolar/dolar-supero-los-1-030-tras-caida-de-5-9-del-cobre/2026-11-24/150844.html",
+    "source": "Cooperativa Deportes Chile",
+    "description": "El dólar se disparó 18 pesos este martes y superó los 1.030 pesos , acercándose a su máximo histórico; mientras, el cobre se derrumba y cayó 5,9% en la Bolsa de Metales de Londres , alcanzando los 5,34 dólares por libra. Según publicó Emol , la divisa terminó sus operaciones más líquidas en puntas de 1.033,4 pesos comprador y 1.033,7 pesos vendedor . Con ello, llegó a su nivel más alto desde el 14 de julio de 2022, cuando terminó la jornada en 1.046 pesos. El principal factor detrás del aumento del dólar es el desplome del cobre , que alcanzó s",
+    "published_at": "2026-11-24T18:08:44+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T18:45:59.620660+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
