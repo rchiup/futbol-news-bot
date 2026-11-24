@@ -223,7 +223,19 @@ ENGLISH_HEADLINE_MARKERS = re.compile(
 
 def headline_needs_translation(headline: str) -> bool:
     """Heuristic stopgate for untranslated English headlines; not a language classifier."""
-    return bool(ENGLISH_HEADLINE_MARKERS.search(headline))
+    if ENGLISH_HEADLINE_MARKERS.search(headline):
+        return True
+    # English possessives survive some otherwise Spanish model output.
+    if re.search(r"\b[\w]+['’]s\b", headline, flags=re.I):
+        return True
+    # Reject common literal translations of sports terminology.
+    return bool(re.search(
+        r"\b(?:eleva(?:n)? estatus|mejora(?:n)? (?:su )?estatus|"
+        r"estatus condicional|miembros retornantes|sin rebote|"
+        r"medita su futuro|registra una victoria sobre|"
+        r"toma una victoria|hace una movida|firma un trato)\b",
+        headline, flags=re.I,
+    ))
 
 
 def clean_public_caption(value: str) -> str:
@@ -367,7 +379,7 @@ def ai_messages(item: dict) -> list[dict]:
     """The same factual-accuracy instructions go to every FREE model."""
     instructions = (
         "Eres analista de CHAO FELICEVICH: medio de fútbol, tenis, golf, Fórmula 1 y NBA. "
-        "Escribe español natural, claro y directo, para Chile y Argentina. "
+        "Escribe como periodista deportivo nativo de Chile o Argentina, no como traductor. Reformula la idea completa en español idiomático; conserva nombres propios y siglas oficiales. Antes de responder, relee el titular y el cuerpo y elimina todo posesivo inglés (apellido apostrofe s), calcos y sintaxis inglesa. Usa artículos y preposiciones naturales. En golf, explica el beneficio deportivo concreto: derecho a jugar, clasificación o acceso parcial a torneos, no eleva estatus ni miembros retornantes. Si el significado técnico es incierto, describe solo el hecho seguro. Ejemplo: Koepka\u2019s return improved PGA Tour status for three golfers -> El regreso de Koepka beneficia a tres golfistas del PGA Tour. "
         "SOLO JSON con claves headline, caption, visual_subject, personas, clubes, competicion, ciudad. "
         "No inventes noticias, resultados, lesiones, declaraciones, citas, clubes, fechas ni nombres. "
         "Usa exclusivamente los datos del titular, resumen RSS y contexto público del artículo, cuando exista. Nunca supongas datos ausentes. "
