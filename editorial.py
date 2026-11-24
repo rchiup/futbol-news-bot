@@ -31,6 +31,7 @@ from photo_bank import entities, choose_photo
 from curated_portraits import pick_curated
 import free_llm
 import scorecards
+import tennis_scorecards
 from growth import append_promotion
 from news_novelty import duplicate_reason, novelty_priority, same_story
 
@@ -526,7 +527,8 @@ def make_card(item: dict, allow_ai: bool = False, lookup: bool = False,
     if item.get("match_result"):
         item["photo_used"] = False
         item["ai_art_used"] = False
-        return scorecards.render(item, PREVIEWS / (item["id"] + ".jpg"), BRAND)
+        renderer = tennis_scorecards.render if item.get("scorecard_type") == "tennis" else scorecards.render
+        return renderer(item, PREVIEWS / (item["id"] + ".jpg"), BRAND)
     photo_path = None
     sport = item.get("sport", "FUTBOL")
     title, summary = item.get("title", ""), item.get("description", "")
@@ -652,15 +654,16 @@ def run(reference: datetime | None = None, session=None) -> dict:
     reference = reference or now_utc()
     queue = load_queue()
     if session is None:
-        try:
-            known = {x.get("id") for x in queue}
-            for match in scorecards.results(reference.astimezone(PUBLISH_TZ)):
-                if match["id"] not in known:
-                    match["queued_at"] = iso(reference)
-                    queue.append(match)
-                    known.add(match["id"])
-        except (requests.RequestException, ValueError, KeyError, TypeError) as exc:
-            print(f"[SCORES] Feed unavailable: {type(exc).__name__}")
+        known = {x.get("id") for x in queue}
+        for feed in (scorecards, tennis_scorecards):
+            try:
+                for match in feed.results(reference.astimezone(PUBLISH_TZ)):
+                    if match["id"] not in known:
+                        match["queued_at"] = iso(reference)
+                        queue.append(match)
+                        known.add(match["id"])
+            except (requests.RequestException, ValueError, KeyError, TypeError) as exc:
+                print(f"[SCORES] {feed.__name__} unavailable: {type(exc).__name__}")
     fresh = fetch_candidates(reference=reference, session=session)
     # Keep the generated-draft count bounded; no runaway OpenAI bills.
     capacity = max(0, min(DRAFTS_PER_RUN, DRAFTS_PER_DAY - today_count(queue, "queued_at", reference)))
