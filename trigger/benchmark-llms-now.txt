@@ -5,3 +5,5 @@ Rerun after final free-only workflow wiring and scoring, 2026-11-23.
 2026-11-23: Compare active free LLM providers after repaired CI; only configured zero-cost keys. Do not publish benchmark output.
 
 2026-11-24: verify newly configured free providers
+
+2026-11-24: benchmark all enabled free model adapters
