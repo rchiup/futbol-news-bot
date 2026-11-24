@@ -7,7 +7,7 @@ from portraits import normalize, _get_json, _check_commons_file, WIKIDATA_API, C
 import requests
 
 BANK = Path(__file__).parent / "data/photo_bank.json"
-CLUBS = {"Liverpool": "Q1130849", "Manchester United": "Q18656", "Arsenal": "Q9617", "Chelsea": "Q9616", "Real Madrid": "Q8682", "Barcelona": "Q7156", "Bayern Munich": "Q15789", "Boca Juniors": "Q12131", "River Plate": "Q12203"}
+CLUBS = ("Liverpool", "Manchester United", "Arsenal", "Chelsea", "Real Madrid", "Barcelona", "Bayern Munich", "Boca Juniors", "River Plate", "Colo Colo", "Universidad de Chile", "Universidad Católica", "Palmeiras", "Flamengo", "Everton", "Brentford")
 SPORT_WORDS = ("football", "soccer", "tennis", "basketball", "golfer", "racing driver", "formula one", "futbol", "tenista", "baloncesto")
 
 def mentioned(name, story):
