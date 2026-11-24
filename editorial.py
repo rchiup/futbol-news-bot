@@ -687,7 +687,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     item["photo_credit_full"] = photo_attribution(item.get("portrait_info"))
                     credit = photo_attribution_compact(item.get("portrait_info"))
                     if credit:
-                        caption += "\n\n" + photo_attribution(item.get("portrait_info"))
+                        caption += "\n\n" + credit
                     if (item.get("portrait_info") or {}).get("entity_kind") == "club":
                         caption += "\nFoto de archivo: estadio asociado al club; no corresponde necesariamente al encuentro."
                 media_id = publish_image(path, caption, item["id"])
