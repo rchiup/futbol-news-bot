@@ -2317,11 +2317,31 @@
     "sport": "F1",
     "score": 23,
     "queued_at": "2026-11-23T18:32:56.980172+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Charles Leclerc",
+    "visual_entities": {
+      "personas": [
+        "Charles Leclerc",
+        "Frederic Vasseur",
+        "Lewis Hamilton"
+      ],
+      "clubes": [],
+      "competicion": [
+        "Gran Premio de Las Vegas"
+      ],
+      "ciudad": [
+        "Las Vegas"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Leclerc durmió peor tras Gran Premio de Las Vegas",
+    "caption": "Charles Leclerc durmió peor anoche después del Gran Premio de Las Vegas, según comentó el director del equipo, Frederic Vasseur. Vasseur advirtió que podría repetir la reprimenda que dio tras la carrera de México, señalando que tanto Leclerc como Lewis Hamilton lo habían vuelto a hacer.",
+    "ai_generated_at": "2026-11-24T00:10:52.980111+00:00"
   },
   {
     "id": "5889a2090823f89f4b8a",
@@ -2687,11 +2707,28 @@
     "sport": "FUTBOL",
     "score": 19,
     "queued_at": "2026-11-23T20:37:33.543280+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Nicolas Pepe",
+    "visual_entities": {
+      "personas": [
+        "Nicolas Pepe",
+        "Villarreal"
+      ],
+      "clubes": [
+        "Villarreal"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Villarreal niega cirugía ocular a Nicolás Pepe",
+    "caption": "Villarreal dice que los informes sobre una supuesta cirugía ocular de Nicolás Pepe son falsos, tras rumores surgidos por la eclipsa solar. El club asegura que el delantero no necesita intervención alguna.",
+    "ai_generated_at": "2026-11-24T00:10:52.980111+00:00"
   },
   {
     "id": "56aef26fbf441fc16b48",
@@ -3327,7 +3364,26 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-23T23:51:02.988804+00:00",
-    "status": "awaiting_ai"
+    "status": "needs_review",
+    "visual_subject": "Mark Chapman",
+    "visual_entities": {
+      "personas": [
+        "Mark Chapman",
+        "Conor Coady",
+        "Chris Sutton",
+        "Rory Smith"
+      ],
+      "clubes": [
+        "Leeds"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Mark Chapman entrevista a Coady, Sutton y Smith",
+    "caption": "Mark Chapman se reúne con Conor Coady, Chris Sutton y Rory Smith para hablar del sueño europeo de Leeds y del momento adecuado para lanzar a un jugador joven.",
+    "ai_generated_at": "2026-11-24T00:10:52.980111+00:00"
   },
   {
     "id": "9e23dda818d90699bcb5",
@@ -3340,11 +3396,32 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-23T23:51:02.988804+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Changuito Zeballos",
+    "visual_entities": {
+      "personas": [
+        "Changuito Zeballos",
+        "Mastantuono",
+        "Pellegrino"
+      ],
+      "clubes": [
+        "Monza",
+        "Fiorentina"
+      ],
+      "competicion": [
+        "Serie A"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Monza vence 3-0 a Fiorentina y la acerca al descenso",
+    "caption": "El Monza derrotó 3-0 a la Fiorentina, dejándola a un punto del descenso en la Serie A. Mastantuono y Pellegrino participaron en la derrota, y Changuito Zeballos formó parte del banco de suplentes del Monza.",
+    "ai_generated_at": "2026-11-24T00:10:52.980111+00:00"
   },
   {
     "id": "cd84034b13273cd2e643",
@@ -3357,11 +3434,29 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-23T23:51:02.988804+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Kevin de Bruyne",
+    "visual_entities": {
+      "personas": [
+        "Kevin de Bruyne"
+      ],
+      "clubes": [
+        "Manchester City"
+      ],
+      "competicion": [
+        "Premier League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "De Bruyne asegura que su amor por City perdura tras sanción",
+    "caption": "Kevin de Bruyne declara que siente amor por los dueños del Manchester City y que sus sentimientos no cambiarán, pese a que el club fue hallado culpable de infringir las normas financieras de la Premier League.",
+    "ai_generated_at": "2026-11-24T00:10:52.980111+00:00"
   },
   {
     "id": "a510bd24ca5ff0d16709",
@@ -3374,11 +3469,27 @@
     "sport": "FUTBOL",
     "score": 17,
     "queued_at": "2026-11-23T23:51:02.988804+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Tomás Gárate",
+    "visual_entities": {
+      "personas": [
+        "Tomás Gárate"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": [
+        "Puerto Varas"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Alcalde de Puerto Varas destina 0,5% a biotecnología",
+    "caption": "Tomás Gárate anunció que el municipio asignará 0,5% de su presupuesto a biotecnología, superando el promedio nacional del 0,38% y aprobando pilotos municipales de inteligencia artificial.",
+    "ai_generated_at": "2026-11-24T00:10:52.980111+00:00"
   },
   {
     "id": "296eb28b927a63a7d922",
@@ -3408,6 +3519,159 @@
     "sport": "FUTBOL",
     "score": 17,
     "queued_at": "2026-11-23T23:51:02.988804+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "43f202294aa3978b64fa",
+    "title": "Nicolás Ramírez y otro partido con polémicas y escándalo: dos penales y cinco expulsados",
+    "source_url": "https://www.ole.com.ar/futbol-primera/nicolasramirez-gimnasia-newells-clausura-harlemcastillo-frankdariokudelka-germanconti_0_ECvTwrheCG.html",
+    "source": "Olé Argentina",
+    "description": "El juez dirigió el partido que Gimnasia le ganó 4 a 2 a Newell's y se generaron controversias: lo más grave fue la omisión de la segunda amarilla a Conti, del Lobo, en la falta del segundo penal para la Lepra.",
+    "published_at": "2026-11-23T23:50:37+00:00",
+    "category": "PARTIDOS",
+    "sport": "FUTBOL",
+    "score": 26,
+    "queued_at": "2026-11-24T00:10:52.980111+00:00",
+    "status": "published",
+    "visual_subject": "Nicolás Ramírez",
+    "visual_entities": {
+      "personas": [
+        "Nicolás Ramírez",
+        "Conti"
+      ],
+      "clubes": [
+        "Gimnasia",
+        "Newell's"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Gimnasia vence 4-2 a Newell's amid polémica arbitral",
+    "caption": "Gimnasia le ganó 4-2 a Newell's y se generaron controversias: la omisión de la segunda amarilla a Conti del Lobo en la falta del segundo penal para la Lepra provocó críticas, en un partido con dos penales y cinco expulsados.",
+    "ai_generated_at": "2026-11-24T00:10:52.980111+00:00",
+    "portrait_info": null,
+    "photo_checked_at": "2026-11-24T00:11:23.655864+00:00",
+    "ai_art_provider": "cloudflare",
+    "ai_art_generated_at": "2026-11-24T00:11:25.099041+00:00",
+    "ai_art_used": true,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "ai_illustration",
+    "posted_at": "2026-11-24T00:10:52.980111+00:00",
+    "instagram_media_id": "18198553534393418"
+  },
+  {
+    "id": "84c8bd15a88e497af3da",
+    "title": "Alcaraz outplays Zverev for first ATP Finals triumph",
+    "source_url": "https://www.bbc.co.uk/sport/tennis/articles/c60evlendg0jo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Tennis",
+    "description": "Carlos Alcaraz ends his wait for a first ATP Finals title as he outplays world number one Alexander Zverev in Turin.",
+    "published_at": "2026-11-22T20:15:48+00:00",
+    "category": "TENIS",
+    "sport": "TENIS",
+    "score": 16,
+    "queued_at": "2026-11-24T00:10:52.980111+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "638f3b209aafeca536da",
+    "title": "McBurnie stoppage-time double earns Hull win over 10-man Brighton",
+    "source_url": "https://www.bbc.co.uk/sport/football/videos/ck62pzzezqz2o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Oli McBurnie's stoppage-time double earns victory for Hull City against second-placed Brighton in the Premier League.",
+    "published_at": "2026-11-22T19:59:38+00:00",
+    "category": "PARTIDOS",
+    "sport": "FUTBOL",
+    "score": 16,
+    "queued_at": "2026-11-24T00:10:52.980111+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "c76b4acc8e54ca5c66f8",
+    "title": "Camara to continue with Haas for final two races",
+    "source_url": "https://www.bbc.co.uk/sport/formula1/articles/cwe9k29y7z44o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Formula 1",
+    "description": "Brazilian Rafael Camara will continue to race for the Haas team for the final two grands prix of the Formula 1 season.",
+    "published_at": "2026-11-22T19:51:49+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 16,
+    "queued_at": "2026-11-24T00:10:52.980111+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "82e045f1aa28b42e306c",
+    "title": "From conceding seven to Hull heroics - how Tzolakis recovered to defy Brighton",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/cm4gn7npqe8yo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Nine days after playing for Greece in a nightmare 7-0 loss, keeper Konstantinos Tzolakis plays a pivotal role in Hull's Premier League win against Brighton.",
+    "published_at": "2026-11-22T19:03:32+00:00",
+    "category": "LESIONES",
+    "sport": "FUTBOL",
+    "score": 16,
+    "queued_at": "2026-11-24T00:10:52.980111+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "7dcf40e1452cb29d6fb8",
+    "title": "'Russell is living rent free in Verstappen's head!'",
+    "source_url": "https://www.bbc.co.uk/sport/formula1/videos/cr2klvl8zz8jo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Formula 1",
+    "description": "BBC Sport's Harry Benjamin, Rebecca Clancy and Abbi Pulling discuss the clash between George Russell and Max Verstappen as their rivalry heats up both on and off the track.",
+    "published_at": "2026-11-22T18:05:40+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 16,
+    "queued_at": "2026-11-24T00:10:52.980111+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "feb4dc157f31629ec197",
+    "title": "'No-one believes they have cleared the air' - Ferrari duo collide again",
+    "source_url": "https://www.bbc.co.uk/sport/formula1/videos/c9772n2kg5d1o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Formula 1",
+    "description": "BBC Sport's Chequered Flag podcast guests do not believe Ferrari drivers Lewis Hamilton and Charles Leclerc have \"cleared the air\" after another collision.",
+    "published_at": "2026-11-22T18:02:42+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 16,
+    "queued_at": "2026-11-24T00:10:52.980111+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "616c0e08c1faad970365",
+    "title": "Ganadores y perdedores de la caótica carrera de la F1 2026 en Las Vegas",
+    "source_url": "https://es.motorsport.com/f1/news/ganadores-perdedores-las-vegas-2026/10876901",
+    "source": "Motorsport F1",
+    "description": "Un grupo de coches separados por pocos segundos, los tres primeros intercambiándose el liderato en lo que fueron 35 cambios de líder y pilotos tratando de averiguar cuál era la mejor posición para cruzar primero la línea de meta en la última vuelta. El Gran Premio de Las Vegas pareció una versión artificial y con ayuda de baterías de la Indy 500 en circuito urbano. Resultaba bastante ... Sigue leyendo",
+    "published_at": "2026-11-22T17:56:57+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 16,
+    "queued_at": "2026-11-24T00:10:52.980111+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
