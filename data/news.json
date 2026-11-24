@@ -8742,5 +8742,21 @@
     "source": "www.ole.com.ar - Home",
     "collected_at": "2026-11-24T22:08:50.752725+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "75769435fbaeadb67987dd3cbf15c7d6b562fde2dd34c04cf0bc0479aa5d6409",
+    "title": "Rayan Cherki snatches draw for Manchester City against spirited Napoli",
+    "url": "https://www.theguardian.com/football/2026/nov/24/manchester-city-napoli-champions-league-match-report",
+    "source": "Football | The Guardian",
+    "collected_at": "2026-11-24T22:10:56.356623+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "13e200f2ddda8770724bc72b57ddad6365cb19b51b3f097cd288c03e2154eec4",
+    "title": "Rice denied by post late on as Dortmund’s Beier holds Arsenal to frustrating draw",
+    "url": "https://www.theguardian.com/football/2026/nov/24/arsenal-borussia-dortmund-champions-league-match-report",
+    "source": "Football | The Guardian",
+    "collected_at": "2026-11-24T22:10:56.356648+00:00",
+    "status": "pending_review"
   }
 ]
