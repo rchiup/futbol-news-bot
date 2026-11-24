@@ -13,28 +13,35 @@ import requests
 ROOT = Path(__file__).resolve().parent
 USAGE = ROOT / "data" / "llm_free_usage.json"
 KEYS = {"groq": "GROQ_API_KEY", "gemini": "GEMINI_API_KEY",
-        "cerebras": "CEREBRAS_API_KEY", "openrouter": "OPENROUTER_API_KEY"}
-CAPS = {"groq": 75, "gemini": 20, "cerebras": 35, "openrouter": 40}
+        "cerebras": "CEREBRAS_API_KEY", "openrouter": "OPENROUTER_API_KEY",
+        "cloudflare": "CF_API_TOKEN", "nvidia": "NVIDIA_API_KEY", "zai": "ZAI_API_KEY"}
+CAPS = {"groq": 75, "gemini": 20, "cerebras": 35, "openrouter": 40, "cloudflare": 60, "nvidia": 40, "zai": 40}
 MODELS = {"groq": "openai/gpt-oss-120b",
           "gemini": "gemini-3.1-flash-lite",
-          "cerebras": "gpt-oss-120b", "openrouter": "openrouter/free"}
+          "cerebras": "gpt-oss-120b", "openrouter": "openrouter/free",
+          "cloudflare": "@cf/meta/llama-3.1-8b-instruct-fp8",
+          "nvidia": "meta/llama-3.3-70b-instruct", "zai": "glm-4.5-flash"}
 ENDPOINTS = {"groq": "https://api.groq.com/openai/v1/chat/completions",
              "cerebras": "https://api.cerebras.ai/v1/chat/completions",
-             "openrouter": "https://openrouter.ai/api/v1/chat/completions"}
+             "openrouter": "https://openrouter.ai/api/v1/chat/completions",
+             "nvidia": "https://integrate.api.nvidia.com/v1/chat/completions",
+             "zai": "https://api.z.ai/api/paas/v4/chat/completions"}
 
 
 def providers(env=None):
     env = os.environ if env is None else env
-    wanted = env.get("FREE_LLM_ORDER", "groq,gemini,cerebras,openrouter").split(",")
+    wanted = env.get("FREE_LLM_ORDER", "groq,gemini,openrouter,cloudflare,cerebras,nvidia,zai").split(",")
     result = []
     for raw in wanted:
         name = raw.strip().lower()
         if name not in KEYS or name in result or not env.get(KEYS[name], "").strip():
             continue
-        if name in ("gemini", "cerebras") and env.get(
+        if name in ("gemini", "cerebras", "cloudflare", "nvidia", "zai") and env.get(
                 name.upper() + "_FREE_TIER_CONFIRMED", "").lower() != "true":
             continue
         if name == "groq" and env.get("GROQ_FREE_TIER_CONFIRMED", "true").lower() != "true":
+            continue
+        if name == "cloudflare" and not re.fullmatch(r"[0-9a-fA-F]{32}", env.get("CF_ACCOUNT_ID", "")):
             continue
         result.append(name)
     return result
@@ -110,9 +117,11 @@ def ask_one(name, messages, session=requests, env=None):
                                  "responseMimeType": "application/json"},
         }
     else:
-        endpoint = ENDPOINTS[name]
+        endpoint = ("https://api.cloudflare.com/client/v4/accounts/" + env["CF_ACCOUNT_ID"] + "/ai/v1/chat/completions" if name == "cloudflare" else ENDPOINTS[name])
         headers = {"Authorization": "Bearer " + key}
         payload = {"model": model, "temperature": 0.35, "messages": messages}
+        if name in ("cloudflare", "nvidia", "zai"):
+            payload["max_tokens"] = 1200
         if name == "groq":
             payload["response_format"] = {"type": "json_object"}
         if name == "cerebras":
