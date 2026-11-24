@@ -9658,5 +9658,35 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "bffdadacecc308397af6",
+    "title": "La nueva estrategia de mercado de River: el plan para captar jóvenes talentos antes que Europa",
+    "source_url": "https://www.ole.com.ar/river-plate/river-mercado-pases-stefano-di-carlo-longoria-estrategia-juveniles-comprar-ceder-interesados-coronel_0_5umdCnarl9.html",
+    "source": "Olé Argentina",
+    "description": "Además de los refuerzos puntuales que se buscarán, la dirigencia también apuntará a futuro en el verano. El rol de Longoria y el apellido que ya gusta.",
+    "published_at": "2026-11-24T21:34:42+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T21:44:52.314574+00:00",
+    "status": "draft",
+    "article_context": "Longoria y su equipo son los encargados del scout.\nParece lejano hablar del mercado de pases cuando el fin de semana se disputan los cuartos de final del Clausura, con todo lo que eso implica para River . No es tan necesario aclarar todo lo que puede pasar en caso de una eliminación o evitarse si se sigue en competencia. Pero la dirigencia también entiende que, luego de un año complejo en cuanto a resultados, mirar hacia el futuro y empezar a diseñarlo es clave. Por eso, en este verano se verá una nueva estrategia para contrataciones de jugadores ...\nEsto será independiente de las posiciones en las que se buscará incorporar para reforzar el equipo: al menos un zaguero y un volante central , probablemente la zona ofensiva y un arquero en caso de que se vaya Santiago Beltrán. Así, la idea es que mientras se gestionan apellidos para esos lugares, se pueda apostar por algunos jugadores más prometedores que hoy son muy jóvenes y no tan conocidos para el mundo del fútbol en general.\nLa nueva metodología, encabezada por el director deportivo Pablo Longoria y su equipo de scouting desde hace un tiempo y en secreto, consta en detectar a talentos incipientes que todavía no sobresalieron en sus ligas para adelantarse a los europeos que vienen a comprar al continente. En otras palabras, pasar a ser ese \"europeo\" para darles la última etapa de formación a los jóvenes (mayoritaria y preferentemente menores a 19 años) con la metodología River y poder disfrutarlos en el futuro.\nSi bien la cantidad de incorporaciones de este estilo dependerá de las oportunidades que se vayan dando en el mercado y de cómo se utilice el presupuesto previsto para el fútbol profesional (saldrá de los aproximadamente u$s 12 millones que se destinarán, que se pueden ampliar en caso de una venta), no todos los que lleguen se quedarán en el plantel principal : está previsto que alguno de menor edad pueda sumar rodaje en la Reserva y que otros sean cedidos para que vayan incorporando experiencia y minutos en equipos de Primera o mismo del exterior. El plan es, luego, poder tenerlos en el equipo y asegurar un recambio juvenil, o bien directamente sacarles un rédito económico .\nNaturalmente, estos nombres que están en la carpeta de Longoria y el también español Domingo Catoira (se sumó a mediados de año para abarcar mejor el área de scouting) no requerirán de grandes erogaciones económicas : por más que desde las oficinas del Monumental aún no se animan a ponerle tope a un jugador (cada caso es diferente, lógicamente), aseguran que serán inversiones bajas y, dependiendo cómo se presenten las negociaciones, por algún porcentaje mayoritario de la ficha.\nEn ese sentido, uno de los que se encuentra en la carpeta de seguimiento y que cumple con todos los requisitos previos como para avanzar cuando se abra el mercado veraniego -tal como aseguran en Núñez- es el paraguayo Mauro Coronel . Tiene 18 años, juega de marcador central, es diestro, mide 1,87 metro y milita en Nacional de Paraguay, que tiene intenciones de hacer caja con el que consideran el mejor proyecto defensivo del país . También merodeado por equipos europeos (Brighton y Aston Villa), disputó los recientes Juegos Suramericanos (le ganaron la final a Argentina y él metió el penal definitivo) y en la fecha FIFA pasada fue convocado por primera vez por Gustavo Alfaro y debutó en la goleada 4-1 a Singapur (fue titular), ratificando la gran proyección que le ven.\nEl propio presidente del club guaraní pasó este interés a lo público: \"Es cierto, se han interesado. Hablé con el presidente de la institución la semana pasada y quedamos en una reunión para estos días. El interés es real, aunque todavía no hay una oferta oficial . También hay interés de otra parte del mundo y nosotros vamos a juzgar qué es lo mejor para Mauro y para la institución\", contó este martes Enrique Sánchez, en un diálogo con Rock&Pop Paraguay.\nDe perfil bajo y apegado a la familia, se inició en Inferiores como volante central, pero lo hicieron retroceder en el campo y se consolidó como un zaguero al que le auguran un gran futuro . Y, por si fuera poco, es titular en su equipo (26 partidos en el año, sin goles y con siete amarillas) y fue importante para que Nacional se asegurara el segundo puesto en la anual, que le dio el pase a la fase de grupos de la próxima Libertadores .\nCoronel es uno, pero en la lista hay más. Hablar del mercado en este momento puede parecer lejano, pero en River ya trabajan en él y piensan a futuro . Habrá que ver cómo le va con esta nueva estrategia vinculada a los jóvenes...\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "River planifica captar jóvenes talentos antes de Europa",
+    "caption": "River Plate, bajo la dirección de Pablo Longoria y su equipo de scouting, que incluye a Domingo Catoira, lanzará este verano una estrategia para fichar jugadores menores de 19 años con un presupuesto de US$12 millones. El objetivo es detectar talentos incipientes, como el paraguayo Mauro Coronel de Nacional, para formarlos en la metodología River, integrarlos en la Reserva o cedérselos a equipos de Primera y, a futuro, reforzar el plantel principal o generar ingresos.",
+    "ai_generated_at": "2026-11-24T21:44:52.314574+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
