@@ -512,6 +512,10 @@ def wrap_lines(draw, text: str, chosen_font, width: int) -> list[str]:
     return lines
 
 
+def missing_promised_media(item):
+    title = item.get("title", "") + " " + item.get("headline", "")
+    return bool(re.search(r"\b(?:v[ií]deos?|galer[ií]a|mir[aá]|watch|highlights|en im[aá]genes)\b", title, re.I))
+
 def make_card(item: dict, allow_ai: bool = False, lookup: bool = False,
               network_lookup: bool = False) -> Path:
     """Use named athlete photos discovered through Google Images/Commons.
@@ -664,7 +668,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
     for item in sorted(fresh, key=lambda x: novelty_priority(x, reference), reverse=True):
         if added >= capacity:
             break
-        if item["score"] < 15 or is_duplicate(item, queue):
+        if missing_promised_media(item) or item["score"] < 15 or is_duplicate(item, queue):
             continue
         if len(item.get("description", "").strip()) < 30:
             continue  # Headlines without context are too risky to autopublish.
@@ -756,6 +760,9 @@ def run(reference: datetime | None = None, session=None) -> dict:
             if published_count >= allowed_this_run:
                 break
             if item.get("status") != "draft" and not (item.get("status") == "needs_review" and (item.get("photo_deferred_reason") == "no_relevant_photo" or item.get("visual_mode") == "original_graphic") and item.get("headline") and item.get("caption")):
+                continue
+            if missing_promised_media(item):
+                item["status"] = "needs_review"
                 continue
             repeated = '' if item.get('match_result') else duplicate_reason(item, already_posted, reference)
             if repeated:
