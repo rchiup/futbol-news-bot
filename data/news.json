@@ -8110,5 +8110,45 @@
     "source": "Football News, Transfers, Opinion - talkSPORT",
     "collected_at": "2026-11-24T16:31:10.963777+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "1b2deaaa75f8a8a8d0819fcdf5e9e52d34c150987e5a0ff7a9feeae5f18c7aa7",
+    "title": "FA chief signs NDA to view Fifa sell-off plot documents",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cqx2x4k74ryxo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-24T16:45:52.783274+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "06a3fb8c341461e14fcfc70fe75e0dea6c9f8f8d6b8203ee372022ce4f840f85",
+    "title": "Euro 2028 qualifying draw date, start time, format and confirmed pots",
+    "url": "https://talksport.com/football/4728634/euro-2028-qualifying-draw-date-start-time-format-pots/",
+    "source": "Football News, Transfers, Opinion - talkSPORT",
+    "collected_at": "2026-11-24T16:45:53.950009+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "671bac5bba33848a5c5dedd131112c37f47180281efc3cedd2a121ffb3ebcdc7",
+    "title": "Wesley Fofana picks worst possible time to deliver two bombshell Chelsea revelations",
+    "url": "https://talksport.com/football/4728857/wesley-fofana-bombshell-chelsea-revelations/",
+    "source": "Football News, Transfers, Opinion - talkSPORT",
+    "collected_at": "2026-11-24T16:45:53.950026+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "eccbceda7a5908f8a4a8f22698d52840d328eac6ad562ff0b348f1a3c888bad3",
+    "title": "El GP de Las Vegas de F1, con récord histórico para bien y para mal; ¿y las causas?",
+    "url": "https://es.motorsport.com/f1/news/carrera-vegas-record-historico-negativo-audiencias/10877505/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es",
+    "source": "Motorsport.com - Fórmula 1 - Historias",
+    "collected_at": "2026-11-24T16:45:55.095628+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "d9ee4c0d37ac1df6de0ea4febad514b3ce837179601bc09e8c867c49a593249f",
+    "title": "Por qué Ferrari cree que las normas escritas no servirán para gestionar a Leclerc y Hamilton",
+    "url": "https://es.motorsport.com/f1/news/ferrari-normas-escritas-no-serviran-gestionar-leclerc-hamilton/10877284/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es",
+    "source": "Motorsport.com - Fórmula 1 - Historias",
+    "collected_at": "2026-11-24T16:45:55.095644+00:00",
+    "status": "pending_review"
   }
 ]

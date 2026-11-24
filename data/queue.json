@@ -5886,8 +5886,24 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-24T16:16:05.590842+00:00",
-    "status": "awaiting_ai",
-    "article_context": "The UEFA Champions League returns Tuesday for Matchday 5 of the league phase, with nine matches across the continent as the race for a place in the knockout rounds heats up!\nOne of our main matches of the day features reigning Premier League champions -- and current league leaders -- Arsenal taking on Bundesliga leaders Borussia Dortmund . We also have Manchester City welcoming Napoli and Real Madrid taking on PSV Eindhoven .\nIn our early matches, we have Bodø/Glimt taking on LASK , and Aston Villa in Istanbul taking on Galatasaray . Also on the schedule: Como vs. AEK Athens , Feyenoord vs. FC Porto , RB Leipzig vs. Lens and Slovan Bratislava vs. Real Betis .\nWith crucial points up for grabs, we'll have you covered throughout another action-packed day of the Champions League.\nEnjoy all the updates from Tuesday's matches across Europe!"
+    "status": "needs_review",
+    "article_context": "The UEFA Champions League returns Tuesday for Matchday 5 of the league phase, with nine matches across the continent as the race for a place in the knockout rounds heats up!\nOne of our main matches of the day features reigning Premier League champions -- and current league leaders -- Arsenal taking on Bundesliga leaders Borussia Dortmund . We also have Manchester City welcoming Napoli and Real Madrid taking on PSV Eindhoven .\nIn our early matches, we have Bodø/Glimt taking on LASK , and Aston Villa in Istanbul taking on Galatasaray . Also on the schedule: Como vs. AEK Athens , Feyenoord vs. FC Porto , RB Leipzig vs. Lens and Slovan Bratislava vs. Real Betis .\nWith crucial points up for grabs, we'll have you covered throughout another action-packed day of the Champions League.\nEnjoy all the updates from Tuesday's matches across Europe!",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Arsenal",
+        "Napoli"
+      ],
+      "competicion": [
+        "UEFA Champions League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Arsenal recibe a Dortmund en jornada de Champions League",
+    "caption": "La fase de liga de la UEFA Champions League continúa este martes con la disputa de la quinta fecha. Arsenal se enfrenta a Borussia Dortmund, mientras que Manchester City recibe a Napoli y Real Madrid visita a PSV Eindhoven. La jornada incluye otros seis encuentros en distintas ciudades europeas, donde los equipos buscan sumar puntos clave para avanzar a la siguiente ronda del torneo continental."
   },
   {
     "id": "0bc9ca84b1586a78f2f1",
@@ -5900,11 +5916,41 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-24T16:16:05.590842+00:00",
-    "status": "awaiting_ai",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "El festejo de Colidio en Alta Córdoba ante Instituto. Foto: Ariel Carreras.\nAnte la confirmación de que Instituto no mudará su localía al Mario Alberto Kempes y recibirá a River en el estadio Monumental Presidente Perón, el equipo de Leonardo Ponzio ya sabe que tendrá que jugarse el pase a las semifinales del Clausura en un escenario con mucha historia. En la previa, la excursión al corazón de Alta Córdoba tendrá un fuerte contraste para el Millonario, con un historial general adverso que pesó durante décadas y un presente más alentador que incluye dos alegrías recientes en fila.\nSi se toma la película completa de los 14 partidos oficiales que disputó el CARP en ese escenario -10 frente a la Gloria, dos contra Talleres y dos ante Racing de Córdoba-, la estadística global todavía marca números en rojo, con apenas dos victorias, ocho empates y cuatro derrotas. De hecho, durante medio siglo esa cancha fue un auténtico karma para Núñez: entre su primera visita el 24 de noviembre de 1974 (caída 2-1 frente a la T) y la de abril de 1990 , River encadenó 12 presentaciones sin poder ganar ni una sola vez en el tiempo reglamentario , con ocho empates y cuatro tropiezos.\nEn aquella época esquiva de los años 80, el Millonario sufrió golpes duros en el barrio cordobés: perdió 1-0 con Racing en diciembre de 1982 y padeció dos goleadas frente a Instituto, por 3-0 en noviembre de 1983 y por 4-1 el 8 de marzo de 1987. En el medio, coleccionó empates de todos los colores: 1-1 en 1982, dos 0-0 y un 2-2 a lo largo de 1984, otro 0-0 en febrero de 1988, dos pardas sin goles en 1989 -en la del 5 de marzo ante la Gloria se impuso por 5-4 en la definición por penales que otorgaba un punto extra en aquel certamen- y el 1-1 del 22 de abril de 1990.\nSin embargo, los antecedentes más cercanos cambiaron por completo la ecuación y le hacen un guiño al plantel actual. River acumula seis visitas consecutivas sin conocer la derrota en Alta Córdoba y quebró el maleficio por duplicado en sus últimas dos excursiones, ambas durante 2024 y remontando el resultado.\nLa primera de esas victorias fue el 15 de abril de 2024, por la última fecha de la Copa de la Liga. Aquella noche, el local arrancó arriba con un gol de penal de Damián Puebla , pero en el segundo tiempo apareció Facundo Colidio con un hat-trick inolvidable para sellar el 3-1 y el boleto a cuartos .\nCasi 7 meses más tarde, el 6 de noviembre de 2024 por la Liga Profesional, la historia se repitió en otro partidazo. G regorio Rodríguez abrió la cuenta para la Gloria, Pablo Solari y Paulo Díaz lo dieron vuelta , Jonás Acevedo estampó el 2-2 parcial y, a ocho minutos del cierre, otra vez Colidio -verdugo con cuatro tantos en dos juegos en esa cancha- firmó el 3-2 definitivo tras un gran pase del Pity Martínez. Un antecedente fresco para creer.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "River",
+        "Instituto"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Alta Córdoba"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "River buscará semifinales en Alta Córdoba contra Instituto",
+    "caption": "River, dirigido por Leonardo Ponzio, jugará en el estadio Monumental Presidente Perón de Instituto con la necesidad de ganar para avanzar a las semifinales del Clausura. El equipo llega con un historial reciente favorable: seis visitas consecutivas sin derrota y dos victorias en 2024 contra el mismo rival, impulsado por el hat‑trick de Facundo Colidio y el gol decisivo de Pity Martínez. El pasado éxito en la Copa de la Liga y la Liga Profesional refuerzan la confianza del Millonario para romper el “karma” histórico del estadio.",
+    "ai_generated_at": "2026-11-24T16:45:56.398387+00:00",
+    "photo_checked_at": "2026-11-24T16:46:56.747110+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "River",
+        "Instituto"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T16:45:56.398387+00:00",
+    "instagram_media_id": "18176649607417091"
   },
   {
     "id": "93a4a1409e95cc2afc2c",
@@ -5917,11 +5963,37 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-24T16:16:05.590842+00:00",
-    "status": "awaiting_ai",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Cameron Boozer",
+    "visual_entities": {
+      "personas": [
+        "Cameron Boozer"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Cameron Boozer se pierde un mes por esguince",
+    "caption": "El novato de los Memphis Grizzlies, Cameron Boozer, sufrió un esguince en el tobillo derecho que lo mantendrá fuera de la alineación durante al menos un mes.",
+    "ai_generated_at": "2026-11-24T16:45:56.398387+00:00",
+    "photo_checked_at": "2026-11-24T16:47:18.436357+00:00",
+    "portrait_info": null,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "NBA",
+        "CameronBoozer"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T16:45:56.398387+00:00",
+    "instagram_media_id": "18135576869491785"
   },
   {
     "id": "c8b6298ca3516cd61214",
@@ -5934,11 +6006,41 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-24T16:16:05.590842+00:00",
-    "status": "awaiting_ai",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Joel Embiid",
+    "visual_entities": {
+      "personas": [
+        "Joel Embiid"
+      ],
+      "clubes": [
+        "76ers",
+        "Trail Blazers"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Embiid se pierde el partido y 76ers caen",
+    "caption": "Joel Embiid, el pívot de los 76ers, estuvo ausente el lunes por una enfermedad y no jugó contra los Trail Blazers. La ausencia del jugador clave coincidió con la derrota del equipo en ese encuentro.",
+    "ai_generated_at": "2026-11-24T16:45:56.398387+00:00",
+    "photo_checked_at": "2026-11-24T16:47:52.412664+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "NBA",
+        "JoelEmbiid",
+        "76ers",
+        "TrailBlazers"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T16:45:56.398387+00:00",
+    "instagram_media_id": "18114326462178923"
   },
   {
     "id": "eb7499ed9adbf1698dd7",
@@ -5951,11 +6053,23 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-24T16:16:05.590842+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Jugador no profesional se lesiona tras caer en madriguera",
+    "caption": "Un futbolista de categoría no profesional se lesionó el tobillo al caer en una madriguera de tejón durante una sesión de entrenamiento. El incidente ocurrió en una instalación de entrenamiento, sin que se indiquen más detalles sobre el club o la ubicación.",
+    "ai_generated_at": "2026-11-24T16:45:56.398387+00:00"
   },
   {
     "id": "eedbf7a2ba4735673789",
@@ -6092,6 +6206,129 @@
     "sport": "NBA",
     "score": 23,
     "queued_at": "2026-11-24T16:31:13.962347+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "c90c554afcd5b4a46ddf",
+    "title": "El GP de Las Vegas de F1, con récord histórico para bien y para mal; ¿y las causas?",
+    "source_url": "https://es.motorsport.com/f1/news/carrera-vegas-record-historico-negativo-audiencias/10877505",
+    "source": "Motorsport F1",
+    "description": "El Gran Premio de Las Vegas de F1 2026 generó mucho debate después de su histórico registro de 352 adelantamientos y 35 cambios de líder, un récord absoluto (casi el doble que el anterior), que no gustó a todo el mundo por la naturaleza de la mayoría de acciones. Sin embargo, también hubo otro récord negativo, y es el de menor seguimiento en directo por la televisión en España ... Sigue leyendo",
+    "published_at": "2026-11-24T16:38:08+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-24T16:45:56.398387+00:00",
+    "status": "draft",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [
+        "Gran Premio de Las Vegas"
+      ],
+      "ciudad": [
+        "Las Vegas"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "GP de Las Vegas bate récord de adelantamientos y cae audiencia",
+    "caption": "El Gran Premio de Las Vegas 2026 registró 352 adelantamientos y 35 cambios de líder, un récord absoluto que casi duplica al anterior. Sin embargo, el mismo evento alcanzó el menor seguimiento en directo por la televisión en España, generando debate sobre la naturaleza de la acción en la carrera.",
+    "ai_generated_at": "2026-11-24T16:45:56.398387+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "5d07cb1b7461ac5226cf",
+    "title": "Por qué Ferrari cree que las normas escritas no servirán para gestionar a Leclerc y Hamilton",
+    "source_url": "https://es.motorsport.com/f1/news/ferrari-normas-escritas-no-serviran-gestionar-leclerc-hamilton/10877284",
+    "source": "Motorsport F1",
+    "description": "La rueda de prensa posterior a la carrera del Gran Premio de Las Vegas con Frédéric Vasseur fue, en varios aspectos, casi una copia exacta de la conversación mantenida en Ciudad de México. En ambas ocasiones, la charla con la prensa escrita tuvo lugar en una sala pequeña, casi acogedora, situada en la parte trasera del hospitality de Ferrari, en parte porque los equipos de Fórmula 1 no ... Sigue leyendo",
+    "published_at": "2026-11-24T16:35:38+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-24T16:45:56.398387+00:00",
+    "status": "draft",
+    "visual_subject": "Frédéric Vasseur",
+    "visual_entities": {
+      "personas": [
+        "Frédéric Vasseur"
+      ],
+      "clubes": [
+        "Ferrari"
+      ],
+      "competicion": [
+        "Gran Premio de Las Vegas"
+      ],
+      "ciudad": [
+        "Las Vegas",
+        "Ciudad de México"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Ferrari afirma que normas escritas no gestionarán a Leclerc y Hamilton",
+    "caption": "El director técnico Frédéric Vasseur explicó en la rueda de prensa posterior al Gran Premio de Las Vegas que, al igual que en la conferencia en Ciudad de México, el equipo considera que las normas escritas no son suficientes para controlar la gestión de sus pilotos Charles Leclerc y Lewis Hamilton, señalando la necesidad de enfoques más flexibles dentro del equipo Ferrari.",
+    "ai_generated_at": "2026-11-24T16:45:56.398387+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "1b2deaaa75f8a8a8d081",
+    "title": "FA chief signs NDA to view Fifa sell-off plot documents",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/cqx2x4k74ryxo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Debbie Hewitt is among several football chiefs to view documents made available by Fifa, but cannot speak about them.",
+    "published_at": "2026-11-24T16:34:18+00:00",
+    "category": "FICHAJES",
+    "sport": "FUTBOL",
+    "score": 26,
+    "queued_at": "2026-11-24T16:45:56.398387+00:00",
+    "status": "awaiting_ai",
+    "article_context": "Debbie Hewitt has been chair at the FA since 2022\nFootball Association chair Debbie Hewitt has signed a non-disclosure agreement (NDA) as a condition of viewing documents related to Fifa president Gianni Infantino's failed World Cup sell-off plot.\nHewitt was granted access to the information at the world governing body's headquarters in Zurich.\nEarlier this month, Fifa said \"key documents\" on the abandoned plan to sell stakes in its tournaments to private investors would be made available to members of its council, but only in person and under \"strict review protocols to preserve confidentiality\".\nUefa had demanded Fifa release details about the controversial Fifa Forward Enterprise (FFE) proposal, and answer questions relating to its decision-making.\nHewitt was among a group of council members who wrote to Fifa to say they were \"concerned that any review would seemingly be limited to certain 'key documents'… which in turn would only be available for review under unknown 'strict review protocols'\".\nThey also asked for clarity on what the protocols were, and \"an explanation as to why Fifa considers such restrictions necessary since it is not clear why our rights are being limited in such a way\".\nThe NDA means Hewitt cannot reveal what she has read, or comment about it publicly.\nFair Square, which campaigns for greater accountability in sport, told BBC Sport: \"Debbie Hewitt and the FA didn't need to see the details of FFE to know that it was a gross abuse of presidential power.\n\"As a member association, the FA is entitled to hold the Fifa president accountable for his actions, and as a Fifa Council vice-president, Hewitt should have seen these plans as soon as they were hatched.\n\"They had the right to demand to see these documents, and should have exercised that right forcefully and publicly, rather than signing a gagging clause that puts Fifa and Infantino back in control.\"\n115 days, 39 private-jet flights, one election - Infantino's globetrotting\nSenegal reinstated as Afcon 2025 winners by court ruling\nHewitt has previously criticised Infantino for a lack of transparency.\nHowever, she embraced the Fifa president at a ceremony in Zurich on Monday when the UK bid to host the 2035 Women's World Cup was ratified at a special ceremony.\nIt is unclear whether she viewed the files on the same day, and which documents have been made available.\nLast week, BBC Sport revealed the FA had considered challenging Infantino's eligibility to run for a fourth term as Fifa president, and that it is backing French candidate Philippe Diallo in next year's presidential election.\nFifa has been approached for comment. Sources have previously indicated Fifa's ability to answer some questions is limited by legal action that Uefa launched in October in the US, requesting disclosure of evidence and documents, warning it could lodge a criminal complaint in Switzerland.\nGet football news sent straight to your phone\nMan Utd's Yoro has Anfield red card overturned\nFA chief signs NDA to view Fifa sell-off plot documents\nA festive comedy featuring Jason Bateman, Olivia Munn and Jennifer Aniston\nIs cough medicine any better than just taking honey and lemon?\nLucy unlocks the secrets of four spectacular palaces\nThe controversial operation that transplanted a baboon's heart into a baby\nWhy has De Bruyne struggled at Napoli as he returns to Man City?\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nTwo goals in 15 games - what's going on with Gyokeres?\nWho has made Troy's Premier League team of the week?\nEngland's tearaway quick bowler reinvented as a top-order batter\nChaotic week, nightmare start and huge reality check for Pochettino\nA 'wow' player - why Ngumoha is already a Liverpool game-changer\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland will not get carried away by beating All Blacks\nVerstappen a constant amid chaos as he says Russell is 'so far below my level'\nThe sandpaper plot - who was there, who said what?\nThe 3pm football blackout: Outdated or still relevant in 2026?\nJosh Kerr: The making of the man behind the shades\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "feef6db2ddbcefbca546",
+    "title": "Man Utd's Yoro has Anfield red card overturned",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/ck868g93djl5o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Manchester United defender Leny Yoro is clear to face Brentford on Saturday as his red card at Anfield is overturned.",
+    "published_at": "2026-11-24T16:16:58+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T16:45:56.398387+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "bd2837bf78ec04a4a963",
+    "title": "Video: erró un penal y sus hinchas festejaron porque su clásico rival podía ser campeón",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/suecia-video-penal-errado-hinchas-festejaron-clasico-rival_0_IyGFbZfmMf.html",
+    "source": "Olé Argentina",
+    "description": "En Suecia, la gente de Djurgården celebró remate desviado por Stromland Lien ante Sirius para evitar que Hammarby se encamine a la vuelta olímpica.",
+    "published_at": "2026-11-24T16:01:49+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T16:45:56.398387+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,

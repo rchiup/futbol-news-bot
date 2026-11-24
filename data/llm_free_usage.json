@@ -2,16 +2,10 @@
   "date_utc": "2026-11-24",
   "providers": {
     "groq": {
-      "attempts": 68,
-      "success": 58,
-      "failures": 10,
+      "attempts": 75,
+      "success": 64,
+      "failures": 11,
       "latencies_ms": [
-        1770,
-        1500,
-        1634,
-        5878,
-        10752,
-        2632,
         1202,
         1770,
         1704,
@@ -35,7 +29,13 @@
         1877,
         3665,
         2516,
-        2708
+        2708,
+        2336,
+        1469,
+        1426,
+        1672,
+        1439,
+        2104
       ],
       "quality": [
         100,
@@ -57,15 +57,15 @@
         100,
         100,
         100,
-        100,
-        100,
-        100,
-        100,
-        100,
+        85,
         100,
         85,
         100,
         85,
+        85,
+        100,
+        100,
+        100,
         100,
         85
       ],
@@ -92,25 +92,29 @@
       "blocked_until_utc": 1795539718
     },
     "gemini": {
-      "attempts": 7,
-      "success": 0,
-      "failures": 7,
-      "latencies_ms": [],
-      "quality": [],
+      "attempts": 9,
+      "success": 1,
+      "failures": 8,
+      "latencies_ms": [
+        23629
+      ],
+      "quality": [
+        85
+      ],
       "last_error": "http_503"
     },
     "cloudflare": {
-      "attempts": 5,
+      "attempts": 6,
       "success": 0,
-      "failures": 5,
+      "failures": 6,
       "latencies_ms": [],
       "quality": [],
       "last_error": "http_410"
     },
     "nvidia": {
-      "attempts": 5,
+      "attempts": 6,
       "success": 0,
-      "failures": 5,
+      "failures": 6,
       "latencies_ms": [],
       "quality": [],
       "last_error": "http_410"
