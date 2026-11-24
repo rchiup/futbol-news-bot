@@ -100,5 +100,84 @@
         }
       }
     }
+  },
+  {
+    "checked_at_utc": "2026-11-24T12:55:07.311936+00:00",
+    "method": "same dated RSS title and summary",
+    "readability_is_not_fact_checking": true,
+    "configured_free_providers": [
+      "groq",
+      "openrouter"
+    ],
+    "results": [
+      {
+        "provider": "groq",
+        "model": "openai/gpt-oss-120b",
+        "status": "ok",
+        "latency_ms": 1779,
+        "headline": "Carla Ward renueva contrato hasta Euro 2029",
+        "caption": "Carla Ward, directora técnica de la selección de la República de Irlanda, firmó una extensión de contrato que la mantendrá al mando hasta el final de la campaña para la Eurocopa 2029.",
+        "readability_score": 100
+      },
+      {
+        "provider": "gemini",
+        "model": "gemini-3.1-flash-lite",
+        "status": "not_configured"
+      },
+      {
+        "provider": "cerebras",
+        "model": "gpt-oss-120b",
+        "status": "not_configured"
+      },
+      {
+        "provider": "openrouter",
+        "model": "openrouter/free",
+        "status": "ok",
+        "latency_ms": 15996,
+        "headline": "Carla Ward renueva contrato con Irlanda hasta Euro 2029",
+        "caption": "Carla Ward renueva como seleccionadora de Irlanda hasta la conclusión de Euro 2029, asegurando la continuidad del proyecto deportivo.",
+        "readability_score": 100
+      },
+      {
+        "provider": "cloudflare",
+        "model": "@cf/meta/llama-3.1-8b-instruct-fp8",
+        "status": "not_configured"
+      },
+      {
+        "provider": "nvidia",
+        "model": "meta/llama-3.3-70b-instruct",
+        "status": "not_configured"
+      },
+      {
+        "provider": "zai",
+        "model": "glm-4.5-flash",
+        "status": "not_configured"
+      }
+    ],
+    "source_title": "Republic of Ireland boss Ward signs new contract",
+    "sport": "FUTBOL",
+    "status": "complete",
+    "usage_summary": {
+      "date_utc": "2026-11-24",
+      "last_success": "openrouter",
+      "providers": {
+        "groq": {
+          "attempts": 18,
+          "success": 14,
+          "failures": 4,
+          "avg_latency_ms": 1668,
+          "avg_readability": 100.0,
+          "last_error": "invalid_output"
+        },
+        "openrouter": {
+          "attempts": 1,
+          "success": 1,
+          "failures": 0,
+          "avg_latency_ms": 15995,
+          "avg_readability": 100.0,
+          "last_error": null
+        }
+      }
+    }
   }
 ]
