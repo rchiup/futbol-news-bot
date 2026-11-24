@@ -215,7 +215,7 @@ def is_duplicate(candidate: dict, queue: list[dict]) -> bool:
 ENGLISH_HEADLINE_MARKERS = re.compile(
     r"\b(?:after|before|forward|victim|defeat|reportedly|could|will|says|"
     r"football|world\s+cup|injury|manager|striker|midfielder|defender|"
-    r"signing|beating|against|win|wins|loses|draws|leads|over|under)\b",
+    r"signing|beating|against|win|wins|loses|draws|leads|over|under|amid|despite|while|among|through|following|with|without|however|since|during|ahead|past|stunner|double|boost|blow|clash|reportedly)\b",
     flags=re.IGNORECASE,
 )
 
@@ -341,7 +341,7 @@ def validate_llm_copy(result: dict, item: dict) -> dict:
     caption = fit_caption(str(result.get("caption", "")))
     if not 12 <= len(headline) <= 75 or not 20 <= len(caption) <= 360:
         raise ValueError("Invalid headline/caption length")
-    if headline_needs_translation(headline):
+    if headline_needs_translation(headline) or headline_needs_translation(caption):
         raise ValueError("Untranslated English headline")
     if re.search(r"(?i)(?:fuente|source)\s*:", caption) or "http" in caption.lower():
         raise ValueError("Caption contains source links")
@@ -633,7 +633,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 item["status"] = "needs_review"
                 print(f"[EDITOR] Held speculative match preview without news: {item['id']}")
                 continue
-            if headline_needs_translation(item.get("headline", "")):
+            if headline_needs_translation(item.get("headline", "")) or headline_needs_translation(item.get("caption", "")):
                 item["status"] = "needs_review"
                 print(f"[EDITOR] Blocked untranslated headline: {item['id']}")
                 continue
@@ -655,17 +655,17 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 )
                 allow_network_photo = network_photo_lookups < 3 and photo_is_unchecked
                 path = make_card(
-                    item, allow_ai=can_generate_art, lookup=True,
+                    item, allow_ai=False, lookup=True,
                     network_lookup=allow_network_photo,
                 )
-                if can_generate_art:
+                if item.get("ai_art_used"):
                     attempted_art_this_run += 1
                 if item.get("photo_checked_at") and allow_network_photo:
                     network_photo_lookups += 1
                 # An ORIGINAL background is useful for previews but the live
                 # feed now requires a real licensed portrait or successful art.
                 # Blank visual covers harmed readability and the audience.
-                if not item.get("photo_used") and not item.get("ai_art_used"):
+                if not item.get("photo_used") or item.get("ai_art_used"):
                     item["visual_mode"] = "original_graphic"
                     item.pop("photo_deferred_reason", None)
                     print(f"[PHOTO] Awaiting relevant image; not publishing blank card: {item['id']}")
