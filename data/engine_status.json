@@ -1,20 +1,20 @@
 {
-  "checked_at_utc": "2026-11-24T19:31:01.457121+00:00",
+  "checked_at_utc": "2026-11-24T19:33:44.832682+00:00",
   "local_hour": 16,
   "statuses": {
-    "published": 73,
-    "draft": 17,
-    "awaiting_ai": 33,
+    "published": 76,
+    "draft": 20,
+    "awaiting_ai": 13,
     "needs_review": 69,
     "publish_error": 25,
     "duplicate": 15
   },
   "fresh_candidates": 151,
-  "queued_new": 3,
-  "ai_generated": 8,
+  "queued_new": 0,
+  "ai_generated": 6,
   "preview_images": 5,
   "published": 3,
-  "duplicates_suppressed": 2,
+  "duplicates_suppressed": 0,
   "no_photo_deferred": 0,
   "total_queue": 263,
   "per_run_cap": 3,
@@ -38,11 +38,11 @@
     "last_success": "cloudflare",
     "providers": {
       "groq": {
-        "attempts": 98,
-        "success": 82,
-        "failures": 16,
-        "avg_latency_ms": 2211,
-        "avg_readability": 95.0,
+        "attempts": 102,
+        "success": 85,
+        "failures": 17,
+        "avg_latency_ms": 2235,
+        "avg_readability": 94.5,
         "last_error": "http_429"
       },
       "openrouter": {
@@ -62,25 +62,25 @@
         "last_error": "http_503"
       },
       "cloudflare": {
-        "attempts": 27,
-        "success": 13,
-        "failures": 14,
-        "avg_latency_ms": 3388,
-        "avg_readability": 98.8,
-        "last_error": "http_410"
+        "attempts": 31,
+        "success": 16,
+        "failures": 15,
+        "avg_latency_ms": 3340,
+        "avg_readability": 98.1,
+        "last_error": "invalid_output"
       },
       "nvidia": {
-        "attempts": 14,
+        "attempts": 15,
         "success": 0,
-        "failures": 14,
+        "failures": 15,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "http_410"
       },
       "zai": {
-        "attempts": 6,
+        "attempts": 7,
         "success": 1,
-        "failures": 5,
+        "failures": 6,
         "avg_latency_ms": 36694,
         "avg_readability": 100.0,
         "last_error": "http_429"
