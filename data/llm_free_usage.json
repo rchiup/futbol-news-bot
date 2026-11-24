@@ -92,9 +92,9 @@
       "blocked_until_utc": 1795539718
     },
     "gemini": {
-      "attempts": 9,
+      "attempts": 10,
       "success": 1,
-      "failures": 8,
+      "failures": 9,
       "latencies_ms": [
         23629
       ],
@@ -104,17 +104,17 @@
       "last_error": "http_503"
     },
     "cloudflare": {
-      "attempts": 6,
+      "attempts": 7,
       "success": 0,
-      "failures": 6,
+      "failures": 7,
       "latencies_ms": [],
       "quality": [],
       "last_error": "http_410"
     },
     "nvidia": {
-      "attempts": 6,
+      "attempts": 7,
       "success": 0,
-      "failures": 6,
+      "failures": 7,
       "latencies_ms": [],
       "quality": [],
       "last_error": "http_410"
