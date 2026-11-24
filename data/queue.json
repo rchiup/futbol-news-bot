@@ -9259,5 +9259,54 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "58b5f50d4df2423cf391",
+    "title": "La Selección Argentina de talla baja aplastó a Brasil en el Mundial de Marruecos y espera rival en cuartos",
+    "source_url": "https://www.ole.com.ar/seleccion/seleccion-argentina-talla-bajaaplasto-brasil-mundial-marruecos-espera-rival-cuartos_0_Fbu94lPjYb.html",
+    "source": "Olé Argentina",
+    "description": "Con póker de Lucas Deamigo, el vigente campeón goleó 5-1 a la Canarinha, cerró su zona como líder invicto y ya palpita el mata-mata del torneo en África.",
+    "published_at": "2026-11-24T20:35:38+00:00",
+    "category": "SELECCIONES",
+    "sport": "FUTBOL",
+    "score": 34,
+    "queued_at": "2026-11-24T20:48:53.610730+00:00",
+    "status": "published",
+    "article_context": "La selección Argentina de talla baja, es la campeona defensora del Mundial.\nLa Selección Argentina de talla baja sigue a paso firme en la defensa de su título mundial. Tras consagrarse en la primera edición del certamen en 2023, la Albiceleste busca el bicampeonato en Marruecos y, este martes 24, goleó por 5-1 a Brasil en el cierre de la fase de grupos. Con cuatro tantos de Lucas Deamigo y uno de Martín Antúnez, el conjunto nacional consiguió su tercera victoria consecutiva y se aseguró el primer puesto de su zona .\nPese a comenzar en desventaja ante la Canarinha, la Albiceleste logró revertir el resultado y terminó imponiéndose con contundencia ante su clásico rival. De esta manera, Argentina cerró la primera instancia del certamen con tres victorias en igual cantidad de presentaciones.\nCon este triunfo por 5-1 frente a Brasil , el campeón defensor venció a todos sus rivales adentro de la cancha, y acabó con 13 goles a favor y apenas dos en contra. De esta manera, logró avanzar a los cuartos de final como líder de su grupo .\nEl seleccionado argentino había iniciado su participación en el Mundial con una goleada por 5-0 ante Jordania, mientras que en su segunda presentación venció por 3-1 a Irak, y se aseguró el primer lugar .\nCon el primer puesto de su zona asegurado, la Selección Argentina volverá a jugar este jueves 26 de noviembre , desde las 16.15 (hora argentina), cuando se mida ante el segundo del Grupo 4, integrado por Paraguay, Egipto, Japón y Ghana. En caso de avanzar, disputará las semifinales el viernes 27, mientras que la final está programada para el domingo 29.\nPor el momento, Paraguay y Egipto lideran el Grupo 4 con seis puntos cada uno. Ambas selecciones se enfrentarán en la última jornada de la fase de grupos, en un duelo que definirá las posiciones de la zona y, por lo tanto, al próximo rival de Argentina , que se medirá ante el equipo que finalice segundo.\nLa participación de la Selección Argentina de talla baja en el Mundial de Marruecos estuvo marcada por las dificultades económicas que atravesó el plantel para afrontar los gastos del viaje . Tras varias semanas de colectas y campañas en redes sociales, al combinado nacional todavía le faltaba cubrir uno de los pasajes de la delegación.\nFue entonces cuando apareció Marcos Senesi . El defensor del Tottenham, que formó parte del plantel de Lionel Scaloni que disputó el último Mundial, realizó junto a su familia una donación que permitió completar los fondos necesarios para que todos los integrantes del seleccionado pudieran viajar a Marruecos.\nAntes de partir desde el aeropuerto de Ezeiza, los futbolistas publicaron un video en sus redes sociales en el que agradecieron a quienes colaboraron con la causa , con una mención especial para el ex San Lorenzo. “ Se puso la 10, se puso la camiseta de la igualdad y de la integración ”, expresó Facundo Rojas, capitán del conjunto nacional.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "Lucas Deamigo",
+    "visual_entities": {
+      "personas": [
+        "Lucas Deamigo"
+      ],
+      "clubes": [],
+      "competicion": [
+        "Mundial de Marruecos"
+      ],
+      "ciudad": [
+        "Marruecos"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Argentina de talla baja derrota a Brasil y avanza a cuartos",
+    "caption": "Con cuatro goles de Lucas Deamigo y uno de Martín Antúnez, la selección Argentina de talla baja superó 5-1 a Brasil, cerró la fase de grupos como líder invicto y aseguró su puesto en los cuartos de final del Mundial de Marruecos. El equipo, que había afrontado dificultades económicas para el viaje, recibió una donación de Marcos Senesi que completó los fondos. El capitán Facundo Rojas agradeció a los colaboradores, entre ellos ex San Lorenzo.",
+    "ai_generated_at": "2026-11-24T20:48:53.610730+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-24T20:49:26.001759+00:00",
+    "portrait_info": null,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "LucasDeamigo",
+        "MundialdeMarruecos"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T20:48:53.610730+00:00",
+    "instagram_media_id": "18415452205093076"
   }
 ]

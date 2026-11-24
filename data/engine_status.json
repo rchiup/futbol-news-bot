@@ -1,8 +1,8 @@
 {
-  "checked_at_utc": "2026-11-24T20:46:48.633683+00:00",
+  "checked_at_utc": "2026-11-24T20:48:53.610730+00:00",
   "local_hour": 17,
   "statuses": {
-    "published": 92,
+    "published": 93,
     "draft": 0,
     "awaiting_ai": 0,
     "needs_review": 105,
@@ -10,13 +10,13 @@
     "duplicate": 24
   },
   "fresh_candidates": 148,
-  "queued_new": 0,
-  "ai_generated": 0,
-  "preview_images": 0,
-  "published": 0,
+  "queued_new": 1,
+  "ai_generated": 1,
+  "preview_images": 1,
+  "published": 1,
   "duplicates_suppressed": 0,
   "no_photo_deferred": 0,
-  "total_queue": 291,
+  "total_queue": 292,
   "per_run_cap": 3,
   "morning_day_cap": 72,
   "auto_publish_enabled": true,
@@ -38,11 +38,11 @@
     "last_success": "groq",
     "providers": {
       "groq": {
-        "attempts": 127,
-        "success": 104,
+        "attempts": 128,
+        "success": 105,
         "failures": 23,
-        "avg_latency_ms": 2469,
-        "avg_readability": 91.5,
+        "avg_latency_ms": 2500,
+        "avg_readability": 91.0,
         "last_error": "http_503"
       },
       "openrouter": {
