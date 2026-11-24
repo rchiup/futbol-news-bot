@@ -2,17 +2,10 @@
   "date_utc": "2026-11-24",
   "providers": {
     "groq": {
-      "attempts": 35,
-      "success": 30,
-      "failures": 5,
+      "attempts": 43,
+      "success": 37,
+      "failures": 6,
       "latencies_ms": [
-        1914,
-        1505,
-        2208,
-        1730,
-        1994,
-        1577,
-        1181,
         1758,
         1823,
         1335,
@@ -35,7 +28,14 @@
         3108,
         2539,
         1770,
-        1500
+        1500,
+        1634,
+        5878,
+        10752,
+        2632,
+        1202,
+        1770,
+        1704
       ],
       "quality": [
         100,
@@ -73,24 +73,26 @@
       "blocked_until_utc": 1795479134
     },
     "openrouter": {
-      "attempts": 3,
-      "success": 3,
+      "attempts": 4,
+      "success": 4,
       "failures": 0,
       "latencies_ms": [
         15995,
         14975,
-        5834
+        5834,
+        33535
       ],
       "quality": [
+        100,
         100,
         100,
         100
       ]
     },
     "gemini": {
-      "attempts": 2,
+      "attempts": 3,
       "success": 0,
-      "failures": 2,
+      "failures": 3,
       "latencies_ms": [],
       "quality": [],
       "last_error": "http_503"
@@ -121,5 +123,5 @@
       "blocked_until_utc": 1795528725
     }
   },
-  "last_success": "groq"
+  "last_success": "openrouter"
 }
