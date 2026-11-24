@@ -748,15 +748,13 @@ def run(reference: datetime | None = None, session=None) -> dict:
     if publish_requested and not missing and in_posting_window:
         from publisher import publish_image, available_instagram_slots
         remaining_meta_slots = available_instagram_slots(fallback_slots=max(0, 40 - rolling_post_count(queue, reference)))
-        allowed_this_run = min(posts_per_run, remaining_meta_slots)
+        allowed_this_run = remaining_meta_slots
         # Novelty and recency outrank a saved portrait; never publish the
         # same protagonist again just because their news came via another feed.
         already_posted = [x for x in queue if x.get("status") == "published"]
         for item in sorted(queue, key=lambda x: (bool(x.get('match_result')), novelty_priority(x, reference)), reverse=True):
             if published_count >= allowed_this_run:
                 break
-            if not item.get("match_result") and (today_count(queue, "posted_at", reference) >= POSTS_PER_DAY or rolling_post_count(queue, reference) >= POSTS_PER_DAY):
-                continue
             if item.get("status") != "draft" and not (item.get("status") == "needs_review" and (item.get("photo_deferred_reason") == "no_relevant_photo" or item.get("visual_mode") == "original_graphic") and item.get("headline") and item.get("caption")):
                 continue
             repeated = '' if item.get('match_result') else duplicate_reason(item, already_posted, reference)
