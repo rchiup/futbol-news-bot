@@ -9091,5 +9091,43 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "3bf7ce96849c2bd30e39",
+    "title": "Alivio para el United: la FA le anuló la roja a Leny Yoro y podrá jugar el próximo partido",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/inglaterra/fa-anulo-roja-leny-yoro-manchester-united-mauricio-pochettino_0_77ilMjDwZw.html",
+    "source": "Olé Argentina",
+    "description": "El defensor francés fue expulsado ante Liverpool por una falta sobre Alexander Isak, pero los Diablos Rojos consiguieron que se revirtiera la sanción.",
+    "published_at": "2026-11-24T20:13:26+00:00",
+    "category": "PARTIDOS",
+    "sport": "FUTBOL",
+    "score": 26,
+    "queued_at": "2026-11-24T20:19:01.374518+00:00",
+    "status": "duplicate",
+    "article_context": "Roja a Yoro ante el Liverpool. (Getty Images)\nL a derrota por 4-0 frente a Liverpool , con el debut de Mauricio Pochettino, dejó varias cuestiones para el Manchester United , pero una de ellas ya se resolvió. La Federación Inglesa de Fútbol aceptó el reclamo del club y anuló la tarjeta roja que había recibido Leny Yoro durante ese encuentro . De esta manera, el defensor francés estará disponible para el próximo partido.\nLa expulsión fue a los ocho minutos del encuentro , cuando el árbitro Sam Barrott consideró que Yoro había empujado desde atrás a Alexander Isak , quien estaba de cara al arco y tenía una clara oportunidad de gol . Al entender que el francés era el último hombre, el juez le mostró la roja directa.\nSin embargo, desde el United no estuvieron de acuerdo con la decisión y apelaron ante las autoridades. El argumento principal de los de Manchester fue que, si bien hubo un contacto entre los futbolistas, Isak ya no estaba en control del balón y el arquero Senne Lammens tenía la pelota bajo su dominio.\nLa federación inglesa confirmó que aceptó la apelación presentada por el club rojo de Manchester y que el defensor no tendrá que cumplir con la fecha de suspensión que correspondía a la expulsión.\n\" La suspensión de un partido de Leny Yoro fue levantada tras una apelación exitosa por expulsión injustificada . El jugador del Manchester United fue expulsado por impedir una clara ocasión de gol durante el partido de la Premier League contra el Liverpool el domingo 22 de noviembre. La Comisión Reguladora Independiente publicará próximamente los motivos por escrito de la decisión\", informó el club.\nCon esta resolución, el francés quedó habilitado para volver a jugar y podrá ser parte del equipo que enfrente al Brentford este sábado 28 en Old Trafford , desde las 12.00 (hora argentina).\nLeny Yoro fue expulsado por esta infracción vs. Liverpool (Video: ESPN).\nYoro no fue el único caso de este tipo en el fútbol inglés durante las últimas semanas . El 14 de octubre, la FA también anuló la sanción por la expulsión de Pascal Struijk , defensor del Brighton , por una infracción sobre Wilson Isidor en el encuentro frente al Sunderland, disputado cuatro días antes.\nEn aquella oportunidad, el árbitro Thomas Bramall fue convocado por el VAR, a cargo de Neil Davies, para revisar la jugada. Después de ver varias veces las imágenes, el juez decidió mostrarle la tarjeta roja al neerlandés, considerando que había impedido una ocasión clara de gol . El club presentó una apelación por expulsión injustificada y consiguió que se le quitara la sanción.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "Leny Yoro",
+    "visual_entities": {
+      "personas": [
+        "Leny Yoro",
+        "Alexander Isak"
+      ],
+      "clubes": [
+        "Liverpool"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Liverpool"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "FA anula roja a Leny Yoro y podrá jugar",
+    "caption": "La Federación Inglesa de Fútbol aceptó la apelación del Manchester United y anuló la tarjeta roja que le había impuesto al defensor francés Leny Yoro en el partido contra Liverpool. Con la sanción revocada, Yoro podrá alistarse para el próximo encuentro del United ante Brentford, programado para el sábado 28 en Old Trafford.",
+    "ai_generated_at": "2026-11-24T20:19:01.374518+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "duplicate_of": "same_story_as:a364f5a57a6b887f225e"
   }
 ]
