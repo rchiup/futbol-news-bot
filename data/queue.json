@@ -9830,5 +9830,61 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "e4a3b0579a802a2947d9",
+    "title": "Martín Demichelis respira en la Champions League: Leipzig venció a Lens en un duelo clave",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/champions/demichelis-respira-champions-league-leipzig-vencio-lens-duelo-clave-visitar-manchester-united_0_cxjbU926Ls.html",
+    "source": "Olé Argentina",
+    "description": "Doblete de Antonio Nusa y un tiro libre de David Raum sellaron el 3-1 para el elenco del argentino, que sumó segundo triunfo en la Orejona.",
+    "published_at": "2026-11-24T22:03:42+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T22:14:51.443738+00:00",
+    "status": "draft",
+    "article_context": "Martin Demichelis en el enfrentamiento del Leipzig ante el Lens en la Champions League. (AP)\nEl RB Leipzig de Martín Demichelis consiguió una importante victoria por 3-1 ante el Lens por la quinta fecha de la fase de liga de la Champions League 2026/27. El conjunto dirigido por el entrenador argentino, que apenas había ganado uno de sus primeros cuatro compromisos en el certamen continental, se hizo fuerte como local y sumó tres puntos fundamentales para sus aspiraciones de avanzar a la siguiente instancia.\nEl conjunto alemán tuvo un inicio de partido ideal y necesitó apenas seis minutos para abrir el marcador . David Raum se hizo cargo de un tiro libre que, tras desviarse en un futbolista del equipo francés, terminó en el fondo de la red para poner en ventaja a los locales .\nTan solo tres minutos después, Antonio Nusa aprovechó un grosero error en la salida del Lens y estableció el 2-0 . De esta manera, antes de que se cumpliera el primer cuarto de hora, los dirigidos por Demichelis ya contaban con una ventaja de dos goles.\nSin embargo, el conjunto francés logró meterse nuevamente en partido durante el complemento. A los 58 minutos de juego, Matthieu Udol descontó para la visita y le puso suspenso al encuentro. Pese a ello, el Leipzig consiguió conservar la diferencia en el marcador hasta el final, donde Antonio Nusa liquidó el partido y se quedó con los tres puntos .\nLa necesidad de ganar era compartida por ambos equipos, que llegaron a la quinta jornada con una sola victoria en sus primeras cuatro presentaciones. Con este resultado, el conjunto de Demichelis consiguió su segundo triunfo en la competición y tomó algo de aire de cara al tramo decisivo de la fase de liga, mientras que los franceses quedaron en una situación más comprometida.\nBajo el actual formato de la Champions League, los primeros ocho equipos de la tabla de posiciones accederán directamente a los octavos de final , mientras que aquellos que terminen entre el noveno y el vigesimocuarto puesto deberán disputar una instancia de playoffs . Por su parte, los 12 restantes quedarán eliminados de la competición.\nCon tres jornadas todavía por disputarse (además de los cotejos del miércoles), el Leipzig ocupa la posición 21 del torneo , y tendrá un margen para seguir escalando posiciones y asegurar su continuidad en el máximo certamen europeo de clubes.\nEl próximo compromiso del conjunto alemán en la competición será el martes 8 de diciembre, cuando deberá viajar a Inglaterra para enfrentarse al Manchester United por la sexta fecha de la fase de liga.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "Martín Demichelis",
+    "visual_entities": {
+      "personas": [
+        "Martín Demichelis",
+        "Antonio Nusa",
+        "David Raum"
+      ],
+      "clubes": [
+        "Lens"
+      ],
+      "competicion": [
+        "Champions League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Leipzig supera a Lens y alivia a Demichelis en la Champions",
+    "caption": "El RB Leipzig venció 3‑1 al Lens en la quinta jornada de la fase de grupos de la Champions League 2026/27. David Raum abrió el marcador de tiro libre, Antonio Nusa anotó dos goles y Matthieu Udol descontó para los franceses. Fue la segunda victoria del equipo dirigido por Martín Demichelis, que le brinda un respiro en su lucha por los puestos de clasificación.",
+    "ai_generated_at": "2026-11-24T22:14:51.443738+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "557f00070a9410e66ce5",
+    "title": "Duro informe de Nicolás Ramírez tras el escándalo: un jugador muy afectado",
+    "source_url": "https://www.ole.com.ar/futbol-primera/nicolasramirez-lucascarrizo-gimnasia-newells-tribunaldedisciplina-afa_0_ZLjVScMbkS.html",
+    "source": "Olé Argentina",
+    "description": "El referí de Gimnasia 4 - Newell's 2 aseguró en su informe al Tribunal de Disciplina que Lucas Carrizo, de la Lepra, lo golpeó en un brazo cuando le mostró la tarjeta roja.",
+    "published_at": "2026-11-24T22:03:42+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T22:14:51.443738+00:00",
+    "status": "awaiting_ai",
+    "article_context": "Nicolás Ramírez ante la protesta de los jugadores de Newell's (Fotobaires).\nEl informe del árbitro Nicolás Ramírez por el partido que Gimnasia le ganó 4 a 2 a Newell's puede tener consecuencias muy graves para Lucas Carrizo, zaguero de la Lepra, uno de los cinco expulsados por el referí.\nSegún el escrito que el juez central presentó ante el Tribunal de Disciplina de la AFA , el futbolista, durante el escándalo que se armó al final del partido, se dirigió hacia el arquero rival (Castillo, otro con roja) sujetándolo de la camiseta, y enseguida empujó a varios rivales y le aplicó un violento cabezazo en el rostro a Marcelo Torres. Encima, el juez detalló que, tras mostrale la roja, Carrizo protestó de manera airada y \"me aplicó un golpe en el brazo, provocando que la tarjeta cayera al suelo , antes de que debiera ser retirado del lugar por varios jugadores\".\nPor lo tanto, el Tribunal tiene dos faltas para aplicar la sanción: la agresión inicial al jugador de Gimnasia y el manotazo al referí. \"La suspensión va a ser alta\" , le avisaron a Olé desde la entidad.\nEn cuanto a Castillo, que fue expulsado también tras el partido, se explicó que la roja fue por \"emplear lenguaje ofensivo, grosero u obsceno, agregando que el guardameta actuó de manera ofensiva y humillante hacia los rivales, lo cual generó malestar y provocó que intentaran agredirlo, desencadenando la pelea generalizada entre los planteles\". Ya se sabe que el colombiano no podrá enfrentar al ganador de Boca - Independiente Rivadavia, pero también puede recibir más de una fecha.\nEn el caso de Gabriel Arias , arquero suplente de Newell's, Ramírez escribió: \"Conducta violenta al ingresar al campo de juego al finalizar el partido y sujetar de la camiseta al arquero rival en medio de un principio de bronca del que debió ser separado por varias personas\".\nLos otros dos expulsados, Jerónimo Russo y Martín Ortega, recibieron doble amarilla en tiempo suplementario. En estos casos, el Tribunal aplica una fecha de sanción.\nEl escándalo arrancó tras el final del juego en el Bosque. Juan Ignacio Ramírez, que había ingresado en el segundo tiempo en la Lepra, le increpó a Castillo, arquero del Lobo. La bronca era, entre otras cuestiones, por una jugada de un minuto antes en la que el colombiano esperó a que Solari, del equipo rosarino, se acercara para agarrar la pelota con sus manos.\nAl final, Ramírez volvió a reprocharle a Castillo y el cruce de la palabras resultó evidentemente fuerte porque se acercaron otros futbolistas de Newell's a increpar al arquero , con mucha bronca y gestos fuertes. Algunos compañeros del Lobo intentaron proteger al Cafetero. En esa situación, con muchos agarrones y amenazas, fue cuando Carrizo le tiró un cabezazo al Chelo Torres.\nEn Newell's había mucha bronca porque el referí no expulsó a Germán Conti, zaguero central del Lobo, por doble amarila cuando cometió el penal del 2 a 2.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]

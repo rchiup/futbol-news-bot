@@ -1,22 +1,22 @@
 {
-  "checked_at_utc": "2026-11-24T22:12:52.448192+00:00",
+  "checked_at_utc": "2026-11-24T22:14:51.443738+00:00",
   "local_hour": 19,
   "statuses": {
     "published": 96,
-    "draft": 11,
-    "awaiting_ai": 0,
+    "draft": 12,
+    "awaiting_ai": 1,
     "needs_review": 105,
     "publish_error": 25,
     "duplicate": 24
   },
   "fresh_candidates": 139,
-  "queued_new": 0,
-  "ai_generated": 0,
+  "queued_new": 2,
+  "ai_generated": 1,
   "preview_images": 5,
   "published": 0,
   "duplicates_suppressed": 0,
   "no_photo_deferred": 0,
-  "total_queue": 306,
+  "total_queue": 308,
   "per_run_cap": 3,
   "morning_day_cap": 72,
   "auto_publish_enabled": true,
@@ -38,17 +38,17 @@
     "last_success": "groq",
     "providers": {
       "groq": {
-        "attempts": 142,
-        "success": 117,
-        "failures": 25,
-        "avg_latency_ms": 2554,
+        "attempts": 144,
+        "success": 118,
+        "failures": 26,
+        "avg_latency_ms": 2563,
         "avg_readability": 90.5,
         "last_error": "invalid_output"
       },
       "openrouter": {
-        "attempts": 9,
+        "attempts": 10,
         "success": 4,
-        "failures": 5,
+        "failures": 6,
         "avg_latency_ms": 17585,
         "avg_readability": 100.0,
         "last_error": "http_429"
@@ -62,25 +62,25 @@
         "last_error": "http_503"
       },
       "cloudflare": {
-        "attempts": 57,
+        "attempts": 58,
         "success": 40,
-        "failures": 17,
+        "failures": 18,
         "avg_latency_ms": 3230,
         "avg_readability": 95.0,
         "last_error": "invalid_output"
       },
       "nvidia": {
-        "attempts": 15,
+        "attempts": 16,
         "success": 0,
-        "failures": 15,
+        "failures": 16,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "http_410"
       },
       "zai": {
-        "attempts": 7,
+        "attempts": 8,
         "success": 1,
-        "failures": 6,
+        "failures": 7,
         "avg_latency_ms": 36694,
         "avg_readability": 100.0,
         "last_error": "http_429"

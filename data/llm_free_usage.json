@@ -2,11 +2,10 @@
   "date_utc": "2026-11-24",
   "providers": {
     "groq": {
-      "attempts": 142,
-      "success": 117,
-      "failures": 25,
+      "attempts": 144,
+      "success": 118,
+      "failures": 26,
       "latencies_ms": [
-        2005,
         2762,
         1518,
         2418,
@@ -35,11 +34,11 @@
         1390,
         1865,
         2224,
-        4203
+        4203,
+        2295
       ],
       "quality": [
         85,
-        85,
         100,
         85,
         100,
@@ -67,15 +66,16 @@
         100,
         85,
         100,
+        85,
         85
       ],
       "last_error": "invalid_output",
       "blocked_until_utc": 1795550799
     },
     "openrouter": {
-      "attempts": 9,
+      "attempts": 10,
       "success": 4,
-      "failures": 5,
+      "failures": 6,
       "latencies_ms": [
         15995,
         14975,
@@ -89,7 +89,7 @@
         100
       ],
       "last_error": "http_429",
-      "blocked_until_utc": 1795558167
+      "blocked_until_utc": 1795562127
     },
     "gemini": {
       "attempts": 20,
@@ -107,9 +107,9 @@
       "blocked_until_utc": 1795548674
     },
     "cloudflare": {
-      "attempts": 57,
+      "attempts": 58,
       "success": 40,
-      "failures": 17,
+      "failures": 18,
       "latencies_ms": [
         2400,
         2417,
@@ -177,18 +177,18 @@
       "last_error": "invalid_output"
     },
     "nvidia": {
-      "attempts": 15,
+      "attempts": 16,
       "success": 0,
-      "failures": 15,
+      "failures": 16,
       "latencies_ms": [],
       "quality": [],
       "last_error": "http_410",
-      "blocked_until_utc": 1795549764
+      "blocked_until_utc": 1795559433
     },
     "zai": {
-      "attempts": 7,
+      "attempts": 8,
       "success": 1,
-      "failures": 6,
+      "failures": 7,
       "latencies_ms": [
         36694
       ],
@@ -196,7 +196,7 @@
         100
       ],
       "last_error": "http_429",
-      "blocked_until_utc": 1795552464
+      "blocked_until_utc": 1795562134
     }
   },
   "last_success": "groq"
