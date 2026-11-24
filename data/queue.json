@@ -4274,7 +4274,7 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-24T10:55:16.866606+00:00",
-    "status": "draft",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -4301,7 +4301,21 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Champions inicia con City-Napoli y Arsenal-Dortmund",
     "caption": "Arranca una nueva fecha de la Champions con el City de Enzo contra el Napoli y el enfrentamiento entre Arsenal y Borussia Dortmund. Los partidos se jugarán este martes y podrán verse por TV y plataformas online.",
-    "ai_generated_at": "2026-11-24T15:48:48.176339+00:00"
+    "ai_generated_at": "2026-11-24T15:48:48.176339+00:00",
+    "photo_checked_at": "2026-11-24T17:46:33.003479+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "NicoPaz",
+        "Enzo",
+        "City",
+        "Napoli"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T17:45:59.148767+00:00",
+    "instagram_media_id": "17895881568684243"
   },
   {
     "id": "3802ead40af8ace83ab3",
@@ -4360,7 +4374,7 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-24T11:08:54.831549+00:00",
-    "status": "draft",
+    "status": "published",
     "visual_subject": "Oliver Bearman",
     "visual_entities": {
       "personas": [
@@ -4379,7 +4393,25 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Oliver Bearman sin contrato 2027 con Haas",
     "caption": "Oliver Bearman sigue siendo el único piloto de la parrilla de Fórmula 1 sin contrato para 2027. Su continuidad en Haas se daba por sentada, pero la renovación está bloqueada por cuestiones salariales, a pesar de que el fichaje de Rafael Câmara antes del GP de Brasil parecía presagiar una extensión pronto.",
-    "ai_generated_at": "2026-11-24T15:48:48.176339+00:00"
+    "ai_generated_at": "2026-11-24T15:48:48.176339+00:00",
+    "photo_checked_at": "2026-11-24T17:47:08.513041+00:00",
+    "portrait_info": null,
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Formula1",
+        "OliverBearman",
+        "RafaelCamara",
+        "HaasF1"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T17:45:59.148767+00:00",
+    "instagram_media_id": "18118274915101038"
   },
   {
     "id": "e5a90e1bcc70e264e29d",
@@ -4392,7 +4424,7 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-24T11:08:54.831549+00:00",
-    "status": "draft",
+    "status": "published",
     "visual_subject": "Andrew Benson",
     "visual_entities": {
       "personas": [
@@ -4410,7 +4442,24 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Hamilton y Leclerc discuten viabilidad de su alianza en Ferrari",
     "caption": "El corresponsal de BBC F1, Andrew Benson, respondió preguntas sobre la asociación entre Hamilton y Leclerc tras el Gran Premio de Las Vegas. El diálogo se centró en la sostenibilidad de la colaboración en Ferrari.",
-    "ai_generated_at": "2026-11-24T15:48:48.176339+00:00"
+    "ai_generated_at": "2026-11-24T15:48:48.176339+00:00",
+    "photo_checked_at": "2026-11-24T17:47:43.011341+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Formula1",
+        "AndrewBenson",
+        "Hamilton",
+        "Leclerc"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T17:45:59.148767+00:00",
+    "instagram_media_id": "18081695777413191"
   },
   {
     "id": "ca6dc22fb63f33b0fd1c",
@@ -6587,6 +6636,40 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T17:31:04.909237+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "ed8ed58a918f62a75e8b",
+    "title": "Un viejo conocido: ¿quién es el delantero de 37 años que busca el Bayern Munich para reemplazar a Harry Kane?",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/reemplazo-harry-kane-lesion-eric-choupo-moting-bayern-munich_0_pQe6EefQxK.html",
+    "source": "Olé Argentina",
+    "description": "El inglés sufrió una lesión en el tobillo izquierdo y estaría cerca de tres meses afuera, por eso los bávaros analizan opciones...",
+    "published_at": "2026-11-24T17:36:45+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T17:45:59.148767+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "1a7ac575cb85b377bed5",
+    "title": "La banca del Cholo Simeone a Julián Alvarez: \"Los goles seguramente aparecerán\"",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/champions/diego-simeone-champions-league-viking-declaraciones-conferencia-julian-alvarez_0_O3qPl161EU.html",
+    "source": "Olé Argentina",
+    "description": "El DT palpitó el encuentro del Atlético de Madrid ante el Viking por la Champions y se refirió al presente de la Araña.",
+    "published_at": "2026-11-24T17:31:13+00:00",
+    "category": "PARTIDOS",
+    "sport": "FUTBOL",
+    "score": 26,
+    "queued_at": "2026-11-24T17:45:59.148767+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,

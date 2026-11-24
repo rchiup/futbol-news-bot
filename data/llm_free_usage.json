@@ -92,9 +92,9 @@
       "blocked_until_utc": 1795544187
     },
     "gemini": {
-      "attempts": 12,
+      "attempts": 13,
       "success": 1,
-      "failures": 11,
+      "failures": 12,
       "latencies_ms": [
         23629
       ],
@@ -104,25 +104,25 @@
       "last_error": "http_503"
     },
     "cloudflare": {
-      "attempts": 9,
+      "attempts": 10,
       "success": 0,
-      "failures": 9,
+      "failures": 10,
       "latencies_ms": [],
       "quality": [],
       "last_error": "http_410"
     },
     "nvidia": {
-      "attempts": 9,
+      "attempts": 10,
       "success": 0,
-      "failures": 9,
+      "failures": 10,
       "latencies_ms": [],
       "quality": [],
       "last_error": "http_410"
     },
     "zai": {
-      "attempts": 5,
+      "attempts": 6,
       "success": 1,
-      "failures": 4,
+      "failures": 5,
       "latencies_ms": [
         36694
       ],
@@ -130,7 +130,7 @@
         100
       ],
       "last_error": "http_429",
-      "blocked_until_utc": 1795541508
+      "blocked_until_utc": 1795545990
     }
   },
   "last_success": "groq"
