@@ -10702,5 +10702,40 @@
       "mentions": []
     },
     "error": "http_400"
+  },
+  {
+    "id": "f81c279f92b7f203cbb9",
+    "title": "Fernando Alarcón, capitán de Instituto, palpitó el duelo ante River: “Nos preparamos para jugar finales”",
+    "source_url": "https://www.ole.com.ar/instituto/fernando-alarcon-instituto-river-dijo-partido_0_ZQCjFjsNxn.html",
+    "source": "Olé Argentina",
+    "description": "A días del cruce por cuartos de final del Clausura, el líder de la Gloria se refirió a lo que significa el Millonario como rival y a la decisión del club de jugar en Alta Córdoba.",
+    "published_at": "2026-11-24T23:25:39+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T23:38:54.041740+00:00",
+    "status": "awaiting_ai",
+    "article_context": "Fernando Alarcón palpitó los cuartos vs River.\nUna vez finalizada la jornada de domingo en la que River e Instituto se clasificaron a cuartos de final del Torneo Clausura , quedó definido el cruce entre ambos por un lugar en semifinales . Este martes, mientras se espera la confirmación del día y el horario del partido que se disputará en Alta Córdoba, Fernando Alarcón, capitán de la Gloria, dio sus sensaciones sobre tener al club de Núñez como rival.\n“Todos sabemos lo que es River. Sinceramente, es un gigante de Argentina . Arrancamos la semana y vamos a preparar el partido. Es un mata-mata. Nos preparamos para jugar finales. Lo más importante es cómo estemos nosotros, después miraremos a quién tenemos enfrente”, aseguró el defensor de 31 años en rueda de prensa. En la misma, también explicó lo que significa hacer de local en el Monumental Presidente Perón.\nEn primer lugar, Alarcón aclaró: “En sí, nunca se dudó dónde se iba a jugar . Había muchos dichos. El presidente Juan Manuel Cavagliatto nos había dicho de entrada que se jugaba en Alta Córdoba . Internamente, nunca dudamos de que íbamos a jugar en casa. Estábamos tranquilos”. Luego, agregó que al grupo le “gusta jugar en casa, nos sentimos cómodos, el Kempes es hermoso y disfrutamos cada vez que jugamos ahí, pero por algo tenemos nuestro estadio”.\nClaro está que para el conjunto de Leonardo Ponzio será un encuentro difícil . No solo por el lógico factor de tener que superar a uno de los mejores equipos del certamen, sino que también porque deberá hacerlo en un estadio más chico, donde el público se hará sentir y donde el local se siente muy cómodo: jugó siete en el Clausura, de los que ganó seis y empató uno.\nSi bien durante el 2026 consiguió más triunfos en el Monumental que fuera del mismo -13 victorias contra 10-, sufrió menos caídas cuando le tocó salir de Núñez. Porque entre los 19 partidos en los que salió de casa perdió solo cinco veces, mientras que como local seis. Con este escenario las dudas son totales para un equipo que está obligado a ganar para seguir de pie en su única y última esperanza del año.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "6f0b40037b165688f0db",
+    "title": "Racing va por la vuelta de Gabriel Rojas: cómo es su situación en Cruzeiro",
+    "source_url": "https://www.ole.com.ar/racing/gabriel-rojas-racing_0_G1Yo3ujiPu.html",
+    "source": "Olé Argentina",
+    "description": "En la Academia empiezan a barajar nombres después del flojo 2026 y el lateral izquierdo, que no logra adaptarse al club de Belo Horizonte, está entre los pretendidos por la dirigencia que encabeza Diego Milito.",
+    "published_at": "2026-11-24T23:25:11+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T23:38:54.041740+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
