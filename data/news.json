@@ -8358,5 +8358,109 @@
     "source": "www.ole.com.ar - Home",
     "collected_at": "2026-11-24T19:01:04.117697+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "52241aebff06ef99b23e7a29a52ecc3ff8c5de2625511bdbf0558b649e9e16ac",
+    "title": "Manchester City v Napoli, Real Madrid v PSV: Champions League clockwatch – live",
+    "url": "https://www.theguardian.com/football/live/2026/nov/24/manchester-city-v-napoli-real-madrid-v-psv-champions-league-clockwatch-live",
+    "source": "Football | The Guardian",
+    "collected_at": "2026-11-24T19:15:58.798020+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "0e354b3068b2e8f143066c89667bc97c0dd574066d65da37a31493ce14b68c05",
+    "title": "Arsenal v Borussia Dortmund: Champions League – live",
+    "url": "https://www.theguardian.com/football/live/2026/nov/24/arsenal-v-borussia-dortmund-champions-league-live",
+    "source": "Football | The Guardian",
+    "collected_at": "2026-11-24T19:15:58.798045+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "81ea203f2c3334c164dc5e3045b25c6f316cb6a152520fb4d48247d9788cdfaf",
+    "title": "Florian Wirtz hails Iraola and Klopp as he reaches new levels for Liverpool",
+    "url": "https://www.theguardian.com/football/2026/nov/24/florian-wirtz-hails-iraola-and-klopp-as-he-reaches-new-levels-for-liverpool",
+    "source": "Football | The Guardian",
+    "collected_at": "2026-11-24T19:15:58.798051+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "c7413934161826c88c18aaaf401126c6d25468edc3889b947563b1f02d92941e",
+    "title": "Bayern hold 'constructive' talks with Musiala's agents over health, not money",
+    "url": "https://www.espn.com/soccer/story/_/id/50583931/bayern-munich-jamal-musiala-health-contract",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-24T19:15:58.826746+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "25edfa4e3072028d93f0671fb3b1daec4b8d883871bf5d94ee290d46f3cf721a",
+    "title": "Flick on Barcelona with no Yamal: 'We can win without him'",
+    "url": "https://www.espn.com/soccer/story/_/id/50583885/lamine-yamal-hansi-flick-barcelona-champions-league-sabah",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-24T19:15:58.826764+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "2b8065cdd43794117e06e59498f05ef70985f63edb31ac3460bf2af96dd249df",
+    "title": "Liverpool's Wirtz: Iraola is bringing me back to my best",
+    "url": "https://www.espn.com/soccer/story/_/id/50584151/liverpool-florian-wirtz-andoni-iraola-jurgen-klopp",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-24T19:15:58.826769+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "16241e0b8d8a8aa07bb68b421c2e65a694f62804ceb0ba1dfba89580ee823ae9",
+    "title": "⚽ 'Ted Lasso' to return for Season 5 on Apple TV",
+    "url": "https://www.espn.com/soccer/story/_/id/50583598/ted-lasso-season-5-apple-tv",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-24T19:15:58.826776+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "91e6c1aa04782e48f7159eefdb219bbf7b8b4da450c784721f4463ddedc0178a",
+    "title": "Another U.S.-held Copa América is great for USMNT but not South America",
+    "url": "https://www.espn.com/soccer/story/_/id/50583713/us-host-copa-america-2028-usmnt",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-24T19:15:58.826787+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "02c33608af7e57f2ac542b6ac9c922b0b8dcfc0f08b33f00482594a1607bb997",
+    "title": "Sinner abandons treatment on right knee to have it surgically repaired",
+    "url": "https://www.espn.com/tennis/story/_/id/50584090/sinner-undergoes-minor-surgery-troublesome-right-knee",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-24T19:15:59.779017+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "477d8b1303fda14d2812304a630da472ff7fb845c45b9fa60bbbeb46eef1ab70",
+    "title": "Koepka's return ultimately improved PGA Tour status for Day, 2 others",
+    "url": "https://www.espn.com/golf/story/_/id/50583808/brooks-koepka-return-helps-3-golfers-improve-2027-status",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-24T19:15:59.937767+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "0af7760a128147efb2d8789d3746eb246e79e056d0ddf6f644d40c4d8e3c4775",
+    "title": "Caitlin Clark: Playing Augusta on her 'bucket list' during WNBA offseason",
+    "url": "https://www.espn.com/golf/story/_/id/50583744/caitlin-clark-wants-play-augusta-wnba-offseason",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-24T19:15:59.937784+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "a98828433ea63f29b00b00eeb7a2ad43897b511b264d1bd47cc9ac299dc9e511",
+    "title": "Wolves' DiVincenzo cleared for basketball activities",
+    "url": "https://www.espn.com/nba/story/_/id/50584000/wolves-dante-divincenzo-cleared-basketball-activities",
+    "source": "www.espn.com - NBA",
+    "collected_at": "2026-11-24T19:16:00.063660+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "eadec6f7782a9096eb835f2bd0a9d53b3c75719e2c3505721c26eb69b382e30a",
+    "title": "Karabell's fantasy notebook: Was Paul George this season's biggest draft-day steal?",
+    "url": "https://www.espn.com/fantasy/basketball/story/_/id/50584319/fantasy-basketball-trends-nba-2026-2027",
+    "source": "www.espn.com - NBA",
+    "collected_at": "2026-11-24T19:16:00.063694+00:00",
+    "status": "pending_review"
   }
 ]

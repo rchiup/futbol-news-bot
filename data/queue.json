@@ -2741,11 +2741,22 @@
     "sport": "F1",
     "score": 19,
     "queued_at": "2026-11-23T20:37:33.543280+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "source_brief",
+    "llm_model": "none",
+    "headline": "La F1 reducirá los equipos cliente y se conocen más detalles clave de 2030",
+    "caption": "Durante el fin de semana de Las Vegas, la FIA anunció que había apoyo unánime para adelantar a 2030 la próxima generación de reglamentos de motores. (Motorsport F1)",
+    "ai_generated_at": "2026-11-24T19:16:00.944115+00:00"
   },
   {
     "id": "7d2c9e07502e1221520d",
@@ -3848,11 +3859,22 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T01:16:17.010984+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "source_brief",
+    "llm_model": "none",
+    "headline": "Presupuesto para cuatro ministerios se resolverá en comisión mixta",
+    "caption": "Serán las partidas completas del Ministerio del Interior, Ministerio de Agricultura, Ministerio de la Mujer y Ministerio de las Culturas. (Cooperativa Deportes Chile)",
+    "ai_generated_at": "2026-11-24T19:16:00.944115+00:00"
   },
   {
     "id": "203e5d95838b4e615e9b",
@@ -7173,5 +7195,312 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Manchester City y Napoli se enfrentan en Champions",
     "caption": "El duelo de hoy entre Manchester City y Napoli se transmite en vivo por la Champions League. Se analizan las posibles formaciones, el horario del partido y los canales donde verlo. El conjunto dirigido por Enzo Fernández llega sin victorias en los dos últimos encuentros y necesita tres puntos para no perder terreno frente a los líderes de la tabla."
+  },
+  {
+    "id": "7105216179b07844e45c",
+    "title": "Why the Premier League's set-piece goals dried up -- and why Arsenal are still No. 1 anyway",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50576776/premier-league-set-piece-goal-arsenal-standings-table",
+    "source": "ESPN",
+    "description": "Arsenal won the Premier League in controversial fashion last season, but the set-piece goals they counted on have disappeared. Why?",
+    "published_at": "2026-11-24T17:17:00+00:00",
+    "category": "PARTIDOS",
+    "sport": "FUTBOL",
+    "score": 34,
+    "queued_at": "2026-11-24T19:16:00.944115+00:00",
+    "status": "published",
+    "article_context": "Last season, Arsenal scored 19 goals from corner kicks en route to winning their first Premier League title in over 20 years.\nYou know this because it's all we talked about. And it's all we talked about because (1) Arsenal are one of the most popular sports teams on the planet, and (2) everyone else started doing it, too. It became, increasingly, soccer without the soccer .\nFrom one side, bad-faith commentators tried to make it sound like Arsenal's title wasn't worth as much as teams that attacked more aggressively. From the other side, bad-faith commentators acted confused that neutrals didn't enjoy watching a defensive team whose matches featured less ball-in-play time than anyone else in the league.\nIn the middle: it seemed like modern soccer had reached an inflection point, where a sudden leaguewide strategic shift -- led by the best team in England and one of the three or four best teams in the world -- had made the game worse to watch. That is, if you liked watching things like \"passing\" and \"open-play goals\" -- all of them had fallen off a cliff.\nGiven the vastly different punishments for infractions during a corner kick -- a penalty if a defender is too aggressive, a free kick 100 yards away from goal if the attacker is too aggressive -- teams realized there was little downside to creating what the analyst Michael Caley called a \"meat wall\" in front of the opposition goalkeeper and grappling for space inside the six-yard box. Teams also seemed to decide, collectively, that there was little upside in taking risks in the other phases of the game.\nHad this been the way soccer always worked, then, well, soccer probably never would've become the most popular sport in the world. But any rule-change adopted by the Premier League to make it harder to score from corners would, in a way, be a direct punishment of Arsenal since they drove the shift and they benefitted from it more than anyone.\nThe Gunners scored just 42 goals from open-play last season and won the title by scoring the most corner kick goals in a season from any Premier League team ever.\nWith FIFA advising their referees to crack down on penalty-area physicality at the World Cup over the summer, it seemed like set pieces would once again be the story of the Premier League season -- in one way or another.\nWell, 11 games into the 2026-27 season, Arsenal have scored just one goal from corner kicks. And Arsenal ... are sitting atop the standings, a full six points clear of second place.\n- Predicting the Premier League season now: How all 20 teams will finish - Man United need January help to avoid Premier League relegation - How fallen giants and fans bounce back from scandal and relegation\nAhead of this season, the Premier League didn't make any rule changes but instead instructed its referees to focus on \"non-footballing holding actions that have no place on the football pitch.\" This included things like a player not even looking at the ball as he made contact with an opponent or a player making contact with an opponent while not even attempting to make a play on the ball.\nThese vague directives can often be quite powerful. In 2019, the NFL told refs to stop calling so many holding penalties , the number of holding penalties nearly halved overnight, and it was suddenly easier for offenses to move the ball down the field.\nAnd what do you know? Premier League refs were told to call more fouls during corner kicks, and they are calling more fouls during corner kicks.\nPer a study recently conducted by Caley : \"Attackers have been called for 5.8 fouls for every 100 corners this season, up from 4.6 last season,\" It's being driven, in particular, by an increase in fouls suffered by goalkeepers: 3.1 per 100 corners this season, up from 2.5 last season and an average of 1.8 in the five seasons prior.\nWhat happened last season, basically, was that teams packed the six-yard box and then smashed in-swinging corners into that area. In-swingers are much easier to score from because they just require a slight redirection, because they're already headed toward the goal, and because they lead to closer chances to goal than outswingers. Their effectiveness is theoretically canceled out, though, because it's also easier for the goalkeeper to catch them.\nThe rise in set-piece scoring last season was, essentially, driven by teams realizing there was a way you could hit in-swinging corners and prevent goalkeepers from claiming them. But the increase in foul-calling this season seems to have totally halted the trend.\nGoalkeeper claims fell to 3.1 per 100 corners taken as crosses last season. This happened even as corner deliveries increasingly targeted areas in the six-yard box where keepers are the most likely to be able to claim the ball. I created a model to predict claims based on where crosses landed, and this model predicted that goalkeepers would be able to catch far more than they actually did, about 7.6 out of every 100 corner crosses. This season the number of claims has nearly doubled, up to 5.6. Punches have been rising, and even continued that trajectory in 2026-27 despite the increase in claims. All told, goalkeepers are now reaching over 15 percent of corner kick crosses.\nAll of this, unsurprisingly, has tanked the number of goals being scored from corner kicks. The turnaround is remarkable:\nWe've shifted from one extreme to the other over the course of a single off season. Last season had the highest corner-kick-goal rate of any in the Opta database. This season has the lowest .\nIn a sense: yes. We're not talking about how the quality of play is terrible and how we only see set-piece goals anymore. Even with new tactics reshaping the game , the on-field product definitely feels better this season.\nBut the massive decline in corner-kick goals is likely also a small-sample-size fluke. \"While goals from corner kicks have fallen by about 40 percent, [expected goals] from corners has dropped by only about 10 percent,\" Caley found. \"At about 4.4 xG per 100 corners, this season ranks second among Premier League seasons in the last 15 years.\"\nNow, xG (expected goals) from corner kicks is significantly harder to measure -- little nudges from defenders or an inch on an attacker's head can drastically influence the difficulty of a chance, and those things won't be picked up by an xG model. But through 11 games, Premier League teams have scored 29 goals from corners, while they'd be expected to score 42 (41.97).\nAny week now, the number",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Arsenal"
+      ],
+      "competicion": [
+        "Premier League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Arsenal pierde goles de córner y sigue líder",
+    "caption": "Arsenal anotó 19 goles de córner la temporada pasada, cifra que le ayudó a conquistar la Premier League. En 2026‑27, tras directrices a los árbitros que aumentaron las faltas en los tiros de esquina, el equipo londinense sólo ha convertido un gol de córner en 11 partidos, pero mantiene la cabeza de la tabla con seis puntos de ventaja.",
+    "ai_generated_at": "2026-11-24T19:16:00.944115+00:00",
+    "photo_checked_at": "2026-11-24T19:16:41.096729+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "Arsenal",
+        "PremierLeague"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T19:16:00.944115+00:00",
+    "instagram_media_id": "17967509394216433"
+  },
+  {
+    "id": "52241aebff06ef99b23e",
+    "title": "Manchester City v Napoli, Real Madrid v PSV: Champions League clockwatch – live",
+    "source_url": "https://www.theguardian.com/football/live/2026/nov/24/manchester-city-v-napoli-real-madrid-v-psv-champions-league-clockwatch-live",
+    "source": "The Guardian",
+    "description": "⚽ Live coverage from six 8pm GMT kick-offs ⚽ De Bruyne’s return reminds City what they are missing ⚽ Live scores | League phase standings | Email Simon Team news has landed for the 8pm games, and here are the lineups for the two involving English teams: Arsenal v Borussia Dortmund Arsenal: Arrizabalaga, White, Konsa, Gabriel, Hincapie, Lewis-Skelly, Rice, Madueke, Odegaard, Tzolis, Gyokeres. Subs: Meslier, Saliba, Mosquera, Eze, Timber, Merino, Havertz, Calafiori, Guimaraes, Dowman, Porter. Borussia Dortmund: Kobel, Gadou, Anton, Schlotterbeck,",
+    "published_at": "2026-11-24T19:02:49+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T19:16:00.944115+00:00",
+    "status": "needs_review",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Manchester City",
+        "Napoli",
+        "Real Madrid",
+        "Arsenal",
+        "Borussia Dortmund"
+      ],
+      "competicion": [
+        "Champions League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Manchester City enfrenta a Napoli",
+    "caption": "La Champions League continúa con seis partidos a las 8pm GMT, incluyendo Manchester City vs Napoli y Real Madrid vs PSV. Se han anunciado los equipos para los partidos de las 8pm, con De Bruyne regresando a Manchester City."
+  },
+  {
+    "id": "0e354b3068b2e8f14306",
+    "title": "Arsenal v Borussia Dortmund: Champions League – live",
+    "source_url": "https://www.theguardian.com/football/live/2026/nov/24/arsenal-v-borussia-dortmund-champions-league-live",
+    "source": "The Guardian",
+    "description": "⚽️ Minute-by-minute updates from the 8pm GMT kick-off ⚽️ Nwaneri risks becoming forgotten teenager at Dortmund ⚽ Live scores | League phase standings | Email Scott Arsenal make six changes to their starting XI following the 2-2 draw at Newcastle United. One is enforced: David Raya is injured, so up steps Kepa. Meanwhile in come Ben White, Piero Hincapié, Myles Lewis-Skelly, Christos Tzolis and Viktor Gyökeres. Jurriën Timber, Eberechi Eze, Riccardo Calafiori, Kai Havertz and Bruno Guimarães drop to the bench. Arsenal: Kepa, White, Konsa, Gabrie",
+    "published_at": "2026-11-24T18:59:37+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T19:16:00.944115+00:00",
+    "status": "needs_review",
+    "visual_subject": "David Raya",
+    "visual_entities": {
+      "personas": [
+        "David Raya",
+        "Nwaneri",
+        "Kepa",
+        "Ben White",
+        "Piero Hincapié",
+        "Myles Lewis-Skelly",
+        "Christos Tzolis",
+        "Viktor Gyökeres"
+      ],
+      "clubes": [
+        "Arsenal",
+        "Borussia Dortmund",
+        "Newcastle United"
+      ],
+      "competicion": [
+        "Champions League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Arsenal cambia seis titulares ante Dortmund por lesión de Raya",
+    "caption": "Arsenal realizará seis cambios en su once inicial para el partido de Champions League contra el Borussia Dortmund, tras la lesión de David Raya. Kepa Arrizabalaga sustituirá al portero, y Ben White, Piero Hincapié, Myles Lewis‑Skelly, Christos Tzolis y Viktor Gyökeres entrarán al alineamiento. Jurriën Timber, Eberechi Eze, Riccardo Calafiori, Kai Havertz y Bruno Guimarães pasarán al banco. El equipo llega tras empatar 2‑2 con Newcastle United."
+  },
+  {
+    "id": "2b8065cdd43794117e06",
+    "title": "Liverpool's Wirtz: Iraola is bringing me back to my best",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50584151/liverpool-florian-wirtz-andoni-iraola-jurgen-klopp",
+    "source": "ESPN",
+    "description": "Florian Wirtz has credited head coach Andoni Iraola with helping him to find his best form for Liverpool in almost two years.",
+    "published_at": "2026-11-24T18:36:27+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T19:16:00.944115+00:00",
+    "status": "published",
+    "article_context": "BRUGES, Belgium -- Liverpool attacker Florian Wirtz has credited head coach Andoni Iraola with helping him to find his best form in almost two years but said he has \"always believed\" in his own abilities.\nWirtz was the standout performer in Liverpool's 4-0 victory over Manchester United on Sunday, registering a goal and an assist as well as creating 10 chances in open play -- the most by a player in a Premier League match for more than a decade.\nHis impressive display comes amid a productive run for both club and country, with the Germany international having managed 11 goal contributions in his last 15 games in all competitions.\nWirtz and Liverpool will look to build on their big win against United when they face Club Brugge in the Champions League on Wednesday.\nAsked in a news conference ahead of the match if he is enjoying his best spell in a Liverpool shirt, Wirtz replied: \"Probably yes. \"I think in the last few games I got a lot of goal contributions and I think you could say that I am in the best form since I arrived.\n\"To be honest, I cannot really say that I have changed much. I think that I have become a bit better on a physical level. That is the only reason I could explain it, but I also started to know better the English football and the league. And at the moment I am feeling very good. I am enjoying my football at Liverpool. I am happy it is going like this at the moment.\"\nReflecting on his relationship with Iraola, Wirtz added: \"I am really enjoying playing under him. He is a really good coach. He has shown that his whole career as a manager. He is bringing me back into the place where I was maybe two years ago where I played really good football.\n\"I can feel that he gives me confidence and I am really happy about that. I am just trying to give him back what he gives me. I am really happy with that.\"\nWirtz has faced intense scrutiny since joining Liverpool in a £116 million ($152.1m) move from Bayer Leverkusen in the summer of 2025. The 23-year-old endured an underwhelming debut season at Anfield but he insists he has never lost faith in his own abilities.\n\"It's mainly a thing that goes on in my own head.\"\n\"It's not about the people who talk about me. It's the goals I set myself and the performances I want to show for myself. I always believed in myself. I knew my qualities and I know them now. Sometimes there are phases where you have to work even more to get the output, but I'm just enjoying the moment and really happy at the moment that it's going well. I'm happy with myself and I want to continue like that.\"\nWirtz has also benefitted from the appointment of Jürgen Klopp as Germany boss, with the former Liverpool manager having spoken at length with the midfielder about what is expected at Anfield.\n\"We speak always about Liverpool when we have the time to do so,\" Wirtz said. \"He had a great time here. He is the coach who stayed here the most of his career. He just tells me all the time that he loved his time here, the people love him here, he tries to give me some advice to get successful over here because he has shown how it is done.\n\"It is really good that he knows a lot about this club, a lot of people here, he can give me some good advice.\"",
+    "visual_subject": "Florian Wirtz",
+    "visual_entities": {
+      "personas": [
+        "Florian Wirtz",
+        "Andoni Iraola"
+      ],
+      "clubes": [
+        "Liverpool"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Florian Wirtz agradece a Iraola su mejor forma",
+    "caption": "El atacante del Liverpool, Florian Wirtz, declaró que el entrenador Andoni Iraola le ha devuelto la confianza y lo ha llevado a su mejor nivel en casi dos años. Tras protagonizar la victoria 4‑0 ante el Manchester United con gol, asistencia y diez ocasiones creadas, Wirtz busca mantener la racha en el próximo duelo contra el Club Brugge en la Champions League.",
+    "ai_generated_at": "2026-11-24T19:16:00.944115+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-24T19:17:05.592292+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "FlorianWirtz",
+        "AndoniIraola",
+        "Liverpool"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T19:16:00.944115+00:00",
+    "instagram_media_id": "18111428633632509"
+  },
+  {
+    "id": "85ff4c251354ee5aae4f",
+    "title": "Should you trade Davion Mitchell? Move on from De'Aaron Fox?",
+    "source_url": "https://www.espn.com/fantasy/basketball/story/_/id/50575130/fantasy-basketball-risers-fallers-keep-cut-add-today",
+    "source": "ESPN NBA",
+    "description": "Steve Alexander looks at three players on the rise and three who are slumping and how fantasy managers should react.",
+    "published_at": "2026-11-24T18:54:36+00:00",
+    "category": "NBA",
+    "sport": "NBA",
+    "score": 26,
+    "queued_at": "2026-11-24T19:16:00.944115+00:00",
+    "status": "published",
+    "article_context": "Davion Mitchell is turning heads and leading the league in assists, Quentin Grimes is on a heater in Los Angeles and Cedric Coward is quickly emerging as a fantasy force. All are moving up the fantasy rankings.\nMeanwhile, Kel'el Ware 's stint for the 1-16 Bucks has been a nightmare, Jalen Green is not pulling his weight in Phoenix and De'Aaron Fox has really struggled in San Antonio. Which ones should you move on from at this point?\nRisers and Fallers helps you track hot players who are worth holding onto, players are are likely overvalued right now (see the final paragraph under Risers), as well as struggling players you might be better off without. Here's more on each of these players.\nResources: Rankings | Adds/Drops | Scoring leaders | Player Rater | Mock draft lobby | Depth charts | Schedule | Injuries\nMitchell was drafted around the 10th round in most of my 12-team drafts and he's shocking the world, leading the league in assists and appearing to love playing with Giannis Antetokounmpo . His November numbers include 17.5 points, 8.9 assists, 1.4 steals, 0.7 blocks and 2.7 triples, while hitting 52.6% of his shots.\nThis might seem to scream \"trade him before the bottom falls out,\" but I don't think that's the case. You likely drafted him very late in your draft (or even got him off the waiver wire) and he's also been one of your best players all season. Especially over the last two weeks, when he's been a Top 10 fantasy player. I'm holding onto Mitchell until further notice and I think he's very driven to win the assist title this season. And with guys like Bam Adebayo and Giannis to throw it to, he should continue to do this all year. Ride the wave.\nI sadly wrote that Sandro Mamukelashvili was a Riser last week, but things have changed a lot since then. Grimes has been on fire with Austin Reaves (heel) and Luka Doncic (rest) missing games, but that's not the main reason he's cooking right now.\nHe scored 22 points last Sunday and then exploded for a career-high 47 against Charlotte on Tuesday. He then scored 20 and 13 points in each of his last two games and is averaging a ridiculous 25.5 points, 5.0 3-pointers, 6.0 rebounds and 3.8 assists over his last four.\nSure, he'll take a hit once Reaves is back, but the Lakers are going to be careful with Reaves and we've already seen them give Luka and Walker Kessler the occasional night off. But the most important point here is that I suspect Luka has figured out the Lakers are a better team when Grimes is cooking, and he's become his new go-to guy after Reaves and Kessler, shoving Mamukelashvili out of the way. And that means that Grimes should be a solid fantasy player all season. If you've got him, hang onto him rather than trying to capitalize on his recent success. Hopefully, he's just getting started.\nCoward is becoming a force and reminds me a little of Dylan Harper , who's out with a hip injury right now for the Spurs. Going into Saturday's game, Coward was coming off a fun four-game run that resulted in 20 points, 6.8 rebounds, 4.8 assists, 1.5 steals, 1.0 blocks and 3.8 3-pointers with excellent shooting from everywhere.\nHe's been playing well all year and while I knew he was an intriguing prospect, I didn't expect him to be this good this fast. He's also a big reason the Grizzlies are 12-5 (along with Ty Jerome , Cameron Boozer and Cam Spencer ) and they're going to continue to build the team around him (and Boozer) going forward. The Grizzlies want to make the playoffs and do some damage while they're there, and Coward is going to be a force for the rest of the season, assuming he stays healthy.\nIf you're looking for some hot players to deal while their trade value is high, James Harden (out of his mind on Friday), Franz Wagner (before Paolo Banchero returns), Anthony Davis (before he gets hurt) and Klay Thompson (before he runs out of gas) probably fit the bill.\nWare's minutes have been highly inconsistent and he's been one of the more disappointing players I drafted this year. And, unfortunately, that was in a ton of leagues. I'm not giving up hope just yet, as there's still a chance the Bucks will eventually give up on the season and start developing their young players. And Ware's ability to score, board, steal, block and shoot the 3-pointer is nothing to sneeze at.\nDespite a 50-point explosion from Tyler Herro on Saturday, they still lost to the Sixers and are now 1-16 on the season. I really don't understand the point of running Kyle Kuzma , Myles Turner and Herro out there for 35 minutes every night when young players like Ware, Brayden Burries , Ryan Rollins and Kasparas Jakucionis need some of those minutes. If your league is 10 teams or less, Ware might be droppable. But in 12-team leagues, I'm still hanging onto Ware, who had six points, eight boards, a steal and a block on Saturday. That said, if things are still going like this in a month, I might have to check out.\nI think Green is fine to hold in leagues that are 14-teams and larger, but he's droppable in 12-team leagues, and is especially not worth having in smaller ones (10 or eight teams, etc.). He has the ability to be an elite scorer, but is averaging just 12.5 points on the season, is shooting fantasy teams into oblivion with his 41.8% from the field and 70.5% from the line, and is at just 0.9 steals, 0.4 blocks and 1.2 3-pointers.\nGreen may get traded, but either way, it feels like the Suns are either looking for a true point guard ( Dejounte Murray ?) or may just start rolling with Collin Gillespie . The bottom line is that his name is bigger than his game and I'm not sure Green's ever going to become a fantasy must-have player. And, so far, he's barely even worth rostering this year, if at all.\nThere's still time to join or create a league in the No. 1 fantasy basketball game. Your league starts fresh on the first scoring period following completion of your draft.\nI'm not sure what's going on with Fox, but entering Saturday night, he was averaging just 10.4 points, 3.6 rebounds, 4.4 assists, 1.2 steals and 0.7 3-pointers on 40% shooting. And in his three games before that, those numbers dipped even further, including zero 3-pointers made and 29% shooting. Then he scored just five points on Saturday.\nAdd in the fact that he didn't see a boost after Harper (hip) went down, and this is another concern. The Spurs are deep, Harper and Stephon Castle have a high usage rate (not to mention Victor Wembanyama ), and Fox is basically just a facilitator o",
+    "visual_subject": "Davion Mitchell",
+    "visual_entities": {
+      "personas": [
+        "Davion Mitchell",
+        "De'Aaron Fox"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Mitchell lidera en asistencias",
+    "caption": "Davion Mitchell lidera la liga en asistencias y ha sido uno de los mejores jugadores de la temporada, por lo que se recomienda retenerlo en lugar de tratar de comerciarlo. También se destacan Quentin Grimes y Cedric Coward como jugadores en ascenso, mientras que Kel'el Ware, Jalen Green y De'Aaron Fox están pasando por un mal momento.",
+    "ai_generated_at": "2026-11-24T19:16:00.944115+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-24T19:17:37.122447+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "NBA",
+        "DavionMitchell",
+        "DeAaronFox"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T19:16:00.944115+00:00",
+    "instagram_media_id": "17969065736984815"
+  },
+  {
+    "id": "eadec6f7782a9096eb83",
+    "title": "Karabell's fantasy notebook: Was Paul George this season's biggest draft-day steal?",
+    "source_url": "https://www.espn.com/fantasy/basketball/story/_/id/50584319/fantasy-basketball-trends-nba-2026-2027",
+    "source": "ESPN NBA",
+    "description": "Eric Karabell empties out the notebook with all that he's noticing around the NBA and what it means for fantasy.",
+    "published_at": "2026-11-24T18:54:35+00:00",
+    "category": "NBA",
+    "sport": "NBA",
+    "score": 26,
+    "queued_at": "2026-11-24T19:16:00.944115+00:00",
+    "status": "draft",
+    "article_context": "When the Boston Celtics stunningly traded star SF/SG Jaylen Brown to the rival Philadelphia 76ers this past summer, Celtics fans groaned not only about losing a key 10-year veteran who averaged 28.7 PPG last season, but about the once-great SF/PF Paul George joining the roster as his replacement. Meanwhile, 76ers fans mightily celebrated George leaving it.\nWas all that fair? Probably not, especially in retrospect, because we are in the seventh week of the NBA season with Brown and George performing at a similar statistical level, with George well ahead on the Player Rater (No. 42 to No. 75) and averaging 39.5 ESPN fantasy points per game, just a bit ahead of Brown at 38.5 points. Who would have expected this development?\nLet's focus not on Brown, who is doing precisely what the 76ers expected him to do in a star-filled lineup, averaging 22.4 PPG in 34.3 MPG, but on George, who has been a solid fit for Boston's aggressive 3-point field goal attack. George, 36 and averaging 19.9 PPG in 30.1 MPG, rested for Sunday night's road game versus the Golden State Warriors (which the Celtics lost!), but this tragic figure, who participated in only 78 of a possible 164 games during two disappointing 76ers seasons, has missed only three games this season -- just like Brown.\nDurability was likely the biggest concern for fantasy managers potentially interested in George, which is why he fell to Round 7, at least, in ESPN average live drafts. Most fantasy managers probably looked at Brown's lofty numbers from last season (achieved sans injured teammate Jayson Tatum ) and could not wait to invest among the first 30 selections. Still, one could see a path to similar production if the games were similar . We can check back on comparing these fellows in a month and, who knows, perhaps George is hurt again tomorrow, and the entire premise was silly. Then again, perhaps not.\nThere's still time to join or create a league in the No. 1 fantasy basketball game. Your league starts fresh on the first scoring period following completion of your draft.\nThe Celtics keep George's minutes in check, and more than half his attempted field goals are from 3-point range. He's hitting 40.7% on 3-pointers. George is also fourth in the NBA in steals per game , such a critical differentiator in roto formats. His three missed games each came during the second half of back-to-back outings, and we should expect that continues. That's fine, really, hardly atypical behavior for veterans in this league. If it keeps George healthy for 65 games, a figure he has reached in one of the past seven seasons, we are all for it. Give George credit. He was caught in an awkward situation, but these numbers are solid.\nUltimately, even though production and health are similar today , it is hard to make a great case to trade Brown for George in a points format or a roto/categories league, but it isn't nearly as wild a thought as it was when this real-life trade occurred, or even two months ago. One of these fellows is, predictably, not earning great value from his fantasy draft-day status . The other has been, well, a steal.",
+    "visual_subject": "Paul George",
+    "visual_entities": {
+      "personas": [
+        "Paul George"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Paul George, posible robo",
+    "caption": "Paul George ha sido una sólida adquisición para los Celtics, promediando 19.9 puntos por partido y liderando en robos de balón. Su desempeño ha sido similar al de Jaylen Brown, lo que lo convierte en una posible ganga en el draft de fantasy.",
+    "ai_generated_at": "2026-11-24T19:16:00.944115+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "91e6c1aa04782e48f715",
+    "title": "Another U.S.-held Copa América is great for USMNT but not South America",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50583713/us-host-copa-america-2028-usmnt",
+    "source": "ESPN",
+    "description": "For the third time in 12 years, the Copa América will be held in the U.S. That's exciting for the USMNT but it robs South America of the game it loves.",
+    "published_at": "2026-11-24T18:05:13+00:00",
+    "category": "SELECCIONES",
+    "sport": "FUTBOL",
+    "score": 26,
+    "queued_at": "2026-11-24T19:16:00.944115+00:00",
+    "status": "draft",
+    "article_context": "The Copa América is returning to the U.S. in 2028 , the third time in the past four editions that South America's premier international tournament will take place in North America. It will be the second straight edition of the competition to be held stateside, while the centenary-celebration tournament was hosted by the U.S. in 2016.\nIs that too much time for a continental competition to be held outside its own continent? And what kind of an opportunity does it present for the hosts, the U.S. men's national team , bang in the middle of the four-year cycle building to the 2030 FIFA World Cup ?\nTo answer those questions, ESPN turned to Jeff Carlisle and Tim Vickery.\nThe Copa América is returning to the United States, and that counts as great news for the U.S. men's national team.\nThe USMNT has at times struggled to fill out its schedule with quality opponents. Part of that is down to the top-heavy nature of Concacaf. As things stand, Canada , Mexico and Panama can provide the U.S. with a consistent challenge. From there, the standard falls significantly.\nThe international calendar does the USMNT no favors either. The biennial nature of the Gold Cup means that two out of the three summers in a World Cup cycle are dominated with matches against Concacaf opponents. World Cup qualifying and the Concacaf Nations League make the schedule even more Concacaf-centric. Elsewhere, international windows are often clogged with qualifying for continental competitions or other versions of the Nations League, restricting the availability of teams to play friendlies.\nThe Copa América offers a welcome dose of variety and quality. The U.S. invariably faces teams with which it isn't as familiar, and there is the potential to face some of the hemisphere's most accomplished sides like Argentina and Brazil . The fact that the USMNT failed to make it out of the group stage in the 2024 edition of the Copa -- yes, that included a defeat to Panama -- only reinforces the point that it can benefit from being tested in a tournament setting.\nThe benefits to the U.S. from hosting Copa América are enhanced given that the USMNT finds itself in a period of transition. Not only is the search on for a new manager, but a new generation of players has taken its first steps into the international arena. Time will be needed for coach and players to adapt and get to know each other. The Copa América is the perfect setting to test which players and tactics will suit the USMNT best going forward.\nOne minor complication is the fact that the U.S. will also be hosting the Olympic Games in 2028. This isn't to suggest that the Olympics are at all on par with the Copa América. In terms of soccer, the latter dwarfs the former in terms of prestige, but the Olympics garner a significant amount of attention in the U.S. As such, U.S. Soccer has placed an emphasis on performing well in the competition, hiring former LAFC manager Steve Cherundolo to coach what will be primarily a U23 team. Given the impressive starts with the USMNT by the likes of Red Bull New York 's Julian Hall and the Philadelphia Union 's Cavan Sullivan , the full national team may end up cannibalizing the Olympic team to a degree.\nThat said, such a dilemma is a champagne problem. Tournament experience, no matter where it happens, is a valuable resource when the big stage of a World Cup comes around. The Copa América will no doubt benefit the USMNT in that regard. -- Carlisle\nSouth America boasts the oldest continental competition in the world, but its history has been checkered and uneven. First played in 1916 and held on an annual basis at the start, the Copa América had fallen into disuse by the early 1980s, but then it was brought back in 1987. Two developments were key to its revival: instead of dictatorships snarling at each other, democratic regimes were returning to the region; and football as a televised spectacle was by this point making advances, with new powerful forces such as cable on the horizon.\nAnd so, initially on a two-year basis, the tournament went all around the continent -- in some places ( Paraguay in 1999, Colombia in 2001, Venezuela in 2007) for the first time. Fresh frontiers were explored even in places where the competition had been held before; 2004 in Peru , for example, was the first time the Copa moved outside the capital city of Lima. This process was important. There was an undoubted feel-good factor, a boost to national morale, in those places that were hosting the show for the first time. And it was also a boost to the construction of new stadiums.\nBut CONMEBOL now seem to have turned their backs on the idea. After 1987, the Copa did its tour of all ten of its nations, and then set off on a second lap in Argentina in 2011. But after Argentina, Chile and Brazil, the process has stalled. Ecuador were next in line -- and are still waiting, because the tournament keeps coming back to the United States.\nHerculez Gomez and Alejandro Moreno debate the biggest storylines and break down the best highlights that soccer in the Americas has to offer. Stream on ESPN+ (U.S. only)\nThe first time seemed to be a one off. In 2016, CONMEBOL bizarrely staged the centenary tournament outside its own borders, the justification being that the U.S. was well equipped to do a bigger version of the competition. Since 1993, it had been the custom to invite two teams from outside South America to make the number of competitors 12. Japan and Qatar have both been invited, but normally the invitees are from Concacaf. And so, instead of two extra Concacaf nations, the 2016 version had six, making the Copa bigger -- and more lucrative.\nThere was a repeat in 2024, this time sold as an important part of the U.S.'s preparations to stage this year's World Cup, and a chance for the South Americans to have some match practice in the conditions.\nThe decision to send 2028 up north has only one justification: money. The USA has plenty of large-capacity stadiums, and CONMEBOL have also been seduced by the cultural tradition of selling tickets using dynamic pricing. \"Football needs resources,\" is the often used line, although the morality of extracting ever larger amounts from committed fans is surely open to debate.\nAnd there is another debate to be had. This means that, in a 12-year period, South America's international tournament will only have been played in the U.S. and in Brazil. True, Argentina, Paraguay and Uruguay have a game each in the next World Cup, but that i",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [
+        "Copa América"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Copa América 2028 en EE.UU.",
+    "caption": "La Copa América regresa a Estados Unidos en 2028, lo que beneficia al equipo nacional de EE.UU. pero priva a Sudamérica de su torneo continental. La decisión se debe a la búsqueda de ingresos y la disponibilidad de estadios con gran capacidad en EE.UU.",
+    "ai_generated_at": "2026-11-24T19:16:00.944115+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "02c33608af7e57f2ac54",
+    "title": "Sinner abandons treatment on right knee to have it surgically repaired",
+    "source_url": "https://www.espn.com/tennis/story/_/id/50584090/sinner-undergoes-minor-surgery-troublesome-right-knee",
+    "source": "ESPN Tennis",
+    "description": "Jannik Sinner has undergone a \"minor\" operation on his bothersome right knee after it didn't respond well enough to other treatments, the Italian tennis star said Tuesday.",
+    "published_at": "2026-11-24T17:48:15+00:00",
+    "category": "TENIS",
+    "sport": "TENIS",
+    "score": 26,
+    "queued_at": "2026-11-24T19:16:00.944115+00:00",
+    "status": "duplicate",
+    "article_context": "MONACO -- Jannik Sinner has undergone a \"minor\" operation on his bothersome right knee after it didn't respond well enough to other treatments, the Italian tennis star said Tuesday.\nSinner hasn't played since defending his Wimbledon title in July for his fifth Grand Slam trophy and recently lost the No. 1 ranking to Alexander Zverev .\n\"Over the past few months, together with my team we've tried everything to treat my injury without surgery,\" Sinner wrote on Instagram. \"After some very encouraging progress early on, my knee unfortunately didn't respond as we'd all hoped, that's why today I underwent a minor surgery to improve the condition of my iliotibial band. I really miss being on court and will now begin my recovery process together with my team.\"\nHe did not say when he expects to return to return to the court but had already announced that he was done playing for the season.\n\"I have to respect the protocols at the moment because if we rush things we could have more serious problems,\" Sinner said during a news conference in Milan this month.\nWhen Sinner shut down his season last month, a statement from his management team said he \"will follow a course of treatment for inflammation in his knee.\"\nIt's the second prolonged absence from the tennis tour in two years after Sinner accepted a three-month ban in a settlement with the World Anti-Doping Agency for a doping case in 2025.\nThe Australian Open, the first Grand Slam of 2027, starts Jan. 17. It could mark the second straight Grand Slam that Sinner sits out after also missing the US Open.\nThe French Open, the year's second Slam, starts in late May.",
+    "visual_subject": "Jannik Sinner",
+    "visual_entities": {
+      "personas": [
+        "Jannik Sinner"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Sinner se somete a cirugía en rodilla",
+    "caption": "El tenista italiano Jannik Sinner se sometió a una operación menor en su rodilla derecha después de que no respondiera bien a otros tratamientos. Sinner ha estado ausente de las canchas desde que defendió su título en Wimbledon en julio y perdió el ranking número uno ante Alexander Zverev.",
+    "ai_generated_at": "2026-11-24T19:16:00.944115+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "duplicate_of": "same_story_as:3d8c6f798408850c2f5b"
   }
 ]
