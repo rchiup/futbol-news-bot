@@ -15,7 +15,7 @@ USAGE = ROOT / "data" / "llm_free_usage.json"
 KEYS = {"groq": "GROQ_API_KEY", "gemini": "GEMINI_API_KEY",
         "cerebras": "CEREBRAS_API_KEY", "openrouter": "OPENROUTER_API_KEY",
         "cloudflare": "CF_API_TOKEN", "nvidia": "NVIDIA_API_KEY", "zai": "ZAI_API_KEY"}
-CAPS = {"groq": 180, "gemini": 20, "cerebras": 35, "openrouter": 40, "cloudflare": 60, "nvidia": 40, "zai": 40}
+CAPS = {"groq": 1000, "gemini": 20, "cerebras": 35, "openrouter": 40, "cloudflare": 60, "nvidia": 40, "zai": 40}
 MODELS = {"groq": "openai/gpt-oss-120b",
           "gemini": "gemini-3.1-flash-lite",
           "cerebras": "gpt-oss-120b", "openrouter": "openrouter/free",
