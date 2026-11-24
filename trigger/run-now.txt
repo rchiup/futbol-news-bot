@@ -66,3 +66,5 @@ Publish carefully verified Lamine Yamal/Sabah injury absence with licensed portr
 2026-11-23: Retry publishing after user confirmed replacement of long-lived IG_ACCESS_TOKEN.
 
 2026-11-23: Verify updated long-lived Instagram token and publish live news.
+
+2026-11-24: Run new production licensed-photo bank and cutout pipeline.
