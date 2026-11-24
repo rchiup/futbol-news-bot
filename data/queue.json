@@ -9590,5 +9590,41 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "dfd31e932eda8cfc07a7",
+    "title": "Oxford beat Spurs U21s to seal EFL Trophy progress",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/cmx20qn1dqv2o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Aaron Ramsey's Oxford United beat Tottenham Under-21s to secure one of the final two Jersey Mike's Trophy knockout spots.",
+    "published_at": "2026-11-24T21:08:09+00:00",
+    "category": "PARTIDOS",
+    "sport": "FUTBOL",
+    "score": 26,
+    "queued_at": "2026-11-24T21:12:54.510628+00:00",
+    "status": "draft",
+    "article_context": "Aaron Ramsey is experiencing the EFL Trophy for the first time in his football career\nAaron Ramsey's Oxford United beat Tottenham Hotspur Under-21s 2-1 to secure one of the final two Jersey Mike's Trophy knockout spots.\nOxford knew avoiding defeat by a margin of four goals or more would be enough to seal progression from Southern Group A alongside already-qualified Exeter City.\nThey trailed to Tyler Tingey's early opener on Tuesday, which gave Spurs' youngsters a glimmer of hope of pulling off that mini-miracle.\nBut Jun'ai Byfield's own goal and 18-year-old Jack Lee's late winner ensured ex-Arsenal man Ramsey got one over his old north London rivals as Oxford won to finish top of the group.\nElsewhere, Fleetwood's decisive Northern Group G match at home to Leeds United Under-21s was put back 24 hours because of a waterlogged pitch.\nThe two sides will now meet on Wednesday to decide who progresses alongside group leaders Oldham Athletic to complete the line-up for the knockout stages.\nThere were wins for League Two pair Tranmere Rovers and Salford City over Premier League sides in Tuesday's other two ties, which were virtually dead rubbers.\nTranmere, who had already sealed their last-32 spot, came from behind to beat eliminated Everton Under-21s 2-1 with goals from David Kamara and Charlie Veevers in Northern Group E.\nBoth Salford City and Sunderland Under-21s had already been eliminated from Northern Group A but goals from Paolo Mariani, Brandon Cooper and Kyrell Malcolm gave the Ammies a 3-2 win despite Jaydon Jones' Black Cats double.\nOf the 16 Premier League under-21 sides to enter the competition, with one placed in each group, only six have progressed to the knockout rounds, although Leeds can still make that number seven.\nThe last-32 draw will take place on Wednesday at 16:30 GMT. Ties will take place in the week commencing 7 December.\nAll 16 group winners are guaranteed a home tie, with fixtures remaining regionalised until the semi-final stage.\n(Group winners listed first, runners-up second - Northern Group G positions undecided)\nNorthern Group A: Accrington Stanley, Sheffield Wednesday\nNorthern Group C: Bradford City, Newcastle United Under-21s\nNorthern Group E: Stockport County, Tranmere Rovers\nNorthern Group F: Notts County, Nottingham Forest Under-21s\nNorthern Group G: Oldham Athletic, Fleetwood Town OR Leeds United Under-21s\nNorthern Group H: Huddersfield Town, Doncaster Rovers\nSouthern Group C: Wycombe Wanderers, Chelsea Under-21s\nSouthern Group D: Luton Town, Peterborough United\nSouthern Group E: Plymouth Argyle, Crystal Palace Under-21s\nSouthern Group G: Cambridge United, Gillingham\nSouthern Group H: MK Dons, Brentford Under-21s\nGet football news sent straight to your phone\nChampions League: Dortmund pull level at Arsenal, Man City and Napoli goalless\nChampionship: Portsmouth lead West Ham; Boro, Wolves, Charlton, Saints & Preston also ahead\nGul breaks Villa's resistance in scrappy Galatasaray win\nA festive comedy featuring Jason Bateman, Olivia Munn and Jennifer Aniston\nIs cough medicine any better than just taking honey and lemon?\nLucy unlocks the secrets of four spectacular palaces\nThe controversial operation that transplanted a baboon's heart into a baby\n115 days, 39 private-jet flights, one election - Infantino's globetrotting\nWhy has De Bruyne struggled at Napoli as he returns to Man City?\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nTwo goals in 15 games - what's going on with Gyokeres?\nWho has made Troy's Premier League team of the week?\nEngland's tearaway quick bowler reinvented as a top-order batter\nChaotic week, nightmare start and huge reality check for Pochettino\nA 'wow' player - why Ngumoha is already a Liverpool game-changer\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland will not get carried away by beating All Blacks\nVerstappen a constant amid chaos as he says Russell is 'so far below my level'\nThe sandpaper plot - who was there, who said what?\nThe 3pm football blackout: Outdated or still relevant in 2026?\nJosh Kerr: The making of the man behind the shades\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "visual_subject": "Aaron Ramsey",
+    "visual_entities": {
+      "personas": [
+        "Aaron Ramsey"
+      ],
+      "clubes": [
+        "Oxford United"
+      ],
+      "competicion": [
+        "EFL Trophy"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Oxford vence a Tottenham Sub 21",
+    "caption": "El equipo de Aaron Ramsey se impuso 2-1 y aseguró uno de los dos últimos lugares en la fase de eliminación de la EFL Trophy. Oxford terminó primero en el grupo y se une a Exeter City en la siguiente ronda.",
+    "ai_generated_at": "2026-11-24T21:12:54.510628+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
