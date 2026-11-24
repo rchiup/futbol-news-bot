@@ -1,9 +1,9 @@
 {
-  "checked_at_utc": "2026-11-24T21:12:54.510628+00:00",
+  "checked_at_utc": "2026-11-24T21:14:53.330657+00:00",
   "local_hour": 18,
   "statuses": {
     "published": 96,
-    "draft": 5,
+    "draft": 6,
     "awaiting_ai": 0,
     "needs_review": 105,
     "publish_error": 25,
@@ -16,7 +16,7 @@
   "published": 0,
   "duplicates_suppressed": 0,
   "no_photo_deferred": 0,
-  "total_queue": 300,
+  "total_queue": 301,
   "per_run_cap": 3,
   "morning_day_cap": 72,
   "auto_publish_enabled": true,
@@ -35,13 +35,13 @@
   ],
   "free_llm_metrics": {
     "date_utc": "2026-11-24",
-    "last_success": "cloudflare",
+    "last_success": "groq",
     "providers": {
       "groq": {
-        "attempts": 136,
-        "success": 111,
+        "attempts": 137,
+        "success": 112,
         "failures": 25,
-        "avg_latency_ms": 2511,
+        "avg_latency_ms": 2554,
         "avg_readability": 90.5,
         "last_error": "invalid_output"
       },

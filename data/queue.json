@@ -9626,5 +9626,37 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "fcecd8a64c53ad9e8745",
+    "title": "Malaspina admitió deudas: \"Vamos a vender\"",
+    "source_url": "https://www.ole.com.ar/argentinos/argentinosjuniors-cristianmalaspina-deudassalariales-sebastianprieto-hernanlopezmunoz-franciscoalvarez_0_Iv2fn7V8bd.html",
+    "source": "Olé Argentina",
+    "description": "El presidente del Bicho aseguró que gestiona para liquidar los atrasos salariales y que los futbolistas son transferibles. Además, cree que se solucionará la continuidad de Nicolás Diez.",
+    "published_at": "2026-11-24T21:04:33+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T21:14:53.330657+00:00",
+    "status": "draft",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "Malaspina",
+        "Nicolás Diez"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Malaspina reconoce deudas y anuncia venta de jugadores",
+    "caption": "El presidente de Huracán, Malaspina, admitió la existencia de atrasos salariales y afirmó que el club buscará vender jugadores para liquidar la deuda. Asimismo, aseguró que se está trabajando para garantizar la continuidad del cuerpo técnico liderado por Nicolás Diez.",
+    "ai_generated_at": "2026-11-24T21:14:53.330657+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
