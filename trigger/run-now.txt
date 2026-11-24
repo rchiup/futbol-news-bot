@@ -82,3 +82,5 @@ Publish immediately with editorial typography fallback.
 Verify expanded Groq allowance and source brief fallback.
 
 Run Champions final scorecards.
+
+Publish today's Champions results within Meta quota.
