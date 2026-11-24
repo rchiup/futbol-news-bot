@@ -10754,5 +10754,54 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "92368db45656e249aa77",
+    "title": "Gran remontada de Solana Sierra en el segundo día del WTA Argentina Open",
+    "source_url": "https://www.ole.com.ar/tenis/solana-sierra-remontada-victoria-wta-argentina-open_0_cIIbLOa8lR.html",
+    "source": "Olé Argentina",
+    "description": "La mejor rankeada del país se recuperó después de un difícil primer set y avanzó a los octavos de final del torneo. Además, Nadia Podoroska tuvo su estreno y también ganó.",
+    "published_at": "2026-11-24T23:29:34+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T23:44:45.607993+00:00",
+    "status": "published",
+    "article_context": "Solana Sierra se quedó con la victoria en su debut en el WTA Argentina Open. (@iebmasargopen)\nSolana Sierra (106ª) fue la gran protagonista en el segundo día de competencia del WTA Argentina Open . La número uno del país y segunda mejor rankeada del torneo, solo por detrás de la española Leyre Romero Gormaz (105ª), venció a la andorrana Victoria Jiménez Kasintseva (219ª) por 1-6, 7-6 (1), 2-0 y retirada . En octavos de final se enfrentará a la francesa Carole Monnet (214ª).\nEl arranque del encuentro fue muy cuesta arriba para Sierra , quien cedió sus primeros dos saques y quedó rápidamente 4-0 abajo. Aunque la argentina logró descontar con un quiebre para ponerse 4-1, Jiménez Kasintseva recuperó la diferencia en el game siguiente (5-1) y cerró el set con su servicio.\nLas cosas no cambiaron inmediatamente en el comienzo del segundo parcial . De hecho, la andorrana quebró en el primer game y parecía encaminarse a mantener su dominio, pero la argentina reaccionó a tiempo y recuperó el servicio en el juego siguiente para igualar 1-1. En el 3-3, fue Sierra quien logró adelantarse con un break, aunque Jiménez Kasintseva respondió enseguida para nivelar nuevamente el marcador. La paridad llevó la definición al tie break, donde Solana se impuso y se lo llevó con contundencia por 7-1.\nEn el set definitivo, su rival, que ya tenía un quiebre en contra, decidió retirarse . Así, la argentina avanzó a octavos y enfrentará a Monnet , que viene de ganarle a la representante nacional Berta Bonardi (725ª) por 6-2 y 6-0 en 58 minutos.\nOtra figura que puso primera en el certamen porteño es Nadia Podoroska (181ª), que venció con autoridad a Leyre Romero Gormaz por 7-6 (4) y 6-0. Con un buen inicio, la argentina se puso 3-0 tras conseguir dos quiebres, pero la española reaccionó a tiempo para igualar el marcador en 3-3. Tras un nuevo intercambio de breaks que dejó el partido 4-4, la rosarina se impuso en el tie break y luego no le dio opciones en el segundo parcial , cerrándolo con un contundente 6-0.\nEn el primer turno, Victoria Bosio (331ª) cayó ante la checa Laura Samson (110ª) por 6-4 y 6-2. Más tarde, Luna María Cinalli (598ª) perdió con la española Guiomar Maristany (147ª) por doble 6-1 y Lourdes Ayala (665ª) fue derrotada por la española Irene Burillo Escorihuela (189ª) por doble 6-2.\nEl miércoles comenzarán los octavos de final. Allí, habrá enfrentamiento argentino: a las 15, Sol Ailín Larraya Guidi (1046ª) jugará ante María Lourdes Carlé (246ª). Además, a las 16.10, Julia Riera (139ª) irá con la turca Ipek Oz (261ª) y, a las 18, Sierra vs. Monnet. Toda la actividad es transmitida por TyC Sports Play .\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "Solana Sierra",
+    "visual_entities": {
+      "personas": [
+        "Solana Sierra",
+        "Nadia Podoroska"
+      ],
+      "clubes": [],
+      "competicion": [
+        "WTA Argentina Open"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Solana Sierra supera a Jiménez y avanza en Argentina Open",
+    "caption": "Solana Sierra (106ª) remontó tras perder el primer set 1‑6, ganó el tie‑break 7‑1 y se impuso por retirada 2‑0, clasificándose a octavos de final del WTA Argentina Open, donde medirá su juego contra la francesa Carole Monnet. En el mismo día, Nadia Podoroska debutó en el torneo y venció a Leyre Romero Gormaz, asegurando también su pase a la siguiente ronda.",
+    "ai_generated_at": "2026-11-24T23:44:45.607993+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-24T23:45:10.473656+00:00",
+    "portrait_info": null,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "SolanaSierra",
+        "NadiaPodoroska",
+        "WTAArgentinaOpen"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T23:44:45.607993+00:00",
+    "instagram_media_id": "18220782196357596"
   }
 ]
