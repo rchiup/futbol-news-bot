@@ -8910,5 +8910,13 @@
     "source": "BBC Sport",
     "collected_at": "2026-11-24T23:20:58.539663+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "56d5f6305dd6bc7cba03bc99adb555ee2838fb6378b849db2a26d5f60d160165",
+    "title": "Championship roundup: Boro edge Swansea, West Ham lose at Portsmouth",
+    "url": "https://www.theguardian.com/football/2026/nov/24/championship-roundup-will-lankshear-middlesbrough-swansea-west-ham",
+    "source": "Football | The Guardian",
+    "collected_at": "2026-11-24T23:23:03.922621+00:00",
+    "status": "pending_review"
   }
 ]
