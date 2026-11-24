@@ -299,6 +299,69 @@ def fit_caption(value: str, max_len: int = 360) -> str:
     raise ValueError("AI caption exceeds limit without a complete factual sentence")
 
 
+def detail_gap(item: dict) -> bool:
+    """Catch headlines promising identities or facts without delivering them."""
+    title = str(item.get("title", "")) + " " + str(item.get("headline", ""))
+    caption = str(item.get("caption", ""))
+    list_claim = re.search(r"\b(?:cuatro|cinco|seis|siete|ocho|nueve|diez|[2-9]|1[0-9])\s+(?:son\s+)?(?:argentinos|chilenos|brasileños|jugadores|futbolistas|equipos|clubes|selecciones|pilotos|tenistas)\b", title, re.I)
+    question = re.search(r"\b(?:quiénes|cuáles|los nombres de|todos los jugadores|which players|who are)\b", title, re.I)
+    if not (list_claim or question):
+        return False
+    # Demand a concrete enumeration, not a repeated promise. Count distinct
+    # proper-name phrases excluding the principal subject from the headline.
+    names = set(re.findall(r"\b[A-ZÁÉÍÓÚÑ][a-záéíóúñü]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñü]+){1,3}\b", caption))
+    names = {n for n in names if n not in title and n.lower() not in {"balón de oro", "talento joven", "mejor talento joven", "copa del mundo", "premier league"}}
+    count = 2
+    if list_claim:
+        word = list_claim.group().split()[0].lower()
+        count = int(word) if word.isdigit() else {"cuatro":4,"cinco":5,"seis":6,"siete":7,"ocho":8,"nueve":9,"diez":10}.get(word,2)
+    return len(names) < count
+
+
+def enrich_article(item: dict, session=requests) -> None:
+    """Read public article paragraphs from recognized RSS publishers only."""
+    from html.parser import HTMLParser
+    class Paragraphs(HTMLParser):
+        def __init__(self):
+            super().__init__(convert_charrefs=True)
+            self.inside = False
+            self.buf = []
+            self.parts = []
+        def handle_starttag(self, tag, attrs):
+            if tag == "p":
+                self.inside = True
+                self.buf = []
+        def handle_data(self, data):
+            if self.inside:
+                self.buf.append(data)
+        def handle_endtag(self, tag):
+            if tag == "p" and self.inside:
+                value = " ".join(" ".join(self.buf).split())
+                if len(value) >= 45:
+                    self.parts.append(value)
+                self.inside = False
+    allowed = ("ole.com.ar","bbc.co.uk","bbc.com","theguardian.com","espn.com","football365.com","90min.com","talksport.com","as.com","motorsport.com","cooperativa.cl")
+    url = str(item.get("source_url", ""))
+    parsed = urlsplit(url)
+    if parsed.scheme != "https" or not any(parsed.hostname == d or (parsed.hostname or "").endswith("." + d) for d in allowed):
+        return
+    try:
+        with session.get(url, timeout=(5, 9), allow_redirects=False, stream=True, headers={"User-Agent":"ChaoFelicevich/2.2 (public article context)"}) as response:
+            response.raise_for_status()
+            if response.status_code != 200 or "html" not in response.headers.get("Content-Type", "").lower():
+                return
+            chunks = bytearray()
+            for chunk in response.iter_content(32768):
+                chunks.extend(chunk)
+                if len(chunks) >= 1000000:
+                    break
+        parser = Paragraphs()
+        parser.feed(bytes(chunks).decode("utf-8", errors="replace"))
+        item["article_context"] = "\n".join(dict.fromkeys(parser.parts))[:6500]
+    except (requests.RequestException, OSError, ValueError, TypeError):
+        pass
+
+
 def ai_messages(item: dict) -> list[dict]:
     """The same factual-accuracy instructions go to every FREE model."""
     instructions = (
@@ -306,13 +369,13 @@ def ai_messages(item: dict) -> list[dict]:
         "Escribe español natural, claro y directo, para Chile y Argentina. "
         "SOLO JSON con claves headline, caption, visual_subject, personas, clubes, competicion, ciudad. "
         "No inventes noticias, resultados, lesiones, declaraciones, citas, clubes, fechas ni nombres. "
-        "Usa EXCLUSIVAMENTE el título y resumen RSS; nunca supongas datos ausentes. "
+        "Usa exclusivamente los datos del titular, resumen RSS y contexto público del artículo, cuando exista. Nunca supongas datos ausentes. "
         "Si es rumor, dilo expresamente: según reportes, podría, negocia. "
         "Si la fuente dice molestias, no lo conviertas en lesión grave. "
         "Titular de 5 a 11 palabras, máximo 75 caracteres: quién, qué pasó y consecuencia. "
         "Evita listas de futbolistas sin nombre, polémicas vagas y titulares sin el hecho específico. "
         "Si el resumen no explica quiénes son los afectados o qué sucedió, no inventes nombres. "
-        "Caption máximo 360 caracteres: primer hecho comprobable y después contexto breve. "
+        "Caption máximo 700 caracteres: entrega el dato central, luego contexto nuevo; jamás repitas el titular como descripción. Si anuncias una lista de N personas o equipos, enumera los N nombres exactos. Si la fuente no contiene la lista, devuelve un titular y caption vacíos. "
         "Prohibidos titulares telegráficos, metáforas raras y traducciones literales del inglés. "
         "Ejemplos correctos: 'Yamal será baja por molestias en el tobillo', "
         "'Manchester United apelará la expulsión de Yoro'. "
@@ -328,6 +391,7 @@ def ai_messages(item: dict) -> list[dict]:
         "sport": item.get("sport", "FUTBOL"),
         "original_title": item["title"],
         "rss_summary": item.get("description", ""),
+        "article_context": item.get("article_context", ""),
         "source": item.get("source", ""),
         "published_at_utc": item.get("published_at", ""),
     }
@@ -338,13 +402,15 @@ def ai_messages(item: dict) -> list[dict]:
 def validate_llm_copy(result: dict, item: dict) -> dict:
     """Reject unclear free-model output before it reaches the publishing queue."""
     headline = clean_html(str(result.get("headline", "")))
-    caption = fit_caption(str(result.get("caption", "")))
-    if not 12 <= len(headline) <= 75 or not 20 <= len(caption) <= 360:
+    caption = fit_caption(str(result.get("caption", "")), max_len=700)
+    if not 12 <= len(headline) <= 75 or not 20 <= len(caption) <= 700:
         raise ValueError("Invalid headline/caption length")
     if headline_needs_translation(headline) or headline_needs_translation(caption):
         raise ValueError("Untranslated English headline")
     if re.search(r"(?i)(?:fuente|source)\s*:", caption) or "http" in caption.lower():
         raise ValueError("Caption contains source links")
+    if detail_gap({**item, "headline": headline, "caption": caption}):
+        raise ValueError("Caption omits promised names")
     subject = clean_html(str(result.get("visual_subject", "")))[:75]
     subject = subject if name_in_story(subject, item["title"], item.get("description", "")) else ""
     return {"headline": headline, "caption": caption, "visual_subject": subject, "visual_entities": entities(item, result)}
@@ -354,6 +420,8 @@ def draft_with_ai(item: dict, session=None) -> tuple[str, str] | None:
     """Try only configured FREE providers, record provider and avoid paid rescue."""
     if not free_llm.providers():
         return None
+    if detail_gap(item) or len(item.get("description", "")) < 180:
+        enrich_article(item, session=session or requests)
     messages = ai_messages(item)
     output = free_llm.generate(
         messages, session=session or requests,
@@ -644,6 +712,10 @@ def run(reference: datetime | None = None, session=None) -> dict:
             if low_value_match_preview(item):
                 item["status"] = "needs_review"
                 print(f"[EDITOR] Held speculative match preview without news: {item['id']}")
+                continue
+            if detail_gap(item):
+                item["status"] = "needs_review"
+                print(f"[EDITOR] Missing promised detail: {item['id']}")
                 continue
             if headline_needs_translation(item.get("headline", "")) or headline_needs_translation(item.get("caption", "")):
                 item["status"] = "needs_review"
