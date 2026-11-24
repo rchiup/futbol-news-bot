@@ -5100,5 +5100,321 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "eb5b6d33a70a8dd7488d",
+    "title": "¿Alonso en la IndyCar en Barcelona? Palou enciende los rumores en redes sociales",
+    "source_url": "https://es.motorsport.com/indycar/news/alonso-indycar-barcelona-palou-redes-sociales/10877487",
+    "source": "Motorsport F1",
+    "description": "Cuando se anunció la llegada de la IndyCar a Barcelona desde 2027 muchos se preguntaron si no sería una buena oportunidad de ver de vuelta a Fernando Alonso en el campeonato americano, teniendo en cuenta que ese fin de semana no hay Fórmula 1 y por tanto lo tendría \"libre\". Ahora, cuando aún quedan unos meses para esa cita, Alex Palou ha encendido las redes sociales subiendo una foto con ... Sigue leyendo",
+    "published_at": "2026-11-24T14:08:10+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 34,
+    "queued_at": "2026-11-24T15:45:20.694985+00:00",
+    "status": "published",
+    "visual_subject": "Alex Palou",
+    "visual_entities": {
+      "personas": [
+        "Alex Palou",
+        "Fernando Alonso"
+      ],
+      "clubes": [
+        "Barcelona"
+      ],
+      "competicion": [
+        "IndyCar",
+        "Fórmula 1"
+      ],
+      "ciudad": [
+        "Barcelona"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Alex Palou sugiere regreso de Alonso a IndyCar en Barcelona",
+    "caption": "Alex Palou subió una foto a sus redes sociales que avivó los rumores sobre un posible regreso de Fernando Alonso a la IndyCar, cuya primera carrera en Barcelona está prevista para 2027, coincidiendo con un fin de semana sin Fórmula 1 en la ciudad.",
+    "ai_generated_at": "2026-11-24T15:45:20.694985+00:00",
+    "portrait_info": {
+      "subject": "Alex Palou",
+      "wikidata_id": "Q19244567",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Alex_Palou_at_2023_Indianapolis_500_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "license": "public domain",
+      "license_url": "",
+      "commons_filename": "Alex Palou at 2023 Indianapolis 500 (cropped).jpg",
+      "photographer": "",
+      "credit_required": false,
+      "share_alike": false,
+      "width": 1036,
+      "height": 1382,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Alex_Palou_at_2023_Indianapolis_500_%28cropped%29.jpg",
+      "entity_kind": "person",
+      "entity_qid": "Q19244567",
+      "photo_provider": "Wikidata photo bank",
+      "verified_at": "2026-11-24T15:45:41.941874+00:00"
+    },
+    "photo_checked_at": "2026-11-24T15:45:41.942492+00:00",
+    "ai_art_used": false,
+    "photo_used": true,
+    "portrait_used": true,
+    "reference_photo_used": false,
+    "visual_mode": "licensed_photo",
+    "photo_credit_full": "",
+    "posted_at": "2026-11-24T15:45:20.694985+00:00",
+    "instagram_media_id": "18120519959612074"
+  },
+  {
+    "id": "3eca269b76d428caeb83",
+    "title": "Los dos golpazos que recibió Independiente de cara a los cuartos de final",
+    "source_url": "https://www.ole.com.ar/independiente/independiente-torneoclausura-chimyavila-santiagoarias-velez_0_ZGJYpeqNFH.html",
+    "source": "Olé Argentina",
+    "description": "Jadson Viera no podrá contar con futbolistas importantes dentro de su esquema ideal y tendrá que buscar reemplazantes para el cruce ante Vélez. Los detalles.",
+    "published_at": "2026-11-24T15:33:35+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T15:45:20.694985+00:00",
+    "status": "published",
+    "visual_subject": "Jadson Viera",
+    "visual_entities": {
+      "personas": [
+        "Jadson Viera"
+      ],
+      "clubes": [
+        "Independiente",
+        "Vélez"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Independiente sufre dos golpes antes de cuartos de final",
+    "caption": "Jadson Viera informó que no contará con futbolistas importantes para el cruce ante Vélez. El técnico buscará reemplazantes mientras el club afronta dos problemas de cara a los cuartos de final.",
+    "ai_generated_at": "2026-11-24T15:45:20.694985+00:00",
+    "photo_checked_at": "2026-11-24T15:46:53.240916+00:00",
+    "portrait_info": null,
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "editorial_typography",
+    "posted_at": "2026-11-24T15:45:20.694985+00:00",
+    "instagram_media_id": "17920261863496286"
+  },
+  {
+    "id": "38adc018cd56635f9334",
+    "title": "El Balón de Oro reveló todos los jugadores que votó Messi a lo largo de la historia: cuatro son argentinos",
+    "source_url": "https://www.ole.com.ar/messi/balon-oro-revelo-jugadores-voto-lionel-messi-historia-argentinos_0_Fv98SrjmBR.html",
+    "source": "Olé Argentina",
+    "description": "El sitio oficial del galardón recopiló las 11 participaciones de Leo en la elección, tanto para el premio principal como para el Kopa al Mejor Talento Joven.",
+    "published_at": "2026-11-24T15:08:16+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T15:45:20.694985+00:00",
+    "status": "published",
+    "visual_subject": "Lionel Messi",
+    "visual_entities": {
+      "personas": [
+        "Messi"
+      ],
+      "clubes": [],
+      "competicion": [
+        "Balón de Oro",
+        "Kopa al Mejor Talento Joven"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Balón de Oro muestra los votos de Messi, cuatro argentinos",
+    "caption": "El Balón de Oro reveló los jugadores que Lionel Messi votó en sus 11 participaciones, tanto para el premio principal como para la Kopa al Mejor Talento Joven, y entre ellos cuatro son argentinos, según el sitio oficial del galardón.",
+    "ai_generated_at": "2026-11-24T15:45:20.694985+00:00",
+    "portrait_info": {
+      "subject": "Lionel Messi",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Lionel_Messi_Argentina_v_Spain_19_July_2026-222.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commons_filename": "Lionel Messi Argentina v Spain 19 July 2026-222.jpg",
+      "photographer": "Bryan Berlin",
+      "credit_required": true,
+      "share_alike": true,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Lionel_Messi_Argentina_v_Spain_19_July_2026-222.jpg",
+      "photo_provider": "Curated Commons",
+      "verified": "2026-11-23"
+    },
+    "photo_checked_at": "2026-11-24T15:47:48.628073+00:00",
+    "ai_art_used": false,
+    "photo_used": true,
+    "portrait_used": true,
+    "reference_photo_used": false,
+    "visual_mode": "licensed_photo",
+    "photo_credit_full": "📷 Foto: Bryan Berlin · CC BY-SA 4.0 · Wikimedia Commons (recorte y edición). https://commons.wikimedia.org/wiki/File:Lionel_Messi_Argentina_v_Spain_19_July_2026-222.jpg · https://creativecommons.org/licenses/by-sa/4.0/ · Gráfica adaptada bajo la misma licencia CC BY-SA.",
+    "posted_at": "2026-11-24T15:45:20.694985+00:00",
+    "instagram_media_id": "17996366499081943"
+  },
+  {
+    "id": "e871daf382b51a646dde",
+    "title": "Es oficial: el TAS le devolvió el título de la Copa Africana de Naciones a Senegal",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/marruecos-senegal-caf-tas_0_02B0UfjohF.html",
+    "source": "Olé Argentina",
+    "description": "En una decisión unánime, el Tribunal revocó la medida de la CAF, que había declarado campeón a Marruecos.",
+    "published_at": "2026-11-24T15:02:02+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 25,
+    "queued_at": "2026-11-24T15:45:20.694985+00:00",
+    "status": "draft",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [
+        "Copa Africana de Naciones"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "El TAS devuelve a Senegal el título de la Copa Africana",
+    "caption": "El Tribunal Arbitral del Deporte revocó por unanimidad la medida de la CAF que había declarado campeón a Marruecos, devolviendo así el título de la Copa Africana de Naciones a Senegal.",
+    "ai_generated_at": "2026-11-24T15:45:20.694985+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "897552e6948cb78cfde4",
+    "title": "Jannik Sinner fue operado de la rodilla: cuánto tiempo estará de baja y cuándo podría volver",
+    "source_url": "https://www.ole.com.ar/tenis/jannik-sinner-operado-rodilla-derecha-exito-podra-volver-jugar_0_PzG9ToG5ak.html",
+    "source": "Olé Argentina",
+    "description": "El italiano, ganador de cinco títulos de Grand Slam, se sometió a una intervención quirúrgica en Finlandia tras varios meses de tratamiento sin los resultados esperados.",
+    "published_at": "2026-11-24T14:21:36+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T15:45:20.694985+00:00",
+    "status": "draft",
+    "visual_subject": "Jannik Sinner",
+    "visual_entities": {
+      "personas": [
+        "Jannik Sinner"
+      ],
+      "clubes": [],
+      "competicion": [
+        "Grand Slam"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Jannik Sinner operó su rodilla, baja indefinida",
+    "caption": "El italiano Jannik Sinner, cinco veces campeón de Grand Slam, se sometió a una cirugía de rodilla en Finlandia después de meses de tratamiento sin resultados. La intervención implica una baja indefinida mientras se recupera.",
+    "ai_generated_at": "2026-11-24T15:45:20.694985+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "27060f591e5255fb73df",
+    "title": "Senegal reinstated as Afcon 2025 winners by court ruling",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/crn80y2l1404o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Ten months after the 2025 Africa Cup of Nations final, Senegal are reinstated as champions following a ruling by the Court of Arbitration for Sport.",
+    "published_at": "2026-11-24T15:40:05+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T15:45:20.694985+00:00",
+    "status": "draft",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "Senegal"
+      ],
+      "clubes": [],
+      "competicion": [
+        "Afcon 2025"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Senegal recupera título de la Afcon 2025",
+    "caption": "Senegal vuelve a ser campeón de la Copa Africana de Naciones 2025 tras una sentencia del Tribunal Arbitral Deportivo, diez meses después del partido final.",
+    "ai_generated_at": "2026-11-24T15:45:20.694985+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "b1f5e209ef1673624ce8",
+    "title": "Qué dijo Achraf Hakimi sobre la causa judicial que enfrenta en Francia",
+    "source_url": "https://www.ole.com.ar/informacion-general/achraf-hakimi-hablo-denuncia-causa-judicial-abuso-sexual-francia-rompio-silencio_0_4FTwesuzMn.html",
+    "source": "Olé Argentina",
+    "description": "El defensor marroquí rompió el silencio en la previa del encuentro entre el PSG y la Roma, a meses del juicio por una denuncia presentada en febrero de 2023.",
+    "published_at": "2026-11-24T14:45:57+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T15:45:20.694985+00:00",
+    "status": "draft",
+    "visual_subject": "Achraf Hakimi",
+    "visual_entities": {
+      "personas": [
+        "Achraf Hakimi"
+      ],
+      "clubes": [
+        "Roma"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Achraf Hakimi habla de su causa judicial en Francia",
+    "caption": "Achraf Hakimi rompió el silencio antes del partido PSG‑Roma, comentando la causa judicial que enfrenta en Francia, a meses del juicio por una denuncia presentada en febrero de 2023.",
+    "ai_generated_at": "2026-11-24T15:45:20.694985+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "15708cb655f6cad676c8",
+    "title": "Arranca la fase final de la Copa Davis: el formato, los ocho clasificados y las figuras que jugarán",
+    "source_url": "https://www.ole.com.ar/tenis/copa-davis-selecciones-definicion-final-horario-dia-partidos-fecha-carlos-alcaraz-alexander-zverev-espana-italia_0_TAhGneQAq6.html",
+    "source": "Olé Argentina",
+    "description": "Con ocho selecciones en competencia, Bolonia albergará el Final 8 para definir quién se queda con la Ensaladerase definirá al ganador de la Ensaladeracon series al mejor de tres puntos y varios de los mejores tenistas del planeta listos para alzar el trofeo.",
+    "published_at": "2026-11-24T14:35:44+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T15:45:20.694985+00:00",
+    "status": "draft",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [
+        "Copa Davis"
+      ],
+      "ciudad": [
+        "Bolonia"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Bolonia acoge Final 8 de la Copa Davis",
+    "caption": "Ocho selecciones competirán en Bolonia en la fase final de la Copa Davis, con partidos al mejor de tres sets para definir al campeón.",
+    "ai_generated_at": "2026-11-24T15:45:20.694985+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]

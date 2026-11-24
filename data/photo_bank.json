@@ -16,5 +16,23 @@
     "entity_qid": "Q359401",
     "photo_provider": "Wikidata photo bank",
     "verified_at": "2026-11-24T01:16:38.645978+00:00"
+  },
+  "person:alex palou": {
+    "subject": "Alex Palou",
+    "wikidata_id": "Q19244567",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Alex_Palou_at_2023_Indianapolis_500_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "public domain",
+    "license_url": "",
+    "commons_filename": "Alex Palou at 2023 Indianapolis 500 (cropped).jpg",
+    "photographer": "",
+    "credit_required": false,
+    "share_alike": false,
+    "width": 1036,
+    "height": 1382,
+    "file_page": "https://commons.wikimedia.org/wiki/File:Alex_Palou_at_2023_Indianapolis_500_%28cropped%29.jpg",
+    "entity_kind": "person",
+    "entity_qid": "Q19244567",
+    "photo_provider": "Wikidata photo bank",
+    "verified_at": "2026-11-24T15:45:41.941874+00:00"
   }
 }
