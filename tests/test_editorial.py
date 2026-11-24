@@ -213,6 +213,18 @@ class EditorialTests(unittest.TestCase):
         self.assertFalse(editorial.headline_needs_translation(
             "Chelsea: delantero sufre un robo tras derrota"))
 
+    def test_mixed_language_and_literal_sports_translation_rejected(self):
+        for copy in ("Koepka's regreso eleva estatus de Day",
+                     "Koepka’s regreso beneficia a Day",
+                     "El programa de miembros retornantes",
+                     "Day obtuvo estatus condicional"):
+            with self.subTest(copy=copy):
+                self.assertTrue(editorial.headline_needs_translation(copy))
+        self.assertFalse(editorial.headline_needs_translation(
+            "El regreso de Koepka beneficia a tres golfistas del PGA Tour"))
+        self.assertFalse(editorial.headline_needs_translation(
+            "O'Sullivan se impone en la final"))
+
     def test_quarter_hourly_schedule_allows_multiple_posts_with_daily_cap(self):
         from zoneinfo import ZoneInfo
         local = ZoneInfo("America/Santiago")
