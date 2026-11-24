@@ -10432,5 +10432,23 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "e6a7bec3f02c4cd764e2",
+    "title": "Watch Tuesday's Sportscene highlights",
+    "source_url": "https://www.bbc.co.uk/iplayer/live/bbcone?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Action and reaction to Hibernian v Dundee and Rangers v Aberdeen.",
+    "published_at": "2026-11-24T23:11:04+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T22:56:47.616601+00:00",
+    "status": "awaiting_ai",
+    "article_context": "",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
