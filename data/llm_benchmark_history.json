@@ -49,5 +49,56 @@
         }
       }
     }
+  },
+  {
+    "checked_at_utc": "2026-11-24T06:33:15.961992+00:00",
+    "method": "same dated RSS title and summary",
+    "readability_is_not_fact_checking": true,
+    "configured_free_providers": [
+      "groq"
+    ],
+    "results": [
+      {
+        "provider": "groq",
+        "model": "openai/gpt-oss-120b",
+        "status": "ok",
+        "latency_ms": 1499,
+        "headline": "Maxi Rodríguez critica a Nicolás Ramírez tras derrota de Newell's",
+        "caption": "El exfutbolista de la Lepra, Maxi Rodríguez, lanzó un fuerte posteo contra Nicolás Ramírez después de la eliminación de Newell's en el Clausura, señalando a los árbitros como la figura de los partidos.",
+        "readability_score": 100
+      },
+      {
+        "provider": "gemini",
+        "model": "gemini-3.1-flash-lite",
+        "status": "not_configured"
+      },
+      {
+        "provider": "cerebras",
+        "model": "gpt-oss-120b",
+        "status": "not_configured"
+      },
+      {
+        "provider": "openrouter",
+        "model": "openrouter/free",
+        "status": "not_configured"
+      }
+    ],
+    "source_title": "El fuerte posteo de Maxi Rodríguez contrá Nicolás Ramírez luego de la derrota de Newell's",
+    "sport": "FUTBOL",
+    "status": "complete",
+    "usage_summary": {
+      "date_utc": "2026-11-24",
+      "last_success": "groq",
+      "providers": {
+        "groq": {
+          "attempts": 13,
+          "success": 11,
+          "failures": 2,
+          "avg_latency_ms": 1684,
+          "avg_readability": 100.0,
+          "last_error": "invalid_output"
+        }
+      }
+    }
   }
 ]
