@@ -258,6 +258,35 @@ def news_missing_critical_details(item: dict) -> bool:
     return False
 
 
+def low_value_match_preview(item: dict) -> bool:
+    """Hold speculative live-blog filler that reports no completed event.
+
+    A verified score/result remains publishable, including from the same
+    fixture. Never let an LLM turn a live-blog title into a made-up tactic.
+    """
+    title = str(item.get("title") or "").lower()
+    headline = str(item.get("headline") or "").lower()
+    caption = str(item.get("caption") or "").lower()
+    content = headline + " " + caption
+    outcome = re.search(
+        r"\\b(?:gan[oó]|venci[oó]|derrot[oó]|gole[oó]|empataron|empata|"
+        r"clasific[oó]|elimin[oó]|remont[oó]|finaliz[oó]|acab[oó]|"
+        r"victoria|derrota|resultado|marcador|expulsado|tarjeta roja|"
+        r"goles?|hat.trick)\\b|\\b\\d+\\s*[-–:]\\s*\\d+\\b", content
+    )
+    if outcome:
+        return False
+    vague_tactics = re.search(
+        r"\\b(?:intentar[aá]|buscar[aá]|tratar[aá]|planea|pretende|"
+        r"podr[ií]a|intenta|busca)\\b.{0,85}\\b(?:atacar|presionar|"
+        r"dominar|controlar|ganar|bandas|posesi[oó]n|ritmo)\\b",
+        content
+    )
+    live_fixture = bool(re.search(r"\\b(?:v|vs\\.?|versus)\\b.{0,65}\\blive\\b|"
+                                  r"\\b(?:live|en vivo|minuto a minuto)\\b", title))
+    return bool(vague_tactics or (live_fixture and not outcome))
+
+
 def fit_caption(value: str, max_len: int = 360) -> str:
     """Keep complete sentences: never chop a news explanation mid-phrase."""
     value = clean_html(value)
@@ -528,6 +557,10 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 break
             item["headline"], item["caption"] = result
             item["caption"] = clean_public_caption(item["caption"])
+            if low_value_match_preview(item):
+                item["status"] = "needs_review"
+                print(f"[EDITOR] Rejected low-value live preview: {item['id']}")
+                continue
             item["ai_generated_at"] = iso(reference)
             item["status"] = "draft"
             generated += 1
@@ -595,6 +628,10 @@ def run(reference: datetime | None = None, session=None) -> dict:
             if news_missing_critical_details(item):
                 item["status"] = "needs_review"
                 print(f"[EDITOR] Missing essential names or story details: {item['id']}")
+                continue
+            if low_value_match_preview(item):
+                item["status"] = "needs_review"
+                print(f"[EDITOR] Held speculative match preview without news: {item['id']}")
                 continue
             if headline_needs_translation(item.get("headline", "")):
                 item["status"] = "needs_review"
