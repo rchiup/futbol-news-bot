@@ -4231,7 +4231,7 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-24T10:55:16.866606+00:00",
-    "status": "draft",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -4249,7 +4249,19 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Giannis Antetokounmpo invierte en Kalshi, aumenta polémica",
     "caption": "Giannis Antetokounmpo anunció en febrero su participación accionaria en la plataforma de mercados de predicción Kalshi, diciendo “We all on Kalshi now”. Su movimiento generó críticas entre los aficionados y, nueve meses después, el volumen de operaciones mensual de Kalshi se disparó, consolidando su presencia entre los seguidores del baloncesto.",
-    "ai_generated_at": "2026-11-24T14:10:17.953874+00:00"
+    "ai_generated_at": "2026-11-24T14:10:17.953874+00:00",
+    "photo_checked_at": "2026-11-24T17:33:02.534938+00:00",
+    "portrait_info": null,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "NBA",
+        "GiannisAntetokounmpo"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T17:31:04.909237+00:00",
+    "instagram_media_id": "18115984183874631"
   },
   {
     "id": "6cf29e6ce9e366bb35bf",
@@ -4302,7 +4314,7 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-24T11:08:54.831549+00:00",
-    "status": "needs_review",
+    "status": "published",
     "visual_subject": "Carla Ward",
     "visual_entities": {
       "personas": [
@@ -4323,8 +4335,19 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "visual_mode": "original_graphic",
-    "photo_deferred_reason": "no_relevant_photo"
+    "visual_mode": "editorial_typography",
+    "photo_checked_at": "2026-11-24T17:32:30.862797+00:00",
+    "portrait_info": null,
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "CarlaWard",
+        "Euro2029"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T17:31:04.909237+00:00",
+    "instagram_media_id": "17917533816514202"
   },
   {
     "id": "59d955c7cf8701b3e88a",
@@ -4723,7 +4746,7 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-24T12:59:35.838734+00:00",
-    "status": "needs_review",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -4747,8 +4770,19 @@
     "headline": "Aston Martin asegura que Qatar será mejor que Las Vegas",
     "caption": "Aston Martin afirma que en el Circuito Internacional de Losail, Qatar, tendrá más posibilidades de competir que en el Las Vegas Strip Circuit, donde sufrió un rendimiento inferior. En Las Vegas, Fernando Alonso fue 33,1 km/h más lento que Oscar, evidenciando la diferencia de velocidad.",
     "ai_generated_at": "2026-11-24T13:36:41.475440+00:00",
-    "visual_mode": "original_graphic",
-    "photo_deferred_reason": "no_relevant_photo"
+    "visual_mode": "editorial_typography",
+    "photo_checked_at": "2026-11-24T17:31:43.927940+00:00",
+    "portrait_info": null,
+    "promotion": {
+      "hashtags": [
+        "Formula1",
+        "FernandoAlonso",
+        "AstonMartin"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-24T17:31:04.909237+00:00",
+    "instagram_media_id": "18018024119974938"
   },
   {
     "id": "f99cd0168273edfc82da",
@@ -6519,6 +6553,40 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T17:16:00.500304+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "3031c01d470e73d46460",
+    "title": "Alonso señala la incoherencia del final del calendario de F1",
+    "source_url": "https://es.motorsport.com/f1/news/alonso-incoherencia-calendario-final/10877342",
+    "source": "Motorsport F1",
+    "description": "La Fórmula 1 disputó en Las Vegas la primera parada de su triplete final, con el que concluirá la temporada 2026. Y ahora, sin pausa, el campeonato viaja a Oriente Medio para el GP de Qatar antes del GP de Abu Dhabi que echará el telón a este curso. Ese triplete final llega tras una semana sin carrera, que vino justo después de otro triplete, lo que deja un final de temporada con seis ... Sigue leyendo",
+    "published_at": "2026-11-24T17:16:24+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-24T17:31:04.909237+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "cde6c70611ddbe4a13b5",
+    "title": "Klopp advice and Iraola confidence boosts Wirtz",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/c69w91k0j9zeo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Florian Wirtz opens up on why it's the best he has felt since joining Liverpool.",
+    "published_at": "2026-11-24T17:19:08+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T17:31:04.909237+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,

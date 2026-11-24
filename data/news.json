@@ -8230,5 +8230,29 @@
     "source": "www.ole.com.ar - Home",
     "collected_at": "2026-11-24T17:15:56.842836+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "cde6c70611ddbe4a13b5f3141b3f97379c0fa8bce8e896ef89b1b878ca70ff8e",
+    "title": "Klopp advice and Iraola confidence boosts Wirtz",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c69w91k0j9zeo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-24T17:31:00.360490+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "266391f5057e5677329f2d50d814d86ef752b69c831d70825a047fd73c86800f",
+    "title": "Arsenal should sell Viktor Gyokeres as perfect Mikel Arteta signing identified",
+    "url": "https://talksport.com/football/4728878/arsenal-sell-viktor-gyokeres-january-swap-julian-alvarez/",
+    "source": "Football News, Transfers, Opinion - talkSPORT",
+    "collected_at": "2026-11-24T17:31:02.190444+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "829cc7195e6c7ad3c2b358d605385c8c4ac3e6db3634af929714bdb32d832d6c",
+    "title": "Alonso señala la incoherencia del final del calendario de F1",
+    "url": "https://es.motorsport.com/f1/news/alonso-incoherencia-calendario-final/10877342/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es",
+    "source": "Motorsport.com - Fórmula 1 - Historias",
+    "collected_at": "2026-11-24T17:31:03.545319+00:00",
+    "status": "pending_review"
   }
 ]
