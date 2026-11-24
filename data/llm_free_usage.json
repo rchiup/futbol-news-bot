@@ -2,11 +2,10 @@
   "date_utc": "2026-11-24",
   "providers": {
     "groq": {
-      "attempts": 133,
-      "success": 110,
-      "failures": 23,
+      "attempts": 135,
+      "success": 111,
+      "failures": 24,
       "latencies_ms": [
-        1716,
         1235,
         2919,
         1956,
@@ -35,11 +34,11 @@
         3215,
         1999,
         4748,
-        2124
+        2124,
+        3357
       ],
       "quality": [
         100,
-        100,
         85,
         100,
         85,
@@ -67,15 +66,16 @@
         85,
         85,
         100,
-        100
+        100,
+        85
       ],
-      "last_error": "http_503",
+      "last_error": "invalid_output",
       "blocked_until_utc": 1795550799
     },
     "openrouter": {
-      "attempts": 8,
+      "attempts": 9,
       "success": 4,
-      "failures": 4,
+      "failures": 5,
       "latencies_ms": [
         15995,
         14975,
@@ -89,7 +89,7 @@
         100
       ],
       "last_error": "http_429",
-      "blocked_until_utc": 1795552302
+      "blocked_until_utc": 1795558167
     },
     "gemini": {
       "attempts": 20,
@@ -107,11 +107,10 @@
       "blocked_until_utc": 1795548674
     },
     "cloudflare": {
-      "attempts": 55,
-      "success": 38,
+      "attempts": 56,
+      "success": 39,
       "failures": 17,
       "latencies_ms": [
-        3586,
         4440,
         2400,
         2417,
@@ -140,14 +139,14 @@
         4130,
         3733,
         3436,
-        1805
+        1805,
+        2702
       ],
       "quality": [
         100,
         100,
         100,
         100,
-        100,
         85,
         100,
         100,
@@ -172,6 +171,7 @@
         100,
         85,
         85,
+        100,
         100
       ],
       "last_error": "invalid_output"

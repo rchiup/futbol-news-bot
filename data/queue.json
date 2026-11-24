@@ -9522,5 +9522,73 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "6be2d38f759daa97a808",
+    "title": "Independiente Rivadavia: el deseo de amargarle la fiesta a Boca y el reencuentro con Sebastián Villa",
+    "source_url": "https://www.ole.com.ar/independiente-rivadavia/independiente-rivadavia-boca-bombonera-octavos-clausura_0_EBKMIRzYpT.html",
+    "source": "Olé Argentina",
+    "description": "La Lepra de Berti visitará al flamante campeón de la Sudamericana con el objetivo de frenar su racha ganadora. Además, una cuenta pendiente y la presencia de un querido ex como el delantero colombiano.",
+    "published_at": "2026-11-24T20:57:31+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T21:09:00.327356+00:00",
+    "status": "draft",
+    "visual_subject": "Sebastián Villa",
+    "visual_entities": {
+      "personas": [
+        "Sebastián Villa"
+      ],
+      "clubes": [
+        "Independiente Rivadavia",
+        "Boca"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Rivadavia busca frenar racha de Boca",
+    "caption": "Independiente Rivadavia enfrentará a Boca con el objetivo de detener su racha ganadora y se reencontrará con el delantero Sebastián Villa, un ex jugador querido por la hinchada.",
+    "ai_generated_at": "2026-11-24T21:09:00.327356+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "64c51860c4898796519b",
+    "title": "Las 1000 Millas Sport vuelven a la Patagonia con nuevas pruebas y autos de lujo: Bugatti, Aston Martin, Ferrari y más",
+    "source_url": "https://www.ole.com.ar/autos/mil-millas-sport-patagonia-bariloche_0_k3aiDUXRzN.html",
+    "source": "Olé Argentina",
+    "description": "Del 25 al 29 de noviembre, en Bariloche, se pondrá en marcha la 37ª edición de una de las competencias sport más emblemáticas de Latinoamérica.",
+    "published_at": "2026-11-24T21:01:46+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T21:09:00.327356+00:00",
+    "status": "draft",
+    "article_context": "El recorrido pasará por el emblemático Hotel Llao Llao de Bariloche (prensa 1000 Millas Sport).\nLas 1000 Millas Sport , la competencia de regularidad más emblemática de Latinoamérica, organizada por el Club de Automóviles Sport (CAS), se prepara para una nueva edición que se llevará adelante del 25 al 29 de noviembre en la Patagonia ; con un recorrido que volverá a combinar regularidad, paisajes únicos y una grilla internacional de autos sport clásicos.\nUna de las principales novedades de esta 37ª edición será la incorporación de nuevas pruebas de regularidad, que elevarán el desafío para las distintas tripulaciones. “Nos gusta reinterpretar la propuesta en cada edición. Siempre hay caminos por descubrir y paisajes nuevos por recorrer. Este año en particular, incorporamos pruebas de regularidad que van a poner a prueba hasta a los competidores más experimentados ”, explicó Fernando Briones, presidente del CAS y del Comité Organizador.\nLas 1000 Millas Sport son más que una competencia. Año a año, pilotos y copilotos de distintas partes del mundo se dan cita para revivir el espíritu de las competencias sport clásicas y rendir tributo a los verdaderos protagonistas: los vehículos sport clásicos que reviven la historia en cada ruta de la patagonia. La competencia, que inicia y culmina en el emblemático Hotel Llao Llao de Bariloche y pasa por lugares como Dina Huapi, Villa La Angostura, Reserva Natural, 7 Lagos, Villa Mascardi y El Bolsón, entre otros, y combina espíritu deportivo, historia, gastronomía y paisajes únicos.\nLos participantes recorren miles de kilómetros disfrutando del manejo y la camaradería, mientras ponen a prueba lo más relevante de la competencia: la regularidad , que es el corazón de las 1000 Millas Sport. Así lo explicó Daniel Claramunt, director ejecutivo de las 1000 Millas Sport: “La regularidad exige una conexión total entre el piloto y su navegante” .\nLa edición 2026 ya cuenta con tripulaciones confirmadas de Estados Unidos, Alemania, Suiza, Chile y Uruguay, además de participantes argentinos. “La grilla va a ser un espectáculo visual”, adelanta Briones. Contará con la presencia de verdaderos íconos: Mercedes Benz 300SL, Aston Martin DB5, Bugatti T37, Ferrari 365GTC. BMW 328, entre otras grandes joyas del automovilismo histórico.\nEl recorrido volverá a atravesar algunos de los paisajes y localidades más representativos de la región, con nuevos puntos de parada para almuerzos y refrigerios. “El entorno patagónico es la escenografía perfecta y acompaña en toda la competencia” , sostiene Briones.\nPara el público, el tradicional Parque Cerrado del Centro Cívico de Bariloche será nuevamente uno de los grandes puntos de encuentro , mientras que el paso por San Martín de los Andes y Villa La Angostura ofrecerá diferentes lugares panorámicos para ver los vehículos en competencia.\nLas 1000 Millas Sport también mantienen su compromiso con las comunidades que reciben a la competencia. El tradicional remate solidario beneficia al Banco de Alimentos y a distintas organizaciones locales , mientras que en los últimos seis años la organización profundizó su vínculo con entidades de la región como Fundación Challenge, Puentes de Luz y Fundación Cruzada Patagónica. El objetivo es que el paso de la competencia por la Patagonia trascienda el espectáculo automovilístico y genere un impacto concreto y sostenible en las comunidades locales .\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [
+        "1000 Millas Sport"
+      ],
+      "ciudad": [
+        "Bariloche"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Las 1000 Millas Sport vuelven a Bariloche con nuevas pruebas",
+    "caption": "Del 25 al 29 de noviembre se disputará la 37ª edición de las 1000 Millas Sport en la Patagonia, iniciando y culminando en el Hotel Llao Llao de Bariloche. La competencia incorpora nuevas pruebas de regularidad y reunirá autos clásicos como un Bugatti T37, Aston Martin DB5, Ferrari 365GTC y otros. Participarán tripulaciones de EE. UU., Alemania, Suiza, Chile, Uruguay y Argentina, y el público podrá seguir la carrera en puntos como el Parque Cerrado del Centro Cívico y en los recorridos por San Martín de los Andes y Villa La Angostura. El evento mantiene su remate solidario a favor del Banco de Alimentos y organizaciones locales.",
+    "ai_generated_at": "2026-11-24T21:09:00.327356+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
