@@ -2,9 +2,9 @@
   "date_utc": "2026-11-24",
   "providers": {
     "groq": {
-      "attempts": 145,
+      "attempts": 146,
       "success": 118,
-      "failures": 27,
+      "failures": 28,
       "latencies_ms": [
         2762,
         1518,
@@ -107,9 +107,9 @@
       "blocked_until_utc": 1795548674
     },
     "cloudflare": {
-      "attempts": 59,
+      "attempts": 60,
       "success": 40,
-      "failures": 19,
+      "failures": 20,
       "latencies_ms": [
         2400,
         2417,
