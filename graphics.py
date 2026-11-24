@@ -8,10 +8,11 @@ The fallback drawn from scratch is an original image safe to auto-publish.
 from __future__ import annotations
 
 import math
+import os
 import re
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont, ImageOps
+from PIL import Image, ImageDraw, ImageFont, ImageOps, ImageFilter
 
 WIDTH, HEIGHT = 1080, 1350
 BASE = (8, 16, 27)
@@ -114,6 +115,40 @@ def _photo_background(path: Path):
     return canvas
 
 
+_SEGMENT_SESSION = None
+
+def _cutout_background(path, accent):
+    """Local CPU background removal. Safe fallback on bad masks or missing model."""
+    global _SEGMENT_SESSION
+    if os.getenv("ENABLE_REMBG", "false").lower() != "true":
+        return None
+    try:
+        from rembg import new_session, remove
+        if _SEGMENT_SESSION is None:
+            _SEGMENT_SESSION = new_session("u2netp", providers=["CPUExecutionProvider"])
+        with Image.open(path) as src:
+            image = ImageOps.exif_transpose(src).convert("RGB")
+            image.thumbnail((1200, 1200))
+            cut = remove(image, session=_SEGMENT_SESSION).convert("RGBA")
+        alpha = cut.getchannel("A")
+        bounds = alpha.point(lambda v: 255 if v > 110 else 0).getbbox()
+        if not bounds:
+            return None
+        coverage = sum(alpha.histogram()[110:]) / (cut.width * cut.height)
+        if not 0.12 <= coverage <= 0.88:
+            return None
+        cut = cut.crop(bounds)
+        cut.thumbnail((1010, 1100), Image.Resampling.LANCZOS)
+        canvas = _original_background(accent)
+        x = (WIDTH - cut.width) // 2
+        y = max(140, 1120 - cut.height)
+        canvas.alpha_composite(cut, (x, y))
+        return canvas
+    except Exception as exc:
+        print(f"[DESIGN] Cutout fallback: {type(exc).__name__}")
+        return None
+
+
 def _cinematic_shade(canvas):
     """Smooth, full-width shade: readable type without visible dark rectangles."""
     mask = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
@@ -155,7 +190,14 @@ def render_card(item: dict, brand="CHAO FELICEVICH", destination: Path | None = 
     output = Path(destination or Path("output/previews") / f"{key}.jpg")
     output.parent.mkdir(parents=True, exist_ok=True)
 
-    canvas = _photo_background(Path(portrait_path)) if portrait_path else _original_background(accent)
+    canvas = None
+    if portrait_path and not ai_art and (item.get("portrait_info") or {}).get("entity_kind") != "club":
+        canvas = _cutout_background(Path(portrait_path), accent)
+    if canvas is None:
+        canvas = _photo_background(Path(portrait_path)) if portrait_path else _original_background(accent)
+        if portrait_path and (item.get("portrait_info") or {}).get("entity_kind") == "club":
+            canvas = canvas.filter(ImageFilter.GaussianBlur(2))
+            canvas = Image.alpha_composite(canvas, Image.new("RGBA", canvas.size, (*BASE, 35)))
     canvas = _cinematic_shade(canvas)
     draw = ImageDraw.Draw(canvas, "RGBA")
     _brand(draw, brand, accent)
