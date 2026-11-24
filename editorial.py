@@ -30,6 +30,7 @@ from openverse_photos import find_openverse_photo, download_openverse_photo
 from photo_bank import entities, choose_photo
 from curated_portraits import pick_curated
 import free_llm
+from growth import append_promotion
 from news_novelty import duplicate_reason, novelty_priority, same_story
 
 ROOT = Path(__file__).resolve().parent
@@ -768,6 +769,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     if (item.get("portrait_info") or {}).get("entity_kind") == "club":
                         caption += "\nFoto de archivo: estadio asociado al club; no corresponde necesariamente al encuentro."
                 item.pop("photo_deferred_reason", None)
+                caption = append_promotion(caption, item)
                 media_id = publish_image(path, caption, item["id"])
                 item["status"] = "published"
                 item["posted_at"] = iso(reference)
