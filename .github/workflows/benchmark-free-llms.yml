@@ -71,10 +71,10 @@ jobs:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
           ZAI_API_KEY: ${{ secrets.ZAI_API_KEY }}
-          CLOUDFLARE_FREE_TIER_CONFIRMED: ${{ vars.CLOUDFLARE_FREE_TIER_CONFIRMED || 'false' }}
-          NVIDIA_FREE_TIER_CONFIRMED: ${{ vars.NVIDIA_FREE_TIER_CONFIRMED || 'false' }}
-          ZAI_FREE_TIER_CONFIRMED: ${{ vars.ZAI_FREE_TIER_CONFIRMED || 'false' }}
-          GEMINI_FREE_TIER_CONFIRMED: ${{ vars.GEMINI_FREE_TIER_CONFIRMED || 'false' }}
+          CLOUDFLARE_FREE_TIER_CONFIRMED: ${{ vars.CLOUDFLARE_FREE_TIER_CONFIRMED || 'true' }}
+          NVIDIA_FREE_TIER_CONFIRMED: ${{ vars.NVIDIA_FREE_TIER_CONFIRMED || 'true' }}
+          ZAI_FREE_TIER_CONFIRMED: ${{ vars.ZAI_FREE_TIER_CONFIRMED || 'true' }}
+          GEMINI_FREE_TIER_CONFIRMED: ${{ vars.GEMINI_FREE_TIER_CONFIRMED || 'true' }}
           CEREBRAS_FREE_TIER_CONFIRMED: ${{ vars.CEREBRAS_FREE_TIER_CONFIRMED || 'false' }}
           FREE_LLM_ORDER: 'groq,gemini,openrouter,cloudflare,cerebras,nvidia,zai'
       - name: Persist redacted benchmark and usage
