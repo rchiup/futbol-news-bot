@@ -74,3 +74,5 @@ Publish carefully verified Lamine Yamal/Sabah injury absence with licensed portr
 2026-11-24: Publish with newly enabled LLM fallbacks.
 
 2026-11-24: Retry recent photo holds with expanded Openverse search.
+
+Retry publisher after corrected photo retry tests.
