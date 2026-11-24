@@ -73,9 +73,9 @@
       "blocked_until_utc": 1795479134
     },
     "openrouter": {
-      "attempts": 5,
+      "attempts": 6,
       "success": 4,
-      "failures": 1,
+      "failures": 2,
       "latencies_ms": [
         15995,
         14975,
@@ -89,12 +89,12 @@
         100
       ],
       "last_error": "http_429",
-      "blocked_until_utc": 1795539718
+      "blocked_until_utc": 1795544187
     },
     "gemini": {
-      "attempts": 10,
+      "attempts": 11,
       "success": 1,
-      "failures": 9,
+      "failures": 10,
       "latencies_ms": [
         23629
       ],
@@ -104,17 +104,17 @@
       "last_error": "http_503"
     },
     "cloudflare": {
-      "attempts": 7,
+      "attempts": 8,
       "success": 0,
-      "failures": 7,
+      "failures": 8,
       "latencies_ms": [],
       "quality": [],
       "last_error": "http_410"
     },
     "nvidia": {
-      "attempts": 7,
+      "attempts": 8,
       "success": 0,
-      "failures": 7,
+      "failures": 8,
       "latencies_ms": [],
       "quality": [],
       "last_error": "http_410"
