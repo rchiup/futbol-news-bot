@@ -3999,7 +3999,31 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-24T10:55:16.866606+00:00",
-    "status": "awaiting_ai"
+    "status": "needs_review",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "Ponzio",
+        "Ramón"
+      ],
+      "clubes": [
+        "River"
+      ],
+      "competicion": [
+        "Clausura"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "Ponzio defendió su puesto en River con indirectas a Ramón",
+    "caption": "Ponzio, DT interino de River, defendió su lugar con un ataque tácito contra Ramón, el histórico riojano y gran candidato al puesto si el equipo no sale campeón del Clausura.",
+    "ai_generated_at": "2026-11-24T12:59:35.838734+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "original_graphic"
   },
   {
     "id": "fb22df5ffd8d383a24bc",
@@ -4012,11 +4036,31 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-24T10:55:16.866606+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Estudiantes",
+        "Palmeiras"
+      ],
+      "competicion": [
+        "Copa Libertadores"
+      ],
+      "ciudad": [
+        "Montevideo"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Estudiantes jugará final contra Palmeiras en Montevideo",
+    "caption": "Estudiantes decidirá su suerte el 28 de noviembre ante Palmeiras en Montevideo, en la quinta final que el club disputa en la Copa Libertadores.",
+    "ai_generated_at": "2026-11-24T12:59:35.838734+00:00",
+    "visual_mode": "original_graphic"
   },
   {
     "id": "2d02cfdb27eeda1d5a0d",
@@ -4029,11 +4073,29 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-24T10:55:16.866606+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Estudiantes",
+        "Palmeiras"
+      ],
+      "competicion": [
+        "Libertadores"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Historial de finales entre Estudiantes y Palmeiras en la Libertadores",
+    "caption": "El artículo repasa la historia de las finales de la Copa Libertadores disputadas entre equipos argentinos y brasileños, destacando el próximo duelo entre Estudiantes y Palmeiras.",
+    "ai_generated_at": "2026-11-24T12:59:35.838734+00:00",
+    "visual_mode": "original_graphic"
   },
   {
     "id": "fa6319a8b283de1d744c",
@@ -4204,6 +4266,243 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T11:08:54.831549+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "ec8c1a276f68e9885a33",
+    "title": "Cesc Fábregas sobre el futuro de Nico Paz y las comparaciones con Messi: del \"es jugador nuestro\" al \"es muy humilde y tiene un DT detrás que no va a dejar que se venga arriba\"",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/italia/nicolaspaz-cescfabregas-realmadrid-lionelmessi_0_uIgTIi3Zgo.html",
+    "source": "Olé Argentina",
+    "description": "El entrenador del Como marcó la cancha ante los incesantes rumores sobre una posible salida y se rindió ante su dirigido: \"Nico es un chico 10, con una personalidad increíble. Me encanta su carácter, su manera de ver las cosas y es un competidor\".",
+    "published_at": "2026-11-24T12:33:22+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T12:59:35.838734+00:00",
+    "status": "needs_review",
+    "visual_subject": "Cesc Fábregas",
+    "visual_entities": {
+      "personas": [
+        "Cesc Fábregas",
+        "Nico Paz",
+        "Messi"
+      ],
+      "clubes": [
+        "Como"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Cesc Fábregas elogia a Nico Paz y descarta salida",
+    "caption": "El entrenador del Como, Cesc Fábregas, elogió a Nico Paz como un chico 10 con gran personalidad y carácter, mientras circulan rumores sobre una posible salida del jugador.",
+    "ai_generated_at": "2026-11-24T12:59:35.838734+00:00",
+    "portrait_info": null,
+    "photo_checked_at": "2026-11-24T13:00:08.128004+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "original_graphic"
+  },
+  {
+    "id": "bccdba91728b64ef1332",
+    "title": "Caso Negreira: Barcelona y Real Madrid cara a cara en los juzgados",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/espana/caso-negreira-barcelona-real-madrid-siguen-disputa-juzgados_0_avN6wmRRSt.html",
+    "source": "Olé Argentina",
+    "description": "El club catalán presentó una demanda por calumnias contra el presidente del Merengue y pide que se retracte de sus dichos o formalizarán una querella criminal.",
+    "published_at": "2026-11-24T11:49:01+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T12:59:35.838734+00:00",
+    "status": "needs_review",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "presidente del Merengue"
+      ],
+      "clubes": [
+        "Barcelona",
+        "Real Madrid"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Barcelona demanda al presidente del Real Madrid y exige retractación",
+    "caption": "El club catalán presentó una demanda por calumnias contra el presidente del Merengue y pide que se retracte de sus dichos o formalizará una querella criminal.",
+    "ai_generated_at": "2026-11-24T12:59:35.838734+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "original_graphic"
+  },
+  {
+    "id": "b20a336c5d8e6c70e799",
+    "title": "Crystal Palace docked three WSL points for extra substitution against Everton",
+    "source_url": "https://www.theguardian.com/football/2026/nov/24/crystal-palace-docked-three-points-wsl-extra-substitution-everton",
+    "source": "The Guardian",
+    "description": "Too many substitutes used during win in opening game They drop place to 13th but no extra points for Everton Crystal Palace have been deducted three points in the Women’s Super League after they made substitutions in four separate windows during their 1-0 victory over Everton in September. Palace admitted breaching the competition’s rules and an independent tribunal ordered the points deduction, but no points will be awarded to Everton. It means Palace drop from 12th to 13th, below Birmingham City on goal difference. The match will not be repla",
+    "published_at": "2026-11-24T11:40:14+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-24T12:59:35.838734+00:00",
+    "status": "needs_review",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Crystal Palace",
+        "Everton"
+      ],
+      "competicion": [
+        "Women's Super League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Crystal Palace pierde tres puntos en la WSL",
+    "caption": "Crystal Palace fue sancionado con la deducción de tres puntos en la Women's Super League por usar sustituciones en cuatro ventanas distintas durante su victoria 1‑0 ante Everton, lo que la baja al puesto 13 de la tabla.",
+    "ai_generated_at": "2026-11-24T12:59:35.838734+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "original_graphic"
+  },
+  {
+    "id": "fe9dd32e0f245fc19e02",
+    "title": "Non-league player injured falling down badger hole",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/cw0k636m0vr3o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Cav Miley missed Chelmsford City's draw with Walton and Hersham after spraining an ankle falling down a badger hole.",
+    "published_at": "2026-11-24T12:31:12+00:00",
+    "category": "LESIONES",
+    "sport": "FUTBOL",
+    "score": 26,
+    "queued_at": "2026-11-24T12:59:35.838734+00:00",
+    "status": "needs_review",
+    "visual_subject": "Cav Miley",
+    "visual_entities": {
+      "personas": [
+        "Cav Miley"
+      ],
+      "clubes": [
+        "Chelmsford City",
+        "Walton and Hersham"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Cav Miley se pierde el empate por esguince de tobillo",
+    "caption": "Cav Miley no jugó el empate de Chelmsford City contra Walton & Hersham tras sufrir un esguince de tobillo al caer en una madriguera de tejón.",
+    "ai_generated_at": "2026-11-24T12:59:35.838734+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "portrait_info": null,
+    "photo_checked_at": "2026-11-24T13:00:13.093890+00:00",
+    "visual_mode": "original_graphic"
+  },
+  {
+    "id": "e431ee8292ef7835e20e",
+    "title": "The NWSL 2026 goals, players and nutmegs we won’t forget",
+    "source_url": "https://www.theguardian.com/football/2026/nov/24/nwsl-awards-goals-players-moving-the-goalposts-newsletter",
+    "source": "The Guardian",
+    "description": "An Olimpico tops the list of season highlights, with mention for Croix Bethune’s feats and a four-player nutmeg Surely the final strands of gold and silver confetti have been picked out of the well worn surface of Audi Field in Washington by now. The Kansas City Current might not have left any unclaimed after their hard-earned NWSL championship , after outlasting a late threat from the Washington Spirit to claim a first title at their opponent’s friendly confines. Before the annual onslaught of transfers and off-season rumblings fully heats up,",
+    "published_at": "2026-11-24T12:00:45+00:00",
+    "category": "PARTIDOS",
+    "sport": "FUTBOL",
+    "score": 26,
+    "queued_at": "2026-11-24T12:59:35.838734+00:00",
+    "status": "needs_review",
+    "visual_subject": "Croix Bethune",
+    "visual_entities": {
+      "personas": [
+        "Croix Bethune"
+      ],
+      "clubes": [
+        "Kansas City Current",
+        "Washington Spirit"
+      ],
+      "competicion": [
+        "NWSL"
+      ],
+      "ciudad": [
+        "Washington"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Kansas City Current campeón NWSL tras vencer a Washington",
+    "caption": "Kansas City Current ganó el campeonato NWSL al superar a Washington Spirit en Audi Field, asegurando su primer título. La temporada destacó jugadas de Olimpico y las hazañas de Croix Bethune, entre otros momentos memorables.",
+    "ai_generated_at": "2026-11-24T12:59:35.838734+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "portrait_info": null,
+    "photo_checked_at": "2026-11-24T13:00:16.441872+00:00",
+    "visual_mode": "original_graphic"
+  },
+  {
+    "id": "f381846d940f9364d1eb",
+    "title": "Aston Martin asegura que Qatar será mejor que Las Vegas, pero con cautela",
+    "source_url": "https://es.motorsport.com/f1/news/aston-martin-esperanzas-qatar-las-vegas/10877433",
+    "source": "Motorsport F1",
+    "description": "Aston Martin sabía que sufriría en Las Vegas y así fue, pero ahora llega un trazado distinto, el Circuito Internacional de Losail, donde esperan poder tener más posibilidades de competir. Pero... ¿cuántas? En las largas rectas del Las Vegas Strip Circuit, mirando los registros de velocidad punta y comparándolo con el más rápido, Fernando Alonso fue 33,1 km/h más lento que Oscar ... Sigue leyendo",
+    "published_at": "2026-11-24T11:50:52+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-24T12:59:35.838734+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "f99cd0168273edfc82da",
+    "title": "Palace docked points for using four sub windows in win",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/c8wy5vy160kpo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Crystal Palace say they are \"disappointed\" by the ruling which they \"do not agree is reasonable or proportionate\".",
+    "published_at": "2026-11-24T12:14:19+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T12:59:35.838734+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "8049faec03da2e61d316",
+    "title": "Owono, el arquero involucrado en la muerte de De Miguel, volvió a entrenarse mientras cumple su sanción",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/espana/jesus-owono-miguel-tenerife-andorra-volvio-entrenar-practicas-sancion-juega_0_jZOrVu7TT9.html",
+    "source": "Olé Argentina",
+    "description": "El guardameta del conjunto del Principado realiza trabajos en solitario tras el fatídico episodio en La Liga 2 mientras aguarda por su vuelta.",
+    "published_at": "2026-11-24T11:50:27+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-24T12:59:35.838734+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
