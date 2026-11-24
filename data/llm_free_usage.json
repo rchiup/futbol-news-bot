@@ -177,13 +177,13 @@
       "last_error": "invalid_output"
     },
     "nvidia": {
-      "attempts": 21,
+      "attempts": 22,
       "success": 0,
-      "failures": 21,
+      "failures": 22,
       "latencies_ms": [],
       "quality": [],
       "last_error": "http_410",
-      "blocked_until_utc": 1795564353
+      "blocked_until_utc": 1795565289
     },
     "zai": {
       "attempts": 9,

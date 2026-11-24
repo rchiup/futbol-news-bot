@@ -9022,5 +9022,29 @@
     "source": "www.espn.com - NBA",
     "collected_at": "2026-11-24T23:48:54.129843+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "e5d353d984faeba2de974d34456cef9a7893fa3433e690e5413a520b831027bd",
+    "title": "Dortmund draw shows that the jury is still out on Gyökeres",
+    "url": "https://www.espn.com/soccer/story/_/id/50586544/arsenal-champions-league-dortmund-jury-viktor-gyokeres",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-24T23:52:53.625493+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "0bc2da008b2038503d7d6cc6abe4ebf9c91f02ad667c688001278b8eaf706a72",
+    "title": "Bellingham credits Mourinho 'full stop' for stellar form after Madrid stunner",
+    "url": "https://www.espn.com/soccer/story/_/id/50586644/bellingham-mourinho-real-madrid-stunner",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-24T23:52:53.625515+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "bcb1b4329ec6f64e71eade34ba39e6c8737d02d87afb2311cc660817a72f428e",
+    "title": "'Baby Hali': Tyrese and Jade Haliburton announce they are expecting their first child",
+    "url": "https://www.espn.com/nba/story/_/id/50586828/tyrese-jade-haliburton-expecting-first-child",
+    "source": "www.espn.com - NBA",
+    "collected_at": "2026-11-24T23:52:56.070297+00:00",
+    "status": "pending_review"
   }
 ]
