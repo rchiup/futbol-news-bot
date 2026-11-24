@@ -1,50 +1,50 @@
 {
-  "checked_at_utc": "2026-11-24T12:55:07.311936+00:00",
+  "checked_at_utc": "2026-11-24T12:58:26.673309+00:00",
   "providers": {
     "groq": {
-      "sample_count": 3,
-      "successful_samples": 3,
+      "sample_count": 4,
+      "successful_samples": 4,
       "readability_avg": 100.0,
-      "latency_avg_ms": 1504,
+      "latency_avg_ms": 1471,
       "conclusion": "can_compare"
     },
     "gemini": {
-      "sample_count": 3,
+      "sample_count": 4,
       "successful_samples": 0,
       "readability_avg": null,
       "latency_avg_ms": null,
       "conclusion": "can_compare"
     },
     "cerebras": {
-      "sample_count": 3,
+      "sample_count": 4,
       "successful_samples": 0,
       "readability_avg": null,
       "latency_avg_ms": null,
       "conclusion": "can_compare"
     },
     "openrouter": {
-      "sample_count": 3,
-      "successful_samples": 1,
+      "sample_count": 4,
+      "successful_samples": 2,
       "readability_avg": 100.0,
-      "latency_avg_ms": 15996,
+      "latency_avg_ms": 15486,
       "conclusion": "can_compare"
     },
     "cloudflare": {
-      "sample_count": 1,
+      "sample_count": 2,
       "successful_samples": 0,
       "readability_avg": null,
       "latency_avg_ms": null,
       "conclusion": "early_sample"
     },
     "nvidia": {
-      "sample_count": 1,
+      "sample_count": 2,
       "successful_samples": 0,
       "readability_avg": null,
       "latency_avg_ms": null,
       "conclusion": "early_sample"
     },
     "zai": {
-      "sample_count": 1,
+      "sample_count": 2,
       "successful_samples": 0,
       "readability_avg": null,
       "latency_avg_ms": null,

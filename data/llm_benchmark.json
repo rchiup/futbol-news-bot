@@ -1,25 +1,30 @@
 {
-  "checked_at_utc": "2026-11-24T12:55:07.311936+00:00",
+  "checked_at_utc": "2026-11-24T12:58:26.673309+00:00",
   "method": "same dated RSS title and summary",
   "readability_is_not_fact_checking": true,
   "configured_free_providers": [
     "groq",
-    "openrouter"
+    "gemini",
+    "openrouter",
+    "cloudflare",
+    "nvidia",
+    "zai"
   ],
   "results": [
     {
       "provider": "groq",
       "model": "openai/gpt-oss-120b",
       "status": "ok",
-      "latency_ms": 1779,
-      "headline": "Carla Ward renueva contrato hasta Euro 2029",
-      "caption": "Carla Ward, directora técnica de la selección de la República de Irlanda, firmó una extensión de contrato que la mantendrá al mando hasta el final de la campaña para la Eurocopa 2029.",
+      "latency_ms": 1373,
+      "headline": "Carla Ward firma extensión de contrato hasta Euro 2029",
+      "caption": "La entrenadora de la selección femenina de Irlanda, Carla Ward, ha firmado una prórroga de su contrato que lo mantendrá hasta el final de la campaña del Euro 2029.",
       "readability_score": 100
     },
     {
       "provider": "gemini",
       "model": "gemini-3.1-flash-lite",
-      "status": "not_configured"
+      "status": "failed",
+      "reason": "http_503"
     },
     {
       "provider": "cerebras",
@@ -30,25 +35,28 @@
       "provider": "openrouter",
       "model": "openrouter/free",
       "status": "ok",
-      "latency_ms": 15996,
+      "latency_ms": 14976,
       "headline": "Carla Ward renueva contrato con Irlanda hasta Euro 2029",
-      "caption": "Carla Ward renueva como seleccionadora de Irlanda hasta la conclusión de Euro 2029, asegurando la continuidad del proyecto deportivo.",
+      "caption": "Carla Ward firmó una extensión de contrato con la selección de Irlanda que lo mantendrá al mando hasta la Eurocopa 2029.",
       "readability_score": 100
     },
     {
       "provider": "cloudflare",
       "model": "@cf/meta/llama-3.1-8b-instruct-fp8",
-      "status": "not_configured"
+      "status": "failed",
+      "reason": "http_410"
     },
     {
       "provider": "nvidia",
       "model": "meta/llama-3.3-70b-instruct",
-      "status": "not_configured"
+      "status": "failed",
+      "reason": "http_410"
     },
     {
       "provider": "zai",
       "model": "glm-4.5-flash",
-      "status": "not_configured"
+      "status": "failed",
+      "reason": "http_429"
     }
   ],
   "source_title": "Republic of Ireland boss Ward signs new contract",
@@ -59,20 +67,52 @@
     "last_success": "openrouter",
     "providers": {
       "groq": {
-        "attempts": 18,
-        "success": 14,
+        "attempts": 19,
+        "success": 15,
         "failures": 4,
-        "avg_latency_ms": 1668,
+        "avg_latency_ms": 1648,
         "avg_readability": 100.0,
         "last_error": "invalid_output"
       },
       "openrouter": {
-        "attempts": 1,
-        "success": 1,
+        "attempts": 2,
+        "success": 2,
         "failures": 0,
-        "avg_latency_ms": 15995,
+        "avg_latency_ms": 15485,
         "avg_readability": 100.0,
         "last_error": null
+      },
+      "gemini": {
+        "attempts": 1,
+        "success": 0,
+        "failures": 1,
+        "avg_latency_ms": null,
+        "avg_readability": null,
+        "last_error": "http_503"
+      },
+      "cloudflare": {
+        "attempts": 1,
+        "success": 0,
+        "failures": 1,
+        "avg_latency_ms": null,
+        "avg_readability": null,
+        "last_error": "http_410"
+      },
+      "nvidia": {
+        "attempts": 1,
+        "success": 0,
+        "failures": 1,
+        "avg_latency_ms": null,
+        "avg_readability": null,
+        "last_error": "http_410"
+      },
+      "zai": {
+        "attempts": 1,
+        "success": 0,
+        "failures": 1,
+        "avg_latency_ms": null,
+        "avg_readability": null,
+        "last_error": "http_429"
       }
     }
   }
