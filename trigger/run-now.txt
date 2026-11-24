@@ -78,3 +78,5 @@ Publish carefully verified Lamine Yamal/Sabah injury absence with licensed portr
 Retry publisher after corrected photo retry tests.
 
 Publish immediately with editorial typography fallback.
+
+Verify expanded Groq allowance and source brief fallback.
