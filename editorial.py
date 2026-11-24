@@ -269,21 +269,21 @@ def low_value_match_preview(item: dict) -> bool:
     caption = str(item.get("caption") or "").lower()
     content = headline + " " + caption
     outcome = re.search(
-        r"\\b(?:gan[oó]|venci[oó]|derrot[oó]|gole[oó]|empataron|empata|"
+        r"\b(?:gan[oó]|venci[oó]|derrot[oó]|gole[oó]|empataron|empata|"
         r"clasific[oó]|elimin[oó]|remont[oó]|finaliz[oó]|acab[oó]|"
         r"victoria|derrota|resultado|marcador|expulsado|tarjeta roja|"
-        r"goles?|hat.trick)\\b|\\b\\d+\\s*[-–:]\\s*\\d+\\b", content
+        r"goles?|hat.trick)\b|\b\d+\s*[-–:]\s*\d+\b", content
     )
     if outcome:
         return False
     vague_tactics = re.search(
-        r"\\b(?:intentar[aá]|buscar[aá]|tratar[aá]|planea|pretende|"
-        r"podr[ií]a|intenta|busca)\\b.{0,85}\\b(?:atacar|presionar|"
-        r"dominar|controlar|ganar|bandas|posesi[oó]n|ritmo)\\b",
+        r"\b(?:intentar[aá]|buscar[aá]|tratar[aá]|planea|pretende|"
+        r"podr[ií]a|intenta|busca)\b.{0,85}\b(?:atacar|presionar|"
+        r"dominar|controlar|ganar|bandas|posesi[oó]n|ritmo)\b",
         content
     )
-    live_fixture = bool(re.search(r"\\b(?:v|vs\\.?|versus)\\b.{0,65}\\blive\\b|"
-                                  r"\\b(?:live|en vivo|minuto a minuto)\\b", title))
+    live_fixture = bool(re.search(r"\b(?:v|vs\.?|versus)\b.{0,65}\blive\b|"
+                                  r"\b(?:live|en vivo|minuto a minuto)\b", title))
     return bool(vague_tactics or (live_fixture and not outcome))
 
 
