@@ -674,20 +674,12 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     attempted_art_this_run += 1
                 if allow_network_photo:
                     network_photo_lookups += 1
-                # An ORIGINAL background is useful for previews but the live
-                # feed now requires a real licensed portrait or successful art.
-                # Blank visual covers harmed readability and the audience.
-                if not item.get("photo_used") or item.get("ai_art_used"):
-                    item["visual_mode"] = "original_graphic"
-                    item["photo_deferred_reason"] = "no_relevant_photo"
-                    no_photo_deferred += 1
-                    print(f"[PHOTO] Awaiting relevant image; not publishing blank card: {item['id']}")
+                if item.get("ai_art_used"):
                     item["status"] = "needs_review"
                     continue
-                else:
-                    item["visual_mode"] = (
-                        "licensed_photo" if item.get("photo_used") else "ai_illustration"
-                    )
+                item["visual_mode"] = "licensed_photo" if item.get("photo_used") else "editorial_typography"
+                if not item.get("photo_used"):
+                    print(f"[PHOTO] Using original typographic cover: {item['id']}")
                 if (os.getenv("REQUIRE_SUBJECT_PHOTO", "").lower() == "true"
                         and not item.get("portrait_used")):
                     print(f"[PHOTO] Waiting for a verified subject portrait: {item['id']}")
