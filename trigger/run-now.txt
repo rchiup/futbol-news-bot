@@ -70,3 +70,5 @@ Publish carefully verified Lamine Yamal/Sabah injury absence with licensed portr
 2026-11-24: Run new production licensed-photo bank and cutout pipeline.
 
 2026-11-24: Verify revised quarter-hour workflow and real-photo publishing.
+
+2026-11-24: Publish with newly enabled LLM fallbacks.
