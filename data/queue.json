@@ -13337,7 +13337,7 @@
       "photo_provider": "Curated Commons",
       "verified": "2026-11-23"
     },
-    "photo_checked_at": "2026-11-25T13:44:44.064188+00:00",
+    "photo_checked_at": "2026-11-25T14:07:54.602387+00:00",
     "visual_mode": "licensed_photo",
     "photo_credit_full": "📷 Foto: Bryan Berlin / WikiPortraits · CC BY-SA 4.0 · Wikimedia Commons (recorte y edición). https://commons.wikimedia.org/wiki/File:Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_(cropped).jpg · https://creativecommons.org/licenses/by-sa/4.0/ · Gráfica adaptada bajo la misma licencia CC BY-SA.",
     "promotion": {
@@ -14265,5 +14265,22 @@
       ],
       "mentions": []
     }
+  },
+  {
+    "id": "9059527c7286218e8aaa",
+    "title": "A seis años de la muerte de Diego Maradona: el emotivo recuerdo de la Selección Argentina y los homenajes al Diez",
+    "source_url": "https://www.ole.com.ar/maradona/anos-muerte-diego-maradona-homenaje-seleccion-argentina-boca-napoli-argentinos-gimnasia_0_yypeXHfVua.html",
+    "source": "Olé Argentina",
+    "description": "La AFA conmemoró al máximo ídolo del fútbol argentino con un emotivo video. Boca, Napoli, Argentinos, Gimnasia y otras instituciones del fútbol también lo honraron en sus redes sociales.",
+    "published_at": "2026-11-25T13:56:42+00:00",
+    "category": "SELECCIONES",
+    "sport": "FUTBOL",
+    "score": 34,
+    "queued_at": "2026-11-25T14:07:01.827946+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
