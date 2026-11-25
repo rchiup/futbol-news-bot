@@ -12134,7 +12134,7 @@
     "sport": "FUTBOL",
     "score": 17,
     "queued_at": "2026-11-25T03:09:01.070596+00:00",
-    "status": "draft",
+    "status": "expired",
     "visual_entities": {
       "personas": [],
       "clubes": [],
@@ -12401,7 +12401,7 @@
     "sport": "NBA",
     "score": 23,
     "queued_at": "2026-11-25T03:33:48.341225+00:00",
-    "status": "draft",
+    "status": "expired",
     "article_context": "The wait for Kawhi Leonard 's return to play from left knee swelling will extend for at least another week.\nThe Toronto Raptors said Tuesday that the forward \"continues to progress in his recovery\" and that an update will be provided in a week. Leonard has begun individual on-court workouts after treatment to address the swelling, the Raptors added.\nSources told ESPN's Shams Charania on Oct. 27 that Leonard was expected to miss a number of weeks due to swelling in his left knee. An MRI on the knee in September showed no structural damage, and the team has provided weekly updates regarding his status.\nToronto issued a similar message Nov. 17, saying that Leonard \"has progressed in his strength and conditioning program.\" On Nov. 10, the Raptors reported that Leonard would be out at least another week and that he was \"continuing his reconditioning process.\"\nLeonard posted a message on X after news initially broke that he would be out, writing that \"it's always frustrating missing time.\"\n\"I came back to compete with this team and I'm focused on getting back to 100. Toronto, I've appreciated the love since I've been back. Returning soon,\" he wrote.\nThe two-time Defensive Player of the Year winner returned to Toronto in the offseason, agreeing to a two-year, $115 million extension after being dealt from the LA Clippers . The trade followed up a tumultuous end to his Clippers tenure. In September, the team was found guilty by the NBA of violating salary cap rules in a case involving Leonard, who wasn't suspended but was fined $700,000.\nComing back to the Raptors, where he led the franchise to its only NBA title in 2019, marked a fresh start for him. So far this season, Leonard has suited up in just two games and is averaging 19.5 points, 7.5 rebounds and 1.5 assists.\nThe earliest he can return for the 6-11 Raptors is Dec. 1 against the Houston Rockets .",
     "visual_subject": "Kawhi Leonard",
     "visual_entities": {
@@ -12902,7 +12902,7 @@
     "headline": "Arthur Rinderknech niega haber rehusado prueba antidopaje",
     "caption": "El francés Arthur Rinderknech afirma que no rehusó la prueba antidopaje solicitada por la ITIA y que la acusación se debe a un posible malentendido con el recolector de muestra. Actualmente bajo investigación, el tenista, que ocupa el puesto 57 del ranking mundial, confía en que un tribunal independiente lo exonere. ¿Logrará limpiar su nombre antes de la próxima temporada?",
     "ai_generated_at": "2026-11-25T09:35:58.456626+00:00",
-    "photo_checked_at": "2026-11-25T11:33:28.303977+00:00",
+    "photo_checked_at": "2026-11-25T11:58:16.049437+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -13483,7 +13483,7 @@
     "sport": "FUTBOL",
     "score": 34,
     "queued_at": "2026-11-25T11:49:12.986445+00:00",
-    "status": "draft",
+    "status": "crossposted_only",
     "article_context": "La Selección Argentina viene de ganarle a Mozambique en el Mundial Sub 17.\nLa Selección Argentina Sub 17 se jugará la clasificación a los 16avos de final del Mundial de Qatar 2026 cuando enfrente a Dinamarca , por la tercera y última fecha del Grupo C . El equipo dirigido por Diego Placente depende de sí mismo para avanzar de ronda y buscará cerrar la fase de grupos con una victoria que le permita meterse entre los 32 mejores del certamen.\nLa Albiceleste llega a este compromiso con tres puntos, producto de una derrota por 2-0 ante Australia en el debut y un triunfo por 2-1 frente a Mozambique en la segunda jornada , con goles de Matheo Machuca y Simón Escobar. Por su parte, Dinamarca acumula apenas una unidad: perdió 4-0 contra Mozambique e igualó 0-0 ante Australia. Argentina necesita ganar para asegurarse la clasificación y, dependiendo del resultado de Australia-Mozambique, podría quedarse con el primer puesto de la zona . Un empate la obligaría a estar pendiente de otros resultados y una derrota complicaría seriamente sus chances.\nEl partido entre Argentina y Dinamarca, por el Mundial Sub 17, se disputará este miércoles 25 de noviembre, desde las 12.30 (hora argentina), en el complejo Aspire Zone de Al Rayyan, Qatar . El encuentro se podrá ver en vivo por DSports y TyC Sports. Además, se podrá seguir el minuto a minuto con todas las incidencias a través de Olé.\nLa Selección Argentina se juega la clasificación a los 16vos de final del Mundial Sub 17 . Tras debutar con derrota ante Australia (2-0), el equipo de Diego Placente se recuperó y en la segunda fecha derrotó 2-1 a Mozambique para conseguir sus primeros tres puntos. Ahora, deberá derrotar a Dinamarca en la última fecha de la fase de grupos para conseguir la clasificación a los 16vos de final .\nLa Albiceleste depende de sí misma para meterse en los playoffs: con una victoria avanzará a la próxima ronda de la Copa del Mundo de Qatar. Caso contrario, deberá ponerse a hacer cuentas, sea para clasificar como segundo de grupo o para avanzar como uno de los mejores terceros. En Olé, te contamos todos los detalles de este partido.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": true,
@@ -13530,7 +13530,19 @@
         "DiegoPlacente"
       ],
       "mentions": []
-    }
+    },
+    "reel_quality": {
+      "version": 2,
+      "duration": 15.6,
+      "mean_db": -19.6
+    },
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-25T11:55:29.660505+00:00",
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795607885/football-news-bot/reels/121c5202887291447262.mp4",
+    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_id": "6b06cd4f1aec57ea75141898",
+    "zernio_youtube_status": "failed",
+    "zernio_youtube_id": "6b06cd53accd984ea4d0d373"
   },
   {
     "id": "fb7bf4fc5ad59ab7febf",
