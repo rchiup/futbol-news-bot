@@ -40,9 +40,10 @@ class ReelTests(unittest.TestCase):
         import wave, math, struct
         item={"headline":"Resultado confirmado","caption":"El equipo ganó el partido por dos goles a uno. El delantero marcó el gol decisivo en la segunda parte.","photo_used":True}
         def fake_voice(text,path):
+            self.assertEqual(text,item['caption'])
             with wave.open(str(path),"wb") as w:
                 w.setnchannels(1); w.setsampwidth(2); w.setframerate(22050)
-                w.writeframes(b"".join(struct.pack("<h",int(9000*math.sin(2*math.pi*440*i/22050))) for i in range(44100)))
+                w.writeframes(b"".join(struct.pack("<h",int(9000*math.sin(2*math.pi*440*i/22050))) for i in range(132300)))
         with tempfile.TemporaryDirectory() as tmp:
             cover=Path(tmp)/"cover.jpg"
             Image.new("RGB",(1080,1350),"navy").save(cover)
