@@ -11899,7 +11899,7 @@
     "headline": "Rangers supera a Aberdeen",
     "caption": "A pesar de su ingenuidad y complacencia, Rangers logró una victoria emocionante 3-2 sobre Aberdeen. El técnico Derek McInnes elogió la capacidad de su equipo para conseguir el resultado a pesar de los obstáculos. ¿Fue esta victoria un reflejo de la verdadera solidez del equipo o solo un golpe de suerte?",
     "ai_generated_at": "2026-11-25T03:09:01.070596+00:00",
-    "photo_checked_at": "2026-11-25T03:10:31.101415+00:00",
+    "photo_checked_at": "2026-11-25T03:35:01.301105+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -12046,7 +12046,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T03:10:33.832211+00:00",
+    "photo_checked_at": "2026-11-25T03:35:34.724592+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -12161,5 +12161,141 @@
       ],
       "mentions": []
     }
+  },
+  {
+    "id": "8ffdcf486fbee30d52d0",
+    "title": "Arteta questions 'how in hell' Arsenal didn't score more in Dortmund draw",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50586891/mikel-arteta-arsenal-borussia-dortmund-champions-league",
+    "source": "ESPN",
+    "description": "Arsenal manager Mikel Arteta rued his side's failure to put Borussia Dortmund away as \"unbelievable.\"",
+    "published_at": "2026-11-25T01:22:31+00:00",
+    "category": "PARTIDOS",
+    "sport": "FUTBOL",
+    "score": 34,
+    "queued_at": "2026-11-25T03:33:48.341225+00:00",
+    "status": "duplicate",
+    "article_context": "Arsenal manager Mikel Arteta rued his side's failure to put Borussia Dortmund away as \"unbelievable\" after watching the Premier League champions create 30 shots before drawing 1-1 at the Emirates Stadium .\nViktor Gyökeres crashed in Arsenal's opener after 10 minutes of Tuesday's Champions League contest, but for the second time in as many games, following their 2-2 draw at Newcastle, Arteta's men were unable to see out the victory after Maximilian Beier 's second-half equalizer.\nOlley: Dortmund draw shows that the jury is still out on Gyökeres\nArsenal hit a post three times in response, while Gyökeres also wasted a golden opportunity to restore his side's advantage when he headed wide from six yards with 15 minutes left. In all, Arsenal found the target just four times.\nAlthough Arteta was pleased with his side's dominant display, against a team that occupies top spot in the Bundesliga , he was left to reflect on what might have been.\n\"It was a brilliant performance,\" he said. \"The way we played, bearing in mind the opposition, is something I can be very, very pleased about because there is very little more that you can demand from the team.\n\"But obviously, the feeling is we should reward ourselves much more when you put in that kind of performance and get those amount of chances.\n\"There is an element of luck, and an element of us finishing the actions better. There's no question how superior, how dominant, and how much of a threat we were. It was great to watch, but it was unbelievable that sometimes the ball didn't end up in the back of the net.\n\"I don't know if it is our mentality. As I said, there was an element of luck, because how in hell have some of the goals not gone in?\"\nThe draw extended last season's finalists' unbeaten streak in the Champions League to 20 games but ended their 12-game home winning streak in league phase.\nArsenal now sit in fifth position ahead of the completion of the fifth round of matches on Wednesday. The top eight qualify automatically for the round of 16.\nTuesday saw goalkeeper Kepa Arrizabalaga handed a rare appearance in place of David Raya .\nArteta is uncertain if his number one -- injured against Newcastle on Saturday -- will be fit to face Manchester City in the Premier League this weekend.\n\"I have nothing to add to that unfortunately,\" he said. \"We need to know first how bad it is and whether he has a chance or not to make it.\"\nArsenal might have had the lion's share of shots, but Jobe Bellingham had a goal ruled out for offside for Dortmund. Gyökeres could also count himself fortunate not to give away a penalty when a Dortmund corner struck him on the arm in the second half.\n\"I thought VAR should have looked at the handball. It would have been worth a check,\" Dortmund coach Niko Kovac said.\n\"They are trying to intervene less with the on-field decisions, but it doesn't mean you should not intervene when you should do.\n\"I am not crying about it. It is what it is. We got a point. It is a big point away to Arsenal, a big one for all of us -- our fans, our team and the club.\"\nInformation from PA contributed to this report.",
+    "visual_subject": "Mikel Arteta",
+    "visual_entities": {
+      "personas": [
+        "Mikel Arteta"
+      ],
+      "clubes": [
+        "Arsenal",
+        "Borussia Dortmund"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Dortmund"
+      ]
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Arteta cuestiona empate",
+    "caption": "El técnico de Arsenal, Mikel Arteta, se mostró sorprendido por la cantidad de oportunidades de gol que su equipo desperdició en el empate 1-1 contra Borussia Dortmund. A pesar de crear 30 ocasiones de gol, los gunners solo lograron anotar una vez. ¿La falta de eficacia en el ataque es un problema para el equipo?",
+    "ai_generated_at": "2026-11-25T03:33:48.341225+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "duplicate_of": "same_story_as:89c70e0da7ef55100447"
+  },
+  {
+    "id": "c56e99c587165b7bd43e",
+    "title": "Pep 'embarrassed' to turn down Italy job, says national team 'next step'",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50587357/guardiola-embarrassed-italy-national-team-next",
+    "source": "ESPN",
+    "description": "Pep Guardiola said he felt \"embarrassed\" to turn down the head coaching position with Italy, but added he could return to coaching in the future and, if he did, would like to do it with a national team.",
+    "published_at": "2026-11-25T01:22:31+00:00",
+    "category": "SELECCIONES",
+    "sport": "FUTBOL",
+    "score": 26,
+    "queued_at": "2026-11-25T03:33:48.341225+00:00",
+    "status": "draft",
+    "visual_subject": "Pep Guardiola",
+    "visual_entities": {
+      "personas": [
+        "Pep Guardiola"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Pep rechaza selección italiana",
+    "caption": "Pep Guardiola admitió sentirse incómodo al rechazar el cargo de entrenador de Italia, pero no descarta regresar a los banquillos en el futuro y considera que dirigir a una selección nacional sería su próximo desafío. ¿Qué lo llevó a tomar esta decisión?",
+    "ai_generated_at": "2026-11-25T03:33:48.341225+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-25T03:34:35.077228+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "PepGuardiola"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "45008ff4ab9e4dfea19f",
+    "title": "Kawhi's return from knee swelling still at least week away",
+    "source_url": "https://www.espn.com/nba/story/_/id/50587249/kawhi-leonard-return-knee-swelling-least-week-away",
+    "source": "ESPN NBA",
+    "description": "The Raptors say Kawhi Leonard's status will be revisted in a week as he recovers from knee swelling.",
+    "published_at": "2026-11-24T23:53:21+00:00",
+    "category": "NBA",
+    "sport": "NBA",
+    "score": 23,
+    "queued_at": "2026-11-25T03:33:48.341225+00:00",
+    "status": "draft",
+    "article_context": "The wait for Kawhi Leonard 's return to play from left knee swelling will extend for at least another week.\nThe Toronto Raptors said Tuesday that the forward \"continues to progress in his recovery\" and that an update will be provided in a week. Leonard has begun individual on-court workouts after treatment to address the swelling, the Raptors added.\nSources told ESPN's Shams Charania on Oct. 27 that Leonard was expected to miss a number of weeks due to swelling in his left knee. An MRI on the knee in September showed no structural damage, and the team has provided weekly updates regarding his status.\nToronto issued a similar message Nov. 17, saying that Leonard \"has progressed in his strength and conditioning program.\" On Nov. 10, the Raptors reported that Leonard would be out at least another week and that he was \"continuing his reconditioning process.\"\nLeonard posted a message on X after news initially broke that he would be out, writing that \"it's always frustrating missing time.\"\n\"I came back to compete with this team and I'm focused on getting back to 100. Toronto, I've appreciated the love since I've been back. Returning soon,\" he wrote.\nThe two-time Defensive Player of the Year winner returned to Toronto in the offseason, agreeing to a two-year, $115 million extension after being dealt from the LA Clippers . The trade followed up a tumultuous end to his Clippers tenure. In September, the team was found guilty by the NBA of violating salary cap rules in a case involving Leonard, who wasn't suspended but was fined $700,000.\nComing back to the Raptors, where he led the franchise to its only NBA title in 2019, marked a fresh start for him. So far this season, Leonard has suited up in just two games and is averaging 19.5 points, 7.5 rebounds and 1.5 assists.\nThe earliest he can return for the 6-11 Raptors is Dec. 1 against the Houston Rockets .",
+    "visual_subject": "Kawhi Leonard",
+    "visual_entities": {
+      "personas": [
+        "Kawhi Leonard"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Kawhi Leonard sigue sin fecha de regreso",
+    "caption": "El alero de los Raptors sigue recuperándose de la hinchazón en la rodilla izquierda y su estado se reevaluará dentro de una semana. ¿Podrá recuperar su nivel de juego después de tanto tiempo sin competir?",
+    "ai_generated_at": "2026-11-25T03:33:48.341225+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-25T03:34:47.765147+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "NBA",
+        "KawhiLeonard"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "cd82bb76abf8485b4c28",
+    "title": "Leaked FIFA documents show 96-year plan for stakes in WC sell-off",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50585622/leaked-fifa-documents-96-year-world-cup-selloff",
+    "source": "ESPN",
+    "description": "Gianni Infantino's failed private equity plan that started the biggest crisis of his FIFA presidency intended to sell stakes in the FIFA World Cup for 96 years.",
+    "published_at": "2026-11-25T01:22:31+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-25T03:33:48.341225+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
