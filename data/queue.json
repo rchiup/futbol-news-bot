@@ -9652,7 +9652,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T20:58:48.856365+00:00",
-    "status": "draft",
+    "status": "expired",
     "visual_subject": "",
     "visual_entities": {
       "personas": [],
@@ -12736,7 +12736,7 @@
     "headline": "Celtic vigila al mediocampista egipcio Emam Ashour",
     "caption": "Según informes, Celtic está siguiendo de cerca al mediocampista egipcio Emam Ashour, de 28 años, que podría abandonar el Al Ahly en el mercado de enero. El club escocés lo tiene en la lista de posibles fichajes mientras los Rangers buscan deshacerse de Bojan Miovski. La llegada de Ashour podría aportar creatividad al medio campo celta, pero aún no hay confirmación oficial. ¿Será suficiente para reforzar al equipo en la próxima fase europea?",
     "ai_generated_at": "2026-11-25T08:11:13.662518+00:00",
-    "photo_checked_at": "2026-11-25T08:36:01.917875+00:00",
+    "photo_checked_at": "2026-11-25T08:56:59.722475+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -12850,11 +12850,12 @@
     "publish_format": "reel",
     "format_attempt_at": "2026-11-25T08:52:46.280612+00:00",
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795596845/football-news-bot/reels/0fbe2aeb74dc219cf9eb.mp4",
-    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_status": "published",
     "zernio_tiktok_id": "6b06a22e1b6f941889341986",
     "zernio_youtube_status": "published",
     "zernio_youtube_id": "6b06a231b53fd9878c1f4062",
-    "zernio_youtube_url": "https://www.youtube.com/watch?v=zyTX7W7Oyfg"
+    "zernio_youtube_url": "https://www.youtube.com/watch?v=zyTX7W7Oyfg",
+    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712029727870962952"
   },
   {
     "id": "49b0f87e9a7fedb5cf9e",
