@@ -12788,7 +12788,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T18:19:43.539206+00:00",
+    "photo_checked_at": "2026-11-25T18:41:58.799174+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -14653,7 +14653,7 @@
     "headline": "Alcaraz envía apoyo a Sinner tras operación de rodilla",
     "caption": "Carlos Alcaraz dedicó palabras de aliento a Jannik Sinner, quien se operó de una tendinopatía en la rodilla derecha, antes de la serie de cuartos de final de la Copa Davis contra Austria. El español resaltó la juventud del italiano y su potencial de volver más fuerte, mientras se prepara España para el duelo en Bolonia. Sinner, ausente desde la final de Wimbledon, perdió torneos como el US Open y los ATP Finals. ¿Podrá su recuperación influir en el panorama competitivo del circuito en los próximos meses?",
     "ai_generated_at": "2026-11-25T15:10:28.400105+00:00",
-    "photo_checked_at": "2026-11-25T18:19:39.588152+00:00",
+    "photo_checked_at": "2026-11-25T18:41:24.214738+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -14760,7 +14760,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T18:19:43.441916+00:00",
+    "photo_checked_at": "2026-11-25T18:41:58.746263+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -14813,7 +14813,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T18:19:43.064299+00:00",
+    "photo_checked_at": "2026-11-25T18:41:58.536621+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -15385,7 +15385,7 @@
     "headline": "Pirelli alerta por desgaste de neumáticos en Qatar",
     "caption": "El proveedor oficial de neumáticos Pirelli ha advertido sobre el graining que sufrirán los compuestos durante el Gran Premio de Qatar en el Circuito Internacional de Losail. Esta pista, considerada una de las más exigentes del calendario, no ha sufrido modificaciones respecto a años anteriores, lo que podría complicar las estrategias de los equipos. ¿Podrán los pilotos encontrar el equilibrio entre rendimiento y preservación de gomas en una prueba donde el desgaste siempre ha sido factor determinante?",
     "ai_generated_at": "2026-11-25T17:24:27.284503+00:00",
-    "photo_checked_at": "2026-11-25T18:19:40.399256+00:00",
+    "photo_checked_at": "2026-11-25T18:41:24.664748+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -15580,7 +15580,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-25T18:19:42.459495+00:00"
+    "photo_checked_at": "2026-11-25T18:41:58.230104+00:00"
   },
   {
     "id": "68976a6deaf965f2287d",
@@ -16110,6 +16110,41 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T18:31:19.706232+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "c2ed843bd8ab5ba6fc2e",
+    "title": "De trabajar como carpintero a enfrentar a Boca en la Bombonera: la historia de Matías Fernández, la figura de Independiente Rivadavia",
+    "source_url": "https://www.ole.com.ar/futbol-primera/independiente-rivadavia-matias-fernandez-historia-futbol-supercopa_0_a6vy9ESx0R.html",
+    "source": "Olé Argentina",
+    "description": "El volante platense celebró una Copa Argentina con la Lepra mendocina, brilló en la Copa Libertadores ante Fluminense y ahora vive su pico de rendimiento.",
+    "published_at": "2026-11-25T18:29:51+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-25T18:40:41.371048+00:00",
+    "status": "awaiting_ai",
+    "article_context": "Matías Fernández, figura de Independiente Rivadavia.\nLa vida es una montaña rusa de emociones que nunca se sabe para dónde va a ir. Cumplir los sueños que cada uno se propone desde chico no siempre es fácil; de hecho, en muchos casos es muy complicado lograrlos. Un ejemplo claro de esto es Matías Fernández , quien en el presente es la figura de un Independiente Rivadavia que buscará eliminar a Boca en la Bombonera, pero en el pasado se tuvo que ganar la vida a base de esfuerzo y sacrificio. De quedar libre de dos equipos y ser carpintero a ser uno de los mejores jugadores del Torneo Clausura , esta es la historia del volante ofensivo.\nEl nacido en La Plata allá por 2001 empezó su carrera futbolística a los 14 años en la novena de Estudiantes , club del cual es hincha, y se mantuvo ahí durante dos temporadas. Al llegar a la séptima división, Matías quedó libre , recibiendo así uno de sus primeros golpes. Lejos de quedarse con los brazos cruzados, el joven platense decidió ir a probar suerte en Quilmes , donde consiguió continuidad y, de hecho, cumplió su gran sueño: debutar en Primera . El 14 de septiembre de 2019, en un duelo entre All Boys y el Cervecero, el mediocampista daría su primer gran paso. Pero, de nuevo, la vida le tendría preparado otro giro.\nDespués de jugar tan solo nueve partidos a lo largo de sus tres años con la Primera de Quilmes y estar cedido en Villa San Carlos, en donde finalizó su préstamo antes de tiempo, el volante se encontró con que no iba a ser tenido en cuenta en el Cervecero y se quedaría, de nuevo, con el pase en sus manos . Así es como el actual jugador de la Lepra entró en uno de los años más duros de su vida .\nCon la duda y la tristeza de saber que quizás su sueño de ser profesional se había esfumado, Matías Fernández comenzó un proceso marcado por el esfuerzo y la dedicación. Durante ese tiempo sin club, el volante se dedicó a la carpintería para ganarse unos pesos mientras disputaba algunos partidos en la liga de Pehuajó con Defensores del Este. El fútbol profesional estaba más lejos que nunca.\nCuando las dudas empezaban a ser las protagonistas y el miedo de no volver a ser profesional se apoderaba de la vida de Fernández, otra curva llegó a su montaña rusa. Gracias a la insistencia de un amigo suyo, el nacido en La Plata se fue a probar a Excursionistas . En el Villero, casi de inmediato, decidieron tenerlo en cuenta de cara a la temporada 2023 en la Primera C. En su primer año con el club del Bajo Belgrano, no solo logró el ascenso a la Primera B , sino que además se estableció como uno de los pilares del equipo de cara al siguiente año. Ya en 2024, con un nivel preponderante, llevó al club a las semifinales del Reducido y llegó a tener un buen desempeño frente a River en la Copa Argentina . A pesar de la derrota por 3-0, su gran nivel ante el Millonario le valió para dar su siguiente gran paso de su vida.\nEn Independiente Rivadavia, según pudo averiguar Olé , el nivel del volante en el duelo copero ante el Millonario fue bisagra para la contratación del jugador. La Lepra, impulsada por su grupo de scouting, puso sus ojos en un futbolista que, en la previa, iba a ser parte de un proceso de adaptación. Pero Matías Fernández hizo todo mucho más rápido de lo esperado . Casi de inmediato, el nacido en La Plata se codeaba con los mejores jugadores del plantel y logró pasar a la historia del club al ser vital en la consagración de la Copa Argentina y en la memorable campaña en la Copa Libertadores, donde la Lepra quedó eliminada en los octavos de final por penales ante Fluminense. En la actualidad, luego de un partido descomunal en la Supercopa ante Estudiantes, marcado por sus pases y gambetas, el nombre del volante pasó a ser mencionado en debates que arrancan con la pregunta: ¿quiénes son los mejores jugadores de la Primera División?\nEn la vida, como en una serie, los capítulos presentes o futuros son una consecuencia de lo que pasó en el pasado. La serie de Matías Fernández pasó, como él mismo contó, de tener un guion que sonaba así. \"Me fui a una liga de Pehuajó, jugué seis meses ahí, me fui a Excursionistas, me levantaba a las cinco de la mañana para ir a entrenar, volvía a las 15.30 o 16 de la tarde, mi cuerpo no daba más\", a tener, gracias al esfuerzo y la fuerza para no rendirse, la posibilidad de disputar Libertadores y pelear títulos en el máximo nivel.\nEsa es la historia de Matías Fernández , el jugador que quedó libre de Estudiantes y Quilmes, trabajó de carpintero , se alejó del fútbol profesional y hoy es figura del equipo que buscará dar el golpe en la Bombonera frente a Boca.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "41eb4fe364203424220a",
+    "title": "La Selección de básquet comenzó con sus entrenamientos en Zárate pensando en Bahamas y Canadá",
+    "source_url": "https://www.ole.com.ar/basquet/seleccion-argentina-basquet-entrenamientos-canada-bahamas_0_wc8cyqy2jf.html",
+    "source": "Olé Argentina",
+    "description": "La Selección ya está reunida para afrontar la ventana de noviembre de las Eliminatorias FIBA.",
+    "published_at": "2026-11-25T18:28:30+00:00",
+    "category": "SELECCIONES",
+    "sport": "FUTBOL",
+    "score": 26,
+    "queued_at": "2026-11-25T18:40:41.371048+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
