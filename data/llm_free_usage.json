@@ -59,9 +59,9 @@
       "last_error": "invalid_output"
     },
     "openrouter": {
-      "attempts": 35,
+      "attempts": 38,
       "success": 14,
-      "failures": 21,
+      "failures": 24,
       "latencies_ms": [
         24860,
         194447,
@@ -97,11 +97,15 @@
       "last_error": "invalid_output"
     },
     "cloudflare": {
-      "attempts": 21,
-      "success": 0,
-      "failures": 21,
-      "latencies_ms": [],
-      "quality": [],
+      "attempts": 24,
+      "success": 1,
+      "failures": 23,
+      "latencies_ms": [
+        3215
+      ],
+      "quality": [
+        100
+      ],
       "last_error": "invalid_output"
     },
     "nvidia": {
@@ -123,5 +127,5 @@
       "blocked_until_utc": 1795578011
     }
   },
-  "last_success": "openrouter"
+  "last_success": "cloudflare"
 }
