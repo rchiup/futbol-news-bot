@@ -9246,5 +9246,13 @@
     "source": "www.espn.com - SOCCER",
     "collected_at": "2026-11-25T05:14:59.628418+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "daae2cd906a67e67ba832ecd143c27131348129c957ddbd6b9f547d5ee8dafd7",
+    "title": "Are Manchester United this season's Tottenham?",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cj4gndepk312o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-25T06:26:41.166737+00:00",
+    "status": "pending_review"
   }
 ]
