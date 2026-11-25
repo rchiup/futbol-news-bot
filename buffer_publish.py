@@ -76,7 +76,7 @@ def submit_tiktok(video_url, caption, session=requests, channel=None):
         raise RuntimeError("Buffer did not accept the TikTok post")
     return {"id":str(post["id"]),"status":str(post.get("status") or "accepted")}
 
-def crosspost(item, video_url, caption, session=requests):
+def crosspost(item, video_url, caption, session=requests, persist=None):
     if not configured() or item.get("buffer_tiktok_status"):
         return
     try:
@@ -89,6 +89,8 @@ def crosspost(item, video_url, caption, session=requests):
     # Keep platform state independent of Instagram. Uncertain network errors
     # require inspection, rather than automatically creating duplicates.
     item["buffer_tiktok_status"] = "submitting"
+    if persist:
+        persist()
     try:
         result = submit_tiktok(video_url, caption, session=session, channel=channel)
         item["buffer_tiktok_id"] = result["id"]
@@ -98,3 +100,21 @@ def crosspost(item, video_url, caption, session=requests):
         item["buffer_tiktok_status"] = "check_required"
         item["buffer_tiktok_error"] = type(exc).__name__
         print("[BUFFER] TikTok submission unconfirmed: "+type(exc).__name__)
+
+
+def recover_original_video(identifier, session=requests):
+    """Look up a previously uploaded original; no Instagram re-encoding."""
+    from urllib.parse import quote
+    cloud = os.environ["CLOUDINARY_CLOUD_NAME"]
+    auth = (os.environ["CLOUDINARY_API_KEY"], os.environ["CLOUDINARY_API_SECRET"])
+    for public_id in ("football-news-bot/reels/"+identifier, identifier):
+        response = session.get("https://api.cloudinary.com/v1_1/"+quote(cloud,safe="")+
+            "/resources/video/upload/"+quote(public_id,safe=""), auth=auth, timeout=25)
+        if response.status_code == 404:
+            continue
+        response.raise_for_status()
+        data = response.json()
+        url = data.get("secure_url","")
+        if data.get("public_id")==public_id and url.startswith("https://"):
+            return url
+    return None
