@@ -663,6 +663,9 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 for item in queue:
                     if item.get("status")!="published" or item.get("publish_format")!="reel" or item.get("buffer_tiktok_status"):
                         continue
+                    if (item.get("reel_quality") or {}).get("version") != 2:
+                        print("[BUFFER] Skipping unverified old Reel "+item["id"])
+                        continue
                     posted = parse_iso(item.get("posted_at",""))
                     if item.get("id")!="reel-launch-20261124" and (not posted or reference-posted>timedelta(hours=24)):
                         continue
@@ -793,8 +796,8 @@ def run(reference: datetime | None = None, session=None) -> dict:
             targets = [x for x in queue if x.get("id") == forced_tennis_id and x.get("status") == "draft"]
             # If no Reel has been published today, adapt today's already vetted
             # Sinner story as an explicitly requested second format.
-            launch_id = "reel-launch-20261124"
-            reel_done = any(x.get("publish_format") == "reel" and x.get("status") == "published"
+            launch_id = "reel-launch-20261124-v2"
+            reel_done = any(x.get("publish_format") == "reel" and x.get("status") == "published" and (x.get("reel_quality") or {}).get("version")==2
                             and (parse_iso(x.get("posted_at", "")) or reference - timedelta(days=2)).astimezone(PUBLISH_TZ).date()
                             == reference.astimezone(PUBLISH_TZ).date() for x in queue)
             if not reel_done and not any(x.get("id") == launch_id for x in queue):
@@ -824,7 +827,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     if is_reel:
                         if not reels.eligible(launch):
                             raise ValueError("Launch photo or narration unavailable")
-                        video = reels.render(launch, card, ROOT / "output" / "reels" / (launch_id + ".mp4"), BRAND)
+                        video = reels.render(launch, ROOT / "output" / "portraits" / (launch_id + ".jpg"), ROOT / "output" / "reels" / (launch_id + ".mp4"), BRAND)
                     # Mark attempt before sending to Meta, then persist its ID.
                     launch["status"] = "publishing"
                     save_queue(queue)
@@ -853,7 +856,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
         for item in sorted(queue, key=lambda x: (bool(x.get('match_result')), novelty_priority(x, reference)), reverse=True):
             if published_count >= allowed_this_run:
                 break
-            if item.get("id") == "reel-launch-20261124":
+            if item.get("id") in {"reel-launch-20261124","reel-launch-20261124-v2"}:
                 continue  # Explicit launch path never falls back to a duplicate image.
             if item.get("status") != "draft" and not (item.get("status") == "needs_review" and (item.get("photo_deferred_reason") == "no_relevant_photo" or item.get("visual_mode") == "original_graphic") and item.get("headline") and item.get("caption")):
                 continue
@@ -941,7 +944,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 video_path = None
                 if os.getenv("ENABLE_REELS", "").lower() == "true" and reels.eligible(item):
                     try:
-                        video_path = reels.render(item, path, ROOT / "output" / "reels" / (item["id"] + ".mp4"), BRAND)
+                        video_path = reels.render(item, ROOT / "output" / "portraits" / (item["id"] + ".jpg"), ROOT / "output" / "reels" / (item["id"] + ".mp4"), BRAND)
                     except Exception as render_exc:
                         # Rendering failure is safe to fall back from: no Meta call occurred.
                         print(f"[REELS] Render unavailable: {type(render_exc).__name__}; publishing image")
