@@ -12618,7 +12618,7 @@
     "headline": "Trinity Rodman fuera de la clasificación femenina mundial por hombro",
     "caption": "Trinity Rodman, del seleccionado femenino de EE. UU., se lesionó el hombro en la final de la NWSL y quedará ausente del Campeonato Concacaf W, torneo clasificatorio para la Copa del Mundo 2027. Su ausencia debilita al conjunto estadounidense en la fase de clasificación, donde su aporte ofensivo era fundamental. ¿Podrá EE. UU. superar la falta de su goleadora y mantener la ventaja en la zona?",
     "ai_generated_at": "2026-11-25T05:22:49.908887+00:00",
-    "photo_checked_at": "2026-11-25T13:38:31.980625+00:00",
+    "photo_checked_at": "2026-11-25T14:01:54.159283+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -13416,7 +13416,7 @@
     "headline": "Ffion Morgan sufre lesión de ligamento cruzado y descarta Mundial",
     "caption": "La delantera galesa Ffion Morgan, internacional con 56 partidos, se operó de una rotura del ligamento cruzado anterior tras lesionarse en la victoria del West Ham Women sobre Charlton. La lesión la mantendrá al margen del resto de la temporada y la convierte en duda importante para el Mundial femenino 2027, si Gales logra clasificar. Con el próximo play‑off contra Noruega en el Cardiff City Stadium, la ausencia de Morgan plantea dudas sobre la capacidad ofensiva del conjunto. ¿Podrá Gales superar la pérdida de su referente ofensivo y alcanzar su primera clasificación al Mundial?",
     "ai_generated_at": "2026-11-25T12:50:56.005744+00:00",
-    "photo_checked_at": "2026-11-25T13:38:30.166793+00:00",
+    "photo_checked_at": "2026-11-25T14:01:51.463027+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -14121,7 +14121,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-25T13:47:26.831975+00:00",
-    "status": "draft",
+    "status": "crossposted_only",
     "visual_subject": "Jamal Musiala",
     "visual_entities": {
       "personas": [
@@ -14165,7 +14165,19 @@
         "BayernMunich"
       ],
       "mentions": []
-    }
+    },
+    "reel_quality": {
+      "version": 2,
+      "duration": 15.1,
+      "mean_db": -19.7
+    },
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-25T14:00:18.223244+00:00",
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795615301/football-news-bot/reels/67e31ca2c6d51c1453a4.mp4",
+    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_id": "6b06ea48431edadba00ad07b",
+    "buffer_youtube_status": "error",
+    "buffer_youtube_id": "6b06ea4bcdd06687d1a367e2"
   },
   {
     "id": "bb1f3fdaf66036267275",
