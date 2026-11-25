@@ -1,19 +1,19 @@
 {
-  "checked_at_utc": "2026-11-25T02:43:02.726345+00:00",
+  "checked_at_utc": "2026-11-25T02:52:53.750950+00:00",
   "local_hour": 23,
   "statuses": {
     "published": 127,
-    "draft": 8,
-    "awaiting_ai": 16,
+    "draft": 12,
+    "awaiting_ai": 11,
     "needs_review": 94,
     "publish_error": 26,
     "duplicate": 28
   },
-  "fresh_candidates": 126,
+  "fresh_candidates": 127,
   "queued_new": 0,
-  "ai_generated": 4,
+  "ai_generated": 5,
   "preview_images": 5,
-  "published": 1,
+  "published": 0,
   "duplicates_suppressed": 0,
   "no_photo_deferred": 0,
   "total_queue": 344,
@@ -35,15 +35,15 @@
   ],
   "free_llm_metrics": {
     "date_utc": "2026-11-25",
-    "last_success": "groq",
+    "last_success": "openrouter",
     "providers": {
       "groq": {
-        "attempts": 16,
-        "success": 6,
-        "failures": 10,
-        "avg_latency_ms": 1988,
-        "avg_readability": 92.5,
-        "last_error": "invalid_output"
+        "attempts": 18,
+        "success": 7,
+        "failures": 11,
+        "avg_latency_ms": 2090,
+        "avg_readability": 91.4,
+        "last_error": "http_429"
       },
       "gemini": {
         "attempts": 20,
@@ -54,17 +54,17 @@
         "last_error": "invalid_output"
       },
       "openrouter": {
-        "attempts": 21,
-        "success": 3,
-        "failures": 18,
-        "avg_latency_ms": 87311,
-        "avg_readability": 95.0,
+        "attempts": 26,
+        "success": 7,
+        "failures": 19,
+        "avg_latency_ms": 45673,
+        "avg_readability": 93.6,
         "last_error": "invalid_output"
       },
       "cloudflare": {
-        "attempts": 18,
+        "attempts": 19,
         "success": 0,
-        "failures": 18,
+        "failures": 19,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "invalid_output"
