@@ -7291,7 +7291,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T17:16:00.500304+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -7307,9 +7307,9 @@
     },
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
-    "headline": "Geely construye SUV para TC2000 2027",
-    "caption": "Geely está desarrollando una SUV que participará en la categoría TC2000 a partir de 2027. El trabajo se está realizando en el taller de Proracing, donde se muestra el proceso de construcción antes de que los vehículos entren por primera vez a la pista del automovilismo argentino.",
-    "ai_generated_at": "2026-11-24T19:33:44.832682+00:00",
+    "headline": "Geely presenta SUV para TC2000 2027",
+    "caption": "Olé tuvo acceso al taller Proracing donde se está armando la SUV de Geely que competirá en el TC2000 a partir de 2027. La iniciativa evidencia la incursión de marcas chinas en el automovilismo argentino y plantea si este nuevo modelo podrá rivalizar con los monoplazas tradicionales de la categoría.",
+    "ai_generated_at": "2026-11-25T06:16:59.698997+00:00",
     "editorial_rechecked": true
   },
   {
@@ -10955,7 +10955,7 @@
     "caption": "Middlesbrough volvió a ganar 2-1 a Swansea, con Lankshear de regreso al once titular, lo que le permite mantener la primera posición del Championship. Por su parte, West Ham sigue sin conseguir su primera victoria bajo Scott Parker tras caer ante Portsmouth. La reincorporación de Lankshear refuerza la ofensiva del Boro, mientras que el Hammers parece estancado; ¿logrará Parker revertir la mala racha antes del cierre?",
     "ai_generated_at": "2026-11-25T02:52:53.750950+00:00",
     "editorial_rechecked": true,
-    "photo_checked_at": "2026-11-25T05:55:33.636958+00:00",
+    "photo_checked_at": "2026-11-25T06:17:58.039140+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -12022,7 +12022,7 @@
     "headline": "Sara deja Ferro",
     "caption": "Juan Manuel Sara se despidió de Ferro tras una campaña histórica que los llevó a las puertas de la finalísima por el ascenso a Primera. ¿Fue el momento adecuado para dar un paso al costado?",
     "ai_generated_at": "2026-11-25T03:16:06.250625+00:00",
-    "photo_checked_at": "2026-11-25T05:55:13.614908+00:00",
+    "photo_checked_at": "2026-11-25T06:17:55.787443+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -12069,7 +12069,7 @@
     "headline": "Colegiales renueva a Leo Fernández",
     "caption": "El técnico del Tricolor se convirtió en el entrenador con más tiempo en su cargo en el fútbol argentino, después de que la institución decidiera apostar por su continuidad. ¿Será esta la clave para el éxito en un deporte cada vez más resultadista?",
     "ai_generated_at": "2026-11-25T03:16:06.250625+00:00",
-    "photo_checked_at": "2026-11-25T05:56:23.602650+00:00",
+    "photo_checked_at": "2026-11-25T06:18:05.169524+00:00",
     "visual_mode": "licensed_photo",
     "promotion": {
       "hashtags": [
@@ -12224,7 +12224,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T05:54:57.042213+00:00",
+    "photo_checked_at": "2026-11-25T06:17:52.472297+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -12491,7 +12491,7 @@
     "headline": "Riesgo de robos a camiones sube en Chile por Black Friday",
     "caption": "El incremento de despachos por Black Friday y la temporada navideña, sumado a cierres de bodegas y turnos reducidos, eleva el riesgo de robos a camiones en Chile durante las próximas semanas, según expertos. Un informe de TT Club y BSI Consulting sitúa al país entre los nueve con mayor número de robos de carga en 2025, y un registro sectorial nacional contabilizó 220 incidentes entre enero y septiembre de 2026. Ante este panorama, ¿qué acciones implementarán autoridades y empresas para reforzar la seguridad del transporte de mercancías?",
     "ai_generated_at": "2026-11-25T04:00:14.368688+00:00",
-    "photo_checked_at": "2026-11-25T05:54:56.224247+00:00",
+    "photo_checked_at": "2026-11-25T06:17:51.754352+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
