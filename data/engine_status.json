@@ -1,6 +1,6 @@
 {
-  "checked_at_utc": "2026-11-25T04:57:00.760987+00:00",
-  "local_hour": 1,
+  "checked_at_utc": "2026-11-25T05:01:31.920198+00:00",
+  "local_hour": 2,
   "statuses": {
     "published": 129,
     "draft": 28,
@@ -38,9 +38,9 @@
     "last_success": "groq",
     "providers": {
       "groq": {
-        "attempts": 39,
+        "attempts": 41,
         "success": 10,
-        "failures": 29,
+        "failures": 31,
         "avg_latency_ms": 2135,
         "avg_readability": 89.5,
         "last_error": "http_429"
@@ -70,9 +70,9 @@
         "last_error": "invalid_output"
       },
       "nvidia": {
-        "attempts": 11,
+        "attempts": 12,
         "success": 0,
-        "failures": 11,
+        "failures": 12,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "http_410"
