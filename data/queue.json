@@ -9744,7 +9744,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T21:09:00.327356+00:00",
-    "status": "draft",
+    "status": "expired",
     "article_context": "El recorrido pasará por el emblemático Hotel Llao Llao de Bariloche (prensa 1000 Millas Sport).\nLas 1000 Millas Sport , la competencia de regularidad más emblemática de Latinoamérica, organizada por el Club de Automóviles Sport (CAS), se prepara para una nueva edición que se llevará adelante del 25 al 29 de noviembre en la Patagonia ; con un recorrido que volverá a combinar regularidad, paisajes únicos y una grilla internacional de autos sport clásicos.\nUna de las principales novedades de esta 37ª edición será la incorporación de nuevas pruebas de regularidad, que elevarán el desafío para las distintas tripulaciones. “Nos gusta reinterpretar la propuesta en cada edición. Siempre hay caminos por descubrir y paisajes nuevos por recorrer. Este año en particular, incorporamos pruebas de regularidad que van a poner a prueba hasta a los competidores más experimentados ”, explicó Fernando Briones, presidente del CAS y del Comité Organizador.\nLas 1000 Millas Sport son más que una competencia. Año a año, pilotos y copilotos de distintas partes del mundo se dan cita para revivir el espíritu de las competencias sport clásicas y rendir tributo a los verdaderos protagonistas: los vehículos sport clásicos que reviven la historia en cada ruta de la patagonia. La competencia, que inicia y culmina en el emblemático Hotel Llao Llao de Bariloche y pasa por lugares como Dina Huapi, Villa La Angostura, Reserva Natural, 7 Lagos, Villa Mascardi y El Bolsón, entre otros, y combina espíritu deportivo, historia, gastronomía y paisajes únicos.\nLos participantes recorren miles de kilómetros disfrutando del manejo y la camaradería, mientras ponen a prueba lo más relevante de la competencia: la regularidad , que es el corazón de las 1000 Millas Sport. Así lo explicó Daniel Claramunt, director ejecutivo de las 1000 Millas Sport: “La regularidad exige una conexión total entre el piloto y su navegante” .\nLa edición 2026 ya cuenta con tripulaciones confirmadas de Estados Unidos, Alemania, Suiza, Chile y Uruguay, además de participantes argentinos. “La grilla va a ser un espectáculo visual”, adelanta Briones. Contará con la presencia de verdaderos íconos: Mercedes Benz 300SL, Aston Martin DB5, Bugatti T37, Ferrari 365GTC. BMW 328, entre otras grandes joyas del automovilismo histórico.\nEl recorrido volverá a atravesar algunos de los paisajes y localidades más representativos de la región, con nuevos puntos de parada para almuerzos y refrigerios. “El entorno patagónico es la escenografía perfecta y acompaña en toda la competencia” , sostiene Briones.\nPara el público, el tradicional Parque Cerrado del Centro Cívico de Bariloche será nuevamente uno de los grandes puntos de encuentro , mientras que el paso por San Martín de los Andes y Villa La Angostura ofrecerá diferentes lugares panorámicos para ver los vehículos en competencia.\nLas 1000 Millas Sport también mantienen su compromiso con las comunidades que reciben a la competencia. El tradicional remate solidario beneficia al Banco de Alimentos y a distintas organizaciones locales , mientras que en los últimos seis años la organización profundizó su vínculo con entidades de la región como Fundación Challenge, Puentes de Luz y Fundación Cruzada Patagónica. El objetivo es que el paso de la competencia por la Patagonia trascienda el espectáculo automovilístico y genere un impacto concreto y sostenible en las comunidades locales .\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "visual_subject": "",
     "visual_entities": {
@@ -9836,7 +9836,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T21:14:53.330657+00:00",
-    "status": "draft",
+    "status": "expired",
     "visual_subject": "Nicolás Diez",
     "visual_entities": {
       "personas": [
@@ -10969,7 +10969,7 @@
     "caption": "Middlesbrough volvió a ganar 2-1 a Swansea, con Lankshear de regreso al once titular, lo que le permite mantener la primera posición del Championship. Por su parte, West Ham sigue sin conseguir su primera victoria bajo Scott Parker tras caer ante Portsmouth. La reincorporación de Lankshear refuerza la ofensiva del Boro, mientras que el Hammers parece estancado; ¿logrará Parker revertir la mala racha antes del cierre?",
     "ai_generated_at": "2026-11-25T02:52:53.750950+00:00",
     "editorial_rechecked": true,
-    "photo_checked_at": "2026-11-25T08:36:29.396691+00:00",
+    "photo_checked_at": "2026-11-25T09:06:19.517459+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -11248,7 +11248,7 @@
     "caption": "Rangers venció a Aberdeen en un partido de cinco goles en Ibrox, mientras Hibernian recuperó la victoria en Easter Road. La reacción del programa Sportsound, conducido por Ian McCall junto a Willie Miller y Rory Loy, analizó ambos encuentros y destacó el impulso que estos triunfos dan a los equipos en la Premiership. ¿Podrá Rangers mantener el ritmo y Hibs consolidarse como contendiente tras este impulso?",
     "ai_generated_at": "2026-11-25T02:39:37.772007+00:00",
     "editorial_rechecked": true,
-    "photo_checked_at": "2026-11-25T08:43:57.899916+00:00",
+    "photo_checked_at": "2026-11-25T09:05:53.021494+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -11912,7 +11912,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T08:43:56.341335+00:00",
+    "photo_checked_at": "2026-11-25T09:05:51.507688+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -11995,7 +11995,7 @@
     "headline": "Comisión mixta aprueba recursos para memoria y oficinas de expresidentes",
     "caption": "La comisión mixta, integrada por cinco diputados y cinco senadores, aprobó este martes la asignación de fondos para los sitios de memoria y para cubrir los gastos de oficina de los expresidentes, partidas que habían quedado pendientes en el proyecto de ley de Presupuesto 2027. La medida busca cerrar las discrepancias entre Cámara Baja y Senado, pero ¿es suficiente para atender las demandas de preservación histórica y de los expresidentes?",
     "ai_generated_at": "2026-11-25T05:22:49.908887+00:00",
-    "photo_checked_at": "2026-11-25T08:43:57.083036+00:00",
+    "photo_checked_at": "2026-11-25T09:05:52.226235+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -12560,7 +12560,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T08:43:54.684462+00:00",
+    "photo_checked_at": "2026-11-25T09:05:49.890700+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -12604,7 +12604,7 @@
     "headline": "Trinity Rodman fuera de la clasificación femenina mundial por hombro",
     "caption": "Trinity Rodman, del seleccionado femenino de EE. UU., se lesionó el hombro en la final de la NWSL y quedará ausente del Campeonato Concacaf W, torneo clasificatorio para la Copa del Mundo 2027. Su ausencia debilita al conjunto estadounidense en la fase de clasificación, donde su aporte ofensivo era fundamental. ¿Podrá EE. UU. superar la falta de su goleadora y mantener la ventaja en la zona?",
     "ai_generated_at": "2026-11-25T05:22:49.908887+00:00",
-    "photo_checked_at": "2026-11-25T08:43:17.652307+00:00",
+    "photo_checked_at": "2026-11-25T09:05:47.040627+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
