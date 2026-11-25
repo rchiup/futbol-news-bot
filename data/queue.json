@@ -9594,13 +9594,27 @@
     "caption": "Manchester United ha puesto a Nathan Collins como principal objetivo para la ventana de transferencias de enero, además de que Bournemouth ofrece a Eli Junior Kroupi un precio de un millón de libras y Liverpool avanza con el nuevo acuerdo del corredor Rio Ngumoha. El equipo busca reforzar su defensa con un centrodefensivo experimentado y buscar un ataque prometedor. ¿Será una jugada estratégica o simplemente rumores?",
     "ai_generated_at": "2026-11-25T02:52:53.750950+00:00",
     "ai_art_used": false,
-    "photo_used": false,
+    "photo_used": true,
     "portrait_used": false,
     "reference_photo_used": false,
     "editorial_rechecked": true,
-    "photo_checked_at": "2026-11-25T02:57:04.571810+00:00",
-    "portrait_info": null,
-    "visual_mode": "editorial_typography",
+    "photo_checked_at": "2026-11-25T03:21:49.771183+00:00",
+    "portrait_info": {
+      "subject": "Brentford",
+      "image_url": "https://live.staticflickr.com/65535/54220259813_669136a9d4_b.jpg",
+      "width": 1024,
+      "height": 768,
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "commons_filename": "Line-up at the Brentford v Nottingham Forest football match on 21 December 2024 at Brentford Stadium - London.",
+      "photographer": "Jim Linwood",
+      "credit_required": true,
+      "share_alike": false,
+      "file_page": "https://www.flickr.com/photos/54238124@N00/54220259813",
+      "photo_provider": "Openverse",
+      "entity_kind": "club"
+    },
+    "visual_mode": "licensed_photo",
     "promotion": {
       "hashtags": [
         "Futbol",
@@ -9610,7 +9624,8 @@
         "ManchesterUnited"
       ],
       "mentions": []
-    }
+    },
+    "photo_credit_full": "📷 Foto: Jim Linwood · CC BY 2.0 · Flickr (Openverse) (recorte y edición). https://www.flickr.com/photos/54238124@N00/54220259813 · https://creativecommons.org/licenses/by/2.0/"
   },
   {
     "id": "56dc46caccae94698650",
@@ -9646,7 +9661,7 @@
     "portrait_used": false,
     "reference_photo_used": false,
     "editorial_rechecked": true,
-    "photo_checked_at": "2026-11-25T02:56:38.894411+00:00",
+    "photo_checked_at": "2026-11-25T03:21:25.016426+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -9738,7 +9753,7 @@
     "portrait_used": false,
     "reference_photo_used": false,
     "editorial_rechecked": true,
-    "photo_checked_at": "2026-11-25T02:56:38.177380+00:00",
+    "photo_checked_at": "2026-11-25T03:21:24.403831+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -9831,7 +9846,7 @@
     "portrait_used": false,
     "reference_photo_used": false,
     "editorial_rechecked": true,
-    "photo_checked_at": "2026-11-25T02:56:08.113578+00:00",
+    "photo_checked_at": "2026-11-25T03:21:02.874246+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
