@@ -655,6 +655,32 @@ def morning_burst_settings(reference: datetime, queue: list[dict]) -> tuple[int,
 def run(reference: datetime | None = None, session=None) -> dict:
     reference = reference or now_utc()
     queue = load_queue()
+    # Backfill the explicitly requested first Reel without republishing to IG.
+    if session is None and buffer_publish.configured() and os.getenv("ENABLE_PUBLISH", "").lower()=="true":
+        try:
+            channel = buffer_publish.resolve_channel()
+            if channel:
+                for item in queue:
+                    if item.get("status")!="published" or item.get("publish_format")!="reel" or item.get("buffer_tiktok_status"):
+                        continue
+                    posted = parse_iso(item.get("posted_at",""))
+                    if item.get("id")!="reel-launch-20261124" and (not posted or reference-posted>timedelta(hours=24)):
+                        continue
+                    url = item.get("reel_video_url")
+                    if not url and item.get("id")=="reel-launch-20261124":
+                        url = buffer_publish.recover_original_video(item["id"])
+                    if not url:
+                        print("[BUFFER] Original video not available for "+item["id"])
+                        continue
+                    item["reel_video_url"] = url
+                    caption = clean_public_caption(item["caption"])
+                    credit = photo_attribution_compact(item.get("portrait_info"))
+                    if credit:
+                        caption += "\n\n"+credit
+                    buffer_publish.crosspost(item, url, append_promotion(caption,item), persist=lambda: save_queue(queue))
+                    save_queue(queue)
+        except Exception as exc:
+            print("[BUFFER] Startup check: "+type(exc).__name__)
     if session is None:
         known = {x.get("id") for x in queue}
         for feed in (scorecards, tennis_scorecards):
@@ -815,7 +841,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     print(f"[LAUNCH] Published {launch['id']} media={media_id}")
                     if is_reel:
                         save_queue(queue)
-                        buffer_publish.crosspost(launch, launch["reel_video_url"], public_caption)
+                        buffer_publish.crosspost(launch, launch["reel_video_url"], public_caption, persist=lambda: save_queue(queue))
                 except Exception as exc:
                     launch["status"] = "publish_error" if launch.get("status") == "publishing" else "needs_review"
                     launch["error"] = type(exc).__name__
@@ -936,7 +962,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 published_count += 1
                 if video_path:
                     save_queue(queue)
-                    buffer_publish.crosspost(item, item["reel_video_url"], caption)
+                    buffer_publish.crosspost(item, item["reel_video_url"], caption, persist=lambda: save_queue(queue))
                 # Avoid a burst of near-simultaneous API publications.
                 if published_count < allowed_this_run and POST_SPACING_SECONDS:
                     time.sleep(POST_SPACING_SECONDS)
