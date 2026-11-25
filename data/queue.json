@@ -12664,7 +12664,7 @@
     "headline": "¿Manchester United se perfila como el nuevo Tottenham?",
     "caption": "Manchester United, bajo la dirección de Mauricio Pochettino, arranca la temporada con la peor puesta a punto desde 1972 y se encuentra en la zona de descenso de la Premier League. Opta calcula una probabilidad del 27,5 % de descenso, situándolos como el quinto club con mayor riesgo, detrás de Crystal Palace, Sunderland, Ipswich y Coventry. Sus estadísticas de goles esperados son similares a las de Tottenham en la misma fase, aunque su eficacia frente a puerta rival es la segunda peor. Con nueve partidos sin victoria y una diferencia de ocho puntos respecto a la temporada anterior, la pregunta es: ¿logrará Pochettino revertir la tendencia antes de que la tabla los condene?",
     "ai_generated_at": "2026-11-25T06:33:45.715775+00:00",
-    "photo_checked_at": "2026-11-25T13:25:16.146160+00:00",
+    "photo_checked_at": "2026-11-25T13:48:45.991708+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -13050,7 +13050,7 @@
     "headline": "Manchester City no podrá usar su nuevo cuarto uniforme en Premier League",
     "caption": "El club inglés no podrá lucir su nuevo cuarto equipamiento en la Premier League porque la normativa permite un máximo de tres camisetas por campaña. Podrá usarlo en la Champions League y, con solicitud a la FA, en la FA Cup. La restricción, que también afecta a otros equipos, plantea la duda de si limita las oportunidades comerciales de los clubes al impedir la explotación de diseños adicionales.",
     "ai_generated_at": "2026-11-25T09:53:06.499892+00:00",
-    "photo_checked_at": "2026-11-25T13:24:45.160973+00:00",
+    "photo_checked_at": "2026-11-25T13:48:44.154035+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -13787,7 +13787,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T13:24:46.178252+00:00",
+    "photo_checked_at": "2026-11-25T13:48:43.366278+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -14109,5 +14109,62 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "67e31ca2c6d51c1453a4",
+    "title": "Después de las críticas, el Bayern Munich respaldó públicamente a Musiala: \"Cuenta con todo el apoyo en su proceso de recuperación\"",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/bayernmunich-jamalmusiala-recuperacion-fifpro-crisisdeausencia_0_VwmESA1lJZ.html",
+    "source": "Olé Argentina",
+    "description": "En medio de la incertidumbre sobre su salud, y luego de que distintos dirigentes del club hablaran de su futuro contractual, el conjunto bávaro reveló que mantuvo una reunión con la agencia que representa al futbolista y remarcó que fue un \"intercambio constructivo\".",
+    "published_at": "2026-11-25T13:32:44+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-25T13:47:26.831975+00:00",
+    "status": "draft",
+    "visual_subject": "Jamal Musiala",
+    "visual_entities": {
+      "personas": [
+        "Musiala"
+      ],
+      "clubes": [
+        "Bayern Munich"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Bayern respalda a Musiala y asegura apoyo en su recuperación",
+    "caption": "El Bayern Munich manifestó públicamente su respaldo a Musiala, asegurando que cuenta con todo el apoyo en su proceso de recuperación tras la incertidumbre sobre su salud y los comentarios de dirigentes sobre su futuro contractual. El club informó que sostuvo una reunión constructiva con la agencia del jugador. La medida busca calmar las dudas y reforzar la confianza del joven, aunque queda por ver si la confianza se traduce en minutos en el campo. ¿Será suficiente este respaldo para que Musiala recupere su nivel?",
+    "ai_generated_at": "2026-11-25T13:47:26.831975+00:00",
+    "ai_art_used": false,
+    "photo_used": true,
+    "portrait_used": true,
+    "reference_photo_used": false,
+    "portrait_info": {
+      "subject": "Jamal Musiala",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Jamal_Musiala_Ecuador_v_Germany_25_June_2026-174_(cropped).jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commons_filename": "Jamal Musiala Ecuador v Germany 25 June 2026-174 (cropped).jpg",
+      "photographer": "Bryan Berlin / WikiPortraits",
+      "credit_required": true,
+      "share_alike": true,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Jamal_Musiala_Ecuador_v_Germany_25_June_2026-174_(cropped).jpg",
+      "photo_provider": "Curated Commons",
+      "verified": "2026-11-23"
+    },
+    "photo_checked_at": "2026-11-25T13:48:13.361772+00:00",
+    "visual_mode": "licensed_photo",
+    "photo_credit_full": "📷 Foto: Bryan Berlin / WikiPortraits · CC BY-SA 4.0 · Wikimedia Commons (recorte y edición). https://commons.wikimedia.org/wiki/File:Jamal_Musiala_Ecuador_v_Germany_25_June_2026-174_(cropped).jpg · https://creativecommons.org/licenses/by-sa/4.0/ · Gráfica adaptada bajo la misma licencia CC BY-SA.",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "Musiala",
+        "BayernMunich"
+      ],
+      "mentions": []
+    }
   }
 ]
