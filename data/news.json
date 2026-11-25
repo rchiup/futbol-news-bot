@@ -9566,5 +9566,21 @@
     "source": "Football News, Transfers, Opinion - talkSPORT",
     "collected_at": "2026-11-25T11:35:29.788257+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "b50e46d04304c43411e6d3c1feda557eae5a0a308a04b74dd935cdfbe026b458",
+    "title": "EA adds AI-generated John Motson to FC 27 video game",
+    "url": "https://www.bbc.co.uk/news/articles/c65y10j841jpo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-25T11:41:57.337575+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "2c5a5b4b776d637beaf28a6e9fd5b9feb74ad5b90e28432c78e1c89acd0eb2f8",
+    "title": "Raheem Sterling avoids jail over reckless driving while using nitrous oxide",
+    "url": "https://www.theguardian.com/football/2026/nov/25/raheem-sterling-avoids-jail-reckless-driving-nitrous-oxide-sentence",
+    "source": "Football | The Guardian",
+    "collected_at": "2026-11-25T11:41:57.627858+00:00",
+    "status": "pending_review"
   }
 ]

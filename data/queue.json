@@ -12618,7 +12618,7 @@
     "headline": "Trinity Rodman fuera de la clasificación femenina mundial por hombro",
     "caption": "Trinity Rodman, del seleccionado femenino de EE. UU., se lesionó el hombro en la final de la NWSL y quedará ausente del Campeonato Concacaf W, torneo clasificatorio para la Copa del Mundo 2027. Su ausencia debilita al conjunto estadounidense en la fase de clasificación, donde su aporte ofensivo era fundamental. ¿Podrá EE. UU. superar la falta de su goleadora y mantener la ventaja en la zona?",
     "ai_generated_at": "2026-11-25T05:22:49.908887+00:00",
-    "photo_checked_at": "2026-11-25T11:20:08.538984+00:00",
+    "photo_checked_at": "2026-11-25T11:43:42.500476+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -13136,7 +13136,7 @@
       "photo_provider": "Curated Commons",
       "verified": "2026-11-23"
     },
-    "photo_checked_at": "2026-11-25T11:19:22.382878+00:00",
+    "photo_checked_at": "2026-11-25T11:42:53.055993+00:00",
     "visual_mode": "licensed_photo",
     "photo_credit_full": "📷 Foto: Bryan Berlin · CC BY-SA 4.0 · Wikimedia Commons (recorte y edición). https://commons.wikimedia.org/wiki/File:Nicolas_Otamendi_Argentina_v_Spain_19_July_2026-059.jpg · https://creativecommons.org/licenses/by-sa/4.0/ · Gráfica adaptada bajo la misma licencia CC BY-SA.",
     "promotion": {
@@ -13449,6 +13449,23 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T11:35:32.785233+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "2c5a5b4b776d637beaf2",
+    "title": "Raheem Sterling avoids jail over reckless driving while using nitrous oxide",
+    "source_url": "https://www.theguardian.com/football/2026/nov/25/raheem-sterling-avoids-jail-reckless-driving-nitrous-oxide-sentence",
+    "source": "The Guardian",
+    "description": "He gets 12-month sentence suspended for 18 months Former England forward pleaded guilty in September Raheem Sterling has avoided jail for dangerous driving while inhaling nitrous oxide, receiving a 12-month sentence suspended for 18 months at Basingstoke magistrates court on Wednesday. The former England international was also ordered to do 100 hours of community service. His MBE and charitable and foundation work was accepted in mitigation, together with his decision to voluntarily submit to addiction treatment. Continue reading...",
+    "published_at": "2026-11-25T11:34:10+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-25T11:42:01.979424+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
