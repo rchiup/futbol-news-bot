@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-25T08:46:10.089422+00:00",
+  "checked_at_utc": "2026-11-25T08:49:26.443611+00:00",
   "local_hour": 5,
   "statuses": {
     "published": 129,
@@ -78,9 +78,9 @@
         "last_error": "http_410"
       },
       "zai": {
-        "attempts": 7,
+        "attempts": 8,
         "success": 0,
-        "failures": 7,
+        "failures": 8,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "http_429"
