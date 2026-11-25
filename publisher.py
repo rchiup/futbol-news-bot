@@ -188,12 +188,12 @@ def upload_public_video(path: Path, identifier: str, session=requests) -> str:
     return url
 
 
-def publish_reel(path: Path, caption: str, identifier: str, session=requests) -> str:
+def publish_reel(path: Path, caption: str, identifier: str, session=requests, public_url=None) -> str:
     verified = verify_instagram_account(session=session)
     ig_id, token, _, root = instagram_api_settings()
     if verified["id"] != ig_id:
         raise RuntimeError("Instagram target verification mismatch")
-    url = upload_public_video(path, identifier, session=session)
+    url = public_url or upload_public_video(path, identifier, session=session)
     headers = {"Authorization": f"Bearer {token}"}
     response = session.post(f"{root}/{ig_id}/media",
         data={"media_type":"REELS","video_url":url,"caption":caption,"share_to_feed":"true"},
