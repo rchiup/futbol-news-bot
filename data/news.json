@@ -10382,5 +10382,77 @@
     "source": "Football News, Transfers, Opinion - talkSPORT",
     "collected_at": "2026-11-25T18:53:39.064871+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "a3d2aca5b203a2a8ac2c71a28a3d23e6a7385e7f0130b9fe1434eb06c786c245",
+    "title": "More than the Score",
+    "url": "https://www.bbc.co.uk/sounds/play/w3ct9tpd?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-25T19:01:38.764787+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "c0bd4de375c1af6773afb29665ebe4f05a2ae2594ccfe8379f6bd48171606be6",
+    "title": "Sporting v Manchester United: Champions League – live",
+    "url": "https://www.theguardian.com/football/live/2026/nov/25/sporting-v-manchester-united-champions-league-live",
+    "source": "Football | The Guardian",
+    "collected_at": "2026-11-25T19:01:38.886429+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "896bd11bfd5946f5de0ce46f5e411574a6805804d21db22edeb72294925f6089",
+    "title": "Club Brugge v Liverpool, Lille v Bayern Munich and more: Champions League clockwatch – live",
+    "url": "https://www.theguardian.com/football/live/2026/nov/25/club-brugge-v-liverpool-lille-v-bayern-munich-and-more-champions-league-clockwatch-live",
+    "source": "Football | The Guardian",
+    "collected_at": "2026-11-25T19:01:38.886449+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "bcebaf27c11aa04fa381c68d003fa64b2e4def4962f85775f39d97bb7c067500",
+    "title": "Raheem Sterling’s rise and fall: a sign football is broken? - The Latest",
+    "url": "https://www.theguardian.com/news/video/2026/nov/25/raheem-sterlings-rise-and-fall-a-sign-football-is-broken-the-latest",
+    "source": "Football | The Guardian",
+    "collected_at": "2026-11-25T19:01:38.886484+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "ccfc397d73bc2972aa852ea13621896dd9641d7bfce9fb3c36bb704d0769ff07",
+    "title": "Suárez says 'no excuses left' as Miami looks to avoid early playoff exit",
+    "url": "https://www.espn.com/soccer/story/_/id/50594966/inter-miami-mls-playoffs-columbus-crews-luis-suarez",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-25T19:01:38.931899+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "aa81da2b362da0d1f0d324cef13444e009c94a697360d863c498dbb9e8fff954",
+    "title": "Mundial de Rugby 2035: Argentina y Sudamérica avanzan en el sueño de ser anfitriones",
+    "url": "https://www.ole.com.ar/rugby/mundial-rugby-2035-argentina-sudamerica-avanzan-sueno-anfitriones_0_0ErWyOBTqf.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-25T19:01:40.175937+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "c45e38dead161c6e10aa89a9f583e9305894668c102bad1e6ffcaad6cd1c1bb4",
+    "title": "El ex campeón con River que bancó a Ponzio: \"Vamos con todo\"",
+    "url": "https://www.ole.com.ar/river-plate/river-plate-leonardo-ponzio-esteban-fuertes-respaldo_0_87VkeajlFL.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-25T19:01:40.175952+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "bb87ba96c0b38e6bad780d5d9ea810dabca2e97ee0cfeb3267ea2e87048c71ef",
+    "title": "Cinco cosas a tener en cuenta en el GP de Qatar de F1 2026",
+    "url": "https://es.motorsport.com/f1/news/cinco-cosas-tener-cuenta-qatar-2026/10877752/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es",
+    "source": "Motorsport.com - Fórmula 1 - Historias",
+    "collected_at": "2026-11-25T19:01:42.138822+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "488b9787e1e7ab78f44ef307ec4bcf1707d8dc6029f88d443f12f8297bfb2aeb",
+    "title": "Former Bucks guard Porter finalizing 2-year deal to join Magic, agent says",
+    "url": "https://www.espn.com/nba/story/_/id/50595534/agent-kevin-porter-jr-finalizing-2-year-deal-magic",
+    "source": "www.espn.com - NBA",
+    "collected_at": "2026-11-25T19:01:42.183145+00:00",
+    "status": "pending_review"
   }
 ]

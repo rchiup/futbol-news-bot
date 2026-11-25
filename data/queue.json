@@ -14268,7 +14268,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T18:39:11.907205+00:00",
+    "photo_checked_at": "2026-11-25T19:03:17.975189+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -14653,7 +14653,7 @@
     "headline": "Alcaraz envía apoyo a Sinner tras operación de rodilla",
     "caption": "Carlos Alcaraz dedicó palabras de aliento a Jannik Sinner, quien se operó de una tendinopatía en la rodilla derecha, antes de la serie de cuartos de final de la Copa Davis contra Austria. El español resaltó la juventud del italiano y su potencial de volver más fuerte, mientras se prepara España para el duelo en Bolonia. Sinner, ausente desde la final de Wimbledon, perdió torneos como el US Open y los ATP Finals. ¿Podrá su recuperación influir en el panorama competitivo del circuito en los próximos meses?",
     "ai_generated_at": "2026-11-25T15:10:28.400105+00:00",
-    "photo_checked_at": "2026-11-25T18:41:24.214738+00:00",
+    "photo_checked_at": "2026-11-25T19:03:17.080003+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -15385,7 +15385,7 @@
     "headline": "Pirelli alerta por desgaste de neumáticos en Qatar",
     "caption": "El proveedor oficial de neumáticos Pirelli ha advertido sobre el graining que sufrirán los compuestos durante el Gran Premio de Qatar en el Circuito Internacional de Losail. Esta pista, considerada una de las más exigentes del calendario, no ha sufrido modificaciones respecto a años anteriores, lo que podría complicar las estrategias de los equipos. ¿Podrán los pilotos encontrar el equilibrio entre rendimiento y preservación de gomas en una prueba donde el desgaste siempre ha sido factor determinante?",
     "ai_generated_at": "2026-11-25T17:24:27.284503+00:00",
-    "photo_checked_at": "2026-11-25T18:41:24.664748+00:00",
+    "photo_checked_at": "2026-11-25T19:02:42.910124+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -15626,7 +15626,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-25T18:39:08.460426+00:00",
+    "photo_checked_at": "2026-11-25T19:03:13.613706+00:00",
     "portrait_info": {
       "subject": "Crystal Palace",
       "image_url": "https://live.staticflickr.com/65535/54484094076_9e3c892117_b.jpg",
@@ -15885,7 +15885,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-25T18:39:07.931749+00:00"
+    "photo_checked_at": "2026-11-25T19:03:13.000964+00:00"
   },
   {
     "id": "c819822c892ee9f14b12",
@@ -16260,6 +16260,93 @@
     "sport": "FUTBOL",
     "score": 23,
     "queued_at": "2026-11-25T18:57:12.328245+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "c0bd4de375c1af6773af",
+    "title": "Sporting v Manchester United: Champions League – live",
+    "source_url": "https://www.theguardian.com/football/live/2026/nov/25/sporting-v-manchester-united-champions-league-live",
+    "source": "The Guardian",
+    "description": "⚽️ Match at Estádio José Alvalade kicks off at 8pm GMT ⚽️ Live scoreboard | Read Football Daily | Email Rob Champions League clockwatch There’s plenty more action tonight, including At War With Next Door on Five at 8pm Club Brugge v Liverpool and PSG v Roma. Simon Burnton has the unenviable task of following several games at once. Continue reading...",
+    "published_at": "2026-11-25T18:46:15+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-25T19:01:43.676492+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "a5c2a56a3b83db59ca4a",
+    "title": "Cinco cosas a tener en cuenta en el GP de Qatar de F1 2026",
+    "source_url": "https://es.motorsport.com/f1/news/cinco-cosas-tener-cuenta-qatar-2026/10877752",
+    "source": "Motorsport F1",
+    "description": "La temporada 2026 de Fórmula 1 se acerca a su fin, con la disputa del Gran Premio de Qatar este fin de semana antes del desenlace en Abu Dhabi la próxima semana. Ambos títulos ya están decididos, con Andrea Kimi Antonelli y Mercedes proclamándose campeones del mundo de pilotos y constructores, respectivamente. Sin embargo, eso no significa que no haya nada en juego, así que aquí van ... Sigue leyendo",
+    "published_at": "2026-11-25T18:59:04+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-25T19:01:43.676492+00:00",
+    "status": "draft",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "source_brief",
+    "llm_model": "none",
+    "headline": "Cinco cosas a tener en cuenta en el GP de Qatar de F1 2026",
+    "caption": "Ambos títulos ya están decididos, con Andrea Kimi Antonelli y Mercedes proclamándose campeones del mundo de pilotos y constructores, respectivamente. (Motorsport F1)",
+    "ai_generated_at": "2026-11-25T19:01:43.676492+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-25T19:02:42.374008+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Formula1"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "488b9787e1e7ab78f44e",
+    "title": "Former Bucks guard Porter finalizing 2-year deal to join Magic, agent says",
+    "source_url": "https://www.espn.com/nba/story/_/id/50595534/agent-kevin-porter-jr-finalizing-2-year-deal-magic",
+    "source": "ESPN NBA",
+    "description": "Free agent guard Kevin Porter Jr. is finalizing a two-year contract with the Magic, his agent told ESPN.",
+    "published_at": "2026-11-25T18:47:13+00:00",
+    "category": "NBA",
+    "sport": "NBA",
+    "score": 26,
+    "queued_at": "2026-11-25T19:01:43.676492+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "ccfc397d73bc2972aa85",
+    "title": "Suárez says 'no excuses left' as Miami looks to avoid early playoff exit",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50594966/inter-miami-mls-playoffs-columbus-crews-luis-suarez",
+    "source": "ESPN",
+    "description": "Luis Suárez said there are \"no excuses left\" for Inter Miami as the defending MLS Cup champion stares at a possible first-round playoff exit.",
+    "published_at": "2026-11-25T18:48:16+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-25T19:01:43.676492+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
