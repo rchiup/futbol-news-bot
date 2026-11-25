@@ -13405,7 +13405,7 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-25T10:49:50.235315+00:00",
-    "status": "draft",
+    "status": "duplicate",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -13437,7 +13437,8 @@
         "Wales"
       ],
       "mentions": []
-    }
+    },
+    "duplicate_of": "same_story_as:90dac83949eaf4858c11"
   },
   {
     "id": "53919cb7db750cabda6e",
@@ -13782,7 +13783,7 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-25T12:12:45.735115+00:00",
-    "status": "draft",
+    "status": "duplicate",
     "visual_entities": {
       "personas": [],
       "clubes": [],
@@ -13805,7 +13806,8 @@
         "Formula1"
       ],
       "mentions": []
-    }
+    },
+    "duplicate_of": "same_story_as:3c971f1ae292a93156e3"
   },
   {
     "id": "06da08a262731285abba",
@@ -14252,7 +14254,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T13:56:51.789420+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "visual_entities": {
       "personas": [],
       "clubes": [],
@@ -14367,7 +14369,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-25T14:24:32.035662+00:00",
-    "status": "draft",
+    "status": "duplicate",
     "article_context": "De la Fuente celebra con la camiseta de Instituto. (Fotobaires).\nLa tarjeta roja que vio Giuliano Cerato en el triunfo por 2-1 sobre Huracán obligará a Diego Flores a meter mano en el 11 de Instituto y el nombre que jugará desde el arranque en el Monumental de Alta Córdoba cuenta con un camino que incluye a Tokio, Famalicão y un Preolímpico con la Selección Argentina . Hernán de la Fuente se adueñará de la banda derecha y tendrá enfrente a River , un rival que conoce y con antecedentes que le sientan bien.\nA los 29 años, el defensor que llegó como refuerzo a la Gloria en enero de 2026 y su historia incluye un capítulo dorado vestido de celeste y blanco. A comienzos de 2020 fue convocado por Fernando Batista para disputar el Preolímpico Sudamericano en Colombia y se consagró campeón con la Sub 23 obteniendo el pasaje a Japón junto a Julián Álvarez , entonces delantero de River, y a Fausto Vera , en aquel momento volante de Argentinos Juniors y hoy rival en el Millonario (en duda por una tendinitis).\nAquella conquista le permitió cumplir el sueño de integrar el plantel argentino en los Juegos Olímpicos de Tokio 2020 , disputados a mediados del año siguiente. Aunque no sumó minutos en lo que fue una temprana eliminación en fase de grupos , disfrutó de esa experiencia única en Asia dentro de un plantel que incluía como piezas importantes a Francisco Ortega, Thiago Almada (hoy ambos en River), Facundo Medina y Alexis Mac Allister.\nFormado en las Inferiores de Vélez, De La Fuente debutó en Primera con el Fortín en noviembre de 2017 precisamente frente a Huracán y permaneció en Liniers hasta 2021, con participación en el torneo local, Copa Argentina, Copa Sudamericana y Copa Libertadores. Además, tras quedar libre del club de Liniers y de experiencia olímpica, emigró al fútbol portugués para jugar en el Famalicão durante la temporada 2021-2022, con 34 partidos jugados.\nSu regreso al medio local se dio en 2023 a préstamo en Atlético Tucumán , luego pasó por Huracán entre 2024 y 2025 y a principios de este año se sumó a Instituto, donde suma nueve encuentros. Más allá de su labor defensiva en la banda derecha, también muestra una gran capacidad para sumarse en ataque y pisar la zona de definición. De hecho, con sólo 334' en cancha, ya suma dos goles frente a Unión en Santa Fe (en el 2-3) y ante Independiente en la goleada por 4-1 en el Libertadores de América.\nAdemás, el marcador de punta mantiene una estadística personal que invita al optimismo en Alta Córdoba. A lo largo de su carrera enfrentó cinco veces a River y tiene un saldo a favor, con dos victorias, dos empates y apenas una derrota . En esa lista sobresalen el festejo por 2-1 con Vélez en Núñez en 2019 , el triunfo por 1-0 con Huracán en el Ducó en marzo de 2024 y el 1-1 en el Monumental en el redebut de Marcelo Gallardo en agosto de ese mismo año.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "visual_subject": "",
     "visual_entities": {
@@ -14417,7 +14419,8 @@
       "height": 1274,
       "file_page": "https://commons.wikimedia.org/wiki/File:Juli%C3%A1n_%C3%81lvarez.jpg"
     },
-    "photo_credit_full": ""
+    "photo_credit_full": "",
+    "duplicate_of": "same_story_as:1a7ac575cb85b377bed5"
   },
   {
     "id": "3dd20afeb7b1666dc794",
@@ -14648,7 +14651,7 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-25T15:07:09.692414+00:00",
-    "status": "draft",
+    "status": "duplicate",
     "article_context": "Alcaraz se refirió a la lesión de Sinner (REUTERS/Manon Cruz).\n\"El tenis lo extraña\". Carlos Alcaraz está enfocado en la Copa Davis . Con España, el número 3 del ranking aspira a que su país se quede con el trofeo por séptima vez en la historia. Sin embargo, en la previa a la serie de cuartos de final frente a Austria, se tomó un momento para darle palabras de aliento a Jannik Sinner , quien recientemente se sometió a una operación en la rodilla.\n\"Obviamente, el tenis lo extraña. Yo lo extraño. No nos vemos desde abril\", recordó sobre la última vez que se enfrentaron, en la final del Masters 1000 de Montecarlo, la cual ganó el italiano. Además, agregó: \"Creo que la decisión de operarse fue de su equipo. Es joven y todavía tiene muchos años de carrera por delante, así que estoy convencido de que volverá aún más fuerte y siendo mejor jugador\" , indicó.\nAdemás, al ser consultado sobre si le gustaría volver a enfrentarse a él, Alcaraz no tuvo dudas: \"Por supuesto, le deseo que tenga una recuperación lo más rápida y satisfactoria posible. Espero que podamos volver a encontrarnos en el circuito, verle por allí y charlar con él\", completó el español, quien desarrolló una gran relación de respeto con Sinner.\nLos comentarios de Alcaraz se dan unos días después de que Sinner fuera operado por una tendinopatía en la parte externa de la rodilla derecha , la cual le viene generando problemas desde julio. Esta lesión suele afectar a deportistas que se someten a movimientos repetitivos, cambios de dirección y frenadas de alta intensidad, como ocurre en el tenis.\nLuego de pasar por el quirófano, el italiano indicó en un mensaje que \"extraño mucho estar en la pista y ahora voy a comenzar mi proceso de recuperación junto con mi equipo. Gracias por todo el apoyo. ¡Hasta pronto!\", escribió en sus redes. Cabe destacar que Sinner no compite desde el 12 de julio, cuando ganó la final de Wimbledon ante Alexander Zverev. Luego de eso, se perdió varios torneos importantes como el US Open o los ATP Finals de Turín.\nVolviendo al español, el número 3 del mundo se refirió a la serie de cuartos de final que se viene ante Austria e hizo mención a sus propios problemas físicos: \"Me estoy cuidando de las molestias físicas que tuve en Turín. Espero no tener problemas en los próximos días. No han pasado muchos días, pero me encuentro bien. Hoy he tocado la pelota, no ha sido lo exigente que suele ser un entrenamiento previo a la competición. Tengo confianza plena juegue quien juegue\", resaltó.\nA su vez, agregó que mejoró considerablemente su saque: \"Quien pegue más fuerte a las líneas es el que gane. No suelo mirar las estadísticas en los entrenamientos, pero sabemos la importancia que tiene el saque. Desde el US Open es la vez que más empeño le he puesto en el saque. Y la precisión era algo importante y lo hemos trabajado más porque no soy tan alto como otros\", cerró.\nCon todo esto, Alcaraz se prepara junto a España para afrontar los cuartos de final de la Copa Davis ante Austria. En Bolonia, la acción comenzará este jueves con dos duelos individuales a partir de las 13 de Argentina y, en caso de empate, se definirá con un partido de dobles a su continuación.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
@@ -14676,7 +14679,8 @@
         "CopaDavis"
       ],
       "mentions": []
-    }
+    },
+    "duplicate_of": "same_story_as:reel-launch-20261124-v2"
   },
   {
     "id": "300f0acec704978f2db6",
@@ -14759,7 +14763,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T15:20:37.833480+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "visual_entities": {
       "personas": [],
       "clubes": [],
@@ -14812,7 +14816,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T15:49:55.060290+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "visual_entities": {
       "personas": [],
       "clubes": [],
@@ -15440,7 +15444,7 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-25T17:12:57.786210+00:00",
-    "status": "draft",
+    "status": "duplicate",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -15482,7 +15486,8 @@
         "VictorLindelof"
       ],
       "mentions": []
-    }
+    },
+    "duplicate_of": "same_story_as:6be2d38f759daa97a808"
   },
   {
     "id": "75063fc3a1657326bf85",
@@ -15569,7 +15574,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T17:19:58.573286+00:00",
-    "status": "draft",
+    "status": "duplicate",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -15597,7 +15602,8 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-25T21:54:11.830231+00:00"
+    "photo_checked_at": "2026-11-25T21:54:11.830231+00:00",
+    "duplicate_of": "same_story_as:6be2d38f759daa97a808"
   },
   {
     "id": "68976a6deaf965f2287d",
@@ -15610,7 +15616,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T17:24:27.284503+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": true,
     "portrait_used": false,
@@ -15875,7 +15881,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T17:39:20.083941+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "article_context": "Senegal's football federation reacted to the Cas verdict on social media with a picture of the side lifting the Afcon trophy alongside the caption \"again and always champions of Africa\"\nThat was the initial reaction of Senegal football federation (FSF) president Abdoulaye Fall to the decision by the Court of Arbitration for Sport (Cas) to reinstate the West Africans as 2025 Africa Cup of Nations champions.\nThe Teranga Lions beat Morocco 1-0 in January's final but were stripped of the title in March by a Confederation of African Football (Caf) appeals board, which imposed a 3-0 forfeit after they walked off the pitch in protest at a penalty awarded against them when the game was goalless.\nFollowing a hearing in Lausanne in October, a three-man Cas panel unanimously overturned that ruling by Caf, effectively judging that the decisions taken by referee Jean-Jacques Ndala in restarting the match and playing it to a conclusion were final.\nMorocco's football federation (FRMF), however, says it will \"pursue all available legal avenues to challenge the decision\".\nThe North Africans could yet take their fight to the Swiss Federal Court.\nThose in Senegal have celebrated the return of the title, while several legal experts have backed the Cas verdict.\nSenegal reinstated as Afcon 2025 winners by court ruling\nSenegal's talisman Sadio Mane, who was named player of the tournament at Afcon 2025, said the ruling \"fills us with joy\".\nThe 34-year-old former Liverpool man thanked his team-mates and Senegal staff as well as the whole Senegalese nation at home and abroad.\n\"Your faith in us gave us strength during the most difficult moments. This victory is yours, too,\" he said in a statement on social media.\nSenegal captain Kalidou Koulibaly, who missed the final through injury, echoed that sentiment.\n\"Some victories are won on the pitch, while others are won in the heart of a people,\" he said in a post on Facebook.\n\"Long before this verdict, there was you - your prayers, your flags in the windows, your fervour, and the pride that unites us all: the pride of the people of Teranga.\"\nPape Gueye, the man who scored the extra-time winner in Rabat, described the Cas decision as \"an immense relief\".\nBoth he and Mane had a message of support for Morocco.\n\"Senegal and Morocco are brotherly nations; may our shared passion for football continue to bring us closer together,\" Mane said.\nGueye added: \"Beyond football, the respect and fraternity between our two peoples remain what matters most. Let's hold on to that.\nAfcon: Is the Senegal v Morocco saga finally over?\nMorocco's main complaint is that Articles 82 and 84 of Afcon tournament regulations - which were implemented by the Caf appeals board in March - were not followed by Cas.\nArticle 82 states that if a team \"refuses to play or leaves the ground before the regular end of the match without the authorisation of the referee\" it shall be \"considered [the loser] and shall be eliminated for good from the current competition\".\nArticle 84 then states a 3-0 forfeit should be imposed on a team which is eliminated in such circumstances.\n\"There [are] football rules that should have been applied by the referee,\" former Morocco international Hassan Kachloul told BBC Sport.\n\"When the Senegalese players left the pitch, the game should have been over.\"\nThe FRMF registered its \"surprise\" at the Cas decision and said that the panel \"failed to account for the stance recently established\" by the International Football Association Board (Ifab), the game's ultimate lawmakers, and world governing body Fifa regarding players leaving the field of play without the referee's permission.\nHowever, Ifab only updated its laws in April - three months after the Afcon final - to state that a referee may send off any player who leaves the field when protesting a decision.\nMoroccan football journalist Jalal Bounouar says his compatriots are \"frustrated and disappointed\" by the ruling.\n\"The main reason is that Caf's appeal board had already applied Article 82 and 84 of the competition regulations which considered Senegal to have forfeited the match,\" he told Newsday on the BBC World Service.\n\"Many Moroccans feel the decision by Cas has ignored the importance of these rules. From the Moroccan perspective, the referee should have taken stronger disciplinary action.\n\"We feel that our team was put in a difficult situation and that the final was not managed fairly.\"\nSenegal reinstated as Afcon 2025 champions - ten months on\nCas has a long-standing practice of following what has been called the 'field of play' doctrine.\nIt refrains from \"reviewing decisions taken on the playing field by referees for applying the rules of the game, unless there is evidence that those rules were applied arbitrarily or in bad faith\".\n\"The primary argument was that the referee is the master of the decision on the pitch,\" said Serge Vittoz, a member of the FSF's legal team.\nRaymond Hack, both a former head of disciplinary at Caf and a former arbiter at Cas, said the judgement was the \"correct verdict\".\n\"What everyone seems to forget - and whilst there may be contradictory information in Article 82 and 84 - decisions taken by the referee during the match are final,\" the South African told the BBC World Service.\n\"Only the referee can start a game. Only a referee can end a game.\"\nFor former Nigeria striker Daniel Amokachi, an Afcon winner in 1994, the Cas ruling is \"the right decision\".\n\"At the end of the day, the man in charge of the match (Ndala) restarted the game, the game ended,\" he said.\nCaf president Patrice Motsepe has repeatedly said his organisation will respect and adhere to Cas' decision\nCaf has already tightened its own regulations to avoid a repeat.\nBut Algerian sports journalist Maher Mezahi says the continental governing body still needs to salvage its image.\n\"How many times have we seen Caf's legal institutions, whether it be the disciplinary board or the appeals committee, come up with these decisions that we all find ridiculous,\" he said.\n\"They end up being challenged at Cas and eventually they get overturned.\n\"We have to rebuild trust in Caf's own judicial bodies because it is a little bit humiliating and degrading and it brings the entire reputation of the confederation into disrepute.\"\nThe 2027 Afcon is scheduled to take place in June and July next year, and Senegal and Morocco were among the first qualifiers earlier this month.\nKachloul says the next tournament provides a chance to draw a definitive",
     "visual_subject": "",
     "visual_entities": {
