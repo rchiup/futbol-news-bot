@@ -10524,12 +10524,36 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-24T23:06:55.504161+00:00",
-    "status": "awaiting_ai",
+    "status": "published",
     "article_context": "In addition to their championship rings, New York Knicks players received an additional form of bling after their NBA Finals win -- courtesy of Tracy Morgan.\nIn a Tuesday appearance on \"Live with Kelly and Mark,\" Morgan revealed that he made sure the team received a special -- and expensive -- token of his appreciation for the joy their title brought him and New York City.\nAnd it wasn't just the players who benefited from Morgan's gift.\n\"After they won the championship I bought the whole team, Dolan, the coaches, I bought them all Rolexes,\" Morgan said, to gasps from the studio audience.\nMorgan also spoke about Knicks fandom in the city at large, and the passion of the team's supporters -- as well as their willingness to travel.\n\"We got a fanbase here in New York, our fanbase needs to be studied and observed,\" Morgan said. \"Because we move.\n\"My boy Al Palagonia, he usually sits with Spike Lee, he owns a private jet company. We would take seven jets, every away game. Seven jets. And we would go, and the tickets, we would pay like, 45,000 a ticket, and we would sit right behind our team. And we were part of it.\"\nAnd, as Morgan pointed out, he never had to worry about talking trash on the road -- because the Knicks celebrity contingent would never be the only New York fans in the building. Sometimes, they were the majority in the stands.\n\"Nah, it was 60-40 New York, we wasn't worried about none of that,\" Morgan said. \"This is New York, this is where King Kong died. And we told Godzilla, 'You next. You, the three-headed monster, the flying turtle, all y'all can get it.'\"",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Tracy Morgan",
+    "visual_entities": {
+      "personas": [
+        "Tracy Morgan"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Tracy Morgan regaló relojes Rolex a todo el equipo Knicks",
+    "caption": "Tras la conquista del título de la NBA, el actor Tracy Morgan obsequió relojes de lujo a los jugadores, al propietario James Dolan y al cuerpo técnico de los New York Knicks. Morgan, reconocido seguidor del equipo, destacó además el fervor de los aficionados neoyorquinos que acompañaron al plantel en sus desplazamientos durante los playoffs, utilizando vuelos privados y ocupando masivamente las tribunas en los estadios visitantes.",
+    "ai_generated_at": "2026-11-25T00:01:11.036743+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "NBA",
+        "TracyMorgan"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-25T00:01:11.036743+00:00",
+    "instagram_media_id": "18126989407904870"
   },
   {
     "id": "ea5957898183562db673",
@@ -10542,12 +10566,33 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-24T23:06:55.504161+00:00",
-    "status": "awaiting_ai",
+    "status": "published",
     "article_context": "LOS ANGELES -- The Lakers on Tuesday announced a partnership with Kalshi, a prediction market and financial exchange company, following similar deals announced last month by the Philadelphia 76ers and the NBA.\n\"Expanding our footprint in the NBA alongside a legendary franchise like the Los Angeles Lakers is an incredible milestone for Kalshi,\" Adam Barrick, Kalshi's head of sports partnerships, said in a news release. \"The Lakers represent a global standard of excellence with a dedicated and loyal fanbase. We are thrilled to collaborate on bringing Lakers fans new ways to engage with their favorite team.\"\nThe Lakers did not announce what those new avenues of engagement would be. Crypto.com Arena has not opened a retail sportsbook inside the building -- as a few other NBA teams have done in recent years -- because sports betting is not legal in California.\nThe announcement came a day after Josh Kushner and Bob Iger, who are awaiting league approval of their $12.5 billion purchase of the Lakers franchise from Mark Walter, attended Monday's game against the Utah Jazz and sat in the stands with acting Lakers governor Jeanie Buss.\nSeveral NBA players have been linked to Kalshi through investments or promotional deals, including the Miami Heat 's Giannis Antetokounmpo , the Oklahoma City Thunder 's Ajay Mitchell , and the Milwaukee Bucks ' Jaime Jaquez Jr . and Kyle Kuzma .\nThe NBA also has a partnership with Polymarket, which counts Sixers forward LeBron James among its spokespeople.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Lakers firma alianza comercial con la plataforma Kalshi",
+    "caption": "La franquicia de Los Ángeles oficializó su vínculo con la empresa de mercados de predicción y bolsa financiera. Este acuerdo sigue la línea de asociaciones similares concretadas recientemente por los Philadelphia 76ers y la propia NBA. Aunque el equipo no detalló las nuevas formas de interacción para sus seguidores, la medida se suma a la creciente presencia de este tipo de plataformas en la liga, donde ya participan figuras como LeBron James, Giannis Antetokounmpo, Ajay Mitchell, Jaime Jaquez Jr. y Kyle Kuzma.",
+    "ai_generated_at": "2026-11-25T00:01:11.036743+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "NBA"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-25T00:01:11.036743+00:00",
+    "instagram_media_id": "18111807215226332"
   },
   {
     "id": "6bf4e7b3885e8e49a0f5",
@@ -10612,12 +10657,42 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-24T23:24:52.022579+00:00",
-    "status": "awaiting_ai",
+    "status": "published",
     "article_context": "Jonathan Galván y una historia particular con River (EFE/Demian Alday Estevez).\nFue una tarde que, desde la previa hasta el post, generó una división entre algunos hinchas de River . En octubre de 2022, previo al comienzo del Mundial de Qatar, Racing y Boca se disputaban el título de la Liga Profesional en la última fecha . La Academia enfrentó al elenco de Núñez y el Xeneize, a Independiente. Jonathan Galván, en ese entonces futbolista de la Academia, fue uno de los protagonistas .\nRondaban los 89 minutos y ambos partidos estaban igualados, de manera que Boca era el campeón. Fue en ese momento cuando Pablo Echavarría sancionó penal para Racing en Avellaneda: si convertía Galván, el local empezaba a acariciar el título. Con los hinchas xeneizes atentos desde la Bombonera, Franco Armani atajó el penal y le arruinó la ilusión al equipo dirigido por Fernando Gago que, por si fuera poco, terminó perdiendo por 2-1 con un doblete agónico de Miguel Borja y con la vuelta olímpica de Boca.\nA partir de lo sucedido, entre algunos hinchas riverplatenses se generó el debate de si se debía ganar independientemente de que eso le permitía ser campeón a su eterno rival. Más allá de eso, se trató de una jornada histórica en la que el actual zaguero de Instituto quedó marcado por su penal fallido .\nRacing 1 - River 1. Fecha 27, Liga Profesional 2022. Video: TNT Sports.\nAdemás, a los pocos días de lo acontecido, empezó a circular un video en el que el futbolista confiesa ser hincha de Boca, lo que generó muchísima más bronca en los fanas de Racing. Eso sumado a la duda de por qué no pateó Enzo Copetti , el goleador de la Academia en ese campeonato.\n\"Quería cavar un pozo y enterrar la cabeza ahí por unos días. Estuvieron la familia y los amigos para ayudarme. Esto es caer y levantarse. Me queda como experiencia y como aprendizaje para lo que viene. Me saco la angustia, aunque no me devuelve lo que pasó en el partido con River\", confesó el futbolista una semana después.\nAdemás agregó que sus ''compañeros siempre estuvieron a mi lado, no me dejaron caer y no tengo más que agradecerles. Nunca pensé en irme. No me voy a esconder jamás. Es parte de mi personalidad. En el penal estaba tranquilo\".\nCuatro años después, con la camiseta de Instituto, Galván deberá dejar atrás lo sucedido aquella tarde y hacer lo suyo para eliminar a River y que la Gloria avance a semifinales del Clausura . Por otro lado, el conjunto de Leonardo Ponzio dirá presente en Alta Córdoba con la esperanza de hacerse fuerte y sacar adelante un duelo que, en la previa, se muestra como uno de alta dificultad.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Racing",
+        "River"
+      ],
+      "competicion": [
+        "Clausura"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Jonathan Galván enfrentará a River tras su recordado penal fallado",
+    "caption": "El defensor de Instituto se medirá ante el equipo de Núñez en los cuartos de final del Clausura. En 2022, mientras jugaba para Racing, Galván desperdició un penal clave ante Franco Armani que pudo haber definido el campeonato a favor de Boca, un episodio que marcó su carrera y generó gran controversia entre los hinchas de la Academia.",
+    "ai_generated_at": "2026-11-25T00:01:11.036743+00:00",
+    "photo_checked_at": "2026-11-25T00:02:57.302852+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "Racing",
+        "River",
+        "Clausura"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-25T00:01:11.036743+00:00",
+    "instagram_media_id": "18116407246875460"
   },
   {
     "id": "b3e9168a739c2f042034",
@@ -10714,12 +10789,44 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-24T23:38:54.041740+00:00",
-    "status": "awaiting_ai",
+    "status": "published",
     "article_context": "Fernando Alarcón palpitó los cuartos vs River.\nUna vez finalizada la jornada de domingo en la que River e Instituto se clasificaron a cuartos de final del Torneo Clausura , quedó definido el cruce entre ambos por un lugar en semifinales . Este martes, mientras se espera la confirmación del día y el horario del partido que se disputará en Alta Córdoba, Fernando Alarcón, capitán de la Gloria, dio sus sensaciones sobre tener al club de Núñez como rival.\n“Todos sabemos lo que es River. Sinceramente, es un gigante de Argentina . Arrancamos la semana y vamos a preparar el partido. Es un mata-mata. Nos preparamos para jugar finales. Lo más importante es cómo estemos nosotros, después miraremos a quién tenemos enfrente”, aseguró el defensor de 31 años en rueda de prensa. En la misma, también explicó lo que significa hacer de local en el Monumental Presidente Perón.\nEn primer lugar, Alarcón aclaró: “En sí, nunca se dudó dónde se iba a jugar . Había muchos dichos. El presidente Juan Manuel Cavagliatto nos había dicho de entrada que se jugaba en Alta Córdoba . Internamente, nunca dudamos de que íbamos a jugar en casa. Estábamos tranquilos”. Luego, agregó que al grupo le “gusta jugar en casa, nos sentimos cómodos, el Kempes es hermoso y disfrutamos cada vez que jugamos ahí, pero por algo tenemos nuestro estadio”.\nClaro está que para el conjunto de Leonardo Ponzio será un encuentro difícil . No solo por el lógico factor de tener que superar a uno de los mejores equipos del certamen, sino que también porque deberá hacerlo en un estadio más chico, donde el público se hará sentir y donde el local se siente muy cómodo: jugó siete en el Clausura, de los que ganó seis y empató uno.\nSi bien durante el 2026 consiguió más triunfos en el Monumental que fuera del mismo -13 victorias contra 10-, sufrió menos caídas cuando le tocó salir de Núñez. Porque entre los 19 partidos en los que salió de casa perdió solo cinco veces, mientras que como local seis. Con este escenario las dudas son totales para un equipo que está obligado a ganar para seguir de pie en su única y última esperanza del año.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Fernando Alarcón",
+    "visual_entities": {
+      "personas": [
+        "Fernando Alarcón"
+      ],
+      "clubes": [
+        "Instituto",
+        "River"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Córdoba"
+      ]
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Fernando Alarcón prepara a Instituto para enfrentar a River",
+    "caption": "El capitán de Instituto analizó el próximo cruce de cuartos de final del Torneo Clausura frente a River. El defensor destacó la importancia de afrontar el encuentro como una final y confirmó que el equipo jugará la serie en su estadio de Alta Córdoba, desestimando rumores sobre un posible cambio de sede. El conjunto cordobés buscará aprovechar la localía en el Monumental Presidente Perón para avanzar a las semifinales del certamen.",
+    "ai_generated_at": "2026-11-25T00:01:11.036743+00:00",
+    "photo_checked_at": "2026-11-25T00:01:56.506771+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "FernandoAlarcon",
+        "Instituto",
+        "River"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-25T00:01:11.036743+00:00",
+    "instagram_media_id": "18090407333511941"
   },
   {
     "id": "6f0b40037b165688f0db",
@@ -10732,11 +10839,45 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-24T23:38:54.041740+00:00",
-    "status": "awaiting_ai",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Gabriel Rojas",
+    "visual_entities": {
+      "personas": [
+        "Gabriel Rojas",
+        "Diego Milito"
+      ],
+      "clubes": [
+        "Racing",
+        "Cruzeiro"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Belo Horizonte"
+      ]
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Racing busca concretar el regreso de Gabriel Rojas",
+    "caption": "La dirigencia de Racing, liderada por Diego Milito, tiene en carpeta al lateral izquierdo para reforzar el plantel tras un año irregular. El futbolista actualmente milita en Cruzeiro, donde no ha logrado consolidarse ni adaptarse al ritmo de juego del equipo brasileño, lo que abre la posibilidad de una negociación para su retorno al club de Avellaneda.",
+    "ai_generated_at": "2026-11-25T00:01:11.036743+00:00",
+    "photo_checked_at": "2026-11-25T00:02:25.307246+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "GabrielRojas",
+        "DiegoMilito",
+        "Racing",
+        "Cruzeiro"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-25T00:01:11.036743+00:00",
+    "instagram_media_id": "17946333045369142"
   },
   {
     "id": "57c0c5dcfd3a7a447249",
@@ -10815,12 +10956,42 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-24T23:46:51.309905+00:00",
-    "status": "awaiting_ai",
+    "status": "published",
     "article_context": "Viktor Gyokeres has scored three goals in all competitions this season for Arsenal.\nIt might be emerging more as a theme than as a major problem, but in recent weeks Arsenal cannot seem to finish off matches when they are on top.\nIn their past nine outings across all competitions, just once have the Gunners won a game by more than a single goal.\nThe latest frustration came in Tuesday's 1-1 draw with Borussia Dortmund, though perspective is needed. Arsenal might consider it as two points dropped having gone into half-time ahead, but they remain unbeaten in the current Champions League league phase and have not lost at this stage of the competition for more than two years.\nBut of late, despite dominating large parts of matches, Arsenal have had periods where they have dropped off and allowed opponents back into the game.\nAgainst Slavia Prague away in the Champions League, after scoring twice in the first half, Arsenal 's standards dropped. The same happened against Newcastle in the Premier League last weekend where they found themselves 2-1 behind in the second half having led at the break, before recovering to eventually draw 2-2.\nThey are producing periods of high-level football, but the struggles to consistently turn that into more goals can lead to nervy finishes.\nIn the draw with Bundesliga leaders Dortmund, Arsenal had 30 shots but just four of those attempts were on target.\nBoss Mikel Arteta mentioned the failure to capitalise post match, though was keen to praise his side's \"brilliant performance\".\n\"The way we played, bearing in mind the opposition that we played today and what we've done out there, is just something to be very, very pleased [about] because there is very little more that you can demand from the team,\" Arteta said.\n\"But obviously, the feeling is that we should reward ourselves much more when you put that kind of performance in the amount of chances (and) situations.\n\"There is an element of luck; there is an element of us finishing the actions better. We need to insist because I think what the team has done and shown today, I think it's the right direction.\"\nArsenal held by Borussia Dortmund in Champions League\nArteta made six changes to the side that drew with Newcastle , with one of the biggest calls to rest striker Kai Havertz and bring in Viktor Gyokeres.\nThe striker has had a difficult season so far, with four of his seven starts coming in the Champions League against opposition where Arsenal have been favourites.\nHowever, Gyokeres scored a powerful effort from outside the area to give Arsenal the lead against Dortmund.\nOverall though, it ended up being a mixed night for the 28-year-old as he missed a header from inside the six-yard-box that would have surely won the game for the Gunners late on.\nArteta was asked if the chances his side are missing were down to mentality, misfortune or composure.\n\"There is an element of luck here because how some of the goals they haven't gone inside, I don't know.\n\"The execution can be better, but everything that is in between that, I think it was really, really good.\"\nArteta was also full of praise for Gyokeres, with particular emphasis on the striker's link-up play; an element of his game at times criticised.\n\"What I love the most is how connected he was to the team,\" Arteta said.\n\"We used him many times in different ways. His link-up play, the way he held the ball, the way he threaded in behind and stretched the pitch.\n\"There was a lot to like in that performance and that's the Viktor that we needed.\"\nNoni Madueke has been Arsenal 's best attacker in recent weeks.\nThe winger, who was left out of the last England squad, is enjoying a run in the Arsenal starting XI with Bukayo Saka out injured and is taking his opportunity.\nMadueke has registered a goal and two assists in his past three games and was again the best Arsenal forward against Dortmund.\nThe Gunners host Manchester City on Sunday and are currently six points clear at the top of the Premier League table.\nMadueke, who was frustrated with the performance against Dortmund, said the clash with third-placed City is a great chance to get back to winning ways and shake off any frustration.\n\"I think these are the best games. I'm really looking forward to it. Two draws on the bounce now and I just desperately want to win on the weekend and I know my team-mates feel the same,\" Madueke told Amazon Prime.\n\"We are going to do everything we have to win the three points. We're champions, we're at home. We have a duty to perform well at the Emirates.\n\"There are things we need to improve but all in all we are going in the right direction.\"\n'Pass, pass, slow, slow' - Man City's slick machine grinding to a halt\nPochettino leads Man Utd fury at Yoro red card ruling\nArteta says Arsenal need more luck to kill off games\nA festive comedy featuring Jason Bateman, Olivia Munn and Jennifer Aniston\nIs cough medicine any better than just taking honey and lemon?\nLucy unlocks the secrets of four spectacular palaces\nThe controversial operation that transplanted a baboon's heart into a baby\n115 days, 39 private-jet flights, one election - Infantino's globetrotting\nWhy has De Bruyne struggled at Napoli as he returns to Man City?\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nWho has made Troy's Premier League team of the week?\nEngland's tearaway quick bowler reinvented as a top-order batter\nChaotic week, nightmare start and huge reality check for Pochettino\nA 'wow' player - why Ngumoha is already a Liverpool game-changer\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland will not get carried away by beating All Blacks\nVerstappen a constant amid chaos as he says Russell is 'so far below my level'\nThe sandpaper plot - who was there, who said what?\nThe 3pm football blackout: Outdated or still relevant in 2026?\nJosh Kerr: The making of the man behind the shades\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Mikel Arteta",
+    "visual_entities": {
+      "personas": [
+        "Mikel Arteta"
+      ],
+      "clubes": [
+        "Arsenal",
+        "Borussia Dortmund"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Arteta pide mayor fortuna para cerrar los partidos del Arsenal",
+    "caption": "Mikel Arteta analizó el reciente empate 1-1 frente al Borussia Dortmund en la Champions League, señalando que el equipo genera ocasiones suficientes pero carece de la eficacia necesaria para sentenciar los encuentros. A pesar de dominar el juego, el Arsenal ha tenido dificultades para ampliar sus ventajas en las últimas semanas, lo que ha derivado en resultados ajustados. El técnico destacó el desempeño de Viktor Gyokeres, quien anotó el gol del equipo, y subrayó la importancia de mantener la convicción en su propuesta futbolística antes del próximo duelo frente al Manchester City por la Premier League.",
+    "ai_generated_at": "2026-11-25T00:01:11.036743+00:00",
+    "photo_checked_at": "2026-11-25T00:01:28.606862+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "MikelArteta",
+        "Arsenal",
+        "BorussiaDortmund"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-25T00:01:11.036743+00:00",
+    "instagram_media_id": "18101911901557555"
   },
   {
     "id": "7afea4c256af93cc3e58",
@@ -10833,11 +11004,37 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-24T23:48:55.106197+00:00",
-    "status": "awaiting_ai",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Jalen Duren",
+    "visual_entities": {
+      "personas": [
+        "Jalen Duren"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Jalen Duren entrena con Pistons tras superar dolencia física",
+    "caption": "El pívot de Detroit completó la sesión de práctica con sus compañeros este martes. Tras esta evolución positiva, el jugador iniciará un proceso de rehabilitación supervisado para retomar el ritmo de competencia en la NBA. Su retorno a las canchas dependerá de cómo responda su cuerpo a las cargas de trabajo durante los próximos días.",
+    "ai_generated_at": "2026-11-25T00:01:11.036743+00:00",
+    "photo_checked_at": "2026-11-25T00:03:22.019365+00:00",
+    "portrait_info": null,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "NBA",
+        "JalenDuren"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-25T00:01:11.036743+00:00",
+    "instagram_media_id": "18110889917113855"
   },
   {
     "id": "bcb1b4329ec6f64e71ea",
@@ -10850,11 +11047,37 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-24T23:52:57.846703+00:00",
-    "status": "awaiting_ai",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "Jade Haliburton"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Tyrese Haliburton y su esposa esperan a su primer hijo",
+    "caption": "El base de Indiana Pacers y su esposa, Jade Haliburton, compartieron la noticia de su primer embarazo a través de redes sociales. La pareja contrajo matrimonio el pasado mes de agosto, tras siete años de relación sentimental.",
+    "ai_generated_at": "2026-11-25T00:01:11.036743+00:00",
+    "photo_checked_at": "2026-11-25T00:03:47.215226+00:00",
+    "portrait_info": null,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "NBA",
+        "JadeHaliburton"
+      ],
+      "mentions": []
+    },
+    "posted_at": "2026-11-25T00:01:11.036743+00:00",
+    "instagram_media_id": "18122719898079438"
   },
   {
     "id": "0bc2da008b2038503d7d",
