@@ -12664,7 +12664,7 @@
     "headline": "¿Manchester United se perfila como el nuevo Tottenham?",
     "caption": "Manchester United, bajo la dirección de Mauricio Pochettino, arranca la temporada con la peor puesta a punto desde 1972 y se encuentra en la zona de descenso de la Premier League. Opta calcula una probabilidad del 27,5 % de descenso, situándolos como el quinto club con mayor riesgo, detrás de Crystal Palace, Sunderland, Ipswich y Coventry. Sus estadísticas de goles esperados son similares a las de Tottenham en la misma fase, aunque su eficacia frente a puerta rival es la segunda peor. Con nueve partidos sin victoria y una diferencia de ocho puntos respecto a la temporada anterior, la pregunta es: ¿logrará Pochettino revertir la tendencia antes de que la tabla los condene?",
     "ai_generated_at": "2026-11-25T06:33:45.715775+00:00",
-    "photo_checked_at": "2026-11-25T14:35:06.145410+00:00",
+    "photo_checked_at": "2026-11-25T14:57:55.616053+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -13050,7 +13050,7 @@
     "headline": "Manchester City no podrá usar su nuevo cuarto uniforme en Premier League",
     "caption": "El club inglés no podrá lucir su nuevo cuarto equipamiento en la Premier League porque la normativa permite un máximo de tres camisetas por campaña. Podrá usarlo en la Champions League y, con solicitud a la FA, en la FA Cup. La restricción, que también afecta a otros equipos, plantea la duda de si limita las oportunidades comerciales de los clubes al impedir la explotación de diseños adicionales.",
     "ai_generated_at": "2026-11-25T09:53:06.499892+00:00",
-    "photo_checked_at": "2026-11-25T14:35:04.209351+00:00",
+    "photo_checked_at": "2026-11-25T14:57:53.261949+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -13787,7 +13787,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T14:35:02.593304+00:00",
+    "photo_checked_at": "2026-11-25T14:57:51.582853+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -14319,7 +14319,7 @@
       "photo_provider": "Wikidata photo bank",
       "verified_at": "2026-11-25T14:11:20.293735+00:00"
     },
-    "photo_checked_at": "2026-11-25T14:34:25.626364+00:00",
+    "photo_checked_at": "2026-11-25T14:57:08.178444+00:00",
     "visual_mode": "licensed_photo",
     "photo_credit_full": "",
     "promotion": {
@@ -14437,6 +14437,77 @@
         "Futbol",
         "Liga",
         "Clausura"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "4a899c205b102e2856e4",
+    "title": "Premier League’s burst of early sendings-off may not last – but red cards are on the rise for a reason",
+    "source_url": "https://www.theguardian.com/football/2026/nov/25/premier-league-red-cards-costinha-leny-yoro-james-tarkowski-referees",
+    "source": "The Guardian",
+    "description": "While referees tend to reach for red early in the season before easing off, players are under increasing pressure to keep pace in a frenetic environment Off! Off! Off! The past three Premier League games have featured a red card, each for a different reason. Brighton’s Costinha was sent off for two bookings at Hull , Leny Yoro collected a red card against Liverpool for denying a goalscoring opportunity ( though his suspension was overturned on appeal ) and James Tarkowski saw red for serious foul play at Brentford . This season is shaping up to",
+    "published_at": "2026-11-25T14:46:33+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-25T14:56:15.299554+00:00",
+    "status": "draft",
+    "visual_subject": "Leny Yoro",
+    "visual_entities": {
+      "personas": [
+        "Costinha",
+        "Leny Yoro",
+        "James Tarkowski"
+      ],
+      "clubes": [
+        "Brighton",
+        "Hull",
+        "Liverpool",
+        "Brentford"
+      ],
+      "competicion": [
+        "Premier League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Tres expulsiones tempranas aumentan tarjetas rojas en Premier",
+    "caption": "En los últimos tres partidos de la Premier League, Costinha (Brighton) fue expulsado por segunda amonestación en Hull, Leny Yoro recibió tarjeta roja contra Liverpool por impedir una clara oportunidad de gol (suspensión revocada) y James Tarkowski vio la roja por falta grave en Brentford. Los árbitros tienden a sancionar con mayor dureza al inicio de la temporada, lo que refleja una presión creciente sobre los jugadores. ¿Se trata de una aplicación más estricta de la normativa o de un juego cada vez más violento?",
+    "ai_generated_at": "2026-11-25T14:56:15.299554+00:00",
+    "ai_art_used": false,
+    "photo_used": true,
+    "portrait_used": true,
+    "reference_photo_used": false,
+    "portrait_info": {
+      "subject": "Leny Yoro",
+      "wikidata_id": "Q112039295",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Leny_Yoro_%2808-10-2023%29_12_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "license": "cc0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "commons_filename": "Leny Yoro (08-10-2023) 12 (cropped).jpg",
+      "photographer": "",
+      "credit_required": false,
+      "share_alike": false,
+      "width": 562,
+      "height": 749,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Leny_Yoro_%2808-10-2023%29_12_%28cropped%29.jpg",
+      "entity_kind": "person",
+      "entity_qid": "Q112039295",
+      "photo_provider": "Wikidata photo bank",
+      "verified_at": "2026-11-25T14:57:49.409886+00:00"
+    },
+    "photo_checked_at": "2026-11-25T14:57:49.410900+00:00",
+    "visual_mode": "licensed_photo",
+    "photo_credit_full": "",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "Costinha",
+        "LenyYoro",
+        "JamesTarkowski",
+        "Brighton"
       ],
       "mentions": []
     }

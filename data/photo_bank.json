@@ -124,5 +124,23 @@
     "entity_qid": "Q17515",
     "photo_provider": "Wikidata photo bank",
     "verified_at": "2026-11-25T14:11:20.293735+00:00"
+  },
+  "person:leny yoro": {
+    "subject": "Leny Yoro",
+    "wikidata_id": "Q112039295",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Leny_Yoro_%2808-10-2023%29_12_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "cc0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "commons_filename": "Leny Yoro (08-10-2023) 12 (cropped).jpg",
+    "photographer": "",
+    "credit_required": false,
+    "share_alike": false,
+    "width": 562,
+    "height": 749,
+    "file_page": "https://commons.wikimedia.org/wiki/File:Leny_Yoro_%2808-10-2023%29_12_%28cropped%29.jpg",
+    "entity_kind": "person",
+    "entity_qid": "Q112039295",
+    "photo_provider": "Wikidata photo bank",
+    "verified_at": "2026-11-25T14:57:49.409886+00:00"
   }
 }
