@@ -32,6 +32,7 @@ from curated_portraits import pick_curated
 import free_llm
 import scorecards
 import tennis_scorecards
+import reels
 from growth import append_promotion
 from news_novelty import duplicate_reason, novelty_priority, same_story
 
@@ -845,7 +846,21 @@ def run(reference: datetime | None = None, session=None) -> dict:
                         caption += "\nFoto de archivo: estadio asociado al club; no corresponde necesariamente al encuentro."
                 item.pop("photo_deferred_reason", None)
                 caption = append_promotion(caption, item)
-                media_id = publish_image(path, caption, item["id"])
+                video_path = None
+                if os.getenv("ENABLE_REELS", "").lower() == "true" and reels.eligible(item):
+                    try:
+                        video_path = reels.render(item, path, ROOT / "output" / "reels" / (item["id"] + ".mp4"), BRAND)
+                    except Exception as render_exc:
+                        # Rendering failure is safe to fall back from: no Meta call occurred.
+                        print(f"[REELS] Render unavailable: {type(render_exc).__name__}; publishing image")
+                if video_path:
+                    from publisher import publish_reel
+                    item["publish_format"] = "reel"
+                    media_id = publish_reel(video_path, caption, item["id"])
+                    print(f"[REELS] Published {item['id']}")
+                else:
+                    item["publish_format"] = "image"
+                    media_id = publish_image(path, caption, item["id"])
                 item["status"] = "published"
                 item["posted_at"] = iso(reference)
                 item["instagram_media_id"] = media_id
