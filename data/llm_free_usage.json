@@ -2,9 +2,9 @@
   "date_utc": "2026-11-25",
   "providers": {
     "groq": {
-      "attempts": 7,
+      "attempts": 9,
       "success": 2,
-      "failures": 5,
+      "failures": 7,
       "latencies_ms": [
         1927,
         1538
@@ -14,7 +14,7 @@
         100
       ],
       "last_error": "http_429",
-      "blocked_until_utc": 1795567105
+      "blocked_until_utc": 1795567538
     },
     "gemini": {
       "attempts": 20,
@@ -49,14 +49,18 @@
       "last_error": "invalid_output"
     },
     "openrouter": {
-      "attempts": 16,
-      "success": 1,
+      "attempts": 18,
+      "success": 3,
       "failures": 15,
       "latencies_ms": [
-        24860
+        24860,
+        194447,
+        42627
       ],
       "quality": [
-        100
+        100,
+        100,
+        85
       ],
       "last_error": "invalid_output"
     },
