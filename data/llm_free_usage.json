@@ -148,13 +148,13 @@
       "blocked_until_utc": 1795592986
     },
     "zai": {
-      "attempts": 6,
+      "attempts": 7,
       "success": 0,
-      "failures": 6,
+      "failures": 7,
       "latencies_ms": [],
       "quality": [],
       "last_error": "http_429",
-      "blocked_until_utc": 1795592859
+      "blocked_until_utc": 1795596489
     }
   },
   "last_success": "groq"
