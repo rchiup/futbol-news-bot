@@ -85,6 +85,8 @@ jobs:
           ZAI_FREE_TIER_CONFIRMED: ${{ vars.ZAI_FREE_TIER_CONFIRMED || 'true' }}
           FREE_LLM_ORDER: ${{ vars.FREE_LLM_ORDER || 'groq,gemini,openrouter,cloudflare,cerebras,nvidia,zai' }}
           ENABLE_REMBG: 'true'
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_TIKTOK_CHANNEL_ID: ${{ vars.BUFFER_TIKTOK_CHANNEL_ID }}
           ENABLE_REELS: ${{ vars.ENABLE_REELS || 'true' }}
           PIPER_MODEL: /home/runner/.cache/chao-piper/es_ES-davefx-medium.onnx
           BRAND_NAME: ${{ vars.BRAND_NAME || 'CHAO FELICEVICH' }}
