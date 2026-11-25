@@ -17702,7 +17702,7 @@
     "category": "PARTIDOS",
     "source": "ESPN",
     "published_at": "2026-11-25T18:56:54.791848-03:00",
-    "status": "draft",
+    "status": "published",
     "match_result": [
       {
         "name": "Sporting CP",
@@ -17726,7 +17726,11 @@
         "Futbol"
       ],
       "mentions": []
-    }
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-25T22:24:15.274247+00:00",
+    "posted_at": "2026-11-25T22:24:15.274247+00:00",
+    "instagram_media_id": "17915143575578208"
   },
   {
     "id": "93b1a1ce0cc057b8536f",
