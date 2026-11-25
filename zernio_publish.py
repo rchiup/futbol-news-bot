@@ -61,3 +61,23 @@ def submit(item, platform, url, caption, session=requests, persist=None):
         item[field+"_status"]="check_required"
         print("[ZERNIO] "+platform+" submission uncertain: "+type(exc).__name__)
         return "uncertain"
+
+
+def refresh(item, platform, session=requests):
+    field = "zernio_"+platform
+    identifier = item.get(field+"_id")
+    key = os.getenv("ZERNIO_API_KEY", "").strip()
+    if not key or not identifier or item.get(field+"_status") not in ("uploading","pending","publishing","processing","accepted","scheduled","sending","check_required"):
+        return
+    try:
+        response = session.get(BASE+"/posts/"+str(identifier), headers={"Authorization":"Bearer "+key}, timeout=20)
+        response.raise_for_status()
+        post = response.json().get("post") or {}
+        result = next((p for p in post.get("platforms",[]) if p.get("platform")==platform),{})
+        status = result.get("status") or post.get("status")
+        if status:
+            item[field+"_status"] = str(status)
+        if result.get("platformPostUrl"):
+            item[field+"_url"] = result["platformPostUrl"]
+    except Exception as exc:
+        print("[ZERNIO] Status lookup unavailable: "+type(exc).__name__)
