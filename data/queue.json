@@ -11857,7 +11857,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T03:05:11.464714+00:00",
-    "status": "draft",
+    "status": "expired",
     "visual_subject": "",
     "visual_entities": {
       "personas": [],
