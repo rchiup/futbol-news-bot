@@ -14257,7 +14257,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T16:18:19.764571+00:00",
+    "photo_checked_at": "2026-11-25T16:40:40.652627+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -14461,7 +14461,7 @@
     "headline": "Boca celebra Sudamericana y récord de 19 copas",
     "caption": "El campeón de la Liga y de la Copa Sudamericana, Boca Juniors, recibió este miércoles a Independiente Rivadavia en los octavos del Clausura mientras sus hinchas desfilaban por los alrededores de la Bombonera con pancartas que proclamaban “El que más copas ganó”. El trofeo será exhibido en el estadio y el capitán Leandro Paredes lo mostrará al público. La celebración, aunque vistosa, llega en medio de la exigencia de seguir ganando, pues el equipo deberá superar a Independiente Rivadavia para avanzar. ¿Podrá Boca mantener su dominio continental sin perder el foco en la competición local?",
     "ai_generated_at": "2026-11-25T14:43:16.269922+00:00",
-    "photo_checked_at": "2026-11-25T16:18:18.607632+00:00",
+    "photo_checked_at": "2026-11-25T16:40:38.507705+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -14585,7 +14585,7 @@
     "headline": "NBA impulsa iniciativa de $11 mil millones para arenas europeas",
     "caption": "La NBA anunció un plan que destina cerca de 11 mil millones de dólares para la construcción y renovación de arenas en toda Europa, paso clave en su proyecto de crear una liga europea. La medida busca impulsar la infraestructura necesaria y posicionar al baloncesto norteamericano en el continente. ¿Será suficiente la inversión para materializar la liga y competir con otras competiciones locales?",
     "ai_generated_at": "2026-11-25T15:49:55.060290+00:00",
-    "photo_checked_at": "2026-11-25T16:18:19.069449+00:00",
+    "photo_checked_at": "2026-11-25T16:40:39.360627+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -14704,7 +14704,7 @@
     "headline": "River busca al joven zaguero Mauro Coronel",
     "caption": "River inició gestiones por Mauro Coronel, central paraguayo de 18 años que debutó con la selección mayor y se consolidó como titular en Nacional. El presidente del club guaraní, Enrique Sánchez, confirmó que habló con Stefano Di Carlo y que el interés es real, aunque aún no hay oferta oficial. Además, el jugador atrae miradas de Brighton y Aston Villa. ¿Logrará River asegurar al talento antes de que Europa le presente una propuesta?",
     "ai_generated_at": "2026-11-25T15:26:51.310917+00:00",
-    "photo_checked_at": "2026-11-25T16:18:17.865689+00:00",
+    "photo_checked_at": "2026-11-25T16:40:36.333235+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -14798,7 +14798,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T16:18:19.304721+00:00",
+    "photo_checked_at": "2026-11-25T16:40:39.791558+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -14955,7 +14955,7 @@
     "sport": "FUTBOL",
     "score": 34,
     "queued_at": "2026-11-25T16:21:59.354020+00:00",
-    "status": "draft",
+    "status": "published",
     "article_context": "Fermín López has been hit with a two-match suspension after getting sent off in Barcelona 's comeback win against Villarreal last weekend.\nFermín, 23, will miss Barça's LaLiga fixtures at Deportivo A Coruña this weekend and the home game against title rivals Atlético Madrid next Wednesday.\nBarça plan to appeal the ban, a source told ESPN.\nThe Spain international was dismissed in the second half of Barça's 3-2 victory at Spotify Camp Nou over Villarreal for protesting a decision after he had been substituted.\nJumping up from the bench, where he was watching the match after coming off, he approached the fourth official to appeal for a penalty after Anthony Gordon went down in the box.\n\"Are you f------ kidding me?!\" he shouted when a spot kick was not awarded.\nFermín then disappeared down the tunnel, preventing referee Alejandro Hernández Hernández from showing him a red card, but the official's post-match report confirmed the midfielder had been sent off.\nSpeaking ahead of Wednesday's Champions League game against Sabah, Barça coach Hansi Flick joked he may have to re-think where Fermín sits on the bench.\n- Jesús Owono: Goalkeeper trains solo amid 12-game ban after Jesús De Miguel death - Who are Sabah FK, Barcelona's Champions League opponents? - Dortmund draw shows that the jury is still out on Gyökeres\n\"We have two rows, so next time we will have to see where we put the players who are, let's say, very emotional, like Fermín,\" Flick said.\n\"We will put them in the last row. I think it's better he has more metres to go! It's not nice that he has the red card because we have a lot of important games coming up.\"\nFermín started poorly against Villarreal, with his mistake leading to the away team's first goal as they took a shock 2-0 lead inside seven minutes.\nHowever, Barça responded after the break, with Fermín netting the equaliser as the LaLiga leaders came from behind to win 3-2 and make it 12 wins from 13 league games this season.\nFermín has been in fine form across all competitions, scoring nine goals and providing seven assists in 16 appearances.",
     "visual_subject": "Fermín López",
     "visual_entities": {
@@ -14991,7 +14991,11 @@
         "Villarreal"
       ],
       "mentions": []
-    }
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-25T16:39:05.401120+00:00",
+    "posted_at": "2026-11-25T16:39:05.401120+00:00",
+    "instagram_media_id": "18226659565337492"
   },
   {
     "id": "ed728a2985405facd2ba",
@@ -15071,11 +15075,36 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-25T16:32:13.547779+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Estudiantes",
+        "Palmeiras"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Estudiantes y Palmeiras repetirán final en el Centenario",
+    "caption": "Estudiantes, que ganó su primera Copa Libertadores en 1968 en el Estadio Centenario, vuelve a ese escenario para disputarse la final contra Palmeiras, el mismo rival de entonces. Tras 21 380 días, el duelo se repite en el histórico recinto. ¿Podrá la nostalgia del Pincha influir en el resultado o Palmeiras mantendrá la ventaja de los últimos años?",
+    "ai_generated_at": "2026-11-25T16:39:05.401120+00:00",
+    "photo_checked_at": "2026-11-25T16:40:38.082152+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "Estudiantes",
+        "Palmeiras"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "4634251c807f418f4426",
