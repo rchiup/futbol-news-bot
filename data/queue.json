@@ -13060,5 +13060,38 @@
       ],
       "mentions": []
     }
+  },
+  {
+    "id": "5b8ec02ff572c9cbaeba",
+    "title": "Search for next USMNT head coach needs to prioritize competence over fame",
+    "source_url": "https://www.theguardian.com/football/2026/nov/25/usmnt-head-coach-search",
+    "source": "The Guardian",
+    "description": "The job of Mauricio Pochettino’s successor is to fine-tune a team on the up. That requires a bureaucrat rather than a figurehead First, let’s get the Pep Exception out of the way. Or perhaps we’d better call it the Guardiola Caveat. Regardless, the point is the same. If US Soccer can get Pep Guardiola to manage the United States men’s national team, it should. Because when you have the chance to employ the most successful and influential coach of his generation, the thinker who stands upstream of essentially every major tactical current of the ",
+    "published_at": "2026-11-25T10:00:12+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-25T10:10:46.383589+00:00",
+    "status": "duplicate",
+    "visual_subject": "Pep Guardiola",
+    "visual_entities": {
+      "personas": [
+        "Pep Guardiola",
+        "Mauricio Pochettino"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "EE.UU. busca nuevo DT y prioriza competencia sobre fama",
+    "caption": "US Soccer debe elegir al sucesor de Mauricio Pochettino con criterio técnico, no como figura mediática. El resumen sugiere que, aunque contar con Pep Guardiola sería ideal, lo esencial es un entrenador que afine al equipo y mejore su rendimiento. La presión por un nombre de renombre no debe eclipsar la necesidad de experiencia táctica. ¿Podrá la federación encontrar un técnico competente que realmente eleve al conjunto nacional?",
+    "ai_generated_at": "2026-11-25T10:10:46.383589+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "duplicate_of": "same_story_as:c56e99c587165b7bd43e"
   }
 ]
