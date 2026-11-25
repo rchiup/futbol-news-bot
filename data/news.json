@@ -10918,5 +10918,29 @@
     "source": "BBC Sport",
     "collected_at": "2026-11-25T23:03:22.915295+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "e5dcb776047f7c4a0fc1501e6b52e8c174538615daf027ec9fa973f414fb1e85",
+    "title": "Pep Guardiola drops major hint on next managerial job",
+    "url": "https://talksport.com/football/4732443/pep-guardiola-next-manager-job/",
+    "source": "Football News, Transfers, Opinion - talkSPORT",
+    "collected_at": "2026-11-25T23:05:50.237318+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "28fa5b505ff65e4026314aa8364bd5734a32198d39b7325e1a01cae60d3182f0",
+    "title": "El sentido elogio del Cholo Simeone para Julián Alvarez: \"Creo en él y lo quiero como persona\"",
+    "url": "https://www.ole.com.ar/futbol-internacional/champions/sentido-elogio-simeone-alvarez-atletico-madrid-champions_0_glaERdT1TY.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-25T23:05:50.409149+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "0159f0d9527fe4d0b1d40a3af2728bf9fdf9c8df7c9bb0bb6cfaa8244a444a6f",
+    "title": "Quilmes inició su reestructuración de cara al 2027",
+    "url": "https://www.ole.com.ar/futbol-ascenso/quilmes-emanueltripodi-joaquiniturreria-leovillarruel-ascenso-primeranacional_0_sOPobNzp1X.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-25T23:05:50.409163+00:00",
+    "status": "pending_review"
   }
 ]
