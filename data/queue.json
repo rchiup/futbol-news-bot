@@ -11912,7 +11912,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T11:47:22.916091+00:00",
+    "photo_checked_at": "2026-11-25T12:10:57.534705+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -11995,7 +11995,7 @@
     "headline": "Comisión mixta aprueba recursos para memoria y oficinas de expresidentes",
     "caption": "La comisión mixta, integrada por cinco diputados y cinco senadores, aprobó este martes la asignación de fondos para los sitios de memoria y para cubrir los gastos de oficina de los expresidentes, partidas que habían quedado pendientes en el proyecto de ley de Presupuesto 2027. La medida busca cerrar las discrepancias entre Cámara Baja y Senado, pero ¿es suficiente para atender las demandas de preservación histórica y de los expresidentes?",
     "ai_generated_at": "2026-11-25T05:22:49.908887+00:00",
-    "photo_checked_at": "2026-11-25T11:47:24.039733+00:00",
+    "photo_checked_at": "2026-11-25T12:10:58.530883+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -12015,7 +12015,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T03:05:11.464714+00:00",
-    "status": "draft",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -12574,7 +12574,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T11:47:18.734997+00:00",
+    "photo_checked_at": "2026-11-25T12:10:54.511139+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -13619,6 +13619,23 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T12:05:36.493289+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "4cf17c7e59ca3defa5a7",
+    "title": "Will Hajime Moriyasu get a high-profile job in Europe after his eight years in charge of Japan?",
+    "source_url": "https://www.theguardian.com/football/2026/nov/25/hajime-moriyasu-leave-japan-world-cup-samurai-blue",
+    "source": "The Guardian",
+    "description": "The coach will leave early after the postponement of the Asian Cup and, while there has been clear progress, some had hoped for better results at World Cups A popular Christmas tradition in Japan is to head to KFC but there is an unexpected item on the menu to chew over this year for the millions who do so – a meaty debate over Hajime Moriyasu’s eight years as national-team head coach. Among the many consequences of the Asian Cup’s postponement from January 2027 to December is the fact his tenure has ended early. The 58-year-old was supposed to",
+    "published_at": "2026-11-25T12:00:26+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-25T12:09:19.594927+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
