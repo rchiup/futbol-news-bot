@@ -7647,7 +7647,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T18:31:03.288221+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -7662,12 +7662,21 @@
       ],
       "ciudad": []
     },
-    "llm_provider": "cloudflare",
-    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-    "headline": "Cisneros y Dato lideran el Top 10",
-    "caption": "La última semana de La Liga Nacional destacó grandes acciones, como la conexión aérea de Ányelo Cisneros y Martiniano Dato en el triunfo de Gimnasia frente a Boca, además de jugadas destacadas de Patricio Cogliati, Bryan Carabalí y Franco Balbi.",
-    "ai_generated_at": "2026-11-24T19:31:01.457121+00:00",
-    "editorial_rechecked": true
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "La Liga Nacional publicó las mejores jugadas de la semana",
+    "caption": "La selección semanal reunió conexiones aéreas, volcadas, tapas y triples en distintos escenarios. Ányelo Cisneros y Martiniano Dato encabezaron el ranking con una conexión aérea en el triunfo de Gimnasia frente a Boca; también hubo acciones de Quimsa, Ferro, Oberá, Atenas y Regatas. ¿La elección hace justicia al espectáculo de la semana?",
+    "ai_generated_at": "2026-11-25T02:59:39.431279+00:00",
+    "editorial_rechecked": true,
+    "photo_checked_at": "2026-11-25T03:03:35.033761+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "LaLigaNacional"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "a87df9d1e4c1ed5ae124",
@@ -8419,27 +8428,33 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T19:36:54.801899+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "article_context": "More than 10 months on from a chaotic, controversial final, Senegal are Africa's champions once again.\nSenegal won back the Africa Cup of Nations title in a legal fight Tuesday after the Court of Arbitration for Sport overturned an earlier ruling that handed the trophy to Morocco .\nSenegal won the Africa Cup of Nations on the field in a chaotic final in Morocco in January and then lost it in a legal case in March because their players walked off the field in protest in second-half stoppage time.\n- AFCON 2025 Final: Nothing could have been more embarrassing for African football\nCAS has now rejected that earlier ruling, citing referee Jean-Jacques Ndala's decision to let the game resume after the protest.\n\"Once again and forever, champions of Africa,\" the Senegalese soccer federation posted on social media.\nTournament regulations said a team that refuses to play should be considered to have lost the game, but CAS said those rules were meant only for cases \"when a team's conduct leads the referee to call off the game permanently.\"\nNdala \"did not err in law\" when he resumed the game, CAS added.\n\"The panel acknowledged that the referee had to make a decision in an atmosphere of extreme tension,\" CAS said. \"However, these circumstances do not justify describing the decision as 'arbitrary.' On the contrary, the referee's judgment did not appear to have been affected by factors external to the game.\"\nMorocco's soccer federation detailed plans for an appeal that targets one of the three judges on the CAS panel.\nIn a statement, the Moroccan federation protested what it described as the court's failure to address potential integrity concerns, alleging \"confirmed communication\" between German arbitrator Ulrich Haas and Fall, the Senegalese soccer president, 48 hours before the decision was issued.\nThe CAS director general, Matthieu Reeb, acknowledged to reporters at the court in Lausanne that a Moroccan protest was received just minutes before the verdict was announced.\nReeb said the court's panel \"in charge of petitions for challenge has conceded that there was not enough elements at this stage to postpone the notification of the award.\"\nCAS verdicts can be challenged at Switzerland's supreme court, also in Lausanne, though only on limited procedural grounds of which a judge's integrity could be one.\nHaas has been among the most respected and in-demand CAS judges in the past 20 years, selected by parties in storied cases involving Manchester City beating a Champions League ban by UEFA, tennis star Simona Halep's doping case and Africa's Champions League final in 2019.\nPatrick Kabou, a lawyer for the Senegalese Soccer Federation, called the alleged communication between Fall and Haas \"unreal.\"\nThe Confederation of African Football (CAF) said that it \"respects the CAS Award and will take all the necessary measures to implement it.\"\nSenegal won the final 1-0 after extra time with chaos on the field and violent clashes in the stands. Even the ball boys were involved in scuffles as they tried to snatch towels that Senegal goalkeeper Edouard Mendy was using to keep his gloves dry.\nThe result was overturned two months later as a 3-0 default win for Morocco by an appeals panel appointed by CAF.\nSenegal beat AFCON host nation Morocco after a 15-minute delay in play. At 0-0, Senegal's team walked off the field to protest Morocco being awarded a penalty kick in the last minute of regulation time.\nMatch referee Ndala of Congo eventually allowed the game to restart, Morocco's penalty by Brahim Diaz was saved, and Senegal won in extra time.\nThe drama continued through the months of legal tussles. Senegal's players paraded with the trophy ahead of a game in March against Peru, even though Morocco was recognized as the champion at that point. Both teams played at the World Cup believing themselves to be the rightful champion of Africa.\nSenegal had the laws of the game on its side, and Morocco had the tournament regulations.\nThe laws of soccer state that referee decisions are final. CAS backed that position with its own \"field of play\" doctrine, that on-field calls by a referee generally can't be taken to the sports court.\n\"By blowing his whistle to restart play, the referee considered that the conditions for resuming the match had been met -- both teams were on the pitch again, and both expressed their willingness to resume,\" CAS said.\nIn the first legal case in March, CAF appeal judges cited AFCON tournament regulations that if a team \"refuses to play or leaves the ground before the regular end of the match without the authorization of the referee, it shall be considered loser and shall be eliminated for good from the current competition.\"\nThe CAS judges heard evidence at a one-day hearing last month, and the court promised a verdict by the end of November with a full written ruling of its judges setting out reasons for their decision.\nThe Senegalese federation (FSF) said it welcomed the ruling with \"deep satisfaction.\"\n\"Far from consecrating the pre-eminence of one party over another, this decision affirms above all the triumph of sporting fairness and recalls a cardinal principle: the truth of a match is established exclusively on the field, under the protection of sports law,\" the federation said in its statement.\nThe next men's AFCON starts in June co-hosted by Kenya, Uganda and Tanzania. Morocco will aim to end a wait for the title, which now stands at 50 years.\nTh Associated Press and PA contributed to this report.",
     "visual_subject": "",
     "visual_entities": {
       "personas": [],
       "clubes": [],
-      "competicion": [
-        "Africa Cup of Nations"
-      ],
+      "competicion": [],
       "ciudad": []
     },
-    "llm_provider": "groq",
-    "llm_model": "openai/gpt-oss-120b",
-    "headline": "Senegal recupera título de la CAN tras fallo del CAS",
-    "caption": "El Tribunal de Arbitraje Deportivo anuló la decisión que había otorgado el título de la Copa Africana de Naciones a Marruecos y devolvió el campeonato a Senegal. La medida se basó en que el árbitro Jean‑Jacques Ndala había reanudado el juego tras la protesta de los senegaleses, por lo que la normativa que penaliza la retirada del campo no era aplicable. La federación senegalesa celebró el fallo, mientras Marruecos anunció su intención de apelar.",
-    "ai_generated_at": "2026-11-24T19:36:54.801899+00:00",
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "CAS restituye a Senegal la Copa Africana de Naciones",
+    "caption": "El Tribunal de Arbitraje Deportivo (CAS) anuló la resolución de la CAF que daba a Marruecos un 3-0 por abandono y confirmó el 1-0 de Senegal en la final disputada en enero. El fallo se apoya en que el árbitro Jean-Jacques Ndala reanudó el partido y el penal de Brahim Diaz fue atajado; para el CAS, la norma de derrota por negarse a jugar solo aplica si el árbitro suspende el encuentro de forma definitiva. Marruecos anunció que recurrirá y cuestiona al árbitro del CAS Ulrich Haas por una supuesta comunicación con Fall, presidente de la federación senegalesa; el CAS sostuvo que no había elementos para postergar el fallo. ¿Debe un título decidirse meses después en los tribunales?",
+    "ai_generated_at": "2026-11-25T02:59:39.431279+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "editorial_rechecked": true
+    "editorial_rechecked": true,
+    "photo_checked_at": "2026-11-25T03:02:51.182989+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "6866eaeaba5c659dd9e3",
@@ -8452,7 +8467,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T19:36:54.801899+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "visual_subject": "Son Heung-Min",
     "visual_entities": {
       "personas": [
@@ -8465,16 +8480,27 @@
       "competicion": [],
       "ciudad": []
     },
-    "llm_provider": "groq",
-    "llm_model": "openai/gpt-oss-120b",
-    "headline": "Son Heung-Min respalda a Thomas Müller sobre presión en MLS",
-    "caption": "El delantero de LAFC, Son Heung-Min, ha respaldado los comentarios de Thomas Müller, quien describió el estilo de juego de la MLS como \"descuidado\" y señaló la falta de presión derivada de la ausencia de un sistema de ascenso y descenso. Este apoyo refuerza la visión de que la liga carece de la intensidad competitiva que se observa en otras competiciones.",
-    "ai_generated_at": "2026-11-24T19:36:54.801899+00:00",
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "Son Heung-Min respalda a Thomas Müller y la falta de presión",
+    "caption": "El delantero de LAFC Son Heung-Min respalda las críticas de Thomas Müller sobre el estilo de juego y la falta de presión que percibe la plantilla por la ausencia de un sistema de ascenso y descenso. Para Son, el problema no es solo el fútbol: es el contexto. ¿Debería la MLS asumir más responsabilidad o los jugadores aceptar un ritmo sin castigo?",
+    "ai_generated_at": "2026-11-25T02:59:39.431279+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "editorial_rechecked": true
+    "editorial_rechecked": true,
+    "photo_checked_at": "2026-11-25T03:02:52.908121+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "SonHeungMin",
+        "ThomasMuller",
+        "LAFC"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "16241e0b8d8a8aa07bb6",
@@ -8487,25 +8513,37 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T19:36:54.801899+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "article_context": "\"Ted Lasso\" is coming back for a fifth season.\nApple TV announced the series' renewal in a news release Monday . The fourth season covered the eponymous Lasso -- a former American college football coach who made a dramatic career change by coaching a struggling Premier League team -- as he returned to AFC Richmond to coach its second-division women's team. The season ended with him stepping down to the assistant coach position to spend more time with his family.\nThanks for believing. #TedLasso has been renewed for Season 5. https://t.co/epfW8riG7b\n\"Ted Lasso\" won back-to-back Emmy Awards for outstanding comedy series for its first two seasons. Jason Sudeikis, who plays Lasso, also won two outstanding lead actor in a comedy series awards for those seasons. The show also stars Hannah Waddingham, Brett Goldstein, Juno Temple and Jeremy Swift.\nA release date for the upcoming season has not yet been announced.",
-    "visual_subject": "",
+    "visual_subject": "Ted Lasso",
     "visual_entities": {
-      "personas": [],
+      "personas": [
+        "Ted Lasso"
+      ],
       "clubes": [],
       "competicion": [],
       "ciudad": []
     },
-    "llm_provider": "cloudflare",
-    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-    "headline": "Ted Lasso renovado",
-    "caption": "La serie de Apple TV ha sido renovada para una quinta temporada, después de ganar premios Emmy por sus dos primeras temporadas.",
-    "ai_generated_at": "2026-11-24T19:36:54.801899+00:00",
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "Ted Lasso tendrá quinta temporada en Apple TV",
+    "caption": "La serie fue renovada para una quinta temporada, aunque todavía no hay fecha de estreno. La comedia ganó dos Emmy consecutivos como mejor serie de comedia y cerró su cuarta entrega con Lasso pasando a ser asistente para dedicar más tiempo a su familia. ¿Conseguirá la nueva temporada justificar la espera?",
+    "ai_generated_at": "2026-11-25T02:59:39.431279+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "editorial_rechecked": true
+    "editorial_rechecked": true,
+    "photo_checked_at": "2026-11-25T03:03:29.734837+00:00",
+    "portrait_info": null,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "TedLasso"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "440674fda5f4aeb39c59",
@@ -9300,7 +9338,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T20:38:49.866462+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "article_context": "Franco Colapinto sigue contento. Risueño. Se sube al avión con el casco en la mano, apoya la cabeza en el asiento y recuerda los adelantamientos a los McLaren, las batallas con los pilotos de punta y el sexto puesto en el GP de Las Vegas , que seguramente ya atesoró en un lugar especial de su corazón. Pero en la Fórmula 1 hay que seguir, y hay semanas como estas en las que los corredores no tienen respiro: de inmediato, los 22 autos de la Máxima se dirigirán a Lusail, donde se disputará el GP de Qatar , que el bonaerense imagina que no se parecerá en nada al show estadounidense...\n\"Fue fantástico volver a sumar puntos en Las Vegas e igualar mi mejor resultado hasta la fecha en la Fórmula 1. Tuvimos un buen ritmo durante todo el fin de semana, ya que diversas características del circuito se adaptaron bien a nuestro monoplaza, y gestionamos el evento a la perfección con ambos coches. Esperamos mantener el impulso en Qatar \", pidió el corredor de 22 años.\nPalpitando lo que pasará en el Circuito Internacional de Lusail, y cómo espera que se dé, siguió: \"Probablemente volveremos a un tipo de carrera más normal , tras la intensa dinámica de succión que acabamos de vivir, que resultó ser algo muy singular\".\n¿Cuál será la clave? En pocas palabras, por cómo es este trazado, no equivocarse. \"El trazado castiga mucho los errores , con las escapatorias de grava situadas muy cerca de la salida de las curvas; cada vez que te abrís lo pagás. Pero el flujo de las curvas hace que completar una vuelta sea una experiencia muy gratificante. Estamos preparados para darlo todo de nuevo en la penúltima cita del año y, ojalá, lograr puntuar por segunda carrera consecutiva\".\nCaroline Smith coincidió con Franco en el vuelo de vuelta de Las Vegas y compartió el video en redes sociales. Video: @itscarolinescorner\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "visual_subject": "",
     "visual_entities": {
@@ -9315,16 +9353,26 @@
         "Las Vegas"
       ]
     },
-    "llm_provider": "groq",
-    "llm_model": "openai/gpt-oss-120b",
-    "headline": "Colapinto anticipa carrera más normal en GP de Qatar",
-    "caption": "Franco Colapinto, piloto de Alpine, declaró que el próximo Gran Premio de Qatar será distinto al de Las Vegas, con una carrera más tradicional tras la dinámica singular de la cita estadounidense. El argentino recordó su sexto puesto en Las Vegas y señaló que el trazado de Lusail castiga los errores, por lo que espera un evento más equilibrado y la posibilidad de puntuar nuevamente.",
-    "ai_generated_at": "2026-11-24T20:38:49.866462+00:00",
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "Colapinto anticipa una carrera más normal en Qatar tras Las Vegas",
+    "caption": "El argentino de Alpine igualó en Las Vegas su mejor resultado en la Fórmula 1 con un sexto puesto y quiere repetir el puntaje en Lusail, la penúltima fecha del año. Avisa que Qatar no tendrá los trencitos eternos de autos pegados que vio el callejero estadounidense, y que el trazado castiga cada error con la grava muy cerca de la salida de las curvas. ¿Podrá sostener el envión en un circuito que no perdona nada?",
+    "ai_generated_at": "2026-11-25T02:59:39.431279+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "editorial_rechecked": true
+    "editorial_rechecked": true,
+    "photo_checked_at": "2026-11-25T03:02:38.583850+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "Alpine",
+        "Formula1"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "58b5f50d4df2423cf391",
