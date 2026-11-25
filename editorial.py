@@ -33,6 +33,7 @@ import free_llm
 import scorecards
 import tennis_scorecards
 import reels
+import buffer_publish
 from growth import append_promotion
 from news_novelty import duplicate_reason, novelty_priority, same_story
 
@@ -802,7 +803,9 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     launch["status"] = "publishing"
                     save_queue(queue)
                     if is_reel:
-                        media_id = publish_reel(video, public_caption, launch["id"])
+                        from publisher import upload_public_video
+                        launch["reel_video_url"] = upload_public_video(video, launch["id"])
+                        media_id = publish_reel(video, public_caption, launch["id"], public_url=launch["reel_video_url"])
                     else:
                         media_id = publish_image(card, public_caption, launch["id"])
                     launch.update({"status":"published", "posted_at":iso(reference),
@@ -810,6 +813,9 @@ def run(reference: datetime | None = None, session=None) -> dict:
                                    "publish_format":"reel" if is_reel else "image"})
                     published_count += 1
                     print(f"[LAUNCH] Published {launch['id']} media={media_id}")
+                    if is_reel:
+                        save_queue(queue)
+                        buffer_publish.crosspost(launch, launch["reel_video_url"], public_caption)
                 except Exception as exc:
                     launch["status"] = "publish_error" if launch.get("status") == "publishing" else "needs_review"
                     launch["error"] = type(exc).__name__
@@ -916,7 +922,9 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 if video_path:
                     from publisher import publish_reel
                     item["publish_format"] = "reel"
-                    media_id = publish_reel(video_path, caption, item["id"])
+                    from publisher import upload_public_video
+                    item["reel_video_url"] = upload_public_video(video_path, item["id"])
+                    media_id = publish_reel(video_path, caption, item["id"], public_url=item["reel_video_url"])
                     print(f"[REELS] Published {item['id']}")
                 else:
                     item["publish_format"] = "image"
@@ -926,6 +934,9 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 item["instagram_media_id"] = media_id
                 already_posted.append(item)
                 published_count += 1
+                if video_path:
+                    save_queue(queue)
+                    buffer_publish.crosspost(item, item["reel_video_url"], caption)
                 # Avoid a burst of near-simultaneous API publications.
                 if published_count < allowed_this_run and POST_SPACING_SECONDS:
                     time.sleep(POST_SPACING_SECONDS)
