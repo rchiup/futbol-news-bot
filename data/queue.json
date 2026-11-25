@@ -7647,7 +7647,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T18:31:03.288221+00:00",
-    "status": "draft",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -7689,7 +7689,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T18:45:59.620660+00:00",
-    "status": "draft",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -12379,7 +12379,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T05:50:45.684666+00:00",
+    "photo_checked_at": "2026-11-25T06:11:20.679246+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
