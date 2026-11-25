@@ -12664,7 +12664,7 @@
     "headline": "¿Manchester United se perfila como el nuevo Tottenham?",
     "caption": "Manchester United, bajo la dirección de Mauricio Pochettino, arranca la temporada con la peor puesta a punto desde 1972 y se encuentra en la zona de descenso de la Premier League. Opta calcula una probabilidad del 27,5 % de descenso, situándolos como el quinto club con mayor riesgo, detrás de Crystal Palace, Sunderland, Ipswich y Coventry. Sus estadísticas de goles esperados son similares a las de Tottenham en la misma fase, aunque su eficacia frente a puerta rival es la segunda peor. Con nueve partidos sin victoria y una diferencia de ocho puntos respecto a la temporada anterior, la pregunta es: ¿logrará Pochettino revertir la tendencia antes de que la tabla los condene?",
     "ai_generated_at": "2026-11-25T06:33:45.715775+00:00",
-    "photo_checked_at": "2026-11-25T15:22:32.212981+00:00",
+    "photo_checked_at": "2026-11-25T15:44:31.945405+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -13050,7 +13050,7 @@
     "headline": "Manchester City no podrá usar su nuevo cuarto uniforme en Premier League",
     "caption": "El club inglés no podrá lucir su nuevo cuarto equipamiento en la Premier League porque la normativa permite un máximo de tres camisetas por campaña. Podrá usarlo en la Champions League y, con solicitud a la FA, en la FA Cup. La restricción, que también afecta a otros equipos, plantea la duda de si limita las oportunidades comerciales de los clubes al impedir la explotación de diseños adicionales.",
     "ai_generated_at": "2026-11-25T09:53:06.499892+00:00",
-    "photo_checked_at": "2026-11-25T15:22:29.526255+00:00",
+    "photo_checked_at": "2026-11-25T15:44:29.435344+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -13787,7 +13787,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T15:22:27.171594+00:00",
+    "photo_checked_at": "2026-11-25T15:44:26.574961+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -14529,7 +14529,7 @@
       "photo_provider": "Wikidata photo bank",
       "verified_at": "2026-11-25T14:57:49.409886+00:00"
     },
-    "photo_checked_at": "2026-11-25T15:21:38.488748+00:00",
+    "photo_checked_at": "2026-11-25T15:43:43.865026+00:00",
     "visual_mode": "licensed_photo",
     "photo_credit_full": "",
     "promotion": {
@@ -14711,7 +14711,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T15:22:27.524838+00:00",
+    "photo_checked_at": "2026-11-25T15:44:26.895953+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -14719,5 +14719,22 @@
       ],
       "mentions": []
     }
+  },
+  {
+    "id": "4a80712bdec941dd900e",
+    "title": "Saudi Arabia’s PIF looking to sell 25% of Newcastle through share issue",
+    "source_url": "https://www.theguardian.com/football/2026/nov/25/saudi-arabia-pif-newcastle-share-issue",
+    "source": "The Guardian",
+    "description": "PIF seeking investment to fund infrastructure projects JP Morgan appointed to handle the sale Newcastle United’s owner, Saudi Arabia’s Public Investment Fund (PIF), is looking to sell up to 25% of the club by issuing new shares. The New York-based bank JP Morgan, whose most recent involvement in a major football deal was Fifa’s aborted attempt to sell off 20% of its commercial rights last summer, has been appointed to handle the sale, as first reported by the Athletic . Continue reading...",
+    "published_at": "2026-11-25T15:36:32+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-25T15:42:49.641308+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
