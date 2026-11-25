@@ -14957,7 +14957,7 @@
     "headline": "Santiago del Estero será sede de la final Boca vs Platense",
     "caption": "La final de la Copa Argentina entre Boca Juniors y Platense se disputará el miércoles 2 de diciembre a las 20:00 en el estadio Madre de Ciudades de Santiago del Estero, según confirmó la propia organización en sus redes. El recinto, habitual para finales del torneo local, no había albergado la Copa Argentina desde 2021, cuando Boca venció a Talleres por penales. La cita reúne al Xeneize, dirigido por Vasco Arruabarrena, y al Calamar de Martín Palermo, que busca cerrar el año con un título. ¿Podrá la atmósfera de Santiago del Estero favorecer al visitante?",
     "ai_generated_at": "2026-11-25T17:19:58.573286+00:00",
-    "photo_checked_at": "2026-11-25T19:23:12.264822+00:00",
+    "photo_checked_at": "2026-11-25T19:45:04.752742+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -15197,7 +15197,7 @@
     "headline": "Estudiantes y Palmeiras repetirán final en el Centenario",
     "caption": "Estudiantes, que ganó su primera Copa Libertadores en 1968 en el Estadio Centenario, vuelve a ese escenario para disputarse la final contra Palmeiras, el mismo rival de entonces. Tras 21 380 días, el duelo se repite en el histórico recinto. ¿Podrá la nostalgia del Pincha influir en el resultado o Palmeiras mantendrá la ventaja de los últimos años?",
     "ai_generated_at": "2026-11-25T16:39:05.401120+00:00",
-    "photo_checked_at": "2026-11-25T19:23:11.768416+00:00",
+    "photo_checked_at": "2026-11-25T19:45:04.039615+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -16236,7 +16236,7 @@
     "headline": "Matías Fernández, de carpintero a enfrentar a Boca en la Bombonera",
     "caption": "El volante Matías Fernández, que pasó de ganarse la vida como carpintero a ser la pieza clave de Independiente Rivadavia, se prepara para medirse con Boca Juniors en la Bombonera. Tras iniciar en Estudiantes, pasar por Quilmes, Villa San Carlos y una etapa en la liga de Pehuajó, volvió a brillar en Excursionistas, ascendió a Primera B y destacó en la Copa Argentina y la Libertadores. Su historia plantea si el esfuerzo individual puede cambiar el destino de un club tradicional. ¿Podrá su rendimiento romper la barrera de la Primera División?",
     "ai_generated_at": "2026-11-25T19:21:50.748292+00:00",
-    "photo_checked_at": "2026-11-25T19:23:08.774730+00:00",
+    "photo_checked_at": "2026-11-25T19:44:59.546408+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -16487,7 +16487,7 @@
     "photo_used": true,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T19:23:10.171855+00:00",
+    "photo_checked_at": "2026-11-25T19:45:02.588026+00:00",
     "portrait_info": {
       "subject": "Everton",
       "image_url": "https://live.staticflickr.com/65535/52512528053_3cfcaeaf90_b.jpg",
@@ -16512,5 +16512,158 @@
       ],
       "mentions": []
     }
+  },
+  {
+    "id": "ucl-final-401915378",
+    "title": "Sabah FK 1-4 Barcelona",
+    "headline": "Sabah FK 1-4 Barcelona",
+    "description": "Resultado final de la Champions League: Sabah FK 1-4 Barcelona. Goles: Anthony Gordon 31', Anthony Gordon 51', Karim Adeyemi 55', Gabriel Jesus 60', Joy-Lance Mickels 63'.",
+    "caption": "Resultado final de la Champions League: Sabah FK 1-4 Barcelona. Goles: Anthony Gordon 31', Anthony Gordon 51', Karim Adeyemi 55', Gabriel Jesus 60', Joy-Lance Mickels 63'. Datos: ESPN.",
+    "score": 1000,
+    "sport": "FUTBOL",
+    "category": "PARTIDOS",
+    "source": "ESPN",
+    "published_at": "2026-11-25T16:43:13.450504-03:00",
+    "status": "published",
+    "match_result": [
+      {
+        "name": "Sabah FK",
+        "abbr": "SAB",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
+        "score": 1
+      },
+      {
+        "name": "Barcelona",
+        "abbr": "BAR",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+        "score": 4
+      }
+    ],
+    "queued_at": "2026-11-25T19:43:13.450504+00:00",
+    "photo_used": false,
+    "ai_art_used": false,
+    "visual_mode": "scorecard",
+    "promotion": {
+      "hashtags": [
+        "Futbol"
+      ],
+      "mentions": []
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-25T19:43:13.450504+00:00",
+    "posted_at": "2026-11-25T19:43:13.450504+00:00",
+    "instagram_media_id": "18132499180868740"
+  },
+  {
+    "id": "ucl-final-401915293",
+    "title": "Slavia Prague 0-1 Villarreal",
+    "headline": "Slavia Prague 0-1 Villarreal",
+    "description": "Resultado final de la Champions League: Slavia Prague 0-1 Villarreal. Goles: Tajon Buchanan 62'.",
+    "caption": "Resultado final de la Champions League: Slavia Prague 0-1 Villarreal. Goles: Tajon Buchanan 62'. Datos: ESPN.",
+    "score": 1000,
+    "sport": "FUTBOL",
+    "category": "PARTIDOS",
+    "source": "ESPN",
+    "published_at": "2026-11-25T16:43:13.450504-03:00",
+    "status": "draft",
+    "match_result": [
+      {
+        "name": "Slavia Prague",
+        "abbr": "SLP",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+        "score": 0
+      },
+      {
+        "name": "Villarreal",
+        "abbr": "VIL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+        "score": 1
+      }
+    ],
+    "queued_at": "2026-11-25T19:43:13.450504+00:00",
+    "photo_used": false,
+    "ai_art_used": false,
+    "visual_mode": "scorecard",
+    "promotion": {
+      "hashtags": [
+        "Futbol"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "3a1fc090ce37c7316af0",
+    "title": "Atlético de Madrid vs. Viking, por la Champions League, hoy EN VIVO: Julián Álvarez titular",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/champions/atletico-madrid-vs-viking-vivo-champions-league-julian-alvarez-titular_0_zPCNruzC8l.html",
+    "source": "Olé Argentina",
+    "description": "Con la Araña desde el arranque, el Colchonero del Cholo Simeone recibe al conjunto noruego en busca de volver a levantarse en la Orejona. Seguilo en Olé.",
+    "published_at": "2026-11-25T19:15:52+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-25T19:43:13.450504+00:00",
+    "status": "duplicate",
+    "article_context": "Julián Álvarez, durante el entrenamiento previo al partido contra Viking (EFE)\nEl Atlético de Madrid vuelve a jugar por la Champions League y recibirá al Viking por la quinta fecha. Después de perder 2-0 ante el Bayern Munich en la fecha anterior, el Colchonero buscará hacerse fuerte en casa y sumar tres puntos que le permitan acomodarse en la tabla de la fase liga. Julián Álvarez será titular, mientras que Giuliano Simeone y Juan Musso esperarán su oportunidad desde el banco. Cristian Romero , por su parte, no estará disponible por lesión.\nDel otro lado, el equipo noruego llega con confianza después de golear 4-1 al Sabah en su última presentación, un resultado que le permitió sumar tres puntos y quedar por encima del Atlético en la clasificación.\nEl encuentro se jugará este miércoles 25 de noviembre , desde las 17.00 (hora de Argentina), en el Riyadh Air Metropolitano de Madrid. La transmisión del encuentro para Argentina se podrá ver por ESPN y estará disponible a través de la plataforma de streaming Disney+ Premium. Seguí la previa y el minuto a minuto en Olé .\n👀 ¡El Viking quiere dar la sorpresa en el Metropolitano! 👉 Este es el once del conjunto noruego en la #UCL . ¡𝗡𝗼𝘀 𝘃𝗲𝗺𝗼𝘀 𝗮 𝗹𝗮𝘀 𝟭𝟮 𝗱𝗲 𝗹𝗮 𝗻𝗼𝗰𝗵𝗲 𝗲𝗻 𝗖𝗨𝗔𝗧𝗥𝗢! pic.twitter.com/xEqIZ5naFe\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "Julián Álvarez",
+    "visual_entities": {
+      "personas": [
+        "Julián Álvarez",
+        "Cholo Simeone"
+      ],
+      "clubes": [
+        "Atlético de Madrid",
+        "Viking"
+      ],
+      "competicion": [
+        "Champions League"
+      ],
+      "ciudad": [
+        "Madrid"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Julián Álvarez titular en Atlético vs Viking, busca remontar",
+    "caption": "Julián Álvarez será titular en el duelo del Atlético de Madrid contra el Viking en la Champions League, mientras Cristian Romero está fuera por lesión. El conjunto español intenta recuperarse tras la derrota 2‑0 ante el Bayern Munich y sumar tres puntos en casa. El Viking llega con ímpetu tras vencer 4‑1 al Sabah y quiere sorprender en el Riyadh Air Metropolitano de Madrid. El partido se transmite en ESPN y Disney+ Premium para Argentina. ¿Logrará el Atlético revertir la mala racha y volver a la cima de la fase de grupos?",
+    "ai_generated_at": "2026-11-25T19:43:13.450504+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "duplicate_of": "same_story_as:1a7ac575cb85b377bed5"
+  },
+  {
+    "id": "988bc9a36adad425d809",
+    "title": "MLS settles on new playoff format after considering double elimination",
+    "source_url": "https://www.theguardian.com/football/2026/nov/25/mls-playoff-format-changes",
+    "source": "The Guardian",
+    "description": "16 teams will qualify for the playoffs, down from 18 Best-of-three format eliminated in first round Semi-finals, MLS Cup will be single-elimination The 2026 MLS Cup playoffs have only just begun, but the league is already finalizing another change to its postseason format. Beginning with the 2027-28 season, MLS will eliminate its short-lived wild card round to condense the playoff field to 16 teams and also get rid of the best-of-three format for the first round, sources confirmed to the Guardian after an earlier report by The Athletic . Contin",
+    "published_at": "2026-11-25T19:33:24+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-25T19:43:13.450504+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "19abb99ace5bff455dd9",
+    "title": "Liga Nacional: quiénes son los jugadores que marcan el pulso de la temporada",
+    "source_url": "https://www.ole.com.ar/basquet/liga-nacional-numeros-marcan-pulso_0_p5CSg4QBZW.html",
+    "source": "Olé Argentina",
+    "description": "Con Peñarol en lo más alto de la tabla, un repaso por los líderes en puntos, rebotes, asistencias y valoración, y cómo sus rendimientos individuales se reflejan en el presente de sus equipos.",
+    "published_at": "2026-11-25T19:16:29+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-25T19:43:13.450504+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
