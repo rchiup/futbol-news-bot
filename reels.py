@@ -1,11 +1,12 @@
 """Reusable vertical video renderer: local TTS, Pillow captions, FFmpeg H.264."""
 from pathlib import Path
 import os
+import json
 import re
 import shutil
 import subprocess
 import tempfile
-from PIL import Image, ImageDraw, ImageOps
+from PIL import Image, ImageDraw, ImageOps, ImageFilter
 from graphics import font, _wrap
 
 def narration(item):
@@ -23,37 +24,48 @@ def narration(item):
         selected=[str(item.get("headline") or "").strip()]
     # Short caption chunks; the same chunks are spoken, so timing is exact.
     words=" ".join(selected).split()
-    return [" ".join(words[i:i+11]) for i in range(0,len(words),11)]
+    return [" ".join(words[i:i+6]) for i in range(0,len(words),6)]
 
 def eligible(item):
     return not item.get("match_result") and bool(item.get("photo_used")) and len(narration(item))>=2
 
 def frame(cover, chunk, item, index, count, destination, brand):
-    im=Image.new("RGB",(1080,1920),(8,16,27))
-    d=ImageDraw.Draw(im)
-    accent=(88,212,234)
-    d.rectangle((0,0,1080,12),fill=accent)
-    d.text((64,105),brand,font=font(40),fill="white")
-    d.text((64,172),str(item.get("sport","DEPORTES")).upper()+"  /  ACTUALIDAD",font=font(27),fill=accent)
+    # Raw athlete photography, not a still of the feed card.
     with Image.open(cover) as src:
-        pic=ImageOps.contain(src.convert("RGB"),(900,1125))
-        im.paste(pic,((1080-pic.width)//2,240))
-    d.rounded_rectangle((50,1390,960,1640),radius=24,fill=(21,35,49))
-    size=52
-    while size>30:
-        lines=_wrap(d,chunk.split(),font(size),820)
+        photo=ImageOps.exif_transpose(src).convert("RGB")
+        zoom=1.0+0.035*(index%4)
+        w,h=photo.size
+        if zoom>1:
+            nw,nh=int(w/zoom),int(h/zoom)
+            x=(w-nw)//2; y=int((h-nh)*0.25)
+            photo=photo.crop((x,y,x+nw,y+nh))
+        im=ImageOps.fit(photo,(1080,1920),centering=(0.5,0.30)).convert("RGBA")
+    overlay=Image.new("RGBA",im.size)
+    d=ImageDraw.Draw(overlay)
+    for y in range(1920):
+        alpha=int(220*max(0,1-y/430,(y-730)/1190))
+        if alpha: d.line((0,y,1080,y),fill=(7,13,21,alpha))
+    im=Image.alpha_composite(im,overlay).convert("RGB")
+    d=ImageDraw.Draw(im)
+    accent=(208,249,92)
+    d.rectangle((56,110,70,168),fill=accent)
+    d.text((88,110),brand,font=font(37),fill="white")
+    d.text((88,165),str(item.get("sport","DEPORTES")).upper()+"  /  NOTICIAS",font=font(26),fill=accent)
+    # Large, central burned-in captions; keep clear of platform controls.
+    size=76
+    while size>42:
+        lines=_wrap(d,chunk.upper().split(),font(size),820)
         if len(lines)<=3: break
         size-=2
-    lines=_wrap(d,chunk.split(),font(size),820)
-    y=1515-len(lines)*(size+9)/2
+    lines=_wrap(d,chunk.upper().split(),font(size),820)
+    line_h=size+12
+    y=int(1190-len(lines)*line_h/2)
     for line in lines:
-        d.text((505,y),line,font=font(size),fill="white",anchor="mt")
-        y+=size+9
-    d.rectangle((64,1685,960,1692),fill=(43,58,71))
-    d.rectangle((64,1685,64+896*(index+1)/count,1692),fill=accent)
-    source=str(item.get("source") or "").strip()
-    if source:
-        d.text((64,1720),("FUENTE: "+source.upper())[:70],font=font(22),fill=(170,190,200))
+        d.text((485,y),line,font=font(size),fill="white",stroke_width=4,stroke_fill=(8,13,20),anchor="mt")
+        y+=line_h
+    d.rectangle((60,1480,910,1488),fill=(65,77,79))
+    d.rectangle((60,1480,60+850*(index+1)/count,1488),fill=accent)
+    d.text((60,1520),("FUENTE: "+str(item.get("source","")).upper())[:55],font=font(24),fill="white")
     im.save(destination)
 
 def command(args,timeout=90,input_text=None):
@@ -64,6 +76,32 @@ def voice(text,destination):
     if not model or not Path(model).is_file() or not shutil.which("piper"):
         raise RuntimeError("Local Spanish voice unavailable")
     command(["piper","--model",model,"--output_file",str(destination)],input_text=text)
+
+def validate_video(path):
+    """Reject missing, silent or truncated audio and static video before upload."""
+    probe=json.loads(command(["ffprobe","-v","error","-show_streams","-show_format","-of","json",str(path)]))
+    streams=probe.get("streams",[])
+    video=next((x for x in streams if x.get("codec_type")=="video"),{})
+    audio=next((x for x in streams if x.get("codec_type")=="audio"),{})
+    duration=float(probe["format"]["duration"])
+    if (video.get("width"),video.get("height"))!=(1080,1920) or audio.get("codec_name")!="aac":
+        raise ValueError("Reel missing vertical video or AAC narration")
+    if float(audio.get("duration") or 0)<duration-0.6 or not 3<=duration<=90:
+        raise ValueError("Reel audio is truncated")
+    result=subprocess.run(["ffmpeg","-hide_banner","-i",str(path),"-vn","-af","volumedetect","-f","null","-"],capture_output=True,text=True,check=True,timeout=90)
+    match=re.search(r"mean_volume:\s*(-?\d+(?:\.\d+)?) dB",result.stderr)
+    if not match or float(match.group(1)) < -40:
+        raise ValueError("Reel narration is silent")
+    # Scene subtitles must visibly change. Compare decoded frames in the
+    # caption band, not just file size or the existence of an audio track.
+    with tempfile.TemporaryDirectory() as tmp:
+        for i,t in enumerate((duration*0.15,duration*0.55,duration*0.85)):
+            command(["ffmpeg","-y","-v","error","-ss",str(t),"-i",str(path),"-frames:v","1","-vf","crop=900:400:35:980,scale=225:100",str(Path(tmp)/f"{i}.png")])
+        from PIL import ImageChops, ImageStat
+        with Image.open(Path(tmp)/"0.png") as a, Image.open(Path(tmp)/"1.png") as b, Image.open(Path(tmp)/"2.png") as c:
+            if max(sum(ImageStat.Stat(ImageChops.difference(a.convert("RGB"),x.convert("RGB"))).mean)/3 for x in (b,c))<2:
+                raise ValueError("Reel caption scenes do not change")
+    return {"version":2,"duration":round(duration,2),"mean_db":float(match.group(1))}
 
 def render(item,cover,destination,brand):
     if not shutil.which("ffmpeg") or not shutil.which("ffprobe"):
@@ -84,7 +122,7 @@ def render(item,cover,destination,brand):
             frames=max(1,round(duration*30))
             # Subtle camera push on each scene, safe margins for vertical UI.
             vf=f"scale=2160:3840,zoompan=z='min(1+0.00025*on,1.035)':x='iw/2-iw/zoom/2':y='ih/2-ih/zoom/2':d={frames}:s=1080x1920:fps=30,format=yuv420p"
-            command(["ffmpeg","-y","-v","error","-i",str(png),"-i",str(wav),"-vf",vf,"-af","apad","-t",str(duration),"-c:v","libx264","-preset","veryfast","-crf","24","-threads","2","-c:a","aac","-ar","44100","-ac","2","-b:a","128k",str(mp4)])
+            command(["ffmpeg","-y","-v","error","-i",str(png),"-i",str(wav),"-vf",vf,"-map","0:v:0","-map","1:a:0","-af","loudnorm=I=-16:TP=-1.5:LRA=11,apad","-t",str(duration),"-c:v","libx264","-preset","veryfast","-crf","24","-threads","2","-c:a","aac","-ar","44100","-ac","2","-b:a","128k",str(mp4)])
             clips.append(mp4)
         manifest=root/"clips.txt"
         manifest.write_text("".join(f"file '{p.name}'\n" for p in clips))
@@ -93,4 +131,5 @@ def render(item,cover,destination,brand):
     if not 3<=duration<=90 or destination.stat().st_size>95_000_000:
         destination.unlink(missing_ok=True)
         raise ValueError("Video outside publishing constraints")
+    item["reel_quality"] = validate_video(destination)
     return destination
