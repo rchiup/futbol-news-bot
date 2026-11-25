@@ -16319,11 +16319,36 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-25T18:57:12.328245+00:00",
-    "status": "awaiting_ai",
+    "status": "duplicate",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Anthony Gordon",
+    "visual_entities": {
+      "personas": [
+        "Anthony Gordon",
+        "Stas Pokatilov",
+        "Jesus"
+      ],
+      "clubes": [
+        "Club Brugge",
+        "Liverpool",
+        "Lille",
+        "Bayern Munich",
+        "Barcelona"
+      ],
+      "competicion": [
+        "Champions League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Barcelona y Anthony Gordon marcan en la jornada de Champions",
+    "caption": "En la jornada de Champions League, Barcelona anotó su segundo gol y Anthony Gordon marcó también su segundo tanto, mientras los partidos de Club Brugge‑Liverpool y Lille‑Bayern continuaban en directo. El marcador abre la puerta a nuevas estrategias en la fase de grupos. ¿Podrá Barcelona consolidar su ventaja en los próximos encuentros?",
+    "ai_generated_at": "2026-11-25T21:56:54.791848+00:00",
+    "duplicate_of": "same_story_as:6bad885166e6c0640cea"
   },
   {
     "id": "bcebaf27c11aa04fa381",
@@ -17383,6 +17408,282 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T21:47:21.723281+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "ucl-final-401915291",
+    "title": "Atlético Madrid 2-0 Viking FK",
+    "headline": "Atlético Madrid 2-0 Viking FK",
+    "description": "Resultado final de la Champions League: Atlético Madrid 2-0 Viking FK. Goles: Alexander Sørloth 19', Julián Álvarez 24'.",
+    "caption": "Resultado final de la Champions League: Atlético Madrid 2-0 Viking FK. Goles: Alexander Sørloth 19', Julián Álvarez 24'. Datos: ESPN.",
+    "score": 1000,
+    "sport": "FUTBOL",
+    "category": "PARTIDOS",
+    "source": "ESPN",
+    "published_at": "2026-11-25T18:56:54.791848-03:00",
+    "status": "draft",
+    "match_result": [
+      {
+        "name": "Atlético Madrid",
+        "abbr": "ATM",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+        "score": 2
+      },
+      {
+        "name": "Viking FK",
+        "abbr": "VFK",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/510.png",
+        "score": 0
+      }
+    ],
+    "queued_at": "2026-11-25T21:56:54.791848+00:00",
+    "photo_used": false,
+    "ai_art_used": false,
+    "visual_mode": "scorecard",
+    "promotion": {
+      "hashtags": [
+        "Futbol"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "ucl-final-401915292",
+    "title": "Club Brugge 0-3 Liverpool",
+    "headline": "Club Brugge 0-3 Liverpool",
+    "description": "Resultado final de la Champions League: Club Brugge 0-3 Liverpool. Goles: Alexander Isak 13', Florian Wirtz 79', Alexander Isak 82'.",
+    "caption": "Resultado final de la Champions League: Club Brugge 0-3 Liverpool. Goles: Alexander Isak 13', Florian Wirtz 79', Alexander Isak 82'. Datos: ESPN.",
+    "score": 1000,
+    "sport": "FUTBOL",
+    "category": "PARTIDOS",
+    "source": "ESPN",
+    "published_at": "2026-11-25T18:56:54.791848-03:00",
+    "status": "draft",
+    "match_result": [
+      {
+        "name": "Club Brugge",
+        "abbr": "BRU",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+        "score": 0
+      },
+      {
+        "name": "Liverpool",
+        "abbr": "LIV",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+        "score": 3
+      }
+    ],
+    "queued_at": "2026-11-25T21:56:54.791848+00:00",
+    "photo_used": false,
+    "ai_art_used": false,
+    "visual_mode": "scorecard",
+    "promotion": {
+      "hashtags": [
+        "Futbol"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "ucl-final-401915376",
+    "title": "Internazionale 2-0 VfB Stuttgart",
+    "headline": "Internazionale 2-0 VfB Stuttgart",
+    "description": "Resultado final de la Champions League: Internazionale 2-0 VfB Stuttgart. Goles: Petar Sucic 57', Lautaro Martínez 74'.",
+    "caption": "Resultado final de la Champions League: Internazionale 2-0 VfB Stuttgart. Goles: Petar Sucic 57', Lautaro Martínez 74'. Datos: ESPN.",
+    "score": 1000,
+    "sport": "FUTBOL",
+    "category": "PARTIDOS",
+    "source": "ESPN",
+    "published_at": "2026-11-25T18:56:54.791848-03:00",
+    "status": "draft",
+    "match_result": [
+      {
+        "name": "Internazionale",
+        "abbr": "INT",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+        "score": 2
+      },
+      {
+        "name": "VfB Stuttgart",
+        "abbr": "VFB",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
+        "score": 0
+      }
+    ],
+    "queued_at": "2026-11-25T21:56:54.791848+00:00",
+    "photo_used": false,
+    "ai_art_used": false,
+    "visual_mode": "scorecard",
+    "promotion": {
+      "hashtags": [
+        "Futbol"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "ucl-final-401915377",
+    "title": "Lille 2-1 Bayern Munich",
+    "headline": "Lille 2-1 Bayern Munich",
+    "description": "Resultado final de la Champions League: Lille 2-1 Bayern Munich. Goles: Dayot Upamecano 15', Ayase Ueda 62', Aleksandar Pavlovic 65'.",
+    "caption": "Resultado final de la Champions League: Lille 2-1 Bayern Munich. Goles: Dayot Upamecano 15', Ayase Ueda 62', Aleksandar Pavlovic 65'. Datos: ESPN.",
+    "score": 1000,
+    "sport": "FUTBOL",
+    "category": "PARTIDOS",
+    "source": "ESPN",
+    "published_at": "2026-11-25T18:56:54.791848-03:00",
+    "status": "draft",
+    "match_result": [
+      {
+        "name": "Lille",
+        "abbr": "LILL",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+        "score": 2
+      },
+      {
+        "name": "Bayern Munich",
+        "abbr": "MUN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+        "score": 1
+      }
+    ],
+    "queued_at": "2026-11-25T21:56:54.791848+00:00",
+    "photo_used": false,
+    "ai_art_used": false,
+    "visual_mode": "scorecard",
+    "promotion": {
+      "hashtags": [
+        "Futbol"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "ucl-final-401915374",
+    "title": "Paris Saint-Germain 2-2 AS Roma",
+    "headline": "Paris Saint-Germain 2-2 AS Roma",
+    "description": "Resultado final de la Champions League: Paris Saint-Germain 2-2 AS Roma. Goles: Mario Hermoso 5', Illia Zabarnyi 31', Ousmane Dembélé 62', Donyell Malen 78'.",
+    "caption": "Resultado final de la Champions League: Paris Saint-Germain 2-2 AS Roma. Goles: Mario Hermoso 5', Illia Zabarnyi 31', Ousmane Dembélé 62', Donyell Malen 78'. Datos: ESPN.",
+    "score": 1000,
+    "sport": "FUTBOL",
+    "category": "PARTIDOS",
+    "source": "ESPN",
+    "published_at": "2026-11-25T18:56:54.791848-03:00",
+    "status": "draft",
+    "match_result": [
+      {
+        "name": "Paris Saint-Germain",
+        "abbr": "PSG",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+        "score": 2
+      },
+      {
+        "name": "AS Roma",
+        "abbr": "ROMA",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+        "score": 2
+      }
+    ],
+    "queued_at": "2026-11-25T21:56:54.791848+00:00",
+    "photo_used": false,
+    "ai_art_used": false,
+    "visual_mode": "scorecard",
+    "promotion": {
+      "hashtags": [
+        "Futbol"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "ucl-final-401915375",
+    "title": "Shakhtar Donetsk 0-1 Fenerbahce",
+    "headline": "Shakhtar Donetsk 0-1 Fenerbahce",
+    "description": "Resultado final de la Champions League: Shakhtar Donetsk 0-1 Fenerbahce. Goles: Vedat Muriqi 56'.",
+    "caption": "Resultado final de la Champions League: Shakhtar Donetsk 0-1 Fenerbahce. Goles: Vedat Muriqi 56'. Datos: ESPN.",
+    "score": 1000,
+    "sport": "FUTBOL",
+    "category": "PARTIDOS",
+    "source": "ESPN",
+    "published_at": "2026-11-25T18:56:54.791848-03:00",
+    "status": "draft",
+    "match_result": [
+      {
+        "name": "Shakhtar Donetsk",
+        "abbr": "SHK",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
+        "score": 0
+      },
+      {
+        "name": "Fenerbahce",
+        "abbr": "FEN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+        "score": 1
+      }
+    ],
+    "queued_at": "2026-11-25T21:56:54.791848+00:00",
+    "photo_used": false,
+    "ai_art_used": false,
+    "visual_mode": "scorecard",
+    "promotion": {
+      "hashtags": [
+        "Futbol"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "ucl-final-401915373",
+    "title": "Sporting CP 2-2 Manchester United",
+    "headline": "Sporting CP 2-2 Manchester United",
+    "description": "Resultado final de la Champions League: Sporting CP 2-2 Manchester United. Goles: Luis Suárez 33', Bruno Fernandes 48', Bruno Fernandes 50', Luis Suárez 80'.",
+    "caption": "Resultado final de la Champions League: Sporting CP 2-2 Manchester United. Goles: Luis Suárez 33', Bruno Fernandes 48', Bruno Fernandes 50', Luis Suárez 80'. Datos: ESPN.",
+    "score": 1000,
+    "sport": "FUTBOL",
+    "category": "PARTIDOS",
+    "source": "ESPN",
+    "published_at": "2026-11-25T18:56:54.791848-03:00",
+    "status": "draft",
+    "match_result": [
+      {
+        "name": "Sporting CP",
+        "abbr": "SCP",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+        "score": 2
+      },
+      {
+        "name": "Manchester United",
+        "abbr": "MAN",
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+        "score": 2
+      }
+    ],
+    "queued_at": "2026-11-25T21:56:54.791848+00:00",
+    "photo_used": false,
+    "ai_art_used": false,
+    "visual_mode": "scorecard",
+    "promotion": {
+      "hashtags": [
+        "Futbol"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "93b1a1ce0cc057b8536f",
+    "title": "Congreso despachó el Presupuesto 2027, primero elaborado por el Gobierno de Kast",
+    "source_url": "https://www.cooperativa.cl/noticias/economia/presupuesto/congreso-despacho-el-presupuesto-2027-primero-elaborado-por-el-gobierno/2026-11-25/183722.html",
+    "source": "Cooperativa Deportes Chile",
+    "description": "El Congreso Nacional despachó definitivamente este miércoles el proyecto de Ley de Presupuestos 2027 , en lo que constituye la primera tramitación presupuestaria del Gobierno del Presidente José Antonio Kast . Mientras el Ejecutivo destacó el resultado como una señal de responsabilidad fiscal y continuidad, desde la oposición cuestionaron el carácter regresivo de la propuesta y sostuvieron que los recursos recuperados durante la discusión corresponden a programas y partidas que ya existían. Tras la aprobación en la Cámara de Diputadas y Diputad",
+    "published_at": "2026-11-25T21:37:22+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-25T21:56:54.791848+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
