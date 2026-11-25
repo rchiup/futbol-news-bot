@@ -59,9 +59,9 @@
       "last_error": "invalid_output"
     },
     "openrouter": {
-      "attempts": 32,
-      "success": 12,
-      "failures": 20,
+      "attempts": 35,
+      "success": 14,
+      "failures": 21,
       "latencies_ms": [
         24860,
         194447,
@@ -74,7 +74,9 @@
         24361,
         56566,
         21938,
-        21888
+        21888,
+        85557,
+        16137
       ],
       "quality": [
         100,
@@ -88,14 +90,16 @@
         85,
         100,
         100,
-        100
+        100,
+        85,
+        85
       ],
       "last_error": "invalid_output"
     },
     "cloudflare": {
-      "attempts": 20,
+      "attempts": 21,
       "success": 0,
-      "failures": 20,
+      "failures": 21,
       "latencies_ms": [],
       "quality": [],
       "last_error": "invalid_output"
