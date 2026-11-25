@@ -13337,7 +13337,7 @@
       "photo_provider": "Curated Commons",
       "verified": "2026-11-23"
     },
-    "photo_checked_at": "2026-11-25T12:59:46.951991+00:00",
+    "photo_checked_at": "2026-11-25T13:21:11.542448+00:00",
     "visual_mode": "licensed_photo",
     "photo_credit_full": "📷 Foto: Bryan Berlin / WikiPortraits · CC BY-SA 4.0 · Wikimedia Commons (recorte y edición). https://commons.wikimedia.org/wiki/File:Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_(cropped).jpg · https://creativecommons.org/licenses/by-sa/4.0/ · Gráfica adaptada bajo la misma licencia CC BY-SA.",
     "promotion": {
@@ -13950,12 +13950,35 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-25T13:10:04.742809+00:00",
-    "status": "awaiting_ai",
+    "status": "duplicate",
     "article_context": "Erling Haaland en el partido de Manchester City vs. Napoli. (EFE)\nErling Haaland atraviesa un momento complicado en el Manchester City . Lo que parecía ser el comienzo de una nueva etapa prometedora bajo la conducción de Enzo Maresca se transformó en un escenario de incertidumbre . Y después de otra jornada lejos de las expectativas en la Champions League, el goleador dejó en evidencia su malestar .\nLos Citizens igualaron 2-2 ante Napoli por la quinta fecha de la Fase de Liga. Ayyoub Bouaddi y Rayan Cherki marcaron para los ingleses, mientras que Rasmus Hojlund y Noa Lang convirtieron para el conjunto italiano, que estuvo dos veces arriba en el marcador.\nEl empate profundizó una mala racha que registra apenas una victoria en los últimos siete compromisos . En ese contexto, el atacante noruego realizó una fuerte autocrítica sobre el funcionamiento colectivo.\n“Intentamos presionar, pero no pudimos. No es suficiente. Les permitimos entrar con demasiada facilidad y no pudimos controlar ni atacar el partido como queríamos ”, expresó el delantero en diálogo con TNT Sports.\n“El fútbol puede ser tan difícil y tan fácil a la vez. Cuando ganás, todo es fácil y sabés exactamente qué hacer; cuando perdés, empezás a cuestionarlo todo . Lo ideal sería no pensar, pero es difícil en estos momentos”, agregó.\nAsimismo, remarcó que “se trata de sacar el máximo provecho de cada jugador” y destacó las herramientas disponibles dentro del plantel: “Tenemos muchísima calidad. Debemos reagruparnos para mantener una actitud positiva y aportar energía al campo ”.\n🗣️ \"I have no idea what we were missing. You could feel it in the last few games that there's something that's not clicking fully.\" @Erling reflects on @ManCity 's 2-2 draw with Napoli. 🎤 @AndyKerrtv #UCL | #ManCity pic.twitter.com/Cx2Hzieom3\nEn declaraciones a beIN Sports, el noruego fue todavía más contundente: “Tenemos que dar más, tenemos que hacerlo mejor. No tengo ni idea de lo que nos ha faltado, pero se está viendo que en los últimos partidos hay algo que no está funcionando ”.\nA las dificultades deportivas se suma el proceso judicial por las infracciones al reglamento financiero de la Premier League . En septiembre, una comisión independiente declaró al club culpable de 114 de los 115 cargos . La institución negó haber cometido irregularidades y apeló el fallo.\nPor su parte, Maresca, quien días atrás descartó que el conflicto financiero afectara el rendimiento del equipo, fue autocrítico por los 20 tantos recibidos en los últimos diez encuentros : “Estamos recibiendo demasiados goles. Es bastante evidente. Es algo que debemos corregir. Somos capaces de corregirlo ”.\nAhora, los de Manchester visitarán al Arsenal el domingo 29 de noviembre. Sobre ese desafío, Haaland advirtió: “ El próximo partido es contra los campeones . El partido más difícil de la temporada. Necesitamos un rendimiento al máximo nivel ”.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Erling Haaland",
+    "visual_entities": {
+      "personas": [
+        "Erling Haaland"
+      ],
+      "clubes": [
+        "Manchester City",
+        "Napoli"
+      ],
+      "competicion": [
+        "Champions League"
+      ],
+      "ciudad": [
+        "Manchester",
+        "Napoli"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Haaland critica al City tras empate ante Napoli",
+    "caption": "Erling Haaland rompió el silencio después del 2‑2 de Manchester City contra Napoli en la Champions League, señalando la falta de presión y la dificultad para controlar el juego. El delantero recordó la escasa racha del conjunto, con solo una victoria en los últimos siete partidos, y pidió reagruparse para volver a aprovechar la calidad del plantel. Con la presión financiera del club en el horizonte, la autocrítica llega justo antes del duelo contra el Arsenal. ¿Logrará el City revertir la tendencia antes del próximo compromiso?",
+    "ai_generated_at": "2026-11-25T13:20:21.796985+00:00",
+    "duplicate_of": "same_story_as:ucl-final-401915379"
   },
   {
     "id": "90185cbaaa226d90d395",
