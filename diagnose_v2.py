@@ -18,4 +18,6 @@ content = {
 }
 output.write_text(json.dumps(content, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 print("Tests:", "PASS" if content["tests_ok"] else "FAIL")
+if result.returncode:
+    print(content["output_tail"])
 raise SystemExit(result.returncode)
