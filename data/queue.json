@@ -11450,5 +11450,36 @@
     "instagram_media_id": "18122062888782830",
     "buffer_tiktok_status": "sending",
     "buffer_tiktok_id": "6b062b25f0b405190ac7b75f"
+  },
+  {
+    "id": "real-psv-analysis-20261124",
+    "headline": "Real Madrid 5-1 PSV: la clave de la remontada",
+    "caption": "El Real Madrid goleó cinco a uno al PSV. Tras el gol de Perisic, Valverde empató al comienzo del segundo tiempo. Bellingham puso al Madrid por delante, Mbappé anotó dos veces y Vinicius cerró la goleada. La clave fue la reacción tras el descanso: cinco goles en una sola mitad.",
+    "source": "Europa Press / UOL",
+    "sport": "Fútbol",
+    "status": "published",
+    "published_at": "2026-11-25T01:09:24.648980+00:00",
+    "publish_format": "reel",
+    "url": "https://www.europapress.es/deportes/estadisticas-deportivas/noticia-real-madrid-psv-eindhoven-resumen-goles-resultado-partido-hoy-20261124225935.html",
+    "reel_quality": {
+      "version": 2,
+      "duration": 15.5,
+      "mean_db": -19.7
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795568978/football-news-bot/reels/real-psv-analysis-20261124.mp4",
+    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_id": "6b06355432c128a56fd166e7",
+    "zernio_youtube_status": "published",
+    "zernio_youtube_id": "6b0635580f7bb528c9cca299",
+    "zernio_youtube_url": "https://www.youtube.com/watch?v=Y3zh0lgHIEE",
+    "instagram_reel_status": "published",
+    "instagram_media_id": "17951678709069054",
+    "posted_at": "2026-11-25T01:09:24.648980+00:00",
+    "promotion": {
+      "hashtags": [
+        "Deportes"
+      ],
+      "mentions": []
+    }
   }
 ]
