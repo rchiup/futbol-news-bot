@@ -1,6 +1,7 @@
 """Reusable vertical video renderer: local TTS, Pillow captions, FFmpeg H.264."""
 from pathlib import Path
 import os
+import asyncio
 import json
 import re
 import shutil
@@ -22,7 +23,7 @@ def narration(item):
         selected.append(sentence)
     if not selected:
         selected=[str(item.get("headline") or "").strip()]
-    # Short caption chunks; the same chunks are spoken, so timing is exact.
+    # Short caption chunks; narration is synthesized continuously.
     words=" ".join(selected).split()
     return [" ".join(words[i:i+6]) for i in range(0,len(words),6)]
 
@@ -72,10 +73,33 @@ def command(args,timeout=90,input_text=None):
     return subprocess.run(args,input=input_text,text=True,check=True,capture_output=True,timeout=timeout).stdout
 
 def voice(text,destination):
+    """Prefer neural Latin American narration; local Piper is the fallback."""
+    async def neural():
+        import edge_tts
+        audio = destination.with_suffix(".mp3")
+        offsets = []
+        speech = edge_tts.Communicate(text, os.getenv("REEL_VOICE", "es-MX-JorgeNeural"), rate="+20%", boundary="WordBoundary")
+        with audio.open("wb") as f:
+            async for event in speech.stream():
+                if event["type"] == "audio":
+                    f.write(event["data"])
+                elif event["type"] == "WordBoundary":
+                    offsets.append(event["offset"] / 10_000_000)
+        return audio, offsets
+    try:
+        audio, offsets = asyncio.run(asyncio.wait_for(neural(), timeout=45))
+        command(["ffmpeg","-y","-v","error","-i",str(audio),str(destination)])
+        return offsets
+    except Exception as exc:
+        print(f"[REEL] Neural voice unavailable ({type(exc).__name__}); using local voice")
     model=os.getenv("PIPER_MODEL","")
     if not model or not Path(model).is_file() or not shutil.which("piper"):
         raise RuntimeError("Local Spanish voice unavailable")
     command(["piper","--model",model,"--output_file",str(destination)],input_text=text)
+    accelerated=destination.with_name("faster.wav")
+    command(["ffmpeg","-y","-v","error","-i",str(destination),"-af","atempo=1.18",str(accelerated)])
+    accelerated.replace(destination)
+    return []
 
 def validate_video(path):
     """Reject missing, silent or truncated audio and static video before upload."""
@@ -113,20 +137,31 @@ def render(item,cover,destination,brand):
     with tempfile.TemporaryDirectory() as temp:
         root=Path(temp)
         clips=[]
+        wav=root/"narration.wav"
+        offsets=voice(" ".join(chunks),wav) or []
+        duration=float(command(["ffprobe","-v","error","-show_entries","format=duration","-of","default=noprint_wrappers=1:nokey=1",str(wav)]).strip())
+        if not 3<=duration<=90: raise ValueError("Unexpected voice duration")
+        word_counts=[len(chunk.split()) for chunk in chunks]
+        total=sum(word_counts)
+        boundaries=[0.0]
+        consumed=0
+        for count in word_counts[:-1]:
+            consumed+=count
+            boundaries.append(offsets[consumed] if len(offsets)==total else duration*consumed/total)
+        boundaries.append(duration)
+        if any(b<=a for a,b in zip(boundaries,boundaries[1:])):
+            boundaries=[duration*sum(word_counts[:i])/total for i in range(len(chunks)+1)]
+        frame_bounds=[round(t*30) for t in boundaries]
         for i,chunk in enumerate(chunks):
-            png=root/f"{i}.png"; wav=root/f"{i}.wav"; mp4=root/f"{i}.mp4"
+            png=root/f"{i}.png"; mp4=root/f"{i}.mp4"
             frame(cover,chunk,item,i,len(chunks),png,brand)
-            voice(chunk,wav)
-            duration=float(command(["ffprobe","-v","error","-show_entries","format=duration","-of","default=noprint_wrappers=1:nokey=1",str(wav)]).strip())+0.18
-            if not 0.4<=duration<=20: raise ValueError("Unexpected voice duration")
-            frames=max(1,round(duration*30))
-            # Subtle camera push on each scene, safe margins for vertical UI.
+            frames=max(1,frame_bounds[i+1]-frame_bounds[i])
             vf=f"scale=2160:3840,zoompan=z='min(1+0.00025*on,1.035)':x='iw/2-iw/zoom/2':y='ih/2-ih/zoom/2':d={frames}:s=1080x1920:fps=30,format=yuv420p"
-            command(["ffmpeg","-y","-v","error","-i",str(png),"-i",str(wav),"-vf",vf,"-map","0:v:0","-map","1:a:0","-af","loudnorm=I=-16:TP=-1.5:LRA=11,apad","-t",str(duration),"-c:v","libx264","-preset","veryfast","-crf","24","-threads","2","-c:a","aac","-ar","44100","-ac","2","-b:a","128k",str(mp4)])
+            command(["ffmpeg","-y","-v","error","-i",str(png),"-vf",vf,"-frames:v",str(frames),"-an","-c:v","libx264","-preset","veryfast","-crf","24","-threads","2",str(mp4)])
             clips.append(mp4)
         manifest=root/"clips.txt"
         manifest.write_text("".join(f"file '{p.name}'\n" for p in clips))
-        command(["ffmpeg","-y","-v","error","-f","concat","-safe","0","-i",str(manifest),"-c","copy","-movflags","+faststart",str(destination)])
+        command(["ffmpeg","-y","-v","error","-f","concat","-safe","0","-i",str(manifest),"-i",str(wav),"-map","0:v:0","-map","1:a:0","-c:v","copy","-af","loudnorm=I=-16:TP=-1.5:LRA=11","-c:a","aac","-ar","44100","-ac","2","-b:a","128k","-movflags","+faststart",str(destination)])
     duration=float(command(["ffprobe","-v","error","-show_entries","format=duration","-of","default=noprint_wrappers=1:nokey=1",str(destination)]).strip())
     if not 3<=duration<=90 or destination.stat().st_size>95_000_000:
         destination.unlink(missing_ok=True)
