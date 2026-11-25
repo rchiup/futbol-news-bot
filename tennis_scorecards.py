@@ -85,50 +85,101 @@ def results(reference,session=requests):
     print(f"[TENNIS] {len(out)} selected completed singles matches")
     return out
 
-def render(item,destination,brand):
-    im=Image.new("RGB",(1080,1350),(10,34,31))
-    d=ImageDraw.Draw(im)
-    lime=(210,246,110); muted=(159,192,180); lines=(43,79,67)
-    d.rectangle((28,28,1052,1322),outline=lines,width=3)
-    d.rectangle((85,285,995,1175),outline=lines,width=3)
-    d.line((540,285,540,1175),fill=lines,width=2)
-    d.line((85,730,995,730),fill=lines,width=2)
-    d.text((65,70),brand,font=font(38),fill="white")
-    d.text((65,150),f"{item['tour']}  /  TENIS",font=font(29),fill=lime)
-    tournament=item["tournament"].upper()
-    size=52
-    while size>20 and d.textlength(tournament,font=font(size))>950: size-=2
-    d.text((65,205),tournament,font=font(size),fill="white")
-    d.text((65,340),"RESULTADO FINAL",font=font(32),fill=lime)
-    rows=item["match_result"]; n=len(rows[0]["sets"]); step=82; start=965-(n-1)*step
+def render(item, destination, brand):
+    """Editorial sports poster: bold match score, compact set breakdown."""
+    im = Image.new("RGB", (1080, 1350), (13, 23, 24))
+    d = ImageDraw.Draw(im)
+    ink, paper, lime = (13, 23, 24), (244, 244, 230), (208, 249, 92)
+    muted, rule = (155, 177, 169), (49, 70, 66)
+    rows = sorted(item["match_result"], key=lambda r: not r["winner"])
+    a, b = rows
+    n = len(a["sets"])
+    wins = sum(x > y for x, y in zip(a["sets"], b["sets"]))
+
+    def fit(text, width, size, minimum=20):
+        while size > minimum and d.textlength(text, font=font(size)) > width:
+            size -= 1
+        return font(size)
+
+    def name_lines(name, width, size):
+        name = name.upper()
+        if d.textlength(name, font=font(size)) <= width:
+            return [name], font(size)
+        words = name.split()
+        if len(words) > 1:
+            lines = [" ".join(words[:-1]), words[-1]]
+            fs = min(size, 42)
+            while fs > 20 and max(d.textlength(x, font=font(fs)) for x in lines) > width:
+                fs -= 1
+            return lines, font(fs)
+        return [name], fit(name, width, size)
+
+    # High-contrast masthead, a small court motif rather than a giant watermark.
+    d.rectangle((0, 0, 1080, 12), fill=lime)
+    d.text((56, 49), brand.upper(), font=fit(brand.upper(), 735, 37), fill=paper)
+    d.text((1024, 53), "TENIS", font=font(29), fill=lime, anchor="ra")
+    d.line((56, 113, 1024, 113), fill=rule, width=2)
+    d.text((56, 145), item["tour"].upper()+"  /  RESULTADO FINAL", font=font(27), fill=lime)
+    tournament = item["tournament"].upper()
+    d.text((56, 195), tournament, font=fit(tournament, 968, 61), fill=paper)
+
+    # Oversized result in sets, not total games.
+    d.rectangle((56, 296, 1024, 638), fill=lime)
+    d.text((82, 321), "SETS", font=font(29), fill=ink)
+    d.text((86, 380), str(wins), font=font(208), fill=ink)
+    d.text((330, 479), ":", font=font(108), fill=ink, anchor="mm")
+    d.text((380, 380), str(n-wins), font=font(208), fill=ink)
+    d.text((84, 596), "RESULTADO DEL PARTIDO", font=font(23), fill=ink)
+    # Graphic court stamp on the right.
+    d.rectangle((742, 365, 985, 569), outline=ink, width=3)
+    d.rectangle((764, 365, 963, 569), outline=ink, width=2)
+    d.line((742, 467, 985, 467), fill=ink, width=3)
+    d.rectangle((764, 414, 963, 520), outline=ink, width=2)
+    d.line((864, 414, 864, 520), fill=ink, width=2)
+    d.ellipse((926, 389, 950, 413), fill=ink)
+
+    # Score table: no fake portraits or generic initials; clear names and set scores.
+    d.text((56, 686), "MARCADOR POR SET", font=font(24), fill=muted)
+    step = 82 if n <= 3 else 73
+    start = 979 - (n-1)*step
     for j in range(n):
-        d.text((start+j*step,435),f"S{j+1}",font=font(25),fill=muted,anchor="mm")
-    for i,row in enumerate(rows):
-        y=480+i*245
-        d.rounded_rectangle((60,y,1020,y+205),radius=24,fill=(22,65,49) if row["winner"] else (18,48,42))
-        if row["winner"]: d.rounded_rectangle((60,y,70,y+205),radius=4,fill=lime)
-        initials="".join(w[0] for w in row["name"].split()[:2]).upper()
-        d.ellipse((85,y+57,175,y+147),fill=lines)
-        d.text((130,y+102),initials,font=font(30),fill="white",anchor="mm")
-        url=row.get("headshot") or ""
-        if isinstance(url,str) and url.startswith("https://a.espncdn.com/"):
+        d.text((start+j*step, 707), f"S{j+1}", font=font(24), fill=muted, anchor="mm")
+    for i, row in enumerate(rows):
+        y = 748 + i*208
+        bg = (31, 49, 43) if row["winner"] else (22, 34, 35)
+        d.rectangle((56, y, 1024, y+184), fill=bg)
+        if row["winner"]:
+            d.rectangle((56, y, 64, y+184), fill=lime)
+        photo = None
+        url = row.get("headshot") or ""
+        if isinstance(url, str) and url.startswith("https://a.espncdn.com/"):
             try:
-                r=requests.get(url,timeout=5,allow_redirects=False); r.raise_for_status()
-                photo=ImageOps.contain(Image.open(BytesIO(r.content)).convert("RGBA"),(110,140))
-                im.paste(photo,(130-photo.width//2,y+102-photo.height//2),photo)
-            except (requests.RequestException,OSError,ValueError): pass
-        name=row["name"].upper(); fs=40
-        while fs>20 and d.textlength(name,font=font(fs))>start-235: fs-=2
-        if d.textlength(name,font=font(fs))>start-235:
-            words=name.split(); name=" ".join(w[0]+"." for w in words[:-1])+" "+words[-1]
-        d.text((195,y+82),name,font=font(fs),fill="white")
-        if row["winner"]: d.text((195,y+140),"GANADOR",font=font(25),fill=lime)
-        for j,score in enumerate(row["sets"]):
-            d.text((start+j*step,y+102),str(score),font=font(51),fill=lime if score>rows[1-i]["sets"][j] else muted,anchor="mm")
-    d.text((65,1080),"MARCADOR POR SET",font=font(27),fill=muted)
-    d.line((65,1200,1015,1200),fill=lines,width=3)
-    d.text((65,1240),"FUENTE: "+item.get("source","ESPN").upper(),font=font(23),fill=muted)
-    d.text((1015,1240),"CF",font=font(30),fill=lime,anchor="ra")
-    destination=Path(destination); destination.parent.mkdir(parents=True,exist_ok=True)
-    im.save(destination,quality=94)
+                response = requests.get(url, timeout=5, allow_redirects=False)
+                response.raise_for_status()
+                photo = ImageOps.contain(Image.open(BytesIO(response.content)).convert("RGBA"), (118, 144))
+            except (requests.RequestException, OSError, ValueError):
+                pass
+        left = 84
+        if photo:
+            im.paste(photo, (83+(118-photo.width)//2, y+20+(144-photo.height)//2), photo)
+            left = 218
+        label = "VICTORIA" if row["winner"] else "DERROTA"
+        d.text((left, y+21), label, font=font(22), fill=lime if row["winner"] else muted)
+        names, face = name_lines(row["name"], max(160, start-left-54), 46)
+        for k, line in enumerate(names):
+            d.text((left, y+61+k*(face.size+3)), line, font=face, fill=paper)
+        for j, value in enumerate(row["sets"]):
+            x = start+j*step
+            won = value > rows[1-i]["sets"][j]
+            if won:
+                d.rectangle((x-30, y+61, x+30, y+125), fill=lime)
+            d.text((x, y+94), str(value), font=fit(str(value), 52, 45), fill=ink if won else muted, anchor="mm")
+    d.line((56, 1180, 1024, 1180), fill=rule, width=2)
+    source = "DATOS: "+str(item.get("source", "ESPN")).upper()
+    d.text((56, 1210), source, font=fit(source, 820, 23), fill=muted)
+    d.text((1024, 1210), "CF", font=font(33), fill=lime, anchor="ra")
+    d.text((56, 1272), "CHAO FELICEVICH  /  DEPORTES", font=font(23), fill=paper)
+    destination = Path(destination)
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    im.save(destination, quality=95)
     return destination
