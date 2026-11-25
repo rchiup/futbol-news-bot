@@ -11248,7 +11248,7 @@
     "caption": "Rangers venció a Aberdeen en un partido de cinco goles en Ibrox, mientras Hibernian recuperó la victoria en Easter Road. La reacción del programa Sportsound, conducido por Ian McCall junto a Willie Miller y Rory Loy, analizó ambos encuentros y destacó el impulso que estos triunfos dan a los equipos en la Premiership. ¿Podrá Rangers mantener el ritmo y Hibs consolidarse como contendiente tras este impulso?",
     "ai_generated_at": "2026-11-25T02:39:37.772007+00:00",
     "editorial_rechecked": true,
-    "photo_checked_at": "2026-11-25T08:21:52.225117+00:00",
+    "photo_checked_at": "2026-11-25T08:43:57.899916+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -11912,7 +11912,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T08:21:50.051678+00:00",
+    "photo_checked_at": "2026-11-25T08:43:56.341335+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -11995,7 +11995,7 @@
     "headline": "Comisión mixta aprueba recursos para memoria y oficinas de expresidentes",
     "caption": "La comisión mixta, integrada por cinco diputados y cinco senadores, aprobó este martes la asignación de fondos para los sitios de memoria y para cubrir los gastos de oficina de los expresidentes, partidas que habían quedado pendientes en el proyecto de ley de Presupuesto 2027. La medida busca cerrar las discrepancias entre Cámara Baja y Senado, pero ¿es suficiente para atender las demandas de preservación histórica y de los expresidentes?",
     "ai_generated_at": "2026-11-25T05:22:49.908887+00:00",
-    "photo_checked_at": "2026-11-25T08:21:51.146341+00:00",
+    "photo_checked_at": "2026-11-25T08:43:57.083036+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -12560,7 +12560,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T08:21:47.623420+00:00",
+    "photo_checked_at": "2026-11-25T08:43:54.684462+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -12604,7 +12604,7 @@
     "headline": "Trinity Rodman fuera de la clasificación femenina mundial por hombro",
     "caption": "Trinity Rodman, del seleccionado femenino de EE. UU., se lesionó el hombro en la final de la NWSL y quedará ausente del Campeonato Concacaf W, torneo clasificatorio para la Copa del Mundo 2027. Su ausencia debilita al conjunto estadounidense en la fase de clasificación, donde su aporte ofensivo era fundamental. ¿Podrá EE. UU. superar la falta de su goleadora y mantener la ventaja en la zona?",
     "ai_generated_at": "2026-11-25T05:22:49.908887+00:00",
-    "photo_checked_at": "2026-11-25T08:21:39.699989+00:00",
+    "photo_checked_at": "2026-11-25T08:43:17.652307+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -12794,12 +12794,54 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-25T08:17:09.935750+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "article_context": "Erling Haaland has reacted to Manchester City 's latest failure to win by \"questioning everything.\"\nCity required an 86th-minute equaliser from Rayan Cherki to draw 2-2 against Napoli on Tuesday at the Etihad in the Champions League.\nNapoli had twice taken the lead, and City's failure to take three points means they have won just one of their past seven matches in all competitions.\n\"We tried to push at the end for a goal but we couldn't,\" Haaland told TNT Sports. \"Not good enough and we let them in too easily.\n\"We were not able to control and attack the game in the way we want.\n\"Football is easy and difficult. When you win it's easy and you know what to do. When you don't you start questioning everything.\n\"The perfect thing would be to not think but it's not so easy.\n\"We have so much quality so it's about getting the quality out in every payer.\n\"We have to regroup, stay positive and bring energy on the pitch and try to do our best.\"\nFormer Manchester United striker Rasmus Hojlund gave Napoli a 55th-minute lead, before teasing the home support about his allegiance to the red half of the city.\nAyyoub Bouaddi equalised before Noa Lang gave Napoli the lead again. But Cherki rescued a late point which leaves City sixth in the league phase of the Champions League after five matches.\n\"I don't care about my goal, I wanted to win the game,\" Cherki told TNT Sports.\n- Dortmund draw shows that the jury is still out on Gyökeres - Bellingham credits Mourinho 'full stop' for stellar form after Madrid stunner - Guardiola 'embarrassed' to say no to Italy, national team my 'next step'\n\"We tried to put all we have inside the pitch. Sometimes the game is not like you want, and today is like the last game, the last two or three games. We need to work more and come back for a win, just that.\"\nCity manager Enzo Maresca said: \"We pressed very aggressive, we recovered the ball most of the time. Off the ball I think the team was good, from my point of view.\n\"We created a lot of chances but it was difficult. We expected Napoli to play a waiting game in a low block.\n\"We conceded few chances, and the goals we conceded could have been avoided.\n\"There is a degree of regret we didn't win but when you can't win, don't lose. We take the point and go forward.\"\nPress Association contributed to this report.",
     "ai_art_used": false,
-    "photo_used": false,
-    "portrait_used": false,
-    "reference_photo_used": false
+    "photo_used": true,
+    "portrait_used": true,
+    "reference_photo_used": false,
+    "visual_subject": "Erling Haaland",
+    "visual_entities": {
+      "personas": [
+        "Erling Haaland"
+      ],
+      "clubes": [
+        "Manchester City"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Manchester"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Haaland cuestiona todo tras empate 2-2 de City contra Napoli",
+    "caption": "Erling Haaland admitió que el empate 2-2 ante el Napoli en la Champions League lo lleva a cuestionar cada detalle del juego. El equipo inglés necesitó el gol de Rayan Cherki en el minuto 86 para evitar la derrota, tras haber concedido dos ventajas al rival y acumular solo una victoria en sus últimos siete compromisos. La reacción del delantero subraya la presión sobre un Manchester City que busca recuperar su nivel. ¿Podrá el conjunto volver a la regularidad que lo caracterizaba?",
+    "ai_generated_at": "2026-11-25T08:42:35.697041+00:00",
+    "portrait_info": {
+      "subject": "Erling Haaland",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Erling_Haaland_2023.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commons_filename": "Erling Haaland 2023.jpg",
+      "photographer": "Jacek Stanislawek",
+      "credit_required": true,
+      "share_alike": true,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Erling_Haaland_2023.jpg",
+      "photo_provider": "Curated Commons",
+      "verified": "2026-11-23"
+    },
+    "photo_checked_at": "2026-11-25T08:43:24.204277+00:00",
+    "visual_mode": "licensed_photo",
+    "photo_credit_full": "📷 Foto: Jacek Stanislawek · CC BY-SA 4.0 · Wikimedia Commons (recorte y edición). https://commons.wikimedia.org/wiki/File:Erling_Haaland_2023.jpg · https://creativecommons.org/licenses/by-sa/4.0/ · Gráfica adaptada bajo la misma licencia CC BY-SA.",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "ErlingHaaland",
+        "ManchesterCity"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "49b0f87e9a7fedb5cf9e",
