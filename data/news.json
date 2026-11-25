@@ -9438,5 +9438,37 @@
     "source": "BBC Sport",
     "collected_at": "2026-11-25T10:18:29.827883+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "c91127ccb38831dea8d7216873c22b76db89f9ed8834169987f82a6a59989ec9",
+    "title": "Man United crisis explained: How did it start? Who is to blame? Is Pochettino the answer?",
+    "url": "https://www.espn.com/soccer/story/_/id/50581456/manchester-united-premier-league-pochettino-ratcliffe",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-25T10:21:34.612242+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "4fcd5ff43a0426c0607c7281a12a912542d1c8cea0d13da2ec063049ba036a32",
+    "title": "Transfer rumors, news: Man United's Bruno Fernandes wanted by Juventus",
+    "url": "https://www.espn.com/soccer/story/_/id/50591059/transfer-rumors-news-manchester-united-fernandes",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-25T10:21:34.612277+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "716cd07db25e09a57da6029350adc83219f087fa88be0c90ee274f5c42a328d5",
+    "title": "Who are Sabah? Barça's Champions League opponents from near Iranian border",
+    "url": "https://www.espn.com/soccer/story/_/id/49742966/who-champions-league-debutants-sabah-fk-heres-need-know",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-25T10:21:34.612285+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "cc3015cda15f320bdb21cfac8832b6731a2ce9a15f201788b3978d03b7ca97b4",
+    "title": "Meet Brazilian soccer star who's played for clubs on six continents",
+    "url": "https://www.espn.com/soccer/story/_/id/50461455/soccer-star-played-clubs-six-continents",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-25T10:21:34.612288+00:00",
+    "status": "pending_review"
   }
 ]
