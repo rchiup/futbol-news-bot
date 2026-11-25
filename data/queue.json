@@ -14254,7 +14254,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T13:56:51.789420+00:00",
-    "status": "needs_review",
+    "status": "awaiting_ai",
     "visual_entities": {
       "personas": [],
       "clubes": [],
@@ -14277,7 +14277,8 @@
         "Futbol"
       ],
       "mentions": []
-    }
+    },
+    "editorial_rechecked": true
   },
   {
     "id": "9059527c7286218e8aaa",
@@ -14763,7 +14764,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T15:20:37.833480+00:00",
-    "status": "needs_review",
+    "status": "awaiting_ai",
     "visual_entities": {
       "personas": [],
       "clubes": [],
@@ -14786,7 +14787,8 @@
         "Futbol"
       ],
       "mentions": []
-    }
+    },
+    "editorial_rechecked": true
   },
   {
     "id": "4a80712bdec941dd900e",
@@ -14816,7 +14818,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T15:49:55.060290+00:00",
-    "status": "needs_review",
+    "status": "awaiting_ai",
     "visual_entities": {
       "personas": [],
       "clubes": [],
@@ -14839,7 +14841,8 @@
         "Futbol"
       ],
       "mentions": []
-    }
+    },
+    "editorial_rechecked": true
   },
   {
     "id": "af6e7e8034568160c702",
@@ -15616,7 +15619,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T17:24:27.284503+00:00",
-    "status": "needs_review",
+    "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": true,
     "portrait_used": false,
@@ -15665,7 +15668,8 @@
       "photo_provider": "Openverse",
       "entity_kind": "club"
     },
-    "photo_credit_full": "📷 Foto: Matt From London · CC BY 2.0 · Flickr (Openverse) (recorte y edición). https://www.flickr.com/photos/57868312@N00/54484094076 · https://creativecommons.org/licenses/by/2.0/"
+    "photo_credit_full": "📷 Foto: Matt From London · CC BY 2.0 · Flickr (Openverse) (recorte y edición). https://www.flickr.com/photos/57868312@N00/54484094076 · https://creativecommons.org/licenses/by/2.0/",
+    "editorial_rechecked": true
   },
   {
     "id": "a39b917b17426afc09ca",
@@ -15881,7 +15885,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T17:39:20.083941+00:00",
-    "status": "needs_review",
+    "status": "awaiting_ai",
     "article_context": "Senegal's football federation reacted to the Cas verdict on social media with a picture of the side lifting the Afcon trophy alongside the caption \"again and always champions of Africa\"\nThat was the initial reaction of Senegal football federation (FSF) president Abdoulaye Fall to the decision by the Court of Arbitration for Sport (Cas) to reinstate the West Africans as 2025 Africa Cup of Nations champions.\nThe Teranga Lions beat Morocco 1-0 in January's final but were stripped of the title in March by a Confederation of African Football (Caf) appeals board, which imposed a 3-0 forfeit after they walked off the pitch in protest at a penalty awarded against them when the game was goalless.\nFollowing a hearing in Lausanne in October, a three-man Cas panel unanimously overturned that ruling by Caf, effectively judging that the decisions taken by referee Jean-Jacques Ndala in restarting the match and playing it to a conclusion were final.\nMorocco's football federation (FRMF), however, says it will \"pursue all available legal avenues to challenge the decision\".\nThe North Africans could yet take their fight to the Swiss Federal Court.\nThose in Senegal have celebrated the return of the title, while several legal experts have backed the Cas verdict.\nSenegal reinstated as Afcon 2025 winners by court ruling\nSenegal's talisman Sadio Mane, who was named player of the tournament at Afcon 2025, said the ruling \"fills us with joy\".\nThe 34-year-old former Liverpool man thanked his team-mates and Senegal staff as well as the whole Senegalese nation at home and abroad.\n\"Your faith in us gave us strength during the most difficult moments. This victory is yours, too,\" he said in a statement on social media.\nSenegal captain Kalidou Koulibaly, who missed the final through injury, echoed that sentiment.\n\"Some victories are won on the pitch, while others are won in the heart of a people,\" he said in a post on Facebook.\n\"Long before this verdict, there was you - your prayers, your flags in the windows, your fervour, and the pride that unites us all: the pride of the people of Teranga.\"\nPape Gueye, the man who scored the extra-time winner in Rabat, described the Cas decision as \"an immense relief\".\nBoth he and Mane had a message of support for Morocco.\n\"Senegal and Morocco are brotherly nations; may our shared passion for football continue to bring us closer together,\" Mane said.\nGueye added: \"Beyond football, the respect and fraternity between our two peoples remain what matters most. Let's hold on to that.\nAfcon: Is the Senegal v Morocco saga finally over?\nMorocco's main complaint is that Articles 82 and 84 of Afcon tournament regulations - which were implemented by the Caf appeals board in March - were not followed by Cas.\nArticle 82 states that if a team \"refuses to play or leaves the ground before the regular end of the match without the authorisation of the referee\" it shall be \"considered [the loser] and shall be eliminated for good from the current competition\".\nArticle 84 then states a 3-0 forfeit should be imposed on a team which is eliminated in such circumstances.\n\"There [are] football rules that should have been applied by the referee,\" former Morocco international Hassan Kachloul told BBC Sport.\n\"When the Senegalese players left the pitch, the game should have been over.\"\nThe FRMF registered its \"surprise\" at the Cas decision and said that the panel \"failed to account for the stance recently established\" by the International Football Association Board (Ifab), the game's ultimate lawmakers, and world governing body Fifa regarding players leaving the field of play without the referee's permission.\nHowever, Ifab only updated its laws in April - three months after the Afcon final - to state that a referee may send off any player who leaves the field when protesting a decision.\nMoroccan football journalist Jalal Bounouar says his compatriots are \"frustrated and disappointed\" by the ruling.\n\"The main reason is that Caf's appeal board had already applied Article 82 and 84 of the competition regulations which considered Senegal to have forfeited the match,\" he told Newsday on the BBC World Service.\n\"Many Moroccans feel the decision by Cas has ignored the importance of these rules. From the Moroccan perspective, the referee should have taken stronger disciplinary action.\n\"We feel that our team was put in a difficult situation and that the final was not managed fairly.\"\nSenegal reinstated as Afcon 2025 champions - ten months on\nCas has a long-standing practice of following what has been called the 'field of play' doctrine.\nIt refrains from \"reviewing decisions taken on the playing field by referees for applying the rules of the game, unless there is evidence that those rules were applied arbitrarily or in bad faith\".\n\"The primary argument was that the referee is the master of the decision on the pitch,\" said Serge Vittoz, a member of the FSF's legal team.\nRaymond Hack, both a former head of disciplinary at Caf and a former arbiter at Cas, said the judgement was the \"correct verdict\".\n\"What everyone seems to forget - and whilst there may be contradictory information in Article 82 and 84 - decisions taken by the referee during the match are final,\" the South African told the BBC World Service.\n\"Only the referee can start a game. Only a referee can end a game.\"\nFor former Nigeria striker Daniel Amokachi, an Afcon winner in 1994, the Cas ruling is \"the right decision\".\n\"At the end of the day, the man in charge of the match (Ndala) restarted the game, the game ended,\" he said.\nCaf president Patrice Motsepe has repeatedly said his organisation will respect and adhere to Cas' decision\nCaf has already tightened its own regulations to avoid a repeat.\nBut Algerian sports journalist Maher Mezahi says the continental governing body still needs to salvage its image.\n\"How many times have we seen Caf's legal institutions, whether it be the disciplinary board or the appeals committee, come up with these decisions that we all find ridiculous,\" he said.\n\"They end up being challenged at Cas and eventually they get overturned.\n\"We have to rebuild trust in Caf's own judicial bodies because it is a little bit humiliating and degrading and it brings the entire reputation of the confederation into disrepute.\"\nThe 2027 Afcon is scheduled to take place in June and July next year, and Senegal and Morocco were among the first qualifiers earlier this month.\nKachloul says the next tournament provides a chance to draw a definitive",
     "visual_subject": "",
     "visual_entities": {
@@ -15909,7 +15913,8 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-25T21:49:40.584625+00:00"
+    "photo_checked_at": "2026-11-25T21:49:40.584625+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "c819822c892ee9f14b12",
@@ -16401,11 +16406,31 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-25T19:01:43.676492+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Sporting",
+        "Manchester United",
+        "Club Brugge",
+        "Liverpool",
+        "Roma"
+      ],
+      "competicion": [
+        "Champions League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Sporting y Manchester United juegan en Champions League",
+    "caption": "Sporting y Manchester United disputan su partido de Champions League en el Estádio José Alvalade a las 20:00 GMT. El encuentro forma parte de la fase de grupos y se suma a los duelos de Club Brugge‑Liverpool y PSG‑Roma programados para la misma jornada.",
+    "ai_generated_at": "2026-11-25T22:07:09.434169+00:00"
   },
   {
     "id": "a5c2a56a3b83db59ca4a",
