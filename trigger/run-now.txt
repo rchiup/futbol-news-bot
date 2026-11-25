@@ -92,3 +92,5 @@ Retry tennis integration after test isolation fix.
 Publish verified Herrero Linana vs Bronzetti result from Nov 24.
 
 Run first automatic Reels with local Spanish voice and FFmpeg.
+
+Prioritize one narrated Reel launch (Sinner) without waiting for a new RSS draft.
