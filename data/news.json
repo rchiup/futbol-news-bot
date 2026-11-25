@@ -9302,5 +9302,37 @@
     "source": "BBC Sport",
     "collected_at": "2026-11-25T07:58:14.784191+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "e30bb9bc59a372a083e8ee0be881e71dfda70384c2bffea9d5706ebd1413eb9b",
+    "title": "Podcast: Flying under the radar? Scottish football's unsung heroes",
+    "url": "https://www.bbc.co.uk/sounds/play/p0pprk8s?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-25T08:17:06.209003+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "0fbe2aeb74dc219cf9eb9e5c17a7e0d2526ed699e04b6d5473c5a2c3d62058d1",
+    "title": "Haaland admits 'you start questioning everything' when Man City fail to win",
+    "url": "https://www.espn.com/soccer/story/_/id/50590889/erling-haaland-man-city-napoli",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-25T08:17:06.368985+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "49b0f87e9a7fedb5cf9efd77a7b95b43df0ad808a5cabcf1c885a6068e9af036",
+    "title": "Rinderknech denies refusing doping test",
+    "url": "https://www.bbc.co.uk/sport/tennis/articles/cr9d7gxjq99po?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-25T08:17:07.567456+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "7b2f3902e7f5fe179b89279044e2e2f504356554cc476d53f242042e4515232e",
+    "title": "Brasil 2012: cuando Vettel se chocó pero se llevó el Mundial ante Alonso",
+    "url": "https://es.motorsport.com/f1/news/vettel-alonso-duelo-brasil-2012-formula1/4791418/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es",
+    "source": "Motorsport.com - Fórmula 1 - Historias",
+    "collected_at": "2026-11-25T08:17:08.422985+00:00",
+    "status": "pending_review"
   }
 ]
