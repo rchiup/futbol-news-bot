@@ -720,10 +720,16 @@ def run(reference: datetime | None = None, session=None) -> dict:
     # Keep the generated-draft count bounded; no runaway OpenAI bills.
     capacity = max(0, min(DRAFTS_PER_RUN, DRAFTS_PER_DAY - today_count(queue, "queued_at", reference)))
     added = 0
+    # Reconsider recent held stories once, using the same factual checks.
+    for held in queue:
+        date = parse_iso(held.get("published_at", ""))
+        if held.get("status") == "needs_review" and not held.get("editorial_rechecked") and date and 0 <= (reference-date).total_seconds() <= MAX_POST_AGE_HOURS*3600 and not news_missing_critical_details(held) and not low_value_match_preview(held) and not missing_promised_media(held):
+            held["editorial_rechecked"] = True
+            held["status"] = "awaiting_ai"
     for item in sorted(fresh, key=lambda x: novelty_priority(x, reference), reverse=True):
         if added >= capacity:
             break
-        if missing_promised_media(item) or item["score"] < 15 or is_duplicate(item, queue):
+        if missing_promised_media(item) or item["score"] < 10 or is_duplicate(item, queue):
             continue
         if len(item.get("description", "").strip()) < 30:
             continue  # Headlines without context are too risky to autopublish.
@@ -807,7 +813,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
     if publish_requested and not missing and in_posting_window:
         from publisher import publish_image, available_instagram_slots
         remaining_meta_slots = available_instagram_slots(fallback_slots=max(0, 40 - rolling_post_count(queue, reference)))
-        allowed_this_run = min(2, remaining_meta_slots)
+        allowed_this_run = 2  # Cross-platform reels can proceed even when IG quota is exhausted.
         # Explicit one-off launch requested by the account owner. Share the
         # account quota and the normal queue, never retry an uncertain publish.
         if (os.getenv("ENABLE_REELS", "").lower() == "true"
@@ -895,7 +901,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 item["status"] = "needs_review"
                 continue
             # Auto-feed only grounded, high-quality RSS stories, not empty-summary snippets.
-            if len(item.get("description", "").strip()) < 50 or item.get("score", 0) < 25:
+            if len(item.get("description", "").strip()) < 30 or item.get("score", 0) < 15:
                 item["status"] = "needs_review"
                 continue
             if not item.get("match_result") and news_missing_critical_details(item):
@@ -969,7 +975,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     except Exception as render_exc:
                         # Rendering failure is safe to fall back from: no Meta call occurred.
                         print(f"[REELS] Render unavailable: {type(render_exc).__name__}; publishing image")
-                if not video_path and not format_due(queue, reference, "image", 3):
+                if not video_path and (remaining_meta_slots <= 8 or not format_due(queue, reference, "image", 3)):
                     continue
                 item["publish_format"] = "reel" if video_path else "image"
                 item["format_attempt_at"] = iso(reference)
@@ -979,6 +985,13 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     item["publish_format"] = "reel"
                     from publisher import upload_public_video
                     item["reel_video_url"] = upload_public_video(video_path, item["id"])
+                    save_queue(queue)
+                    buffer_publish.crosspost(item, item["reel_video_url"], caption, persist=lambda: save_queue(queue))
+                    if remaining_meta_slots <= 0:
+                        item["status"] = "crossposted_only"
+                        save_queue(queue)
+                        published_count += 1
+                        continue
                     media_id = publish_reel(video_path, caption, item["id"], public_url=item["reel_video_url"])
                     print(f"[REELS] Published {item['id']}")
                 else:
@@ -988,10 +1001,8 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 item["posted_at"] = iso(reference)
                 item["instagram_media_id"] = media_id
                 already_posted.append(item)
+                remaining_meta_slots -= 1
                 published_count += 1
-                if video_path:
-                    save_queue(queue)
-                    buffer_publish.crosspost(item, item["reel_video_url"], caption, persist=lambda: save_queue(queue))
                 # Avoid a burst of near-simultaneous API publications.
                 if published_count < allowed_this_run and POST_SPACING_SECONDS:
                     time.sleep(POST_SPACING_SECONDS)
