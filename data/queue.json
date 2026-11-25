@@ -14511,5 +14511,39 @@
       ],
       "mentions": []
     }
+  },
+  {
+    "id": "a0e1ac30d895ad4d382b",
+    "title": "NBA, amid push for Europe league, launches $11B arena initiative",
+    "source_url": "https://www.espn.com/nba/story/_/id/50592672/nba-reveals-11b-initiative-arena-development-europe",
+    "source": "ESPN NBA",
+    "description": "The long-planned NBA-backed league in Europe took another step toward becoming reality with the unveiling of a plan that targets nearly $11 billion in funding for the development and renovation of arenas around the continent.",
+    "published_at": "2026-11-25T14:07:07+00:00",
+    "category": "NBA",
+    "sport": "NBA",
+    "score": 26,
+    "queued_at": "2026-11-25T14:59:58.682232+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "d37fcb09c602e53a5240",
+    "title": "Sterling avoids jail after smashing Lamborghini while inhaling from balloon",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50591753/raheem-sterling-court-england-manchester-city-liverpool-chelsea",
+    "source": "ESPN",
+    "description": "Former England footballer Raheem Sterling has avoided jail after admitting dangerously driving his Lamborghini while inhaling from a balloon on a motorway during rush hour before crashing into a metal gate.",
+    "published_at": "2026-11-25T14:18:04+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-25T14:59:58.682232+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
