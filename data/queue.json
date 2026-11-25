@@ -12618,7 +12618,7 @@
     "headline": "Trinity Rodman fuera de la clasificación femenina mundial por hombro",
     "caption": "Trinity Rodman, del seleccionado femenino de EE. UU., se lesionó el hombro en la final de la NWSL y quedará ausente del Campeonato Concacaf W, torneo clasificatorio para la Copa del Mundo 2027. Su ausencia debilita al conjunto estadounidense en la fase de clasificación, donde su aporte ofensivo era fundamental. ¿Podrá EE. UU. superar la falta de su goleadora y mantener la ventaja en la zona?",
     "ai_generated_at": "2026-11-25T05:22:49.908887+00:00",
-    "photo_checked_at": "2026-11-25T11:43:42.500476+00:00",
+    "photo_checked_at": "2026-11-25T12:07:16.462010+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -13136,7 +13136,7 @@
       "photo_provider": "Curated Commons",
       "verified": "2026-11-23"
     },
-    "photo_checked_at": "2026-11-25T11:42:53.055993+00:00",
+    "photo_checked_at": "2026-11-25T12:06:29.555641+00:00",
     "visual_mode": "licensed_photo",
     "photo_credit_full": "📷 Foto: Bryan Berlin · CC BY-SA 4.0 · Wikimedia Commons (recorte y edición). https://commons.wikimedia.org/wiki/File:Nicolas_Otamendi_Argentina_v_Spain_19_July_2026-059.jpg · https://creativecommons.org/licenses/by-sa/4.0/ · Gráfica adaptada bajo la misma licencia CC BY-SA.",
     "promotion": {
@@ -13590,5 +13590,39 @@
       ],
       "mentions": []
     }
+  },
+  {
+    "id": "d82107425a213d9f84f3",
+    "title": "De La Plata a Montevideo en bicicleta: la travesía de dos hinchas de Estudiantes para la final con Palmeiras",
+    "source_url": "https://www.ole.com.ar/estudiantes/estudiantes-plata-copa-libertadores_0_gUlViYBZMt.html",
+    "source": "Olé Argentina",
+    "description": "\"Fanáticos enfermos del Pincha\", Facundo y Brian encararon una travesía de 600 kilómetros para apoyar al club de sus amores en la definición de Copa Libertadores. Mientras sueñan, pedalearon con Olé...",
+    "published_at": "2026-11-25T11:56:41+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-25T12:05:36.493289+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "7776ec8964198f5b3a02",
+    "title": "'Random' move has Murrell flourishing at Falkirk",
+    "source_url": "https://www.bbc.co.uk/sport/articles/c6792q7gzeg8o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Jacob Murrell took a big step out of his comfort zone leaving the United States for Falkirk and is enjoying a blistering run of form in Scotland, if not the food.",
+    "published_at": "2026-11-25T12:03:34+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-25T12:05:36.493289+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]

@@ -9598,5 +9598,29 @@
     "source": "www.ole.com.ar - Home",
     "collected_at": "2026-11-25T11:49:09.914743+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "7776ec8964198f5b3a022ac54905b8749a1566c6a8ff7b86163d11fca7b0f1cd",
+    "title": "'Random' move has Murrell flourishing at Falkirk",
+    "url": "https://www.bbc.co.uk/sport/articles/c6792q7gzeg8o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-25T12:05:32.086591+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "7edec828e19b3dfae32f610cb1d6140d74b9530a91dc18548549e3bbf9d93b2d",
+    "title": "Jarrod Bowen January transfer prediction made with West Ham bottom of form table",
+    "url": "https://talksport.com/football/4730536/jarrod-bowen-transfer-west-ham-future/",
+    "source": "Football News, Transfers, Opinion - talkSPORT",
+    "collected_at": "2026-11-25T12:05:33.254243+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "d82107425a213d9f84f305d53feeb1af3816a36fdaed4a70cf63f6284da47fb9",
+    "title": "De La Plata a Montevideo en bicicleta: la travesía de dos hinchas de Estudiantes para la final con Palmeiras",
+    "url": "https://www.ole.com.ar/estudiantes/estudiantes-plata-copa-libertadores_0_gUlViYBZMt.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-25T12:05:33.499147+00:00",
+    "status": "pending_review"
   }
 ]
