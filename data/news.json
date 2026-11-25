@@ -10038,5 +10038,21 @@
     "source": "Cooperativa.cl: Noticias de Chile y el mundo - País, Deportes y más",
     "collected_at": "2026-11-25T16:17:19.250892+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "2eb62eb40c58703cc65cc1ef87c9f8ab162d96153f91e330d8f928c13a0075c6",
+    "title": "Sources: Barcelona to appeal Fermín López's two-match ban",
+    "url": "https://www.espn.com/soccer/story/_/id/50591588/fermin-lopez-barcelona-ban-appeal-sources",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-25T16:21:52.897131+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "ed728a2985405facd2ba18bc5312673c72fcb80473710a8b51fe0799403a86c8",
+    "title": "Champions League live updates: Sabah take on Barça, Sporting host United",
+    "url": "https://www.espn.com/soccer/story/_/id/50574274/uefa-champions-league-live-updates",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-25T16:21:52.897153+00:00",
+    "status": "pending_review"
   }
 ]
