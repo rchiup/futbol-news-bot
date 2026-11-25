@@ -11006,5 +11006,53 @@
     "source": "Football News, Transfers, Opinion - talkSPORT",
     "collected_at": "2026-11-25T23:29:59.584677+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "e29ad8f9faed09c840f1fac58266e5f822a9607531a7c5ca8598eb2baf4db9c4",
+    "title": "Lammens errors cost Man United win despite bizarre Fernandes goal",
+    "url": "https://www.espn.com/soccer/report/_/gameId/401915373",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-25T23:37:27.976097+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "022308dd0af9a3eb6dab22c0656122b329588f70395315c3897d6f90548c2ab8",
+    "title": "Roma end PSG's 12-game winning run with Champions League draw in Paris",
+    "url": "https://www.espn.com/soccer/report/_/gameId/401915374",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-25T23:37:27.976120+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "028565f636a5e9616ceeff623b27489c3feae763eaebc27becc4061e3b6e720f",
+    "title": "Gordon enjoys 'very special' Baku again to lead Barcelona rout",
+    "url": "https://www.espn.com/soccer/story/_/id/50597280/anthony-gordon-barcelona-baku-sabah-fk-champions-league",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-25T23:37:27.976126+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "c1322f91e123cbf091c02d4bdba6d2ac4907949429d72de93d3722cafac055f4",
+    "title": "Bayern Munich made a mistake taking Jamal Musiala's injuries public",
+    "url": "https://www.espn.com/soccer/story/_/id/50595091/bayern-munich-jamal-musiala-fainting-injuries",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-25T23:37:27.976137+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "e5cc18bb27d96bcf9f59988ac418d159d7102be435158b3145c19568ffe6465e",
+    "title": "Palmeiras llegó a Montevideo en busca de la Copa Libertadores",
+    "url": "https://www.ole.com.ar/futbol-internacional/libertadores/copa-libertadores-final-palmeiras-llego-montevideo-uruguay-estudiantes_0_EWcKIVixPu.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-25T23:37:28.736376+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "0be75f3ee416841c4bbc9dd2738f84f284114a0cf58c6c523af86c5154c722c3",
+    "title": "Reaves rejoins Lakers for full practice, status for Spurs matchup TBD",
+    "url": "https://www.espn.com/nba/story/_/id/50597465/austin-reaves-rejoins-lakers-full-practice-tbd-face-spurs",
+    "source": "www.espn.com - NBA",
+    "collected_at": "2026-11-25T23:37:29.464777+00:00",
+    "status": "pending_review"
   }
 ]
