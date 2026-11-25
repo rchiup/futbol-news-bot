@@ -12902,7 +12902,7 @@
     "headline": "Arthur Rinderknech niega haber rehusado prueba antidopaje",
     "caption": "El francés Arthur Rinderknech afirma que no rehusó la prueba antidopaje solicitada por la ITIA y que la acusación se debe a un posible malentendido con el recolector de muestra. Actualmente bajo investigación, el tenista, que ocupa el puesto 57 del ranking mundial, confía en que un tribunal independiente lo exonere. ¿Logrará limpiar su nombre antes de la próxima temporada?",
     "ai_generated_at": "2026-11-25T09:35:58.456626+00:00",
-    "photo_checked_at": "2026-11-25T18:36:31.236041+00:00",
+    "photo_checked_at": "2026-11-25T18:58:34.154219+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -12983,7 +12983,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T18:36:30.971862+00:00",
+    "photo_checked_at": "2026-11-25T18:58:33.777063+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -14227,7 +14227,7 @@
     "headline": "Briatore fija objetivo: Alpine a dos décimas de McLaren",
     "caption": "El empresario Flavio Briatore declaró que, si el coche de Alpine para 2027 llega a estar a dos o tres décimas del McLaren, considerará el objetivo cumplido. La afirmación surge tras una entrevista en la que también estuvo presente Zak Brown, director de McLaren, y refleja la ambición de Alpine por acercarse al cuarteto de referencia de la Fórmula 1. ¿Podrá el equipo francés cerrar la brecha técnica en tan poco tiempo?",
     "ai_generated_at": "2026-11-25T14:03:32.067413+00:00",
-    "photo_checked_at": "2026-11-25T18:36:29.760328+00:00",
+    "photo_checked_at": "2026-11-25T18:58:32.315668+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -14472,7 +14472,7 @@
     "headline": "Boca celebra Sudamericana y récord de 19 copas",
     "caption": "El campeón de la Liga y de la Copa Sudamericana, Boca Juniors, recibió este miércoles a Independiente Rivadavia en los octavos del Clausura mientras sus hinchas desfilaban por los alrededores de la Bombonera con pancartas que proclamaban “El que más copas ganó”. El trofeo será exhibido en el estadio y el capitán Leandro Paredes lo mostrará al público. La celebración, aunque vistosa, llega en medio de la exigencia de seguir ganando, pues el equipo deberá superar a Independiente Rivadavia para avanzar. ¿Podrá Boca mantener su dominio continental sin perder el foco en la competición local?",
     "ai_generated_at": "2026-11-25T14:43:16.269922+00:00",
-    "photo_checked_at": "2026-11-25T18:36:26.461046+00:00",
+    "photo_checked_at": "2026-11-25T18:58:29.525261+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -14942,7 +14942,7 @@
     "headline": "Santiago del Estero será sede de la final Boca vs Platense",
     "caption": "La final de la Copa Argentina entre Boca Juniors y Platense se disputará el miércoles 2 de diciembre a las 20:00 en el estadio Madre de Ciudades de Santiago del Estero, según confirmó la propia organización en sus redes. El recinto, habitual para finales del torneo local, no había albergado la Copa Argentina desde 2021, cuando Boca venció a Talleres por penales. La cita reúne al Xeneize, dirigido por Vasco Arruabarrena, y al Calamar de Martín Palermo, que busca cerrar el año con un título. ¿Podrá la atmósfera de Santiago del Estero favorecer al visitante?",
     "ai_generated_at": "2026-11-25T17:19:58.573286+00:00",
-    "photo_checked_at": "2026-11-25T18:35:44.678222+00:00",
+    "photo_checked_at": "2026-11-25T18:57:57.426241+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -15182,7 +15182,7 @@
     "headline": "Estudiantes y Palmeiras repetirán final en el Centenario",
     "caption": "Estudiantes, que ganó su primera Copa Libertadores en 1968 en el Estadio Centenario, vuelve a ese escenario para disputarse la final contra Palmeiras, el mismo rival de entonces. Tras 21 380 días, el duelo se repite en el histórico recinto. ¿Podrá la nostalgia del Pincha influir en el resultado o Palmeiras mantendrá la ventaja de los últimos años?",
     "ai_generated_at": "2026-11-25T16:39:05.401120+00:00",
-    "photo_checked_at": "2026-11-25T18:35:44.130980+00:00",
+    "photo_checked_at": "2026-11-25T18:57:56.767366+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -16209,6 +16209,57 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T18:46:21.597042+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "896bd11bfd5946f5de0c",
+    "title": "Club Brugge v Liverpool, Lille v Bayern Munich and more: Champions League clockwatch – live",
+    "source_url": "https://www.theguardian.com/football/live/2026/nov/25/club-brugge-v-liverpool-lille-v-bayern-munich-and-more-champions-league-clockwatch-live",
+    "source": "The Guardian",
+    "description": "⚽️ Updates from Wednesday’s 8pm GMT matches ⚽️ Live scoreboard | Read Football Daily | Email Simon A second goal for Barcelona and a second for Anthony Gordon! It’s a straightforward finish, after Stas Pokatilov in the home goal shovelled the ball right to his feet in saving Jesus’s shot. Team news is dripping through like glacial meltwater in early spring. Here’s how they line up at the Jan Breydelstadion: Continue reading...",
+    "published_at": "2026-11-25T18:55:59+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-25T18:57:12.328245+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "bcebaf27c11aa04fa381",
+    "title": "Raheem Sterling’s rise and fall: a sign football is broken? - The Latest",
+    "source_url": "https://www.theguardian.com/news/video/2026/nov/25/raheem-sterlings-rise-and-fall-a-sign-football-is-broken-the-latest",
+    "source": "The Guardian",
+    "description": "Raheem Sterling has been handed a 12-month jail term, suspended for 18 months, for reckless driving and possession of nitrous oxide. It marks a remarkable fall from grace for the former England and Manchester City player, who was awarded an MBE in 2021. Sterling started playing professional football at 16, and his sentencing has raised questions about whether there are sufficient protections for younger players. Lucy Hough speaks to the Guardian columnist and sportswriter Jonathan Liew Continue reading...",
+    "published_at": "2026-11-25T18:48:50+00:00",
+    "category": "FICHAJES",
+    "sport": "FUTBOL",
+    "score": 26,
+    "queued_at": "2026-11-25T18:57:12.328245+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "a3d2aca5b203a2a8ac2c",
+    "title": "More than the Score",
+    "source_url": "https://www.bbc.co.uk/sounds/play/w3ct9tpd?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "The Court of Arbitration for Sport reinstates Senegal as Africa Cup of Nations champions",
+    "published_at": "2026-11-25T14:57:00+00:00",
+    "category": "PARTIDOS",
+    "sport": "FUTBOL",
+    "score": 23,
+    "queued_at": "2026-11-25T18:57:12.328245+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
