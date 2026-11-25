@@ -17538,7 +17538,7 @@
     "category": "PARTIDOS",
     "source": "ESPN",
     "published_at": "2026-11-25T18:56:54.791848-03:00",
-    "status": "draft",
+    "status": "published",
     "match_result": [
       {
         "name": "Internazionale",
@@ -17562,7 +17562,11 @@
         "Futbol"
       ],
       "mentions": []
-    }
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-25T22:18:15.055595+00:00",
+    "posted_at": "2026-11-25T22:18:15.055595+00:00",
+    "instagram_media_id": "18043367942647236"
   },
   {
     "id": "ucl-final-401915377",
@@ -17575,7 +17579,7 @@
     "category": "PARTIDOS",
     "source": "ESPN",
     "published_at": "2026-11-25T18:56:54.791848-03:00",
-    "status": "draft",
+    "status": "published",
     "match_result": [
       {
         "name": "Lille",
@@ -17599,7 +17603,11 @@
         "Futbol"
       ],
       "mentions": []
-    }
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-25T22:18:15.055595+00:00",
+    "posted_at": "2026-11-25T22:18:15.055595+00:00",
+    "instagram_media_id": "18118066316121822"
   },
   {
     "id": "ucl-final-401915374",
@@ -17760,6 +17768,24 @@
     "queued_at": "2026-11-25T22:12:26.099689+00:00",
     "status": "awaiting_ai",
     "article_context": "La última derrota del Rojo como visitante fue justamente ante Vélez. Foto: FOTOBAIRES Fecha 3 Torneo Clausura Liga Profesional\nUna de cal y una de arena. El vaso medio vacío o medio lleno. Hay dos formas de verlo, con el aire optimista o con el pesimista. Independiente llegará a los cuartos de final del Torneo Clausura ante Vélez con el aval de ser el mejor equipo de toda la Liga Profesional en condición de visitante y, al mismo tiempo, teniendo un antecedente negativo muy reciente en Liniers .\nEl Rojo transita entre el buen andar cada vez que sale del Libertadores de América-Ricardo Enrique Bochini y la espina de la única derrota que registró fuera de casa en este segundo semestre de la actual temporada. Lejos de la presión de Avellaneda, donde la tensión por la irregularidad deportiva y las inminentes elecciones escalaron con rapidez, al equipo le sentó bien no contar con la ventaja de la localía en los playoffs .\nFue el segundo mejor conjunto en toda la fase regular del campeonato en condición de visitante , apenas por detrás de Rosario Central , a quien superó después de vencer a Argentinos Juniors en La Paternal. Logró cuatro victorias (Estudiantes, Lanús, Central Córdoba y Unión), tres empates (Talleres, Racing y Defensa y Justicia) y apenas una derrota . ¿Contra quién? Justamente ante el Fortín, el rival que visitará este sábado, desde las 20, en el José Amalfitani.\nIndependiente arrastra siete partidos sin perder fuera de casa . Desde el 1-0 de Vélez, el 3 de agosto, que no cae. En ese entonces, Gustavo Quinteros era el entrenador, por lo que el conjunto todavía no conoce la derrota con Jadson Viera en el banco de suplentes. “Somos un equipo duro fuera de casa, somos un equipo peligroso”, sostuvo el uruguayo en la previa al cruce de los cuartos de final.\nLuego de dejar al Bicho en el camino, el Rojo buscará replicar los buenos rendimientos que viene mostrando durante esta etapa del año como visitante, algo que no será para nada sencillo frente a un rival que ya supo derrotarlo hace poco tiempo y que desnudó sus falencias. Mientras tanto, Viera sabe que no podrá repetir la formación, que contará con dos ausencias de peso por las lesiones musculares del Chimy Ávila y de Santiago Arias y deberá meter mano.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "ae7d6f9b1c96dbcc7a07",
+    "title": "Isak scores twice as clinical Liverpool beat Brugge",
+    "source_url": "https://www.bbc.co.uk/sport/football/videos/cqvg28l0z8mro?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Liverpool defeat Club Brugge in a clinical performance thanks to goals from Alexander Isak and Florian Wirtz, bouncing back after a defeat in their last Champions League match.",
+    "published_at": "2026-11-25T22:12:19+00:00",
+    "category": "PARTIDOS",
+    "sport": "FUTBOL",
+    "score": 34,
+    "queued_at": "2026-11-25T22:18:15.055595+00:00",
+    "status": "awaiting_ai",
+    "article_context": "Liverpool defeat Club Brugge in a clinical performance thanks to goals from Alexander Isak and Florian Wirtz, bouncing back after a defeat in their last Champions League match.\nMATCH REPORT: Champions League - Club Brugge 0-3 Liverpool\nIsak scores twice as clinical Liverpool beat Brugge. Video, 00:03:01 Isak scores twice as clinical Liverpool beat Brugge\nUp Next. Liverpool fan critical of Jeremy Jacquet performance. Video, 00:01:23 Liverpool fan critical of Jeremy Jacquet performance\n'I wasn't surprised' - Slot critical of overturned Liverpool penalty. Video, 00:01:15 'I wasn't surprised' - Slot critical of overturned Liverpool penalty\nIs Slot still searching for his ideal Liverpool starting XI? Video, 00:02:04 Is Slot still searching for his ideal Liverpool starting XI?\nLiverpool must find someone to hit Salah numbers - Warnock. Video, 00:02:03 Liverpool must find someone to hit Salah numbers - Warnock\nGreatest catch ever? Man on motorbike takes incredible grab. Video, 00:00:22 Greatest catch ever? Man on motorbike takes incredible grab\nBehind the scenes at Ipswich Town's new £35m training ground. Video, 00:08:10 Behind the scenes at Ipswich Town's new £35m training ground\nMarquez collects eighth MotoGP title. Video, 00:01:16 Marquez collects eighth MotoGP title\nRed card must be taken into consideration for loss - Pochettino. Video, 00:01:08 Red card must be taken into consideration for loss - Pochettino\nFrom Watford to world champion. Video, 00:01:40 From Watford to world champion\nWhy Fury was born to fight Video, 00:01:34 Why Fury was born to fight\nI had to play regularly for my mental wellbeing - Trafford on summer move. Video, 00:02:05 I had to play regularly for my mental wellbeing - Trafford on summer move\nFans pay respects to Tenerife's De Miguel. Video, 00:01:01 Fans pay respects to Tenerife's De Miguel\nI don't know what 2027 looks like for me - Rahm. Video, 00:01:51 I don't know what 2027 looks like for me - Rahm\nAntonelli title win 'beginning of something special' Video, 00:01:43 Antonelli title win 'beginning of something special'\n'Utter chaos at Ferrari right now' Video, 00:02:23 'Utter chaos at Ferrari right now'\nRice relishing title race 'anxiety' after win at Liverpool. Video, 00:05:27 Rice relishing title race 'anxiety' after win at Liverpool\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
