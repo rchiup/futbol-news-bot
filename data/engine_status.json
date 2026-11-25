@@ -1,19 +1,19 @@
 {
-  "checked_at_utc": "2026-11-25T02:39:37.772007+00:00",
+  "checked_at_utc": "2026-11-25T02:43:02.726345+00:00",
   "local_hour": 23,
   "statuses": {
-    "published": 126,
-    "draft": 5,
-    "awaiting_ai": 20,
+    "published": 127,
+    "draft": 8,
+    "awaiting_ai": 16,
     "needs_review": 94,
     "publish_error": 26,
     "duplicate": 28
   },
   "fresh_candidates": 126,
   "queued_new": 0,
-  "ai_generated": 5,
+  "ai_generated": 4,
   "preview_images": 5,
-  "published": 0,
+  "published": 1,
   "duplicates_suppressed": 0,
   "no_photo_deferred": 0,
   "total_queue": 344,
@@ -38,11 +38,11 @@
     "last_success": "groq",
     "providers": {
       "groq": {
-        "attempts": 13,
-        "success": 5,
-        "failures": 8,
-        "avg_latency_ms": 1981,
-        "avg_readability": 94.0,
+        "attempts": 16,
+        "success": 6,
+        "failures": 10,
+        "avg_latency_ms": 1988,
+        "avg_readability": 92.5,
         "last_error": "invalid_output"
       },
       "gemini": {
@@ -54,17 +54,17 @@
         "last_error": "invalid_output"
       },
       "openrouter": {
-        "attempts": 19,
+        "attempts": 21,
         "success": 3,
-        "failures": 16,
+        "failures": 18,
         "avg_latency_ms": 87311,
         "avg_readability": 95.0,
         "last_error": "invalid_output"
       },
       "cloudflare": {
-        "attempts": 16,
+        "attempts": 18,
         "success": 0,
-        "failures": 16,
+        "failures": 18,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "invalid_output"

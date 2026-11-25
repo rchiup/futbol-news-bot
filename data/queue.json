@@ -5950,28 +5950,35 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T15:45:20.694985+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "visual_subject": "Achraf Hakimi",
     "visual_entities": {
       "personas": [
         "Achraf Hakimi"
       ],
-      "clubes": [
-        "Roma"
-      ],
+      "clubes": [],
       "competicion": [],
       "ciudad": []
     },
-    "llm_provider": "groq",
-    "llm_model": "openai/gpt-oss-120b",
-    "headline": "Achraf Hakimi habla de su causa judicial en Francia",
-    "caption": "Achraf Hakimi rompió el silencio antes del partido PSG‑Roma, comentando la causa judicial que enfrenta en Francia, a meses del juicio por una denuncia presentada en febrero de 2023.",
-    "ai_generated_at": "2026-11-24T15:45:20.694985+00:00",
+    "llm_provider": "source_brief",
+    "llm_model": "none",
+    "headline": "Qué dijo Achraf Hakimi sobre la causa judicial que enfrenta en Francia",
+    "caption": "El defensor marroquí rompió el silencio en la previa del encuentro entre el PSG y la Roma, a meses del juicio por una denuncia presentada en febrero de 2023. (Olé Argentina)",
+    "ai_generated_at": "2026-11-25T02:43:02.726345+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "editorial_rechecked": true
+    "editorial_rechecked": true,
+    "photo_checked_at": "2026-11-25T02:51:07.028387+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "AchrafHakimi"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "15708cb655f6cad676c8",
@@ -7673,7 +7680,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T18:45:59.620660+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -7688,8 +7695,16 @@
     "llm_model": "none",
     "headline": "Dólar superó los $1.030 tras caída de 5,9% del cobre",
     "caption": "Según publicó Emol , la divisa terminó sus operaciones más líquidas en puntas de 1.033,4 pesos comprador y 1.033,7 pesos vendedor . (Cooperativa Deportes Chile)",
-    "ai_generated_at": "2026-11-24T19:01:07.101607+00:00",
-    "editorial_rechecked": true
+    "ai_generated_at": "2026-11-25T02:43:02.726345+00:00",
+    "editorial_rechecked": true,
+    "photo_checked_at": "2026-11-25T02:51:05.790819+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "941fef843bc510123571",
@@ -7702,7 +7717,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T18:50:57.047638+00:00",
-    "status": "awaiting_ai",
+    "status": "published",
     "visual_entities": {
       "personas": [],
       "clubes": [],
@@ -7713,12 +7728,50 @@
     "llm_model": "none",
     "headline": "Otro gol de CR7 en Al Nassr y cada vez más cerca de los 1000",
     "caption": "Cristiano Ronaldo abrió la cuenta para su equipo en la Champions de Asia. (Olé Argentina)",
-    "ai_generated_at": "2026-11-24T18:50:57.047638+00:00",
+    "ai_generated_at": "2026-11-25T02:43:02.726345+00:00",
     "ai_art_used": false,
-    "photo_used": false,
-    "portrait_used": false,
+    "photo_used": true,
+    "portrait_used": true,
     "reference_photo_used": false,
-    "editorial_rechecked": true
+    "editorial_rechecked": true,
+    "portrait_info": {
+      "subject": "Cristiano Ronaldo",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Cristiano_Ronaldo_(2).jpg",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "commons_filename": "Cristiano Ronaldo (2).jpg",
+      "photographer": "Jan S0L0",
+      "credit_required": true,
+      "share_alike": true,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_(2).jpg",
+      "photo_provider": "Curated Commons",
+      "verified": "2026-11-23"
+    },
+    "visual_subject": "Cristiano Ronaldo",
+    "photo_checked_at": "2026-11-25T02:49:20.030439+00:00",
+    "visual_mode": "licensed_photo",
+    "photo_credit_full": "📷 Foto: Jan S0L0 · CC BY-SA 2.0 · Wikimedia Commons (recorte y edición). https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_(2).jpg · https://creativecommons.org/licenses/by-sa/2.0/ · Gráfica adaptada bajo la misma licencia CC BY-SA.",
+    "promotion": {
+      "hashtags": [
+        "Futbol"
+      ],
+      "mentions": []
+    },
+    "reel_quality": {
+      "version": 2,
+      "duration": 5.2,
+      "mean_db": -20.1
+    },
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-25T02:43:02.726345+00:00",
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795575010/football-news-bot/reels/941fef843bc510123571.mp4",
+    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_id": "6b064ce4fb2f8a39c9907169",
+    "zernio_youtube_status": "published",
+    "zernio_youtube_id": "6b064ce6fb2f8a39c9907173",
+    "zernio_youtube_url": "https://www.youtube.com/watch?v=djwWNbWGIEA",
+    "posted_at": "2026-11-25T02:43:02.726345+00:00",
+    "instagram_media_id": "18135616369837872"
   },
   {
     "id": "9e5038af82d9d9191988",
@@ -10365,7 +10418,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-24T22:38:54.048682+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "article_context": "Guillermo tiene avanzada su continuidad en Vélez. Foto: Marcelo Carroll.\nEl clima electoral quedó atrás en Vélez. Con el triunfo del frente Legado Velezano, y la asunción de Nelson Pugliese como presidente, el foco pasó a ser la renovación de Guillermo Barros Schelotto. Mientras que el equipo sigue avanzando en el Torneo Clausura (clasificó a los cuartos de final con un agónico triunfo ante Belgrano por penales), puertas adentro se acelera para retener al director técnico.\nEn ese sentido, el flamante mandamás ya tuvo una reunión con el Mellizo y su equipo de trabajo. \"Estamos trabajando con él y con su representante para renovar. Saben que ese es nuestro deseo, pero tenemos cuatro finales y no queremos que pierdan el foco\" , había declarado Pugliese semanas atrás. Sin embargo, la Comisión Directiva logró un acuerdo de palabra.\nEl nuevo vínculo sería a largo plazo. De ambas partes hay intenciones de continuar, por lo que lo económico no resultó un problema. Más allá de eso, desde los dos lados se entendió que la prioridad está en el apartado deportivo, por lo que no avanzarán mientras que el equipo siga con vida en el Clausura: se enfrentará a Independiente por los cuartos de final.\nEl único aspecto que podría truncar la extensión del contrato es el mercado de pases. Ese punto aún no fue tratado, pero en el pasado supo generar rispideces. Incluso, en el periodo de transferencias de invierno, Barros Schelotto manifestó su inconformismo por la falta de refuerzos. En especial, exigió la llegada de un centrodelantero, y ahí apareció Ronaldo Martínez.\nEl paraguayo llegó a préstamo desde Talleres y rápidamente se convirtió en el goleador del equipo. A tal punto que, en noviembre, alcanzó los diez goles con la V Azulada y activó la obligación de compra, que todavía no fue ejecutada. Sin embargo, Pugliese explicó que tanto Ronaldo como Lucas Robertone, que se encuentra cedido desde el Almería de España, serán comprados a la brevedad.\nDe la reunión participaron el presidente, el vicepresidente Gastón Aimaro y el cuerpo técnico completo. El único punto que quedó sobre la mesa, que se verá una vez terminado el Clausura, es el proyecto deportivo. El contrato acordado sería de dos años.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "visual_subject": "",
     "visual_entities": {
@@ -10378,14 +10431,24 @@
     },
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
-    "headline": "Barros Schelotto negocia extensión de contrato con Vélez",
-    "caption": "Guillermo Barros Schelotto, cuyo vínculo con Vélez Sarsfield vence en diciembre, tiene un acuerdo de palabra para renovar tras reunirse con el presidente Nelson Pugliese y el vicepresidente Gastón Aimaro. Ambas partes buscan un contrato de dos años, priorizando la continuidad deportiva mientras el equipo compite en el Torneo Clausura. El único punto pendiente es el proyecto deportivo, que se definirá al concluir la fase de cuartos de final contra Independiente.",
-    "ai_generated_at": "2026-11-24T22:38:54.048682+00:00",
+    "headline": "Barros Schelotto negocia prórroga con Vélez",
+    "caption": "Guillermo Barros Schelotto y el presidente Nelson Pugliese llegaron a un acuerdo de palabra para extender el vínculo del técnico, con miras a dos años, mientras Vélez Sarsfield avanza a los cuartos de final del Torneo Clausura. La renovación está supeditada al mercado de pases y al proyecto deportivo que se definirá al término del torneo. ¿Podrá el club mantener el foco y evitar nuevas tensiones por la falta de refuerzos?",
+    "ai_generated_at": "2026-11-25T02:43:02.726345+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "editorial_rechecked": true
+    "editorial_rechecked": true,
+    "photo_checked_at": "2026-11-25T02:49:13.424487+00:00",
+    "portrait_info": null,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "NelsonPugliese"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "c332d6a4319edba88a63",
@@ -11538,7 +11601,7 @@
       "mean_db": -19.7
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795568978/football-news-bot/reels/real-psv-analysis-20261124.mp4",
-    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_status": "published",
     "zernio_tiktok_id": "6b06355432c128a56fd166e7",
     "zernio_youtube_status": "published",
     "zernio_youtube_id": "6b0635580f7bb528c9cca299",
@@ -11551,6 +11614,7 @@
         "Deportes"
       ],
       "mentions": []
-    }
+    },
+    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7711910001622764820"
   }
 ]

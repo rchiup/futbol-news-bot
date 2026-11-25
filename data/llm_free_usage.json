@@ -2,20 +2,22 @@
   "date_utc": "2026-11-25",
   "providers": {
     "groq": {
-      "attempts": 13,
-      "success": 5,
-      "failures": 8,
+      "attempts": 16,
+      "success": 6,
+      "failures": 10,
       "latencies_ms": [
         1927,
         1538,
         1845,
         2629,
-        1967
+        1967,
+        2022
       ],
       "quality": [
         100,
         100,
         100,
+        85,
         85,
         85
       ],
@@ -55,9 +57,9 @@
       "last_error": "invalid_output"
     },
     "openrouter": {
-      "attempts": 19,
+      "attempts": 21,
       "success": 3,
-      "failures": 16,
+      "failures": 18,
       "latencies_ms": [
         24860,
         194447,
@@ -71,9 +73,9 @@
       "last_error": "invalid_output"
     },
     "cloudflare": {
-      "attempts": 16,
+      "attempts": 18,
       "success": 0,
-      "failures": 16,
+      "failures": 18,
       "latencies_ms": [],
       "quality": [],
       "last_error": "invalid_output"
