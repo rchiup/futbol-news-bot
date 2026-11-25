@@ -10054,5 +10054,29 @@
     "source": "www.espn.com - SOCCER",
     "collected_at": "2026-11-25T16:21:52.897153+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "4634251c807f418f442606f1f66d8cb6be8bc69f63999f352f9a8574ea4c7c3a",
+    "title": "Confusion and anger - Yoro red card rescinded, but row goes on",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cvze7y6n2redo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-25T16:32:08.307154+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "2fa107550eb4a1af423e1785261fc134138537bade264945e6fe676a30b63508",
+    "title": "Volver al lugar donde nació todo: Estudiantes, Palmeiras y una final que parece escrita por el destino",
+    "url": "https://www.ole.com.ar/futbol-internacional/libertadores/estudiantes-palmeiras-final-copa-libertadores-1968-deja-vu-leyenda_0_rvdmPBbeAm.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-25T16:32:10.267759+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "b145842cdc0e3b9938acd83e5fd329502931259fcc5d69c6386a56edb312fd8e",
+    "title": "Oficial: Williams superó el límite presupuestario en 2025 y Alpine también infringió las reglas",
+    "url": "https://es.motorsport.com/f1/news/williams-supera-limite-presupuestario-2025-alpine-tambien-infringio-reglas/10877735/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es",
+    "source": "Motorsport.com - Fórmula 1 - Historias",
+    "collected_at": "2026-11-25T16:32:11.828159+00:00",
+    "status": "pending_review"
   }
 ]

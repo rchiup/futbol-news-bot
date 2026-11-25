@@ -12664,7 +12664,7 @@
     "headline": "¿Manchester United se perfila como el nuevo Tottenham?",
     "caption": "Manchester United, bajo la dirección de Mauricio Pochettino, arranca la temporada con la peor puesta a punto desde 1972 y se encuentra en la zona de descenso de la Premier League. Opta calcula una probabilidad del 27,5 % de descenso, situándolos como el quinto club con mayor riesgo, detrás de Crystal Palace, Sunderland, Ipswich y Coventry. Sus estadísticas de goles esperados son similares a las de Tottenham en la misma fase, aunque su eficacia frente a puerta rival es la segunda peor. Con nueve partidos sin victoria y una diferencia de ocho puntos respecto a la temporada anterior, la pregunta es: ¿logrará Pochettino revertir la tendencia antes de que la tabla los condene?",
     "ai_generated_at": "2026-11-25T06:33:45.715775+00:00",
-    "photo_checked_at": "2026-11-25T16:10:27.906388+00:00",
+    "photo_checked_at": "2026-11-25T16:34:01.927936+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -13050,7 +13050,7 @@
     "headline": "Manchester City no podrá usar su nuevo cuarto uniforme en Premier League",
     "caption": "El club inglés no podrá lucir su nuevo cuarto equipamiento en la Premier League porque la normativa permite un máximo de tres camisetas por campaña. Podrá usarlo en la Champions League y, con solicitud a la FA, en la FA Cup. La restricción, que también afecta a otros equipos, plantea la duda de si limita las oportunidades comerciales de los clubes al impedir la explotación de diseños adicionales.",
     "ai_generated_at": "2026-11-25T09:53:06.499892+00:00",
-    "photo_checked_at": "2026-11-25T16:10:24.772443+00:00",
+    "photo_checked_at": "2026-11-25T16:33:20.002586+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -13787,7 +13787,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T16:10:28.768507+00:00",
+    "photo_checked_at": "2026-11-25T16:34:02.368616+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -14745,7 +14745,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T16:10:21.986532+00:00",
+    "photo_checked_at": "2026-11-25T16:33:17.289608+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -15006,6 +15006,89 @@
     "queued_at": "2026-11-25T16:21:59.354020+00:00",
     "status": "awaiting_ai",
     "article_context": "Matchday 5 of the UEFA Champions League continues Wednesday, with nine more matches across the continent as the race for a place in the knockout rounds continues to heat up!\nIn our two early matches, we have Barcelona making the long trip to Azerbaijan to face Sabah and Slavia Prague taking on Villarreal .\nLater in the standout matches, we have defending champions Paris Saint-Germain welcoming AS Roma , while Mauricio Pochettino's Manchester United travel to Portugal to face Sporting CP in the Argentine's first Champions League match in charge of the club.\nElsewhere, Liverpool visit Club Brugge while Bayern Munich take on Lille in France. Also on the schedule: Atlético Madrid vs. Viking , Internazionale vs. Stuttgart and Shakhtar Donetsk vs. Fenerbahçe .\nWith crucial points up for grabs, we'll have you covered throughout another action-packed day of the Champions League.\nEnjoy all the updates from Wednesday's matches across Europe!",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "3c971f1ae292a93156e3",
+    "title": "Oficial: Williams superó el límite presupuestario en 2025 y Alpine también infringió las reglas",
+    "source_url": "https://es.motorsport.com/f1/news/williams-supera-limite-presupuestario-2025-alpine-tambien-infringio-reglas/10877735",
+    "source": "Motorsport F1",
+    "description": "Casi ocho meses después de empezar a revisar las cuentas de 2025, la FIA ha encontrado a un solo equipo de Fórmula 1 por encima del límite presupuestario: Williams. La escudería de Carlos Sainz y Alex Albon incurrió en un exceso de gasto que la federación califica de \"menor\" y cometió, además, una infracción de procedimiento. Alpine también incumplió el reglamento financiero, en su ... Sigue leyendo",
+    "published_at": "2026-11-25T16:24:40+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 31,
+    "queued_at": "2026-11-25T16:32:13.547779+00:00",
+    "status": "draft",
+    "visual_subject": "Carlos Sainz",
+    "visual_entities": {
+      "personas": [
+        "Carlos Sainz",
+        "Alex Albon"
+      ],
+      "clubes": [
+        "Williams",
+        "Alpine"
+      ],
+      "competicion": [
+        "Fórmula 1"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Williams supera límite presupuestario 2025 y Alpine infringe normas",
+    "caption": "La FIA, tras ocho meses de revisión de las cuentas de 2025, detectó que Williams excedió el tope de gasto, con un exceso calificado como menor y una infracción de procedimiento. Alpine también violó el reglamento financiero. Hasta ahora, son los únicos equipos sancionados, lo que plantea dudas sobre la efectividad del control presupuestario y su impacto en la competitividad del campeonato. ¿Podrá la FIA endurecer la vigilancia para evitar futuras transgresiones?",
+    "ai_generated_at": "2026-11-25T16:32:13.547779+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-25T16:33:13.552483+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Formula1",
+        "CarlosSainz",
+        "AlexAlbon",
+        "Williams",
+        "Alpine"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "2fa107550eb4a1af423e",
+    "title": "Volver al lugar donde nació todo: Estudiantes, Palmeiras y una final que parece escrita por el destino",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/libertadores/estudiantes-palmeiras-final-copa-libertadores-1968-deja-vu-leyenda_0_rvdmPBbeAm.html",
+    "source": "Olé Argentina",
+    "description": "El Pincha conquistó ahí su primera Libertadores en 1968 y abrió el ciclo más exitoso de su historia. Ahora, 21.380 días después, el fútbol lo devuelve al Centenario y le pone enfrente al mismo rival.",
+    "published_at": "2026-11-25T16:18:55+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-25T16:32:13.547779+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "4634251c807f418f4426",
+    "title": "Confusion and anger - Yoro red card rescinded, but row goes on",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/cvze7y6n2redo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Leny Yoro's red card against Liverpool has prompted an unseemly difference of opinion between Man Utd and Pro Ref.",
+    "published_at": "2026-11-25T16:28:10+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-25T16:32:13.547779+00:00",
+    "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
