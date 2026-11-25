@@ -167,3 +167,57 @@ def publish_image(path: Path, caption: str, identifier: str, session=requests) -
     if not media_id:
         raise RuntimeError("Meta did not confirm Instagram publication")
     return str(media_id)
+
+
+def upload_public_video(path: Path, identifier: str, session=requests) -> str:
+    cloud = require("CLOUDINARY_CLOUD_NAME")
+    key = require("CLOUDINARY_API_KEY")
+    secret = require("CLOUDINARY_API_SECRET")
+    params = {"folder": "football-news-bot/reels", "public_id": identifier,
+              "timestamp": str(int(time.time()))}
+    signature = hashlib.sha1(("&".join(f"{k}={params[k]}" for k in sorted(params)) + secret).encode()).hexdigest()
+    with path.open("rb") as video:
+        response = session.post(
+            f"https://api.cloudinary.com/v1_1/{cloud}/video/upload",
+            data={**params, "api_key": key, "signature": signature},
+            files={"file": (path.name, video, "video/mp4")}, timeout=120)
+    response.raise_for_status()
+    url = response.json().get("secure_url", "")
+    if not url.startswith("https://"):
+        raise RuntimeError("Cloudinary did not return a public video URL")
+    return url
+
+
+def publish_reel(path: Path, caption: str, identifier: str, session=requests) -> str:
+    verified = verify_instagram_account(session=session)
+    ig_id, token, _, root = instagram_api_settings()
+    if verified["id"] != ig_id:
+        raise RuntimeError("Instagram target verification mismatch")
+    url = upload_public_video(path, identifier, session=session)
+    headers = {"Authorization": f"Bearer {token}"}
+    response = session.post(f"{root}/{ig_id}/media",
+        data={"media_type":"REELS","video_url":url,"caption":caption,"share_to_feed":"true"},
+        headers=headers, timeout=35)
+    response.raise_for_status()
+    creation_id = response.json().get("id")
+    if not creation_id:
+        raise RuntimeError("Instagram did not return a Reel container")
+    for _ in range(24):
+        response = session.get(f"{root}/{creation_id}", params={"fields":"status_code"},
+                               headers=headers, timeout=20)
+        response.raise_for_status()
+        status = response.json().get("status_code")
+        if status == "FINISHED":
+            break
+        if status in {"ERROR","EXPIRED","PUBLISHED"}:
+            raise RuntimeError(f"Reel container status: {status}")
+        time.sleep(5)
+    else:
+        raise RuntimeError("Reel container still processing; check before retrying")
+    response = session.post(f"{root}/{ig_id}/media_publish",
+        data={"creation_id":creation_id},headers=headers,timeout=35)
+    response.raise_for_status()
+    media_id = response.json().get("id")
+    if not media_id:
+        raise RuntimeError("Meta did not confirm Reel publication")
+    return str(media_id)
