@@ -78,7 +78,7 @@ def voice(text,destination):
         import edge_tts
         audio = destination.with_suffix(".mp3")
         offsets = []
-        speech = edge_tts.Communicate(text, os.getenv("REEL_VOICE", "es-MX-JorgeNeural"), rate="+20%", boundary="WordBoundary")
+        speech = edge_tts.Communicate(text, os.getenv("REEL_VOICE", "es-MX-JorgeNeural"), rate="+28%", boundary="WordBoundary")
         with audio.open("wb") as f:
             async for event in speech.stream():
                 if event["type"] == "audio":
@@ -88,8 +88,8 @@ def voice(text,destination):
         return audio, offsets
     try:
         audio, offsets = asyncio.run(asyncio.wait_for(neural(), timeout=45))
-        command(["ffmpeg","-y","-v","error","-i",str(audio),str(destination)])
-        return offsets
+        command(["ffmpeg","-y","-v","error","-i",str(audio),"-af","silenceremove=stop_periods=-1:stop_duration=0.45:stop_threshold=-45dB:stop_silence=0.18",str(destination)])
+        return []  # Silence compression changes word offsets; use proportional scene timing.
     except Exception as exc:
         print(f"[REEL] Neural voice unavailable ({type(exc).__name__}); using local voice")
     model=os.getenv("PIPER_MODEL","")
@@ -97,7 +97,7 @@ def voice(text,destination):
         raise RuntimeError("Local Spanish voice unavailable")
     command(["piper","--model",model,"--output_file",str(destination)],input_text=text)
     accelerated=destination.with_name("faster.wav")
-    command(["ffmpeg","-y","-v","error","-i",str(destination),"-af","atempo=1.18",str(accelerated)])
+    command(["ffmpeg","-y","-v","error","-i",str(destination),"-af","atempo=1.25,silenceremove=stop_periods=-1:stop_duration=0.45:stop_threshold=-45dB:stop_silence=0.18",str(accelerated)])
     accelerated.replace(destination)
     return []
 
