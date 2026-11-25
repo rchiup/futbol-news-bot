@@ -180,18 +180,20 @@
       "blocked_until_utc": 1795612255
     },
     "zai": {
-      "attempts": 24,
-      "success": 3,
-      "failures": 21,
+      "attempts": 27,
+      "success": 4,
+      "failures": 23,
       "latencies_ms": [
         26760,
         36919,
-        35447
+        35447,
+        35233
       ],
       "quality": [
         85,
         85,
-        100
+        100,
+        85
       ],
       "last_error": "timeout",
       "blocked_until_utc": 1795626505
