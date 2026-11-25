@@ -655,6 +655,9 @@ def morning_burst_settings(reference: datetime, queue: list[dict]) -> tuple[int,
 def run(reference: datetime | None = None, session=None) -> dict:
     reference = reference or now_utc()
     queue = load_queue()
+    if session is None and os.getenv("ENABLE_PUBLISH", "").lower()=="true":
+        from forced_reel import run_once
+        run_once(queue, save_queue, reference)
     # Backfill the explicitly requested first Reel without republishing to IG.
     if session is None and buffer_publish.configured() and os.getenv("ENABLE_PUBLISH", "").lower()=="true":
         try:
