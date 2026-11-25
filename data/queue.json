@@ -17851,11 +17851,30 @@
     "sport": "FUTBOL",
     "score": 34,
     "queued_at": "2026-11-25T22:29:50.670935+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Aleksander Pavlovic",
+    "visual_entities": {
+      "personas": [
+        "Aleksander Pavlovic"
+      ],
+      "clubes": [
+        "Lille",
+        "Bayern Munich"
+      ],
+      "competicion": [
+        "Champions League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Aleksander Pavlovic marca autogol y regala victoria a Lille sobre Bayern",
+    "caption": "Bayern Munich cayó 2-0 ante Lille en la fase de grupos de la Champions League, tras dos goles en tres minutos, incluido un autogol de Aleksander Pavlovic. El gol de Pavlovic regaló la victoria a los franceses, marcando la primera derrota del alemán en la campaña.",
+    "ai_generated_at": "2026-11-25T22:42:14.910175+00:00"
   },
   {
     "id": "aa38ebef85833763855d",
