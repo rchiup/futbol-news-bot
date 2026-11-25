@@ -72,13 +72,20 @@ def frame(cover, chunk, item, index, count, destination, brand):
 def command(args,timeout=90,input_text=None):
     return subprocess.run(args,input=input_text,text=True,check=True,capture_output=True,timeout=timeout).stdout
 
+def spoken_text(text):
+    """Latin American pronunciation overrides; never modify displayed captions."""
+    names = {"PSV": "pe ese ve", "VAR": "var", "FIFA": "fifa", "UEFA": "uefa", "FC": "efe ce"}
+    return re.sub(r"\b(?:PSV|VAR|FIFA|UEFA|FC)\b", lambda m: names[m.group(0)], text)
+
+
 def voice(text,destination):
     """Prefer neural Latin American narration; local Piper is the fallback."""
+    text = spoken_text(text)
     async def neural():
         import edge_tts
         audio = destination.with_suffix(".mp3")
         offsets = []
-        speech = edge_tts.Communicate(text, os.getenv("REEL_VOICE", "es-MX-JorgeNeural"), rate="+28%", boundary="WordBoundary")
+        speech = edge_tts.Communicate(text, os.getenv("REEL_VOICE", "es-MX-JorgeNeural"), rate="+20%", boundary="WordBoundary")
         with audio.open("wb") as f:
             async for event in speech.stream():
                 if event["type"] == "audio":
@@ -97,7 +104,7 @@ def voice(text,destination):
         raise RuntimeError("Local Spanish voice unavailable")
     command(["piper","--model",model,"--output_file",str(destination)],input_text=text)
     accelerated=destination.with_name("faster.wav")
-    command(["ffmpeg","-y","-v","error","-i",str(destination),"-af","atempo=1.25,silenceremove=stop_periods=-1:stop_duration=0.45:stop_threshold=-45dB:stop_silence=0.18",str(accelerated)])
+    command(["ffmpeg","-y","-v","error","-i",str(destination),"-af","atempo=1.18,silenceremove=stop_periods=-1:stop_duration=0.45:stop_threshold=-45dB:stop_silence=0.18",str(accelerated)])
     accelerated.replace(destination)
     return []
 
