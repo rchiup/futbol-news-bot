@@ -10560,7 +10560,7 @@
     "portrait_used": false,
     "reference_photo_used": false,
     "editorial_rechecked": true,
-    "photo_checked_at": "2026-11-25T09:33:44.497846+00:00",
+    "photo_checked_at": "2026-11-25T09:57:18.648818+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -10873,7 +10873,7 @@
     "caption": "La Fiscalía de Paraguay imputó este martes al exmandatario Santiago Peña por presunto lavado de activos y cohecho pasivo agravado, dentro de la investigación del caso Ueno Bank, que también señala a su hermano Francisco Peña y a su cuñada Rocío Caballero Bosch. La ampliación de cargos se suma a la acusación inicial por lesión de confianza, administración en provecho propio y asociación criminal. ¿Qué repercusión tendrá esta acusación en la política paraguaya y en la percepción internacional del país?",
     "ai_generated_at": "2026-11-25T02:39:37.772007+00:00",
     "editorial_rechecked": true,
-    "photo_checked_at": "2026-11-25T09:33:41.763361+00:00",
+    "photo_checked_at": "2026-11-25T09:57:16.289591+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -12226,11 +12226,12 @@
     "publish_format": "reel",
     "format_attempt_at": "2026-11-25T09:53:06.499892+00:00",
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795600482/football-news-bot/reels/af36e377d22015f8938a.mp4",
-    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_status": "published",
     "zernio_tiktok_id": "6b06b0647ee1bd7ce73bd13b",
     "zernio_youtube_status": "published",
     "zernio_youtube_id": "6b06b0677ee1bd7ce73bd14c",
-    "zernio_youtube_url": "https://www.youtube.com/watch?v=DKOoj_1Dns0"
+    "zernio_youtube_url": "https://www.youtube.com/watch?v=DKOoj_1Dns0",
+    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712045368682319125"
   },
   {
     "id": "554fe22e1f86e1e30a71",
@@ -12663,7 +12664,7 @@
     "headline": "¿Manchester United se perfila como el nuevo Tottenham?",
     "caption": "Manchester United, bajo la dirección de Mauricio Pochettino, arranca la temporada con la peor puesta a punto desde 1972 y se encuentra en la zona de descenso de la Premier League. Opta calcula una probabilidad del 27,5 % de descenso, situándolos como el quinto club con mayor riesgo, detrás de Crystal Palace, Sunderland, Ipswich y Coventry. Sus estadísticas de goles esperados son similares a las de Tottenham en la misma fase, aunque su eficacia frente a puerta rival es la segunda peor. Con nueve partidos sin victoria y una diferencia de ocho puntos respecto a la temporada anterior, la pregunta es: ¿logrará Pochettino revertir la tendencia antes de que la tabla los condene?",
     "ai_generated_at": "2026-11-25T06:33:45.715775+00:00",
-    "photo_checked_at": "2026-11-25T09:33:36.181580+00:00",
+    "photo_checked_at": "2026-11-25T09:57:09.524698+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
