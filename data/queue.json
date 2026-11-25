@@ -15000,7 +15000,7 @@
     "headline": "Colapinto: 'En Las Vegas pierdes como un segundo'",
     "caption": "Franco Colapinto vivió un día de adelantamientos constantes en Las Vegas, donde tuvo que recuperar posiciones en múltiples ocasiones. El piloto argentino compartió su perspectiva sobre la experiencia, poniéndose en el lugar del espectador y destacando la frustración de ver cómo se pierden oportunidades: 'Pierdes como un segundo'. ¿La F1 necesita revisar las reglas para evitar este tipo de caos en pista?",
     "ai_generated_at": "2026-11-25T17:39:20.083941+00:00",
-    "photo_checked_at": "2026-11-25T20:17:08.790870+00:00",
+    "photo_checked_at": "2026-11-25T20:39:44.030588+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -15280,7 +15280,7 @@
     "headline": "Mastantuono pide disculpas a hinchas tras caída ante Monza",
     "caption": "El argentino Mastantuono se disculpó con los hinchas de la Fiorentina tras la contundente derrota 3-0 ante Monza en la Serie A. La Viola, con el ex River como figura, se encuentra en el puesto 16° del torneo italiano, a un punto de la zona de descenso. ¿Será suficiente el mensaje de confianza para revertir la mala racha del equipo?",
     "ai_generated_at": "2026-11-25T17:39:20.083941+00:00",
-    "photo_checked_at": "2026-11-25T20:16:29.643678+00:00",
+    "photo_checked_at": "2026-11-25T20:39:42.070030+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -15597,7 +15597,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-25T20:16:31.863859+00:00"
+    "photo_checked_at": "2026-11-25T20:39:09.814718+00:00"
   },
   {
     "id": "68976a6deaf965f2287d",
@@ -15643,7 +15643,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-25T20:16:31.321903+00:00",
+    "photo_checked_at": "2026-11-25T20:39:09.266857+00:00",
     "portrait_info": {
       "subject": "Crystal Palace",
       "image_url": "https://live.staticflickr.com/65535/54484094076_9e3c892117_b.jpg",
@@ -15903,7 +15903,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-25T20:16:30.807894+00:00"
+    "photo_checked_at": "2026-11-25T20:39:08.784349+00:00"
   },
   {
     "id": "c819822c892ee9f14b12",
@@ -16926,11 +16926,47 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-25T20:27:28.812553+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Anthony Gordon",
+    "visual_entities": {
+      "personas": [
+        "Anthony Gordon",
+        "Karim Adeyemi",
+        "Gabriel Jesus",
+        "Lamine Yamal",
+        "Hansi Flick"
+      ],
+      "clubes": [
+        "Barcelona",
+        "Sabah"
+      ],
+      "competicion": [
+        "Champions League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Gordon duplica y Barça gana 4-1 en Sabah",
+    "caption": "Anthony Gordon anotó dos goles en la victoria 4-1 del Barcelona ante el Sabah en la fase de liga de la Champions League, manteniendo la puja de Hansi Flick por un puesto entre los ocho primeros. También marcaron Karim Adeyemi y Gabriel Jesus, mientras Lamine Yamal quedó fuera por una lesión de tobillo. El debutante Sabah quedó 32.º en la tabla. ¿Podrá el Barça consolidar su posición con este ritmo?",
+    "ai_generated_at": "2026-11-25T20:37:58.963075+00:00",
+    "photo_checked_at": "2026-11-25T20:39:05.505176+00:00",
+    "portrait_info": null,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "AnthonyGordon",
+        "KarimAdeyemi",
+        "GabrielJesus",
+        "LamineYamal"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "9617e713ee4b86cca9dd",
@@ -16943,6 +16979,40 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-25T20:30:56.533651+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "3d2e8fa04fc1c9636c34",
+    "title": "Updated NBA championship, MVP odds: Spurs remain favorites; Wemby odds-on MVP fave",
+    "source_url": "https://www.espn.com/espn/betting/story/_/id/44679680/2026-nba-finals-championship-mvp-odds",
+    "source": "ESPN NBA",
+    "description": "The Spurs remain atop the oddsboard, while Victor Wembanyama and Luka Doncic are making MVP a two-man race.",
+    "published_at": "2026-11-25T20:33:19+00:00",
+    "category": "NBA",
+    "sport": "NBA",
+    "score": 26,
+    "queued_at": "2026-11-25T20:37:58.963075+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "96ad8ae196e2ccc7413a",
+    "title": "Colapinto, ante una doble pelea en Qatar: el quinto puesto de Alpine y su duelo con Lindblad",
+    "source_url": "https://www.ole.com.ar/autos/franco-colapinto-doble-pelea-qatar-quinto-puesto-alpine-racing-bulls-duelo-arvid-lindblad_0_CR1svuTHFF.html",
+    "source": "Olé Argentina",
+    "description": "Tras el gran resultado en Las Vegas, la escudería francesa recuperó terreno en la lucha por el quinto lugar de Constructores, mientras que el pilarense quedó a tiro del británico, con quien ya protagonizó varios cruces. ¿Podrá aprovechar el envión en Lusail?",
+    "published_at": "2026-11-25T20:24:43+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-25T20:37:58.963075+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
