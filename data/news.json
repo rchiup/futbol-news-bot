@@ -9790,5 +9790,21 @@
     "source": "www.espn.com - NBA",
     "collected_at": "2026-11-25T13:23:59.028541+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "820ed37d326bb6cda616f196e297e40823b30699506a17352d70802f5f3b16c3",
+    "title": "Guardiola: Messi and Ronaldo's legendary careers prolonged by their rivalry",
+    "url": "https://www.espn.com/soccer/story/_/id/50592183/pep-guardiola-lionel-messi-cristiano-ronaldo",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-25T13:31:00.250320+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "53b176372513f73a973a09a00c206fea8f835ad165bf208188f0c258429e0238",
+    "title": "Is your team out of the MLS playoffs? Adopt these chaos clubs as your 2nd side",
+    "url": "https://www.espn.com/soccer/story/_/id/50585229/mls-cup-playoffs-chaos-clubs",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-25T13:31:00.250355+00:00",
+    "status": "pending_review"
   }
 ]
