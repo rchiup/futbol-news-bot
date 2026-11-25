@@ -11954,7 +11954,7 @@
     "headline": "Rangers supera a Aberdeen",
     "caption": "A pesar de su ingenuidad y complacencia, Rangers logró una victoria emocionante 3-2 sobre Aberdeen. El técnico Derek McInnes elogió la capacidad de su equipo para conseguir el resultado a pesar de los obstáculos. ¿Fue esta victoria un reflejo de la verdadera solidez del equipo o solo un golpe de suerte?",
     "ai_generated_at": "2026-11-25T03:09:01.070596+00:00",
-    "photo_checked_at": "2026-11-25T12:01:13.766454+00:00",
+    "photo_checked_at": "2026-11-25T12:23:05.543210+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -11978,7 +11978,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T03:05:11.464714+00:00",
-    "status": "draft",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -12533,7 +12533,7 @@
     "headline": "Riesgo de robos a camiones sube en Chile por Black Friday",
     "caption": "El incremento de despachos por Black Friday y la temporada navideña, sumado a cierres de bodegas y turnos reducidos, eleva el riesgo de robos a camiones en Chile durante las próximas semanas, según expertos. Un informe de TT Club y BSI Consulting sitúa al país entre los nueve con mayor número de robos de carga en 2025, y un registro sectorial nacional contabilizó 220 incidentes entre enero y septiembre de 2026. Ante este panorama, ¿qué acciones implementarán autoridades y empresas para reforzar la seguridad del transporte de mercancías?",
     "ai_generated_at": "2026-11-25T04:00:14.368688+00:00",
-    "photo_checked_at": "2026-11-25T12:01:11.487503+00:00",
+    "photo_checked_at": "2026-11-25T12:23:03.507796+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -12708,7 +12708,7 @@
     "headline": "Bayern Munich prioriza talentos bávaros antes de buscar fuera",
     "caption": "El director de desarrollo juvenil Jochen Sauer indica que el Bayern Munich exige que al menos el 60 % de los jugadores de la sub‑19 provengan de Múnich y Baviera, ampliando luego la captación al resto de Alemania y a mercados europeos. Entre los ejemplos recientes están Josip Stanisic, Aleksandar Pavlovic y Jamal Musiala, fichado a los 16 años cuando el club percibió que Chelsea no explotaba su potencial. La política combina identidad regional y competitividad internacional, pero ¿puede seguir produciendo estrellas bajo la presión de resultados inmediatos?",
     "ai_generated_at": "2026-11-25T07:54:37.131975+00:00",
-    "photo_checked_at": "2026-11-25T12:01:09.980399+00:00",
+    "photo_checked_at": "2026-11-25T12:23:02.345581+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -12788,7 +12788,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T12:00:30.700161+00:00",
+    "photo_checked_at": "2026-11-25T12:23:02.013987+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -13377,7 +13377,7 @@
     "headline": "Premier League programa partidos a las 14:05 por transmisión",
     "caption": "Este domingo la Premier League tiene partidos a las 12:00 y a las 14:05. El derbi Everton‑Liverpool se adelantó a mediodía porque TNT lo transmitirá en su franja de la tarde, lo que obligó a desplazar el resto de los encuentros al horario de 14:05 para evitar solapamientos con el inicio temprano y con el partido de las 16:30. Además, los compromisos europeos de Crystal Palace, Sunderland, Bournemouth y Brighton el jueves limitan su participación el sábado, y la liga busca que los equipos no jueguen dos partidos en menos de 60 horas. ¿Este ajuste logrará reducir la congestión de partidos y proteger el rendimiento de los equipos?",
     "ai_generated_at": "2026-11-25T11:38:34.638708+00:00",
-    "photo_checked_at": "2026-11-25T12:00:30.982901+00:00",
+    "photo_checked_at": "2026-11-25T12:22:30.724578+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -13602,11 +13602,47 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-25T12:05:36.493289+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "Facundo",
+        "Brian"
+      ],
+      "clubes": [
+        "Estudiantes",
+        "Palmeiras"
+      ],
+      "competicion": [
+        "Copa Libertadores"
+      ],
+      "ciudad": [
+        "La Plata",
+        "Montevideo"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Dos hinchas de Estudiantes recorren 600 km en bici a Montevideo",
+    "caption": "Facundo y Brian, autodenominados “fanáticos enfermos del Pincha”, pedalean 600 kilómetros desde La Plata hasta Montevideo para acompañar a Estudiantes en la final de la Copa Libertadores contra Palmeiras. El gesto muestra la entrega de la afición, aunque plantea la pregunta de si es razonable que los seguidores recorran cientos de kilómetros solo para ver un partido.",
+    "ai_generated_at": "2026-11-25T12:21:55.130644+00:00",
+    "photo_checked_at": "2026-11-25T12:22:28.479424+00:00",
+    "portrait_info": null,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "Facundo",
+        "Brian",
+        "Estudiantes",
+        "Palmeiras"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "7776ec8964198f5b3a02",
