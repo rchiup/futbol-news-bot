@@ -757,12 +757,72 @@ def run(reference: datetime | None = None, session=None) -> dict:
         from publisher import publish_image, available_instagram_slots
         remaining_meta_slots = available_instagram_slots(fallback_slots=max(0, 40 - rolling_post_count(queue, reference)))
         allowed_this_run = remaining_meta_slots
+        # Explicit one-off launch requested by the account owner. Share the
+        # account quota and the normal queue, never retry an uncertain publish.
+        if (os.getenv("ENABLE_REELS", "").lower() == "true"
+                and reference.astimezone(PUBLISH_TZ).date().isoformat() == "2026-11-24"):
+            from publisher import publish_reel
+            forced_tennis_id = "tennis-editorial-20261124-herrero-bronzetti"
+            targets = [x for x in queue if x.get("id") == forced_tennis_id and x.get("status") == "draft"]
+            # If no Reel has been published today, adapt today's already vetted
+            # Sinner story as an explicitly requested second format.
+            launch_id = "reel-launch-20261124"
+            reel_done = any(x.get("publish_format") == "reel" and x.get("status") == "published"
+                            and (parse_iso(x.get("posted_at", "")) or reference - timedelta(days=2)).astimezone(PUBLISH_TZ).date()
+                            == reference.astimezone(PUBLISH_TZ).date() for x in queue)
+            if not reel_done and not any(x.get("id") == launch_id for x in queue):
+                original = next((x for x in queue if x.get("id") == "3d8c6f798408850c2f5b"
+                                 and x.get("status") == "published" and x.get("photo_used")), None)
+                if original:
+                    launch = dict(original)
+                    launch.update({"id": launch_id, "status": "draft", "publish_format": "reel",
+                                   "queued_at": iso(reference), "reel_source_id": original["id"]})
+                    for key in ("instagram_media_id", "posted_at", "error"):
+                        launch.pop(key, None)
+                    queue.append(launch)
+            targets += [x for x in queue if x.get("id") == launch_id and x.get("status") == "draft" and not reel_done]
+            for launch in targets:
+                if published_count >= allowed_this_run:
+                    print("[LAUNCH] Waiting for Meta quota")
+                    break
+                is_reel = launch["id"] == launch_id
+                try:
+                    card = make_card(launch, allow_ai=False, lookup=True, network_lookup=False)
+                    public_caption = clean_public_caption(launch["caption"])
+                    if launch.get("photo_used"):
+                        credit = photo_attribution_compact(launch.get("portrait_info"))
+                        if credit:
+                            public_caption += "\n\n" + credit
+                    public_caption = append_promotion(public_caption, launch)
+                    if is_reel:
+                        if not reels.eligible(launch):
+                            raise ValueError("Launch photo or narration unavailable")
+                        video = reels.render(launch, card, ROOT / "output" / "reels" / (launch_id + ".mp4"), BRAND)
+                    # Mark attempt before sending to Meta, then persist its ID.
+                    launch["status"] = "publishing"
+                    save_queue(queue)
+                    if is_reel:
+                        media_id = publish_reel(video, public_caption, launch["id"])
+                    else:
+                        media_id = publish_image(card, public_caption, launch["id"])
+                    launch.update({"status":"published", "posted_at":iso(reference),
+                                   "instagram_media_id":media_id,
+                                   "publish_format":"reel" if is_reel else "image"})
+                    published_count += 1
+                    print(f"[LAUNCH] Published {launch['id']} media={media_id}")
+                except Exception as exc:
+                    launch["status"] = "publish_error" if launch.get("status") == "publishing" else "needs_review"
+                    launch["error"] = type(exc).__name__
+                    print(f"[LAUNCH] {launch['id']} failed: {type(exc).__name__}")
+                save_queue(queue)
         # Novelty and recency outrank a saved portrait; never publish the
         # same protagonist again just because their news came via another feed.
         already_posted = [x for x in queue if x.get("status") == "published"]
         for item in sorted(queue, key=lambda x: (bool(x.get('match_result')), novelty_priority(x, reference)), reverse=True):
             if published_count >= allowed_this_run:
                 break
+            if item.get("id") == "reel-launch-20261124":
+                continue  # Explicit launch path never falls back to a duplicate image.
             if item.get("status") != "draft" and not (item.get("status") == "needs_review" and (item.get("photo_deferred_reason") == "no_relevant_photo" or item.get("visual_mode") == "original_graphic") and item.get("headline") and item.get("caption")):
                 continue
             if missing_promised_media(item):
