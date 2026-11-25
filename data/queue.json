@@ -12244,7 +12244,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T03:12:10.942579+00:00",
-    "status": "draft",
+    "status": "expired",
     "visual_subject": "Damián Originario",
     "visual_entities": {
       "personas": [
@@ -12533,7 +12533,7 @@
     "headline": "Riesgo de robos a camiones sube en Chile por Black Friday",
     "caption": "El incremento de despachos por Black Friday y la temporada navideña, sumado a cierres de bodegas y turnos reducidos, eleva el riesgo de robos a camiones en Chile durante las próximas semanas, según expertos. Un informe de TT Club y BSI Consulting sitúa al país entre los nueve con mayor número de robos de carga en 2025, y un registro sectorial nacional contabilizó 220 incidentes entre enero y septiembre de 2026. Ante este panorama, ¿qué acciones implementarán autoridades y empresas para reforzar la seguridad del transporte de mercancías?",
     "ai_generated_at": "2026-11-25T04:00:14.368688+00:00",
-    "photo_checked_at": "2026-11-25T14:45:12.709276+00:00",
+    "photo_checked_at": "2026-11-25T15:08:57.925029+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -12750,7 +12750,7 @@
     "headline": "Celtic vigila al mediocampista egipcio Emam Ashour",
     "caption": "Según informes, Celtic está siguiendo de cerca al mediocampista egipcio Emam Ashour, de 28 años, que podría abandonar el Al Ahly en el mercado de enero. El club escocés lo tiene en la lista de posibles fichajes mientras los Rangers buscan deshacerse de Bojan Miovski. La llegada de Ashour podría aportar creatividad al medio campo celta, pero aún no hay confirmación oficial. ¿Será suficiente para reforzar al equipo en la próxima fase europea?",
     "ai_generated_at": "2026-11-25T08:11:13.662518+00:00",
-    "photo_checked_at": "2026-11-25T14:45:10.852400+00:00",
+    "photo_checked_at": "2026-11-25T15:08:56.750584+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -12983,7 +12983,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T14:45:09.741546+00:00",
+    "photo_checked_at": "2026-11-25T15:08:55.824889+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -14257,7 +14257,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T14:45:04.034314+00:00",
+    "photo_checked_at": "2026-11-25T15:08:51.569034+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -14442,7 +14442,7 @@
     "headline": "Boca celebra Sudamericana y récord de 19 copas",
     "caption": "El campeón de la Liga y de la Copa Sudamericana, Boca Juniors, recibió este miércoles a Independiente Rivadavia en los octavos del Clausura mientras sus hinchas desfilaban por los alrededores de la Bombonera con pancartas que proclamaban “El que más copas ganó”. El trofeo será exhibido en el estadio y el capitán Leandro Paredes lo mostrará al público. La celebración, aunque vistosa, llega en medio de la exigencia de seguir ganando, pues el equipo deberá superar a Independiente Rivadavia para avanzar. ¿Podrá Boca mantener su dominio continental sin perder el foco en la competición local?",
     "ai_generated_at": "2026-11-25T14:43:16.269922+00:00",
-    "photo_checked_at": "2026-11-25T14:45:01.863011+00:00",
+    "photo_checked_at": "2026-11-25T15:08:49.599916+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -14552,6 +14552,41 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T14:59:58.682232+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "071a7da7d2edc590a42d",
+    "title": "Alcaraz, sobre la lesión de Sinner: \"El tenis le echa de menos\"",
+    "source_url": "https://www.ole.com.ar/tenis/carlos-alcaraz-lesion-janniksinner-rodilla-recuperacion-copadavis-espana-austria_0_LGokY97Q5c.html",
+    "source": "Olé Argentina",
+    "description": "En la previa a la serie de Copa Davis frente a Austria, el español le dedicó unas palabras al italiano, quien recientemente se sometió a una operación de rodilla.",
+    "published_at": "2026-11-25T14:50:56+00:00",
+    "category": "LESIONES",
+    "sport": "FUTBOL",
+    "score": 26,
+    "queued_at": "2026-11-25T15:07:09.692414+00:00",
+    "status": "awaiting_ai",
+    "article_context": "Alcaraz se refirió a la lesión de Sinner (REUTERS/Manon Cruz).\n\"El tenis lo extraña\". Carlos Alcaraz está enfocado en la Copa Davis . Con España, el número 3 del ranking aspira a que su país se quede con el trofeo por séptima vez en la historia. Sin embargo, en la previa a la serie de cuartos de final frente a Austria, se tomó un momento para darle palabras de aliento a Jannik Sinner , quien recientemente se sometió a una operación en la rodilla.\n\"Obviamente, el tenis lo extraña. Yo lo extraño. No nos vemos desde abril\", recordó sobre la última vez que se enfrentaron, en la final del Masters 1000 de Montecarlo, la cual ganó el italiano. Además, agregó: \"Creo que la decisión de operarse fue de su equipo. Es joven y todavía tiene muchos años de carrera por delante, así que estoy convencido de que volverá aún más fuerte y siendo mejor jugador\" , indicó.\nAdemás, al ser consultado sobre si le gustaría volver a enfrentarse a él, Alcaraz no tuvo dudas: \"Por supuesto, le deseo que tenga una recuperación lo más rápida y satisfactoria posible. Espero que podamos volver a encontrarnos en el circuito, verle por allí y charlar con él\", completó el español, quien desarrolló una gran relación de respeto con Sinner.\nLos comentarios de Alcaraz se dan unos días después de que Sinner fuera operado por una tendinopatía en la parte externa de la rodilla derecha , la cual le viene generando problemas desde julio. Esta lesión suele afectar a deportistas que se someten a movimientos repetitivos, cambios de dirección y frenadas de alta intensidad, como ocurre en el tenis.\nLuego de pasar por el quirófano, el italiano indicó en un mensaje que \"extraño mucho estar en la pista y ahora voy a comenzar mi proceso de recuperación junto con mi equipo. Gracias por todo el apoyo. ¡Hasta pronto!\", escribió en sus redes. Cabe destacar que Sinner no compite desde el 12 de julio, cuando ganó la final de Wimbledon ante Alexander Zverev. Luego de eso, se perdió varios torneos importantes como el US Open o los ATP Finals de Turín.\nVolviendo al español, el número 3 del mundo se refirió a la serie de cuartos de final que se viene ante Austria e hizo mención a sus propios problemas físicos: \"Me estoy cuidando de las molestias físicas que tuve en Turín. Espero no tener problemas en los próximos días. No han pasado muchos días, pero me encuentro bien. Hoy he tocado la pelota, no ha sido lo exigente que suele ser un entrenamiento previo a la competición. Tengo confianza plena juegue quien juegue\", resaltó.\nA su vez, agregó que mejoró considerablemente su saque: \"Quien pegue más fuerte a las líneas es el que gane. No suelo mirar las estadísticas en los entrenamientos, pero sabemos la importancia que tiene el saque. Desde el US Open es la vez que más empeño le he puesto en el saque. Y la precisión era algo importante y lo hemos trabajado más porque no soy tan alto como otros\", cerró.\nCon todo esto, Alcaraz se prepara junto a España para afrontar los cuartos de final de la Copa Davis ante Austria. En Bolonia, la acción comenzará este jueves con dos duelos individuales a partir de las 13 de Argentina y, en caso de empate, se definirá con un partido de dobles a su continuación.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "300f0acec704978f2db6",
+    "title": "Diego Maradona: a seis años de su muerte, convocan a un homenaje en el Obelisco para pedir justicia",
+    "source_url": "https://www.ole.com.ar/maradona/diego-maradona-seis-anos-muerte-aniversario-convocan-homenaje-obelisco-pedir-justicia-juicio_0_ZcmAZvKL9u.html",
+    "source": "Olé Argentina",
+    "description": "Este miércoles 25 de noviembre se cumple un nuevo aniversario del fallecimiento del Diez. Desde las 18, hinchas y agrupaciones se reunirán en el centro porteño, mientras crece la expectativa por el veredicto del juicio.",
+    "published_at": "2026-11-25T14:05:45+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-25T15:07:09.692414+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
