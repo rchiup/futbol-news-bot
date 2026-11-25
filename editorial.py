@@ -975,7 +975,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     except Exception as render_exc:
                         # Rendering failure is safe to fall back from: no Meta call occurred.
                         print(f"[REELS] Render unavailable: {type(render_exc).__name__}; publishing image")
-                if not video_path and (remaining_meta_slots <= 8 or not format_due(queue, reference, "image", 3)):
+                if not video_path and (remaining_meta_slots <= (8 if os.getenv("ENABLE_REELS", "").lower() == "true" else 0) or not format_due(queue, reference, "image", 3)):
                     continue
                 item["publish_format"] = "reel" if video_path else "image"
                 item["format_attempt_at"] = iso(reference)
