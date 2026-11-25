@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-25T09:29:06.263872+00:00",
+  "checked_at_utc": "2026-11-25T09:32:56.619481+00:00",
   "local_hour": 6,
   "statuses": {
     "published": 129,
@@ -70,9 +70,9 @@
         "last_error": "invalid_output"
       },
       "nvidia": {
-        "attempts": 27,
+        "attempts": 28,
         "success": 0,
-        "failures": 27,
+        "failures": 28,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "http_410"
