@@ -658,6 +658,18 @@ def morning_burst_settings(reference: datetime, queue: list[dict]) -> tuple[int,
     return (3 if 9 <= local.hour <= 22 else 2), POSTS_PER_DAY
 
 
+def format_due(queue, reference, kind, minutes):
+    for item in queue:
+        if item.get("publish_format") != kind:
+            continue
+        raw = item.get("format_attempt_at") or item.get("posted_at")
+        if raw:
+            when = parse_iso(raw)
+            if when and reference - timedelta(minutes=minutes) < when <= reference:
+                return False
+    return True
+
+
 def run(reference: datetime | None = None, session=None) -> dict:
     reference = reference or now_utc()
     queue = load_queue()
@@ -795,7 +807,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
     if publish_requested and not missing and in_posting_window:
         from publisher import publish_image, available_instagram_slots
         remaining_meta_slots = available_instagram_slots(fallback_slots=max(0, 40 - rolling_post_count(queue, reference)))
-        allowed_this_run = remaining_meta_slots
+        allowed_this_run = min(2, remaining_meta_slots)
         # Explicit one-off launch requested by the account owner. Share the
         # account quota and the normal queue, never retry an uncertain publish.
         if (os.getenv("ENABLE_REELS", "").lower() == "true"
@@ -951,12 +963,17 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 item.pop("photo_deferred_reason", None)
                 caption = append_promotion(caption, item)
                 video_path = None
-                if os.getenv("ENABLE_REELS", "").lower() == "true" and reels.eligible(item):
+                if os.getenv("ENABLE_REELS", "").lower() == "true" and format_due(queue, reference, "reel", 60) and reels.eligible(item):
                     try:
                         video_path = reels.render(item, ROOT / "output" / "portraits" / (item["id"] + ".jpg"), ROOT / "output" / "reels" / (item["id"] + ".mp4"), BRAND)
                     except Exception as render_exc:
                         # Rendering failure is safe to fall back from: no Meta call occurred.
                         print(f"[REELS] Render unavailable: {type(render_exc).__name__}; publishing image")
+                if not video_path and not format_due(queue, reference, "image", 3):
+                    continue
+                item["publish_format"] = "reel" if video_path else "image"
+                item["format_attempt_at"] = iso(reference)
+                save_queue(queue)
                 if video_path:
                     from publisher import publish_reel
                     item["publish_format"] = "reel"
