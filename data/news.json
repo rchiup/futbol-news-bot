@@ -9694,5 +9694,21 @@
     "source": "BBC Sport",
     "collected_at": "2026-11-25T12:50:49.873388+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "ea0eb964f0701b4bc50fa4b151a338424dd4d958e9c67b1970c7b41d4b555c29",
+    "title": "Raheem Sterling - from national icon to suspended jail sentence",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cxzd9ydqzylno?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-25T12:58:18.467550+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "d214d1420f37267ee65d41fa43e6506bd2eda0ab38a5cb8f4497888dc49d6235",
+    "title": "Senegal regaining Afcon title is the right end to embarrassing farrago but issues do not stop here",
+    "url": "https://www.theguardian.com/football/2026/nov/25/senegal-regaining-afcon-title-right-end-african-football",
+    "source": "Football | The Guardian",
+    "collected_at": "2026-11-25T12:58:18.772591+00:00",
+    "status": "pending_review"
   }
 ]

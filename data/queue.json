@@ -13105,7 +13105,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-25T10:15:39.348595+00:00",
-    "status": "draft",
+    "status": "crossposted_only",
     "article_context": "Los hinchas de River, siempre fieles al equipo (REUTERS/Agustin Marcarian).\n\"Esta hinchada se merece ser campeón” . No es ninguna casualidad que Leonardo Ponzio haya compartido en las últimas horas una historia en su cuenta de Instagram con un vlog de los fanas de River cantando este clásico hit. Porque la gente realmente cumplió con creces con el aliento para el equipo del León en el Monumental en este segundo semestre de 2026 repleto de frustraciones y con el título del Clausura como la única alegría posible de la temporada, que además cuenta con la yapa de la clasificación a la Copa Libertadores 2027.\nLos hinchas no juegan, es cierto, no pisan el césped de la cancha. Pero está claro que los 85.000 fanáticos de River que colmaron las tribunas del Liberti en cada partido del equipo como local en la segunda mitad del año cumplieron una función vital para el sostén anímico y la motivación de los futbolistas . Brindaron un apoyo incondicional, que tiene un valor superior en los momentos malos. Por eso, Ponzio destacó tras la victoria frente a Lanús en los octavos del Clausura que “la gente tiene un párrafo aparte por cómo nos aguantó”, explicó que “el hincha es la historia de este club”. Y el capitán Nicolás Otamendi se comprometió -y comprometió al grupo- en “dejar la vida por ustedes (los hinchas) y por estos colores” porque entiende que “estamos en deuda”.\nEl mata-mata contra Lanús fue otra muestra del amor de la gente por la camiseta. Y lo que contagia en el equipo cuando hace vibrar los cimientos del renovado Monumental.\nUn total de 843.000 personas en los diez partidos que River jugó en Núñez después del Mundial, y nada menos que con la eliminación de la Copa Sudamericana de por medio. Solamente frente a Estudiantes de Río Cuarto , en el fin de semana largo que incluyó el feriado del lunes 12 de octubre, las tribunas del Liberti no estuvieron del todo completas: hubo 78.000 espectadores , una cantidad que sin dudas hubiese explotado cualquier otra cancha del fútbol argentino.\nY esto no fue, porque la gente estuvo de visitante y de local . Claro, el equipo de Ponzio sintió el aliento en las canchas de Banfield (con 7.000 personas en el debut del León como DT), Belgrano (10.000), Atlético Tucumán (5.300), Sarmiento (4.500) y Aldosivi (10.000), el mismo rival que en los 16avos de la Copa Argentina: River metió 15.000 fanas en el estadio Padre Martearena de Salta.\nLógico que hubo murmullos en el Monumental . Reproches y expresiones en cantos de bronca e impotencia por el bajo rendimiento del equipo y varios errores individuales. Sin embargo, el domingo desde las tribunas bajaron únicamente gritos de aliento que levantaron a los futbolistas tras el empate de Lanús y les dieron impulso para ir en busca del triunfo en el comienzo del segundo tiempo.\nEste escenario tiene un valor aún más preciado porque es posible que haya sido el último partido de River en su casa este año , ya que en cuartos de final visitará a Instituto en Córdoba y, en caso de llegar a las semifinales, solo volverá a jugar en el Monumental si enfrenta a Independiente: si avanza Vélez se jugará en Liniers porque el Fortín terminó 3° en la Zona A, mientras que el Millonario fue cuarto de la Zona B. Y la final, claro, será el sábado 12 de diciembre en cancha neutral, más precisamente en el Estadio Único de La Plata.\nComo lo expresaron Ponzio y Otamendi, esta hinchada de River se merece ser campeón . Un premio Monumental por el plus que le aporta al equipo del León.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": true,
@@ -13144,7 +13144,19 @@
         "Futbol"
       ],
       "mentions": []
-    }
+    },
+    "reel_quality": {
+      "version": 2,
+      "duration": 16.6,
+      "mean_db": -19.3
+    },
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-25T12:58:23.356374+00:00",
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795611580/football-news-bot/reels/f00b2b68308841265a0e.mp4",
+    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_id": "6b06dbbdc96867eb146fe99d",
+    "buffer_youtube_status": "error",
+    "buffer_youtube_id": "6b06dbc1981067389caf9f7f"
   },
   {
     "id": "04eabdefcb69615573c0",
@@ -13324,7 +13336,7 @@
       "photo_provider": "Curated Commons",
       "verified": "2026-11-23"
     },
-    "photo_checked_at": "2026-11-25T12:35:43.189371+00:00",
+    "photo_checked_at": "2026-11-25T12:59:46.951991+00:00",
     "visual_mode": "licensed_photo",
     "photo_credit_full": "📷 Foto: Bryan Berlin / WikiPortraits · CC BY-SA 4.0 · Wikimedia Commons (recorte y edición). https://commons.wikimedia.org/wiki/File:Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-3_(cropped).jpg · https://creativecommons.org/licenses/by-sa/4.0/ · Gráfica adaptada bajo la misma licencia CC BY-SA.",
     "promotion": {
@@ -13862,6 +13874,23 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T12:55:08.024811+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "ea0eb964f0701b4bc50f",
+    "title": "Raheem Sterling - from national icon to suspended jail sentence",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/cxzd9ydqzylno?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Fourteen years after making his Premier League debut at 17, Raheem Sterling has been given a suspended prison sentence.",
+    "published_at": "2026-11-25T12:42:57+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-25T12:58:23.356374+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,

@@ -1,10 +1,10 @@
 {
-  "checked_at_utc": "2026-11-25T12:55:08.024811+00:00",
+  "checked_at_utc": "2026-11-25T12:58:23.356374+00:00",
   "local_hour": 9,
   "statuses": {
     "published": 129,
-    "draft": 22,
-    "awaiting_ai": 23,
+    "draft": 21,
+    "awaiting_ai": 24,
     "needs_review": 95,
     "publish_error": 26,
     "duplicate": 31
@@ -13,10 +13,10 @@
   "queued_new": 1,
   "ai_generated": 0,
   "preview_images": 5,
-  "published": 0,
+  "published": 1,
   "duplicates_suppressed": 0,
   "no_photo_deferred": 0,
-  "total_queue": 399,
+  "total_queue": 400,
   "per_run_cap": 3,
   "morning_day_cap": 72,
   "auto_publish_enabled": true,
@@ -78,9 +78,9 @@
         "last_error": "http_410"
       },
       "zai": {
-        "attempts": 12,
+        "attempts": 13,
         "success": 0,
-        "failures": 12,
+        "failures": 13,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "http_429"
