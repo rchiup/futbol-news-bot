@@ -14472,7 +14472,7 @@
     "headline": "Boca celebra Sudamericana y récord de 19 copas",
     "caption": "El campeón de la Liga y de la Copa Sudamericana, Boca Juniors, recibió este miércoles a Independiente Rivadavia en los octavos del Clausura mientras sus hinchas desfilaban por los alrededores de la Bombonera con pancartas que proclamaban “El que más copas ganó”. El trofeo será exhibido en el estadio y el capitán Leandro Paredes lo mostrará al público. La celebración, aunque vistosa, llega en medio de la exigencia de seguir ganando, pues el equipo deberá superar a Independiente Rivadavia para avanzar. ¿Podrá Boca mantener su dominio continental sin perder el foco en la competición local?",
     "ai_generated_at": "2026-11-25T14:43:16.269922+00:00",
-    "photo_checked_at": "2026-11-25T17:52:58.955483+00:00",
+    "photo_checked_at": "2026-11-25T18:14:42.078984+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -14942,7 +14942,7 @@
     "headline": "Santiago del Estero será sede de la final Boca vs Platense",
     "caption": "La final de la Copa Argentina entre Boca Juniors y Platense se disputará el miércoles 2 de diciembre a las 20:00 en el estadio Madre de Ciudades de Santiago del Estero, según confirmó la propia organización en sus redes. El recinto, habitual para finales del torneo local, no había albergado la Copa Argentina desde 2021, cuando Boca venció a Talleres por penales. La cita reúne al Xeneize, dirigido por Vasco Arruabarrena, y al Calamar de Martín Palermo, que busca cerrar el año con un título. ¿Podrá la atmósfera de Santiago del Estero favorecer al visitante?",
     "ai_generated_at": "2026-11-25T17:19:58.573286+00:00",
-    "photo_checked_at": "2026-11-25T17:49:52.141831+00:00",
+    "photo_checked_at": "2026-11-25T18:14:40.773915+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -15182,7 +15182,7 @@
     "headline": "Estudiantes y Palmeiras repetirán final en el Centenario",
     "caption": "Estudiantes, que ganó su primera Copa Libertadores en 1968 en el Estadio Centenario, vuelve a ese escenario para disputarse la final contra Palmeiras, el mismo rival de entonces. Tras 21 380 días, el duelo se repite en el histórico recinto. ¿Podrá la nostalgia del Pincha influir en el resultado o Palmeiras mantendrá la ventaja de los últimos años?",
     "ai_generated_at": "2026-11-25T16:39:05.401120+00:00",
-    "photo_checked_at": "2026-11-25T17:52:57.992891+00:00",
+    "photo_checked_at": "2026-11-25T18:14:39.939455+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -15475,7 +15475,7 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-25T17:19:58.573286+00:00",
-    "status": "draft",
+    "status": "published",
     "visual_subject": "Lando Norris",
     "visual_entities": {
       "personas": [
@@ -15516,7 +15516,7 @@
       "photo_provider": "Wikidata photo bank",
       "verified_at": "2026-11-25T17:22:11.282966+00:00"
     },
-    "photo_checked_at": "2026-11-25T17:49:53.951535+00:00",
+    "photo_checked_at": "2026-11-25T18:14:43.070504+00:00",
     "visual_mode": "licensed_photo",
     "photo_credit_full": "",
     "promotion": {
@@ -15525,7 +15525,18 @@
         "LandoNorris"
       ],
       "mentions": []
-    }
+    },
+    "reel_quality": {
+      "version": 2,
+      "duration": 17.8,
+      "mean_db": -19.7
+    },
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-25T18:13:30.374568+00:00",
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795630541/football-news-bot/reels/75063fc3a1657326bf85.mp4",
+    "buffer_youtube_status": "check_required",
+    "posted_at": "2026-11-25T18:13:30.374568+00:00",
+    "instagram_media_id": "18130487758896686"
   },
   {
     "id": "80c6a78029d6e7011dcf",
@@ -15612,7 +15623,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-25T17:49:56.716763+00:00",
+    "photo_checked_at": "2026-11-25T18:16:37.660161+00:00",
     "portrait_info": {
       "subject": "Crystal Palace",
       "image_url": "https://live.staticflickr.com/65535/54484094076_9e3c892117_b.jpg",
@@ -15871,7 +15882,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-25T17:49:56.050853+00:00"
+    "photo_checked_at": "2026-11-25T18:16:37.029623+00:00"
   },
   {
     "id": "c819822c892ee9f14b12",
@@ -15941,7 +15952,7 @@
     "score": 20,
     "queued_at": "2026-11-25T18:06:17.543164+00:00",
     "status": "awaiting_ai",
-    "article_context": "Nottingham Forest have suffered successive 2-0 defeats on the road to Brentford and Bournemouth\nNottingham Forest manager Oliver Glasner says standards at the club were not good enough when he arrived, and has questioned why some of his squad cannot speak English after being in the country for a number of years.\nForest are one place above the relegation zone heading into Friday's trip to Chelsea , winning just two of their first 11 games in the Premier League.\n\"Stability in a company is having standards,\" said Glasner. \"Everybody who joins commits to the standards. I think, very honestly, the standards were not high enough.\n\"We have players who are here for four years, can't speak English. If you go to Italy, after three months, every player gives his interview in the Italian language.\n\"For me, if I want to manage in England, I have to speak English. If I want to manage in Italy, I have to speak Italian.\n\"Otherwise, Oliver Glasner, if you want to speak in your dialect, stay at home in Austria, everybody understands you, but nowhere else.\"\nForest, who narrowly avoided relegation last season but who did reach the Europa League semi-finals, have had a succession of managers in recent years and while Glasner refused to blame the upheaval for any problems he has inherited, he feels standards need to rise.\n\"We want to create a stable Nottingham Forest team that can consistently play in the top half of the Premier League,\" added Glasner, 52.\n\"We are a few steps away from this but we really believe we know which steps we have to take.\n\"We are still very ambitious but it looks to take a little bit longer than we all hoped. The goal is getting stability into this club and we're still working on this.\n\"We knew this is a transition season, let's say like this, where we still stay very ambitious but with a lot of problems to solve.\"\nGlasner held transfer talks with Forest owner Evangelos Marinakis in London on Monday as the club prepares their plans for the January transfer window, when they hope to add up to five players to their squad.\n\"He [Marinakis] was asking 'what do you need, what do you want here to improve in the squad, the staff and the environment',\" said Glasner.\n\"He wants the best for Nottingham Forest , he wants the best for everyone here.\n\"We need to improve in the squad, in the staff, in the environment and this is our discussion. It was a fantastic meeting and it was worth spending six hours travelling.\"\nConfusion and anger - Yoro red card rescinded, but row goes on\nRaheem Sterling - from national icon to suspended jail sentence\nWhy four-time MVP Rodgers may have played last NFL game\nFirst look: Strike and Robin return to take on a dangerous cult\nHow the Hubble Space Telescope almost ended in catastrophe\nRob Brydon stars in a brand-new houseshare comedy\nThe rebellious story of the 1993 feud in darts\nHow to unearth young stars, the Bayern Munich way\nSooryavanshi, 15, breaks sixes record in 204 off 53 balls\nSterling - from England icon to suspended jail sentence\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland's tearaway quick bowler reinvented as a top-order batter\nEngland will not get carried away by beating All Blacks\nVerstappen a constant amid chaos as he says Russell is 'so far below my level'\nThe sandpaper plot - who was there, who said what?\nJosh Kerr: The making of the man behind the shades\nThe 3pm football blackout: Outdated or still relevant in 2026?\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "article_context": "Nottingham Forest have suffered successive 2-0 defeats on the road to Brentford and Bournemouth\nNottingham Forest manager Oliver Glasner says standards at the club were not good enough when he arrived, and has questioned why some of his squad cannot speak English after being in the country for a number of years.\nForest are one place above the relegation zone heading into Friday's trip to Chelsea , winning just two of their first 11 games in the Premier League.\n\"Stability in a company is having standards,\" said Glasner. \"Everybody who joins commits to the standards. I think, very honestly, the standards were not high enough.\n\"We have players who are here for four years, can't speak English. If you go to Italy, after three months, every player gives his interview in the Italian language.\n\"For me, if I want to manage in England, I have to speak English. If I want to manage in Italy, I have to speak Italian.\n\"Otherwise, Oliver Glasner, if you want to speak in your dialect, stay at home in Austria, everybody understands you, but nowhere else.\"\nForest, who narrowly avoided relegation last season but who did reach the Europa League semi-finals, have had a succession of managers in recent years and while Glasner refused to blame the upheaval for any problems he has inherited, he feels standards need to rise.\n\"We want to create a stable Nottingham Forest team that can consistently play in the top half of the Premier League,\" added Glasner, 52.\n\"We are a few steps away from this but we really believe we know which steps we have to take.\n\"We are still very ambitious but it looks to take a little bit longer than we all hoped. The goal is getting stability into this club and we're still working on this.\n\"We knew this is a transition season, let's say like this, where we still stay very ambitious but with a lot of problems to solve.\"\nGlasner held transfer talks with Forest owner Evangelos Marinakis in London on Monday as the club prepares their plans for the January transfer window, when they hope to add up to five players to their squad.\n\"He [Marinakis] was asking 'what do you need, what do you want here to improve in the squad, the staff and the environment',\" said Glasner.\n\"He wants the best for Nottingham Forest , he wants the best for everyone here.\n\"We need to improve in the squad, in the staff, in the environment and this is our discussion. It was a fantastic meeting and it was worth spending six hours travelling.\"\nConfusion and anger - Yoro red card rescinded, but row goes on\n'Best midfielder in the world' - where does Bellingham rank?\nWhy four-time MVP Rodgers may have played last NFL game\nFirst look: Strike and Robin return to take on a dangerous cult\nHow the Hubble Space Telescope almost ended in catastrophe\nRob Brydon stars in a brand-new houseshare comedy\nThe rebellious story of the 1993 feud in darts\nHow to unearth young stars, the Bayern Munich way\nSooryavanshi, 15, breaks sixes record in 204 off 53 balls\nSterling - from England icon to suspended jail sentence\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland's tearaway quick bowler reinvented as a top-order batter\nEngland will not get carried away by beating All Blacks\nVerstappen a constant amid chaos as he says Russell is 'so far below my level'\nThe sandpaper plot - who was there, who said what?\nJosh Kerr: The making of the man behind the shades\nThe 3pm football blackout: Outdated or still relevant in 2026?\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
