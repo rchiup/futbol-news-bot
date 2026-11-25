@@ -180,14 +180,20 @@
       "blocked_until_utc": 1795612255
     },
     "zai": {
-      "attempts": 19,
-      "success": 0,
-      "failures": 19,
-      "latencies_ms": [],
-      "quality": [],
+      "attempts": 22,
+      "success": 2,
+      "failures": 20,
+      "latencies_ms": [
+        26760,
+        36919
+      ],
+      "quality": [
+        85,
+        85
+      ],
       "last_error": "invalid_output",
       "blocked_until_utc": 1795626505
     }
   },
-  "last_success": "groq"
+  "last_success": "zai"
 }
