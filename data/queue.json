@@ -13798,7 +13798,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T21:26:09.256412+00:00",
+    "photo_checked_at": "2026-11-25T21:49:40.169771+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -14227,7 +14227,7 @@
     "headline": "Briatore fija objetivo: Alpine a dos décimas de McLaren",
     "caption": "El empresario Flavio Briatore declaró que, si el coche de Alpine para 2027 llega a estar a dos o tres décimas del McLaren, considerará el objetivo cumplido. La afirmación surge tras una entrevista en la que también estuvo presente Zak Brown, director de McLaren, y refleja la ambición de Alpine por acercarse al cuarteto de referencia de la Fórmula 1. ¿Podrá el equipo francés cerrar la brecha técnica en tan poco tiempo?",
     "ai_generated_at": "2026-11-25T14:03:32.067413+00:00",
-    "photo_checked_at": "2026-11-25T21:26:08.835415+00:00",
+    "photo_checked_at": "2026-11-25T21:49:38.531655+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -15000,7 +15000,7 @@
     "headline": "Colapinto: 'En Las Vegas pierdes como un segundo'",
     "caption": "Franco Colapinto vivió un día de adelantamientos constantes en Las Vegas, donde tuvo que recuperar posiciones en múltiples ocasiones. El piloto argentino compartió su perspectiva sobre la experiencia, poniéndose en el lugar del espectador y destacando la frustración de ver cómo se pierden oportunidades: 'Pierdes como un segundo'. ¿La F1 necesita revisar las reglas para evitar este tipo de caos en pista?",
     "ai_generated_at": "2026-11-25T17:39:20.083941+00:00",
-    "photo_checked_at": "2026-11-25T21:26:08.113498+00:00",
+    "photo_checked_at": "2026-11-25T21:49:37.840492+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -15280,7 +15280,7 @@
     "headline": "Mastantuono pide disculpas a hinchas tras caída ante Monza",
     "caption": "El argentino Mastantuono se disculpó con los hinchas de la Fiorentina tras la contundente derrota 3-0 ante Monza en la Serie A. La Viola, con el ex River como figura, se encuentra en el puesto 16° del torneo italiano, a un punto de la zona de descenso. ¿Será suficiente el mensaje de confianza para revertir la mala racha del equipo?",
     "ai_generated_at": "2026-11-25T17:39:20.083941+00:00",
-    "photo_checked_at": "2026-11-25T21:26:07.033504+00:00",
+    "photo_checked_at": "2026-11-25T21:49:36.985714+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -15402,7 +15402,7 @@
     "headline": "Pirelli alerta por desgaste de neumáticos en Qatar",
     "caption": "El proveedor oficial de neumáticos Pirelli ha advertido sobre el graining que sufrirán los compuestos durante el Gran Premio de Qatar en el Circuito Internacional de Losail. Esta pista, considerada una de las más exigentes del calendario, no ha sufrido modificaciones respecto a años anteriores, lo que podría complicar las estrategias de los equipos. ¿Podrán los pilotos encontrar el equilibrio entre rendimiento y preservación de gomas en una prueba donde el desgaste siempre ha sido factor determinante?",
     "ai_generated_at": "2026-11-25T17:24:27.284503+00:00",
-    "photo_checked_at": "2026-11-25T21:26:06.124584+00:00",
+    "photo_checked_at": "2026-11-25T21:49:36.042943+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -15903,7 +15903,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-25T21:26:01.151890+00:00"
+    "photo_checked_at": "2026-11-25T21:49:40.584625+00:00"
   },
   {
     "id": "c819822c892ee9f14b12",
@@ -17362,6 +17362,23 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T21:31:09.873984+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "232bd55f068652f2cd66",
+    "title": "Ferguson's Glentoran reign hits early turbulence",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/cxzd9v7457nro?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Duncan Ferguson's short tenure at Glentoran is already proving anything but straightforward with just one win so far and the former Everton striker now suspended for seven games.",
+    "published_at": "2026-11-25T21:41:00+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-25T21:47:21.723281+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
