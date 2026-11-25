@@ -14404,11 +14404,30 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-25T14:27:56.167603+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Jak Crawford",
+    "visual_entities": {
+      "personas": [
+        "Jak Crawford",
+        "Fernando Alonso"
+      ],
+      "clubes": [
+        "Aston Martin"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Losail",
+        "Las Vegas"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Crawford pilotará el Aston de Alonso en Losail por cuarta vez",
+    "caption": "Aston Martin asignó a Jak Crawford el coche de Fernando Alonso para la primera sesión libre en el Circuito Internacional de Losail, marcando la cuarta ocasión que el equipo le brinda esa oportunidad. La hora extra que le ofreció en Las Vegas quedó prácticamente anulada por la lluvia y la ausencia de tiempos en la tabla, por lo que buscaron otro hueco. La medida busca que Crawford recupere ritmo antes de la siguiente carrera; ¿será suficiente para mejorar su desempeño en la temporada?"
   },
   {
     "id": "8ba80bcedfafb71f0bc8",
