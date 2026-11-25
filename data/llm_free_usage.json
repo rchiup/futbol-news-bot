@@ -17,9 +17,9 @@
       "blocked_until_utc": 1795565651
     },
     "gemini": {
-      "attempts": 12,
+      "attempts": 15,
       "success": 11,
-      "failures": 1,
+      "failures": 4,
       "latencies_ms": [
         1573,
         1100,
@@ -49,17 +49,21 @@
       "last_error": "invalid_output"
     },
     "openrouter": {
-      "attempts": 1,
-      "success": 0,
-      "failures": 1,
-      "latencies_ms": [],
-      "quality": [],
+      "attempts": 4,
+      "success": 1,
+      "failures": 3,
+      "latencies_ms": [
+        24860
+      ],
+      "quality": [
+        100
+      ],
       "last_error": "invalid_output"
     },
     "cloudflare": {
-      "attempts": 1,
+      "attempts": 3,
       "success": 0,
-      "failures": 1,
+      "failures": 3,
       "latencies_ms": [],
       "quality": [],
       "last_error": "invalid_output"
@@ -83,5 +87,5 @@
       "blocked_until_utc": 1795568815
     }
   },
-  "last_success": "gemini"
+  "last_success": "openrouter"
 }
