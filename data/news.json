@@ -9550,5 +9550,21 @@
     "source": "www.espn.com - SOCCER",
     "collected_at": "2026-11-25T11:32:30.369549+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "cc155a4cf255d68197c0b059870c3f33774dda07a8afc27d06abd6169c2a812e",
+    "title": "Watford appoint Iordanescu as head coach",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cv1j65j2lw3po?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-25T11:35:27.551607+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "acff37797dcf97242b879b9c77a22440bea942d4a74caefe45fbb19daa690aab",
+    "title": "Raheem Sterling sentenced for dangerous driving after crashing Lamborghini on motorway",
+    "url": "https://talksport.com/football/4730716/raheem-sterling-sentenced-dangerous-driving/",
+    "source": "Football News, Transfers, Opinion - talkSPORT",
+    "collected_at": "2026-11-25T11:35:29.788257+00:00",
+    "status": "pending_review"
   }
 ]
