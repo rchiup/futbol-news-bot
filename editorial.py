@@ -890,8 +890,8 @@ def run(reference: datetime | None = None, session=None) -> dict:
         for item in sorted(queue, key=lambda x: (bool(x.get('match_result')), novelty_priority(x, reference)), reverse=True):
             if published_count >= allowed_this_run:
                 break
-            if not item.get("match_result") and rolling_post_count(queue, reference) >= POSTS_PER_DAY:
-                print(f"[EDITOR] Daily cap reached ({POSTS_PER_DAY}/24h)")
+            editorial_cap_reached = rolling_post_count(queue, reference) >= POSTS_PER_DAY
+            if not item.get("match_result") and editorial_cap_reached and not (os.getenv("ENABLE_REELS", "").lower() == "true" and format_due(queue, reference, "reel", 60)):
                 break
             if str(item.get("id", "")).startswith("reel-launch-"):
                 continue  # Old one-off launch items are never republished.
@@ -998,7 +998,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     except Exception as render_exc:
                         # Rendering failure is safe to fall back from: no Meta call occurred.
                         print(f"[REELS] Render unavailable: {type(render_exc).__name__}; publishing image")
-                if not video_path and (remaining_meta_slots <= 0 or (not item.get("match_result") and (remaining_meta_slots <= (8 if os.getenv("ENABLE_REELS", "").lower() == "true" else 0) or not format_due(queue, reference, "image", 20)))):
+                if not video_path and (remaining_meta_slots <= 0 or (not item.get("match_result") and (editorial_cap_reached or remaining_meta_slots <= (8 if os.getenv("ENABLE_REELS", "").lower() == "true" else 0) or not format_due(queue, reference, "image", 20)))):
                     continue
                 item["publish_format"] = "reel" if video_path else "image"
                 item["format_attempt_at"] = iso(reference)
@@ -1010,7 +1010,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     item["reel_video_url"] = upload_public_video(video_path, item["id"])
                     save_queue(queue)
                     buffer_publish.crosspost(item, item["reel_video_url"], caption, persist=lambda: save_queue(queue))
-                    if remaining_meta_slots <= 0:
+                    if remaining_meta_slots <= 0 or editorial_cap_reached:
                         item["status"] = "crossposted_only"
                         save_queue(queue)
                         published_count += 1
