@@ -890,7 +890,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
         for item in sorted(queue, key=lambda x: (bool(x.get('match_result')), novelty_priority(x, reference)), reverse=True):
             if published_count >= allowed_this_run:
                 break
-            if rolling_post_count(queue, reference) >= POSTS_PER_DAY:
+            if not item.get("match_result") and rolling_post_count(queue, reference) >= POSTS_PER_DAY:
                 print(f"[EDITOR] Daily cap reached ({POSTS_PER_DAY}/24h)")
                 break
             if str(item.get("id", "")).startswith("reel-launch-"):
@@ -992,13 +992,13 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 item.pop("photo_deferred_reason", None)
                 caption = append_promotion(caption, item)
                 video_path = None
-                if os.getenv("ENABLE_REELS", "").lower() == "true" and format_due(queue, reference, "reel", 60) and reels.eligible(item):
+                if not item.get("match_result") and os.getenv("ENABLE_REELS", "").lower() == "true" and format_due(queue, reference, "reel", 60) and reels.eligible(item):
                     try:
                         video_path = reels.render(item, ROOT / "output" / "portraits" / (item["id"] + ".jpg"), ROOT / "output" / "reels" / (item["id"] + ".mp4"), BRAND)
                     except Exception as render_exc:
                         # Rendering failure is safe to fall back from: no Meta call occurred.
                         print(f"[REELS] Render unavailable: {type(render_exc).__name__}; publishing image")
-                if not video_path and (remaining_meta_slots <= (8 if os.getenv("ENABLE_REELS", "").lower() == "true" else 0) or not format_due(queue, reference, "image", 20)):
+                if not video_path and (remaining_meta_slots <= 0 or (not item.get("match_result") and (remaining_meta_slots <= (8 if os.getenv("ENABLE_REELS", "").lower() == "true" else 0) or not format_due(queue, reference, "image", 20)))):
                     continue
                 item["publish_format"] = "reel" if video_path else "image"
                 item["format_attempt_at"] = iso(reference)
