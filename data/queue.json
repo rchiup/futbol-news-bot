@@ -10969,7 +10969,7 @@
     "caption": "Middlesbrough volvió a ganar 2-1 a Swansea, con Lankshear de regreso al once titular, lo que le permite mantener la primera posición del Championship. Por su parte, West Ham sigue sin conseguir su primera victoria bajo Scott Parker tras caer ante Portsmouth. La reincorporación de Lankshear refuerza la ofensiva del Boro, mientras que el Hammers parece estancado; ¿logrará Parker revertir la mala racha antes del cierre?",
     "ai_generated_at": "2026-11-25T02:52:53.750950+00:00",
     "editorial_rechecked": true,
-    "photo_checked_at": "2026-11-25T10:16:47.181106+00:00",
+    "photo_checked_at": "2026-11-25T10:40:38.845236+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -13050,7 +13050,7 @@
     "headline": "Manchester City no podrá usar su nuevo cuarto uniforme en Premier League",
     "caption": "El club inglés no podrá lucir su nuevo cuarto equipamiento en la Premier League porque la normativa permite un máximo de tres camisetas por campaña. Podrá usarlo en la Champions League y, con solicitud a la FA, en la FA Cup. La restricción, que también afecta a otros equipos, plantea la duda de si limita las oportunidades comerciales de los clubes al impedir la explotación de diseños adicionales.",
     "ai_generated_at": "2026-11-25T09:53:06.499892+00:00",
-    "photo_checked_at": "2026-11-25T10:16:26.398473+00:00",
+    "photo_checked_at": "2026-11-25T10:40:22.707362+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -13219,6 +13219,23 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-25T10:21:38.177535+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "13d62f0a2f65de7c9681",
+    "title": "El problema que impidió a Gasly soñar con la victoria en Las Vegas",
+    "source_url": "https://es.motorsport.com/f1/news/problema-privo-gasly-luchar-victoria-vegas/10877595",
+    "source": "Motorsport F1",
+    "description": "Pierre Gasly cree que podría haber tenido el ritmo necesario para ganar el Gran Premio de Las Vegas de no haber sido por un problema de refrigeración que afectó a su Alpine de Fórmula 1 en el tramo final de la carrera. El francés terminó quinto tras salir octavo en la parrilla, pero, después de 31 de las 50 vueltas previstas, Gasly ocupaba la tercera posición por detrás de Max ... Sigue leyendo",
+    "published_at": "2026-11-25T10:37:47+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-25T10:38:56.314182+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
