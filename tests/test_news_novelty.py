@@ -100,3 +100,15 @@ class NoveltyTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class SurnameDuplicateTests(unittest.TestCase):
+    def test_same_athlete_across_feeds_and_languages_is_one_story(self):
+        from news_novelty import same_story
+        ole = {"id": "a", "sport": "FUTBOL", "posted_at": "2026-11-23T19:18:59+00:00",
+               "title": "Malas noticias para Sinner: decidió operarse de su lesión en la rodilla",
+               "headline": "Sinner se opera la rodilla y arriesga Australian Open"}
+        bbc = {"id": "b", "sport": "TENIS", "published_at": "2026-11-24T18:00:00+00:00",
+               "title": "'I miss being on court' - Sinner has 'minor surgery' on knee",
+               "headline": "Sinner se somete a cirugía menor en la rodilla", "visual_subject": "Jannik Sinner"}
+        self.assertTrue(same_story(bbc, ole))

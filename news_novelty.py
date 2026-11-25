@@ -54,6 +54,11 @@ def story_subjects(item: dict) -> set[str]:
     if len(named.split()) >= 2 and (
             phrase(str(item.get("title") or "") + " " + str(item.get("description") or ""), named)):
         out.add(norm(named))
+    # A single surname (e.g. "Sinner") still identifies the protagonist when it
+    # appears in the original title; otherwise the same story slips through twice.
+    for token in named.split()[-1:]:
+        if len(token) >= 5 and phrase(str(item.get("title") or ""), token):
+            out.add("surname:" + norm(token))
     for full, record in LIBRARY.items():
         aliases = [full, *record.get("aliases", [])]
         # Short surnames are too ambiguous unless a full name is in article data.
@@ -117,16 +122,32 @@ def lead_tokens(item):
     # Original and generated titles only: shared article boilerplate is noisy.
     return set(re.findall(r"[a-z0-9]{4,}", norm(" ".join(str(item.get(k) or "") for k in ("title","headline"))))) - STOPWORDS
 
+def shared_protagonist(candidate: dict, existing: dict) -> bool:
+    """Protagonist named by one item and mentioned by surname in the other, same kind of event."""
+    for one, other in ((candidate, existing), (existing, candidate)):
+        named = str(one.get("visual_subject") or "").split()
+        if named and len(named[-1]) >= 5:
+            other_text = " ".join(str(other.get(k) or "") for k in ("title", "headline"))
+            if phrase(other_text, named[-1]):
+                groups_a, groups_b = event_group(candidate), event_group(existing)
+                if not (groups_a and groups_b and groups_a.isdisjoint(groups_b)):
+                    return True
+    return False
+
+
 def same_story(candidate: dict, existing: dict, reference: datetime | None = None) -> bool:
     if candidate.get("id") and existing.get("id") == candidate["id"]:
         return False
     if candidate.get("source_url") and candidate["source_url"] == existing.get("source_url"):
         return True
-    if str(candidate.get("sport", "FUTBOL")) != str(existing.get("sport", "FUTBOL")):
-        return False
     reference = reference or datetime.now(timezone.utc)
     first, second = story_time(candidate), story_time(existing)
     if first and second and abs((first - second).total_seconds()) > COOLDOWN_HOURS * 3600:
+        return False
+    # Checked before the sport guard: general feeds (e.g. Olé) tag tennis news as FUTBOL.
+    if shared_protagonist(candidate, existing):
+        return True
+    if str(candidate.get("sport", "FUTBOL")) != str(existing.get("sport", "FUTBOL")):
         return False
     if event_anchors(candidate) & event_anchors(existing):
         return True

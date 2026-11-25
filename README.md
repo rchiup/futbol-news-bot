@@ -17,6 +17,15 @@ By default, preview cards use the **original RSS headline** and status
 awaiting_ai. When a configured FREE LLM provider (Groq / Gemini / Cerebras / OpenRouter Free) is available, cards use Spanish headlines and
 short captions grounded ONLY in the RSS title and summary.
 
+## Calidad editorial (25/11/2026)
+
+- **Menos y mejor:** tope de 30 posts en 24 h (`MAX_POSTS_PER_DAY`), máximo 3 por medio cada 6 h y puntaje mínimo 24 (`MIN_PUBLISH_SCORE`) para que solo pasen noticias frescas de equipos/figuras relevantes.
+- **Fuera relleno:** se descartan farándula (bebés, regalos, parejas), acuerdos comerciales/apuestas, guías de "cómo ver", videos de la cancha, newsletters y política de clubes.
+- **Redacción:** prompt nuevo con titulares completos (sujeto + verbo + dato) y captions de 2-3 frases. Se eliminan las preguntas de relleno al final ("¿Será suficiente...?") y se rechazan titulares telegráficos o que hablan de otra noticia distinta a la fuente.
+- **Foto obligatoria:** sin foto pertinente no se publica (`REQUIRE_PHOTO=true`); los marcadores sí salen con su gráfica.
+- **Sin repetidos:** detecta al mismo protagonista por apellido entre feeds e idiomas (ej. Sinner salió 4 veces el 23-24/11). Se eliminaron los reels "launch" y el reel forzado Real Madrid-PSV que estaban hardcodeados.
+- Se apagó `ENABLE_SOURCE_BRIEF`: ya no se publica la frase cruda del RSS con "(Olé Argentina)".
+
 ## LLM de texto — solo niveles gratuitos (23/11/2026)
 
 El bot usa `free_llm.py` y solo prueba proveedores configurados:

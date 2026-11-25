@@ -98,8 +98,8 @@ class EditorialTests(unittest.TestCase):
                 self.assertEqual(len(editorial.load_queue()), 1)
 
 
-    def test_no_relevant_photo_publishes_original_editorial_card(self):
-        """Original typographic news cover can publish without a photograph."""
+    def test_no_relevant_photo_publishes_original_editorial_card_when_allowed(self):
+        """With REQUIRE_PHOTO off, the typographic cover can still publish."""
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             queue_path = root / "data" / "queue.json"
@@ -111,7 +111,7 @@ class EditorialTests(unittest.TestCase):
                 "description": "La FIFA anunció al Reino Unido como sede del torneo en 2035.",
                 "source_url": "https://news.example.org/fifa-2035",
                 "status": "draft", "score": 34, "sport": "FUTBOL",
-                "category": "SELECCIONES",
+                "category": "SELECCIONES", "llm_provider": "groq",
                 "published_at": self.reference.isoformat(),
                 "caption": "La FIFA confirmó la sede para el Mundial Femenino.",
             }
@@ -122,6 +122,7 @@ class EditorialTests(unittest.TestCase):
                  patch.object(editorial.scorecards, "results", return_value=[]), \
                  patch.object(editorial.tennis_scorecards, "results", return_value=[]), \
                  patch.object(editorial, "make_card") as make, \
+                 patch.object(editorial, "REQUIRE_PHOTO", False), \
                  patch("publisher.available_instagram_slots", return_value=3), \
                  patch("publisher.publish_image") as publish, \
                  patch.dict(os.environ, {
@@ -307,8 +308,8 @@ class EditorialTests(unittest.TestCase):
 
             def json(self):
                 return {"choices": [{"message": {"content":
-                        '{"headline":"Arsenal ganó un partido importante",'
-                        '"caption":"El Arsenal consiguió una victoria importante."}'}}]}
+                        '{"headline":"Arsenal ganó un partido importante de Champions",'
+                        '"caption":"El Arsenal consiguió una victoria importante en la Champions League y sigue en carrera."}'}}]}
 
         class MockAI:
             def __init__(self):
@@ -324,7 +325,7 @@ class EditorialTests(unittest.TestCase):
                                      "OPENROUTER_API_KEY": "",
                                      "OPENAI_API_KEY": "testing-openai-secret"}):
             headline, caption = editorial.draft_with_ai(item, session=client)
-        self.assertEqual(headline, "Arsenal ganó un partido importante")
+        self.assertEqual(headline, "Arsenal ganó un partido importante de Champions")
         self.assertTrue(caption.startswith("El Arsenal"))
         self.assertEqual(client.called[0], "https://api.groq.com/openai/v1/chat/completions")
         self.assertEqual(client.called[1]["json"]["model"], "openai/gpt-oss-120b")
@@ -348,3 +349,34 @@ class EditorialTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class QualityGateTests(unittest.TestCase):
+    def test_trailing_engagement_question_is_removed(self):
+        caption = ("Bayern respaldó públicamente a Musiala tras las críticas. El club se reunió con su agencia. "
+                   "¿Será suficiente este respaldo para que Musiala recupere su nivel?")
+        cleaned = editorial.strip_filler(caption)
+        self.assertNotIn("¿", cleaned)
+        self.assertTrue(cleaned.endswith("agencia."))
+
+    def test_gossip_and_marketing_are_low_interest(self):
+        for title in ("'Baby Hali': Tyrese and Jade Haliburton announce they are expecting their first child",
+                      "Winning time: Tracy Morgan bought Knicks Rolexes after Finals victory",
+                      "Lakers latest in NBA to establish prediction market partnership",
+                      "Video: así está la cancha de Instituto antes de recibir a River",
+                      "Football Daily | Manchester City get that empty feeling"):
+            self.assertTrue(editorial.is_low_interest({"title": title}), title)
+        self.assertFalse(editorial.is_low_interest({"title": "Barcelona to appeal Fermín López's two-match ban"}))
+
+    def test_off_topic_rewrite_is_rejected(self):
+        item = {"title": "Football Daily | Manchester City get that empty feeling as they fail to win again"}
+        self.assertFalse(editorial.on_topic(item, "Torquay United suspende juego por ruido del Tannoy",
+                                            "El sistema de megafonía de Torquay obligó a detener el partido."))
+        self.assertTrue(editorial.on_topic(item, "Manchester City vuelve a fallar y suma otro empate",
+                                           "El City no logra ganar."))
+
+    def test_telegraphic_headline_is_rejected(self):
+        item = {"title": "Pep 'embarrassed' to turn down Italy job", "description": "Pep Guardiola talked."}
+        with self.assertRaises(ValueError):
+            editorial.validate_llm_copy({"headline": "Pep rechaza selección italiana",
+                                         "caption": "Guardiola explicó que le dio vergüenza rechazar a Italia, aunque dirigir una selección es su próximo paso."}, item)

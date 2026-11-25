@@ -92,7 +92,7 @@ jobs:
           ENABLE_REELS: ${{ vars.ENABLE_REELS || 'true' }}
           PIPER_MODEL: /home/runner/.cache/chao-piper/es_MX-ald-medium.onnx
           BRAND_NAME: ${{ vars.BRAND_NAME || 'CHAO FELICEVICH' }}
-          ENABLE_SOURCE_BRIEF: 'true'
+          ENABLE_SOURCE_BRIEF: 'false' # raw RSS sentences read badly; only LLM-edited copy is published
           MAX_DRAFTS_PER_DAY: '180'
           MAX_DRAFTS_PER_RUN: '8'
           MORNING_POSTS_PER_RUN: ${{ vars.MORNING_POSTS_PER_RUN || '3' }}
@@ -107,7 +107,9 @@ jobs:
           ENABLE_AI_ART: 'false'
           AI_ART_MAX_PER_RUN: '2'
           AI_ART_MAX_DAILY: '24' # Free daily Cloudflare Neurons cap still applies
-          MAX_POSTS_PER_DAY: '72'
+          MAX_POSTS_PER_DAY: ${{ vars.MAX_POSTS_PER_DAY || '30' }}
+          REQUIRE_PHOTO: ${{ vars.REQUIRE_PHOTO || 'true' }}
+          MIN_PUBLISH_SCORE: ${{ vars.MIN_PUBLISH_SCORE || '24' }}
           ENABLE_PUBLISH: ${{ vars.ENABLE_PUBLISH || 'true' }}
           AUTO_APPROVE: ${{ vars.AUTO_APPROVE || 'true' }}
           EXPECTED_IG_USERNAME: 'chaofelicevich'
