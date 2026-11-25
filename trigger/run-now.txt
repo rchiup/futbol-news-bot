@@ -98,3 +98,4 @@ Prioritize one narrated Reel launch (Sinner) without waiting for a new RSS draft
 2026-11-24: verify Buffer connection and cross-post existing Sinner Reel to TikTok.
 
 Render corrected Sinner Reel v2 with real audible narration and large changing captions; hold old TikTok crosspost.
+2026-11-24: run improved continuous narration and TikTok/YouTube cross-publishing
