@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-25T03:24:22.035837+00:00",
+  "checked_at_utc": "2026-11-25T03:29:18.376052+00:00",
   "local_hour": 0,
   "statuses": {
     "published": 127,
@@ -9,7 +9,7 @@
     "publish_error": 26,
     "duplicate": 29
   },
-  "fresh_candidates": 124,
+  "fresh_candidates": 123,
   "queued_new": 0,
   "ai_generated": 0,
   "preview_images": 5,
@@ -38,12 +38,12 @@
     "last_success": "cloudflare",
     "providers": {
       "groq": {
-        "attempts": 21,
+        "attempts": 24,
         "success": 7,
-        "failures": 14,
+        "failures": 17,
         "avg_latency_ms": 2090,
         "avg_readability": 91.4,
-        "last_error": "http_429"
+        "last_error": "invalid_output"
       },
       "gemini": {
         "attempts": 20,
@@ -62,9 +62,9 @@
         "last_error": "invalid_output"
       },
       "cloudflare": {
-        "attempts": 38,
+        "attempts": 41,
         "success": 4,
-        "failures": 34,
+        "failures": 37,
         "avg_latency_ms": 4521,
         "avg_readability": 96.2,
         "last_error": "invalid_output"
