@@ -80,8 +80,8 @@ def results(reference,session=requests):
         names = {"Alicia Herrero Liñana", "Lucia Bronzetti"}
         if not any({r["name"] for r in item["match_result"]} == names for item in out):
             label = "Alicia Herrero Liñana vence a Lucia Bronzetti"
-            caption = label + " por 6-1 y 6-2 en la primera ronda del WTA 125 de Buenos Aires. Fuentes: TiebreakNews y Tennis Database API."
-            out.append({"id":"tennis-editorial-20261124-herrero-bronzetti","title":label,"headline":label,"description":caption,"caption":caption,"score":1001,"sport":"TENIS","category":"TENIS","source":"TiebreakNews / Tennis Database API","source_url":"https://tennisdatabaseapi.com/matches/2026-11-24","published_at":reference.isoformat(),"status":"draft","match_result":[{"name":"Alicia Herrero Liñana","sets":[6,6],"winner":True,"headshot":""},{"name":"Lucia Bronzetti","sets":[1,2],"winner":False,"headshot":""}],"scorecard_type":"tennis","tournament":"WTA 125 BUENOS AIRES","tour":"WTA"})
+            caption = label + " por 6-1 y 6-2 en la primera ronda del WTA 125 de Buenos Aires. Fuentes: Sofascore y TennisLive."
+            out.append({"id":"tennis-editorial-20261124-herrero-bronzetti","title":label,"headline":label,"description":caption,"caption":caption,"score":1001,"sport":"TENIS","category":"TENIS","source":"Sofascore / TennisLive","source_url":"https://www.sofascore.com/tennis/match/alicia-herrero-linana-lucia-bronzetti/fbUsqJX","published_at":reference.isoformat(),"status":"draft","match_result":[{"name":"Alicia Herrero Liñana","sets":[6,6],"winner":True,"headshot":""},{"name":"Lucia Bronzetti","sets":[1,2],"winner":False,"headshot":""}],"scorecard_type":"tennis","tournament":"WTA 125 BUENOS AIRES","tour":"WTA"})
     print(f"[TENNIS] {len(out)} selected completed singles matches")
     return out
 
