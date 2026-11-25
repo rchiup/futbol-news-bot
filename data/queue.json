@@ -15987,7 +15987,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T18:21:22.928131+00:00",
-    "status": "draft",
+    "status": "published",
     "visual_subject": "Alex Palou",
     "visual_entities": {
       "personas": [
@@ -16041,7 +16041,18 @@
         "IndyNXT"
       ],
       "mentions": []
-    }
+    },
+    "reel_quality": {
+      "version": 2,
+      "duration": 14.3,
+      "mean_db": -19.2
+    },
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-25T19:16:09.881240+00:00",
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795634334/football-news-bot/reels/6ee101dff40d967a5ae4.mp4",
+    "buffer_youtube_status": "check_required",
+    "posted_at": "2026-11-25T19:16:09.881240+00:00",
+    "instagram_media_id": "18124292099286619"
   },
   {
     "id": "1c3169fc70fca6bc65b9",
@@ -16054,7 +16065,7 @@
     "sport": "FUTBOL",
     "score": 34,
     "queued_at": "2026-11-25T18:25:01.477325+00:00",
-    "status": "draft",
+    "status": "published",
     "article_context": "WASHINGTON -- FIFA chief football officer Jill Ellis said that the 2027 Women's World Cup will be the first edition of the tournament to turn a profit, after the previous edition broke even.\n\"This will be the first Women's World Cup, next year, that will actually make money, and all of that money will be deployed back into women's football,\" Ellis told ESPN and a small group of reporters on Saturday.\n\"One of the things that we're looking to bring in -- and this is going to absolutely help stimulate the club ecosystem -- is training compensation.\"\nFIFA said after the 2023 Women's World Cup, co-hosted by Australia and New Zealand, that it broke even on the tournament after generating $570 million in revenue.\nThe women's game has continued to grow, and FIFA expects to generate more revenue at the 2027 edition, which will be hosted by Brazil.\n\"This will be transformational,\" Ellis said. \"Our hope is this will be transformational not just for women's football in South America, but for women in South America. I think it will be, suddenly, now women will actually be the centerpiece, the showcase, the world is coming and watching. I think they are absolutely going to crush it.\n\"I've been down there a lot. I've been to club games; I've been to national team games. There's a real push in, now, national pride behind doing this.\"\nDespite the increased revenue, FIFA will not achieve equal pay in prize money to the men's World Cup.\nFIFA president Gianni Infantino said in 2023 that it was his \"ambition\" to equalize prize money in 2027.\nFIFA announced recently that it will increase prize money in 2027.\nPrize money for 2027 is expected to roughly double from the $110 million total distributed at the 2023 Women's World Cup.\nFIFA paid $51 million just to Spain as champions of the 2026 men's World Cup.\nEllis said that the club payments plan will double next year from 2023. FIFA distributed $11.3 million in club benefits around the 2023 Women's World Cup.\nFIFA is expected to vote on and announce the final prize money figures for the 2027 World Cup in December.\n\"I think when the actual monies come out, it's a big, massive step,\" Ellis said.\n\"Do I think we're on the right pathway to that equalization? I do. It's just, we're in our 10th iteration [of the Women's World Cup]. Do I see this thing continuing to grow? I think 2031, 2035, as we get to this point, yes, I do think we're on the right pathway. I think that's the intention.\"\nOn Monday, FIFA officially announced that the United States, Mexico, Costa Rica and Jamaica will co-host the 2031 Women's World Cup.\nEngland, Northern Ireland, Scotland and Wales were confirmed as co-hosts of the 2035 Women's World Cup.\nIn 2031, the Women's World Cup will expand from 32 teams to 48 teams, mirroring the expansion of the men's World Cup.\nIn its joint bid, U.S. Soccer projected $4 billion in revenue from the 2031 Women's World Cup.\nFIFA said it made about $15 billion in revenue from the 2026 men's World Cup cycle, smashing expectations thanks to high ticket prices and hospitality packages across the United States, Canada and Mexico.",
     "ai_art_used": false,
     "photo_used": false,
@@ -16082,7 +16093,11 @@
         "JillEllis"
       ],
       "mentions": []
-    }
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-25T19:16:09.881240+00:00",
+    "posted_at": "2026-11-25T19:16:09.881240+00:00",
+    "instagram_media_id": "18117521476858551"
   },
   {
     "id": "1ec453b10a02aff231e4",
