@@ -99,9 +99,9 @@
       "last_error": "invalid_output"
     },
     "cloudflare": {
-      "attempts": 35,
+      "attempts": 38,
       "success": 4,
-      "failures": 31,
+      "failures": 34,
       "latencies_ms": [
         3215,
         6105,
