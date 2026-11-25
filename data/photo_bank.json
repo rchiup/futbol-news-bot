@@ -142,5 +142,23 @@
     "entity_qid": "Q112039295",
     "photo_provider": "Wikidata photo bank",
     "verified_at": "2026-11-25T14:57:49.409886+00:00"
+  },
+  "person:lando norris": {
+    "subject": "Lando Norris",
+    "wikidata_id": "Q22007193",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Lando_Norris_Signature.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "cc0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "commons_filename": "Lando Norris Signature.png",
+    "photographer": "",
+    "credit_required": false,
+    "share_alike": false,
+    "width": 700,
+    "height": 600,
+    "file_page": "https://commons.wikimedia.org/wiki/File:Lando_Norris_Signature.png",
+    "entity_kind": "person",
+    "entity_qid": "Q22007193",
+    "photo_provider": "Wikidata photo bank",
+    "verified_at": "2026-11-25T17:22:11.282966+00:00"
   }
 }

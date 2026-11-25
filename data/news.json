@@ -10158,5 +10158,29 @@
     "source": "Cooperativa.cl: Noticias de Chile y el mundo - País, Deportes y más",
     "collected_at": "2026-11-25T17:12:57.590022+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "80c6a78029d6e7011dcfc5e4946f1dbdfa07ce96abdb5ee636fe9d61a8ba26b1",
+    "title": "¿Qué pasa con Garnacho? Borró sus fotos con Aston Villa tras no ir ni al banco en la Champions",
+    "url": "https://www.ole.com.ar/futbol-internacional/inglaterra/pasa-polemica-alejandro-garnacho-borro-fotos-aston-villa-instagram-futuro-incognita-champions-chelsea_0_LZlXkWcZ5X.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-25T17:19:55.529297+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "9085c5af0664d0e5f705031dd6424ea169502864cd66e16e657fa8864053278e",
+    "title": "“No sabe perder”: Kevin Vallejos le respondió a Aljamain Sterling tras su triunfo en la UFC",
+    "url": "https://www.ole.com.ar/artes-marciales/no-sabe-perder-kevin-vallejos-exploto-contra-aljamain-sterling-tras-polemica-ufc_0_RFzUCl9YzK.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-25T17:19:55.529316+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "c11018075a880823d6dff81f55644518c0517ebd33d999d111f71c3dde762775",
+    "title": "Norris cree que la F1 de 2030 superará incluso la locura de Las Vegas",
+    "url": "https://es.motorsport.com/f1/news/norris-cree-espectaculo-2030-mejor-vegas/10877676/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es",
+    "source": "Motorsport.com - Fórmula 1 - Historias",
+    "collected_at": "2026-11-25T17:19:56.831198+00:00",
+    "status": "pending_review"
   }
 ]
