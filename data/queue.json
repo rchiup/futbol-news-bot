@@ -11331,5 +11331,80 @@
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795565521/football-news-bot/reels/reel-launch-20261124.mp4",
     "buffer_tiktok_status": "sending",
     "buffer_tiktok_id": "6b0629b9c4ff71faa81e402a"
+  },
+  {
+    "id": "reel-launch-20261124-v2",
+    "title": "'I miss being on court' - Sinner has 'minor surgery' on knee",
+    "source_url": "https://www.bbc.co.uk/sport/tennis/articles/cxlylr3p4q8mo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Tennis",
+    "description": "World number two Jannik Sinner says he has had \"minor surgery\" on his knee, just seven weeks before January's Australian Open begins.",
+    "published_at": "2026-11-24T18:00:06+00:00",
+    "category": "TENIS",
+    "sport": "TENIS",
+    "score": 26,
+    "queued_at": "2026-11-25T00:23:33.924084+00:00",
+    "status": "published",
+    "ai_art_used": false,
+    "photo_used": true,
+    "portrait_used": true,
+    "reference_photo_used": false,
+    "article_context": "Jannik Sinner attended a ceremony for players who had become world number one at the ATP Finals in Turin\nWorld number two Jannik Sinner says he has had \"minor surgery\" on his knee, just seven weeks before January's Australian Open begins.\nThe five-time Grand Slam champion has not played competitively since winning Wimbledon on 12 July.\nIn a post on Instagram, Sinner said he had undergone surgery to \"improve the condition of my iliotibial band\" - a thick band of tissue that runs along the outside of the knee.\n\"Over the past few months, together with my team we've tried everything to treat my injury without surgery,\" the 25-year-old wrote.\n\"After some very encouraging progress early on, my knee unfortunately didn't respond as we'd all hoped.\n\"I really miss being on court and will now begin my recovery process together with my team.\"\nEarlier in November, Sinner said his goal was to go to Australia and potentially \"play a few tournaments\" before the first Grand Slam of the year begins on 17 January.\nHowever, the Italian has also stressed the need to think of his long-term career in protecting his body.\nThe Instagram post is the first time Sinner has specified what the knee issue is.\nIn a video posted on his Youtube channel in October, Sinner said he had also lost \"a lot of weight\" after having his tonsils removed.\nHe also described having \"days where I felt nothing and could play without any problems, and then days where I couldn't move at all\".\nHe suffered a nasty fall in the first match of his Wimbledon title defence and also had blood seeping through his shoes because of a problematic toenail.\nAlexander Zverev has become world number one in Sinner's absence, while rival Carlos Alcaraz swept four titles after returning from his injury lay-off in September.\nSinner comes from behind to retain Wimbledon title against Zverev\nSinner was the dominant player for the first half of the season, winning 44 and losing just three of his singles matches.\nHe won five Masters 1000 titles in a row between March and May, becoming the youngest man to complete the 'career Golden Masters' , and reclaimed the world's top ranking from Alcaraz along the way.\nHowever, he suffered a shock second-round exit at the French Open, with Zverev ultimately stepping up to win his first Grand Slam title.\nSinner bounced back on the grass courts, demolishing Novak Djokovic in the semi-finals before coming back from a set down against Zverev in the Wimbledon showpiece.\nHe ended his season in early October , meaning he was unable to defend the points he claimed with title triumphs in China, Vienna, Paris and the ATP Finals at the end of 2025.\nZverev went on to win the US Open and secure the year-end number one ranking.\nHaving met in three of the four Grand Slam finals last year, Sinner and Alcaraz played each other only once in 2026.\nSinner won their final at the Monte Carlo Masters shortly before Alcaraz spent four months out with a wrist injury.\nAlcaraz's victory at the season-ending ATP Finals means he is only 350 ranking points behind Sinner - although the Spaniard will be defending 2,000 of those at the Australian Open.\n\"It's a shame we don't have Jannik,\" Alcaraz told SuperTennis TV , external after winning the ATP Finals on Sunday.\n\"We really miss him. I have not seen him for many months right now since I got injured in April.\n\"I can't wait to see him fit, healthy. I am pretty sure that he is going to come back even better and stronger.\"\nAlcaraz will be the defending champion in Melbourne, having beaten Djokovic to complete a historic career Grand Slam in January.\n84 days, four titles, one historic feat - Alcaraz's remarkable return\n'Right time' for Smith exit - but Murray not ready for role\nChampions League: Villa goalless at Galatasaray before Arsenal and Man City in action\nSenegal reinstated as Afcon 2025 winners by court ruling\nYoro red card overturned, but refs' chief Webb backs decision\nA festive comedy featuring Jason Bateman, Olivia Munn and Jennifer Aniston\nIs cough medicine any better than just taking honey and lemon?\nLucy unlocks the secrets of four spectacular palaces\nThe controversial operation that transplanted a baboon's heart into a baby\n115 days, 39 private-jet flights, one election - Infantino's globetrotting\nWhy has De Bruyne struggled at Napoli as he returns to Man City?\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nTwo goals in 15 games - what's going on with Gyokeres?\nWho has made Troy's Premier League team of the week?\nEngland's tearaway quick bowler reinvented as a top-order batter\nChaotic week, nightmare start and huge reality check for Pochettino\nA 'wow' player - why Ngumoha is already a Liverpool game-changer\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland will not get carried away by beating All Blacks\nVerstappen a constant amid chaos as he says Russell is 'so far below my level'\nThe sandpaper plot - who was there, who said what?\nThe 3pm football blackout: Outdated or still relevant in 2026?\nJosh Kerr: The making of the man behind the shades\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "visual_subject": "Jannik Sinner",
+    "visual_entities": {
+      "personas": [
+        "Jannik Sinner"
+      ],
+      "clubes": [],
+      "competicion": [
+        "Australian Open"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Sinner se somete a cirugía menor en la rodilla",
+    "caption": "El tenista italiano Jannik Sinner, número dos del mundo, ha anunciado que se ha sometido a una cirugía menor en la rodilla para mejorar la condición de su banda iliotibial. La operación se produce siete semanas antes del comienzo del Abierto de Australia en enero.",
+    "ai_generated_at": "2026-11-24T18:50:57.047638+00:00",
+    "portrait_info": {
+      "subject": "Jannik Sinner",
+      "wikidata_id": "Q54812588",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Jannik_Sinner_US_Open_2025_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "license": "public domain",
+      "license_url": "",
+      "commons_filename": "Jannik Sinner US Open 2025 (cropped).jpg",
+      "photographer": "",
+      "credit_required": false,
+      "share_alike": false,
+      "width": 1204,
+      "height": 2000,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Jannik_Sinner_US_Open_2025_%28cropped%29.jpg",
+      "entity_kind": "person",
+      "entity_qid": "Q54812588",
+      "photo_provider": "Wikidata photo bank",
+      "verified_at": "2026-11-24T19:02:21.083300+00:00"
+    },
+    "photo_checked_at": "2026-11-24T19:02:21.084141+00:00",
+    "visual_mode": "licensed_photo",
+    "photo_credit_full": "",
+    "promotion": {
+      "hashtags": [
+        "Tenis",
+        "JannikSinner",
+        "AustralianOpen"
+      ],
+      "mentions": []
+    },
+    "publish_format": "reel",
+    "reel_source_id": "3d8c6f798408850c2f5b",
+    "reel_quality": {
+      "version": 2,
+      "duration": 19.2,
+      "mean_db": -22.0
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795566337/football-news-bot/reels/reel-launch-20261124-v2.mp4",
+    "posted_at": "2026-11-25T00:23:33.924084+00:00",
+    "instagram_media_id": "18122062888782830",
+    "buffer_tiktok_status": "sending",
+    "buffer_tiktok_id": "6b062b25f0b405190ac7b75f"
   }
 ]

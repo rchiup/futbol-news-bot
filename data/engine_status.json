@@ -1,22 +1,22 @@
 {
-  "checked_at_utc": "2026-11-25T00:20:07.520434+00:00",
+  "checked_at_utc": "2026-11-25T00:23:33.924084+00:00",
   "local_hour": 21,
   "statuses": {
-    "published": 124,
+    "published": 125,
     "draft": 0,
     "awaiting_ai": 2,
     "needs_review": 117,
     "publish_error": 26,
     "duplicate": 28
   },
-  "fresh_candidates": 179,
+  "fresh_candidates": 135,
   "queued_new": 0,
   "ai_generated": 0,
   "preview_images": 2,
-  "published": 0,
+  "published": 1,
   "duplicates_suppressed": 0,
   "no_photo_deferred": 0,
-  "total_queue": 342,
+  "total_queue": 343,
   "per_run_cap": 3,
   "morning_day_cap": 72,
   "auto_publish_enabled": true,
@@ -54,17 +54,17 @@
         "last_error": "invalid_output"
       },
       "openrouter": {
-        "attempts": 10,
+        "attempts": 12,
         "success": 1,
-        "failures": 9,
+        "failures": 11,
         "avg_latency_ms": 24860,
         "avg_readability": 100.0,
         "last_error": "invalid_output"
       },
       "cloudflare": {
-        "attempts": 9,
+        "attempts": 11,
         "success": 0,
-        "failures": 9,
+        "failures": 11,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "invalid_output"
