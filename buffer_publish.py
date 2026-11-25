@@ -76,7 +76,7 @@ def submit_tiktok(video_url, caption, session=requests, channel=None):
         raise RuntimeError("Buffer did not accept the TikTok post")
     return {"id":str(post["id"]),"status":str(post.get("status") or "accepted")}
 
-def crosspost(item, video_url, caption, session=requests, persist=None):
+def buffer_tiktok(item, video_url, caption, session=requests, persist=None):
     if not configured() or item.get("buffer_tiktok_status"):
         return
     try:
@@ -118,3 +118,45 @@ def recover_original_video(identifier, session=requests):
         if data.get("public_id")==public_id and url.startswith("https://"):
             return url
     return None
+
+def buffer_youtube(item, video_url, caption, session=requests, persist=None):
+    if not configured() or item.get("buffer_youtube_status"):
+        return
+    channel = os.getenv("BUFFER_YOUTUBE_CHANNEL_ID", "").strip()
+    if not channel:
+        return
+    item["buffer_youtube_status"] = "submitting"
+    if persist:
+        persist()
+    literal = lambda v: json.dumps(v, ensure_ascii=False)
+    title = (str(item.get("headline") or "Noticias deportivas")[:91] + " #Shorts")[:100]
+    query = """mutation { createPost(input: {
+      text: %s channelId: %s schedulingType: automatic mode: shareNow
+      aiAssisted: true needsApproval: false
+      metadata: { youtube: { title: %s categoryId: "17" madeForKids: false } }
+      assets: [{video: {url: %s}}]
+    }) { ... on PostActionSuccess { post { id status } } ... on MutationError { message } } }""" % (
+        literal(caption[:4900]),literal(channel),literal(title),literal(video_url))
+    try:
+        data = graphql(query, session)
+        post = (data.get("createPost") or {}).get("post") or {}
+        if not post.get("id"):
+            raise RuntimeError("Buffer rejected YouTube post")
+        item["buffer_youtube_id"] = str(post["id"])
+        item["buffer_youtube_status"] = str(post.get("status") or "accepted")
+        print("[BUFFER] YouTube accepted " + item["buffer_youtube_id"])
+    except Exception as exc:
+        item["buffer_youtube_status"] = "check_required"
+        print("[BUFFER] YouTube unconfirmed: " + type(exc).__name__)
+
+def crosspost(item, video_url, caption, session=requests, persist=None):
+    # Keep each platform and provider independent; never retry an ambiguous POST.
+    import zernio_publish
+    for platform, fallback in (("tiktok", buffer_tiktok), ("youtube", buffer_youtube)):
+        if item.get("buffer_"+platform+"_status") or item.get("zernio_"+platform+"_status"):
+            continue
+        outcome = zernio_publish.submit(item, platform, video_url, caption, session, persist)
+        if outcome == "not_submitted":
+            fallback(item, video_url, caption, session, persist)
+        if persist:
+            persist()
