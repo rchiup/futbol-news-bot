@@ -10758,5 +10758,45 @@
     "source": "www.ole.com.ar - Home",
     "collected_at": "2026-11-25T22:07:06.709748+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "66f0491c2b4890e696be78540e4991fb40a30104034c82ce5dc67d0bb11e68da",
+    "title": "Gordon stars in comfortable Barca win over Sabah",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c6z74ljxjv2xo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-25T22:09:52.754156+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "ad9027417def0a556a1265c2785a2896bdde2353462ac7e6aacee65b51cf53b1",
+    "title": "Borussia Dortmund fight back to draw with Arsenal",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cmedqg06d8vwo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-25T22:09:52.754177+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "672958496daa05ff3d53d5bf1ca80fed77ae0a4b7fce1ead65c06f77286a8548",
+    "title": "Blunt Villa beaten by late Galatasaray winner",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c6r7g92p5k79o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-25T22:09:52.754184+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "fc3a38e82a3a5e8c115a00429b470a6df0ddd758401b0054cb85179180c39366",
+    "title": "Cherki rescues point for Man City against Napoli",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cjy5xwygqg9do?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-25T22:09:52.754188+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "4dbbadecf470ed9175729d587013cb56bf0fde27f2a2f15a33db1bb121f698e6",
+    "title": "Real Madrid put in a five star second half to win against PSV",
+    "url": "https://www.bbc.co.uk/sport/football/videos/c5evr0y83197o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-25T22:09:52.754193+00:00",
+    "status": "pending_review"
   }
 ]
