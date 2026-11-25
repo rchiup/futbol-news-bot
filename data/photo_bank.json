@@ -88,5 +88,23 @@
     "entity_qid": "Q51318989",
     "photo_provider": "Wikidata photo bank",
     "verified_at": "2026-11-24T19:37:34.369013+00:00"
+  },
+  "person:diego placente": {
+    "subject": "Diego Placente",
+    "wikidata_id": "Q346402",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Diego_Placente_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "public domain",
+    "license_url": "",
+    "commons_filename": "Diego Placente 13.jpg",
+    "photographer": "",
+    "credit_required": false,
+    "share_alike": false,
+    "width": 1500,
+    "height": 1700,
+    "file_page": "https://commons.wikimedia.org/wiki/File:Diego_Placente_13.jpg",
+    "entity_kind": "person",
+    "entity_qid": "Q346402",
+    "photo_provider": "Wikidata photo bank",
+    "verified_at": "2026-11-25T11:52:52.787378+00:00"
   }
 }
