@@ -10954,7 +10954,7 @@
     "caption": "Middlesbrough volvió a ganar 2-1 a Swansea, con Lankshear de regreso al once titular, lo que le permite mantener la primera posición del Championship. Por su parte, West Ham sigue sin conseguir su primera victoria bajo Scott Parker tras caer ante Portsmouth. La reincorporación de Lankshear refuerza la ofensiva del Boro, mientras que el Hammers parece estancado; ¿logrará Parker revertir la mala racha antes del cierre?",
     "ai_generated_at": "2026-11-25T02:52:53.750950+00:00",
     "editorial_rechecked": true,
-    "photo_checked_at": "2026-11-25T03:17:30.324931+00:00",
+    "photo_checked_at": "2026-11-25T03:40:09.294963+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -11961,7 +11961,7 @@
     "headline": "Sara deja Ferro",
     "caption": "Juan Manuel Sara se despidió de Ferro tras una campaña histórica que los llevó a las puertas de la finalísima por el ascenso a Primera. ¿Fue el momento adecuado para dar un paso al costado?",
     "ai_generated_at": "2026-11-25T03:16:06.250625+00:00",
-    "photo_checked_at": "2026-11-25T03:16:56.979769+00:00",
+    "photo_checked_at": "2026-11-25T03:39:34.695748+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -12008,7 +12008,7 @@
     "headline": "Colegiales renueva a Leo Fernández",
     "caption": "El técnico del Tricolor se convirtió en el entrenador con más tiempo en su cargo en el fútbol argentino, después de que la institución decidiera apostar por su continuidad. ¿Será esta la clave para el éxito en un deporte cada vez más resultadista?",
     "ai_generated_at": "2026-11-25T03:16:06.250625+00:00",
-    "photo_checked_at": "2026-11-25T03:16:58.920422+00:00",
+    "photo_checked_at": "2026-11-25T03:39:52.016109+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -12088,7 +12088,7 @@
     "headline": "González defiende gestión de Moyano",
     "caption": "Daniel González, presidente de la fórmula de Agrupación Independiente, habló con Olé y defendió la gestión de los Moyano, considerándola mejor que la actual y las anteriores. También reivindicó su trabajo y lanzó críticas a la conducción actual. ¿Puede su visión influir en el futuro del club?",
     "ai_generated_at": "2026-11-25T03:16:06.250625+00:00",
-    "photo_checked_at": "2026-11-25T03:17:01.169848+00:00",
+    "photo_checked_at": "2026-11-25T03:40:06.494028+00:00",
     "portrait_info": {
       "subject": "Daniel González",
       "wikidata_id": "Q5217306",
@@ -12148,7 +12148,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T03:14:35.416420+00:00",
+    "photo_checked_at": "2026-11-25T03:38:38.096410+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -12292,6 +12292,63 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T03:33:48.341225+00:00",
+    "status": "draft",
+    "ai_art_used": false,
+    "photo_used": true,
+    "portrait_used": true,
+    "reference_photo_used": false,
+    "visual_subject": "Gianni Infantino",
+    "visual_entities": {
+      "personas": [
+        "Gianni Infantino"
+      ],
+      "clubes": [],
+      "competicion": [
+        "FIFA"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "FIFA planeaba vender participación en Mundial",
+    "caption": "Según documentos filtrados, el plan de Gianni Infantino involucraba la venta de participaciones en la Copa Mundial de la FIFA por 96 años, lo que generó la mayor crisis de su presidencia. ¿Cuáles serían las consecuencias a largo plazo para el fútbol?",
+    "ai_generated_at": "2026-11-25T03:37:43.040921+00:00",
+    "portrait_info": {
+      "subject": "Gianni Infantino",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Gianni_Infantino_-_55062516828.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commons_filename": "Gianni Infantino - 55062516828.jpg",
+      "photographer": "Ricardo Stuckert",
+      "credit_required": true,
+      "share_alike": true,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Gianni_Infantino_-_55062516828.jpg",
+      "photo_provider": "Curated Commons",
+      "verified": "2026-11-23"
+    },
+    "photo_checked_at": "2026-11-25T03:38:48.270896+00:00",
+    "visual_mode": "licensed_photo",
+    "photo_credit_full": "📷 Foto: Ricardo Stuckert · CC BY-SA 4.0 · Wikimedia Commons (recorte y edición). https://commons.wikimedia.org/wiki/File:Gianni_Infantino_-_55062516828.jpg · https://creativecommons.org/licenses/by-sa/4.0/ · Gráfica adaptada bajo la misma licencia CC BY-SA.",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "GianniInfantino",
+        "FIFA"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "82bcbfb09266cec58a96",
+    "title": "Robo de carga: alertan por aumento del riesgo en camiones durante Black Friday y Navidad",
+    "source_url": "https://www.cooperativa.cl/noticias/pais/policial/robo-de-vehiculos/robo-de-carga-alertan-por-aumento-del-riesgo-en-camiones-durante-black/2026-11-25/002451.html",
+    "source": "Cooperativa Deportes Chile",
+    "description": "El aumento de los despachos por Black Friday — que comienza este viernes — y Navidad , sumado a los cierres de bodegas, turnos reducidos y demoras en centros de distribución, eleva el riesgo de robo de carga durante las próximas semanas, advierten expertos. Chile figuró entre los nueve países con más robos de carga en 2025 , según un informe de TT Club y BSI Consulting. En el ámbito nacional, un registro sectorial contabilizó 220 robos y ataques a vehículos de carga entre enero y septiembre de 2026. Uno de los principales riesgos ocurre cuando ",
+    "published_at": "2026-11-25T03:24:51+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-25T03:37:43.040921+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
