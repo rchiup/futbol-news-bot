@@ -17926,5 +17926,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "c9cf3e8c35019b656721",
+    "title": "Uno por uno: qué es de la vida de los titulares campeones de Estudiantes en la Libertadores 2009",
+    "source_url": "https://www.ole.com.ar/estudiantes/copa-libertadores-estudiantes-plata-2009_0_p6n5D496uk.html",
+    "source": "Olé Argentina",
+    "description": "A casi dos décadas de la última gran conquista del Pincha, sus protagonistas tomaron caminos diversos: gestión dirigencial, dirección técnica, representación de futbolistas y hasta viñedos. ¿Qué hacen hoy los héroes de aquella noche en el Mineirao?",
+    "published_at": "2026-11-25T22:27:52+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-25T22:37:38.946243+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
