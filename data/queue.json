@@ -10939,7 +10939,7 @@
     "caption": "Middlesbrough volvió a ganar 2-1 a Swansea, con Lankshear de regreso al once titular, lo que le permite mantener la primera posición del Championship. Por su parte, West Ham sigue sin conseguir su primera victoria bajo Scott Parker tras caer ante Portsmouth. La reincorporación de Lankshear refuerza la ofensiva del Boro, mientras que el Hammers parece estancado; ¿logrará Parker revertir la mala racha antes del cierre?",
     "ai_generated_at": "2026-11-25T02:52:53.750950+00:00",
     "editorial_rechecked": true,
-    "photo_checked_at": "2026-11-25T02:55:27.173008+00:00",
+    "photo_checked_at": "2026-11-25T03:17:30.324931+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -11909,11 +11909,38 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T03:05:11.464714+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Juan Manuel Sara",
+    "visual_entities": {
+      "personas": [
+        "Juan Manuel Sara"
+      ],
+      "clubes": [
+        "Ferro"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Sara deja Ferro",
+    "caption": "Juan Manuel Sara se despidió de Ferro tras una campaña histórica que los llevó a las puertas de la finalísima por el ascenso a Primera. ¿Fue el momento adecuado para dar un paso al costado?",
+    "ai_generated_at": "2026-11-25T03:16:06.250625+00:00",
+    "photo_checked_at": "2026-11-25T03:16:56.979769+00:00",
+    "portrait_info": null,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "JuanManuelSara",
+        "Ferro"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "19ce46dbe7a54abf583e",
@@ -11926,11 +11953,40 @@
     "sport": "FUTBOL",
     "score": 17,
     "queued_at": "2026-11-25T03:05:11.464714+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "En el fútbol argentino, donde un traspié es sinónimo de dudas acerca de la continuidad, encontrar un director técnico que se mantenga durante varias temporadas en el mismo puesto es casi una utopía. Pero en ese mismo deporte, con una cultura tan resultadista, un club del Ascenso es la excepción a la regla: Colegiales . El Tricolor mantiene la misma línea hace varios años y planea seguir en esa senda durante un año más con la renovación de Leo Fernández .\nEl deté llegó a Munro el 1 de julio de 2023. En un mercado tan movido parece una eternidad. Tres años después, ahí sigue, en cada partido de su equipo, viviéndolo como si fuera el primero. Ojo igual, los resultados avalan su estadía. El entrenador agarró al Trico cuando el equipo estaba en la Primera B , lo hizo subir al Nacional y en su segunda campaña lo depositó en el Reducido, donde cayó ante Morón por ventaja deportiva luego de hacer un dignísimo papel. Luego de la caída en el Oeste, la CD se reunió con el DT y su representante, Damián Erlich, y renovó su vínculo .\nTodos esos días con el buzo de Cole puesto le dieron una insignia a la que pocos pueden llegar: contando Primera y Segunda, es el técnico que más tiempo lleva en su cargo . Le siguen Pancho Martínez, bastante más lejos, con dos años y siete meses, y Alfredo Berti, con dos años y cuatro meses. La estadística deja a las claras que, cuando se respetan los procesos, los números llegan solos.\nEn tanto, este fin de semana continúan los mano a mano para determinar quién será el segundo ascendido a la máxima categoría del fútbol argentino. Este viernes habrá tres partidos: desde las 19, Atlanta recibirá en Villa Crespo a Ciudad Bolívar (victoria 1-0 del Bohemio) y, desde las 21, Tristán Suárez hará lo propio con Gimnasia y Tiro de Salta (0-0).\nAdemás, a las 21.30, Morón será anfitrión del partido de vuelta ante Colón (0-0 en la ida) y los cuartos los cerrarán Deportivo Madryn y Gimnasia de Jujuy el sábado a las 20 (victoria 1-0 del Lobo). Los árbitros los dará a conocer la AFA este miércoles.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "Leo Fernández",
+    "visual_entities": {
+      "personas": [
+        "Leo Fernández"
+      ],
+      "clubes": [
+        "Colegiales"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Munro"
+      ]
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Colegiales renueva a Leo Fernández",
+    "caption": "El técnico del Tricolor se convirtió en el entrenador con más tiempo en su cargo en el fútbol argentino, después de que la institución decidiera apostar por su continuidad. ¿Será esta la clave para el éxito en un deporte cada vez más resultadista?",
+    "ai_generated_at": "2026-11-25T03:16:06.250625+00:00",
+    "photo_checked_at": "2026-11-25T03:16:58.920422+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "LeoFernandez",
+        "Colegiales"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "b35b019d1f9943c6d375",
@@ -11979,11 +12035,54 @@
     "sport": "FUTBOL",
     "score": 17,
     "queued_at": "2026-11-25T03:09:01.070596+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
-    "photo_used": false,
-    "portrait_used": false,
-    "reference_photo_used": false
+    "photo_used": true,
+    "portrait_used": true,
+    "reference_photo_used": false,
+    "visual_subject": "Daniel González",
+    "visual_entities": {
+      "personas": [
+        "Daniel González",
+        "Moyano"
+      ],
+      "clubes": [
+        "Agrupación Independiente"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "González defiende gestión de Moyano",
+    "caption": "Daniel González, presidente de la fórmula de Agrupación Independiente, habló con Olé y defendió la gestión de los Moyano, considerándola mejor que la actual y las anteriores. También reivindicó su trabajo y lanzó críticas a la conducción actual. ¿Puede su visión influir en el futuro del club?",
+    "ai_generated_at": "2026-11-25T03:16:06.250625+00:00",
+    "photo_checked_at": "2026-11-25T03:17:01.169848+00:00",
+    "portrait_info": {
+      "subject": "Daniel González",
+      "wikidata_id": "Q5217306",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Daniel_Gonz%C3%A1lez_%28WMES%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "license": "cc0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "commons_filename": "Daniel González (WMES).png",
+      "photographer": "",
+      "credit_required": false,
+      "share_alike": false,
+      "width": 601,
+      "height": 609,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Daniel_Gonz%C3%A1lez_%28WMES%29.png"
+    },
+    "visual_mode": "licensed_photo",
+    "photo_credit_full": "",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "DanielGonzalez",
+        "Moyano",
+        "AgrupacionIndependiente"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "554fe22e1f86e1e30a71",
