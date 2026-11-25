@@ -676,6 +676,12 @@ def run(reference: datetime | None = None, session=None) -> dict:
     if session is None and os.getenv("ENABLE_PUBLISH", "").lower()=="true":
         from forced_reel import run_once
         run_once(queue, save_queue, reference)
+    if session is None and os.getenv("ENABLE_PUBLISH", "").lower()=="true":
+        import zernio_publish
+        for previous in queue[-100:]:
+            for platform in ("tiktok", "youtube"):
+                zernio_publish.refresh(previous, platform)
+        save_queue(queue)
     # Backfill the explicitly requested first Reel without republishing to IG.
     if session is None and buffer_publish.configured() and os.getenv("ENABLE_PUBLISH", "").lower()=="true":
         try:
