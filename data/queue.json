@@ -11872,7 +11872,7 @@
     "headline": "Jurado estadounidense declara a Huawei culpable de fraude",
     "caption": "Un jurado federal en Nueva York declaró a Huawei culpable de diez delitos, entre fraude bancario, fraude electrónico, violación de sanciones a Irán y conspiración para robar secretos comerciales, tras 11 semanas de juicio y una semana de deliberaciones. La sentencia podría traducirse en multas y restricciones adicionales, intensificando la presión internacional sobre la compañía. ¿Qué consecuencias tendrá este veredicto para la estrategia de Huawei al intentar recuperar la confianza de socios y gobiernos?",
     "ai_generated_at": "2026-11-25T04:53:00.757787+00:00",
-    "photo_checked_at": "2026-11-25T08:36:24.807036+00:00",
+    "photo_checked_at": "2026-11-25T09:01:54.869109+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -12036,7 +12036,7 @@
     "headline": "Sara deja Ferro",
     "caption": "Juan Manuel Sara se despidió de Ferro tras una campaña histórica que los llevó a las puertas de la finalísima por el ascenso a Primera. ¿Fue el momento adecuado para dar un paso al costado?",
     "ai_generated_at": "2026-11-25T03:16:06.250625+00:00",
-    "photo_checked_at": "2026-11-25T08:36:26.929541+00:00",
+    "photo_checked_at": "2026-11-25T09:01:57.171520+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -12252,7 +12252,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T08:36:15.956396+00:00",
+    "photo_checked_at": "2026-11-25T09:01:53.897496+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -12694,7 +12694,7 @@
     "headline": "Bayern Munich prioriza talentos bávaros antes de buscar fuera",
     "caption": "El director de desarrollo juvenil Jochen Sauer indica que el Bayern Munich exige que al menos el 60 % de los jugadores de la sub‑19 provengan de Múnich y Baviera, ampliando luego la captación al resto de Alemania y a mercados europeos. Entre los ejemplos recientes están Josip Stanisic, Aleksandar Pavlovic y Jamal Musiala, fichado a los 16 años cuando el club percibió que Chelsea no explotaba su potencial. La política combina identidad regional y competitividad internacional, pero ¿puede seguir produciendo estrellas bajo la presión de resultados inmediatos?",
     "ai_generated_at": "2026-11-25T07:54:37.131975+00:00",
-    "photo_checked_at": "2026-11-25T08:39:40.707922+00:00",
+    "photo_checked_at": "2026-11-25T09:01:10.343373+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -12774,7 +12774,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-25T08:39:40.132037+00:00",
+    "photo_checked_at": "2026-11-25T09:01:09.708345+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -12908,5 +12908,54 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "cd9d932a40dddc8a92b3",
+    "title": "Se acerca la hora de la verdad para Colton Herta tras el rechazo de Cadillac en la F1 2027",
+    "source_url": "https://es.motorsport.com/f1/news/decision-time-looms-for-colton-herta-after-2027-cadillac-f1-snub/10877539",
+    "source": "Motorsport F1",
+    "description": "La decisión de Cadillac de mantener al veterano Valtteri Bottas como compañero de equipo de Sergio Pérez es una apuesta por la continuidad y la estabilidad después de una temporada de debut plagada de problemas para la undécima escudería de la Fórmula 1 en 2026. Sin embargo, también plantea importantes interrogantes sobre el futuro de Colton Herta. Con TWG, propietario mayoritario de ... Sigue leyendo",
+    "published_at": "2026-11-25T08:56:16+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-25T09:00:17.870118+00:00",
+    "status": "draft",
+    "visual_subject": "Colton Herta",
+    "visual_entities": {
+      "personas": [
+        "Colton Herta",
+        "Valtteri Bottas",
+        "Sergio Pérez"
+      ],
+      "clubes": [
+        "Cadillac"
+      ],
+      "competicion": [
+        "Fórmula 1"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Cadillac descarta a Colton Herta y retiene a Valtteri Bottas",
+    "caption": "Cadillac ha decidido mantener a Valtteri Bottas como compañero de Sergio Pérez, descartando la incorporación de Colton Herta para la temporada 2027. La escudería, que busca estabilidad tras una debut complicada en 2026, deja en el aire el futuro del joven piloto estadounidense. ¿Podrá Herta encontrar asiento en otro equipo o su paso por la F1 se verá truncado?",
+    "ai_generated_at": "2026-11-25T09:00:17.870118+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-25T09:01:21.081583+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Formula1",
+        "ColtonHerta",
+        "ValtteriBottas",
+        "SergioPerez",
+        "Cadillac"
+      ],
+      "mentions": []
+    }
   }
 ]
