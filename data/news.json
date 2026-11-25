@@ -9630,5 +9630,21 @@
     "source": "BBC Sport",
     "collected_at": "2026-11-25T12:09:14.929239+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "4cf17c7e59ca3defa5a742c145b64017d32e7535a6ae29b3a6d01b5670701259",
+    "title": "Will Hajime Moriyasu get a high-profile job in Europe after his eight years in charge of Japan?",
+    "url": "https://www.theguardian.com/football/2026/nov/25/hajime-moriyasu-leave-japan-world-cup-samurai-blue",
+    "source": "Football | The Guardian",
+    "collected_at": "2026-11-25T12:12:41.738670+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "5e1595f5247643524e394fef8029a28deca35a5658e9440e66abda6afb41d85f",
+    "title": "Por qué para Sainz el GP de Las Vegas fue un \"alivio\"",
+    "url": "https://es.motorsport.com/f1/news/sainz-pronosticos-cumplidos-las-vegas/10877520/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es",
+    "source": "Motorsport.com - Fórmula 1 - Historias",
+    "collected_at": "2026-11-25T12:12:44.291023+00:00",
+    "status": "pending_review"
   }
 ]
