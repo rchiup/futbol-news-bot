@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-25T09:46:30.464481+00:00",
+  "checked_at_utc": "2026-11-25T09:50:05.615064+00:00",
   "local_hour": 6,
   "statuses": {
     "published": 129,
@@ -70,17 +70,17 @@
         "last_error": "invalid_output"
       },
       "nvidia": {
-        "attempts": 28,
+        "attempts": 29,
         "success": 0,
-        "failures": 28,
+        "failures": 29,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "http_410"
       },
       "zai": {
-        "attempts": 8,
+        "attempts": 9,
         "success": 0,
-        "failures": 8,
+        "failures": 9,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "http_429"
