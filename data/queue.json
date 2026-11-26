@@ -23338,5 +23338,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "a85744528275a97922cf",
+    "title": "De su pasado en La Champions Liga a ser una pieza fundamental en Estudiantes: la historia de Ezequiel Piovi",
+    "source_url": "https://www.ole.com.ar/estudiantes/ezequiel-piovi-estudiantes-plata-copa-libertaores-palmeiras_0_blU9CvbjbL.html",
+    "source": "Olé Argentina",
+    "description": "Entre shows de cumbia y un sinuoso recorrido por el Ascenso, el volante forjó el carácter y la autoridad que hoy lo convierten en dueño del mediocampo del Pincha que va en busca de otra gloria continental.",
+    "published_at": "2026-11-26T21:37:02+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T21:51:56.135299+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
