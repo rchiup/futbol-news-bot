@@ -117,9 +117,9 @@
       "last_error": "invalid_output"
     },
     "cloudflare": {
-      "attempts": 33,
+      "attempts": 36,
       "success": 5,
-      "failures": 28,
+      "failures": 31,
       "latencies_ms": [
         3721,
         3629,
@@ -146,9 +146,9 @@
       "blocked_until_utc": 1795657514
     },
     "zai": {
-      "attempts": 28,
+      "attempts": 31,
       "success": 3,
-      "failures": 25,
+      "failures": 28,
       "latencies_ms": [
         20578,
         26688,
