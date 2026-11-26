@@ -20045,7 +20045,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-26T15:14:10.727420+00:00",
+    "photo_checked_at": "2026-11-26T15:39:29.737867+00:00",
     "reel_quality": {
       "version": 2,
       "duration": 19.7,
@@ -20249,7 +20249,7 @@
     "headline": "Berti planea reunirse con dirigentes tras eliminación ante Boca",
     "caption": "El técnico de Independiente Rivadavia, Berti, analizó la derrota 2‑0 ante Boca en la Bombonera y anunció que se reunirá con los dirigentes para definir el futuro del plantel. Valoró el año como altamente positivo y advirtió que es probable que varios futbolistas dejen el club tras los octavos del Clausura.",
     "ai_generated_at": "2026-11-26T13:05:59.172849+00:00",
-    "photo_checked_at": "2026-11-26T15:14:09.140988+00:00",
+    "photo_checked_at": "2026-11-26T15:39:27.935560+00:00",
     "portrait_info": null,
     "reel_quality": {
       "version": 2,
@@ -20360,7 +20360,7 @@
     "headline": "Estudiantes y Palmeiras disputarán récord de 25 millones en la Libertadores",
     "caption": "El campeón de la Copa Libertadores 2026 recibirá 25 millones de dólares, mientras que el subcampeón obtendrá 7 millones. El duelo entre Estudiantes y Palmeiras se jugará este sábado a las 17:00 en el Estadio Centenario de Montevideo, superando en un millón el premio del año anterior.",
     "ai_generated_at": "2026-11-26T13:54:54.098304+00:00",
-    "photo_checked_at": "2026-11-26T15:14:07.387174+00:00",
+    "photo_checked_at": "2026-11-26T15:39:26.480459+00:00",
     "reel_quality": {
       "version": 2,
       "duration": 15.4,
@@ -20418,7 +20418,7 @@
     "headline": "River Plate buscará romper la pared de cuartos ante Instituto",
     "caption": "River Plate se enfrentará a Instituto en los cuartos de final en el Monumental de Alta Córdoba, intentando romper la histórica \"pared\" que le ha costado siete eliminaciones en la última década. El equipo dirigido por Leonardo Ponzio llega tras vencer a Gimnasia 2‑0 en el Apertura 2026 y busca asegurar un puesto en la Libertadores 2027.",
     "ai_generated_at": "2026-11-26T14:01:27.264440+00:00",
-    "photo_checked_at": "2026-11-26T15:14:07.792400+00:00",
+    "photo_checked_at": "2026-11-26T15:39:26.846419+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -20646,7 +20646,7 @@
     "headline": "River recupera a Acuña y Beltrán para enfrentar a Instituto",
     "caption": "River incorporó a Marcos Acuña y Lucas Beltrán en la práctica y se perfilan para el partido contra Instituto. El técnico Leonardo Ponzio confirmó la noticia en la preparación del cuartelazo del Clausura.",
     "ai_generated_at": "2026-11-26T14:30:24.903997+00:00",
-    "photo_checked_at": "2026-11-26T15:14:06.281226+00:00",
+    "photo_checked_at": "2026-11-26T15:39:25.695492+00:00",
     "reel_quality": {
       "version": 2,
       "duration": 10.4,
@@ -20794,7 +20794,7 @@
     "headline": "Miguel Merentiel igualó a Marcelo Delgado en la Bombonera",
     "caption": "Miguel Merentiel anotó su gol 28 en La Bombonera, quedando a la par del histórico Marcelo Delgado. Lo logró en 80 partidos, a cuatro tantos del top 20 de goleadores de Boca, tras el 2‑0 ante Independiente Rivadavia en los octavos del Clausura. Próximo objetivo: alcanzar los 30 tantos de Alfredo Hugo Rojas.",
     "ai_generated_at": "2026-11-26T15:06:08.186273+00:00",
-    "photo_checked_at": "2026-11-26T15:14:05.843152+00:00",
+    "photo_checked_at": "2026-11-26T15:39:25.374464+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -21072,6 +21072,24 @@
     "score": 26,
     "queued_at": "2026-11-26T15:33:29.758246+00:00",
     "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "7b38d568650da0e8d2dc",
+    "title": "Bombazo: ¡Messi jugará en la despedida de Tevez en la Bombonera!",
+    "source_url": "https://www.ole.com.ar/messi/messi-jugara-despedida-tevez-bombonera_0_cF55LpDX2j.html",
+    "source": "Olé Argentina",
+    "description": "Leo volverá a jugar en la Argentina tras su retiro de la Selección: será el 20 de diciembre en el partido homenaje a Carlitos en la cancha de Boca.",
+    "published_at": "2026-11-26T15:28:02+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-26T15:38:23.517829+00:00",
+    "status": "awaiting_ai",
+    "article_context": "Lionel Messi jugará en la despedida de Carlos Tevez.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
