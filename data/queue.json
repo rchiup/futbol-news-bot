@@ -20027,7 +20027,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T12:41:42.423265+00:00",
-    "status": "needs_review",
+    "status": "awaiting_ai",
     "article_context": "Boca le ganó a Indendiente Rivadavia y dio la vuelta en el Templo con la Sudamericana (Marcelo Carroll).\nBoca consiguió adelantar el partido contra Gimnasia LP y jugará este domingo a las 20.30 en la Bombonera, por los cuartos de final del Clausura. El encuentro estaba programado para las 22, pero el club pidió modificarlo por el desgaste que acumula el plantel y la cercanía de la final de la Copa Argentina ante Platense , que disputará el miércoles en Santiago del Estero.\nSegún pudo saber Olé , el cambio respondió exclusivamente a esa gestión del Xeneize . Apenas terminó el triunfo ante Independiente Rivadavia , desde la Boca salió el pedido hacia las oficinas de la Liga Profesional en Puerto Madero: adelantar el comienzo para evitar que otra noche de competencia se extendiera prácticamente hasta el lunes. A la seguidilla de partidos se sumará, además, un nuevo viaje para buscar otro título.\nLa modificación se resolvió sobre la marcha . La Liga llegó a publicar en sus redes el cronograma de cuartos después del encuentro del miércoles y lo hizo con Boca-Gimnasia a las 22. Horas después retiró aquella publicación y difundió la programación actualizada, ya con las 20.30 como horario confirmado . El domingo también se adelantó Rosario Central-Barracas Central, que pasó de las 17.30 a las 17.\nPara el equipo de Rodolfo Arruabarrena , ganar una hora y media tiene sentido dentro de un calendario que casi no ofrece pausas . El sábado fue la final de la Sudamericana en Barranquilla, el plantel regresó a la Argentina en la madrugada del lunes y el miércoles volvió a competir en la Bombonera. Ahora tendrá el cruce con el Lobo y, tres días después, la definición de la Copa Argentina , con traslado a Santiago incluido.\nEl Xeneize festejo la consagración de la Copa Sudamericana. Con goles de Paredes y Merentiel, el Xeneize le ganó a Independiente Rivadavia y pasó a cuartos del Clausura. @catasarra\nTambién pesa el formato del partido del domingo: si hay empate en los 90 minutos, se jugará un alargue de media hora y, de persistir la igualdad, penales . Con el horario original, esa posibilidad podía llevar la definición a la madrugada del lunes. Boca buscó anticipar el cierre de la jornada sin modificar el día del encuentro.\nLas 22 iniciales tenían otra explicación: evitar la superposición con el amistoso de la Selección femenina ante Alemania , previsto para el mismo domingo a las 20.15 en el Estadio Único Diego Armando Maradona de La Plata, en su reinauguración.\nCon el adelanto de Boca-Gimnasia, también se evaluó mover el horario del seleccionado para que ambos encuentros no coincidieran. Sin embargo, por ahora ese partido mantiene su programación .\nRodolfo Arruabarrena resaltó el nivel del equipo, las alternativas que tiene en el plantel y la felicidad de la gente\nBoca le ganó a Independiente Rivadavia y pasó a cuartos del Clausura. @catasarra\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "visual_subject": "",
     "visual_entities": {
@@ -20067,7 +20067,8 @@
       ],
       "mentions": []
     },
-    "quality_hold": "unverified_numeric_score"
+    "quality_hold": "unverified_numeric_score",
+    "editorial_rechecked": true
   },
   {
     "id": "634e17c36053740f48b6",
@@ -20080,7 +20081,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T12:41:42.423265+00:00",
-    "status": "needs_review",
+    "status": "awaiting_ai",
     "article_context": "Lautaro Rivero en el Camp. Foto: prensa River.\nEl plantel de River continúa con su preparación para los cuartos de final del Clausura ante Instituto , partido que, tal como confirmó la Liga Profesional, se jugará en Alta Córdoba este sábado desde las 22. Para ese mata-mata, Leonardo Ponzio recuperará a Gonzalo Montiel en el lateral derecho, aguarda por saber si podrá contar con Lucas Beltrán y Marcos Acuña y el regreso de Fausto Vera asoma complicado. Acá, las novedades del día millonario.\nAcá están, estos son... Con la victoria de Boca ante Independiente Rivadavia, quedaron definidos los ocho equipos que irán por el título del torneo Clausura 2026. Serán cuatro cruces durísimos de cuartos de final los que determinarán las semifinales. Y, en este contexto, Olé plantea las encuestas para cada partido... Leer más.\nDesde hace ya varios meses que en River no pasan desapercibidas las designaciones arbitrales. No es cuestión de pasillos ni rumores: públicamente, los dirigentes ya se mostraron en disconformidad en varias oportunidades, con el superclásico y Nicolás Ramírez como el foco central de este último tiempo. Y ahora, hubo atención a la elección de cara a los cuartos de final del Clausura, contra Instituto en Alta Córdoba. Leer más.\nMartín Demichelis tenía razón. “Me dijo que algún día tengo que jugar acá”. Un Santiago Espíndola lo dijo sonriente, número cinco en mano, después de que el entonces deté de River le diera su bendición, presagiándole al volante juvenil de 16 años -como si se tratara de una indicación que su futuro tenía que estar en ese mismo Monumental en el que el campeón vigente de la Liga acababa de vencer 3-1 a Tigre. Leer más .\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
@@ -20116,7 +20117,8 @@
       "mentions": []
     },
     "photo_checked_at": "2026-11-26T16:05:11.730011+00:00",
-    "quality_hold": "unverified_numeric_score"
+    "quality_hold": "unverified_numeric_score",
+    "editorial_rechecked": true
   },
   {
     "id": "660f3d8511d36b3c1945",
@@ -21134,7 +21136,7 @@
       "photo_provider": "Curated Commons",
       "verified": "2026-11-23"
     },
-    "photo_checked_at": "2026-11-26T16:07:50.367911+00:00",
+    "photo_checked_at": "2026-11-26T16:13:25.033699+00:00",
     "visual_mode": "licensed_photo",
     "photo_credit_full": "📷 Foto: Bryan Berlin · CC BY-SA 4.0 · Wikimedia Commons (recorte y edición). https://commons.wikimedia.org/wiki/File:Lionel_Messi_Argentina_v_Spain_19_July_2026-222.jpg · https://creativecommons.org/licenses/by-sa/4.0/ · Gráfica adaptada bajo la misma licencia CC BY-SA.",
     "promotion": {
@@ -21143,10 +21145,20 @@
       ],
       "mentions": []
     },
-    "publish_format": "image",
-    "format_attempt_at": "2026-11-26T16:06:30.313981+00:00",
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-26T16:12:41.580094+00:00",
     "posted_at": "2026-11-26T16:06:30.313981+00:00",
-    "instagram_media_id": "18157206964463210"
+    "instagram_media_id": "18157206964463210",
+    "reel_quality": {
+      "version": 2,
+      "duration": 15.9,
+      "mean_db": -19.6
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795709647/football-news-bot/reels/7b38d568650da0e8d2dc.mp4",
+    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_id": "6b085ad1c230d903584143af",
+    "buffer_youtube_status": "error",
+    "buffer_youtube_id": "6b085ad49f3ae7d1657e2a43"
   },
   {
     "id": "fef3daa10c6c95834ba4",
