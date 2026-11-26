@@ -19946,7 +19946,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-26T16:52:56.300403+00:00"
+    "photo_checked_at": "2026-11-26T17:16:28.625666+00:00"
   },
   {
     "id": "0c71629f30ca9d7f8c20",
@@ -20014,7 +20014,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-26T16:52:56.747636+00:00"
+    "photo_checked_at": "2026-11-26T17:16:29.273674+00:00"
   },
   {
     "id": "26fce2c22766c5a3ce94",
@@ -20253,7 +20253,7 @@
     "headline": "Berti planea reunirse con dirigentes tras eliminación ante Boca",
     "caption": "El técnico de Independiente Rivadavia, Berti, analizó la derrota 2‑0 ante Boca en la Bombonera y anunció que se reunirá con los dirigentes para definir el futuro del plantel. Valoró el año como altamente positivo y advirtió que es probable que varios futbolistas dejen el club tras los octavos del Clausura.",
     "ai_generated_at": "2026-11-26T13:05:59.172849+00:00",
-    "photo_checked_at": "2026-11-26T16:52:55.944028+00:00",
+    "photo_checked_at": "2026-11-26T17:16:04.175063+00:00",
     "portrait_info": null,
     "reel_quality": {
       "version": 2,
@@ -20564,7 +20564,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-26T16:52:37.296240+00:00",
+    "photo_checked_at": "2026-11-26T17:15:42.214050+00:00",
     "portrait_info": null
   },
   {
@@ -21347,7 +21347,7 @@
     "headline": "River Plate negocia con Fernando Batista para dirigir las inferiores",
     "caption": "River Plate está en conversaciones con Fernando Batista para que dirija la categoría juvenil del club. El técnico, exselección de Costa Rica y formador de jugadores como los hermanos Mac Allister y Julián Álvarez, sería el sucesor de Gabriel Rodríguez en el proyecto River 2027.",
     "ai_generated_at": "2026-11-26T16:51:06.511799+00:00",
-    "photo_checked_at": "2026-11-26T16:52:30.513753+00:00",
+    "photo_checked_at": "2026-11-26T17:15:18.547477+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -21356,7 +21356,19 @@
         "GabrielRodriguez"
       ],
       "mentions": []
-    }
+    },
+    "reel_quality": {
+      "version": 2,
+      "duration": 14.8,
+      "mean_db": -19.4
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795713332/football-news-bot/reels/8024c73ea0bacdd9a850.mp4",
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-26T17:14:12.129186+00:00",
+    "zernio_tiktok_status": "failed",
+    "zernio_tiktok_id": "6b08693683f9e211a40e87bb",
+    "buffer_youtube_status": "error",
+    "buffer_youtube_id": "6b0869393accdac92ce52a0d"
   },
   {
     "id": "dc33246771e78a630034",
