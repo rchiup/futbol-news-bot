@@ -160,5 +160,23 @@
     "entity_qid": "Q22007193",
     "photo_provider": "Wikidata photo bank",
     "verified_at": "2026-11-25T17:22:11.282966+00:00"
+  },
+  "person:joshua kimmich": {
+    "subject": "Joshua Kimmich",
+    "wikidata_id": "Q13865408",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/2017_Confederations_Cup_-_Final_-_Joshua_Kimmich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "cc0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "commons_filename": "2017 Confederations Cup - Final - Joshua Kimmich.jpg",
+    "photographer": "",
+    "credit_required": false,
+    "share_alike": false,
+    "width": 422,
+    "height": 998,
+    "file_page": "https://commons.wikimedia.org/wiki/File:2017_Confederations_Cup_-_Final_-_Joshua_Kimmich.jpg",
+    "entity_kind": "person",
+    "entity_qid": "Q13865408",
+    "photo_provider": "Wikidata photo bank",
+    "verified_at": "2026-11-26T11:29:11.012057+00:00"
   }
 }
