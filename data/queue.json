@@ -22318,11 +22318,60 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T19:01:16.797164+00:00",
-    "status": "awaiting_ai",
+    "status": "duplicate",
     "article_context": "Paredes es uno de los grandes responsables de este presente de Boca y de la felicidad de sus hinchas (Marcelo Carroll).\nBoca convirtió cada parada decisiva en una confirmación: ganó sus últimas seis \"finales\" , marcó diez goles y no recibió ninguno. Sólo una fue una final formal, la de la Sudamericana. Las demás tuvieron peso de definición: dos clásicos, la pelea por la Tabla Anual y cruces de eliminación directa. En dos de esos partidos levantó un título. Una serie que es parte de sus ocho victorias consecutivas .\nPor el Clausura, venció 1-0 a Independiente en Avellaneda (25/10), 1-0 a River (1/11), 1-0 a Defensa (7/11) y 2-0 a Independiente Rivadavia (25/11), estos tres en la Bombonera. Ante Defensa aseguró la Anual y frente a la Lepra pasó a cuartos. Por Copa Argentina, goleó 3-0 a Banfield en Mendoza (14/11) y llegó a la final . Por la Sudamericana, derrotó 2-0 a Mineiro en Barranquilla (21/11) y terminó con 18 años sin coronaciones internacionales .\nLa solidez tiene nombres: Álvaro Montero responde cuando lo necesitan; Lautaro Di Lollo y Jagger Herrera sostienen una zaga que gana confianza; los laterales participan del ataque y Milton Delgado equilibra con recuperación y juego. El cero también se sostiene cuando el rival consigue llegar: ahí aparecen las atajadas del colombiano, los cierres y la ayuda de los volantes. Boca transmite confiabilidad .\nNo caben dudas de que Leandro Paredes lidera esa estructura . Ordena con la pelota, se ofrece aun marcado y marca el compromiso con su deseo de estar siempre. Ante Independiente Rivadavia, después del desmayo en Colombia y los controles médicos, volvió a jugar y abrió el partido de penal . \"Este grupo se puso un chip y no se lo cambió más\", resumió. La ambición del capitán encuentra una respuesta colectiva.\nPor su lado, Rodolfo Arruabarrena sostiene esa exigencia. \" Si nos relajamos un poquito, la vamos a cagar\" , advirtió después de ser campeón. La vuelta al trabajo y el triunfo ante la Lepra mostraron que el mensaje llegó: hubo festejo, viaje, cansancio y otra respuesta competitiva cuatro días después de la Copa. El equipo disfruta y enseguida vuelve a disputar algo.\nEl Xeneize le gana 1-0 a Independiente Rivadavia. A instancias del VAR, Luis Lobo Medina sancionó un penal por una mano dentro del área y Leandro Paredes lo cambió por gol. En el festejo, hizo el Topo Gigio.\nTambién tiene recambio y gol repartido . Herrera resolvió en Avellaneda; Di Lollo, ante River; Enner Valencia entró y dio la Anual. Ascacibar, Villa y Lozano marcaron contra Banfield. El Ruso y Miguel Merentiel, en la final continental; Paredes y la Bestia, en octavos. Ocho goleadores en seis partidos . Tomás Aranda volvió a ser titular tras su lesión y los cambios ofrecen alternativas para sostener el ritmo.\nEl DT de Boca habló tras el triunfo por 2-0 ante Independiente Rivadavia y se refirió a la comparación con Carlos Bianchi. @catasarra\nRodolfo Arruabarrena resaltó el nivel del equipo, las alternativas que tiene en el plantel y la felicidad de la gente\nLa determinación explica los goles sobre el cierre ante Independiente y Defensa . Los triunfos alimentan la confianza y ese viento de cola ayuda a resolver la siguiente exigencia. También hubo polémicas, vale decirlo : la Lepra pidió roja a Lozano con el partido 1-0 y el VAR no llamó a Lobo Medina . Ante River, Martínez Quarta estuvo bien expulsado, pero en el ST quedó el reclamo por la segunda amarilla a Paredes.\nEsas discusiones tampoco empañan lo construido ni alcanzan para explicar por qué Boca llegó hasta acá. Hay una evolución futbolística, respuestas individuales y una fortaleza colectiva que se sostienen entre competencias, rivales y escenarios distintos. El equipo ganó confianza, encontró variantes y respondió en los partidos que definían su semestre.\nY todavía puede sumar tres títulos más: la Copa Argentina, cuya final jugará ante Platense el 2 de diciembre en Santiago del Estero; el Clausura, con Gimnasia como próximo obstáculo; y, si conquista ese torneo, el Trofeo de Campeones ante Belgrano, previsto para el 19 de diciembre en el Kempes. Dos vueltas olímpicas ya dieron. Ahora, este Boca quiere que esas seis \"finales\" sean el impulso para ganar las que vienen.\nEn el aniversario del fallecimiento de Diego Armando Maradona, la hinchada de Boca lo homenajeó con una canción. @catasarra\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Boca Juniors cierra seis finales sin recibir goles, liderado por Leandro Paredes",
+    "caption": "El Xeneize sumó seis victorias decisivas, anotó diez goles y no recibió ninguno, logrando dos títulos: el Clausura y la Copa Argentina. Las finales incluyeron triunfos ante Independiente, River y Defensa y una goleada a Banfield. Boca se prepara para la final de Copa Argentina contra Platense y el próximo desafío del Clausura ante Gimnasia.",
+    "ai_generated_at": "2026-11-26T19:09:29.566728+00:00",
+    "duplicate_of": "same_story_as:f332646fa712575c11d5"
+  },
+  {
+    "id": "4c88eb8449b4a00f464f",
+    "title": "Verstappen reclama una F1 más pura y zanja su polémica con Russell",
+    "source_url": "https://es.motorsport.com/f1/news/verstappen-reclama-una-f1-mas-pura-y-zanja-su-polemica-con-russell/10878026",
+    "source": "Motorsport F1",
+    "description": "Max Verstappen volvió a cuestionar el rumbo de la Fórmula 1 en la previa del Gran Premio de Qatar. El piloto neerlandés, que ya ha criticado en varias ocasiones el reglamento de 2026 y la importancia que ha adquirido la gestión de la energía, defendió una F1 con coches más ligeros, motores más sencillos y con mayor protagonista del talento. El piloto de Red Bull considera que la F1 ... Sigue leyendo",
+    "published_at": "2026-11-26T19:04:21+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-26T19:09:29.566728+00:00",
+    "status": "draft",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "source_brief",
+    "llm_model": "none",
+    "headline": "Verstappen reclama una F1 más pura y zanja su polémica con Russell",
+    "caption": "Max Verstappen volvió a cuestionar el rumbo de la Fórmula 1 en la previa del Gran Premio de Qatar. (Motorsport F1)",
+    "ai_generated_at": "2026-11-26T19:09:29.566728+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-26T19:10:22.026671+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Formula1"
+      ],
+      "mentions": []
+    }
   }
 ]
