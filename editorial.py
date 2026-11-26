@@ -735,6 +735,10 @@ def morning_burst_settings(reference: datetime, queue: list[dict]) -> tuple[int,
 
 def format_due(queue, reference, kind, minutes):
     for item in queue:
+        if kind == "reel" and item.get("crosspost_attempt_at"):
+            when = parse_iso(item["crosspost_attempt_at"])
+            if when and reference - timedelta(minutes=minutes) < when <= reference:
+                return False
         if item.get("publish_format") != kind:
             continue
         raw = item.get("format_attempt_at") or item.get("posted_at")
@@ -907,6 +911,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 candidate["reel_video_url"] = upload_public_video(video, candidate["id"])
                 candidate["publish_format"] = "reel"
                 candidate["format_attempt_at"] = iso(reference)
+                candidate["crosspost_attempt_at"] = iso(reference)
                 save_queue(queue)
                 video_caption = clean_public_caption(strip_filler(candidate["caption"]))
                 credit = photo_attribution(candidate.get("portrait_info")) if candidate.get("photo_used") else ""
@@ -1051,6 +1056,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     if (item.get("portrait_info") or {}).get("entity_kind") == "club":
                         caption += "\nFoto de archivo: estadio asociado al club; no corresponde necesariamente al encuentro."
                 item.pop("photo_deferred_reason", None)
+                crosspost_base_caption = caption
                 caption = append_promotion(platform_strategy.instagram_caption(item, caption), item)
                 video_path = None
                 if not item.get("match_result") and os.getenv("ENABLE_REELS", "").lower() == "true" and format_due(queue, reference, "reel", 30) and (reels.eligible(item) or (photo_required_missing and len(reels.narration(item)) >= 2)):
@@ -1073,7 +1079,8 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     from publisher import upload_public_video
                     item["reel_video_url"] = upload_public_video(video_path, item["id"])
                     save_queue(queue)
-                    buffer_publish.crosspost(item, item["reel_video_url"], caption, persist=lambda: save_queue(queue))
+                    item["crosspost_attempt_at"] = iso(reference)
+                    buffer_publish.crosspost(item, item["reel_video_url"], crosspost_base_caption, persist=lambda: save_queue(queue))
                     if remaining_meta_slots <= 0 or editorial_cap_reached or photo_required_missing:
                         item["status"] = "crossposted_only"
                         save_queue(queue)

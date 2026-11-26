@@ -112,3 +112,5 @@ Verify narration regression fix
 Quality gate regression verification
 
 Restore safe publishing cadence
+
+Run platform-specific creative experiment and verify regression tests

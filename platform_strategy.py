@@ -42,7 +42,7 @@ def video_script(item):
     script=([h.rstrip(".!?")+"."] if use_headline else [])+fs
     selected=[]
     for part in script:
-        if len(" ".join(selected+[part]).split())>72:
+        if len(" ".join(selected+[part]).split())>68:
             break
         selected.append(part)
     return " ".join(selected) or first
@@ -70,4 +70,4 @@ def carousel_detail(item):
     if len(fs)<2 or not DEBATE.search(headline(item)+" "+clean(item.get("caption"))):
         return ""
     detail=" ".join(fs[1:])
-    return detail if 30<=len(detail)<=220 and detail[-1] in ".!?" else ""
+    return detail if 30<=len(detail)<=115 and detail[-1] in ".!?" else ""
