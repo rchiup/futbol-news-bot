@@ -23797,5 +23797,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "9578664c41d9035d1b83",
+    "title": "Tristán Suárez vs. Gimnasia y Tiro, por el Reducido de la Primera Nacional 2026: día, hora, TV y árbitro",
+    "source_url": "https://www.ole.com.ar/futbol-ascenso/tristan-suarez-vs-gimnasia-tiro-salta-reducido-primera-nacional-2026-dia-horario-tv_0_rC0ju6x3L8.html",
+    "source": "Olé Argentina",
+    "description": "El Lechero y el Albo se enfrentan en Ezeiza por un lugar en las semifinales del Reducido. Con el empate de la ida, los salteños están obligados a ganar.",
+    "published_at": "2026-11-26T23:22:58+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T23:32:54.189432+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
