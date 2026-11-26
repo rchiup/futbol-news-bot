@@ -13373,11 +13373,32 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-25T10:38:56.314182+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Pierre Gasly",
+    "visual_entities": {
+      "personas": [
+        "Pierre Gasly"
+      ],
+      "clubes": [
+        "Alpine"
+      ],
+      "competicion": [
+        "Fórmula 1",
+        "Gran Premio de Las Vegas"
+      ],
+      "ciudad": [
+        "Las Vegas"
+      ]
+    },
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "Gasly cree que la refrigeración le impidió ganar en Las Vegas",
+    "caption": "Pierre Gasly cree que un problema de refrigeración le impidió ganar el Gran Premio de Las Vegas. El francés salió octavo en la parrilla, terminó quinto y llegó a la tercera posición tras 31 de las 50 vueltas.",
+    "ai_generated_at": "2026-11-26T00:57:10.977775+00:00"
   },
   {
     "id": "1862609f6e75bce10ad4",
@@ -16590,7 +16611,8 @@
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Use BBC.com or the new BBC App to listen to BBC podcasts, Radio 4 and the World Service outside the UK.\nThe Court of Arbitration for Sport has reinstated Senegal as Africa Cup of Nations champions, 10 months after one of the most controversial games in football history - and eight months after the Confederation of African Football overturned the result of the final and awarded the trophy to Morocco instead. But is this really the end of the story? More than the Score's John Bennett is joined by Senegalese journalist Babacar Diarra and North African football expert Maher Mezahi to discuss the decision, and the impact of the saga on the game in Africa. We also hear from former Premier League referee Graham Scott, who gives his take on the decisions that were made, as well as former Nigeria striker Daniel Amokachi. Unexpected questions and beyond the scoresheet chat. More than the Score tells stories from all over the world of sport. From Formula One to netball, MMA to figure skating, and Grand Slam tennis to Diamond League athletics. We've got interviews with extraordinary athletes, as well as the experts working behind the scenes, from football super-agents to the coaches keeping athletes in peak form. Plus, we've got the expertise of the BBC's top journalists, who share their insights from decades of covering sport at all levels. And if you've got your own take on the stories we cover, we'd love to hear from you. Email morethanthescore@bbc.co.uk, or WhatsApp us on 0044 800 032 0470. You can find more information, along with our privacy notice, on our website: www.bbcworldservice.com/morethanthescore"
   },
   {
     "id": "c0bd4de375c1af6773af",
