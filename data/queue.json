@@ -20187,7 +20187,22 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Berti planea reunirse con dirigentes tras eliminación ante Boca",
     "caption": "El técnico de Independiente Rivadavia, Berti, analizó la derrota 2‑0 ante Boca en la Bombonera y anunció que se reunirá con los dirigentes para definir el futuro del plantel. Valoró el año como altamente positivo y advirtió que es probable que varios futbolistas dejen el club tras los octavos del Clausura.",
-    "ai_generated_at": "2026-11-26T13:05:59.172849+00:00"
+    "ai_generated_at": "2026-11-26T13:05:59.172849+00:00",
+    "photo_checked_at": "2026-11-26T13:35:53.811850+00:00",
+    "portrait_info": null,
+    "reel_quality": {
+      "version": 2,
+      "duration": 15.9,
+      "mean_db": -19.5
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795700163/football-news-bot/reels/f2c79d0cc14e8684c730.mp4",
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-26T13:34:56.379607+00:00",
+    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_id": "6b0835c58abb3a4b15b1c51c",
+    "zernio_youtube_status": "published",
+    "zernio_youtube_id": "6b0835c9cbf0b638cae0e45f",
+    "zernio_youtube_url": "https://www.youtube.com/watch?v=YqKKBFv5k_8"
   },
   {
     "id": "4f02e00149a2d5ca90cf",
