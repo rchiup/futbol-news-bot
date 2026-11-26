@@ -25,7 +25,17 @@ def narration(item):
         selected=[str(item.get("headline") or "").strip()]
     # Short caption chunks; narration is synthesized continuously.
     words=" ".join(selected).split()
-    return [" ".join(words[i:i+6]) for i in range(0,len(words),6)]
+    # Prefer complete sentence boundaries, preserving every spoken word.
+    chunks=[]
+    for sentence in re.split(r"(?<=[.!?])\s+", " ".join(words)):
+        tokens=sentence.split()
+        while len(tokens)>8:
+            size=6 if len(tokens)>10 else len(tokens)//2
+            chunks.append(" ".join(tokens[:size]))
+            tokens=tokens[size:]
+        if tokens:
+            chunks.append(" ".join(tokens))
+    return chunks
 
 def eligible(item):
     return not item.get("match_result") and bool(item.get("photo_used")) and len(narration(item))>=2
@@ -59,7 +69,7 @@ def frame(cover, chunk, item, index, count, destination, brand):
         lines=_wrap(d,chunk.upper().split(),font(size),760)
         if len(lines)<=3: break
         size-=2
-    lines=_wrap(d,chunk.upper().split(),font(size),820)
+    lines=_wrap(d,chunk.upper().split(),font(size),760)
     line_h=size+12
     y=int(1170-len(lines)*line_h/2)
     for line in lines:

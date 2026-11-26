@@ -33,6 +33,7 @@ import free_llm
 import scorecards
 import tennis_scorecards
 import reels
+from quality_gate import score_error, photo_safe
 import buffer_publish
 from growth import append_promotion
 from news_novelty import duplicate_reason, novelty_priority, same_story
@@ -388,6 +389,7 @@ def ai_messages(item: dict) -> list[dict]:
         "Eres editor de CHAO FELICEVICH, cuenta de Instagram de deportes (fútbol, tenis, golf, F1, NBA) para público chileno. "
         "Escribes como periodista deportivo chileno: claro, directo, español natural. Nunca suenas a traducción ni a IA. "
         "Responde SOLO JSON con claves headline, caption, visual_subject, personas, clubes, competicion, ciudad.\n"
+        "RESULTADOS: un empate nunca es derrota ni victoria; 2-2 significa igualó o empató. No inventes marcadores ni cambies el ganador. "
         "HECHOS: usa exclusivamente el titular, el resumen RSS y el contexto del artículo. No inventes resultados, cifras, "
         "citas, lesiones, fechas, clubes ni nombres. Si es rumor, dilo (según reportes, estaría negociando). "
         "Si la fuente dice molestias, no lo conviertas en lesión grave. Si no hay un hecho concreto, devuelve headline y caption vacíos.\n"
@@ -491,6 +493,8 @@ def validate_llm_copy(result: dict, item: dict) -> dict:
         raise ValueError("Telegraphic headline")
     if FILLER.search(caption) or FILLER.search(headline):
         raise ValueError("Filler phrasing")
+    if score_error({**item, "headline": headline, "caption": caption}) in {"draw_described_as_win_or_loss", "unequal_score_described_as_draw"}:
+        raise ValueError("Contradictory match result")
     if not on_topic(item, headline, caption):
         raise ValueError("Headline does not match source story")
     if headline_needs_translation(headline) or headline_needs_translation(caption):
@@ -609,14 +613,17 @@ def make_card(item: dict, allow_ai: bool = False, lookup: bool = False,
     dest = ROOT / "output" / "portraits" / (item["id"] + ".jpg")
 
     # Reject stale generic-photo information from the previous system.
-    if (item.get("portrait_info") or {}).get("reference_only"):
+    if item.get("portrait_info") and not photo_safe(item["portrait_info"], item):
         item["portrait_info"] = None
+        dest.unlink(missing_ok=True)
 
     if lookup:
         approved = pick_curated(subject, title, summary) if sport == "FUTBOL" else None
         if not approved:
             approved = choose_photo(item, network=network_lookup)
-        if approved:
+        if approved and photo_safe(approved, item):
+            if (item.get("portrait_info") or {}).get("image_url") != approved.get("image_url"):
+                dest.unlink(missing_ok=True)
             item["portrait_info"] = approved
             if approved.get("entity_kind") != "club":
                 item["visual_subject"] = approved["subject"]
@@ -627,7 +634,8 @@ def make_card(item: dict, allow_ai: bool = False, lookup: bool = False,
             if not item.get("portrait_info"):
                 for name in names[:2]:
                     try:
-                        item["portrait_info"] = find_portrait(name)
+                        found_photo = find_portrait(name)
+                        item["portrait_info"] = found_photo if photo_safe(found_photo, item) else None
                         if item["portrait_info"]:
                             break
                     except (requests.RequestException, KeyError, ValueError):
@@ -637,7 +645,7 @@ def make_card(item: dict, allow_ai: bool = False, lookup: bool = False,
                     for name in candidates:
                         try:
                             photo = find_openverse_photo(name, kind=kind, sport=sport)
-                            if photo:
+                            if photo_safe(photo, item):
                                 item["portrait_info"] = photo
                                 break
                         except (requests.RequestException, KeyError, ValueError) as exc:
@@ -645,7 +653,7 @@ def make_card(item: dict, allow_ai: bool = False, lookup: bool = False,
                     if item.get("portrait_info"):
                         break
 
-        if item.get("portrait_info"):
+        if item.get("portrait_info") and photo_safe(item["portrait_info"], item):
             try:
                 if dest.exists():
                     photo_path = dest
@@ -751,6 +759,9 @@ def run(reference: datetime | None = None, session=None) -> dict:
             if channel:
                 for item in queue:
                     if item.get("status")!="published" or item.get("publish_format")!="reel" or item.get("buffer_tiktok_status"):
+                        continue
+                    if score_error(item, queue) or (item.get("photo_used") and not item.get("match_result") and not photo_safe(item.get("portrait_info"), item)):
+                        print("[QUALITY] Blocked unsafe old video: "+item["id"])
                         continue
                     if (item.get("reel_quality") or {}).get("version") != 2:
                         print("[BUFFER] Skipping unverified old Reel "+item["id"])
@@ -876,6 +887,13 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 continue
             if not candidate.get("match_result") and (not candidate.get("ai_generated_at") and candidate.get("llm_provider") in {None,"source_brief"} or candidate.get("score",0)<MIN_PUBLISH_SCORE or is_low_interest(candidate) or news_missing_critical_details(candidate)):
                 continue
+            problem = score_error(candidate, queue)
+            if problem:
+                candidate["quality_hold"] = problem
+                if candidate.get("status") == "draft":
+                    candidate["status"] = "needs_review"
+                print("[QUALITY] Crosspost held: "+candidate["id"]+" "+problem)
+                continue
             if len(reels.narration(candidate)) < 2:
                 continue
             try:
@@ -886,7 +904,11 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 candidate["publish_format"] = "reel"
                 candidate["format_attempt_at"] = iso(reference)
                 save_queue(queue)
-                buffer_publish.crosspost(candidate, candidate["reel_video_url"], clean_public_caption(strip_filler(candidate["caption"])), persist=lambda: save_queue(queue))
+                video_caption = clean_public_caption(strip_filler(candidate["caption"]))
+                credit = photo_attribution(candidate.get("portrait_info")) if candidate.get("photo_used") else ""
+                if credit:
+                    video_caption += "\n\n"+credit
+                buffer_publish.crosspost(candidate, candidate["reel_video_url"], video_caption, persist=lambda: save_queue(queue))
                 print("[CROSSPOST] Independent video outcome: "+candidate["id"]+" "+str({k:v for k,v in candidate.items() if k.endswith("_status") and k.startswith(("zernio_","buffer_"))}))
                 save_queue(queue)
                 break
@@ -926,6 +948,12 @@ def run(reference: datetime | None = None, session=None) -> dict:
             if str(item.get("id", "")).startswith("reel-launch-"):
                 continue  # Old one-off launch items are never republished.
             if item.get("status") != "draft" and not (item.get("status") == "needs_review" and (item.get("photo_deferred_reason") == "no_relevant_photo" or item.get("visual_mode") == "original_graphic") and item.get("headline") and item.get("caption")):
+                continue
+            problem = score_error(item, queue)
+            if problem:
+                item["quality_hold"] = problem
+                item["status"] = "needs_review"
+                print("[QUALITY] Instagram held: "+item["id"]+" "+problem)
                 continue
             if missing_promised_media(item):
                 item["status"] = "needs_review"
