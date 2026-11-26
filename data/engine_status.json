@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-26T02:07:24.510198+00:00",
+  "checked_at_utc": "2026-11-26T02:09:27.707820+00:00",
   "local_hour": 23,
   "statuses": {
     "published": 157,
@@ -9,7 +9,7 @@
     "publish_error": 27,
     "duplicate": 53
   },
-  "fresh_candidates": 153,
+  "fresh_candidates": 152,
   "queued_new": 0,
   "ai_generated": 0,
   "preview_images": 5,
@@ -38,9 +38,9 @@
     "last_success": "openrouter",
     "providers": {
       "groq": {
-        "attempts": 32,
+        "attempts": 33,
         "success": 3,
-        "failures": 29,
+        "failures": 30,
         "avg_latency_ms": 2253,
         "avg_readability": 100.0,
         "last_error": "http_429"
