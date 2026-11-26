@@ -21634,7 +21634,7 @@
     "headline": "Roberto Martínez defiende a Cristiano Ronaldo como incomparable",
     "caption": "Roberto Martínez elogió a Cristiano Ronaldo, ubicándolo entre los más grandes de la historia y asegurando que no veremos otro igual en Portugal. El exentrenador recordó sus 28 goles en 37 partidos y la victoria de Portugal en la Nations League 2025. Sus declaraciones llegan tras su salida de la selección y el conflicto con Jorge Jesús.",
     "ai_generated_at": "2026-11-26T17:39:57.695325+00:00",
-    "photo_checked_at": "2026-11-26T17:40:34.378160+00:00",
+    "photo_checked_at": "2026-11-26T17:46:20.519531+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -21643,7 +21643,19 @@
         "CristianoRonaldo"
       ],
       "mentions": []
-    }
+    },
+    "reel_quality": {
+      "version": 2,
+      "duration": 18.7,
+      "mean_db": -19.5
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795715215/football-news-bot/reels/7c3ad85f3f4b1d5b2389.mp4",
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-26T17:45:00.674535+00:00",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b087091ce64081689dce745",
+    "buffer_youtube_status": "error",
+    "buffer_youtube_id": "6b087094f0a96d0f21791658"
   },
   {
     "id": "3e04cfc6a60b16911301",
