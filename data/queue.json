@@ -20287,7 +20287,21 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Estudiantes y Palmeiras disputarán récord de 25 millones en la Libertadores",
     "caption": "El campeón de la Copa Libertadores 2026 recibirá 25 millones de dólares, mientras que el subcampeón obtendrá 7 millones. El duelo entre Estudiantes y Palmeiras se jugará este sábado a las 17:00 en el Estadio Centenario de Montevideo, superando en un millón el premio del año anterior.",
-    "ai_generated_at": "2026-11-26T13:54:54.098304+00:00"
+    "ai_generated_at": "2026-11-26T13:54:54.098304+00:00",
+    "photo_checked_at": "2026-11-26T14:06:50.836360+00:00",
+    "reel_quality": {
+      "version": 2,
+      "duration": 15.4,
+      "mean_db": -19.2
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795702026/football-news-bot/reels/f1308fa25c82fcd38936.mp4",
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-26T14:05:43.731755+00:00",
+    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_id": "6b083d0c8e86ed2bb4bacd03",
+    "zernio_youtube_status": "published",
+    "zernio_youtube_id": "6b083d0f8e86ed2bb4bacd1f",
+    "zernio_youtube_url": "https://www.youtube.com/watch?v=XcFn6ED49Aw"
   },
   {
     "id": "bdd44647de1380c2b463",
