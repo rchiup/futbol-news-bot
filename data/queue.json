@@ -17121,7 +17121,8 @@
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Major League Soccer's team owners have agreed on a new playoff format for the 2027-28 season, one that will feature 16 teams with two rounds of home-and-home series and single elimination thereafter, a source with knowledge of the league's plans confirmed to ESPN.\nThe format was approved by team owners at the MLS Board of Governors meeting in Miami on Nov. 12. Aggregate goals will be used to determine the winners in the first two rounds with extra time and penalties used to break ties, though that approach could change, the source said.\nThe new approach to the postseason will be implemented in conjunction with the league's shift to a summer-to-spring calenda r that more closely aligns with leagues in Europe.\nThe calendar transition will f eature what is being called a \"sprint season\" to take place in the first half of 2027. That competition will feature a 14-game regular season, with the top eight teams from each conference qualifying for the playoffs. Each playoff round in that competition will be single elimination, culminating in MLS Cup on Memorial Day weekend.\nThe Athletic was the first to report the new playoff format. An official announcement is expected on Dec. 3. The source added that the new format was discussed with broadcast partners and sponsors.\nThe agreed-upon format for the 2027-28 season reflects a more simplified approach than what was previously being considered.\nThat previous format would have featured 20 teams in a double elimination system inspired by Australian Rules Football. The number of qualifiers received pushback from fans and media, with the league ultimately agreeing to scale back the number of teams reaching the postseason.\nMLS has frequently modified its playoff format over the course of its existence, oscillating between best-of-three and home-and-home series, as well as whether away goals counted as a tiebreaker.\nCurrently the league uses a system in which 18 teams reach the postseason. A preliminary wild card round involving four teams feeds into a 16-team setup featuring a best-of-three series in the conference quarterfinal round. The conference semifinal, conference final and MLS Cup final are all single elimination.\nPart of what drove consideration for the Aussie Rules format was increasing the inventory of playoff games, which typically draw the best ratings. The new format will still contain a total of 27 playoff games. The current approach features between 25 and 33 games. Reducing the number of playoff teams from 18 to 16 will also place more emphasis on the regular season.\nThe source also confirmed that the 2027-28 regular season will feature a revised format. Teams will be split among five divisions, and will play each of their division rivals twice, and the remainder of the teams in the league once for a total of 34 games.\nWhile the final details still need to be approved, the league is looking at playoff qualification being determined partly by how a team finishes in its division, as well as a league-wide table. Five of the games against division rivals will take place at the end of the season to add some drama to the fight for playoffs places."
   },
   {
     "id": "171399ba786dfbf64147",
@@ -18145,10 +18146,20 @@
       ],
       "mentions": []
     },
-    "publish_format": "image",
-    "format_attempt_at": "2026-11-25T22:24:15.274247+00:00",
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-26T01:36:58.767211+00:00",
     "posted_at": "2026-11-25T22:24:15.274247+00:00",
-    "instagram_media_id": "17915143575578208"
+    "instagram_media_id": "17915143575578208",
+    "reel_quality": {
+      "version": 2,
+      "duration": 14.9,
+      "mean_db": -19.6
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795657126/football-news-bot/reels/ucl-final-401915373.mp4",
+    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_id": "6b078da73a5cfb874956f2e6",
+    "buffer_youtube_status": "sent",
+    "buffer_youtube_id": "6b078dac07071a6067448619"
   },
   {
     "id": "93b1a1ce0cc057b8536f",

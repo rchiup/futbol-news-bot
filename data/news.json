@@ -11222,5 +11222,53 @@
     "source": "www.ole.com.ar - Home",
     "collected_at": "2026-11-26T01:26:59.445789+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "94fcb3d175ca83ff779137d49003b2fa5e3545287381dd8d2864ea503163c7cc",
+    "title": "Champions League talking points: Was this a good result for Man United?",
+    "url": "https://www.espn.com/soccer/story/_/id/50594529/champions-league-talking-points-manchester-united-sporting-draw",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-26T01:36:54.206000+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "0a42c4b69dfe57a4a7bdf6a9fd3631e02c6a5e626349c7a6b957ee30adfd1987",
+    "title": "Luis Enrique calls Roma PSG's toughest test of the season after winning streak ends",
+    "url": "https://www.espn.com/soccer/story/_/id/50599458/luis-enrique-praises-roma-draw-halts-psg-winning-streak",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-26T01:36:54.206026+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "3bd8930adef8cc10bb560d4dcfb52e03450c902c20bb5a544640d5813a9327b3",
+    "title": "Concacaf W Championship: How USWNT can qualify for World Cup, matchups, format",
+    "url": "https://www.espn.com/soccer/story/_/id/50474392/concacaf-w-championship-uswnt-world-cup-qualification",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-26T01:36:54.206054+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "c33d4fcb02ed126e048198a20665f3f0201ddd0875883e6f6d43f02fe4f4a3d0",
+    "title": "Con una gran remontada, Riera avanzó a cuartos del WTA Argentina Open",
+    "url": "https://www.ole.com.ar/tenis/julia-riera-remonto-avanzo-cuartos-wta-argentina-open-solana-sierra-nadia-podoroska-maria-lourdes-carle_0_IIIyLGGXgz.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-26T01:36:55.206256+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "5a2f8a266fe8c43fbbc7f119cbf82a160650ee276dff51d645ee00586a958a86",
+    "title": "No. 2 Sinner missing Australian Open to rehab knee",
+    "url": "https://www.espn.com/tennis/story/_/id/50599895/jannik-sinner-missing-2027-australian-open-rehab-knee",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-26T01:36:55.821822+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "b77086431e8d68cca8f3688fc4cf3bd79baa2026bceafe77d7d4bb5df57c579b",
+    "title": "Kast: La Sala Cuna Universal elimina una barrera que por 100 años condicionó la contratación femenina",
+    "url": "https://www.cooperativa.cl/noticias/pais/mujer/kast-la-sala-cuna-universal-elimina-una-barrera-que-por-100-anos/2026-11-25/223032.html",
+    "source": "Cooperativa.cl: Noticias de Chile y el mundo - País, Deportes y más",
+    "collected_at": "2026-11-26T01:36:58.608681+00:00",
+    "status": "pending_review"
   }
 ]
