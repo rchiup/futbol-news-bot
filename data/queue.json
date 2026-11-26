@@ -19371,12 +19371,42 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T11:34:57.012553+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "article_context": "Liverpool boss Andoni Iraola said he believes striker Alexander Isak is in a \"great moment\" after he scored twice in the 3-0 victory over Club Brugge .\nThe Sweden international opened the scoring for the visitors in Belgium before Florian Wirtz doubled their advantage in the second half.\nIsak netted again in the 82nd minute to seal the win, taking his tally for Liverpool up to 10 goals for the season in all competitions.\n\"He's in a great moment right now,\" Iraola said in his postmatch news conference.\n\"He helped us a lot in the link up, especially in the first half. We found him easily. With the way they press we had to find him quickly and we knew there would be space to exploit.\n\"They were leaving him one v one with the centre back and in one of those moments he killed the game.\"\nAfter a difficult debut season, Isak's second campaign at Anfield is proving to be a productive one and the forward is confident Liverpool as a collective are moving in the right direction.\n\"Perfect away win, I would say,\" he told TNT Sports after the game.\n- Lammens errors cost Man United win despite bizarre Fernandes goal - Gordon enjoys 'very special' Baku again to lead Barcelona rout - Haaland relishing battle with rival Gabriel as Man City go to Arsenal\n\"The performance until we got the second one was never obvious, which way it would go. They put on a good game. We spoke about having to get the second goal.\n\"They were playing man on man, so I was against the defender the whole game. Ali tried to kick the ball the whole time so I'm glad he didn't stop trying.\n\"It's always difficult to say exactly where you are and how good you are but I can say I'm in a good place and the team is in a good place, most importantly. Hopefully, it gets better from here.\n\"The attack in general is beginning the click. We have a lot of different combinations and whoever comes in, we have a dangerous attack. It feels good.\"\nLiverpool's win lifted them back into the top eight places as they sit fifth with 12 points from five matches.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Alexander Isak",
+    "visual_entities": {
+      "personas": [
+        "Alexander Isak",
+        "Andoni Iraola"
+      ],
+      "clubes": [
+        "Liverpool",
+        "Club Brugge"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Iraola elogia a Isak tras doblete en 3-0 del Liverpool",
+    "caption": "Alexander Isak anotó dos goles en la victoria 3-0 del Liverpool sobre Club Brugge, elevando su cuenta a diez tantos en la temporada. El entrenador Andoni Iraola declaró que el delantero está en un gran momento y que el triunfo sitúa al conjunto en la quinta posición con doce puntos en cinco partidos.",
+    "ai_generated_at": "2026-11-26T11:36:41.404214+00:00",
+    "photo_checked_at": "2026-11-26T11:37:33.766881+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "AlexanderIsak",
+        "AndoniIraola",
+        "Liverpool",
+        "ClubBrugge"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "021f5f8135b5d7332f35",
@@ -19389,11 +19419,39 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T11:34:57.012553+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "Wirtz",
+        "Isak"
+      ],
+      "clubes": [
+        "Liverpool"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Liverpool sonríe mientras Wirtz e Isak encajan",
+    "caption": "El conjunto inglés mostró buen fútbol y los delanteros Wirtz e Isak se mostraron más coordinados. El rendimiento llega tras la reciente inversión del club en la línea ofensiva.",
+    "ai_generated_at": "2026-11-26T11:36:41.404214+00:00",
+    "photo_checked_at": "2026-11-26T11:37:35.364783+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "Wirtz",
+        "Isak",
+        "Liverpool"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "76ed6a80a36a4e0b7948",
@@ -19440,6 +19498,156 @@
     "sport": "FUTBOL",
     "score": 31,
     "queued_at": "2026-11-26T11:34:57.012553+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "c2f496a25b7df4f5f5b3",
+    "title": "El regreso de los V8 a la F1 en 2030 es mucho más que el ruido: ¿Por qué?",
+    "source_url": "https://es.motorsport.com/f1/news/regreso-v8-2030-mas-que-ruido-por-que/10876205",
+    "source": "Motorsport F1",
+    "description": "El regreso de los motores V8 a la Fórmula 1 a partir de 2030 está destinado a ser acogido con mucho entusiasmo por una gran parte de los aficionados. El sonido, el recuerdo de una época en la que los coches eran más ligeros y el componente eléctrico no influía tanto en la gestión de la carrera, son elementos que tienen un valor indudable. Pero detrás de la decisión oficializada por ... Sigue leyendo",
+    "published_at": "2026-11-26T11:32:13+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-26T11:36:41.404214+00:00",
+    "status": "draft",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [
+        "Fórmula 1"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "La F1 confirmará el regreso de los motores V8 en 2030",
+    "caption": "La Fórmula 1 ha anunciado que a partir de 2030 volverá a utilizar motores V8. Los aficionados esperan el sonido clásico y la menor influencia eléctrica, mientras la categoría evalúa el impacto técnico.",
+    "ai_generated_at": "2026-11-26T11:36:41.404214+00:00",
+    "photo_checked_at": "2026-11-26T11:37:35.874490+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Formula1"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "02436dba44e795ecdf65",
+    "title": "Boca vs. Gimnasia, por los cuartos de final del Torneo Clausura: día, hora y dónde se juega",
+    "source_url": "https://www.ole.com.ar/futbol-primera/boca-vs-gimnasia-cuartos-final-torneo-clausura-dia-ver-tv-online_0_scTxRUOUO5.html",
+    "source": "Olé Argentina",
+    "description": "El Xeneize superó a Independiente Rivadavia y se metió entre los ocho mejores del campeonato local.",
+    "published_at": "2026-11-26T02:01:41+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 25,
+    "queued_at": "2026-11-26T11:36:41.404214+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "896ec4e86d7d75707681",
+    "title": "'Laughing gas has ended careers' - so how common is it in football?",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/c6kgdrj9nxgdo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "After Raheem Sterling's court case, BBC Sport looks at how common the use of nitrous oxide is among footballers.",
+    "published_at": "2026-11-26T06:18:30+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 17,
+    "queued_at": "2026-11-26T11:36:41.404214+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "bfe8a5440a5ea2c49c72",
+    "title": "Iansa anunció el fin de su producción de azúcar de remolacha",
+    "source_url": "https://www.cooperativa.cl/noticias/economia/sectores-productivos/agricultura/iansa-anuncio-el-fin-de-su-produccion-de-azucar-de-remolacha/2026-11-25/234513.html",
+    "source": "Cooperativa Deportes Chile",
+    "description": "Mediante un hecho esencial, Empresas Iansa S.A. informó este miércoles a la Comisión para el Mercado Financiero (CMF) su decisión de descontinuar la producción de azúcar de remolacha , tras un acuerdo adoptado por el directorio de la compañía. La determinación tendrá un impacto negativo neto de 37,8 millones de dólares en los resultados de la empresa, producto del reconocimiento de deterioros en distintos grupos de activos y ajustes contables asociados a la operación. La decisión de la firma —fundada en 1953 como empresa estatal, pero privatiza",
+    "published_at": "2026-11-26T02:45:13+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 17,
+    "queued_at": "2026-11-26T11:36:41.404214+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "bf8da5e49aebb5ce1df7",
+    "title": "Amenazaron a Gaudio: \"Es un día de mierda para mí\"",
+    "source_url": "https://www.ole.com.ar/informacion-general/gaston-gaudio-amenaza-independiente-bandera_0_BBYAefMCt8.html",
+    "source": "Olé Argentina",
+    "description": "A semanas de las elecciones, el candidato a presidente de Independiente hizo un fuerte descargo en redes sociales por una bandera que apareció colgada en las inmediaciones de la sede.",
+    "published_at": "2026-11-26T02:42:37+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 17,
+    "queued_at": "2026-11-26T11:36:41.404214+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "c63951afe573e7f0792d",
+    "title": "Encuesta Olé: ¿quiénes pasan a semifinales en el Clausura?",
+    "source_url": "https://www.ole.com.ar/futbol-primera/encuesta-ole-pasa-semifinales-clausura-2026_0_5CLX6MbOIJ.html",
+    "source": "Olé Argentina",
+    "description": "Con Boca en cuartos de final, se completaron los cruces de la próxima instancia del Clausura. Entrá y vota en cada partido...",
+    "published_at": "2026-11-26T01:56:33+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 17,
+    "queued_at": "2026-11-26T11:36:41.404214+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "b77086431e8d68cca8f3",
+    "title": "Kast: La Sala Cuna Universal elimina una barrera que por 100 años condicionó la contratación femenina",
+    "source_url": "https://www.cooperativa.cl/noticias/pais/mujer/kast-la-sala-cuna-universal-elimina-una-barrera-que-por-100-anos/2026-11-25/223032.html",
+    "source": "Cooperativa Deportes Chile",
+    "description": "El Presidente José Antonio Kast celebró esta noche de miércoles, con una cadena nacional , la aprobación y despacho, por parte del Congreso, de los proyectos de ley de Presupuesto 2027 y Sala Cuna Universal . \"Hay días que un país no olvida y que se recuerdan por mucho tiempo. Hoy es uno de esos días\", señaló al comienzo de su alocución, aseverando que ambas iniciativas suponen \"avances históricos\" para Chile . ¡Histórico! 🇨🇱 ¡Sala Cuna Universal aprobada! Un paso histórico hacia más oportunidades laborales para las mujeres, mejores condiciones",
+    "published_at": "2026-11-26T01:30:32+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 17,
+    "queued_at": "2026-11-26T11:36:41.404214+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "497188c575fd4b18cac5",
+    "title": "Divots, howlers and bad decisions - dissecting Man Utd's draw in Lisbon",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/cvrlg074ld74o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "BBC Sport breaks down the chaos amid Manchester United's rollercoaster Champions League draw against Sporting in Lisbon.",
+    "published_at": "2026-11-26T00:22:28+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 17,
+    "queued_at": "2026-11-26T11:36:41.404214+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
