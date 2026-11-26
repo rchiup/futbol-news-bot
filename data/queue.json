@@ -20292,5 +20292,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "ccbe790af7a4254d513f",
+    "title": "Honda no encuentra el problema que Alonso sintió en Las Vegas, pero reconoce una debilidad clave",
+    "source_url": "https://es.motorsport.com/f1/news/honda-no-encuentra-problema-alonso-las-vegas-debilidad/10877875",
+    "source": "Motorsport F1",
+    "description": "El fabricante japonés ha revisado los datos y la unidad de potencia de Fernando Alonso físicamente tras sus quejas en el Gran Premio de Las Vegas, pero aseguran que no han detectado ninguna anomalía. El piloto español detectó algo que le hizo pensar que el motor estaba roto y eso le llevó a abandonar una vuelta antes de la bandera a a cuadros, pero las comprobaciones realizadas por el ... Sigue leyendo",
+    "published_at": "2026-11-26T13:26:58+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-26T13:28:08.766141+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
