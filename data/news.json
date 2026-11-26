@@ -11110,5 +11110,29 @@
     "source": "www.ole.com.ar - Home",
     "collected_at": "2026-11-26T00:23:22.955804+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "df9992d6e4ae41228491c950672ac5e7cc3be3a0e389fa38863a64a962a4ea10",
+    "title": "Pochettino's whirlwind week ends with optimism and frustration",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c6vg24l724l4o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-26T00:36:18.544928+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "497188c575fd4b18cac5c37d43d2e2c710503ac872c423930fc22fd465c4ef23",
+    "title": "Divots, howlers and bad decisions - dissecting Man Utd's draw in Lisbon",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cvrlg074ld74o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-26T00:36:18.544968+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "76ad646d95e5a225e19e88425a2988cb23ad3962440b398631fd66cf7c3677a1",
+    "title": "Videos: la buena atajada de Montero en el inicio y lo mejor de Boca vs Independiente Rivadavia",
+    "url": "https://www.ole.com.ar/futbol-primera/videos-boca-independiente-rivadavia-octavos-final_0_slfdz4AzGg.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-26T00:36:20.191011+00:00",
+    "status": "pending_review"
   }
 ]
