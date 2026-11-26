@@ -20994,5 +20994,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "46c1e4020f357a08ac46",
+    "title": "Champions League review: Lille monster Bayern, De Bruyne’s sad return and more United chaos",
+    "source_url": "https://www.theguardian.com/football/2026/nov/26/champions-league-review-lille-bayern-munich-kevin-de-bruyne-napoli",
+    "source": "The Guardian",
+    "description": "The French side earned their first group win over troubled German giants as Bellingham and Betis also caught the eye Bayern Munich have hit a snagging point, with injuries wracking Vincent Kompany’s squad just as the head coach returns to work following his own health scare. For Lille’s winner, to exact Bayern’s first loss of the season, Aleksandar Pavlović had an own goal for the ages, desperately chasing back to then somehow direct the ball into his own net. Bayern are 15th in the Champions League table, and with Harry Kane out until well int",
+    "published_at": "2026-11-26T15:00:39+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-26T15:26:08.545331+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
