@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-26T01:27:02.779909+00:00",
+  "checked_at_utc": "2026-11-26T01:30:06.562731+00:00",
   "local_hour": 22,
   "statuses": {
     "published": 157,
@@ -38,9 +38,9 @@
     "last_success": "openrouter",
     "providers": {
       "groq": {
-        "attempts": 20,
+        "attempts": 22,
         "success": 3,
-        "failures": 17,
+        "failures": 19,
         "avg_latency_ms": 2253,
         "avg_readability": 100.0,
         "last_error": "http_429"
@@ -62,25 +62,25 @@
         "last_error": "invalid_output"
       },
       "cloudflare": {
-        "attempts": 30,
+        "attempts": 33,
         "success": 5,
-        "failures": 25,
+        "failures": 28,
         "avg_latency_ms": 2684,
         "avg_readability": 97.0,
         "last_error": "invalid_output"
       },
       "nvidia": {
-        "attempts": 4,
+        "attempts": 5,
         "success": 0,
-        "failures": 4,
+        "failures": 5,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "http_410"
       },
       "zai": {
-        "attempts": 25,
+        "attempts": 28,
         "success": 3,
-        "failures": 22,
+        "failures": 25,
         "avg_latency_ms": 25188,
         "avg_readability": 100.0,
         "last_error": "invalid_output"
