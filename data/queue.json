@@ -19112,11 +19112,30 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-26T11:28:49.041910+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "source_brief",
+    "llm_model": "none",
+    "headline": "Todos los pilotos y equipos de la F1 para 2027: ¡parrilla cerrada!",
+    "caption": "La parrilla de la Fórmula 1 para 2027 ya está completa. (Motorsport F1)",
+    "ai_generated_at": "2026-11-26T17:48:28.558828+00:00",
+    "photo_checked_at": "2026-11-26T17:50:26.875815+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Formula1"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "2aa4b500604592b1c9de",
@@ -19272,11 +19291,22 @@
     "sport": "FUTBOL",
     "score": 25,
     "queued_at": "2026-11-26T11:32:31.230580+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "source_brief",
+    "llm_model": "none",
+    "headline": "El uno por uno de un Boca que pasó a cuartos con muchos en alto nivel",
+    "caption": "Los puntajes de los jugadores xeneizes frente a Independiente Rivadavia en la Bombonera. (Olé Argentina)",
+    "ai_generated_at": "2026-11-26T17:48:28.558828+00:00"
   },
   {
     "id": "63da45fa9568d3ee73f7",
@@ -20494,11 +20524,22 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-26T13:47:54.824768+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "source_brief",
+    "llm_model": "none",
+    "headline": "Estudiantes, de frente a la gloria",
+    "caption": "A un año del famoso pasillo de espaldas del Pincha a Central, qué pasó en el medio para que los platenses estén en una final histórica. (Olé Argentina)",
+    "ai_generated_at": "2026-11-26T17:48:28.558828+00:00"
   },
   {
     "id": "6d67c0899fca89836e2d",
@@ -20578,11 +20619,22 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-26T14:01:27.264440+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "source_brief",
+    "llm_model": "none",
+    "headline": "No va más: Diego Martínez dejó de ser el técnico de Huracán",
+    "caption": "Después de un año, el entrenador se va del Globo tras quedar eliminado en octavos de final del Clausura. (Olé Argentina)",
+    "ai_generated_at": "2026-11-26T17:48:28.558828+00:00"
   },
   {
     "id": "26c33b4fb1c8aebe31cd",
@@ -20595,11 +20647,22 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-26T14:09:07.417949+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "source_brief",
+    "llm_model": "none",
+    "headline": "Cacique en su tierra y la final que no quería ver por TV",
+    "caption": "Medina vuelve a su tierra, la que supo conquistar como jugador. (Olé Argentina)",
+    "ai_generated_at": "2026-11-26T17:48:28.558828+00:00"
   },
   {
     "id": "1155798839ca69d732e7",
@@ -20836,7 +20899,7 @@
     "sport": "FUTBOL",
     "score": 34,
     "queued_at": "2026-11-26T14:37:34.391279+00:00",
-    "status": "draft",
+    "status": "published",
     "article_context": "The task for the U.S. women's national team is simple: one win and they're in for the 2027 Women's World Cup.\nOn paper, Concacaf's revamped qualification format looks even easier for the USWNT: As the region's top team and the FIFA No. 2-ranked team in the world, the USWNT faces El Salvador , the team ranked No. 78 in the world, in the tournament quarterfinal on Friday in Mansfield, Texas.\nNaturally, USWNT head coach Emma Hayes is not taking the bait.\n\"For us as a whole, Concacaf is a very different competition,\" Hayes told reporters on Saturday in Washington, D.C. \"... These are the games where you say to yourself, 'Oh, you know, this is an easier opponent.' Let me be clear about this: This will be a very, very tough game. You have to prepare in the right way possible, and I will absolutely be making sure our group is switched on when they come in. It's really important.\"\nConcacaf simplified its final phase of qualifying to be a single-elimination tournament after FIFA reduced the number of international match windows. The four winners of the quarterfinals on Friday and Saturday will advance to the 2027 World Cup, while the losers will go into a play-in bracket to advance to the global playoff. In other words: if the U.S. advances vs. El Salvador on Friday, the rest of the Concacaf tournament doesn't matter -- the USA's World Cup spot will have been clinched.\nWith all due respect to the rest of the field, the Americans' toughest opponent could be themselves.\nHealth and fatigue are factors. Eighteen of the 23 players on the USWNT roster for qualifying compete in the NWSL , which just wrapped up its grueling eight-months season on Saturday. Forward Trinity Rodman has already been removed from the World Cup qualifying roster after sustaining a shoulder injury in the opening minutes of the Washington Spirit 's 2-1 loss to the Kansas City Current in the NWSL Championship.\nWithout a doubt, there are other U.S. players carrying knocks or heavy legs following the NWSL season . Several of them, like midfielder Rose Lavelle , played more limited roles in the NWSL playoffs as they managed health issues. They must all quickly switch from club to international duties.\n\"Get used to it -- that's the realities of it,\" Hayes said.\nAnd, as usual, this FIFA window comes immediately after the NWSL Championship -- except this time it for World Cup qualifying, not a set of friendlies like in previous years.\n\"There is no such thing as a friendly,\" Hayes said when asked about the difference in approach to this window. \"It's a terrible term. They need to get rid of it. Every game is a competitive game, and if you don't train like it's your World Cup final and play games like that, how can you expect to perform at that level? For me, it's no different than the other games that we play, except we have the opportunity to qualify for something. That's the only difference.\"\nIn theory, Concacaf's updated qualifying format is more difficult. Single-elimination knockout games typically give less talented teams a greater chance at an upset as opposed to round-robin or group-stage tournaments in which teams need consistent results to advance.\nConcacaf has reverted from its previous format ahead of the 2023 World Cup, when two groups of four played in the 100-degree daily heat of Monterrey, Mexico, for four automatic bids and two berths in FIFA's global playoff. The outcome was thrilling and entertaining by the standards of Concacaf tournaments: Concacaf ultimately maxed out its potential World Cup berths at six (and Jamaica was the most impressive member nation at the 2026 World Cup), and somehow hosts Mexico were one of the two teams that did not advance at all.\nHowever, the changes to FIFA's international calendar and fixture congestion led to another simplified, single-elimination tournament. Concacaf created more meaningful games in the buildup to the final stage of qualifying, to develop teams and provide more meaningful games of consequence for more teams. Canada and the U.S. are joined by the six group-stage winners, including El Salvador, in the quarterfinals.\nThe four winners of the quarterfinals will advance to the 2027 World Cup, while the losers will go into a play-in bracket to advance to the global playoff. Three teams will also qualify for the 2028 Olympics alongside the U.S., who will host the Games.\nThe reality for the USWNT is that qualifying is almost always a formality. The only time that was not true was 16 years ago, when the U.S. women lost a Concacaf semifinal to Mexico in Cancun in the biggest upset in program history. The Americans were ranked No. 1 in the world but had to then go beat Italy in a two-leg playoff to qualify as the 16th and final team for the 2011 World Cup.\nThose stories -- the raucous crowd in Mexico, Abby Wambach getting her head stapled in the final minutes of the game, a young Alex Morgan saving the U.S. in the first leg in Italy -- were passed on across generations of players so that the mistake would not be repeated.\nEl Salvador is even less likely to pull off an upset than that talented Mexico team from 16 years ago.\nFriday's quarterfinal will be played in suburban Dallas, for one. Poorly promoted Concacaf games don't have the crowds of U.S. Soccer-hosted or FIFA-hosted ones, but the home field advantage will go to the U.S., if anyone.\nEl Salvador have their own problems, too. The team was in turmoil a month ago when its coach, Eric Acuña, made comments to reporters questioning his players' commitment and threatening to revoke their basic rights to do things like getting coffee during training camp. Acuña also publicly criticized his players, who responded strongly to rebuke their coach.\nThe El Salvadorian federation released a statement condemning Acuña's comments and supporting the players, but the coach remains in charge for qualifying.\nEl Salvador's federation released a statement on Tuesday saying that the 23 players on the World Cup qualifying roster will share a $1 million prize from the federation if they qualify for the 2027 World Cup.\nFor the USWNT, the real prize is winning the 2027 World Cup in July. First, however, the Americans must qualify, which Hayes has reminded the world repeatedly. A win on Friday will confirm their place in next year's tournament, where a much more difficult job awaits.",
     "ai_art_used": false,
     "photo_used": false,
@@ -20863,8 +20926,8 @@
       "mean_db": -19.4
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795705773/football-news-bot/reels/e0122903cac00fbdb551.mp4",
-    "publish_format": "reel",
-    "format_attempt_at": "2026-11-26T15:08:38.514492+00:00",
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-26T17:48:28.558828+00:00",
     "zernio_tiktok_status": "published",
     "zernio_tiktok_id": "6b084bafc690f9eb340367f5",
     "zernio_youtube_status": "failed",
@@ -20877,7 +20940,9 @@
         "Concacafqualifiers"
       ],
       "mentions": []
-    }
+    },
+    "posted_at": "2026-11-26T17:48:28.558828+00:00",
+    "instagram_media_id": "18127544000293449"
   },
   {
     "id": "ce5c9d1fc9ef85e5f546",
@@ -20890,11 +20955,30 @@
     "sport": "FUTBOL",
     "score": 25,
     "queued_at": "2026-11-26T14:47:36.468921+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "source_brief",
+    "llm_model": "none",
+    "headline": "Confirmado: Jannik Sinner se perderá el Australian Open",
+    "caption": "La baja del tenista italiano, quien fue operado el pasado martes de la rodilla derecha, fue anunciada por los organizadores del primer Grand Slam del año. (Olé Argentina)",
+    "ai_generated_at": "2026-11-26T17:48:28.558828+00:00",
+    "photo_checked_at": "2026-11-26T17:50:24.095919+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "7e9d8f41706f78d1c3b3",
@@ -20907,11 +20991,30 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-26T15:01:35.260889+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "source_brief",
+    "llm_model": "none",
+    "headline": "Antonelli tiene un objetivo claro para Qatar: \"Será clave clasificar bien\"",
+    "caption": "Aún no se ha superado del todo la decepción de Las Vegas. (Motorsport F1)",
+    "ai_generated_at": "2026-11-26T17:48:28.558828+00:00",
+    "photo_checked_at": "2026-11-26T17:50:23.865580+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Formula1"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "43db1384e86b23379133",
@@ -21562,11 +21665,22 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-26T17:00:42.467113+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "source_brief",
+    "llm_model": "none",
+    "headline": "Grave denuncia de Marcos Milinkovic en el vóley salteño",
+    "caption": "El caso expone la interna política entre dos entidades que organizan el vóley en la provincia con los jugadores de rehenes. (Olé Argentina)",
+    "ai_generated_at": "2026-11-26T17:48:28.558828+00:00"
   },
   {
     "id": "26f7197b4a690cf56583",
