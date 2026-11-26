@@ -1,9 +1,9 @@
 {
-  "checked_at_utc": "2026-11-26T19:03:42.830576+00:00",
+  "checked_at_utc": "2026-11-26T19:06:14.424100+00:00",
   "local_hour": 16,
   "statuses": {
-    "published": 167,
-    "draft": 24,
+    "published": 168,
+    "draft": 23,
     "awaiting_ai": 116,
     "needs_review": 123,
     "publish_error": 27,
@@ -13,7 +13,7 @@
   "queued_new": 0,
   "ai_generated": 0,
   "preview_images": 5,
-  "published": 0,
+  "published": 1,
   "duplicates_suppressed": 0,
   "no_photo_deferred": 0,
   "total_queue": 645,

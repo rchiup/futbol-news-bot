@@ -19353,7 +19353,7 @@
     "sport": "FUTBOL",
     "score": 34,
     "queued_at": "2026-11-26T11:34:57.012553+00:00",
-    "status": "draft",
+    "status": "published",
     "article_context": "Barcelona are interested in a loan move for Manchester United defender Ayden Heaven , and they're making moves alongside Real Madrid in the hope of signing Manchester City star Erling Haaland next summer.\nJoin us for the latest transfer news and rumors from around the globe.\nTransfers home page | Men's summer grades | Women's grades\n- Ayden Heaven is open to a loan move away from Manchester United , and Barcelona are interested in the center back, according to The Sun . The 20-year-old has been left on the bench in both of Mauricio Pochettino's matches since the Argentine took over at Old Trafford. Fulham are also interested in Heaven, with Calvin Bassey having been linked with a January move going the other way, although that is deemed unlikely due to the 26-year-old's importance to the Cottagers.\n- Barcelona and Real Madrid are manoeuvring behind the scenes over a move for Manchester City striker Erling Haaland in 2027, according to TEAMtalk . Both Spanish giants are in regular contact through intermediaries as they remain hopeful that they can engineer a move for the 26-year-old. Liverpool , Bayern Munich and Paris Saint-Germain have also shown an interest in Haaland, but they and senior figures at the Etihad are aware that the Norway international wants to test himself in LaLiga.\n- Arsenal , Tottenham Hotspur , Man City, AC Milan , Inter Milan and Juventus all had scouts watching Antonio Nusa as the winger scored a brace in RB Leipzig 's 3-1 win over Lens , according to TEAMtalk . Atletico Madrid, Bayern Munich and Paris Saint-Germain are also interested in the 21-year-old. Leipzig are aware of the growing interest in Nusa and are working on a potential new contract for the Norway international, whose existing deal runs until 2029.\n- Liverpool, Manchester United and Newcastle United are all interested in Juventus winger Francisco Conceição , reports La Gazzetta dello Sport . Jorge Mendes offered the 23-year-old to the Magpies for next June in a deal that could also allow Juve to permanently sign Nick Woltemade . Conceicao isn't thinking about his future and has even hinted at the possibility of staying with Juventus and trying to win trophies with the club.\n- Napoli is the first club to make a move for Monza striker Gustavo Varela , but Juventus, AC Milan and Inter are also in the mix for the 21-year-old, reports La Gazzetta dello Sport . There are also various Premier League clubs following Varela, while Como could look to him due to uncertainty around Moise Kean 's injury situation. For Milan, Varela is seen as an alternative to Club Brugge striker Nicolo Tresoldi , while Inter would only move in the summer.\n- Manchester United's interest in Galatasaray striker Victor Osimhen has resurfaced. ( TEAMtalk )\n- Arsenal have added Club Brugge winger Carlos Forbs to their list of options for the January transfer window. ( Football Insider )\n- Liverpool could trigger their option to re-sign Bayer Leverkusen defender Jarell Quansah in 2027. ( TEAMtalk )\n- Tottenham Hotspur are looking at Benfica striker Vangelis Pavlidis . ( Record )\n- Juventus, AFC Bournemouth and Newcastle United are monitoring Kenneth Taylor for the summer, but Lazio don't want to let the midfielder leave. ( Nicolo Schira )\n- Juventus have their eye on 19-year-old Real Madrid winger Daniel Yanez . ( Calciomercato )\n- Juventus are still interested in Atletico Madrid striker Alexander Sorloth , who has been approached by Valencia and Trabzonspor. ( Nicolo Schira )\n- Liverpool have verbally agreed a deal to sign 16-year-old winger Sidy Barhama Ndiaye in January 2028, when he turns 18. ( Fabrizio Romano )\nWatch your favorite events in the newly enhanced ESPN App. Learn more about what plan is right for you. Sign Up Now\n- Genoa, Sassuolo and Parma have asked for information about signing Juventus striker Jeff Ekhator on loan. ( Nicolo Schira )\n- New York Red Bulls are interested in Slovan Bratislava winger Suleiman Camara, and Monza are one of the European clubs to have made enquiries about him. ( Matteo Moretto )\n- Leeds United are ready to step up their efforts to sign Jack Rudoni , but Coventry City insist there is no chance of the midfielder leaving in January. ( TEAMtalk )\n- Bayer Leverkusen's Tim Oermann is a strong candidate for Wolfsburg as the Bundesliga club looks to strengthen their defence. ( Kicker )\n- Bologna and Auxerre have made contact to be informed about AZ Alkmaar goalkeeper Rome-Jayden Owusu-Oduro . ( Fabrizio Romano )",
     "visual_subject": "Ayden Heaven",
     "visual_entities": {
@@ -19397,14 +19397,16 @@
       "mean_db": -19.6
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795694515/football-news-bot/reels/0b562ac4d55f404b534e.mp4",
-    "publish_format": "reel",
-    "format_attempt_at": "2026-11-26T12:00:22.943037+00:00",
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-26T19:06:14.424100+00:00",
     "zernio_tiktok_status": "published",
     "zernio_tiktok_id": "6b081fb4c32a422a8edf7747",
     "zernio_youtube_status": "published",
     "zernio_youtube_id": "6b081fc38ac7c5e47e9c6e2e",
     "zernio_youtube_url": "https://www.youtube.com/watch?v=hEGxj7X21Jw",
-    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712449274675547410"
+    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712449274675547410",
+    "posted_at": "2026-11-26T19:06:14.424100+00:00",
+    "instagram_media_id": "18192656260407851"
   },
   {
     "id": "94fcb3d175ca83ff7791",
@@ -21898,7 +21900,7 @@
     "headline": "Platense reclama la sede de la final de Copa Argentina",
     "caption": "Platense pidió que la final contra Boca Juniors se dispute en el estadio de Rosario Central, en Capital Federal o alrededores, pero la solicitud fue rechazada; el partido se jugará el 2 de diciembre en el Madre de Ciudades de Santiago del Estero. La decisión se tomó tras la negativa del Gobierno de Santa Fe a prestar seguridad y por acuerdos comerciales de Torneos, por lo que el club busca alternativas para que sus hinchas puedan asistir.",
     "ai_generated_at": "2026-11-26T18:38:52.541341+00:00",
-    "photo_checked_at": "2026-11-26T18:40:12.136284+00:00",
+    "photo_checked_at": "2026-11-26T19:07:22.177881+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -21909,10 +21911,20 @@
       ],
       "mentions": []
     },
-    "publish_format": "image",
-    "format_attempt_at": "2026-11-26T18:44:55.717175+00:00",
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-26T19:06:14.424100+00:00",
     "posted_at": "2026-11-26T18:44:55.717175+00:00",
-    "instagram_media_id": "18079162604760079"
+    "instagram_media_id": "18079162604760079",
+    "reel_quality": {
+      "version": 2,
+      "duration": 12.4,
+      "mean_db": -19.3
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795720067/football-news-bot/reels/d6410e3ea0e81d56bea8.mp4",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b088386f0a96d0f218258bd",
+    "buffer_youtube_status": "error",
+    "buffer_youtube_id": "6b088388f0a96d0f2182598e"
   },
   {
     "id": "7e1fb969c13924e756c7",
