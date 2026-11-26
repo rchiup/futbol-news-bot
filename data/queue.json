@@ -23395,5 +23395,40 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "d8159781b37b08d1758c",
+    "title": "La Reserva de Boca le ganó a Vélez, se metió en semifinales y festejó como la Primera",
+    "source_url": "https://www.ole.com.ar/boca-juniors/reserva-boca-gano-velez-metio-semifinales_0_JoP5UaaYMr.html",
+    "source": "Olé Argentina",
+    "description": "El equipo de Mariano Herrón venció 4-0 con doblete de Rodrigo Bacidalupe y Joaquín Piñeyro. Espera por su rival: será Independiente o Gimnasia de Mendoza.",
+    "published_at": "2026-11-26T22:07:56+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-26T22:17:12.860107+00:00",
+    "status": "awaiting_ai",
+    "article_context": "La Reserva de Boca dio otro paso firme en el Torneo Clausura. En la Villa Olímpica, el equipo de Mariano Herrón goleó 4-0 a Vélez por los cuartos de final y se clasificó a las semifinales donde espera por el ganador de Independiente o Gimnasia de Mendoza.\nEl Xeneize llegó a Liniers con confianza después de haber conseguido el pasaje a los playoffs con un contundente 3-0 ante Lanús. Y volvió a demostrar que está para cosas importantes. Ante un rival que había terminado segundo en su zona, Boca fue contundente y no dejó dudas.\nLa gran figura de la tarde fue Rodrigo Bacidalupe, autor de dos de los cuatro tantos . El delantero apareció por duplicado para encaminar la goleada y convertirse en uno de los protagonistas de una victoria clave. Joaquín Piñeyro también tuvo su tarde soñada: marcó los otros dos goles y completó el póker xeneize.\nCon dos dobletes, Boca construyó una diferencia contundente y resolvió la serie sin dejar lugar a dudas. El equipo de Herrón mostró eficacia en ataque, mantuvo el arco en cero y dio una nueva muestra de carácter en una instancia de eliminación directa.\nDespués de haber superado a Lanús en los octavos de final, la Reserva volvió a responder ante un rival exigente. Esta vez fue Vélez el que sufrió el poder de fuego del Xeneize, que ya está entre los cuatro mejores del campeonato.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "3f8d880696ee47dcc327",
+    "title": "El fallo del Tribunal de Disciplina tras los incidentes en Gimnasia - Newell's",
+    "source_url": "https://www.ole.com.ar/futbol-primera/sanciones-tribunal-disciplina-newells-gimnasia_0_0DAECqVeKe.html",
+    "source": "Olé Argentina",
+    "description": "El organismo de AFA dio a conocer las sanciones para los jugadores de la Lepra luego del episodio en el Bosque.",
+    "published_at": "2026-11-26T22:03:19+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T22:17:12.860107+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
