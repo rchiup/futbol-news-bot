@@ -22789,5 +22789,39 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "0fc02a51875d2effced0",
+    "title": "Thanksgiving delight for Pulisic as USMNT star nets vital Milan winner",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50605706/christian-pulisic-ac-milan-olympiacos-europa-league-goal",
+    "source": "ESPN",
+    "description": "Christian Pulisic enjoyed a Thanksgiving to remember as the United States star came off the bench to help spark AC Milan's comeback win at Olympiacos.",
+    "published_at": "2026-11-26T20:11:55+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T20:18:12.706405+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "2db3578beaa4d5d52b59",
+    "title": "Scotcast: Is hosting the World Cup a game-changer?",
+    "source_url": "https://www.bbc.co.uk/sounds/play/m0034nqc?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "The 2035 women's tournament will be co-hosted by UK nations.",
+    "published_at": "2026-11-25T16:00:00+00:00",
+    "category": "SELECCIONES",
+    "sport": "FUTBOL",
+    "score": 24,
+    "queued_at": "2026-11-26T20:18:12.706405+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]

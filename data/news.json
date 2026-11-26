@@ -12726,5 +12726,21 @@
     "source": "www.ole.com.ar - Home",
     "collected_at": "2026-11-26T20:12:11.354546+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "2db3578beaa4d5d52b59adf3569b4f4bb057321940ef727aec5f7992d6f73148",
+    "title": "Scotcast: Is hosting the World Cup a game-changer?",
+    "url": "https://www.bbc.co.uk/sounds/play/m0034nqc?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-26T20:18:08.385517+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "0fc02a51875d2effced073f58374c2de32e12136c47592735f31e7b77be32738",
+    "title": "Thanksgiving delight for Pulisic as USMNT star nets vital Milan winner",
+    "url": "https://www.espn.com/soccer/story/_/id/50605706/christian-pulisic-ac-milan-olympiacos-europa-league-goal",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-26T20:18:08.559309+00:00",
+    "status": "pending_review"
   }
 ]
