@@ -20359,5 +20359,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "6d67c0899fca89836e2d",
+    "title": "The American manager with a maths degree making history in La Liga",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/c6r7g4v8vee5o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Real Sociedad boss Pellegrino Matarazzo made history as the first American manager in La Liga. His side face Crystal Palace in the Europa League on Thursday.",
+    "published_at": "2026-11-26T13:49:20+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T13:52:26.791588+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
