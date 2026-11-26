@@ -19149,9 +19149,10 @@
     },
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
-    "headline": "Min Woo Lee anota 68 sin su ocho‑iron en Australian PGA",
-    "caption": "Min Woo Lee disparó un 68 bajo par pese a quedar sin su ocho‑iron tras dar una lección de golf a los pilotos de Fórmula 1 Carlos Sainz y Lance Stroll. La ronda correspondió al primer día del Australian PGA Championship.",
-    "ai_generated_at": "2026-11-26T11:50:11.500794+00:00"
+    "headline": "Min Woo Lee dispara 68 sin su ocho‑hierro en el Australian PGA Championship",
+    "caption": "Min Woo Lee anotó un cuatro bajo par 68 pese a quedar sin su ocho‑hierro en la primera ronda. El golfista coreano perdió el palo después de dar una lección a los pilotos de Fórmula 1 Carlos Sainz y Lance Stroll en el torneo australiano.",
+    "ai_generated_at": "2026-11-26T11:53:01.224324+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "b23f34a374963fa336cf",
