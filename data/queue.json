@@ -20569,5 +20569,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "ccbe4d66a181bfc7a025",
+    "title": "David Squires on … youth development and nightmare parents on the touchline",
+    "source_url": "https://www.theguardian.com/sport/picture/2026/nov/27/david-squires-cartoon-youth-development-and-nightmare-football-parents",
+    "source": "The Guardian",
+    "description": "Our cartoonist on those parents who live vicariously through the successes of their children on the football pitch Continue reading...",
+    "published_at": "2026-11-26T14:00:37+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T14:26:09.106265+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
