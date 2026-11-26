@@ -20586,5 +20586,39 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "179d0a0c8792f4cc7f96",
+    "title": "Germany's Freigang to miss WWC due to doping ban: 'Breaks my heart'",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50604130/germany-laura-freigang-womens-world-cup",
+    "source": "ESPN",
+    "description": "Germany international Laura Freigang will miss next year's Women's World Cup after being handed a 16-month suspension for failing to report for or attend three doping tests.",
+    "published_at": "2026-11-26T14:23:16+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T14:28:19.696004+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "7318a74f376dca998471",
+    "title": "Reynolds pays tribute as key assistant in Wrexham's rise announces exit",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50603679/wrexham-ryan-reynolds-rob-mcelhenney-assistant-manager",
+    "source": "ESPN",
+    "description": "Ryan Reynolds has paid tribute to Wrexham assistant manager Steve Parkin, who is set to leave the club after playing a key role in their remarkable rise from non-league to the Championship.",
+    "published_at": "2026-11-26T14:23:16+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T14:28:19.696004+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
