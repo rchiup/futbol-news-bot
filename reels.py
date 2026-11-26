@@ -9,10 +9,12 @@ import subprocess
 import tempfile
 from PIL import Image, ImageDraw, ImageOps, ImageFilter
 from graphics import font, _wrap
+from platform_strategy import video_script, headline
 
 def narration(item):
     # Use the already validated Spanish caption, never generate additional facts.
-    text = re.sub(r"https?://\S+|[@#]\w+", "", str(item.get("caption") or item.get("headline") or ""))
+    raw = video_script(item) if item.get("video_style") == "tiktok" else str(item.get("caption") or item.get("headline") or "")
+    text = re.sub(r"https?://\S+|[@#]\w+", "", raw)
     text = re.sub(r"\s+", " ", text).strip()
     sentences = re.split(r"(?<=[.!?])\s+", text)
     selected=[]
@@ -63,8 +65,10 @@ def frame(cover, chunk, item, index, count, destination, brand):
     d.text((88,245),str(item.get("sport","DEPORTES")).upper()+"  /  NOTICIAS",font=font(26),fill=accent)
     d.rounded_rectangle((54,1000,900,1330),radius=28,fill=(10,18,30),outline=(47,65,79),width=2)
     d.rectangle((78,1030,138,1037),fill=accent)
+    if item.get("video_style") == "tiktok":
+        d.text((150,1020),"EL DATO" if index==0 else "EN CONTEXTO",font=font(23),fill=accent)
     # Large, central burned-in captions; keep clear of platform controls.
-    size=62
+    size=68 if item.get("video_style")=="tiktok" and index==0 else 62
     while size>42:
         lines=_wrap(d,chunk.upper().split(),font(size),760)
         if len(lines)<=3: break

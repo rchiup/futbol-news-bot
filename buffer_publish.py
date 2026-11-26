@@ -152,13 +152,15 @@ def buffer_youtube(item, video_url, caption, session=requests, persist=None):
 def crosspost(item, video_url, caption, session=requests, persist=None):
     # Keep each platform and provider independent; never retry an ambiguous POST.
     import zernio_publish
+    from platform_strategy import crosspost_caption
     for platform, fallback in (("tiktok", buffer_tiktok), ("youtube", buffer_youtube)):
         if item.get("buffer_"+platform+"_status") or item.get("zernio_"+platform+"_status"):
             continue
         try:
-            outcome = zernio_publish.submit(item, platform, video_url, caption, session, persist)
+            tailored = crosspost_caption(item, caption, platform)
+            outcome = zernio_publish.submit(item, platform, video_url, tailored, session, persist)
             if outcome == "not_submitted":
-                fallback(item, video_url, caption, session, persist)
+                fallback(item, video_url, tailored, session, persist)
         except Exception as exc:
             item.setdefault("crosspost_"+platform+"_error", type(exc).__name__)
             item.setdefault("zernio_"+platform+"_status", "check_required")

@@ -221,3 +221,50 @@ def publish_reel(path: Path, caption: str, identifier: str, session=requests, pu
     if not media_id:
         raise RuntimeError("Meta did not confirm Reel publication")
     return str(media_id)
+
+class CarouselPreparationError(RuntimeError):
+    """No parent publish request has been sent; a single-image fallback is safe."""
+
+def publish_carousel(paths, caption, identifier, session=requests):
+    if not 2 <= len(paths) <= 10:
+        raise CarouselPreparationError("Invalid carousel length")
+    try:
+        verified=verify_instagram_account(session=session)
+        ig_id, token, _, root=instagram_api_settings()
+        if verified["id"]!=ig_id:
+            raise RuntimeError("Instagram target verification mismatch")
+        headers={"Authorization":f"Bearer {token}"}
+        children=[]
+        for n,path in enumerate(paths):
+            url=upload_public_image(path,identifier+"-slide-"+str(n+1),session=session)
+            res=session.post(f"{root}/{ig_id}/media",data={"image_url":url,"is_carousel_item":"true"},headers=headers,timeout=35)
+            res.raise_for_status()
+            child=res.json().get("id")
+            if not child:
+                raise RuntimeError("Missing carousel child")
+            children.append(child)
+        res=session.post(f"{root}/{ig_id}/media",data={"media_type":"CAROUSEL","children":",".join(children),"caption":caption},headers=headers,timeout=35)
+        res.raise_for_status()
+        parent=res.json().get("id")
+        if not parent:
+            raise RuntimeError("Missing carousel parent")
+        for _ in range(8):
+            status=session.get(f"{root}/{parent}",params={"fields":"status_code"},headers=headers,timeout=25)
+            status.raise_for_status()
+            value=status.json().get("status_code")
+            if value=="FINISHED":
+                break
+            if value in {"ERROR","EXPIRED","PUBLISHED"}:
+                raise RuntimeError("Invalid carousel status")
+            time.sleep(3)
+        else:
+            raise RuntimeError("Carousel not ready")
+    except Exception as exc:
+        raise CarouselPreparationError(type(exc).__name__) from exc
+    # Once publication is attempted, never fallback on an ambiguous result.
+    res=session.post(f"{root}/{ig_id}/media_publish",data={"creation_id":parent},headers=headers,timeout=35)
+    res.raise_for_status()
+    media_id=res.json().get("id")
+    if not media_id:
+        raise RuntimeError("No carousel publication confirmation")
+    return str(media_id)

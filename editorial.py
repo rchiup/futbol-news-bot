@@ -33,6 +33,7 @@ import free_llm
 import scorecards
 import tennis_scorecards
 import reels
+import platform_strategy
 from quality_gate import score_error, photo_safe
 import buffer_publish
 from growth import append_promotion
@@ -393,6 +394,7 @@ def ai_messages(item: dict) -> list[dict]:
         "HECHOS: usa exclusivamente el titular, el resumen RSS y el contexto del artículo. No inventes resultados, cifras, "
         "citas, lesiones, fechas, clubes ni nombres. Si es rumor, dilo (según reportes, estaría negociando). "
         "Si la fuente dice molestias, no lo conviertas en lesión grave. Si no hay un hecho concreto, devuelve headline y caption vacíos.\n"
+        "Prioriza un primer dato concreto y sorprendente que un hincha compartiría por mensaje; nada de clickbait vacío. Ordena el contexto del hecho a su consecuencia. "
         "HEADLINE: 6 a 12 palabras, máximo 75 caracteres. Oración completa con sujeto + verbo + dato clave, como titular de diario. "
         "Incluye nombre y apellido o club. Nada telegráfico ('Pep rechaza selección italiana' está MAL; "
         "'Guardiola descarta dirigir a Italia, pero no cierra la puerta' está BIEN). Sin mayúsculas sostenidas, sin emojis, sin signos de exclamación.\n"
@@ -899,6 +901,8 @@ def run(reference: datetime | None = None, session=None) -> dict:
             try:
                 cover = make_card(candidate, lookup=True, network_lookup=True)
                 portrait = ROOT / "output" / "portraits" / (candidate["id"] + ".jpg")
+                candidate["video_style"] = "tiktok"
+                candidate["video_hook_variant"] = platform_strategy.variant(candidate)
                 video = reels.render(candidate, portrait if candidate.get("photo_used") and portrait.exists() else cover, ROOT / "output" / "reels" / (candidate["id"] + ".mp4"), BRAND)
                 candidate["reel_video_url"] = upload_public_video(video, candidate["id"])
                 candidate["publish_format"] = "reel"
@@ -1047,10 +1051,11 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     if (item.get("portrait_info") or {}).get("entity_kind") == "club":
                         caption += "\nFoto de archivo: estadio asociado al club; no corresponde necesariamente al encuentro."
                 item.pop("photo_deferred_reason", None)
-                caption = append_promotion(caption, item)
+                caption = append_promotion(platform_strategy.instagram_caption(item, caption), item)
                 video_path = None
                 if not item.get("match_result") and os.getenv("ENABLE_REELS", "").lower() == "true" and format_due(queue, reference, "reel", 30) and (reels.eligible(item) or (photo_required_missing and len(reels.narration(item)) >= 2)):
                     try:
+                        item["video_style"] = "instagram"
                         video_path = reels.render(item, path if not item.get("photo_used") else ROOT / "output" / "portraits" / (item["id"] + ".jpg"), ROOT / "output" / "reels" / (item["id"] + ".mp4"), BRAND)
                     except Exception as render_exc:
                         # Rendering failure is safe to fall back from: no Meta call occurred.
@@ -1078,7 +1083,20 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     print(f"[REELS] Published {item['id']}")
                 else:
                     item["publish_format"] = "image"
-                    media_id = publish_image(path, caption, item["id"])
+                    detail = platform_strategy.carousel_detail(item)
+                    if detail and os.getenv("ENABLE_IG_CAROUSEL", "true").lower()=="true" and not any(x.get("ig_variant")=="carousel" and (parse_iso(x.get("posted_at","")) or reference-timedelta(days=2)) > reference-timedelta(hours=2) for x in queue):
+                        from publisher import publish_carousel, CarouselPreparationError
+                        from graphics import render_card
+                        detail_path = render_card({**item, "headline": detail}, brand=BRAND, destination=ROOT/"output"/"carousel"/(item["id"]+"-2.jpg"))
+                        try:
+                            media_id = publish_carousel([path, detail_path], caption, item["id"])
+                            item["ig_variant"] = "carousel"
+                        except CarouselPreparationError:
+                            media_id = publish_image(path, caption, item["id"])
+                            item["ig_variant"] = "single"
+                    else:
+                        media_id = publish_image(path, caption, item["id"])
+                        item["ig_variant"] = "single"
                 item["status"] = "published"
                 item["posted_at"] = iso(reference)
                 item["instagram_media_id"] = media_id
