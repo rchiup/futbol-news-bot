@@ -20735,5 +20735,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "7e9d8f41706f78d1c3b3",
+    "title": "Antonelli tiene un objetivo claro para Qatar: \"Será clave clasificar bien\"",
+    "source_url": "https://es.motorsport.com/f1/news/declaraciones-antonelli-jueves-qatar-2026/10877892",
+    "source": "Motorsport F1",
+    "description": "Aún no se ha superado del todo la decepción de Las Vegas. Andrea Kimi Antonelli tenía en mente un final de temporada especial: alcanzar las doce victorias, el mismo número que luce en su monoplaza. Un objetivo que se esfumó el pasado domingo, cuando una de las peculiaridades del reglamento técnico de 2026 traicionó al campeón del mundo en su duelo con Max Verstappen. En el paddock de ... Sigue leyendo",
+    "published_at": "2026-11-26T14:57:21+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-26T15:01:35.260889+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
