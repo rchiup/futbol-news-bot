@@ -19226,5 +19226,224 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "0b562ac4d55f404b534e",
+    "title": "Transfer rumors, news: Barcelona among clubs eyeing Man United's Ayden Heaven",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50602698/transfer-rumors-news-manchester-united-barcelona-heaven",
+    "source": "ESPN",
+    "description": "Barcelona are interested in a loan move for Manchester United defender Ayden Heaven. Transfer Talk has the latest.",
+    "published_at": "2026-11-26T09:00:07+00:00",
+    "category": "FICHAJES",
+    "sport": "FUTBOL",
+    "score": 34,
+    "queued_at": "2026-11-26T11:34:57.012553+00:00",
+    "status": "draft",
+    "article_context": "Barcelona are interested in a loan move for Manchester United defender Ayden Heaven , and they're making moves alongside Real Madrid in the hope of signing Manchester City star Erling Haaland next summer.\nJoin us for the latest transfer news and rumors from around the globe.\nTransfers home page | Men's summer grades | Women's grades\n- Ayden Heaven is open to a loan move away from Manchester United , and Barcelona are interested in the center back, according to The Sun . The 20-year-old has been left on the bench in both of Mauricio Pochettino's matches since the Argentine took over at Old Trafford. Fulham are also interested in Heaven, with Calvin Bassey having been linked with a January move going the other way, although that is deemed unlikely due to the 26-year-old's importance to the Cottagers.\n- Barcelona and Real Madrid are manoeuvring behind the scenes over a move for Manchester City striker Erling Haaland in 2027, according to TEAMtalk . Both Spanish giants are in regular contact through intermediaries as they remain hopeful that they can engineer a move for the 26-year-old. Liverpool , Bayern Munich and Paris Saint-Germain have also shown an interest in Haaland, but they and senior figures at the Etihad are aware that the Norway international wants to test himself in LaLiga.\n- Arsenal , Tottenham Hotspur , Man City, AC Milan , Inter Milan and Juventus all had scouts watching Antonio Nusa as the winger scored a brace in RB Leipzig 's 3-1 win over Lens , according to TEAMtalk . Atletico Madrid, Bayern Munich and Paris Saint-Germain are also interested in the 21-year-old. Leipzig are aware of the growing interest in Nusa and are working on a potential new contract for the Norway international, whose existing deal runs until 2029.\n- Liverpool, Manchester United and Newcastle United are all interested in Juventus winger Francisco Conceição , reports La Gazzetta dello Sport . Jorge Mendes offered the 23-year-old to the Magpies for next June in a deal that could also allow Juve to permanently sign Nick Woltemade . Conceicao isn't thinking about his future and has even hinted at the possibility of staying with Juventus and trying to win trophies with the club.\n- Napoli is the first club to make a move for Monza striker Gustavo Varela , but Juventus, AC Milan and Inter are also in the mix for the 21-year-old, reports La Gazzetta dello Sport . There are also various Premier League clubs following Varela, while Como could look to him due to uncertainty around Moise Kean 's injury situation. For Milan, Varela is seen as an alternative to Club Brugge striker Nicolo Tresoldi , while Inter would only move in the summer.\n- Manchester United's interest in Galatasaray striker Victor Osimhen has resurfaced. ( TEAMtalk )\n- Arsenal have added Club Brugge winger Carlos Forbs to their list of options for the January transfer window. ( Football Insider )\n- Liverpool could trigger their option to re-sign Bayer Leverkusen defender Jarell Quansah in 2027. ( TEAMtalk )\n- Tottenham Hotspur are looking at Benfica striker Vangelis Pavlidis . ( Record )\n- Juventus, AFC Bournemouth and Newcastle United are monitoring Kenneth Taylor for the summer, but Lazio don't want to let the midfielder leave. ( Nicolo Schira )\n- Juventus have their eye on 19-year-old Real Madrid winger Daniel Yanez . ( Calciomercato )\n- Juventus are still interested in Atletico Madrid striker Alexander Sorloth , who has been approached by Valencia and Trabzonspor. ( Nicolo Schira )\n- Liverpool have verbally agreed a deal to sign 16-year-old winger Sidy Barhama Ndiaye in January 2028, when he turns 18. ( Fabrizio Romano )\nWatch your favorite events in the newly enhanced ESPN App. Learn more about what plan is right for you. Sign Up Now\n- Genoa, Sassuolo and Parma have asked for information about signing Juventus striker Jeff Ekhator on loan. ( Nicolo Schira )\n- New York Red Bulls are interested in Slovan Bratislava winger Suleiman Camara, and Monza are one of the European clubs to have made enquiries about him. ( Matteo Moretto )\n- Leeds United are ready to step up their efforts to sign Jack Rudoni , but Coventry City insist there is no chance of the midfielder leaving in January. ( TEAMtalk )\n- Bayer Leverkusen's Tim Oermann is a strong candidate for Wolfsburg as the Bundesliga club looks to strengthen their defence. ( Kicker )\n- Bologna and Auxerre have made contact to be informed about AZ Alkmaar goalkeeper Rome-Jayden Owusu-Oduro . ( Fabrizio Romano )",
+    "visual_subject": "Ayden Heaven",
+    "visual_entities": {
+      "personas": [
+        "Ayden Heaven"
+      ],
+      "clubes": [
+        "Barcelona",
+        "Manchester United"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Manchester",
+        "Barcelona"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Barcelona muestra interés en préstamo de Ayden Heaven",
+    "caption": "Barcelona ha manifestado su interés en ceder en préstamo al defensa del Manchester United, Ayden Heaven. El central de 20 años lleva tiempo en el banquillo bajo la dirección de Mauricio Pochettino y también ha despertado el interés del Fulham.",
+    "ai_generated_at": "2026-11-26T11:34:57.012553+00:00",
+    "photo_checked_at": "2026-11-26T11:35:23.500283+00:00",
+    "portrait_info": null,
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "AydenHeaven",
+        "Barcelona",
+        "ManchesterUnited"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "94fcb3d175ca83ff7791",
+    "title": "Champions League talking points: Should Man United be happy with chaotic draw?",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50594529/champions-league-talking-points-manchester-united-sporting-draw",
+    "source": "ESPN",
+    "description": "Gab Marcotti, Mark Ogden, Sam Tighe and Alex Kirkland run the rule over Man United's draw with Sporting, plus all the other moments that mattered from Matchday 5.",
+    "published_at": "2026-11-26T10:59:27+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-26T11:34:57.012553+00:00",
+    "status": "duplicate",
+    "article_context": "Matchday 5 of the UEFA Champions League league phase is in the books, with Real Madrid -- thanks in large part to some world-class play from Jude Bellingham -- topping the 36-team table with three games to play.\nBarcelona and Lille notched some impressive wins, while it was a particularly forgettable round for the five Premier League teams in action; only Liverpool were able to secure all three points on offer, romping to an easy 3-0 victory over Club Brugge .\nThe telenovela that is Manchester United took another turn, and Arsenal and Manchester City prepared for what could be a pivotal clash Sunday with some stale performances.\nSo, what to make of it all? ESPN FC writers Gab Marcotti, Alex Kirkland, Mark Ogden and Sam Tighe are here to break down the action.\n- As it happened: Another night of mayhem for Pochettino's Man United - Lindop: Liverpool are all smiles as Wirtz, Isak start to click - Olley: Dortmund draw shows that the jury is still out on Gyökeres\nMarcotti: I think we can let Man United take a mulligan for Pochettino's first two games. He has been there less than a week, going two goals and a man down at Anfield so quickly made the game meaningless and, against Sporting, they were without Matheus Cunha and Marcus Rashford and the game was straight out of the bizarro world.\nReferee Szymon Marciniak has a big reputation, but he obviously had a rough night -- though nowhere near as bad the commentators on my TV made it seem. I thought Amad Diallo 's goal should have stood, but I thought Kaique was fouled for the other disallowed goal. Tielemans shouldn't be tackling that way when on a yellow, that should be obvious. And, of course, Bruno Fernandes ' goal was a total fluke.\nTighe: If I were Pochettino, I'd be as perplexed as I am fuming over how the first week on the job has gone. Liverpool away was over before it began due to a refereeing mistake, then a bunch more refereeing mistakes also threatened to pull the rug on Wednesday's game.\nTielemans' red card was their fifth of the season so far, and it's only November. We panned Chelsea last season for their ludicrous lack of discipline and we should do the same for United ( even if Yoro's was incorrectly given , the count is still four).\nThis is a team that too easily implodes or shoots itself in the foot. Every game they play, they do something that makes the next one harder. It's really hard to win top-level football games when you do that, and who's next up? Brentford ... Pochettino's pain might endure for a little longer at least.\nKirkland: \"Worse\" is a high bar, given how low Man United sunk at Anfield. As Sam says, Brentford on Saturday is a tricky game. You wouldn't be at all surprised if United failed to get a win there. I'm a Pochettino sceptic -- I think he's long past his best -- and beyond the coach, United just lack quality all over the pitch. These players are not good enough. I think it's going to be a long, painful season for Manchester United , and yes, very entertaining for the neutrals.\nOgden: I'm not sure whether, when the dust settles, a battling 2-2 draw away to Sporting might be regarded as a positive outcome for United and Pochettino. It was a game of ridiculous errors by players and officials alike, but United fought back from going a goal down and had two goals ruled out which, on another day with another set of officials, might have stood. Maybe United showed some character and togetherness that Pochettino can build on, but we said that after Michael Carrick's team did the same against AS Roma and they were 2-0 down after five minutes in their next game against Aston Villa .\nGab is right to talk about the positives of injured/suspended players becoming available, but can you ever rely on Rashford and Luke Shaw to dig you out of a hole? Ultimately, I think the draw isn't a bad result and a win against RB Leipzig next month should see United qualified for the next stage, so perhaps -- perhaps -- Wednesday was a night of green shoots of recovery emerging.\nMarcotti: Of course, they can . I mean, for all the inconsistency, they've won every game they've played this season in all competitions, bar two. And as I've pointed out many times, if you have a shutdown keeper like Thibaut Courtois and a bunch of individual superstars who can score out of nothing, you can always go far in a knockout competition like the Champions League -- particularly when you have a coach like Mourinho, who has already won four major European trophies.\nThat said, you'd feel better about their chances if they didn't go into the hole so often and need to come from behind. In the Champions League alone it happened against PSV, against AEK Athens and against Roma. And while it looked as if they had found the right setup before the international break, the past two games also have called that into question.\nOgden: As Gab says, having Mourinho could be decisive this season. He is a coach with a proven track record and a group of players who just need knitting together, although doing that at Madrid can be like herding cats. But they have arguably the world's best keeper in Courtois, unquestionably the world's best midfielder in Bellingham and one of the best -- if not the best -- forwards in Kylian Mbappé . So rather than a question of \"Can Madrid win it?\" it should be \"How can they not win it?\"\nWith Mourinho in charge, Madrid can out-cynical Arsenal and also beat Barcelona and Paris Saint-Germain in a matchup of superstars. So yes, Madrid are probably the favorites right now.\nTighe: For over a year now, I've been pretty dismissive of anyone outside of PSG winning the Champions League. It's a simple, but effective, litmus test: If you don't think a team can beat the double-reigning champs, then you can't really believe they can go all the way. But it certainly looks now as if the landscape is changing. Not only are Madrid getting better, but PSG have lost Désiré Doué and Khvicha Kvaratskhelia to ACL tears, having waved goodbye to Bradley Barcola in the summer. This makes them demonstrably weaker and opens the door for a serious challenger like Real Madrid.\nKirkland: I was at Madrid's games against Inter, Roma, RB Leipzig and PSV. And honestly, for large portions of those games, Madrid were terrible . Really terrible. Just as bad as they were last season, when they looked miles off Europe's best. Their points tally is really quite misleading: Inter and Roma were far superior for an hour, and so were PSV for 45 minutes. But yes, whe",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "Gab Marcotti",
+        "Mark Ogden",
+        "Sam Tighe",
+        "Alex Kirkland"
+      ],
+      "clubes": [
+        "Sporting"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Manchester United empata con Sporting en un caótico partido",
+    "caption": "Manchester United se quedó con un empate ante Sporting en la fase de grupos de la Champions League. El conjunto, bajo la dirección de Pochettino, jugó sin Matheus Cunha y Marcus Rashford y estuvo marcado por decisiones arbitrales controvertidas. Próximo reto: enfrentar a Brentford en busca de la primera victoria.",
+    "ai_generated_at": "2026-11-26T11:34:57.012553+00:00",
+    "duplicate_of": "same_story_as:ucl-final-401915373"
+  },
+  {
+    "id": "0a42c4b69dfe57a4a7bd",
+    "title": "Luis Enrique calls Roma PSG's toughest test of the season after winning streak ends",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50599458/luis-enrique-praises-roma-draw-halts-psg-winning-streak",
+    "source": "ESPN",
+    "description": "Paris Saint-Germain coach Luis Enrique said Roma was his team's \"toughest match of this season\" after a hard-fought 2-2 Champions League draw on Wednesday.",
+    "published_at": "2026-11-26T10:37:21+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-26T11:34:57.012553+00:00",
+    "status": "draft",
+    "article_context": "Paris Saint-Germain coach Luis Enrique praised AS Roma for handing the defending Champions League title holder their toughest test of the season after the Italian side snapped PSG's 12-game winning streak with a 2-2 draw on Wednesday.\n\"Without any doubt this was our toughest match of this season, in the Champions League or the French league. I am happy with the result, and the merit goes to Roma,\" Luis Enrique said.\n\"Facing a team with this attitude and this kind of mentality is very hard to play against. It's very different to the kind of match we're used to.\"\nRoma striker Donyell Malen secured the point in the 78th minute, blasting in a penalty to end a dominant run in which PSG had not dropped points since losing at home to Monaco on Sept. 4.\nLuis Enrique also lauded Roma counterpart Gian Piero Gasperini's tactical setup and said he hopes to face him again in the knockout rounds.\n\"It's the first time I've come up against him as a coach,\" he said before pausing and nodding in respect.\n\"It's better to talk about Roma's future, not PSG's. Roma's future is wonderful; they can win the Scudetto. I have no doubt they can finish in the top 24, I hope so, and I wouldn't like to face them again. Maybe in the final,\" the Spanish coach added.\nMalen, who entered midway through the second half after scoring four goals in a 5-1 win at Parma on Saturday, found the net again with his 17th goal in 16 games this season, including five in the Champions League.\n\"At the moment he is among the very best strikers in the world, with his ability to score goals, his pace, the speed with which he shoots as well,\" Gasperini said. \"He took a bit of time to get going when he came on, but by the end we saw the real Malen. He took the penalty very well.\"\nGasperini explained that he held Malen back until the second half because of his heavy workload for Roma and the Netherlands .\n\"I go back to Rome very, very happy tonight,\" Gasperini said. \"It was a great performance against a team which is no doubt the best in the world at the moment. It was an important test and a very difficult one for us.\"\nBefore kickoff, PSG's ultras boldly displayed a giant tifo depicting two bloodied Roman gladiators -- the victorious figure dressed in PSG's blue, white, and red, and the defeated gladiator kneeling with bowed head in Roma's red and gold.\nInformation from The Associated Press contributed to this report.",
+    "visual_subject": "Luis Enrique",
+    "visual_entities": {
+      "personas": [
+        "Luis Enrique"
+      ],
+      "clubes": [
+        "Paris Saint-Germain",
+        "Roma"
+      ],
+      "competicion": [
+        "Champions League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Luis Enrique llama a la Roma su prueba más dura",
+    "caption": "El Paris Saint‑Germain cayó 2‑2 ante la Roma en la fase de grupos de la Champions League, poniendo fin a una racha de 12 victorias consecutivas. Luis Enrique calificó el encuentro como el más difícil de la temporada y elogió la táctica de Gian Piero Gasperini y el penalti de Donyell Malen.",
+    "ai_generated_at": "2026-11-26T11:34:57.012553+00:00",
+    "photo_checked_at": "2026-11-26T11:35:25.804079+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "LuisEnrique",
+        "ParisSaintGermain",
+        "Roma",
+        "ChampionsLeague"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "1f7de15a4f067d32693d",
+    "title": "'He's in a great moment': Iraola praises Isak after brace in Liverpool rout",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50598768/andoni-iraola-alexander-isak-great-moment-liverpool",
+    "source": "ESPN",
+    "description": "Liverpool boss Andoni Iraola believes striker Alexander Isak is in a \"great moment\" after he scored twice in the 3-0 victory over Club Brugge.",
+    "published_at": "2026-11-26T10:37:21+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-26T11:34:57.012553+00:00",
+    "status": "awaiting_ai",
+    "article_context": "Liverpool boss Andoni Iraola said he believes striker Alexander Isak is in a \"great moment\" after he scored twice in the 3-0 victory over Club Brugge .\nThe Sweden international opened the scoring for the visitors in Belgium before Florian Wirtz doubled their advantage in the second half.\nIsak netted again in the 82nd minute to seal the win, taking his tally for Liverpool up to 10 goals for the season in all competitions.\n\"He's in a great moment right now,\" Iraola said in his postmatch news conference.\n\"He helped us a lot in the link up, especially in the first half. We found him easily. With the way they press we had to find him quickly and we knew there would be space to exploit.\n\"They were leaving him one v one with the centre back and in one of those moments he killed the game.\"\nAfter a difficult debut season, Isak's second campaign at Anfield is proving to be a productive one and the forward is confident Liverpool as a collective are moving in the right direction.\n\"Perfect away win, I would say,\" he told TNT Sports after the game.\n- Lammens errors cost Man United win despite bizarre Fernandes goal - Gordon enjoys 'very special' Baku again to lead Barcelona rout - Haaland relishing battle with rival Gabriel as Man City go to Arsenal\n\"The performance until we got the second one was never obvious, which way it would go. They put on a good game. We spoke about having to get the second goal.\n\"They were playing man on man, so I was against the defender the whole game. Ali tried to kick the ball the whole time so I'm glad he didn't stop trying.\n\"It's always difficult to say exactly where you are and how good you are but I can say I'm in a good place and the team is in a good place, most importantly. Hopefully, it gets better from here.\n\"The attack in general is beginning the click. We have a lot of different combinations and whoever comes in, we have a dangerous attack. It feels good.\"\nLiverpool's win lifted them back into the top eight places as they sit fifth with 12 points from five matches.",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "021f5f8135b5d7332f35",
+    "title": "Liverpool are all smiles as Wirtz, Isak start to click",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50598544/liverpool-all-smiles-wirtz-isak-start-click",
+    "source": "ESPN",
+    "description": "Another match, another fine set of displays. Is investment in Liverpool's forward line beginning to pay off?",
+    "published_at": "2026-11-26T09:32:11+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-26T11:34:57.012553+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "76ed6a80a36a4e0b7948",
+    "title": "BBC Women's Football Weekly",
+    "source_url": "https://www.bbc.co.uk/sounds/play/p0pq0m9k?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Three Lionesses join Ellen, Ben & Em ahead of their 2027 World Cup play-off final.",
+    "published_at": "2026-11-26T11:18:00+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T11:34:57.012553+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "92e4e10f40d0551e3d0c",
+    "title": "Athletic wing backs and back threes: Explaining women's soccer's latest tactical trends",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50592901/women-soccer-tactics-arsenal-chelsea-barcelona-ol-lyonnes",
+    "source": "ESPN",
+    "description": "Women's soccer is evolving all the time, and this season is no different. Here are the new ideas that top teams are using to outsmart opponents.",
+    "published_at": "2026-11-26T09:36:57+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T11:34:57.012553+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "3bd8930adef8cc10bb56",
+    "title": "Concacaf W Championship: How USWNT can qualify for World Cup, matchups, format",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50474392/concacaf-w-championship-uswnt-world-cup-qualification",
+    "source": "ESPN",
+    "description": "The United States can seal its place at the 2027 Women's World Cup at the Concacaf W Championship. Here's everything you need to know.",
+    "published_at": "2026-11-26T00:40:56+00:00",
+    "category": "PARTIDOS",
+    "sport": "FUTBOL",
+    "score": 31,
+    "queued_at": "2026-11-26T11:34:57.012553+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]

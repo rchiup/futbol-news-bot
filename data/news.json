@@ -11582,5 +11582,77 @@
     "source": "BBC Sport",
     "collected_at": "2026-11-26T11:32:26.616795+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "76ed6a80a36a4e0b7948006daae951b0cb0ef47444399e76babc4d0d49c98e0c",
+    "title": "BBC Women's Football Weekly",
+    "url": "https://www.bbc.co.uk/sounds/play/p0pq0m9k?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-26T11:34:52.699549+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "174b8cca7f4778f4161db7d836c509a2e12eec89c7b6e41a2ab79c99defe4a8f",
+    "title": "Kimmich slams 'not Bayern-like' treatment of Musiala amid health row",
+    "url": "https://www.espn.com/soccer/story/_/id/50602935/bayern-munich-jamal-musiala-health-issues-kimmich",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-26T11:34:52.879276+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "23a98a3102034431e847cd80b3d9ae16970c7dc0c549211d50713efa94bbb406",
+    "title": "Soccer's main characters this week: Bellingham is in a new stratosphere",
+    "url": "https://www.espn.com/soccer/story/_/id/50599423/soccers-main-characters-champions-league-jude-bellingham-florian-wirtz",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-26T11:34:52.879308+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "92e4e10f40d0551e3d0cb18e8f6f66eb2e3c81caac662e7621e23b2dcf9949d7",
+    "title": "Athletic wing backs and back threes: Explaining women's soccer's latest tactical trends",
+    "url": "https://www.espn.com/soccer/story/_/id/50592901/women-soccer-tactics-arsenal-chelsea-barcelona-ol-lyonnes",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-26T11:34:52.879315+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "0b562ac4d55f404b534e4a54103ec5eaea9701b7a7c8c441d819582662735071",
+    "title": "Transfer rumors, news: Barcelona among clubs eyeing Man United's Ayden Heaven",
+    "url": "https://www.espn.com/soccer/story/_/id/50602698/transfer-rumors-news-manchester-united-barcelona-heaven",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-26T11:34:52.879319+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "5550fd1ead0f87c296127f4090c23db5a8704a166b037ebd7740226528b00990",
+    "title": "Lee loses eight-iron after lesson with F1's Sainz, Stroll -- still shoots 68",
+    "url": "https://www.espn.com/golf/story/_/id/50603493/min-woo-lee-carlos-sainz-lance-stroll-f1",
+    "source": "www.espn.com - GOLF",
+    "collected_at": "2026-11-26T11:34:54.610284+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "556fd0371dd0c77e4d65ca7c9c290f28e3dc82db609db8e61b489c5bbbc1bdd2",
+    "title": "Timberwolves' Ball limps off in win after hurting left ankle",
+    "url": "https://www.espn.com/nba/story/_/id/50601570/timberwolves-lamelo-ball-limps-hurting-left-ankle",
+    "source": "www.espn.com - NBA",
+    "collected_at": "2026-11-26T11:34:54.960188+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "42c1c1cfeb65cc47592ed3b7924097c4a066a4d1180c731a86de2b1692f15128",
+    "title": "LeBron dusts 'off the cape' to save 76ers with triple-double",
+    "url": "https://www.espn.com/nba/story/_/id/50601303/lebron-dusts-cape-save-76ers-triple-double",
+    "source": "www.espn.com - NBA",
+    "collected_at": "2026-11-26T11:34:54.960205+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "420b2d9017cef0b418055ed66d3a9edcbada945b228039522bf499bc4f83145f",
+    "title": "Knicks assistant coach Jent returns to team",
+    "url": "https://www.espn.com/nba/story/_/id/50600508/knicks-assistant-coach-chris-jent-returns-team",
+    "source": "www.espn.com - NBA",
+    "collected_at": "2026-11-26T11:34:54.960212+00:00",
+    "status": "pending_review"
   }
 ]
