@@ -31,16 +31,15 @@ def eligible(item):
     return not item.get("match_result") and bool(item.get("photo_used")) and len(narration(item))>=2
 
 def frame(cover, chunk, item, index, count, destination, brand):
-    # Raw athlete photography, not a still of the feed card.
+    # Never crop a square editorial card into a vertical video.
     with Image.open(cover) as src:
         photo=ImageOps.exif_transpose(src).convert("RGB")
-        zoom=1.0+0.035*(index%4)
-        w,h=photo.size
-        if zoom>1:
-            nw,nh=int(w/zoom),int(h/zoom)
-            x=(w-nw)//2; y=int((h-nh)*0.25)
-            photo=photo.crop((x,y,x+nw,y+nh))
-        im=ImageOps.fit(photo,(1080,1920),centering=(0.5,0.30)).convert("RGBA")
+        if item.get("photo_used") and not item.get("match_result"):
+            im=ImageOps.fit(photo,(1080,1920),centering=(0.5,0.30)).convert("RGBA")
+        else:
+            im=Image.new("RGBA",(1080,1920),(12,22,37,255))
+            panel=ImageOps.contain(photo,(840,720))
+            im.paste(panel,((960-panel.width)//2,250+(720-panel.height)//2))
     overlay=Image.new("RGBA",im.size)
     d=ImageDraw.Draw(overlay)
     for y in range(1920):
@@ -49,24 +48,24 @@ def frame(cover, chunk, item, index, count, destination, brand):
     im=Image.alpha_composite(im,overlay).convert("RGB")
     d=ImageDraw.Draw(im)
     accent=(208,249,92)
-    d.rectangle((56,110,70,168),fill=accent)
-    d.text((88,110),brand,font=font(37),fill="white")
-    d.text((88,165),str(item.get("sport","DEPORTES")).upper()+"  /  NOTICIAS",font=font(26),fill=accent)
+    d.rectangle((56,190,70,248),fill=accent)
+    d.text((88,190),brand,font=font(37),fill="white")
+    d.text((88,245),str(item.get("sport","DEPORTES")).upper()+"  /  NOTICIAS",font=font(26),fill=accent)
     # Large, central burned-in captions; keep clear of platform controls.
-    size=76
+    size=62
     while size>42:
-        lines=_wrap(d,chunk.upper().split(),font(size),820)
+        lines=_wrap(d,chunk.upper().split(),font(size),760)
         if len(lines)<=3: break
         size-=2
     lines=_wrap(d,chunk.upper().split(),font(size),820)
     line_h=size+12
-    y=int(1190-len(lines)*line_h/2)
+    y=int(1170-len(lines)*line_h/2)
     for line in lines:
         d.text((485,y),line,font=font(size),fill="white",stroke_width=4,stroke_fill=(8,13,20),anchor="mt")
         y+=line_h
-    d.rectangle((60,1480,910,1488),fill=(65,77,79))
-    d.rectangle((60,1480,60+850*(index+1)/count,1488),fill=accent)
-    d.text((60,1520),("FUENTE: "+str(item.get("source","")).upper())[:55],font=font(24),fill="white")
+    d.rectangle((60,1390,910,1398),fill=(65,77,79))
+    d.rectangle((60,1390,60+850*(index+1)/count,1398),fill=accent)
+    d.text((60,1420),("FUENTE: "+str(item.get("source","")).upper())[:55],font=font(24),fill="white")
     im.save(destination)
 
 def command(args,timeout=90,input_text=None):
