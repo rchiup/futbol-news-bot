@@ -23659,12 +23659,26 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T22:46:11.020489+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "article_context": "\"Este es el partido de nuestras vidas\". Ezequiel Piovi vive la previa a la final de la Copa Libertadores como todos los hinchas de Estudiantes . El volante no ve la hora de que la pelota empiece a rodar en el Centenario de Montevideo y traer la Copa a la Argentina. Es así que \"estamos muy ilusionados al igual que la gente\".\nY lo cierto es que, de cara a este sábado, Piovi destacó que \"este partido nos agarra bien. Estamos preparados y enfocados, ojalá que podamos hacer un gran partido\", deseó. Además, sobre la actualidad de Palmeiras , el volante indicó que \"los miramos y analizamos. Sabemos que vienen de jugar más seguido y llegan con más carga de partidos. Pero este sábado es un partido aparte y no importa cómo llega cada uno\".\nIncluso, Piovi no consideró que el haber enfrentado a Corinthians y Flamengo haya sido un plus de cara al partido ante el Verdao: \"No sé si influye haber jugado ante ellos, pero sí en esos partidos supimos medirnos contra equipos de mucho poder y dimos una buena señal. Fuimos al frente y este sábado no va a ser la excepción\", avisó. Además, destacó que \"sabemos las virtudes que tienen y en dónde podemos sacar una ventaja nosotros\".\nPor otro lado, el volante del Pincha hizo referencia a las declaraciones de Alexander Barboza, quien indicó que \"la primera (Libertadores) la gané en 2024, en mi casa (Argentina), y la segunda la voy a ganar en mi segunda casa, Uruguay. Así que es un sentimiento muy lindo saber que toda mi familia va a estar acá para presenciar este momento\", dijo viéndose campeón con Palmeiras.\nSobre eso, Piovi indicó: \"Leímos lo que dijo, pero no me gusta opinar antes del partido. Si lo dijo es porque lo siente así, pero nosotros tenemos que dejar eso de lado, enfocarnos en lo nuestro y ojalá que hagamos un gran partido\". Además, sacó pecho por Estudiantes: \"Nos ganamos el respeto adentro de la cancha. Fuimos superiores en todas las llaves y estamos acá porque nos lo ganamos. Ahora tenemos que revalidarlo el sábado\".\nPor último, el volante resaltó la importancia que tiene la final tanto en él como para todo el plantel: \"Sin dudas es el partido más importante de mi carrera. Estuve en el Ascenso, jugué afuera, pero este es el partido más importante de mi carrera\", destacó. Pero también agregó cómo vive el resto de jugadores la previa a este encuentro: \"Es fuerte, pero la realidad es que este es el partido de nuestras vidas. Lo sentimos así. Hay muchos jugadores que tienen una carrera importante pero no tienen la posibilidad de jugar este tipo de partidos, así que lo decimos con orgullo. Nos costó mucho llegar hasta acá y lo tomamos como tal\", cerró un Piovi totalmente enfocado en la final, en la cual \"esperamos hacer un gran partido y que la gente se sienta representada\".\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Palmeiras"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Ezequiel Piovi afirma que Estudiantes irá al frente contra Palmeiras",
+    "caption": "El volante de Estudiantes asegura que el equipo entrará al ataque en la final de la Copa Libertadores contra Palmeiras. El partido se disputará en el Estadio Centenario de Montevideo y Piovi lo califica como el encuentro más importante de su carrera, con el plantel listo y concentrado. Palmeiras llega con carga de partidos, pero Piovi insiste en que será un duelo aparte.",
+    "ai_generated_at": "2026-11-26T23:20:00.986724+00:00"
   },
   {
     "id": "1054ed391c6c29a96ecc",
