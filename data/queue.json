@@ -18156,10 +18156,11 @@
       "mean_db": -19.6
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795657126/football-news-bot/reels/ucl-final-401915373.mp4",
-    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_status": "published",
     "zernio_tiktok_id": "6b078da73a5cfb874956f2e6",
     "buffer_youtube_status": "sent",
-    "buffer_youtube_id": "6b078dac07071a6067448619"
+    "buffer_youtube_id": "6b078dac07071a6067448619",
+    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712288659881381140"
   },
   {
     "id": "93b1a1ce0cc057b8536f",

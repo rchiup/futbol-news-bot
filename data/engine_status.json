@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-26T01:36:58.767211+00:00",
+  "checked_at_utc": "2026-11-26T01:40:36.983801+00:00",
   "local_hour": 22,
   "statuses": {
     "published": 157,
@@ -62,9 +62,9 @@
         "last_error": "invalid_output"
       },
       "cloudflare": {
-        "attempts": 39,
+        "attempts": 42,
         "success": 5,
-        "failures": 34,
+        "failures": 37,
         "avg_latency_ms": 2684,
         "avg_readability": 97.0,
         "last_error": "invalid_output"
@@ -78,9 +78,9 @@
         "last_error": "http_410"
       },
       "zai": {
-        "attempts": 34,
+        "attempts": 37,
         "success": 3,
-        "failures": 31,
+        "failures": 34,
         "avg_latency_ms": 25188,
         "avg_readability": 100.0,
         "last_error": "invalid_output"
