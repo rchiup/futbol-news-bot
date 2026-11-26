@@ -865,6 +865,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 break
 
     # Independent cross-platform video lane: no Instagram quota or photo gate.
+    print("[CROSSPOST] Hourly video due="+str(format_due(queue, reference, "reel", 60)))
     if session is None and os.getenv("ENABLE_PUBLISH", "").lower() == "true" and os.getenv("AUTO_APPROVE", "").lower() == "true" and os.getenv("ENABLE_REELS", "").lower() == "true" and format_due(queue, reference, "reel", 60):
         from publisher import upload_public_video
         for candidate in sorted(queue, key=lambda x: (bool(x.get("match_result")), novelty_priority(x, reference)), reverse=True):
@@ -886,7 +887,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 candidate["format_attempt_at"] = iso(reference)
                 save_queue(queue)
                 buffer_publish.crosspost(candidate, candidate["reel_video_url"], clean_public_caption(strip_filler(candidate["caption"])), persist=lambda: save_queue(queue))
-                print("[CROSSPOST] Independent video submitted: "+candidate["id"])
+                print("[CROSSPOST] Independent video outcome: "+candidate["id"]+" "+str({k:v for k,v in candidate.items() if k.endswith("_status") and k.startswith(("zernio_","buffer_"))}))
                 save_queue(queue)
                 break
             except Exception as exc:
