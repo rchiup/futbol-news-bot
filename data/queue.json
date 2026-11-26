@@ -23068,13 +23068,13 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T20:51:07.828201+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "article_context": "Jadson Viera Foto Marcelo Carroll - FTP CLARIN DSC00017.JPG Z\nLuego del triunfazo ante Argentinos en La Paternal, en Independiente quedaron conformes y con impresiones positivas del rendimiento del equipo. Por este motivo, Jadson Viera planea tocar lo menos posible para enfrentar este sábado a Vélez , desde las 20, en Liniers por los cuartos de final del Clausura...\nYa es sabido que tanto Chimy Ávila como Santiago Arias sufrieron lesiones musculares en el soleo e isquiotibial, respectivamente. Y ambos quedaron descartados para enfrentar al Fortín . De esta manera, el entrenador uruguayo tiene en claro que no podrá repetir el equipo y sí o sí deberá buscarle un reemplazante al defensor colombiano. Y el apuntado es ni más ni menos que Leonardo Godoy , quien ingresó en el complemento ante el Bicho y estuvo a la altura.\nLevantó el nivel e Independiente no sufrió tanto por la banda derecha como en la primera parte. Eso sí, vale destacar que el ex Talleres no juega desde el arranque desde el pasado 2 de octubre, cuando el Rojo cayó 4-1 ante Instituto en condición de local. Desde ahí, fue suplente siempre y durante los últimos tres partidos de la fase inicial del torneo ni siquiera ingresó.\nAhora, con la lesión y baja del cafetero, tiene la gran oportunidad de quedarse con el puesto de manera definitiva . Está claro, en el horizonte asoma una parada brava con un mano a mano contra Matías Pellegrini, quien seguramente ocupe ese lugar en el equipo del Mellizo.\nPor último, Felipe Tempone , quien fue titular a último momento contra Argentinos, se mantendría en el 11 inicial y sería el acompañante de Josías Palais y Santiago Montiel en la zona ofensiva. Se vienen los cuartos y Jadson tiene todo en la cabeza. Godoy una chance de oro en Liniers...\nSantiago Mele; Leonardo Godoy, Sebastián Valdéz, Juan Arrayago, Nahuel Banegas; Iván Marcone, Mateo Pérez Curci; Santiago Montiel, Maximiliano Meza, Josías Palais; Felipe Tempone. DT: Jadson Viera.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "visual_subject": "",
+    "visual_subject": "Jadson Viera",
     "visual_entities": {
       "personas": [
         "Jadson Viera"
@@ -23082,16 +23082,16 @@
       "clubes": [
         "Independiente"
       ],
-      "competicion": [
-        "cuartos de final"
-      ],
-      "ciudad": []
+      "competicion": [],
+      "ciudad": [
+        "Fortín"
+      ]
     },
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
-    "headline": "Jadson Viera apuesta por Leonardo Godoy como titular contra Vélez",
-    "caption": "Leonardo Godoy será titular en el duelo de cuartos de final contra Vélez tras las bajas de Chimy Ávila y Santiago Arias. El partido se jugará este sábado a las 20:00 en Liniers, después del triunfo de Independiente ante Argentinos. Viera busca mantener la continuidad del equipo pese a las lesiones.",
-    "ai_generated_at": "2026-11-26T21:12:56.987134+00:00",
+    "headline": "Jadson Viera busca sustituto en Independiente para Vélez",
+    "caption": "Jadson Viera tendrá que buscar un reemplazo para la defensa de Independiente tras las bajas de Chimy Ávila y Santiago Arias, con Leonardo Godoy como opción para el duelo contra Vélez. El equipo llega a los cuartos de final del Clausura tras vencer a Argentinos, y el partido se jugará este sábado a las 20:00 en Liniers.",
+    "ai_generated_at": "2026-11-26T21:25:18.146604+00:00",
     "quality_hold": "unverified_numeric_score",
     "editorial_rechecked": true
   },
