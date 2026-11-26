@@ -12206,5 +12206,21 @@
     "source": "BBC Sport",
     "collected_at": "2026-11-26T16:19:06.694885+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "8ca2d202e6190de090d6a8ceb20517f2aa32672af11aa444f8de817d00f68254",
+    "title": "GB reach first Davis Cup semifinal in 7 years after win against Germany",
+    "url": "https://www.espn.com/tennis/story/_/id/50604558/great-britain-davis-cup-semifinals",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-26T16:25:49.352437+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "cae141c2ceb0fd79b38b62d9aa7fc142f0e735c234f958553db75cfd9777c25d",
+    "title": "Leclerc, sincero: \"Las cosas con Hamilton ahora no funcionan, hay que encontrar una solución\"",
+    "url": "https://es.motorsport.com/f1/news/leclerc-sincero-hamilton-solucion-ferrari-2027/10877942/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es",
+    "source": "Motorsport.com - Fórmula 1 - Historias",
+    "collected_at": "2026-11-26T16:25:49.767563+00:00",
+    "status": "pending_review"
   }
 ]

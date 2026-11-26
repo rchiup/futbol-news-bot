@@ -19946,7 +19946,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-26T16:05:12.450193+00:00"
+    "photo_checked_at": "2026-11-26T16:26:53.164001+00:00"
   },
   {
     "id": "0c71629f30ca9d7f8c20",
@@ -20014,7 +20014,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-26T16:05:14.086551+00:00"
+    "photo_checked_at": "2026-11-26T16:26:53.380053+00:00"
   },
   {
     "id": "26fce2c22766c5a3ce94",
@@ -20564,7 +20564,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-26T16:05:12.747749+00:00"
+    "photo_checked_at": "2026-11-26T16:26:52.768042+00:00"
   },
   {
     "id": "f76d232f9bf168819314",
@@ -21051,7 +21051,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-26T16:05:08.191859+00:00",
+    "photo_checked_at": "2026-11-26T16:26:51.390245+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -21075,7 +21075,8 @@
     "zernio_tiktok_id": "6b085352e39d14038b7ba735",
     "buffer_youtube_status": "error",
     "buffer_youtube_id": "6b0853559f3ae7d1657a763d",
-    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712505985113345286"
+    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712505985113345286",
+    "portrait_info": null
   },
   {
     "id": "89dac60aeb98f887a36d",
@@ -21272,6 +21273,40 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-26T16:19:08.376343+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "a27f331b95631001d44d",
+    "title": "Leclerc, sincero: \"Las cosas con Hamilton ahora no funcionan, hay que encontrar una solución\"",
+    "source_url": "https://es.motorsport.com/f1/news/leclerc-sincero-hamilton-solucion-ferrari-2027/10877942",
+    "source": "Motorsport F1",
+    "description": "Era de esperar que Charles Leclerc fuera el gran protagonista de la rueda de prensa de la FIA celebrada el jueves en Losail. El toque con Lewis Hamilton en el Gran Premio de Las Vegas ha reavivado un debate que lleva ya varias semanas acaparando la atención, alimentando las discusiones sobre la convivencia entre los dos pilotos de Ferrari. Si bien tras Monza y Ciudad de México se habían ... Sigue leyendo",
+    "published_at": "2026-11-26T16:23:20+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-26T16:25:50.852187+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "8ca2d202e6190de090d6",
+    "title": "GB reach first Davis Cup semifinal in 7 years after win against Germany",
+    "source_url": "https://www.espn.com/tennis/story/_/id/50604558/great-britain-davis-cup-semifinals",
+    "source": "ESPN Tennis",
+    "description": "Henry Patten and Neal Skupski kicked off their new doubles partnership in perfect fashion to lead Great Britain into the Davis Cup semifinals for the first time since 2019.",
+    "published_at": "2026-11-26T16:01:16+00:00",
+    "category": "TENIS",
+    "sport": "TENIS",
+    "score": 26,
+    "queued_at": "2026-11-26T16:25:50.852187+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
