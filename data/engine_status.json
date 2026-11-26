@@ -1,20 +1,20 @@
 {
-  "checked_at_utc": "2026-11-26T00:13:22.790187+00:00",
+  "checked_at_utc": "2026-11-26T00:23:25.875029+00:00",
   "local_hour": 21,
   "statuses": {
     "published": 157,
     "draft": 24,
-    "awaiting_ai": 61,
+    "awaiting_ai": 60,
     "needs_review": 112,
     "publish_error": 27,
-    "duplicate": 52
+    "duplicate": 53
   },
-  "fresh_candidates": 157,
+  "fresh_candidates": 155,
   "queued_new": 0,
   "ai_generated": 8,
   "preview_images": 5,
   "published": 0,
-  "duplicates_suppressed": 0,
+  "duplicates_suppressed": 1,
   "no_photo_deferred": 0,
   "total_queue": 524,
   "per_run_cap": 3,
@@ -38,10 +38,10 @@
     "last_success": "openrouter",
     "providers": {
       "groq": {
-        "attempts": 7,
-        "success": 1,
-        "failures": 6,
-        "avg_latency_ms": 1889,
+        "attempts": 9,
+        "success": 2,
+        "failures": 7,
+        "avg_latency_ms": 1676,
         "avg_readability": 100.0,
         "last_error": "http_429"
       },
@@ -54,34 +54,34 @@
         "last_error": "invalid_output"
       },
       "openrouter": {
-        "attempts": 10,
-        "success": 5,
-        "failures": 5,
-        "avg_latency_ms": 83370,
+        "attempts": 17,
+        "success": 10,
+        "failures": 7,
+        "avg_latency_ms": 67564,
         "avg_readability": 100.0,
         "last_error": "invalid_output"
       },
       "cloudflare": {
-        "attempts": 5,
-        "success": 2,
-        "failures": 3,
-        "avg_latency_ms": 3675,
-        "avg_readability": 92.5,
+        "attempts": 7,
+        "success": 3,
+        "failures": 4,
+        "avg_latency_ms": 3304,
+        "avg_readability": 95.0,
         "last_error": "invalid_output"
       },
       "nvidia": {
-        "attempts": 1,
+        "attempts": 2,
         "success": 0,
-        "failures": 1,
+        "failures": 2,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "http_410"
       },
       "zai": {
-        "attempts": 3,
-        "success": 2,
+        "attempts": 4,
+        "success": 3,
         "failures": 1,
-        "avg_latency_ms": 23633,
+        "avg_latency_ms": 25188,
         "avg_readability": 100.0,
         "last_error": "invalid_output"
       }

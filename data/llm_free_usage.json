@@ -2,17 +2,19 @@
   "date_utc": "2026-11-26",
   "providers": {
     "groq": {
-      "attempts": 7,
-      "success": 1,
-      "failures": 6,
+      "attempts": 9,
+      "success": 2,
+      "failures": 7,
       "latencies_ms": [
-        1889
+        1889,
+        1464
       ],
       "quality": [
+        100,
         100
       ],
       "last_error": "http_429",
-      "blocked_until_utc": 1795652803
+      "blocked_until_utc": 1795653213
     },
     "gemini": {
       "attempts": 20,
@@ -63,17 +65,27 @@
       "last_error": "invalid_output"
     },
     "openrouter": {
-      "attempts": 10,
-      "success": 5,
-      "failures": 5,
+      "attempts": 17,
+      "success": 10,
+      "failures": 7,
       "latencies_ms": [
         39914,
         74157,
         225108,
         21586,
-        56087
+        56087,
+        31664,
+        20281,
+        87677,
+        26290,
+        92873
       ],
       "quality": [
+        100,
+        100,
+        100,
+        100,
+        100,
         100,
         100,
         100,
@@ -83,37 +95,41 @@
       "last_error": "invalid_output"
     },
     "cloudflare": {
-      "attempts": 5,
-      "success": 2,
-      "failures": 3,
+      "attempts": 7,
+      "success": 3,
+      "failures": 4,
       "latencies_ms": [
         3721,
-        3629
+        3629,
+        2561
       ],
       "quality": [
         100,
-        85
+        85,
+        100
       ],
       "last_error": "invalid_output"
     },
     "nvidia": {
-      "attempts": 1,
+      "attempts": 2,
       "success": 0,
-      "failures": 1,
+      "failures": 2,
       "latencies_ms": [],
       "quality": [],
       "last_error": "http_410",
-      "blocked_until_utc": 1795652813
+      "blocked_until_utc": 1795654023
     },
     "zai": {
-      "attempts": 3,
-      "success": 2,
+      "attempts": 4,
+      "success": 3,
       "failures": 1,
       "latencies_ms": [
         20578,
-        26688
+        26688,
+        28299
       ],
       "quality": [
+        100,
         100,
         100
       ],
