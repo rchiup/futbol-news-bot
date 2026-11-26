@@ -17074,11 +17074,25 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-25T20:30:56.533651+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Diego Placente",
+    "visual_entities": {
+      "personas": [
+        "Diego Placente"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Diego Placente destaca el carácter de Argentina tras clasificar en el Mundial",
+    "caption": "La selección argentina sub 17 avanzó a los dieciseisavos de final del Mundial tras empatar 3-3 frente a Dinamarca. El técnico valoró la personalidad de sus jugadores para superar los momentos de nerviosismo durante el encuentro decisivo.",
+    "ai_generated_at": "2026-11-26T00:01:33.219898+00:00"
   },
   {
     "id": "3d2e8fa04fc1c9636c34",
@@ -17091,11 +17105,27 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-25T20:37:58.963075+00:00",
-    "status": "awaiting_ai",
+    "status": "duplicate",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Victor Wembanyama",
+    "visual_entities": {
+      "personas": [
+        "Victor Wembanyama",
+        "Luka Doncic"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Spurs lideran apuestas al título y Wembanyama pelea el MVP",
+    "caption": "San Antonio se mantiene como el principal favorito para ganar el campeonato de la NBA según las casas de apuestas. Victor Wembanyama y Luka Doncic se consolidan como los dos candidatos más fuertes para quedarse con el premio al jugador más valioso de la temporada.",
+    "ai_generated_at": "2026-11-26T00:01:33.219898+00:00",
+    "duplicate_of": "same_story_as:eedbf7a2ba4735673789"
   },
   {
     "id": "96ad8ae196e2ccc7413a",
@@ -17799,12 +17829,28 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-25T22:12:26.099689+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "article_context": "La última derrota del Rojo como visitante fue justamente ante Vélez. Foto: FOTOBAIRES Fecha 3 Torneo Clausura Liga Profesional\nUna de cal y una de arena. El vaso medio vacío o medio lleno. Hay dos formas de verlo, con el aire optimista o con el pesimista. Independiente llegará a los cuartos de final del Torneo Clausura ante Vélez con el aval de ser el mejor equipo de toda la Liga Profesional en condición de visitante y, al mismo tiempo, teniendo un antecedente negativo muy reciente en Liniers .\nEl Rojo transita entre el buen andar cada vez que sale del Libertadores de América-Ricardo Enrique Bochini y la espina de la única derrota que registró fuera de casa en este segundo semestre de la actual temporada. Lejos de la presión de Avellaneda, donde la tensión por la irregularidad deportiva y las inminentes elecciones escalaron con rapidez, al equipo le sentó bien no contar con la ventaja de la localía en los playoffs .\nFue el segundo mejor conjunto en toda la fase regular del campeonato en condición de visitante , apenas por detrás de Rosario Central , a quien superó después de vencer a Argentinos Juniors en La Paternal. Logró cuatro victorias (Estudiantes, Lanús, Central Córdoba y Unión), tres empates (Talleres, Racing y Defensa y Justicia) y apenas una derrota . ¿Contra quién? Justamente ante el Fortín, el rival que visitará este sábado, desde las 20, en el José Amalfitani.\nIndependiente arrastra siete partidos sin perder fuera de casa . Desde el 1-0 de Vélez, el 3 de agosto, que no cae. En ese entonces, Gustavo Quinteros era el entrenador, por lo que el conjunto todavía no conoce la derrota con Jadson Viera en el banco de suplentes. “Somos un equipo duro fuera de casa, somos un equipo peligroso”, sostuvo el uruguayo en la previa al cruce de los cuartos de final.\nLuego de dejar al Bicho en el camino, el Rojo buscará replicar los buenos rendimientos que viene mostrando durante esta etapa del año como visitante, algo que no será para nada sencillo frente a un rival que ya supo derrotarlo hace poco tiempo y que desnudó sus falencias. Mientras tanto, Viera sabe que no podrá repetir la formación, que contará con dos ausencias de peso por las lesiones musculares del Chimy Ávila y de Santiago Arias y deberá meter mano.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Independiente"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Liniers"
+      ]
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Independiente visita a Velez con el recuerdo de su ultima derrota",
+    "caption": "El equipo de Avellaneda llega a los cuartos de final como uno de los mejores visitantes del torneo. Sin embargo, su unica caida fuera de casa en el semestre fue precisamente ante el Fortin en el estadio Jose Amalfitani. Jadson Viera no podra contar con Chimy Avila ni Santiago Arias por lesiones musculares.",
+    "ai_generated_at": "2026-11-26T00:01:33.219898+00:00"
   },
   {
     "id": "ae7d6f9b1c96dbcc7a07",
@@ -17949,12 +17995,32 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-25T22:32:27.426663+00:00",
-    "status": "awaiting_ai",
+    "status": "duplicate",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "article_context": "Y un día se terminó el invicto del Bayern Munich en esta temporada. En el primer partido desde la grave lesión de Harry Kane, el equipo de Vincent Kompany cayó por 2-1 ante el Lille por la quinta fecha de la fase de liga de la Champions League . La derrota se consumó tras un inexplicable gol en contra de los bávaros.\nEl gigante de Alemania extrañó demasiado al delantero inglés, que volverá a jugar dentro de tres meses y a quien ya le buscan un posible reemplazo . Además, tampoco estuvieron por lesión otras figuras como Michael Olise, Manuel Neuer, Serge Gnabry e Ismael Saibari, uno de los refuerzos para esta campaña luego de su gran Mundial.\nPese a las bajas de peso, los germanos, que acumulaban 18 partidos sin conocer la derrota en la actual temporada y eran el único invicto en las cinco grandes ligas del Viejo Continente, se habían puesto en ventaja por un gol del francés Dayot Upamecano .\nLa reacción del equipo de Davide Ancelotti, hijo del DT de Brasil, llegó en el segundo tiempo. El japonés Ayase Ueda fue el autor del 1-1 parcial en el Estadio Pierre-Mauroy. Y luego llegó el insólito gol en contra del alemán Pavlovic , quien insólitamente la mandó dentro de su propio arco luego de una contra que comandó Ethan Mbappé, hermano del crack del Real Madrid.\nLa cara del volante habló por sí sola: terminó tomándose el rostro, como no entendiendo el blooper que se había mandado. Es que tras el remate de Mbappé, la pelota dio en el poste y Pavlovic, sin ningún rival cerca, la despejó de derecha. Su rechazo fue tan pifiado, que impactó el balón para mandarlo dentro del arco .\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados."
+    "article_context": "Y un día se terminó el invicto del Bayern Munich en esta temporada. En el primer partido desde la grave lesión de Harry Kane, el equipo de Vincent Kompany cayó por 2-1 ante el Lille por la quinta fecha de la fase de liga de la Champions League . La derrota se consumó tras un inexplicable gol en contra de los bávaros.\nEl gigante de Alemania extrañó demasiado al delantero inglés, que volverá a jugar dentro de tres meses y a quien ya le buscan un posible reemplazo . Además, tampoco estuvieron por lesión otras figuras como Michael Olise, Manuel Neuer, Serge Gnabry e Ismael Saibari, uno de los refuerzos para esta campaña luego de su gran Mundial.\nPese a las bajas de peso, los germanos, que acumulaban 18 partidos sin conocer la derrota en la actual temporada y eran el único invicto en las cinco grandes ligas del Viejo Continente, se habían puesto en ventaja por un gol del francés Dayot Upamecano .\nLa reacción del equipo de Davide Ancelotti, hijo del DT de Brasil, llegó en el segundo tiempo. El japonés Ayase Ueda fue el autor del 1-1 parcial en el Estadio Pierre-Mauroy. Y luego llegó el insólito gol en contra del alemán Pavlovic , quien insólitamente la mandó dentro de su propio arco luego de una contra que comandó Ethan Mbappé, hermano del crack del Real Madrid.\nLa cara del volante habló por sí sola: terminó tomándose el rostro, como no entendiendo el blooper que se había mandado. Es que tras el remate de Mbappé, la pelota dio en el poste y Pavlovic, sin ningún rival cerca, la despejó de derecha. Su rechazo fue tan pifiado, que impactó el balón para mandarlo dentro del arco .\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "Harry Kane"
+      ],
+      "clubes": [
+        "Bayern Munich",
+        "Lille"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Lille"
+      ]
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Bayern Munich pierde su invicto tras caer ante el Lille",
+    "caption": "El equipo alemán perdió 2-1 en la Champions League con un autogol de Pavlovic. El conjunto de Vincent Kompany sufrió su primera derrota de la temporada en un duelo marcado por la ausencia de Harry Kane por lesión.",
+    "ai_generated_at": "2026-11-26T00:01:33.219898+00:00",
+    "duplicate_of": "same_story_as:ucl-final-401915377"
   },
   {
     "id": "c308d97fbd955bc5fcba",
@@ -17984,11 +18050,23 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-25T22:37:38.946243+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Los caminos actuales de los campeones de Estudiantes en 2009",
+    "caption": "Los titulares que conquistaron la Copa Libertadores con Estudiantes de La Plata han tomado rumbos distintos tras su retiro. Algunos se mantienen ligados al fútbol como técnicos o dirigentes, mientras que otros emprendieron proyectos personales fuera del ámbito deportivo.",
+    "ai_generated_at": "2026-11-26T00:01:33.219898+00:00"
   },
   {
     "id": "222654aa32ebf19ce4b1",
@@ -18052,11 +18130,33 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-25T23:03:27.182619+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Lautaro Martinez comes off the bench to score as Inter Milan beat Stuttgart and boost their chances of reaching the Champions League knockout stages.\nMATCH REPORT: Champions League - Inter Milan 2-0 Stuttgart\nMartinez secures Inter win against Stuttgart. Video, 00:02:47 Martinez secures Inter win against Stuttgart\nUp Next. 'Players won't like it' - Martinez apologises, but is the damage done? Video, 00:03:15 'Players won't like it' - Martinez apologises, but is the damage done?\nGreatest catch ever? Man on motorbike takes incredible grab. Video, 00:00:22 Greatest catch ever? Man on motorbike takes incredible grab\nBehind the scenes at Ipswich Town's new £35m training ground. Video, 00:08:10 Behind the scenes at Ipswich Town's new £35m training ground\nMarquez collects eighth MotoGP title. Video, 00:01:16 Marquez collects eighth MotoGP title\nRed card must be taken into consideration for loss - Pochettino. Video, 00:01:08 Red card must be taken into consideration for loss - Pochettino\nFrom Watford to world champion. Video, 00:01:40 From Watford to world champion\nWhy Fury was born to fight Video, 00:01:34 Why Fury was born to fight\nI had to play regularly for my mental wellbeing - Trafford on summer move. Video, 00:02:05 I had to play regularly for my mental wellbeing - Trafford on summer move\nFans pay respects to Tenerife's De Miguel. Video, 00:01:01 Fans pay respects to Tenerife's De Miguel\nI don't know what 2027 looks like for me - Rahm. Video, 00:01:51 I don't know what 2027 looks like for me - Rahm\nAntonelli title win 'beginning of something special' Video, 00:01:43 Antonelli title win 'beginning of something special'\n'Utter chaos at Ferrari right now' Video, 00:02:23 'Utter chaos at Ferrari right now'\nRice relishing title race 'anxiety' after win at Liverpool. Video, 00:05:27 Rice relishing title race 'anxiety' after win at Liverpool\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "visual_subject": "Lautaro Martinez",
+    "visual_entities": {
+      "personas": [
+        "Lautaro Martinez"
+      ],
+      "clubes": [
+        "Inter Milan",
+        "Stuttgart"
+      ],
+      "competicion": [
+        "Champions League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Lautaro Martinez anota en el triunfo del Inter sobre Stuttgart",
+    "caption": "Lautaro Martinez ingresó desde la banca para marcar en la victoria por 2-0 del Inter de Milán ante el Stuttgart. Con este resultado, el equipo italiano mejora sus opciones de clasificar a la fase de eliminación directa de la Champions League.",
+    "ai_generated_at": "2026-11-26T00:01:33.219898+00:00",
+    "photo_checked_at": "2026-11-26T00:02:13.594492+00:00",
+    "visual_mode": "editorial_typography"
   },
   {
     "id": "0159f0d9527fe4d0b1d4",
@@ -18103,11 +18203,30 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T23:20:55.160190+00:00",
-    "status": "awaiting_ai",
+    "status": "duplicate",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Turkish side Fenerbahce defeat Shakhtar Donetsk of Ukraine in a close affair at Stamford Bridge to give their hopes of Champions League qualification a huge boost.\nMATCH REPORT: Champions League - Shakhtar Donetsk 0-1 Fenerbahce\nFenerbahce squeeze past Shakhtar to seal back-to-back wins. Video, 00:02:19 Fenerbahce squeeze past Shakhtar to seal back-to-back wins\nUp Next. Liverpool fan critical of Jeremy Jacquet performance. Video, 00:01:23 Liverpool fan critical of Jeremy Jacquet performance\nWe are close to PSG - Maresca. Video, 00:00:55 We are close to PSG - Maresca\nGreatest catch ever? Man on motorbike takes incredible grab. Video, 00:00:22 Greatest catch ever? Man on motorbike takes incredible grab\nBehind the scenes at Ipswich Town's new £35m training ground. Video, 00:08:10 Behind the scenes at Ipswich Town's new £35m training ground\nMarquez collects eighth MotoGP title. Video, 00:01:16 Marquez collects eighth MotoGP title\nRed card must be taken into consideration for loss - Pochettino. Video, 00:01:08 Red card must be taken into consideration for loss - Pochettino\nFrom Watford to world champion. Video, 00:01:40 From Watford to world champion\nWhy Fury was born to fight Video, 00:01:34 Why Fury was born to fight\nI had to play regularly for my mental wellbeing - Trafford on summer move. Video, 00:02:05 I had to play regularly for my mental wellbeing - Trafford on summer move\nFans pay respects to Tenerife's De Miguel. Video, 00:01:01 Fans pay respects to Tenerife's De Miguel\nI don't know what 2027 looks like for me - Rahm. Video, 00:01:51 I don't know what 2027 looks like for me - Rahm\nAntonelli title win 'beginning of something special' Video, 00:01:43 Antonelli title win 'beginning of something special'\n'Utter chaos at Ferrari right now' Video, 00:02:23 'Utter chaos at Ferrari right now'\nRice relishing title race 'anxiety' after win at Liverpool. Video, 00:05:27 Rice relishing title race 'anxiety' after win at Liverpool\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Fenerbahce",
+        "Shakhtar Donetsk"
+      ],
+      "competicion": [
+        "Champions League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Fenerbahce vence a Shakhtar Donetsk y suma puntos en Champions League",
+    "caption": "El equipo turco superó por la cuenta mínima al Shakhtar Donetsk en Stamford Bridge. Con este resultado, Fenerbahce encadena dos victorias consecutivas y fortalece sus opciones de clasificación en el torneo continental.",
+    "ai_generated_at": "2026-11-26T00:01:33.219898+00:00",
+    "duplicate_of": "same_story_as:ucl-final-401915375"
   },
   {
     "id": "8bdd69b18f71f140048c",
@@ -18120,11 +18239,26 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T23:26:12.585332+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Facundo Argüello es el nuevo Director Deportivo de Chicago.\nChicago entró en el típico proceso de volantazos post-golpe que reestructura toda la columna vertebral de la institución , luego de su descenso en la Primera Nacional . Cambiarán desde los puestos neurálgicos de la CD hasta los jugadores que tendrán que pisar las canchas de la Primera B en 2027.\nLuego de la renuncia de Daniel Ferreiro a su cargo como vocal en la Comisión Directiva y la destitución de Gomito Gómez como director deportivo, la Parca del Torito también pasó por el plantel profesional: en las últimas horas, Lucas Ambrogio, Gonzalo Paz, Sebastián Cocimano y Enzo Roldán rescindieron sus respectivos vínculos y dejaron de pertenecer al club .\nPero esos huecos, de alguna forma u otra, se tienen que llenar para encarar la reconstrucción. Y en Mataderos buscaron rápido y encontraron un nombre con sentido de pertenencia que calzó justo para el puesto que Gomito dejó vacante: Facundo Argüello . Un hombre surgido de la casa, que vistió la verdinegra en casi 200 partidos oficiales y que también dirigió al primer equipo en 2017.\nEn cuanto a las funciones administrativas lejos de la cancha, el ex defensor se desempeñó como coordinador de las Inferiores de Orense y su buen trabajo en ese rubro le permitió ascender hasta mánager del club ecuatoriano . Perfil ideal. Argüello ya agarró el fierro caliente y tendrá que ponerse manos a la obra para hacer malabares en busca del operativo retorno a la Primera Nacional .\nAdemás, Argüello no llega solo para encarar esta reconstrucción en Mataderos. Con la intención de armar una estructura de trabajo sólida alrededor del plantel, el club confirmó a Mario Fruta Marcelo como secretario técnico y también oficializó las incorporaciones de Juan Fuenzalida como jefe de scouting y de Santiago Fonseca como analista de video .\nEl buzo de deté en Chicago siempre es pesado y hace largos meses que Lotito tambalea en la cornisa. Todo parece indicar que el ciclo del técnico está terminado y que su futuro se encuentra afuera de los pasillos de Mataderos, mientras la dirigencia ya avanza para cerrar a su reemplazante cuanto antes.\nLeo Lemos , quien recientemente dejó Los Andes tras un ciclo de dos años, pica en punta en la consideración para suceder al entrenador y es casi un hecho que será quien conduzca al equipo desde afuera de la línea de cal en la próxima Primera B. Serán los nuevos encargados del fútbol quienes tomen la decisión final. Cambia, Torito.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Nueva Chicago"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Nueva Chicago inicia reestructuración tras confirmar el descenso a Primera B",
+    "caption": "Facundo Argüello asumió como nuevo director deportivo del club tras la salida de Gomito Gómez. La institución rescindió los contratos de cuatro futbolistas y busca a Leo Lemos para ocupar el cargo de entrenador en la próxima temporada.",
+    "ai_generated_at": "2026-11-26T00:01:33.219898+00:00"
   },
   {
     "id": "191c43d1cd4c84ed74e3",
