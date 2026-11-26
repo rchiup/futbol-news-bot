@@ -11574,5 +11574,13 @@
     "source": "Cooperativa.cl: Noticias de Chile y el mundo - País, Deportes y más",
     "collected_at": "2026-11-26T11:28:48.844069+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "550c3b244e732ed3b249a5f6b459d596e752e92130d42caba562816b930dc86a",
+    "title": "Fifa confirms internal data stolen in cyber attack",
+    "url": "https://www.bbc.co.uk/sport/football/articles/crd61nvg4d84o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-26T11:32:26.616795+00:00",
+    "status": "pending_review"
   }
 ]
