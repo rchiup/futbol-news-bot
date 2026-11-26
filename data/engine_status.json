@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-26T01:55:24.723965+00:00",
+  "checked_at_utc": "2026-11-26T01:57:20.958710+00:00",
   "local_hour": 22,
   "statuses": {
     "published": 157,
@@ -38,9 +38,9 @@
     "last_success": "openrouter",
     "providers": {
       "groq": {
-        "attempts": 27,
+        "attempts": 29,
         "success": 3,
-        "failures": 24,
+        "failures": 26,
         "avg_latency_ms": 2253,
         "avg_readability": 100.0,
         "last_error": "http_429"
