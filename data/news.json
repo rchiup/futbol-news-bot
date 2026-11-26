@@ -11134,5 +11134,61 @@
     "source": "www.ole.com.ar - Home",
     "collected_at": "2026-11-26T00:36:20.191011+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "501ad9cbfe20c087e5be35a57f94ced83c53b711982501dbc3bb1a41b17230f4",
+    "title": "New coach, same chaos: Man United remain their own worst enemy",
+    "url": "https://www.espn.com/soccer/story/_/id/50598965/manchester-united-pochettino-champions-league-sporting",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-26T00:48:15.055920+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "619d76a3223983e4119ded3dc837586487b9d6e0ccb1867e9109887880758615",
+    "title": "Pochettino: Man United were 'punished a lot' by officials in Sporting draw",
+    "url": "https://www.espn.com/soccer/story/_/id/50599139/man-united-mauricio-pochettino-sporting-referee-var-goal",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-26T00:48:15.055943+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "6b5acdf5fe4cc81ed9aad78aeabc092376ecd0de9ba34c8eddca2025a7b2eb75",
+    "title": "Fernandes' 'strange' divot-assisted goal left even Man United star confused",
+    "url": "https://www.espn.com/soccer/story/_/id/50598666/bruno-fernandes-goal-man-united-sporting-divot-champions-league",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-26T00:48:15.055950+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "1f7de15a4f067d32693dd4af6f8a5237c7f8005e53284a13c62483d074d00488",
+    "title": "'He's in a great moment': Iraola praises Isak after brace in Liverpool rout",
+    "url": "https://www.espn.com/soccer/story/_/id/50598768/andoni-iraola-alexander-isak-great-moment-liverpool",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-26T00:48:15.055955+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "6f06592eb319dc2763e52102285811a9ee0faaaeaad7e554bf0e4052c012a327",
+    "title": "Paredes: del susto en Barranquilla al gol y topo Gigio en la Bombonera",
+    "url": "https://www.ole.com.ar/boca-juniors/paredes-susto-barranquilla-gol-topo-gigio-bombonera_0_kz8gruBl4P.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-26T00:48:16.008210+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "3e66fb058fa2da4a0c6bf48fcce79c3b62005e78ebbd89e67ed44b685302aebe",
+    "title": "Por qué estuvo bien cobrado el penal vía VAR para Boca contra Independiente Rivadavia",
+    "url": "https://www.ole.com.ar/futbol-primera/bien-cobrado-penal-boca-independiente-rivadavia_0_jROXStOvaN.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-26T00:48:16.008223+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "ab1fadfd22be660f114e985489f0724cb79d558cb5b6327749737cc06afd3528",
+    "title": "76ers' Brown exits vs. Heat with recurrence of hamstring issue",
+    "url": "https://www.espn.com/nba/story/_/id/50599296/76ers-jaylen-brown-exits-recurrence-hamstring-issue",
+    "source": "www.espn.com - NBA",
+    "collected_at": "2026-11-26T00:48:17.405202+00:00",
+    "status": "pending_review"
   }
 ]

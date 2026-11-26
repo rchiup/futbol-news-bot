@@ -13494,11 +13494,27 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-25T11:28:50.718453+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "Leclerc"
+      ],
+      "clubes": [
+        "Ferrari"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Leclerc se impide hacer suya Ferrari",
+    "caption": "Leclerc tiene la oportunidad de hacer suya Ferrari, pero él mismo se lo está impidiendo. La situación de Leclerc en Ferrari es incierta. Su futuro en el equipo está en duda.",
+    "ai_generated_at": "2026-11-26T00:48:19.234938+00:00"
   },
   {
     "id": "8974d76ea4a53ac1092c",
@@ -13515,7 +13531,8 @@
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "FC Andorra goalkeeper Jesús Owono is training on his own at the club's facilities, with no date set for his return to the team.\nOwono, who is serving a 12-match suspension for the challenge that led to the death of Tenerife forward Jesús De Miguel, has been having individual workout sessions at the club's headquarters since last week.\nOwono made his first public appearance since the fatal collision on Friday when he attended Andorra's home league game against Leganés, where a minute's silence was observed for De Miguel prior to kick off.\nDe Miguel, 30, died on Nov. 3 after he suffered a cardiac arrest following an on-field collision with Owono during a Spanish second division game.\nFollowing De Miguel's death, Owono, 25, requested to be left out of Equatorial Guinea 's 2027 Africa Cup of Nations qualifiers this month.\n- Gerard Piqué criticizes 12-match ban for Jesús Owono after Jesús de Miguel death - Erling Haaland: When Man City don't win 'you start questioning everything'\nAndorra have not announced when Owono will return to training with the rest of his teammates.\nAndorra owner Gerard Piqué recently admitted that Jesús \" will need more than 12 matches before he is ready and able to compete.\"\nBut Piqué also criticized the length of the suspension: \"My take on all this is that the 12-match ban imposed on Jesús Owono effectively blames him for consequences for which he was not at fault. I believe a sanction should be based on the action itself, not on the consequences.\nPiqué's verdict was criticized by Tenerife coach Álvaro Cervera, who said : \"In my immediate circle, outside of football, there are people who see these events differently... But I think he [Piqué] should look at the action itself. I haven't spoken out publicly, nor do I intend to, but I think it could have been avoided; I don't think it's the sort of thing we see every day, as he seems to suggest.\"\nAndorra coach Carles Manso previously said that the decision about when -- and if -- to return would be Owono's.\n\"He is deeply affected by the situation,\" Manso said. \"We will give him the space to feel completely free to decide whether, and when, he might want to return. He can make that decision whenever he feels the time is right and he truly feels prepared to do so.\"\nOwono called the aftermath of the incident \"the most difficult days of my life\" and added: \"I struggle to find the words, and it is very hard for me to process anything that has happened.\n\"I feel an immense amount of pain over the loss of Jesús. My thoughts are with him, his family, and everyone who loved him.\n\"I know there will be many issues to address. I will face whatever comes with the utmost respect. Right now, honestly, I cannot think of anything other than Jesús and the pain we are all experiencing. Rest in peace, Jesús.\""
   },
   {
     "id": "88f75405686714112d46",
@@ -13822,11 +13839,31 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-25T12:40:18.580753+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Isobel Goodwin",
+    "visual_entities": {
+      "personas": [
+        "Isobel Goodwin",
+        "London City Lionesses",
+        "Sarina Wiegman"
+      ],
+      "clubes": [
+        "London City Lionesses"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "London"
+      ]
+    },
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "Isobel Goodwin es llamada a la selección de Inglaterra",
+    "caption": "Isobel Goodwin admitió que el bowling se le alteró un poco. El seleccionador inglés la invitó para su primer llamado internacional. Anotó con precisión en Emirates este mes.",
+    "ai_generated_at": "2026-11-26T00:48:19.234938+00:00"
   },
   {
     "id": "20642e28a5435e5ebba9",
@@ -13839,11 +13876,29 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-25T12:43:28.589744+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Max Verstappen",
+    "visual_entities": {
+      "personas": [
+        "Max Verstappen"
+      ],
+      "clubes": [],
+      "competicion": [
+        "Fórmula 1"
+      ],
+      "ciudad": [
+        "Imola"
+      ]
+    },
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "Max Verstappen preferiría quedarse en casa antes de Oriente Medio",
+    "caption": "Max Verstappen admitió que preferiría quedarse en casa antes de la temporada 2026 en Oriente Medio. La Fórmula 1 informó que no necesitaba el circuito de Imola como plan B.",
+    "ai_generated_at": "2026-11-26T00:48:19.234938+00:00"
   },
   {
     "id": "0b4cee51ee2195030051",
@@ -13856,11 +13911,25 @@
     "sport": "TENIS",
     "score": 26,
     "queued_at": "2026-11-25T12:46:49.653275+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Arthur Rinderknech",
+    "visual_entities": {
+      "personas": [
+        "Arthur Rinderknech"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "Arthur Rinderknech es acusado de negarse a control antidopaje",
+    "caption": "El tenista francés Arthur Rinderknech fue acusado por la Agencia Internacional de Integridad del Tenis de negarse a entregar una muestra de dopaje. Podrá seguir compitiendo mientras se resuelve su caso, según informaron los investigadores del deporte.",
+    "ai_generated_at": "2026-11-26T00:48:19.234938+00:00"
   },
   {
     "id": "7ed2368f057fd4b3cd1d",
