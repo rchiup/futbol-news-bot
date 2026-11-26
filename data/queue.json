@@ -19937,7 +19937,15 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Liverpool gana ambos derbis de Merseyside en 2025-26",
     "caption": "El Liverpool se impuso en los dos clásicos contra Everton en la temporada 2025-26 de la Premier League. La próxima jornada verá a Arsenal recibir a Manchester City y a Everton volver a enfrentar al Liverpool.",
-    "ai_generated_at": "2026-11-26T13:18:22.977395+00:00"
+    "ai_generated_at": "2026-11-26T13:18:22.977395+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "PremierLeague"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "0c71629f30ca9d7f8c20",
@@ -19993,7 +20001,18 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Manchester United, Liverpool y Tottenham usan a Wiggin contra City",
     "caption": "Manchester United, Liverpool y Tottenham han contratado a la firma Wiggin para preparar una demanda contra el Manchester City por presunta infracción de las normas financieras de la Premier League. Según el resumen, la reclamación podría ascender a cientos de millones de libras. Arsenal, por su parte, está trabajando con sus abogados internos HFS Kramer.",
-    "ai_generated_at": "2026-11-26T14:11:24.316840+00:00"
+    "ai_generated_at": "2026-11-26T14:11:24.316840+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "ManchesterUnited",
+        "Liverpool",
+        "Tottenham",
+        "ManchesterCity"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "26fce2c22766c5a3ce94",
@@ -20024,7 +20043,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-26T13:03:45.057234+00:00",
+    "photo_checked_at": "2026-11-26T15:14:10.727420+00:00",
     "reel_quality": {
       "version": 2,
       "duration": 19.7,
@@ -20038,7 +20057,14 @@
     "zernio_youtube_status": "published",
     "zernio_youtube_id": "6b082e446fbd49d565323445",
     "zernio_youtube_url": "https://www.youtube.com/watch?v=Rr0DKZ4Dp6c",
-    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712464975414971654"
+    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712464975414971654",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "634e17c36053740f48b6",
@@ -20075,7 +20101,17 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "River se prepara para cuartos del Clausura contra Instituto",
     "caption": "River continúa su preparación para el mata‑mata de cuartos del Clausura frente a Instituto, partido confirmado en Alta Córdoba este sábado a las 22:00. Leonardo Ponzio reincorporará a Gonzalo Montiel en el lateral derecho y espera la novedad sobre Lucas Beltrán, Marcos Acuña y el regreso complicado de Fausto Vera.",
-    "ai_generated_at": "2026-11-26T12:48:58.334713+00:00"
+    "ai_generated_at": "2026-11-26T12:48:58.334713+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "LeonardoPonzio",
+        "River",
+        "Instituto"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "660f3d8511d36b3c1945",
@@ -20210,7 +20246,7 @@
     "headline": "Berti planea reunirse con dirigentes tras eliminación ante Boca",
     "caption": "El técnico de Independiente Rivadavia, Berti, analizó la derrota 2‑0 ante Boca en la Bombonera y anunció que se reunirá con los dirigentes para definir el futuro del plantel. Valoró el año como altamente positivo y advirtió que es probable que varios futbolistas dejen el club tras los octavos del Clausura.",
     "ai_generated_at": "2026-11-26T13:05:59.172849+00:00",
-    "photo_checked_at": "2026-11-26T13:35:53.811850+00:00",
+    "photo_checked_at": "2026-11-26T15:14:09.140988+00:00",
     "portrait_info": null,
     "reel_quality": {
       "version": 2,
@@ -20225,7 +20261,18 @@
     "zernio_youtube_status": "published",
     "zernio_youtube_id": "6b0835c9cbf0b638cae0e45f",
     "zernio_youtube_url": "https://www.youtube.com/watch?v=YqKKBFv5k_8",
-    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712473473716866324"
+    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712473473716866324",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "Berti",
+        "Boca",
+        "IndependienteRivadavia",
+        "Clausura"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "4f02e00149a2d5ca90cf",
@@ -20310,7 +20357,7 @@
     "headline": "Estudiantes y Palmeiras disputarán récord de 25 millones en la Libertadores",
     "caption": "El campeón de la Copa Libertadores 2026 recibirá 25 millones de dólares, mientras que el subcampeón obtendrá 7 millones. El duelo entre Estudiantes y Palmeiras se jugará este sábado a las 17:00 en el Estadio Centenario de Montevideo, superando en un millón el premio del año anterior.",
     "ai_generated_at": "2026-11-26T13:54:54.098304+00:00",
-    "photo_checked_at": "2026-11-26T14:06:50.836360+00:00",
+    "photo_checked_at": "2026-11-26T15:14:07.387174+00:00",
     "reel_quality": {
       "version": 2,
       "duration": 15.4,
@@ -20324,7 +20371,16 @@
     "zernio_youtube_status": "published",
     "zernio_youtube_id": "6b083d0f8e86ed2bb4bacd1f",
     "zernio_youtube_url": "https://www.youtube.com/watch?v=XcFn6ED49Aw",
-    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712481488616426758"
+    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712481488616426758",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "Estudiantes",
+        "Palmeiras"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "bdd44647de1380c2b463",
@@ -20358,7 +20414,16 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "River Plate buscará romper la pared de cuartos ante Instituto",
     "caption": "River Plate se enfrentará a Instituto en los cuartos de final en el Monumental de Alta Córdoba, intentando romper la histórica \"pared\" que le ha costado siete eliminaciones en la última década. El equipo dirigido por Leonardo Ponzio llega tras vencer a Gimnasia 2‑0 en el Apertura 2026 y busca asegurar un puesto en la Libertadores 2027.",
-    "ai_generated_at": "2026-11-26T14:01:27.264440+00:00"
+    "ai_generated_at": "2026-11-26T14:01:27.264440+00:00",
+    "photo_checked_at": "2026-11-26T15:14:07.792400+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "Instituto"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "62c3b115ccce13929a25",
@@ -20481,7 +20546,17 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Aston Martin busca superar Las Vegas, Krack apunta a mejora en Qatar",
     "caption": "Aston Martin quiere dejar atrás el fin de semana complicado en Las Vegas y confía en que el equipo mejore en el Gran Premio de Qatar. Mike Krack señala que el circuito de Losail difiere mucho del de Las Vegas, lo que le permite al equipo estar en una posición más favorable, aunque admite que aún es incierto el nivel exacto que alcanzarán.",
-    "ai_generated_at": "2026-11-26T14:20:56.919895+00:00"
+    "ai_generated_at": "2026-11-26T14:20:56.919895+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Formula1",
+        "MikeKrack",
+        "AstonMartin",
+        "GranPremiodeQatar"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "f76d232f9bf168819314",
@@ -20567,7 +20642,7 @@
     "headline": "River recupera a Acuña y Beltrán para enfrentar a Instituto",
     "caption": "River incorporó a Marcos Acuña y Lucas Beltrán en la práctica y se perfilan para el partido contra Instituto. El técnico Leonardo Ponzio confirmó la noticia en la preparación del cuartelazo del Clausura.",
     "ai_generated_at": "2026-11-26T14:30:24.903997+00:00",
-    "photo_checked_at": "2026-11-26T14:38:31.242485+00:00",
+    "photo_checked_at": "2026-11-26T15:14:06.281226+00:00",
     "reel_quality": {
       "version": 2,
       "duration": 10.4,
@@ -20581,7 +20656,16 @@
     "zernio_youtube_status": "published",
     "zernio_youtube_id": "6b084473686ab07b61636255",
     "zernio_youtube_url": "https://www.youtube.com/watch?v=22TMbnp_nDQ",
-    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712489570054573313"
+    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712489570054573313",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "Instituto",
+        "Clausura"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "9882ca5b6833bda70b1d",
@@ -20680,7 +20764,15 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Miguel Merentiel igualó a Marcelo Delgado en la Bombonera",
     "caption": "Miguel Merentiel anotó su gol 28 en La Bombonera, quedando a la par del histórico Marcelo Delgado. Lo logró en 80 partidos, a cuatro tantos del top 20 de goleadores de Boca, tras el 2‑0 ante Independiente Rivadavia en los octavos del Clausura. Próximo objetivo: alcanzar los 30 tantos de Alfredo Hugo Rojas.",
-    "ai_generated_at": "2026-11-26T15:06:08.186273+00:00"
+    "ai_generated_at": "2026-11-26T15:06:08.186273+00:00",
+    "photo_checked_at": "2026-11-26T15:14:05.843152+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "6608e2522cb3410bda16",
@@ -20743,7 +20835,15 @@
     "zernio_tiktok_id": "6b084bafc690f9eb340367f5",
     "zernio_youtube_status": "failed",
     "zernio_youtube_id": "6b084bb247655b1336f2d79e",
-    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712497594517359893"
+    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712497594517359893",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "Concacafqualifiers"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "ce5c9d1fc9ef85e5f546",
@@ -20825,6 +20925,23 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-26T15:08:38.514492+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "eb142f8f899a7bd62c43",
+    "title": "Fernando Belasteguín: del Colapinto “tiene que hacerse la cama” al por qué de la abstinencia sexual antes de las carreras",
+    "source_url": "https://www.ole.com.ar/autos/fernando-belasteguin-estrictas-normas-preparacion-deportiva-franco-colapinto-rendir-formula-1-hacer-cama-abstinencia-sexual-video-entrevista_0_ZJLYipoSl3.html",
+    "source": "Olé Argentina",
+    "description": "El ex número 1 del pádel mundial reveló detalles rigurosas conductas de la preparación deportiva del piloto argentino para rendir en la Fórmula 1.",
+    "published_at": "2026-11-26T14:57:22+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T15:13:21.671553+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
