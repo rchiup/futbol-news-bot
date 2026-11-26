@@ -23355,5 +23355,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "9ea3d270f304045bbf35",
+    "title": "Tras hacer historia en la Primera C, Gabriel Torres asume en San Miguel para liderar la reconstrucción",
+    "source_url": "https://www.ole.com.ar/futbol-ascenso/primera-nacional-b-san-miguel-peter-torres-ascenso_0_B9Rirp7ClU.html",
+    "source": "Olé Argentina",
+    "description": "El nuevo DT firmará su contrato este viernes y el lunes comenzará tareas en Polvorines, con la misión de rearmar el plantel del Trueno Verde tras el descenso a Primera B.",
+    "published_at": "2026-11-26T21:45:11+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T21:57:30.106013+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
