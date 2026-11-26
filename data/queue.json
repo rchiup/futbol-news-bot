@@ -22828,5 +22828,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "49e78b63a138d44f8ecb",
+    "title": "¿Cambia de deporte? Colapinto jugó al básquet en la previa del GP de Qatar",
+    "source_url": "https://www.ole.com.ar/autos/franco-colapinto-cambio-deporte-basquet-aro-pierre-gasly_0_LZ79eyKxbR.html",
+    "source": "Olé Argentina",
+    "description": "El argentino se animó a tirar al aro y realizó una pequeña competencia contra Pierre Gasly, su compañero de equipo en Alpine. Mirá cómo le fue.",
+    "published_at": "2026-11-26T20:14:19+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T20:23:39.337796+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
