@@ -916,8 +916,8 @@ def run(reference: datetime | None = None, session=None) -> dict:
                                                  or is_low_interest(item)):
                 item["status"] = "needs_review"
                 continue
-            if not item.get("match_result") and item.get("llm_provider") in {None, "source_brief"}:
-                continue  # Raw RSS sentences are not publishable copy.
+            if not item.get("match_result") and item.get("llm_provider") in {None, "source_brief"} and not item.get("ai_generated_at"):
+                continue  # Require verified edited copy, including older drafts.
             if not item.get("match_result") and recent_from_source(queue, item.get("source", ""), reference) >= MAX_PER_SOURCE_6H:
                 continue  # Avoid one outlet flooding the feed; retry next run.
             if not item.get("match_result") and news_missing_critical_details(item):
@@ -972,7 +972,8 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 if not item.get("photo_used"):
                     print(f"[PHOTO] Using original typographic cover: {item['id']}")
                 if (os.getenv("REQUIRE_SUBJECT_PHOTO", "").lower() == "true"
-                        and not item.get("portrait_used")):
+                        and not item.get("portrait_used") and not item.get("match_result")
+                        and not (os.getenv("ENABLE_REELS", "").lower() == "true" and format_due(queue, reference, "reel", 60))):
                     print(f"[PHOTO] Waiting for a verified subject portrait: {item['id']}")
                     continue
                 photo_required_missing = REQUIRE_PHOTO and not item.get("match_result") and not item.get("photo_used")
@@ -1010,7 +1011,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     item["reel_video_url"] = upload_public_video(video_path, item["id"])
                     save_queue(queue)
                     buffer_publish.crosspost(item, item["reel_video_url"], caption, persist=lambda: save_queue(queue))
-                    if remaining_meta_slots <= 0 or editorial_cap_reached:
+                    if remaining_meta_slots <= 0 or editorial_cap_reached or photo_required_missing:
                         item["status"] = "crossposted_only"
                         save_queue(queue)
                         published_count += 1
