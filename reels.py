@@ -14,9 +14,6 @@ def narration(item):
     # Use the already validated Spanish caption, never generate additional facts.
     text = re.sub(r"https?://\S+|[@#]\w+", "", str(item.get("caption") or item.get("headline") or ""))
     text = re.sub(r"\s+", " ", text).strip()
-    hook = str(item.get("headline") or "").strip().rstrip(".!?")
-    if hook and hook.casefold() not in text[:len(hook)+10].casefold():
-        text = hook + ". " + text
     sentences = re.split(r"(?<=[.!?])\s+", text)
     selected=[]
     for sentence in sentences:
