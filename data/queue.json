@@ -22156,5 +22156,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "0a1452812cb91bbaa2f2",
+    "title": "Gaudio habló tras las amenazas: \"Sabía dónde me estaba metiendo\" y \"me doy cuenta que voy bien\"",
+    "source_url": "https://www.ole.com.ar/independiente/gaston-gaudio-independiente-amenzanas-familia-elecciones_0_NszzmzlARz.html",
+    "source": "Olé Argentina",
+    "description": "El candidato a presidente de Independiente se expresó en torno a la bandera que apareció a pocos días de las elecciones del rojo. \"Cuando llegué a mi casa estaba mi mujer llorando\", contó.",
+    "published_at": "2026-11-26T18:25:31+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T18:32:19.417857+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
