@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-26T01:46:36.651044+00:00",
+  "checked_at_utc": "2026-11-26T01:48:00.766795+00:00",
   "local_hour": 22,
   "statuses": {
     "published": 157,
@@ -62,9 +62,9 @@
         "last_error": "invalid_output"
       },
       "cloudflare": {
-        "attempts": 48,
+        "attempts": 51,
         "success": 5,
-        "failures": 43,
+        "failures": 46,
         "avg_latency_ms": 2684,
         "avg_readability": 97.0,
         "last_error": "invalid_output"
