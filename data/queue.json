@@ -20309,5 +20309,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "7457c1ce6143e3c6009c",
+    "title": "Zverev too good for Fery in Davis Cup quarter-final",
+    "source_url": "https://www.bbc.co.uk/sport/tennis/videos/c8p3vez6zzz4o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Tennis",
+    "description": "World number one Alexander Zverev shows his class as he comfortably beats Great Britain's Arthur Fery in straight sets to draw Germany level at 1-1 in their Davis Cup quarter final tie.",
+    "published_at": "2026-11-26T13:28:11+00:00",
+    "category": "TENIS",
+    "sport": "TENIS",
+    "score": 26,
+    "queued_at": "2026-11-26T13:30:25.304424+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
