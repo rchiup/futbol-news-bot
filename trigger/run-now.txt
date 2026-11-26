@@ -108,3 +108,5 @@ Independent video lane verification
 Test new editorial and vertical video design
 
 Verify narration regression fix
+
+Quality gate regression verification
