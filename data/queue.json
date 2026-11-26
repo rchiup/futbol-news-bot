@@ -19833,7 +19833,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-26T15:19:30.244114+00:00",
+    "photo_checked_at": "2026-11-26T15:42:20.562236+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -19878,7 +19878,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-26T15:16:50.878053+00:00",
+    "photo_checked_at": "2026-11-26T15:42:20.150203+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -19946,7 +19946,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-26T15:16:48.089043+00:00"
+    "photo_checked_at": "2026-11-26T15:42:19.104636+00:00"
   },
   {
     "id": "0c71629f30ca9d7f8c20",
@@ -20014,7 +20014,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-26T15:16:48.573597+00:00"
+    "photo_checked_at": "2026-11-26T15:42:19.414167+00:00"
   },
   {
     "id": "26fce2c22766c5a3ce94",
@@ -20114,7 +20114,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-26T15:16:46.387379+00:00"
+    "photo_checked_at": "2026-11-26T15:42:18.515458+00:00"
   },
   {
     "id": "660f3d8511d36b3c1945",
@@ -20560,7 +20560,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-26T15:16:49.656828+00:00"
+    "photo_checked_at": "2026-11-26T15:42:19.576851+00:00"
   },
   {
     "id": "f76d232f9bf168819314",
@@ -21047,7 +21047,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-26T15:34:44.763680+00:00",
+    "photo_checked_at": "2026-11-26T15:41:58.383034+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -21058,7 +21058,19 @@
         "Racing"
       ],
       "mentions": []
-    }
+    },
+    "reel_quality": {
+      "version": 2,
+      "duration": 13.6,
+      "mean_db": -19.2
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795707728/football-news-bot/reels/f94a8a37697c4c0812f3.mp4",
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-26T15:40:41.363809+00:00",
+    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_id": "6b085352e39d14038b7ba735",
+    "buffer_youtube_status": "error",
+    "buffer_youtube_id": "6b0853559f3ae7d1657a763d"
   },
   {
     "id": "89dac60aeb98f887a36d",
