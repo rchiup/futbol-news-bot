@@ -19128,7 +19128,7 @@
     "headline": "Todos los pilotos y equipos de la F1 para 2027: ¡parrilla cerrada!",
     "caption": "La parrilla de la Fórmula 1 para 2027 ya está completa. (Motorsport F1)",
     "ai_generated_at": "2026-11-26T17:48:28.558828+00:00",
-    "photo_checked_at": "2026-11-26T18:14:14.347251+00:00",
+    "photo_checked_at": "2026-11-26T18:37:24.829500+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -20985,7 +20985,7 @@
     "headline": "Confirmado: Jannik Sinner se perderá el Australian Open",
     "caption": "La baja del tenista italiano, quien fue operado el pasado martes de la rodilla derecha, fue anunciada por los organizadores del primer Grand Slam del año. (Olé Argentina)",
     "ai_generated_at": "2026-11-26T17:48:28.558828+00:00",
-    "photo_checked_at": "2026-11-26T18:14:12.126452+00:00",
+    "photo_checked_at": "2026-11-26T18:37:22.380367+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -21021,7 +21021,7 @@
     "headline": "Antonelli tiene un objetivo claro para Qatar: \"Será clave clasificar bien\"",
     "caption": "Aún no se ha superado del todo la decepción de Las Vegas. (Motorsport F1)",
     "ai_generated_at": "2026-11-26T17:48:28.558828+00:00",
-    "photo_checked_at": "2026-11-26T18:14:11.972389+00:00",
+    "photo_checked_at": "2026-11-26T18:37:22.220552+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -21544,7 +21544,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T16:38:47.829822+00:00",
-    "status": "draft",
+    "status": "published",
     "visual_subject": "David Corrêa da Fonseca",
     "visual_entities": {
       "personas": [
@@ -21587,13 +21587,15 @@
       "mean_db": -19.3
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795711550/football-news-bot/reels/899a36423af0b1f7c80d.mp4",
-    "publish_format": "reel",
-    "format_attempt_at": "2026-11-26T16:44:09.748173+00:00",
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-26T18:34:45.988025+00:00",
     "zernio_tiktok_status": "published",
     "zernio_tiktok_id": "6b08623f20ea9237c953cb26",
     "buffer_youtube_status": "error",
     "buffer_youtube_id": "6b0862440f76477d8d0783ff",
-    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712522391368273173"
+    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712522391368273173",
+    "posted_at": "2026-11-26T18:34:45.988025+00:00",
+    "instagram_media_id": "18659591563031829"
   },
   {
     "id": "c0ebaaa7707c6796ea25",
@@ -22106,7 +22108,7 @@
       "photo_provider": "Curated Commons",
       "verified": "2026-11-23"
     },
-    "photo_checked_at": "2026-11-26T18:24:07.582584+00:00",
+    "photo_checked_at": "2026-11-26T18:35:53.926263+00:00",
     "visual_mode": "licensed_photo",
     "photo_credit_full": "📷 Foto: Bryan Berlin / WikiPortraits · CC BY-SA 4.0 · Wikimedia Commons (recorte y edición). https://commons.wikimedia.org/wiki/File:Thiago_Almada_Argentina_v_Spain_19_July_2026-025.jpg · https://creativecommons.org/licenses/by-sa/4.0/ · Gráfica adaptada bajo la misma licencia CC BY-SA.",
     "promotion": {
@@ -22118,10 +22120,20 @@
       ],
       "mentions": []
     },
-    "publish_format": "image",
-    "format_attempt_at": "2026-11-26T18:22:41.732484+00:00",
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-26T18:34:45.988025+00:00",
     "posted_at": "2026-11-26T18:22:41.732484+00:00",
-    "instagram_media_id": "18362834230223885"
+    "instagram_media_id": "18362834230223885",
+    "reel_quality": {
+      "version": 2,
+      "duration": 13.4,
+      "mean_db": -19.5
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795718205/football-news-bot/reels/b25281d9efbfa1716847.mp4",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b087c40f0a96d0f217f27c4",
+    "buffer_youtube_status": "error",
+    "buffer_youtube_id": "6b087c43ce64081689e2cbe8"
   },
   {
     "id": "d33940c1a152f9cc8280",
