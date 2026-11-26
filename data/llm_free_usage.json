@@ -2,11 +2,10 @@
   "date_utc": "2026-11-26",
   "providers": {
     "groq": {
-      "attempts": 148,
-      "success": 36,
-      "failures": 112,
+      "attempts": 150,
+      "success": 37,
+      "failures": 113,
       "latencies_ms": [
-        5740,
         3247,
         2399,
         2038,
@@ -35,7 +34,8 @@
         2676,
         2618,
         2020,
-        3082
+        3082,
+        1704
       ],
       "quality": [
         100,
@@ -44,7 +44,6 @@
         100,
         100,
         100,
-        100,
         85,
         100,
         100,
@@ -63,6 +62,7 @@
         85,
         100,
         85,
+        100,
         100,
         100,
         100,
@@ -70,7 +70,7 @@
         100
       ],
       "last_error": "http_429",
-      "blocked_until_utc": 1795714761
+      "blocked_until_utc": 1795715631
     },
     "gemini": {
       "attempts": 20,
