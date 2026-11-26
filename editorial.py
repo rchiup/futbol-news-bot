@@ -398,7 +398,7 @@ def ai_messages(item: dict) -> list[dict]:
         "Frase 2-3: contexto útil y concreto que no esté en el titular (qué se juega, próximo partido, antecedente). "
         "NO termines con preguntas retóricas ni frases de relleno: prohibido '¿Será suficiente...?', '¿Podrá...?', '¿Logrará...?', "
         "'queda por ver', 'el tiempo dirá', 'la pregunta queda en el aire', 'sin duda', 'en un giro inesperado', 'da que hablar', 'sacude'. "
-        "Nada de opiniones inventadas ni polémica forzada. En lesiones, muertes y tragedias, tono sobrio.\n"
+        "Busca el conflicto real: decisiones arbitrales discutidas, errores decisivos, rivalidades, fichajes y declaraciones fuertes. Titula con tensión y consecuencias concretas, sin exagerar ni inventar polémicas. Distingue opinión editorial de hechos. En lesiones, muertes y tragedias, tono sobrio.\n"
         "IDIOMA: reformula en español idiomático, sin calcos del inglés ni posesivos con apóstrofe. Conserva nombres propios y siglas. "
         "Ejemplos buenos: 'Yamal será baja por molestias en el tobillo', 'Barcelona apelará la sanción de dos fechas a Fermín López'.\n"
         "visual_subject: SOLO nombre y apellido de la persona protagonista mencionada textualmente en el titular o resumen ORIGINAL, o cadena vacía. "
@@ -865,10 +865,10 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 break
 
     # Independent cross-platform video lane: no Instagram quota or photo gate.
-    print("[CROSSPOST] Hourly video due="+str(format_due(queue, reference, "reel", 60)))
-    if session is None and os.getenv("ENABLE_PUBLISH", "").lower() == "true" and os.getenv("AUTO_APPROVE", "").lower() == "true" and os.getenv("ENABLE_REELS", "").lower() == "true" and format_due(queue, reference, "reel", 60):
+    print("[CROSSPOST] 30-minute video due="+str(format_due(queue, reference, "reel", 30)))
+    if session is None and os.getenv("ENABLE_PUBLISH", "").lower() == "true" and os.getenv("AUTO_APPROVE", "").lower() == "true" and os.getenv("ENABLE_REELS", "").lower() == "true" and format_due(queue, reference, "reel", 30):
         from publisher import upload_public_video
-        for candidate in sorted(queue, key=lambda x: (bool(x.get("match_result")), novelty_priority(x, reference)), reverse=True):
+        for candidate in sorted(queue, key=lambda x: (bool(x.get("match_result")), (bool(re.search(r"(?i)\b(VAR|polémic\w*|roja|penal|escándalo|controvers\w*|derrota|despido|fichaje|rivalidad)\b", str(x.get("headline",""))+" "+str(x.get("caption","")))), novelty_priority(x, reference))), reverse=True):
             if candidate.get("status") not in {"draft", "published"} or candidate.get("publish_format") == "reel" or any(candidate.get(p+"_"+platform+"_status") for p in ("buffer","zernio") for platform in ("tiktok","youtube")):
                 continue
             date = parse_iso(candidate.get("published_at", ""))
@@ -921,7 +921,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
             if published_count >= allowed_this_run:
                 break
             editorial_cap_reached = rolling_post_count(queue, reference) >= POSTS_PER_DAY
-            if not item.get("match_result") and editorial_cap_reached and not (os.getenv("ENABLE_REELS", "").lower() == "true" and format_due(queue, reference, "reel", 60)):
+            if not item.get("match_result") and editorial_cap_reached and not (os.getenv("ENABLE_REELS", "").lower() == "true" and format_due(queue, reference, "reel", 30)):
                 break
             if str(item.get("id", "")).startswith("reel-launch-"):
                 continue  # Old one-off launch items are never republished.
@@ -1003,7 +1003,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     print(f"[PHOTO] Using original typographic cover: {item['id']}")
                 if (os.getenv("REQUIRE_SUBJECT_PHOTO", "").lower() == "true"
                         and not item.get("portrait_used") and not item.get("match_result")
-                        and not (os.getenv("ENABLE_REELS", "").lower() == "true" and format_due(queue, reference, "reel", 60))):
+                        and not (os.getenv("ENABLE_REELS", "").lower() == "true" and format_due(queue, reference, "reel", 30))):
                     print(f"[PHOTO] Waiting for a verified subject portrait: {item['id']}")
                     continue
                 photo_required_missing = REQUIRE_PHOTO and not item.get("match_result") and not item.get("photo_used")
@@ -1021,7 +1021,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 item.pop("photo_deferred_reason", None)
                 caption = append_promotion(caption, item)
                 video_path = None
-                if not item.get("match_result") and os.getenv("ENABLE_REELS", "").lower() == "true" and format_due(queue, reference, "reel", 60) and (reels.eligible(item) or (photo_required_missing and len(reels.narration(item)) >= 2)):
+                if not item.get("match_result") and os.getenv("ENABLE_REELS", "").lower() == "true" and format_due(queue, reference, "reel", 30) and (reels.eligible(item) or (photo_required_missing and len(reels.narration(item)) >= 2)):
                     try:
                         video_path = reels.render(item, path if not item.get("photo_used") else ROOT / "output" / "portraits" / (item["id"] + ".jpg"), ROOT / "output" / "reels" / (item["id"] + ".mp4"), BRAND)
                     except Exception as render_exc:
