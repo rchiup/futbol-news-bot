@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-26T01:49:38.518997+00:00",
+  "checked_at_utc": "2026-11-26T01:52:16.095691+00:00",
   "local_hour": 22,
   "statuses": {
     "published": 157,
@@ -9,7 +9,7 @@
     "publish_error": 27,
     "duplicate": 53
   },
-  "fresh_candidates": 154,
+  "fresh_candidates": 200,
   "queued_new": 0,
   "ai_generated": 0,
   "preview_images": 5,
@@ -62,9 +62,9 @@
         "last_error": "invalid_output"
       },
       "cloudflare": {
-        "attempts": 54,
+        "attempts": 57,
         "success": 5,
-        "failures": 49,
+        "failures": 52,
         "avg_latency_ms": 2684,
         "avg_readability": 97.0,
         "last_error": "invalid_output"
