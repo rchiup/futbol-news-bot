@@ -13110,5 +13110,21 @@
     "source": "Football News, Transfers, Opinion - talkSPORT",
     "collected_at": "2026-11-26T22:58:56.299372+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "fa3ad3abc9c6b93a17f8ccaba5e3a1f366b20d322fbbe7d0b49f424284d6c798",
+    "title": "Bournemouth set new English record in Europe with 5th straight win",
+    "url": "https://www.espn.com/soccer/story/_/id/50606618/bournemouth-uefa-europa-league-record-english-europe",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-26T23:03:45.473301+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "764e93cb544615405be82bd1ce74a54afa4ee62ad073c80103ff8e7607050c16",
+    "title": "76ers' Brown (hamstring) out Friday against Pacers",
+    "url": "https://www.espn.com/nba/story/_/id/50606614/76ers-jaylen-brown-hamstring-friday-pacers",
+    "source": "www.espn.com - NBA",
+    "collected_at": "2026-11-26T23:03:46.922527+00:00",
+    "status": "pending_review"
   }
 ]

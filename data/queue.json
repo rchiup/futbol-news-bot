@@ -23699,5 +23699,39 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "764e93cb544615405be8",
+    "title": "76ers' Brown (hamstring) out Friday against Pacers",
+    "source_url": "https://www.espn.com/nba/story/_/id/50606614/76ers-jaylen-brown-hamstring-friday-pacers",
+    "source": "ESPN NBA",
+    "description": "The 76ers' Jaylen Brown (hamstring) is out for Friday's NBA Cup game against the Pacers. Joel Embiid (illness) is questionable.",
+    "published_at": "2026-11-26T22:28:39+00:00",
+    "category": "NBA",
+    "sport": "NBA",
+    "score": 26,
+    "queued_at": "2026-11-26T23:03:47.952614+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "fa3ad3abc9c6b93a17f8",
+    "title": "Bournemouth set new English record in Europe with 5th straight win",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50606618/bournemouth-uefa-europa-league-record-english-europe",
+    "source": "ESPN",
+    "description": "Bournemouth's dream Europa League start continued on Thursday as the south-coast club set a new record for a debuting English club in Europe.",
+    "published_at": "2026-11-26T22:36:04+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T23:03:47.952614+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
