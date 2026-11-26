@@ -12590,5 +12590,53 @@
     "source": "BBC Sport",
     "collected_at": "2026-11-26T19:22:51.833888+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "495075d69b6b840e8a68517e6ee19c47c49f65d84f0b47e02e3657109843afe1",
+    "title": "Fifa confirms cyber-attack exposed ‘personal and business information’",
+    "url": "https://www.theguardian.com/football/2026/nov/26/fifa-cyberattack-hack-personal-information",
+    "source": "Football | The Guardian",
+    "collected_at": "2026-11-26T19:27:31.644604+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "a2f8386ab345d30f8623f2d7ef9648e2b99fd12ddc4f8b3c730fa5a8d0771d84",
+    "title": "Fin de ciclo: Darío Franco dejó de ser el técnico de Gimnasia de Mendoza",
+    "url": "https://www.ole.com.ar/gimnasia-de-mendoza/fin-ciclo-dario-franco-dejo-tecnico-gimnasia-mendoza_0_fPTB4zapxe.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-26T19:27:32.877500+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "06e15930e576afbad16a37b5dec2a50c43f04663bd95388bf0c59fb8daf7ed95",
+    "title": "El futuro de Beltrán: el estado de la renovación y por qué no garantizaría una larga estadía en River",
+    "url": "https://www.ole.com.ar/river-plate/santiagobeltran-river-renovacion-fiorentina-juventus-leoponzio_0_sZ8hDoTobi.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-26T19:27:32.877518+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "b0fe17e408e4c5b213272da88791d3729657f726979ae61213b960eb01f331e0",
+    "title": "Escándalo en la Europa League: la policía reprimió a la hinchada del Besiktas tras desplegar una bandera de Palestina",
+    "url": "https://www.ole.com.ar/futbol-internacional/europa-league/violenta-represion-europa-league-besiktas-hapoel-beer-sheva-turquia-israel-palestina-bandera-paso-partido-suspendido-video_0_OPz2ThbKfE.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-26T19:27:32.877523+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "1bad0f768231c22a0c3ebedde2b3a0fa85fcbbb8fd291db9abc62b84b23635b4",
+    "title": "Cómo viene la renovación de Santiago Beltrán en River y el posible escenario para el 2027",
+    "url": "https://www.ole.com.ar/river-plate/river-plate-santiago-beltran-renovacion-contrato_0_MnNVK4Tki8.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-26T19:27:32.877528+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "d3e7dab3442badb610c525f3c0b435350ebec6220930b9b627011679d60f4711",
+    "title": "Black Friday 2026: consejos para cotizar, encontrar descuentos y evitar estafas",
+    "url": "https://www.cooperativa.cl/noticias/pais/consumidores/black-friday-2026-consejos-para-cotizar-encontrar-descuentos-y-evitar/2026-11-26/133642.html",
+    "source": "Cooperativa.cl: Noticias de Chile y el mundo - País, Deportes y más",
+    "collected_at": "2026-11-26T19:27:35.394784+00:00",
+    "status": "pending_review"
   }
 ]
