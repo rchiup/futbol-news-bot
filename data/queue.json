@@ -20342,5 +20342,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "b76d42493e7ff28247ae",
+    "title": "Estudiantes, de frente a la gloria",
+    "source_url": "https://www.ole.com.ar/opinion/estudiantes-aniversario-pasillo-espaldas-central-final-copa-libertadores-palmeiras_0_9DRAWIdbST.html",
+    "source": "Olé Argentina",
+    "description": "A un año del famoso pasillo de espaldas del Pincha a Central, qué pasó en el medio para que los platenses estén en una final histórica.",
+    "published_at": "2026-11-26T13:35:00+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T13:47:54.824768+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
