@@ -11782,5 +11782,37 @@
     "source": "www.espn.com - SOCCER",
     "collected_at": "2026-11-26T12:46:48.133602+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "4f02e00149a2d5ca90cfb334d0543ae0416876dd4599ba6317f87387be4a3c6d",
+    "title": "El particular cambio de Carlos Alcaraz en su juego que tiene el sello de una leyenda del tenis",
+    "url": "https://www.ole.com.ar/tenis/carlos-alcaraz-juego-sello-pete-sampras-pie-levantado-tecnica-leyenda-tenis_0_YJGUTg6uqe.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-26T12:53:40.141131+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "2d33ce43dae45120b1db509c1bd10a02787f78d0f167b7527f276bae02f87a36",
+    "title": "La FIFA denunció que fue víctima de un ciberataque que accedió a \"información personal y empresarial\"",
+    "url": "https://www.ole.com.ar/futbol-internacional/fifa-denuncio-victima-ciberataque-accedio-informacion-personal-empresarial_0_XDF47KRnMm.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-26T12:53:40.141152+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "f2c79d0cc14e8684c73041cced3cf0ca35fc1b135c7bf2cdf18f932a4f1fc982",
+    "title": "Tras la eliminación ante Boca, Berti ya piensa en el futuro: \"Me reuniré con los dirigentes y ver qué pretenden para un nuevo proceso\"",
+    "url": "https://www.ole.com.ar/independiente-rivadavia/alfredoberti-independienterivadavia-boca-torneoclausura_0_Ru0M6JxPbS.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-26T12:53:40.141160+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "3669096bd180525d2099f5da44df30d591636366b0a537ede77a27613fd4d2ab",
+    "title": "Mohamed le ganó el primer duelo a Crespo y sueña con despedirse campeón del Toluca",
+    "url": "https://www.ole.com.ar/futbol-internacional/antonio-mohamed-toluca-gana-hernan-crespo-atlas-cuartosdefinal-torneo-apertura-mexico_0_rpV6ixjnGQ.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-26T12:53:40.141165+00:00",
+    "status": "pending_review"
   }
 ]
