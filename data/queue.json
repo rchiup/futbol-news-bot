@@ -21867,7 +21867,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T17:42:17.307740+00:00",
-    "status": "draft",
+    "status": "published",
     "article_context": "La sede de la final de la Copa Argentina que afrontarán Boca y Platense se dio a conocer de manera oficial el miércoles: será el Madre de Ciudades de Santiago del Estero , que albergará el partido el 2 de diciembre a las 20:00. Una elección que no cayó nada bien en el Calamar , que este jueves emitió un comunicado a través de sus redes sociales en el que contó que había pedido que se juegue en la cancha de Rosario Central, en Capital Federal o en sus alrededores, por la complejidad de la logística para el viaje hasta la ciudad del noroeste argentino.\n\"El Club había acordado disputar el partido en el estadio de Rosario Central. Sin embargo, la empresa Torneos, que es quien organiza la Copa, notificó ayer el cambio de sede , motivado por la negativa del Gobierno de Santa Fe a prestar el servicio de seguridad. Ante esta situación, Platense se reunió en el día de hoy con los responsables de Torneos y solicitó que la final se disputara en la Ciudad de Buenos Aires o en sus alrededores , teniendo en cuenta que la logística para ambos clubes a Santiago del Estero es compleja, en un intento de facilitar el traslado y asistencia de nuestros socios e hinchas. Dicho pedido fue rechazado , debido a acuerdos comerciales asumidos por la empresa encargada de la organización\", detalló.\n\"Con la sede confirmada, el Club ya trabaja en distintas alternativas para que la mayor cantidad posible de Calamares pueda acompañar al equipo . Las novedades se informarán por los canales oficiales\", completó.\nLa final de la #CopaArgentina 🏆 se jugará el miércoles 2 de diciembre a las 20 hs en el estadio Madre de Ciudades de Santiago del Estero. El Club había acordado disputar el partido en el estadio de Rosario Central. Sin embargo, la empresa Torneos, que es quien organiza la Copa,… pic.twitter.com/dQKtdKyIfL\nEl Madre de Ciudades suele ser la sede habitual de las finales del torneo local . Sin ir más lejos, lo fue en el Apertura y en el Clausura 2025. También en las Copas de la Liga 2024 y 2023.\nEn la Copa Argentina, no lo era desde 2021 , cuando se enfrentaron Boca y Talleres y se impuso el Xeneize por penales (5-4).\nLa AFA confirmó también el equipo arbitral, que tendrá a Leandro Rey Hilfer como juez principal y a Silvio Trucco como encargado del VAR (también estará en Rosario Central-Barracas Central por los cuartos de Clausura).\nEl equipo del Vasco Arruabarrena afrontará también los cuartos de final del Clausura ante Gimnasia La Plata en la Bombonera (goza de la localía por haber finalizado en mejor posición en la fase regular), el domingo 29 de noviembre a las 20:30.\nEl conjunto de Martín Palermo, por su parte, no se clasificó a los mata-mata del Clausura , por lo que esta final ante Boca será su último desafío del año .\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
@@ -21903,7 +21903,11 @@
         "CopaArgentina"
       ],
       "mentions": []
-    }
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-26T18:44:55.717175+00:00",
+    "posted_at": "2026-11-26T18:44:55.717175+00:00",
+    "instagram_media_id": "18079162604760079"
   },
   {
     "id": "7e1fb969c13924e756c7",
