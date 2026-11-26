@@ -20704,5 +20704,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "ce5c9d1fc9ef85e5f546",
+    "title": "Confirmado: Jannik Sinner se perderá el Australian Open",
+    "source_url": "https://www.ole.com.ar/tenis/janniksinner-australianopen-grandslam_0_Lz30Mv8ttj.html",
+    "source": "Olé Argentina",
+    "description": "La baja del tenista italiano, quien fue operado el pasado martes de la rodilla derecha, fue anunciada por los organizadores del primer Grand Slam del año. Aún no hay fecha estimada para su vuelta a las canchas.",
+    "published_at": "2026-11-26T14:40:09+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 25,
+    "queued_at": "2026-11-26T14:47:36.468921+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
