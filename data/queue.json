@@ -20275,5 +20275,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "62c3b115ccce13929a25",
+    "title": "Not even making a 12-man bench - what next for Garnacho?",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/cr3wgd5exl0do?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Alejandro Garnacho's brief Aston Villa career already looks over, so what next for the 22-year-old?",
+    "published_at": "2026-11-26T13:23:05+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T13:25:44.006933+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
