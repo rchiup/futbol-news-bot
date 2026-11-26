@@ -19946,7 +19946,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-26T16:26:53.164001+00:00"
+    "photo_checked_at": "2026-11-26T16:52:56.300403+00:00"
   },
   {
     "id": "0c71629f30ca9d7f8c20",
@@ -20014,7 +20014,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-26T16:26:53.380053+00:00"
+    "photo_checked_at": "2026-11-26T16:52:56.747636+00:00"
   },
   {
     "id": "26fce2c22766c5a3ce94",
@@ -20253,7 +20253,7 @@
     "headline": "Berti planea reunirse con dirigentes tras eliminación ante Boca",
     "caption": "El técnico de Independiente Rivadavia, Berti, analizó la derrota 2‑0 ante Boca en la Bombonera y anunció que se reunirá con los dirigentes para definir el futuro del plantel. Valoró el año como altamente positivo y advirtió que es probable que varios futbolistas dejen el club tras los octavos del Clausura.",
     "ai_generated_at": "2026-11-26T13:05:59.172849+00:00",
-    "photo_checked_at": "2026-11-26T16:24:26.801834+00:00",
+    "photo_checked_at": "2026-11-26T16:52:55.944028+00:00",
     "portrait_info": null,
     "reel_quality": {
       "version": 2,
@@ -20564,7 +20564,8 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-26T16:26:52.768042+00:00"
+    "photo_checked_at": "2026-11-26T16:52:37.296240+00:00",
+    "portrait_info": null
   },
   {
     "id": "f76d232f9bf168819314",
@@ -21324,12 +21325,38 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T16:28:15.879167+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "article_context": "Fernando Batista y su último paso como DT de Costa Rica. EFE.\nHay una búsqueda en River que tiene bastante menos exposición que la de un refuerzo para la Primera pero que, proyectada en el tiempo, puede resultar igual de trascendente. O incluso más. Porque encontrar al sucesor de Gabriel Rodríguez , el hombre que durante 27 años de trabajo en Núñez contribuyó a moldear futbolistas de elite mundial , supone también depositar en alguien la responsabilidad de abastecer de talento al plantel profesional durante los próximos años. Y en ese proceso apareció el nombre de Fernando Batista .\nYa se dieron al menos dos conversaciones con el último entrenador de la selección de Costa Rica , cuyo perfil, tanto por su formación como por su experiencia específica en el cargo, es el que más seduce por estas horas en la órbita de Núñez. Allí donde ya se está proyectando el River 2027, con Stéfano Di Carlo naturalmente a la cabeza pero también con Pablo Longoria , su director deportivo, involucrado en la logística y en el diseño de las estructuras futbolísticas que pretende consolidar el club.\nEl Bocha, de 56 años, tiene un currículum en el que quizás los nombres propios tengan tanto peso como los títulos. Porque, más allá de sus últimas experiencias como entrenador de Venezuela y de Costa Rica -de donde se desvinculó el 28 de septiembre luego de cinco derrotas y un empate- , Batista hizo de la formación de futbolistas su especialidad. Una vocación que heredó de su padre y que desarrolló bajo la influencia de José Pekerman , quien lo había dirigido en las Inferiores de Argentinos Juniors.\nPrecisamente en La Paternal, donde coordinó el fútbol juvenil entre 2005 y 2016, fue uno de los responsables de la formación de una de las camadas más importantes de la historia reciente del Bicho: Nicolás González, los tres hermanos Mac Allister (Alexis, Kevin y Francis), Damián Batallini y Esteban Rolón , entre otros. A los hijos del Colorado, de hecho, los conocía desde sus tiempos en el Club Parque y fue quien los llevó a Argentinos.\nPero hay también un punto de conexión entre Batista y algunos de los exponentes más exitosos de la cantera de River. Porque el Bocha, que formó parte del actual ciclo de Lionel Scaloni en la Selección Argentina al mando del Sub 20, dirigió a Julián Álvarez en el Mundial de la categoría que se jugó en Polonia en 2019 y convocó a Enzo Fernández para trabajar en Ezeiza a fines de 2020 , cuando el volante empezaba a despuntar en Defensa y Justicia. Dos pibes que terminarían siendo campeones del mundo y por cuya formación en Núñez había trabajado Gabriel Rodríguez. Curiosa coincidencia.\nColaborador de Claudio Ubeda en la Sub 20 durante 2017 y con una experiencia posterior en las juveniles de Armenia, Batista asumió a finales de 2018 la conducción de los seleccionados juveniles argentinos. Fue subcampeón sudamericano Sub 20 en Chile, ganó la medalla dorada en los Panamericanos de Lima 2019 y se consagró en el Preolímpico de Colombia 2020, clasificando a la Argentina para los Juegos de Tokio.\nPor sus seleccionados también pasaron futbolistas como Thiago Almada, Facundo Medina, Nehuén Pérez, Leonardo Balerdi, Francisco Ortega, Aníbal Moreno y Fausto Vera. Y en sus diferentes etapas de trabajo en la estructura de la AFA coincidió con otros futuros campeones del mundo: Gonzalo Montiel, Cristian Romero, Lisandro Martínez, Nahuel Molina, Exequiel Palacios y Lautaro Martínez.\nEl Bocha, que en noviembre de 2021 dejó la AFA para acompañar a Pekerman en Venezuela y que posteriormente asumió la conducción plena de la Vinotinto, podría reencontrarse ahora con la esencia de su profesión. River busca quién se encargue de pulir a los futbolistas que todavía no tienen nombre para el gran público , pero que algún día podrían terminar en las portadas de los diarios. Y Batista sabe bastante de eso...\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "Gabriel Rodríguez"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": [
+        "Núñez"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "River Plate negocia con Fernando Batista para dirigir las inferiores",
+    "caption": "River Plate está en conversaciones con Fernando Batista para que dirija la categoría juvenil del club. El técnico, exselección de Costa Rica y formador de jugadores como los hermanos Mac Allister y Julián Álvarez, sería el sucesor de Gabriel Rodríguez en el proyecto River 2027.",
+    "ai_generated_at": "2026-11-26T16:51:06.511799+00:00",
+    "photo_checked_at": "2026-11-26T16:52:30.513753+00:00",
+    "portrait_info": null,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "GabrielRodriguez"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "dc33246771e78a630034",
@@ -21438,6 +21465,23 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-26T16:38:47.829822+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "3866459f2bb2d4ea0743",
+    "title": "Fofana has apologised for interview - Alonso",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/c5wy43j1l3rwo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Chelsea manager Xabi Alonso says defender Wesley Fofana has apologised for his controversial comments in an interview he gave without permission from the club.",
+    "published_at": "2026-11-26T16:47:47+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T16:51:06.511799+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
