@@ -12454,5 +12454,37 @@
     "source": "www.espn.com - TENNIS",
     "collected_at": "2026-11-26T17:52:09.468566+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "b6159fdcc480e94c89d333e537ced25c601dab30a1acb4235c3fcb8d0e747552",
+    "title": "Las bombas de Pipo Gorosito contra San Lorenzo: \"Mala onda\", \"cosas extrañas\" y \"son todos kioscos\"",
+    "url": "https://www.ole.com.ar/san-lorenzo/bombas-pipo-gorosito-tecnico-salida-dirigentes-entienden-mal-mala-onda-cosas-extranas-kioscos_0_LPhogUHmFp.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-26T17:57:19.215517+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "f1126eb9d62661d9d49f6c5a80299808d6bc8e2bb7f489e045f3f7f57c170abd",
+    "title": "La desopilante explicación de Colapinto: ¿por qué abordó un avión con el casco puesto?",
+    "url": "https://www.ole.com.ar/autos/desopilante-explicacion-colapinto-abordo-avion-casco_0_mJJ3MSwFZj.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-26T17:57:19.215539+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "55ae1fb2137ab22e25351620e6cfdc583427efea08d01244d5e10cb46171e29b",
+    "title": "Con la vuelta de Adam Bareiro, la competencia del Vasco con los 9 de Boca",
+    "url": "https://www.ole.com.ar/boca-juniors/boca-torneo-clausura-independiente-rivadavia-regreso-adam-bareiro-recuperacion_0_XjQrQfQnGM.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-26T17:57:19.215545+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "e6df6aed8935ea6955c0fe8ce9b9ba63d9e622d0c817ed120d97a32e3b7b1b63",
+    "title": "Stroll se niega a elogiar la carrera de Las Vegas: \"El mismo rollo que ya hemos visto\"",
+    "url": "https://es.motorsport.com/f1/news/stroll-las-vegas-mismo-rollo-carrera-2026/10877999/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es",
+    "source": "Motorsport.com - Fórmula 1 - Historias",
+    "collected_at": "2026-11-26T17:57:20.506574+00:00",
+    "status": "pending_review"
   }
 ]
