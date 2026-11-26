@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-26T01:43:33.609131+00:00",
+  "checked_at_utc": "2026-11-26T01:46:36.651044+00:00",
   "local_hour": 22,
   "statuses": {
     "published": 157,
@@ -62,17 +62,17 @@
         "last_error": "invalid_output"
       },
       "cloudflare": {
-        "attempts": 45,
+        "attempts": 48,
         "success": 5,
-        "failures": 40,
+        "failures": 43,
         "avg_latency_ms": 2684,
         "avg_readability": 97.0,
         "last_error": "invalid_output"
       },
       "nvidia": {
-        "attempts": 5,
+        "attempts": 6,
         "success": 0,
-        "failures": 5,
+        "failures": 6,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "http_410"
