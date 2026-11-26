@@ -14,6 +14,9 @@ def narration(item):
     # Use the already validated Spanish caption, never generate additional facts.
     text = re.sub(r"https?://\S+|[@#]\w+", "", str(item.get("caption") or item.get("headline") or ""))
     text = re.sub(r"\s+", " ", text).strip()
+    hook = str(item.get("headline") or "").strip().rstrip(".!?")
+    if hook and hook.casefold() not in text[:len(hook)+10].casefold():
+        text = hook + ". " + text
     sentences = re.split(r"(?<=[.!?])\s+", text)
     selected=[]
     for sentence in sentences:
@@ -51,6 +54,8 @@ def frame(cover, chunk, item, index, count, destination, brand):
     d.rectangle((56,190,70,248),fill=accent)
     d.text((88,190),brand,font=font(37),fill="white")
     d.text((88,245),str(item.get("sport","DEPORTES")).upper()+"  /  NOTICIAS",font=font(26),fill=accent)
+    d.rounded_rectangle((54,1000,900,1330),radius=28,fill=(10,18,30),outline=(47,65,79),width=2)
+    d.rectangle((78,1030,138,1037),fill=accent)
     # Large, central burned-in captions; keep clear of platform controls.
     size=62
     while size>42:
@@ -61,7 +66,7 @@ def frame(cover, chunk, item, index, count, destination, brand):
     line_h=size+12
     y=int(1170-len(lines)*line_h/2)
     for line in lines:
-        d.text((485,y),line,font=font(size),fill="white",stroke_width=4,stroke_fill=(8,13,20),anchor="mt")
+        d.text((477,y),line,font=font(size),fill=accent if index==0 else "white",stroke_width=1,stroke_fill=(8,13,20),anchor="mt")
         y+=line_h
     d.rectangle((60,1390,910,1398),fill=(65,77,79))
     d.rectangle((60,1390,60+850*(index+1)/count,1398),fill=accent)
