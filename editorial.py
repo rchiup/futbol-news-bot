@@ -864,6 +864,35 @@ def run(reference: datetime | None = None, session=None) -> dict:
             if rendered >= 5:
                 break
 
+    # Independent cross-platform video lane: no Instagram quota or photo gate.
+    if session is None and os.getenv("ENABLE_PUBLISH", "").lower() == "true" and os.getenv("AUTO_APPROVE", "").lower() == "true" and os.getenv("ENABLE_REELS", "").lower() == "true" and format_due(queue, reference, "reel", 60):
+        from publisher import upload_public_video
+        for candidate in sorted(queue, key=lambda x: (bool(x.get("match_result")), novelty_priority(x, reference)), reverse=True):
+            if candidate.get("status") not in {"draft", "published"} or candidate.get("publish_format") == "reel" or any(candidate.get(p+"_"+platform+"_status") for p in ("buffer","zernio") for platform in ("tiktok","youtube")):
+                continue
+            date = parse_iso(candidate.get("published_at", ""))
+            if not date or not 0 <= (reference-date).total_seconds() <= MAX_POST_AGE_HOURS*3600:
+                continue
+            if not candidate.get("match_result") and (not candidate.get("ai_generated_at") and candidate.get("llm_provider") in {None,"source_brief"} or candidate.get("score",0)<MIN_PUBLISH_SCORE or is_low_interest(candidate) or news_missing_critical_details(candidate)):
+                continue
+            if len(reels.narration(candidate)) < 2:
+                continue
+            try:
+                cover = make_card(candidate, lookup=True, network_lookup=True)
+                portrait = ROOT / "output" / "portraits" / (candidate["id"] + ".jpg")
+                video = reels.render(candidate, portrait if candidate.get("photo_used") and portrait.exists() else cover, ROOT / "output" / "reels" / (candidate["id"] + ".mp4"), BRAND)
+                candidate["reel_video_url"] = upload_public_video(video, candidate["id"])
+                candidate["publish_format"] = "reel"
+                candidate["format_attempt_at"] = iso(reference)
+                save_queue(queue)
+                buffer_publish.crosspost(candidate, candidate["reel_video_url"], clean_public_caption(strip_filler(candidate["caption"])), persist=lambda: save_queue(queue))
+                print("[CROSSPOST] Independent video submitted: "+candidate["id"])
+                save_queue(queue)
+                break
+            except Exception as exc:
+                print("[CROSSPOST] Independent video error: "+type(exc).__name__)
+                continue
+
     published_count = 0
     duplicates_suppressed = 0
     no_photo_deferred = 0  # Compatibility telemetry; no longer blocks posts
