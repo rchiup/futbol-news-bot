@@ -19165,7 +19165,7 @@
     "sport": "F1",
     "score": 23,
     "queued_at": "2026-11-26T11:28:49.041910+00:00",
-    "status": "needs_review",
+    "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -19184,7 +19184,8 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Andrew Benson abre Q&A semanal tras el Gran Premio de Qatar",
     "caption": "Andrew Benson invita a los seguidores a enviar sus preguntas para el Q&A semanal de F1. Las preguntas seleccionadas se publicarán después del Gran Premio de Qatar.",
-    "ai_generated_at": "2026-11-26T12:00:22.943037+00:00"
+    "ai_generated_at": "2026-11-26T12:00:22.943037+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "550c3b244e732ed3b249",
@@ -19368,11 +19369,12 @@
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795694515/football-news-bot/reels/0b562ac4d55f404b534e.mp4",
     "publish_format": "reel",
     "format_attempt_at": "2026-11-26T12:00:22.943037+00:00",
-    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_status": "published",
     "zernio_tiktok_id": "6b081fb4c32a422a8edf7747",
     "zernio_youtube_status": "published",
     "zernio_youtube_id": "6b081fc38ac7c5e47e9c6e2e",
-    "zernio_youtube_url": "https://www.youtube.com/watch?v=hEGxj7X21Jw"
+    "zernio_youtube_url": "https://www.youtube.com/watch?v=hEGxj7X21Jw",
+    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712449274675547410"
   },
   {
     "id": "94fcb3d175ca83ff7791",
