@@ -12238,5 +12238,13 @@
     "source": "Football News, Transfers, Opinion - talkSPORT",
     "collected_at": "2026-11-26T16:33:01.971111+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "dc33246771e78a6300342399f1fb50bf20148161f62189835655b032091afce5",
+    "title": "FIFA hit by cyberattack as hackers gain access to personal and business data",
+    "url": "https://www.espn.com/soccer/story/_/id/50603612/fifa-cyber-attack",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-26T16:35:58.579269+00:00",
+    "status": "pending_review"
   }
 ]
