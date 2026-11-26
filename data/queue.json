@@ -23272,5 +23272,39 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "1af4f90b744ebf5c4943",
+    "title": "Se definieron los semifinalistas de la Copa Davis: quiénes clasificaron y cuándo juegan",
+    "source_url": "https://www.ole.com.ar/tenis/definidas-semifinales-copa-davis-2026-pasaron-sigue-espana-gran-bretana-italia-republica-checa-juegan-dia-horario_0_ni7GoyE7bB.html",
+    "source": "Olé Argentina",
+    "description": "Este jueves, se jugaron los últimos cruces de cuartos de final: Gran Bretaña dio la sorpresa y España ganó con contundencia. ¿Cómo sigue?",
+    "published_at": "2026-11-26T21:24:30+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T21:36:28.819709+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "2f063f33cf1df07111c6",
+    "title": "Europa League game halted amid police clashes over fans' Palestine banner",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50605910/besiktas-hapoel-beer-sheva-europa-league-police-palestine",
+    "source": "ESPN",
+    "description": "The game between Besiktas and Israel's Hapoel Beer-Sheva was halted when police clashed with fans of the Turkish club after they displayed a banner in support of Palestinians.",
+    "published_at": "2026-11-26T20:43:55+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T21:36:28.819709+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
