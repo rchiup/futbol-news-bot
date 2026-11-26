@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-26T17:06:02.248280+00:00",
+  "checked_at_utc": "2026-11-26T17:08:47.539719+00:00",
   "local_hour": 14,
   "statuses": {
     "published": 160,
@@ -9,8 +9,8 @@
     "publish_error": 27,
     "duplicate": 55
   },
-  "fresh_candidates": 210,
-  "queued_new": 1,
+  "fresh_candidates": 169,
+  "queued_new": 0,
   "ai_generated": 0,
   "preview_images": 5,
   "published": 0,
@@ -38,9 +38,9 @@
     "last_success": "groq",
     "providers": {
       "groq": {
-        "attempts": 143,
+        "attempts": 145,
         "success": 36,
-        "failures": 107,
+        "failures": 109,
         "avg_latency_ms": 2473,
         "avg_readability": 98.0,
         "last_error": "http_429"
@@ -70,9 +70,9 @@
         "last_error": "invalid_output"
       },
       "nvidia": {
-        "attempts": 30,
+        "attempts": 31,
         "success": 0,
-        "failures": 30,
+        "failures": 31,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "http_410"
