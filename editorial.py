@@ -1029,7 +1029,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                         print(f"[REELS] Render unavailable: {type(render_exc).__name__}; publishing image")
                 if not video_path and photo_required_missing:
                     continue
-                if not video_path and (remaining_meta_slots <= 0 or (not item.get("match_result") and (editorial_cap_reached or remaining_meta_slots <= (8 if os.getenv("ENABLE_REELS", "").lower() == "true" else 0) or not format_due(queue, reference, "image", 20)))):
+                if not video_path and (remaining_meta_slots <= 0 or (not item.get("match_result") and (editorial_cap_reached or remaining_meta_slots <= (8 if os.getenv("ENABLE_REELS", "").lower() == "true" else 0) or not format_due(queue, reference, "image", 10)))):
                     continue
                 item["publish_format"] = "reel" if video_path else "image"
                 item["format_attempt_at"] = iso(reference)
