@@ -19958,5 +19958,53 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "26fce2c22766c5a3ce94",
+    "title": "Cambio de horario para Boca vs. Gimnasia LP: los motivos y cuándo se juega",
+    "source_url": "https://www.ole.com.ar/boca-juniors/cambio-horario-boca-gimnasia-plata-cuartos-final_0_jDHqLYmLUl.html",
+    "source": "Olé Argentina",
+    "description": "La Liga Profesional primero publicó un cronograma para los cuartos de final, pero luego lo modificó por una variación en el encuentro que se disputará en la Bombonera.",
+    "published_at": "2026-11-26T12:35:31+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-26T12:41:42.423265+00:00",
+    "status": "draft",
+    "article_context": "Boca le ganó a Indendiente Rivadavia y dio la vuelta en el Templo con la Sudamericana (Marcelo Carroll).\nBoca consiguió adelantar el partido contra Gimnasia LP y jugará este domingo a las 20.30 en la Bombonera, por los cuartos de final del Clausura. El encuentro estaba programado para las 22, pero el club pidió modificarlo por el desgaste que acumula el plantel y la cercanía de la final de la Copa Argentina ante Platense , que disputará el miércoles en Santiago del Estero.\nSegún pudo saber Olé , el cambio respondió exclusivamente a esa gestión del Xeneize . Apenas terminó el triunfo ante Independiente Rivadavia , desde la Boca salió el pedido hacia las oficinas de la Liga Profesional en Puerto Madero: adelantar el comienzo para evitar que otra noche de competencia se extendiera prácticamente hasta el lunes. A la seguidilla de partidos se sumará, además, un nuevo viaje para buscar otro título.\nLa modificación se resolvió sobre la marcha . La Liga llegó a publicar en sus redes el cronograma de cuartos después del encuentro del miércoles y lo hizo con Boca-Gimnasia a las 22. Horas después retiró aquella publicación y difundió la programación actualizada, ya con las 20.30 como horario confirmado . El domingo también se adelantó Rosario Central-Barracas Central, que pasó de las 17.30 a las 17.\nPara el equipo de Rodolfo Arruabarrena , ganar una hora y media tiene sentido dentro de un calendario que casi no ofrece pausas . El sábado fue la final de la Sudamericana en Barranquilla, el plantel regresó a la Argentina en la madrugada del lunes y el miércoles volvió a competir en la Bombonera. Ahora tendrá el cruce con el Lobo y, tres días después, la definición de la Copa Argentina , con traslado a Santiago incluido.\nEl Xeneize festejo la consagración de la Copa Sudamericana. Con goles de Paredes y Merentiel, el Xeneize le ganó a Independiente Rivadavia y pasó a cuartos del Clausura. @catasarra\nTambién pesa el formato del partido del domingo: si hay empate en los 90 minutos, se jugará un alargue de media hora y, de persistir la igualdad, penales . Con el horario original, esa posibilidad podía llevar la definición a la madrugada del lunes. Boca buscó anticipar el cierre de la jornada sin modificar el día del encuentro.\nLas 22 iniciales tenían otra explicación: evitar la superposición con el amistoso de la Selección femenina ante Alemania , previsto para el mismo domingo a las 20.15 en el Estadio Único Diego Armando Maradona de La Plata, en su reinauguración.\nCon el adelanto de Boca-Gimnasia, también se evaluó mover el horario del seleccionado para que ambos encuentros no coincidieran. Sin embargo, por ahora ese partido mantiene su programación .\nRodolfo Arruabarrena resaltó el nivel del equipo, las alternativas que tiene en el plantel y la felicidad de la gente\nBoca le ganó a Independiente Rivadavia y pasó a cuartos del Clausura. @catasarra\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Boca adelanta su partido contra Gimnasia LP a las 20:30",
+    "caption": "El Xeneize solicitó adelantar el encuentro de cuartos de final del Clausura contra Gimnasia LP, que se disputará este domingo a las 20:30 en la Bombonera. La decisión responde al desgaste del plantel y a la cercanía de la final de la Copa Argentina contra Platense el miércoles. Además, el cambio evita que, de empatar, el alargue se extienda hasta la madrugada del lunes.",
+    "ai_generated_at": "2026-11-26T12:41:42.423265+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "634e17c36053740f48b6",
+    "title": "River, hoy EN VIVO: cómo están Acuña y Beltrán, el juez vs. Instituto y más noticias del jueves 26 de noviembre",
+    "source_url": "https://www.ole.com.ar/river-plate/river-plate-vivo-jueves-26-noviembre-ultimas-noticias-clausura-instituto_0_KORl2jLRPv.html",
+    "source": "Olé Argentina",
+    "description": "El equipo de Leonardo Ponzio suma una nueva jornada de trabajo pensando en los cuartos del Clausura, con día y horario confirmados para jugar en Alta Córdoba.",
+    "published_at": "2026-11-26T12:29:03+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-26T12:41:42.423265+00:00",
+    "status": "awaiting_ai",
+    "article_context": "Lautaro Rivero en el Camp. Foto: prensa River.\nEl plantel de River continúa con su preparación para los cuartos de final del Clausura ante Instituto , partido que, tal como confirmó la Liga Profesional, se jugará en Alta Córdoba este sábado desde las 22. Para ese mata-mata, Leonardo Ponzio recuperará a Gonzalo Montiel en el lateral derecho, aguarda por saber si podrá contar con Lucas Beltrán y Marcos Acuña y el regreso de Fausto Vera asoma complicado. Acá, las novedades del día millonario.\nAcá están, estos son... Con la victoria de Boca ante Independiente Rivadavia, quedaron definidos los ocho equipos que irán por el título del torneo Clausura 2026. Serán cuatro cruces durísimos de cuartos de final los que determinarán las semifinales. Y, en este contexto, Olé plantea las encuestas para cada partido... Leer más.\nDesde hace ya varios meses que en River no pasan desapercibidas las designaciones arbitrales. No es cuestión de pasillos ni rumores: públicamente, los dirigentes ya se mostraron en disconformidad en varias oportunidades, con el superclásico y Nicolás Ramírez como el foco central de este último tiempo. Y ahora, hubo atención a la elección de cara a los cuartos de final del Clausura, contra Instituto en Alta Córdoba. Leer más.\nMartín Demichelis tenía razón. “Me dijo que algún día tengo que jugar acá”. Un Santiago Espíndola lo dijo sonriente, número cinco en mano, después de que el entonces deté de River le diera su bendición, presagiándole al volante juvenil de 16 años -como si se tratara de una indicación que su futuro tenía que estar en ese mismo Monumental en el que el campeón vigente de la Liga acababa de vencer 3-1 a Tigre. Leer más .\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
