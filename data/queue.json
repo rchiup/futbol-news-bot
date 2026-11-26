@@ -19538,7 +19538,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T11:34:57.012553+00:00",
-    "status": "draft",
+    "status": "published",
     "article_context": "Liverpool boss Andoni Iraola said he believes striker Alexander Isak is in a \"great moment\" after he scored twice in the 3-0 victory over Club Brugge .\nThe Sweden international opened the scoring for the visitors in Belgium before Florian Wirtz doubled their advantage in the second half.\nIsak netted again in the 82nd minute to seal the win, taking his tally for Liverpool up to 10 goals for the season in all competitions.\n\"He's in a great moment right now,\" Iraola said in his postmatch news conference.\n\"He helped us a lot in the link up, especially in the first half. We found him easily. With the way they press we had to find him quickly and we knew there would be space to exploit.\n\"They were leaving him one v one with the centre back and in one of those moments he killed the game.\"\nAfter a difficult debut season, Isak's second campaign at Anfield is proving to be a productive one and the forward is confident Liverpool as a collective are moving in the right direction.\n\"Perfect away win, I would say,\" he told TNT Sports after the game.\n- Lammens errors cost Man United win despite bizarre Fernandes goal - Gordon enjoys 'very special' Baku again to lead Barcelona rout - Haaland relishing battle with rival Gabriel as Man City go to Arsenal\n\"The performance until we got the second one was never obvious, which way it would go. They put on a good game. We spoke about having to get the second goal.\n\"They were playing man on man, so I was against the defender the whole game. Ali tried to kick the ball the whole time so I'm glad he didn't stop trying.\n\"It's always difficult to say exactly where you are and how good you are but I can say I'm in a good place and the team is in a good place, most importantly. Hopefully, it gets better from here.\n\"The attack in general is beginning the click. We have a lot of different combinations and whoever comes in, we have a dangerous attack. It feels good.\"\nLiverpool's win lifted them back into the top eight places as they sit fifth with 12 points from five matches.",
     "ai_art_used": false,
     "photo_used": false,
@@ -19573,7 +19573,12 @@
         "ClubBrugge"
       ],
       "mentions": []
-    }
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-26T20:08:53.051526+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-26T20:08:53.051526+00:00",
+    "instagram_media_id": "18139489621658826"
   },
   {
     "id": "021f5f8135b5d7332f35",
@@ -22629,7 +22634,7 @@
     "headline": "Sam Coffey regresa al USWNT tras cirugía menor de rodilla",
     "caption": "Sam Coffey vuelve al equipo nacional de EE.UU. después de una intervención menor en la rodilla. La mediocampista, ausente de los últimos amistosos y de los partidos contra Brasil, se incorpora al campamento mientras se prepara el duelo contra El Salvador en los cuartos de la Concacaf W Championship, que otorga un boleto al Mundial 2027.",
     "ai_generated_at": "2026-11-26T20:02:23.130848+00:00",
-    "photo_checked_at": "2026-11-26T20:03:54.785565+00:00",
+    "photo_checked_at": "2026-11-26T20:10:02.255567+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -22639,11 +22644,24 @@
       ],
       "mentions": []
     },
-    "publish_format": "image",
-    "format_attempt_at": "2026-11-26T20:02:23.130848+00:00",
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-26T20:08:53.051526+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-26T20:02:23.130848+00:00",
-    "instagram_media_id": "17957999910312135"
+    "instagram_media_id": "17957999910312135",
+    "video_style": "tiktok",
+    "video_hook_variant": "fact_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 17.5,
+      "mean_db": -19.6
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795723820/football-news-bot/reels/f9b7b72fb4002ed6a5ee.mp4",
+    "crosspost_attempt_at": "2026-11-26T20:08:53.051526+00:00",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b08922ec81617797ddd8542",
+    "buffer_youtube_status": "error",
+    "buffer_youtube_id": "6b0892311fa4091582956db5"
   },
   {
     "id": "928b18340427805b6ad4",
