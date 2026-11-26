@@ -18855,7 +18855,7 @@
     "headline": "Kai Havertz se acerca a la suspensión por amarillas en la Champions",
     "caption": "El delantero del Arsenal ha recibido ya dos tarjetas amarillas en la fase de grupos, por lo que necesita dos más antes de los cuartos de final para perder un partido. La normativa establece que los amarillos se borran tras los cuartos, evitando suspensiones posteriores.",
     "ai_generated_at": "2026-11-26T11:32:31.230580+00:00",
-    "photo_checked_at": "2026-11-26T17:41:00.435779+00:00",
+    "photo_checked_at": "2026-11-26T18:05:40.993150+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -19375,7 +19375,7 @@
     "headline": "Barcelona muestra interés en préstamo de Ayden Heaven",
     "caption": "Barcelona ha manifestado su interés en ceder en préstamo al defensa del Manchester United, Ayden Heaven. El central de 20 años lleva tiempo en el banquillo bajo la dirección de Mauricio Pochettino y también ha despertado el interés del Fulham.",
     "ai_generated_at": "2026-11-26T11:34:57.012553+00:00",
-    "photo_checked_at": "2026-11-26T17:40:59.590117+00:00",
+    "photo_checked_at": "2026-11-26T18:05:39.147368+00:00",
     "portrait_info": null,
     "ai_art_used": false,
     "photo_used": false,
@@ -19555,7 +19555,7 @@
     "headline": "Iraola elogia a Isak tras doblete en 3-0 del Liverpool",
     "caption": "Alexander Isak anotó dos goles en la victoria 3-0 del Liverpool sobre Club Brugge, elevando su cuenta a diez tantos en la temporada. El entrenador Andoni Iraola declaró que el delantero está en un gran momento y que el triunfo sitúa al conjunto en la quinta posición con doce puntos en cinco partidos.",
     "ai_generated_at": "2026-11-26T11:36:41.404214+00:00",
-    "photo_checked_at": "2026-11-26T17:41:01.497757+00:00",
+    "photo_checked_at": "2026-11-26T18:05:41.501418+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -19601,7 +19601,7 @@
     "headline": "Liverpool sonríe mientras Wirtz e Isak encajan",
     "caption": "El conjunto inglés mostró buen fútbol y los delanteros Wirtz e Isak se mostraron más coordinados. El rendimiento llega tras la reciente inversión del club en la línea ofensiva.",
     "ai_generated_at": "2026-11-26T11:36:41.404214+00:00",
-    "photo_checked_at": "2026-11-26T17:41:01.961449+00:00",
+    "photo_checked_at": "2026-11-26T18:05:42.247519+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -19919,7 +19919,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-26T17:43:46.268872+00:00",
+    "photo_checked_at": "2026-11-26T18:05:42.807070+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -20785,7 +20785,7 @@
     "headline": "Alexander Barboza confía en ganar la Libertadores con Palmeiras en Montevideo",
     "caption": "El mediocampista Alexander Barboza dijo que se ve campeón con Palmeiras en la final contra Estudiantes en el Centenario de Montevideo. Barboza recordó su primera Libertadores ganada en 2024 y señaló que su familia asistirá al partido. La final se jugará este sábado a las 17:00.",
     "ai_generated_at": "2026-11-26T15:21:10.776732+00:00",
-    "photo_checked_at": "2026-11-26T17:40:59.252425+00:00",
+    "photo_checked_at": "2026-11-26T18:05:39.691578+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -21333,7 +21333,7 @@
     "headline": "River Plate viajará el mismo día a Córdoba para enfrentar a Instituto",
     "caption": "River Plate cambiará su logística y viajará el sábado en chárter desde Aeroparque para jugar a las 22 contra Instituto en Alta Córdoba. La delegación se quedará en Núñez y evitará la vigilia nocturna habitual, mientras los hinchas locales asistirán sin público visitante.",
     "ai_generated_at": "2026-11-26T16:00:59.436534+00:00",
-    "photo_checked_at": "2026-11-26T17:56:03.465206+00:00",
+    "photo_checked_at": "2026-11-26T18:05:05.252982+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -21343,7 +21343,19 @@
         "Instituto"
       ],
       "mentions": []
-    }
+    },
+    "reel_quality": {
+      "version": 2,
+      "duration": 14.0,
+      "mean_db": -20.0
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795716322/football-news-bot/reels/fc4c364c5d76ae349a5a.mp4",
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-26T18:03:48.112291+00:00",
+    "buffer_tiktok_status": "sending",
+    "buffer_tiktok_id": "6b0874e41fa409158286f074",
+    "buffer_youtube_status": "error",
+    "buffer_youtube_id": "6b0874ef9068b6e0795202fa"
   },
   {
     "id": "88db542d1572a3517adb",
@@ -21992,6 +22004,23 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-26T17:57:22.201610+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "21116a46d6cca437d194",
+    "title": "Calvert-Lewin signs new Leeds deal until 2029",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/cx62pnz1evv4o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "England international Dominic Calvert-Lewin signs a new contract to stay with Leeds United until 2029.",
+    "published_at": "2026-11-26T18:00:31+00:00",
+    "category": "FICHAJES",
+    "sport": "FUTBOL",
+    "score": 26,
+    "queued_at": "2026-11-26T18:03:48.112291+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
