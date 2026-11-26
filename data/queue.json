@@ -19413,7 +19413,7 @@
     "headline": "Luis Enrique llama a la Roma su prueba más dura",
     "caption": "El Paris Saint‑Germain cayó 2‑2 ante la Roma en la fase de grupos de la Champions League, poniendo fin a una racha de 12 victorias consecutivas. Luis Enrique calificó el encuentro como el más difícil de la temporada y elogió la táctica de Gian Piero Gasperini y el penalti de Donyell Malen.",
     "ai_generated_at": "2026-11-26T11:34:57.012553+00:00",
-    "photo_checked_at": "2026-11-26T11:35:25.804079+00:00",
+    "photo_checked_at": "2026-11-26T11:59:06.048491+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -19465,7 +19465,7 @@
     "headline": "Iraola elogia a Isak tras doblete en 3-0 del Liverpool",
     "caption": "Alexander Isak anotó dos goles en la victoria 3-0 del Liverpool sobre Club Brugge, elevando su cuenta a diez tantos en la temporada. El entrenador Andoni Iraola declaró que el delantero está en un gran momento y que el triunfo sitúa al conjunto en la quinta posición con doce puntos en cinco partidos.",
     "ai_generated_at": "2026-11-26T11:36:41.404214+00:00",
-    "photo_checked_at": "2026-11-26T11:37:33.766881+00:00",
+    "photo_checked_at": "2026-11-26T11:59:07.652510+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -19511,7 +19511,7 @@
     "headline": "Liverpool sonríe mientras Wirtz e Isak encajan",
     "caption": "El conjunto inglés mostró buen fútbol y los delanteros Wirtz e Isak se mostraron más coordinados. El rendimiento llega tras la reciente inversión del club en la línea ofensiva.",
     "ai_generated_at": "2026-11-26T11:36:41.404214+00:00",
-    "photo_checked_at": "2026-11-26T11:37:35.364783+00:00",
+    "photo_checked_at": "2026-11-26T11:59:09.121197+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -19600,7 +19600,7 @@
     "headline": "La F1 confirmará el regreso de los motores V8 en 2030",
     "caption": "La Fórmula 1 ha anunciado que a partir de 2030 volverá a utilizar motores V8. Los aficionados esperan el sonido clásico y la menor influencia eléctrica, mientras la categoría evalúa el impacto técnico.",
     "ai_generated_at": "2026-11-26T11:36:41.404214+00:00",
-    "photo_checked_at": "2026-11-26T11:37:35.874490+00:00",
+    "photo_checked_at": "2026-11-26T11:59:10.666321+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -19781,5 +19781,69 @@
       ],
       "mentions": []
     }
+  },
+  {
+    "id": "897f3796b2b87d9a4cd6",
+    "title": "Norrie holds nerve to beat Struff in Davis Cup quarter-final",
+    "source_url": "https://www.bbc.co.uk/sport/tennis/videos/cmly7j2lzelyo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Tennis",
+    "description": "British number two Cameron Norrie gives Great Britain the perfect start to their Davis Cup quarter-final against Germany, as he beats Jan-Lennard Struff in three sets in the opening match of their tie in Bolgona.",
+    "published_at": "2026-11-26T11:54:18+00:00",
+    "category": "TENIS",
+    "sport": "TENIS",
+    "score": 26,
+    "queued_at": "2026-11-26T11:57:50.775174+00:00",
+    "status": "draft",
+    "visual_subject": "Cameron Norrie",
+    "visual_entities": {
+      "personas": [
+        "Cameron Norrie",
+        "Jan-Lennard Struff"
+      ],
+      "clubes": [],
+      "competicion": [
+        "Davis Cup"
+      ],
+      "ciudad": [
+        "Bolgona"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Cameron Norrie vence a Jan-Lennard Struff en cuartos de la Davis Cup",
+    "caption": "Cameron Norrie superó a Jan-Lennard Struff en tres sets, dando a Gran Bretaña la victoria inicial en el duelo contra Alemania. El partido abrió el encuentro de cuartos de final de la Davis Cup en Bolgona.",
+    "ai_generated_at": "2026-11-26T11:57:50.775174+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-26T11:59:09.854530+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Tenis",
+        "CameronNorrie",
+        "JanLennardStruff",
+        "DavisCup"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "0e189d231ea117ed9075",
+    "title": "‘We are on the edge’: how Swedish league declined from summit of women’s game",
+    "source_url": "https://www.theguardian.com/football/2026/nov/26/damallsvenskan-swedish-league-decline-fans-attendances-media-coverage-finances",
+    "source": "The Guardian",
+    "description": "The Damallsvenskan once mastered Europe and attracted the best players, but many are now worried for its future On 12 October 2003, Sweden stood still. The women’s football team were playing Germany in the World Cup final. TV4 set a new viewing record as almost half the nation watched the game go into extra time, where Nia Künzer scored the golden goal winner after 98 minutes. It was a bitter pill to swallow but there was still the belief that the tournament would mark the start of women’s football’s commercial breakthrough in Sweden. After all",
+    "published_at": "2026-11-26T11:00:32+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T11:57:50.775174+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
