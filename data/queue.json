@@ -19094,7 +19094,7 @@
     "headline": "Oliver Bearman seguirá con Haas en 2027",
     "caption": "Oliver Bearman continuará con Haas hasta 2027, según anunció el equipo al inicio del fin de semana del Gran Premio de Qatar. Es su tercera temporada completa con la escudería, tras debutar en dos carreras en 2024 y convertirse en titular en 2025. El equipo también confirmó que será acompañado por el brasileño Rafael Camara la próxima temporada.",
     "ai_generated_at": "2026-11-26T11:39:01.214853+00:00",
-    "photo_checked_at": "2026-11-26T20:30:36.366676+00:00",
+    "photo_checked_at": "2026-11-26T20:52:42.198854+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -19133,7 +19133,7 @@
     "headline": "Todos los pilotos y equipos de la F1 para 2027: ¡parrilla cerrada!",
     "caption": "La parrilla de la Fórmula 1 para 2027 ya está completa. (Motorsport F1)",
     "ai_generated_at": "2026-11-26T17:48:28.558828+00:00",
-    "photo_checked_at": "2026-11-26T20:30:36.722407+00:00",
+    "photo_checked_at": "2026-11-26T20:52:43.609182+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -23003,6 +23003,24 @@
     "score": 20,
     "queued_at": "2026-11-26T20:48:17.743524+00:00",
     "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "1b4a988a9ebfa079ea5c",
+    "title": "¿Mete mano? El ensayo de Jadson Viera en Independiente de cara al duelo ante Vélez",
+    "source_url": "https://www.ole.com.ar/independiente/independiente-jadson-viera-posible-equipo-formacion-velez-cuartos-final_0_yC6NVilPrQ.html",
+    "source": "Olé Argentina",
+    "description": "El entrenador del Rojo empieza a perfilar el equipo para visitar al Fortín, por los cuartos de final.",
+    "published_at": "2026-11-26T20:40:10+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-26T20:51:07.828201+00:00",
+    "status": "awaiting_ai",
+    "article_context": "Jadson Viera Foto Marcelo Carroll - FTP CLARIN DSC00017.JPG Z\nLuego del triunfazo ante Argentinos en La Paternal, en Independiente quedaron conformes y con impresiones positivas del rendimiento del equipo. Por este motivo, Jadson Viera planea tocar lo menos posible para enfrentar este sábado a Vélez , desde las 20, en Liniers por los cuartos de final del Clausura...\nYa es sabido que tanto Chimy Ávila como Santiago Arias sufrieron lesiones musculares en el soleo e isquiotibial, respectivamente. Y ambos quedaron descartados para enfrentar al Fortín . De esta manera, el entrenador uruguayo tiene en claro que no podrá repetir el equipo y sí o sí deberá buscarle un reemplazante al defensor colombiano. Y el apuntado es ni más ni menos que Leonardo Godoy , quien ingresó en el complemento ante el Bicho y estuvo a la altura.\nLevantó el nivel e Independiente no sufrió tanto por la banda derecha como en la primera parte. Eso sí, vale destacar que el ex Talleres no juega desde el arranque desde el pasado 2 de octubre, cuando el Rojo cayó 4-1 ante Instituto en condición de local. Desde ahí, fue suplente siempre y durante los últimos tres partidos de la fase inicial del torneo ni siquiera ingresó.\nAhora, con la lesión y baja del cafetero, tiene la gran oportunidad de quedarse con el puesto de manera definitiva . Está claro, en el horizonte asoma una parada brava con un mano a mano contra Matías Pellegrini, quien seguramente ocupe ese lugar en el equipo del Mellizo.\nPor último, Felipe Tempone , quien fue titular a último momento contra Argentinos, se mantendría en el 11 inicial y sería el acompañante de Josías Palais y Santiago Montiel en la zona ofensiva. Se vienen los cuartos y Jadson tiene todo en la cabeza. Godoy una chance de oro en Liniers...\nSantiago Mele; Leonardo Godoy, Sebastián Valdéz, Juan Arrayago, Nahuel Banegas; Iván Marcone, Mateo Pérez Curci; Santiago Montiel, Maximiliano Meza, Josías Palais; Felipe Tempone. DT: Jadson Viera.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
