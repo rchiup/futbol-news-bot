@@ -22349,7 +22349,7 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-26T19:09:29.566728+00:00",
-    "status": "draft",
+    "status": "published",
     "visual_entities": {
       "personas": [],
       "clubes": [],
@@ -22372,6 +22372,10 @@
         "Formula1"
       ],
       "mentions": []
-    }
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-26T19:17:32.020868+00:00",
+    "posted_at": "2026-11-26T19:17:32.020868+00:00",
+    "instagram_media_id": "18123908395952819"
   }
 ]
