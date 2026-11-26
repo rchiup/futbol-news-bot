@@ -19089,7 +19089,7 @@
     "headline": "Oliver Bearman seguirá con Haas en 2027",
     "caption": "Oliver Bearman continuará con Haas hasta 2027, según anunció el equipo al inicio del fin de semana del Gran Premio de Qatar. Es su tercera temporada completa con la escudería, tras debutar en dos carreras en 2024 y convertirse en titular en 2025. El equipo también confirmó que será acompañado por el brasileño Rafael Camara la próxima temporada.",
     "ai_generated_at": "2026-11-26T11:39:01.214853+00:00",
-    "photo_checked_at": "2026-11-26T12:02:17.862980+00:00",
+    "photo_checked_at": "2026-11-26T15:22:14.903638+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -20682,12 +20682,37 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T14:22:55.734495+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "article_context": "Alexander Barboza y Marlon Freitas en su llegada a Montevideo. (Foto: Reuters)\nSe acerca la gran final de la Copa Libertadores 2026 entre Estudiantes y Palmeiras , que tendrá lugar este sábado (17:00) en el Centenario de Montevideo, Uruguay. Y ya con ambos planteles en el país vecino, hubo un futbolista del Verdao que, en diálogo con la prensa, ya se ve campeón frente al Pincha .\n\"Estoy muy feliz de estar nuevamente en una final de la Libertadores . La primera la gané en 2024, en mi casa (Argentina), y la segunda la voy a ganar en mi segunda casa, Uruguay. Así que es un sentimiento muy lindo saber que toda mi familia va a estar acá para presenciar este momento\", expresó el marcador central Alexander Barboza .\nLa primera Copa que menciona el nacido en Villa Celina, La Matanza, la obtuvo con Botafogo , cuando se impuso 3-1 frente a Atlético Mineiro en el Monumental. Y ya aseguró que ganará también esta en Uruguay , país del que también tiene la nacionalidad porque su padre es uruguayo. De hecho, Diego Forlán lo incluyó en la prelista de la reciente fecha FIFA, aunque finalmente no lo citó.\nEntre otros temas, Barboza contó que irán ni más ni menos que 75 familiares suyos a presenciar esta final de la Libertadores al Centenario: \"Viene casi toda mi familia de Argentina, unas 50 personas, pero también vienen los de acá, así que son muchos\".\nPor otro lado, consultado por su gran semestre, luego de haber llegado desde Botafogo a mitad de año y haberse ganado la titularidad en Palmeiras , hizo un elogio general a todo el equipo: \"Cuando llegué a Palmeiras, Abel fue muy claro conmigo respecto de cuál era la idea y qué tipo de fútbol quería que practicáramos dentro de la cancha. La fase defensiva es fundamental para nosotros , para que el equipo pueda ganar\".\n\" Si mantenés el arco en cero, estás mucho más cerca de conseguirlo , y más todavía con los jugadores de calidad que tenemos para ganar los partidos. Eso va a ser fundamental en encuentros de eliminación directa como estos, especialmente en una final, donde todo se define en un solo partido. Por eso, esta faceta del juego es clave\", completó.\nCampeón en Montevideo en 2021, el conjunto brasileño buscará su cuarta Libertadores luego de las obtenidas en ese año, en 1999 y en 2020. De conseguirlo, serían tres Copas obtenidas bajo la dirección técnica del portugués Abel Ferreira .\nEstudiantes, con Alexander Cacique Medina a la cabeza, irá por la quinta después de las ganadas en 1968, 1969, 1970 y 2009.\nLa final de este sábado reeditará la de 1968 , cuando el equipo que por entonces dirigía Osvaldo Zubeldía se impuso por 2-0 a Palmeiras en un juego de desempate, también disputado en el Centenario, que se llevó gracias a los tantos de Felipe Ribaudo y Juan Ramón la Bruja Verón, padre del actual presidente del Pincha, Juan Sebastián Verón.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Palmeiras",
+        "Estudiantes"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Alexander Barboza confía en ganar la Libertadores con Palmeiras en Montevideo",
+    "caption": "El mediocampista Alexander Barboza dijo que se ve campeón con Palmeiras en la final contra Estudiantes en el Centenario de Montevideo. Barboza recordó su primera Libertadores ganada en 2024 y señaló que su familia asistirá al partido. La final se jugará este sábado a las 17:00.",
+    "ai_generated_at": "2026-11-26T15:21:10.776732+00:00",
+    "photo_checked_at": "2026-11-26T15:22:12.658589+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "Palmeiras",
+        "Estudiantes"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "ccbe4d66a181bfc7a025",
@@ -20912,7 +20937,7 @@
     "score": 26,
     "queued_at": "2026-11-26T15:08:38.514492+00:00",
     "status": "awaiting_ai",
-    "article_context": "Highlights: Norrie beats Struff in three sets to give GB lead in Davis Cup\nGreat Britain advanced to the semi-finals of the Davis Cup for the first time since 2019 as Henry Patten and Neal Skupski won a decisive doubles tie against third seeds Germany in Bologna.\nPatten and Skupski, playing together for the first time since announcing their partnership for the 2027 season, proved too clinical for Kevin Krawietz and Tim Puetz.\nThey converted two break points and saved five in the first set, before overturning a mini-break in the tie-break to win 6-2 7-6 (8-6).\nWorld number one Alexander Zverev had earlier sent the tie to a decider by defeating British number one Arthur Fery in straight sets to cancel out Cameron Norrie's three-set victory over Jan-Lennard Struff.\nA nerveless Norrie saved four break points in the fifth game of the third set and carried that momentum throughout the remainder of the match to win 6-3 3-6 6-2.\nLeon Smith's team will discover their semi-final opponent later on Thursday when Spain meet Austria, with their semi-final scheduled for Saturday.\nDefending champions Italy will play Czech Republic in Friday's first semi-final.\nLammens - the Man Utd goalkeeper under scrutiny like never before\nGB win decider to reach Davis Cup semi-finals\nNot even making a 12-man bench - what next for Garnacho?\nFirst look: Strike and Robin return to take on a dangerous cult\nThe Spanish town that ditched the euro and brought back the peseta\nThe extraordinary journey of the humble banana\n'Laughing gas has ended careers' - so how common is it in football?\nMotorcycle passenger who took stunning cricket catch found\nDivots, howlers and bad decisions - dissecting Man Utd's draw in Lisbon\n'Best midfielder in the world' - where does Bellingham rank?\nFour-time MVP Rodgers released and may have played last NFL game\nSooryavanshi, 15, breaks sixes record in 204 off 53 balls\nSterling - from England icon to suspended jail sentence\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland's tearaway quick bowler reinvented as a top-order batter\nThe sandpaper plot - who was there, who said what?\nJosh Kerr: The making of the man behind the shades\nThe 3pm football blackout: Outdated or still relevant in 2026?\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "article_context": "Highlights: Norrie beats Struff in three sets to give GB lead in Davis Cup\nGreat Britain advanced to the semi-finals of the Davis Cup for the first time since 2019 as Henry Patten and Neal Skupski won a decisive doubles tie against third seeds Germany in Bologna.\nPatten and Skupski, playing together for the first time since announcing their partnership for the 2027 season, proved too clinical for Kevin Krawietz and Tim Puetz.\nThey converted two break points and saved five in the first set, before overturning a mini-break in the tie-break to win 6-2 7-6 (8-6).\nWorld number one Alexander Zverev had earlier sent the tie to a decider by defeating British number one Arthur Fery in straight sets to cancel out Cameron Norrie's three-set victory over Jan-Lennard Struff.\nA nerveless Norrie saved four break points in the fifth game of the third set and carried that momentum throughout the remainder of the match to win 6-3 3-6 6-2.\nLeon Smith's team will discover their next opponents later on Thursday when Spain meet Austria in the last of the four quarter-finals, with their semi-final scheduled for Saturday.\nDefending champions Italy will play Czech Republic in Friday's first semi-final.\nLammens - the Man Utd goalkeeper under scrutiny like never before\nGB win decider to reach Davis Cup semi-finals\nNot even making a 12-man bench - what next for Garnacho?\nFirst look: Strike and Robin return to take on a dangerous cult\nThe Spanish town that ditched the euro and brought back the peseta\nThe extraordinary journey of the humble banana\n'Laughing gas has ended careers' - so how common is it in football?\nMotorcycle passenger who took stunning cricket catch found\nDivots, howlers and bad decisions - dissecting Man Utd's draw in Lisbon\n'Best midfielder in the world' - where does Bellingham rank?\nFour-time MVP Rodgers released and may have played last NFL game\nSooryavanshi, 15, breaks sixes record in 204 off 53 balls\nSterling - from England icon to suspended jail sentence\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland's tearaway quick bowler reinvented as a top-order batter\nThe sandpaper plot - who was there, who said what?\nJosh Kerr: The making of the man behind the shades\nThe 3pm football blackout: Outdated or still relevant in 2026?\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
