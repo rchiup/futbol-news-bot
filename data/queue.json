@@ -20545,12 +20545,28 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T14:22:55.734495+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "article_context": "El Huevo Acuña en el Camp. Foto: prensa River.\nEste jueves por la mañana, Leonardo Ponzio recibió la mejor noticia en la práctica de River: Marcos Acuña y Lucas Beltrán se entrenaron a la par del grupo en el Camp y se perfilan para jugar ante Instituto.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Instituto"
+      ],
+      "competicion": [
+        "Clausura"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "River recupera a Acuña y Beltrán para enfrentar a Instituto",
+    "caption": "River incorporó a Marcos Acuña y Lucas Beltrán en la práctica y se perfilan para el partido contra Instituto. El técnico Leonardo Ponzio confirmó la noticia en la preparación del cuartelazo del Clausura.",
+    "ai_generated_at": "2026-11-26T14:30:24.903997+00:00"
   },
   {
     "id": "9882ca5b6833bda70b1d",
