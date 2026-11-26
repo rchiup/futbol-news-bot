@@ -21011,5 +21011,70 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "f94a8a37697c4c0812f3",
+    "title": "Bomba de mercado: Racing le hizo una oferta formal a Musso",
+    "source_url": "https://www.ole.com.ar/futbol-primera/racing-atletico-juan-musso-mercado-pases-oferta_0_yioUtsXlP2.html",
+    "source": "Olé Argentina",
+    "description": "Diego Milito habló con el arquero de Atlético y le ofreció volver como referente a la Academia. Juan la está analizando, pero tiene tres propuestas de Europa, con la Selección como prioridad.",
+    "published_at": "2026-11-26T15:20:25+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-26T15:33:29.758246+00:00",
+    "status": "draft",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "Musso",
+        "Diego Milito",
+        "Juan"
+      ],
+      "clubes": [
+        "Racing",
+        "Atlético"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Racing hace una oferta formal a Musso",
+    "caption": "Racing ha presentado una oferta formal al arquero Musso. El jugador evalúa la propuesta mientras recibe tres ofertas de clubes europeos, con la selección como prioridad, y Diego Milito habló con el arquero del Atlético para ofrecerle volver como referente a la Academia.",
+    "ai_generated_at": "2026-11-26T15:33:29.758246+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-26T15:34:44.763680+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "Musso",
+        "DiegoMilito",
+        "Juan",
+        "Racing"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "89dac60aeb98f887a36d",
+    "title": "Russell resta importancia a las palabras de Verstappen: \"Hay cosas que me han hecho reír\"",
+    "source_url": "https://es.motorsport.com/f1/news/russell-palabras-verstappen-reir-qatar-2026/10877905",
+    "source": "Motorsport F1",
+    "description": "George Russell llegó el jueves al Circuito Internacional de Losail negándose a echar más leña al fuego a la última gran polémica entre pilotos de Fórmula 1, aunque dejó claro que no se retractaba de nada de lo que había dicho anteriormente. En la rueda de prensa de la FIA previa al Gran Premio de Qatar —su primera aparición pública desde que Max Verstappen arremetiera contra él ... Sigue leyendo",
+    "published_at": "2026-11-26T15:28:37+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-26T15:33:29.758246+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
