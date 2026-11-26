@@ -12924,7 +12924,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T08:25:08.291366+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -12941,7 +12941,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T08:25:08.291366+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -19050,7 +19050,7 @@
     "headline": "BBC anuncia cobertura completa del Gran Premio de Qatar 2026",
     "caption": "BBC Sport ofrecerá transmisión del Gran Premio de Qatar, del 27 al 29 de noviembre, a través de BBC Radio 5 Sports Extra, BBC Sounds, la web y la app, además del podcast Chequered Flag en iPlayer y YouTube. La carrera, ronda 22 del campeonato 2026, se disputará en el circuito de Lusail con salida a las 16:00 GMT y constará de 57 vueltas.",
     "ai_generated_at": "2026-11-26T11:48:03.421522+00:00",
-    "photo_checked_at": "2026-11-26T19:40:33.831026+00:00",
+    "photo_checked_at": "2026-11-26T20:04:58.639059+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -19699,7 +19699,7 @@
     "headline": "La F1 confirmará el regreso de los motores V8 en 2030",
     "caption": "La Fórmula 1 ha anunciado que a partir de 2030 volverá a utilizar motores V8. Los aficionados esperan el sonido clásico y la menor influencia eléctrica, mientras la categoría evalúa el impacto técnico.",
     "ai_generated_at": "2026-11-26T11:36:41.404214+00:00",
-    "photo_checked_at": "2026-11-26T19:40:33.802148+00:00",
+    "photo_checked_at": "2026-11-26T20:04:58.596792+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -19882,7 +19882,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-26T19:40:33.767653+00:00",
+    "photo_checked_at": "2026-11-26T20:04:58.546513+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -19927,7 +19927,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-26T19:40:33.661039+00:00",
+    "photo_checked_at": "2026-11-26T20:04:34.148231+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -20633,7 +20633,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-26T19:40:32.932661+00:00",
+    "photo_checked_at": "2026-11-26T20:04:32.168451+00:00",
     "portrait_info": null
   },
   {
@@ -22606,12 +22606,43 @@
     "sport": "FUTBOL",
     "score": 34,
     "queued_at": "2026-11-26T19:48:50.938316+00:00",
-    "status": "awaiting_ai",
+    "status": "published",
     "article_context": "DALLAS -- Midfielder Sam Coffey said it is \"surreal\" to return to the United States women's national team for World Cup qualifying after missing recent major matches due to injuries.\nCoffey is back with the U.S. for the first time since April after undergoing a minor knee procedure in May. She said that the time she missed made her even more grateful to be part of the USWNT.\n\"I try to never take this environment for granted,\" Coffey told ESPN and a small group of reporters at training on Thursday. \"I feel like that has multiplied now since going through a few injuries this year after not really experiencing that in my career thus far.\n\"I always have such gratitude for being here, and I think that just is even more so true now. It feels so good to be back and to be able to be here at this time, too, where it's such an important camp and the stakes are really big.\"\nThe U.S. plays El Salvador on Friday night in Mansfield, Texas, in the quarterfinals of the Concacaf W Championship . The winner of the match automatically qualifies for the 2027 Women's World Cup in Brazil.\nThe U.S. women have won four World Cups and never missed the final tournament in nine all-time editions.\nCoffey was a spectator from TV for the United States' pair of away games against Brazil in June. Brazil and the U.S. split those results in physical, contentious matches.\nCoffey also missed last month's friendly matches against world No. 1 Spain . She was on hand in the stadium for the second match in which the Americans rallied from 2-0 down to earn a 2-2 draw.\n\"It's always just a privilege and a joy to be here,\" Coffey said. \"I think this year taught me so much about -- so many lessons in that. How much of a gift it is just to be playing and to be playing with the best team in the world, and how much I hated with all my heart missing those windows and being and home and not being able to contribute and be there with the girls.\n\"I think I just come in with a different perspective now, a bit of a reframe and a re-shift.\"\nCoffey said she is \"finding [her] rhythm\" again in camp with the team in order to rebuild connections and pick up certain information from the coaching staff. She last played for the U.S. in April against Japan .\nCoffey has made 46 career appearances for the USWNT and became an anchor for the team as a defensive midfielder in recent years, including starting during the team's run to a 2024 Olympic gold medal.\nBeing exposed to different styles of play in England, where she plays for Manchester City , has helped her game, Coffey said.\nShe added that her knee feels good and she feels physically healthy -- other than a small cold she caught recently.\nCoffey was originally named to the USWNT's roster for the October matches against Spain but withdrew from camp after sustaining an ankle injury while playing for Manchester City.\nShe flew to the U.S. during the international window and watched the U.S. play Spain in Chester, Pennsylvania. What Coffey saw from the team was encouraging, she said.\n\"It just made me so excited and proud to see how we've progressed and just how good we are, and how we still have like those little last details that we need to fine-tune,\" Coffey said.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Sam Coffey",
+    "visual_entities": {
+      "personas": [
+        "Sam Coffey"
+      ],
+      "clubes": [],
+      "competicion": [
+        "World Cup qualifying"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Sam Coffey regresa al USWNT tras cirugía menor de rodilla",
+    "caption": "Sam Coffey vuelve al equipo nacional de EE.UU. después de una intervención menor en la rodilla. La mediocampista, ausente de los últimos amistosos y de los partidos contra Brasil, se incorpora al campamento mientras se prepara el duelo contra El Salvador en los cuartos de la Concacaf W Championship, que otorga un boleto al Mundial 2027.",
+    "ai_generated_at": "2026-11-26T20:02:23.130848+00:00",
+    "photo_checked_at": "2026-11-26T20:03:54.785565+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "SamCoffey",
+        "WorldCupqualifying"
+      ],
+      "mentions": []
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-26T20:02:23.130848+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-26T20:02:23.130848+00:00",
+    "instagram_media_id": "17957999910312135"
   },
   {
     "id": "928b18340427805b6ad4",
@@ -22670,5 +22701,22 @@
     "portrait_used": false,
     "reference_photo_used": false,
     "editorial_rechecked": true
+  },
+  {
+    "id": "48ce083d68cf93432f32",
+    "title": "TC: el puntaje especial que tendrá la definición del campeonato en La Plata",
+    "source_url": "https://www.ole.com.ar/autos/puntos-tc-dara-plata-cierre-temporada-2026_0_RWDyIlLo35.html",
+    "source": "Olé Argentina",
+    "description": "La categoría disputará la última fecha del campeonato el finde del 5 y 6 de diciembre en el autódromo Roberto Mouras, donde habrá una particularidad en el reparto de puntos.",
+    "published_at": "2026-11-26T19:51:22+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T20:02:23.130848+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
