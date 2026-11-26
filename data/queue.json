@@ -20297,11 +20297,12 @@
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795702026/football-news-bot/reels/f1308fa25c82fcd38936.mp4",
     "publish_format": "reel",
     "format_attempt_at": "2026-11-26T14:05:43.731755+00:00",
-    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_status": "published",
     "zernio_tiktok_id": "6b083d0c8e86ed2bb4bacd03",
     "zernio_youtube_status": "published",
     "zernio_youtube_id": "6b083d0f8e86ed2bb4bacd1f",
-    "zernio_youtube_url": "https://www.youtube.com/watch?v=XcFn6ED49Aw"
+    "zernio_youtube_url": "https://www.youtube.com/watch?v=XcFn6ED49Aw",
+    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712481488616426758"
   },
   {
     "id": "bdd44647de1380c2b463",
@@ -20450,6 +20451,23 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-26T14:01:27.264440+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "26c33b4fb1c8aebe31cd",
+    "title": "Cacique en su tierra y la final que no quería ver por TV",
+    "source_url": "https://www.ole.com.ar/estudiantes/cacique-medina-dt-estudiantes-tierra-uruguay-copa-libertadores-historia_0_uKwf7RxldO.html",
+    "source": "Olé Argentina",
+    "description": "Medina vuelve a su tierra, la que supo conquistar como jugador. Ahora, como DT, va por todo con Estudiantes. La Libertadores lo espera.",
+    "published_at": "2026-11-26T13:56:25+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T14:09:07.417949+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
