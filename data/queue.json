@@ -13583,7 +13583,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T11:35:32.785233+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -23587,7 +23587,24 @@
     "caption": "Estudiantes encabeza el ranking sudamericano con 62 unidades, por delante de River (23) y Boca (10). La final contra Palmeiras decidirá si el Pincha suma tres puntos y asegura su boleto directo al Mundial de Clubes 2029, o si Palmeiras supera a Flamengo y lidera la tabla.",
     "ai_generated_at": "2026-11-26T23:06:15.143794+00:00",
     "quality_hold": "unverified_numeric_score",
-    "editorial_rechecked": true
+    "editorial_rechecked": true,
+    "photo_checked_at": "2026-11-26T23:18:25.689120+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 16.3,
+      "mean_db": -19.5
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795735116/football-news-bot/reels/374add860eda9220a3c8.mp4",
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-26T23:16:50.606147+00:00",
+    "crosspost_attempt_at": "2026-11-26T23:16:50.606147+00:00",
+    "buffer_youtube_status": "check_required"
   },
   {
     "id": "378ed374c5891382df9a",
