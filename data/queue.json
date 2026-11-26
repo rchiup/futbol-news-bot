@@ -23482,5 +23482,39 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "26380a220ef1f39cb52f",
+    "title": "Spain beats Austria without Alcaraz to set up Davis Cup semi vs. Britain",
+    "source_url": "https://www.espn.com/tennis/story/_/id/50606263/spain-beats-austria-set-davis-cup-semifinal-vs-britain",
+    "source": "ESPN Tennis",
+    "description": "Daniel Merida gave Spain the lead in its Davis Cup quarterfinal by defeating Austria's Joel Schwaerzler 6-4, 6-4 before Rafael Jodar clinched victory by coming from a set down to overcome Jurij Rodionov 2-6, 6-0, 6-1.",
+    "published_at": "2026-11-26T21:46:17+00:00",
+    "category": "TENIS",
+    "sport": "TENIS",
+    "score": 26,
+    "queued_at": "2026-11-26T22:32:28.832618+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "59738e1033a2897afe49",
+    "title": "Bournemouth 'allowed to dream' as fans book Europa League final hotels",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/cmq5v84vw818o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Bournemouth are dreaming of winning the Europa League after joining a select band of teams who have won their first five European games.",
+    "published_at": "2026-11-26T22:27:52+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T22:32:28.832618+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
