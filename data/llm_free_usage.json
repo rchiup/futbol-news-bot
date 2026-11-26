@@ -11,9 +11,9 @@
       "blocked_until_utc": 1795651757
     },
     "gemini": {
-      "attempts": 8,
-      "success": 8,
-      "failures": 0,
+      "attempts": 16,
+      "success": 15,
+      "failures": 1,
       "latencies_ms": [
         933,
         5828,
@@ -22,7 +22,14 @@
         923,
         1562,
         751,
-        1202
+        1202,
+        1275,
+        1115,
+        1147,
+        1129,
+        973,
+        3178,
+        1973
       ],
       "quality": [
         100,
@@ -32,9 +39,28 @@
         100,
         85,
         100,
-        85
+        85,
+        85,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "last_error": "invalid_output"
+    },
+    "openrouter": {
+      "attempts": 1,
+      "success": 1,
+      "failures": 0,
+      "latencies_ms": [
+        39914
+      ],
+      "quality": [
+        100
       ]
     }
   },
-  "last_success": "gemini"
+  "last_success": "openrouter"
 }

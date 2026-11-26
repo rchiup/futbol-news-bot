@@ -17470,11 +17470,29 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T21:47:21.723281+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Ferguson was named as Glentoran boss in October\nIf Duncan Ferguson is to be a success at Glentoran, it will be without the benefit of any new manager bounce.\nThe former Everton striker arrived at the Oval in October amid plenty of fanfare and sparked hopes that the high-profile left-field appointment would be the one to lead the Glens to a first Irish Premiership title since 2009.\nHowever, under the Scot the east Belfast outfit have struggled for results, registering just one win in five matches, and exited the BetMcLean Cup after being beaten at home by Larne on Tuesday night.\nOn top of their inconsistent form, Ferguson was handed a seven-game suspension following a red card for arguing with officials in the side's 3-2 defeat by Cliftonville last week and will not be back in the dugout until 2027.\nFerguson was sent off at Solitude and has since apologised\nEarning his first Irish Premiership red card in just his fourth match in charge was an unwanted milestone for Ferguson but it is the resulting suspension that poses a more significant problem.\nThe 1995 FA Cup winner was dismissed for the way he addressed match officials after believing the Reds' opener at Solitude should have been ruled out for a foul in the build-up.\nFerguson has since apologised but will now miss a string of key games including the highly anticipated 'Big Two' Boxing Day derby, a match that may not require much of a team talk from the manager but is perhaps biggest single fixture in the Irish Premiership calendar.\nWhile Ferguson must watch his new team from the stands, assistant coach Gary Bollan will take charge with the help of goalkeeping coach Elliot Morris.\n\"Yeah, I think it's a big miss for us in the changing room, not having his voice and not having his persona in the changing room,\" Morris said when asked about Ferguson's ban.\n\"He's a big character, but it is what it is and we'll just have to accept it and get on with it.\n\"He's accepted it, the club's accepted it, we'll just get on with it and try and focus for the second Larne match.\"\nFollowing Declan Devine's departure in September, results under interim manager Paddy McCourt and coach Tim McCann suggested that the Glens may be beginning to turn a corner, but Ferguson has so far found it difficult to build upon that progress.\nFive points from four games in the Irish Premiership, now paired with the setback of a cup exit, shows that there is plenty for Ferguson to address.\nVictory over Bangor remains the highlight of the new manager's tenure to date, but even that win was only secured thanks to Cal Weatherup's 87th-minute winner.\nIndeed, the upturn in form of striker Weatherup has been one bright point for the side in recent weeks.\nAfter limited minutes at the start of the season, the 18-year-old has now netted three goals in his past three games.\nHis emergence is particularly welcome given leading striker Pat Hoban continues to work his way back from injury and former Northern Ireland international Conor McMenamin looks to recapture his best form after returning to the Irish Premiership in the summer.\nFerguson will know the importance of the Glens looking like more of a threat in the final third and one of his aims will be to help the former Glentoran academy forward continue his recent form and bolster the east Belfast side's front-line.\nFerguson will surely have already seen enough to start on his plans to help the Glens end their long wait for Premiership success - even if he is to be watching the next six games from a frustrating remove.\nHis personality and contacts are still to be major assets for the Glens and he can continue to put his stamp on the side during training.\nFerguson has already signed one player during his time at the club - free agent Nathan Shaw - but the January transfer window will give him the opportunity to bring in further fresh faces.\nThe Glens sit in fourth and 17 points behind league leaders Linfield in the Premiership, but there will be another chance to seal silverware in the form of the Irish Cup, a competition they have won 23 times.\nBy the time Glentoran come into that competition in January, Ferguson will finally be back in dugout rather than the director's box.\nFerguson's tenure will not be defined by these early days, but he is experienced enough to know that a quick upturn in results is crucial.\nFor now, all attention turns to Friday's Irish Premiership rematch against the Inver Reds - live on BBC iPlayer - as Ferguson's side look to get their season back on track without him on the sidelines.\nLammens blunder costs Man Utd victory on wild night in Lisbon\nIsak scores twice as Liverpool win at Club Brugge\nFirst look: Strike and Robin return to take on a dangerous cult\nHow the Hubble Space Telescope almost ended in catastrophe\nRob Brydon stars in a brand-new houseshare comedy\nThe rebellious story of the 1993 feud in darts\nAll the latest from Irish Rugby with BBC Sport NI\nAll the latest news from the Irish Premiership\nThree pens and a red as Man Utd draw against Sporting. Video Three pens and a red as Man Utd draw against Sporting\n'Best midfielder in the world' - where does Bellingham rank?\nWhy four-time MVP Rodgers may have played last NFL game\nHow to unearth young stars, the Bayern Munich way\nSooryavanshi, 15, breaks sixes record in 204 off 53 balls\nSterling - from England icon to suspended jail sentence\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland's tearaway quick bowler reinvented as a top-order batter\nEngland will not get carried away by beating All Blacks\nVerstappen a constant amid chaos as he says Russell is 'so far below my level'\nThe sandpaper plot - who was there, who said what?\nJosh Kerr: The making of the man behind the shades\nThe 3pm football blackout: Outdated or still relevant in 2026?\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "visual_subject": "Duncan Ferguson",
+    "visual_entities": {
+      "personas": [
+        "Duncan Ferguson"
+      ],
+      "clubes": [
+        "Glentoran",
+        "Everton"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Duncan Ferguson recibe siete fechas de suspensión en el Glentoran",
+    "caption": "El técnico escocés fue sancionado tras ser expulsado por reclamar a los árbitros en la derrota ante Cliftonville. Ferguson solo ha logrado una victoria en cinco partidos desde su llegada al club en octubre y no podrá dirigir desde la banca hasta 2027.",
+    "ai_generated_at": "2026-11-26T00:03:42.398491+00:00"
   },
   {
     "id": "ucl-final-401915291",
@@ -17774,11 +17792,25 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T21:56:54.791848+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "José Antonio Kast",
+    "visual_entities": {
+      "personas": [
+        "José Antonio Kast"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "Congreso despachó el Presupuesto 2027, primera del Gobierno de Kast",
+    "caption": "El Congreso Nacional aprobó el Presupuesto 2027, primera propuesta elaborada por el Gobierno de Kast. La iniciativa se enmarca en la discusión parlamentaria y la oposición critica que los recursos provienen de partidas ya existentes.",
+    "ai_generated_at": "2026-11-26T00:03:42.398491+00:00"
   },
   {
     "id": "4dbbadecf470ed917572",
@@ -17902,11 +17934,25 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T22:27:07.536624+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Inter"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Lautaro Martínez anota en el triunfo del Inter por Champions League",
+    "caption": "El delantero argentino marcó un gol tras ingresar desde el banco en la victoria del Inter. Con este resultado, el equipo italiano mantiene sus opciones de clasificar directamente a los octavos de final del torneo continental.",
+    "ai_generated_at": "2026-11-26T00:03:42.398491+00:00"
   },
   {
     "id": "fe4d3b4b1628dacbed6c",
@@ -18033,11 +18079,30 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T22:35:06.760313+00:00",
-    "status": "awaiting_ai",
+    "status": "duplicate",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Goalkeeper Senne Lammens endures a topsy-turvy night as Manchester United draw with Sporting.\nMATCH REPORT: Champions League - Sporting 2-2 Manchester United\nLammens howler denies Man Utd victory against Sporting in incident-packed game. Video, 00:03:09 Lammens howler denies Man Utd victory against Sporting in incident-packed game\nUp Next. Old Trafford crowd can change games - Carrick. Video, 00:01:56 Old Trafford crowd can change games - Carrick\nMan Utd are hurting - Carrick. Video, 00:00:53 Man Utd are hurting - Carrick\n'Players won't like it' - Martinez apologises, but is the damage done? Video, 00:03:15 'Players won't like it' - Martinez apologises, but is the damage done?\n'It was the final roll of the dice for Michael Carrick' Video, 00:01:26 'It was the final roll of the dice for Michael Carrick'\nGreatest catch ever? Man on motorbike takes incredible grab. Video, 00:00:22 Greatest catch ever? Man on motorbike takes incredible grab\nBehind the scenes at Ipswich Town's new £35m training ground. Video, 00:08:10 Behind the scenes at Ipswich Town's new £35m training ground\nMarquez collects eighth MotoGP title. Video, 00:01:16 Marquez collects eighth MotoGP title\nRed card must be taken into consideration for loss - Pochettino. Video, 00:01:08 Red card must be taken into consideration for loss - Pochettino\nFrom Watford to world champion. Video, 00:01:40 From Watford to world champion\nWhy Fury was born to fight Video, 00:01:34 Why Fury was born to fight\nI had to play regularly for my mental wellbeing - Trafford on summer move. Video, 00:02:05 I had to play regularly for my mental wellbeing - Trafford on summer move\nFans pay respects to Tenerife's De Miguel. Video, 00:01:01 Fans pay respects to Tenerife's De Miguel\nI don't know what 2027 looks like for me - Rahm. Video, 00:01:51 I don't know what 2027 looks like for me - Rahm\nAntonelli title win 'beginning of something special' Video, 00:01:43 Antonelli title win 'beginning of something special'\n'Utter chaos at Ferrari right now' Video, 00:02:23 'Utter chaos at Ferrari right now'\nRice relishing title race 'anxiety' after win at Liverpool. Video, 00:05:27 Rice relishing title race 'anxiety' after win at Liverpool\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "visual_subject": "Senne Lammens",
+    "visual_entities": {
+      "personas": [
+        "Senne Lammens"
+      ],
+      "clubes": [
+        "Manchester United",
+        "Sporting"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Manchester United empata ante Sporting tras error de Senne Lammens",
+    "caption": "El Manchester United igualó 2-2 frente al Sporting en un encuentro marcado por decisiones polémicas. Un fallo del portero Senne Lammens privó al equipo inglés de llevarse la victoria en este compromiso por la Champions League.",
+    "ai_generated_at": "2026-11-26T00:03:42.398491+00:00",
+    "duplicate_of": "same_story_as:ucl-final-401915373"
   },
   {
     "id": "c9cf3e8c35019b656721",
@@ -18113,11 +18178,26 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T22:56:57.654469+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Ruben Darío Insua y los desafíos que tiene en San Lorenzo. (Foto: Prensa San Lorenzo).\nPoco más de una semana . Ese es el tiempo que le queda a Ruben Darío Insua antes de que el plantel profesional comience sus vacaciones. En este tiempo, lleno de complicaciones y dificultades, el entrenador tendrá el duro desafío de tomar decisiones de lo que será el armado para la próxima temporada .\nCon el cronograma ya definido, San Lorenzo se entrenará hasta el viernes 4 de diciembre , momento en el que iniciará el periodo vacacional, para luego retornar el miércoles 2 de enero , fecha en la que se dará comienzo a la pretemporada. ¿Cuántos jugadores seguirán? ¿Cuántos se irán? ¿Qué sucederá con la vida institucional y deportiva? Muchos interrogantes, pocas respuestas.\nLuego de los cuatro días de licencia y en medio del conflicto por los atrasos salariales , el Gallego se encuentra realizando una serie de evaluaciones para determinar quiénes serán los futbolistas que buscará que se queden con vistas al armado del equipo.\nEn el Ciclón se vencen 17 contratos y la dirigencia ya avisó que habrá una fuerte reducción del presupuesto . Hay algunos nombres que no seguirán, mientras que otros (tampoco muchos) podrían seguir dependiendo de la postura del técnico. ¿Los casos principales? Buscarán que Manuel Insaurralde y Daniel Herrera sigan, Nahuel Barrios continuará al seguir recuperándose de su lesión ligamentaria y Facundo Altamirano, Diego Herazo, Franco Lorenzón y Rodrigo Auzmendi (finaliza el préstamo) se irían, al igual que Ramiro Pedroza, Cristian Gallardo y Branco Salinardi por el conflicto con su representante.\nMientras evalúa varios nombres, RDI ya avisó que habrá una apuesta fuerte a las Inferiores : entre 17 y 18 pibes iniciarán la pretemporada el 2/1.\nEl conflicto entre el plantel profesional y la dirigencia por los atrasos salariales todavía no se resolvió. Sin embargo, hubo presencia dirigencial en la práctica de ayer y hubo charlas para empezar a regular la situación de a poco.\nLos directivos del Ciclón buscan saldar parte de la deuda antes del fin de semana para evitar que el conflicto se dilate aún más y escale.\nLos futbolistas, que continuarán entrenándose hasta el 4 de diciembre en la Ciudad Deportiva, quiere una solución .\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "San Lorenzo"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Ruben Darío Insua define el plantel de San Lorenzo para 2027",
+    "caption": "El entrenador evalúa la continuidad de jugadores ante el vencimiento de 17 contratos y la reducción del presupuesto. El club busca resolver los atrasos salariales con el plantel antes del inicio de las vacaciones el 4 de diciembre.",
+    "ai_generated_at": "2026-11-26T00:03:42.398491+00:00"
   },
   {
     "id": "4a7024e5c24e945c57ba",
@@ -18169,11 +18249,28 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T23:05:52.438012+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Quilmes ya no puede permitirse volver a tener una campaña fuera de los reflectores principales de la divisional. Estar en boca de todos por pelear el descenso no es algo positivo y ya son dos los años el Cervecero encadena abajo en la tabla. Es por eso que la CD ya se puso manos a la obra en el afán de rearmar el equipo para encarar el 2027 . Con resciciones de contratos y cambios en la estructura futbolística, Alsina y Lora se prepara para una reestructuración de cara a la Primera Nacional del año entrante .\nSe sabía que Emanuel Trípodi tenía las horas contadas al mando del primer equipo. A pesar de haber agarrado el fierro caliente en un momento delicadísimo de la temporada y haber conseguido el objetivo de la permanencia, la comisión buscó un cambio de aires y decidió ponerle fin al ciclo del ex arquero y de su CT al mando del plantel. Interinamente, las riendas las agarró Hernán Meske , técnico de la Reserva.\nPero la del ex Boca no fue la única desvinculación que tuvo el equipo de Zona Sur. A su vez, Quilmes confirmó que Ariel Kippes , el central que llegó como figura desde San Miguel y portó la cinta de capitán en gran parte de los encuentros que disputó, y Juan Yangali rescindieron sus respectivos contratos y tendrán que buscarse club.\nLa posibilidad de que Joaquín Iturrería arribe a la institución es concreta . El deté, que recientemente dejó su puesto en Midland después de grandes temporadas, estaría muy cerca de suceder a Trípodi como entrenador . En diálogo con Radio FMQ, el ex Funebrero confirmó los acercamientos y hasta tiró varios centros para apurar el trámite: \"Tenemos varias propuestas, pero la de Quilmes es la principal \".\n\" No hay nada definido , estamos expectantes. Solo con el nombre de la institución no se logran cosas. Se necesita trabajo y planificación. Sentimos que tenemos la capacidad para hacerlo. Si tuviera la posibilidad, empiezo a trabajar mañana en todo lo que viene\", sentenció.\nA su vez mencionó un nombre propio que trascendió y que empezó a sonar bien fuerte en el Cervecero: el de Leo Villarruel, actual director deportivo de Morón . Es que, tras la salida de Miguel Caneo, nadie ocupa ese puesto en el club y es la cabeza futbolística del Gallo la que suena para entrar en ese lugar vacante . \"A Villarruel lo conozco hace mucho por mi trabajo en Morón, desde que me designaron coordinador de juveniles. Tengo muy buena relación y creo que armó buenos planteles en los últimos años\", dijo Iturrería.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Quilmes"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Quilmes"
+      ]
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Quilmes inicia reestructuración técnica tras la salida de Emanuel Trípodi",
+    "caption": "El club oficializó la partida del entrenador Emanuel Trípodi y de los jugadores Ariel Kippes y Juan Yangali. Hernán Meske asumió de forma interina mientras la dirigencia negocia la llegada de Joaquín Iturrería para liderar el proyecto deportivo de 2027.",
+    "ai_generated_at": "2026-11-26T00:03:42.398491+00:00"
   },
   {
     "id": "02e594f33341697df467",
@@ -18186,11 +18283,26 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T23:16:01.599613+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Maradona dirigiendo la práctica de Deportivo Riestra.\nSe cumple un nuevo aniversario del fallecimiento de Diego Armando Maradona , uno de los futbolistas más grandes de nuestra historia. Tan grande era Diego, que no solo nos ha dejado el recuerdo de su excelente faceta futbolística, sino que también un sinfín de historias a su paso , incluso en espacios donde quizás no lo imaginamos. Una de ellas tiene lugar en Bajo Flores, precisamente en Deportivo Riestra .\nEn 2013, Maradona regresó de Emiratos Árabes Unidos, lugar donde estaba radicado luego de dirigir en el Al-Wasl, y se acercó a Riestra, en principio, por su relación con su abogado personal y amigo. Sin embargo, no sabía que terminaría involucrado en uno de los momentos más importantes de la historia del Malevo: el ascenso a la Primera C en 2014.\nLa relación había comenzado un tiempo antes, cuando Diego empezó a frecuentar el Guillermo Laza y a acompañar al equipo. Incluso llegó a participar de entrenamientos y a compartir charlas con los futbolistas. Luego, aceptaría un rol simbólico como “asesor espiritual y consejero” de Riestra. Uno de los capítulos más recordados de esta historia llegaría en la previa de la definición de la Primera D.\nEl 21 de abril de 2014, Riestra recibió a Sportivo Barracas con la posibilidad de asegurar el campeonato y el ascenso. Antes del encuentro, Maradona les hizo llegar un audio desde Dubai para motivarlos. \"Acá podemos poner el corazón todos nosotros para que ustedes asciendan, pero la cara la ponen ustedes, muchachos\", fue una de las frases que les dedicó.\nEl mensaje continuó con una arenga que apuntaba directamente al esfuerzo realizado durante toda la temporada. “El ascenso hoy lo ganan ustedes en cada pelota dividida” , les dijo Diego, antes de recordarles que debían pensar en sus familias y en todo lo que habían dejado de lado para llegar hasta ese momento.\nEl Malevo estuvo a la altura de la ocasión y derrotó 3-2 a Sportivo Barracas, con goles de Jonatan Goya, Jonathan Herrera y Sebastián Soto, consagrándose así campeón de la Primera D tres fechas antes del final y asegurando su regreso a la Primera C después de 11 años.\nLa historia entre el Diego y Riestra no termina acá. En 2023, en la previa a disputar la final de la Primera Naciona l ante Deportivo Maipú , los jugadores del Malevo saltaron al campo de juego con una bandera que rezaba “En este y cada día”, con un retrato de Pelusa y las Islas Malvinas al lado.\nRiestra consiguió el ascenso aquella tarde en Alta Córdoba y su capitán, Nicolas Dematei, se acordó del Diez una vez terminado el partido. “Diego nos debe haber dado una mano desde el cielo” , expresó. Ser tan querido y quedar marcado en la memoria de la gente es algo que pocos pueden lograr. Diego lo logró en el mundo.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Deportivo Riestra"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Diego Maradona fue asesor espiritual del club Deportivo Riestra",
+    "caption": "El astro argentino cumplió un rol simbólico en el ascenso del equipo a la Primera C en 2014. Maradona envió un mensaje motivacional al plantel antes del partido decisivo frente a Sportivo Barracas. El vínculo con la institución se mantuvo presente en años posteriores durante la campaña de ascenso a la Primera Nacional.",
+    "ai_generated_at": "2026-11-26T00:03:42.398491+00:00"
   },
   {
     "id": "8200c8ffa1a43dd98592",
@@ -18257,8 +18369,9 @@
     "llm_provider": "gemini",
     "llm_model": "gemini-3.1-flash-lite",
     "headline": "Nueva Chicago inicia reestructuración tras confirmar el descenso a Primera B",
-    "caption": "Facundo Argüello asumió como nuevo director deportivo del club tras la salida de Gomito Gómez. La institución rescindió los contratos de cuatro futbolistas y busca a Leo Lemos para ocupar el cargo de entrenador en la próxima temporada.",
-    "ai_generated_at": "2026-11-26T00:01:33.219898+00:00"
+    "caption": "Facundo Argüello asumió como nuevo director deportivo del club en reemplazo de Gomito Gómez. La institución oficializó la salida de cuatro futbolistas y negocia la llegada de Leo Lemos para ocupar el cargo de entrenador.",
+    "ai_generated_at": "2026-11-26T00:03:42.398491+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "191c43d1cd4c84ed74e3",
