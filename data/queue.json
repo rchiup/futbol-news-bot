@@ -21364,5 +21364,71 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "899a36423af0b1f7c80d",
+    "title": "Escándalo en Brasil: detuvieron a un futbolista de Vasco da Gama, que había jugado contra Boca, por tentativa de homicidio y tráfico de drogas y armas",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/davidcorreadafonseca-vascodagama-boca-copasudamericana_0_6E7KgqpkIT.html",
+    "source": "Olé Argentina",
+    "description": "David Corrêa da Fonseca fue arrestado en el centro de entrenamiento, en el marco de una investigación por presuntos vínculos con una organización criminal. La Justicia también ordenó la prisión preventiva de Hayner, jugador del Vila Nova.",
+    "published_at": "2026-11-26T16:34:54+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-26T16:38:47.829822+00:00",
+    "status": "draft",
+    "visual_subject": "David Corrêa da Fonseca",
+    "visual_entities": {
+      "personas": [
+        "David Corrêa da Fonseca",
+        "Hayner"
+      ],
+      "clubes": [
+        "Vasco da Gama",
+        "Boca",
+        "Vila Nova"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "David Corrêa da Fonseca (Vasco) detenido por tentativa de homicidio",
+    "caption": "David Corrêa da Fonseca, futbolista de Vasco da Gama, fue arrestado por tentativa de homicidio y tráfico de drogas y armas. La detención ocurrió en el centro de entrenamiento y la justicia también ordenó prisión preventiva para Hayner, jugador del Vila Nova, en la misma investigación.",
+    "ai_generated_at": "2026-11-26T16:38:47.829822+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-26T16:39:51.309833+00:00",
+    "portrait_info": null,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "DavidCorreadaFonseca",
+        "Hayner",
+        "VascodaGama",
+        "Boca"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "c0ebaaa7707c6796ea25",
+    "title": "Los técnicos de la Liga Profesional que renunciaron o fueron despedidos en lo que va de 2026",
+    "source_url": "https://www.ole.com.ar/futbol-primera/tecnicos-dejaron-cargo-renunciaron-liga-profesional-2026-diego-martinez-huracan_0_0Pg3RRcbcm.html",
+    "source": "Olé Argentina",
+    "description": "Diego Martínez dejó de ser el técnico de Huracán, tras quedar eliminado en octavos de final del Clausura, y se sumó a la extensa lista en lo que va de este año.",
+    "published_at": "2026-11-26T16:35:33+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T16:38:47.829822+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]

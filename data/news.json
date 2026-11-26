@@ -12246,5 +12246,29 @@
     "source": "www.espn.com - SOCCER",
     "collected_at": "2026-11-26T16:35:58.579269+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "c0ebaaa7707c6796ea2528e29d1554789bd97e776022a9013cad9eaf68cb48e7",
+    "title": "Los técnicos de la Liga Profesional que renunciaron o fueron despedidos en lo que va de 2026",
+    "url": "https://www.ole.com.ar/futbol-primera/tecnicos-dejaron-cargo-renunciaron-liga-profesional-2026-diego-martinez-huracan_0_0Pg3RRcbcm.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-26T16:38:45.584517+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "899a36423af0b1f7c80d5659cdf8a38525abdf21445aa2c3c123581a61b4f546",
+    "title": "Escándalo en Brasil: detuvieron a un futbolista de Vasco da Gama, que había jugado contra Boca, por tentativa de homicidio y tráfico de drogas y armas",
+    "url": "https://www.ole.com.ar/futbol-internacional/davidcorreadafonseca-vascodagama-boca-copasudamericana_0_6E7KgqpkIT.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-26T16:38:45.584536+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "d543e149d38b7c32995ad50169f5f0b215b38aa027adc78804f5972824d34c33",
+    "title": "De River a Independiente Rivadavia: la racha de ¡siete meses! sin penales a favor que rompió Boca",
+    "url": "https://www.ole.com.ar/boca-juniors/boca-fin-racha-penales-favor-meses-torneo-clausura-independiente-rivadavia_0_yQxkiQfKi4.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-26T16:38:45.584541+00:00",
+    "status": "pending_review"
   }
 ]
