@@ -1,17 +1,17 @@
 {
-  "checked_at_utc": "2026-11-26T13:02:35.066914+00:00",
+  "checked_at_utc": "2026-11-26T13:05:59.172849+00:00",
   "local_hour": 10,
   "statuses": {
     "published": 159,
-    "draft": 11,
-    "awaiting_ai": 77,
+    "draft": 12,
+    "awaiting_ai": 76,
     "needs_review": 114,
     "publish_error": 27,
     "duplicate": 55
   },
-  "fresh_candidates": 147,
+  "fresh_candidates": 188,
   "queued_new": 0,
-  "ai_generated": 0,
+  "ai_generated": 1,
   "preview_images": 5,
   "published": 0,
   "duplicates_suppressed": 0,
@@ -38,10 +38,10 @@
     "last_success": "groq",
     "providers": {
       "groq": {
-        "attempts": 101,
-        "success": 21,
-        "failures": 80,
-        "avg_latency_ms": 2372,
+        "attempts": 103,
+        "success": 22,
+        "failures": 81,
+        "avg_latency_ms": 2361,
         "avg_readability": 98.6,
         "last_error": "http_429"
       },
