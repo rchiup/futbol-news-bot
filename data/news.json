@@ -12318,5 +12318,21 @@
     "source": "Cooperativa.cl: Noticias de Chile y el mundo - País, Deportes y más",
     "collected_at": "2026-11-26T16:57:24.323666+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "0123250218c7bfebff1c277a923ac69feb52eaea5bef71a3b70be5f04d52ad24",
+    "title": "Análisis táctico de Estudiantes: más que mística, las claves futbolísticas para la final",
+    "url": "https://www.ole.com.ar/tactica/estudiantes-analisis-final-palmeiras-copa-libertadores_0_HstkEtWNFL.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-26T17:00:40.084576+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "2ca4e3bbf84b438e812e323d3b9c605e5b5fc2b2f73a3eba64747031b350ceb5",
+    "title": "Grave denuncia de Marcos Milinkovic en el vóley salteño",
+    "url": "https://www.ole.com.ar/voley/marcosmilinkovic-infernales-copaprovincial-delmi-asociacionsaltenadevoley-feva-lnvm-federacionsaltenadevoley_0_FtgoZ8JyWL.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-26T17:00:40.084594+00:00",
+    "status": "pending_review"
   }
 ]

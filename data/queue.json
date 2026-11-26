@@ -21521,5 +21521,39 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "0123250218c7bfebff1c",
+    "title": "Análisis táctico de Estudiantes: más que mística, las claves futbolísticas para la final",
+    "source_url": "https://www.ole.com.ar/tactica/estudiantes-analisis-final-palmeiras-copa-libertadores_0_HstkEtWNFL.html",
+    "source": "Olé Argentina",
+    "description": "El equipo del Cacique Medina tiene argumentos sólidos desde el juego como para imponerse en el partido decisivo de esta Copa Libertadores ante Palmeiras. Informe especial con imágenes y videos.",
+    "published_at": "2026-11-26T16:49:07+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T17:00:42.467113+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "2ca4e3bbf84b438e812e",
+    "title": "Grave denuncia de Marcos Milinkovic en el vóley salteño",
+    "source_url": "https://www.ole.com.ar/voley/marcosmilinkovic-infernales-copaprovincial-delmi-asociacionsaltenadevoley-feva-lnvm-federacionsaltenadevoley_0_FtgoZ8JyWL.html",
+    "source": "Olé Argentina",
+    "description": "El excapitán de la Selección denunció que la Asociación Salteña suspendió a cuatro jugadores por jugar un cuadrangular con Infernales, club de la Federación que él dirige. El caso expone la interna política entre dos entidades que organizan el vóley en la provincia con los jugadores de rehenes.",
+    "published_at": "2026-11-26T16:46:33+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T17:00:42.467113+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
