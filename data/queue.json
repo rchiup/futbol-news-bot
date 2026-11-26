@@ -18064,10 +18064,20 @@
       ],
       "mentions": []
     },
-    "publish_format": "image",
-    "format_attempt_at": "2026-11-25T22:21:17.886225+00:00",
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-26T02:37:16.666700+00:00",
     "posted_at": "2026-11-25T22:21:17.886225+00:00",
-    "instagram_media_id": "18120465866034490"
+    "instagram_media_id": "18120465866034490",
+    "reel_quality": {
+      "version": 2,
+      "duration": 14.8,
+      "mean_db": -19.8
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795660654/football-news-bot/reels/ucl-final-401915374.mp4",
+    "zernio_tiktok_status": "failed",
+    "zernio_tiktok_id": "6b079b6f8d1cf291afaa763f",
+    "buffer_youtube_status": "sent",
+    "buffer_youtube_id": "6b079b73b8e2338b8582bb46"
   },
   {
     "id": "ucl-final-401915375",
