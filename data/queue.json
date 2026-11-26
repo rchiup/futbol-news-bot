@@ -19913,7 +19913,7 @@
     "sport": "TENIS",
     "score": 26,
     "queued_at": "2026-11-26T11:57:50.775174+00:00",
-    "status": "draft",
+    "status": "published",
     "visual_subject": "Cameron Norrie",
     "visual_entities": {
       "personas": [
@@ -19947,7 +19947,12 @@
         "DavisCup"
       ],
       "mentions": []
-    }
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-26T20:42:45.152209+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-26T20:42:45.152209+00:00",
+    "instagram_media_id": "17889068178504871"
   },
   {
     "id": "0e189d231ea117ed9075",
@@ -21965,12 +21970,31 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T17:42:17.307740+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "article_context": "Los jugadores de Instituto dentro de la cámara hiperbárica.\nAsí como Goku se sumergía en aquella recordada cápsula médica en Dragon Ball Z para curar sus heridas a contrarreloj antes de la batalla contra el malvado Freezer, en Alta Córdoba apelaron a una receta científica similar -y real- para tratar de recuperar a dos de sus mejores figuras. Con el reloj corriendo rumbo a los cuartos del Clausura , Jeremías Lázaro y Alex Luna , las dos piezas ofensivas de Instituto que arrastran molestias físicas, usaron una cámara hiperbárica para acelerar los tiempos biológicos y tratar de decir presente en el duelo frente a River .\nEste martes, el entrenador Diego Flores había optado por blindar la información en el predio de La Agustina. Consultado ante los micrófonos, no quiso compartir detalles puntuales y decidió preservar para la intimidad del grupo el estado de sus lesionados. Sin embargo, más allá del misterio del Traductor, lo concreto es que ambos futbolistas vienen trabajando de manera diferenciada y por ahora no se baja del mata-mata ante el conjunto de Leonardo Ponzio .\nCon el foco puesto en realizar una optimización en su recuperación muscular, Lázaro y Luna se trasladaron hasta la clínica Eucalia , donde estuvieron acompañados por Matías Gallardo, uno de los hijos del Muñeco. Allí se sometieron al tratamiento bajo la supervisión del médico Esteban Cecatto , quien dejó un diagnóstico alentador para la Gloria: \"Creo que al sábado llegan muy bien\".\nLos propios protagonistas también mostraron su entusiasmo tras completar el procedimiento. \"Estuvo muy bueno y sirve para llegar en óptimas condiciones al partido y dar lo mejor\" , valoró Luna, una de las cartas más desequilibrantes del equipo. Y en la misma línea, Lázaro remarcó que \"vinimos para optimizar nuestro rendimiento en el campo de juego\".\nEl método elegido por los jugadores de Instituto es furor en el alto rendimiento, al punto de que estrellas como Cristiano Ronaldo tienen una propia instalada en su casa , y se utiliza de forma habitual en diferentes lesiones, ya sean fracturas o aspectos musculares.\nSu principio fisiológico es tan puntual como efectivo: el deportista ingresa en una cámara presurizada donde respira oxígeno al 100% a lo largo de sesiones de 60 minutos , sometido a una presión atmosférica que equivale a estar a unos 14 metros bajo el mar. Esa presión superior ayuda a que el oxígeno -que alcanza una cantidad mucho mayor en el plasma que cuando se respira aire común- se disuelva rápidamente en la sangre y llegue mejor a los tejidos dañados.\n¿El resultado? Genera un gran efecto analgésico que sirve para disminuir la inflamación aguda y el dolor , permite que los tejidos se regeneren más rápido y hace que la recuperación pueda demorar hasta la mitad del tiempo habitual. Una puesta a punto de otro a contrarreloj para recibir a River, mientras Flores tiene a mano a John Córdoba como reemplazo habitual de Lázaro y a Jonas Acevedo o Matías Tissera como alternativas de Luna.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Jeremías Lázaro",
+    "visual_entities": {
+      "personas": [
+        "Jeremías Lázaro",
+        "Diego Flores",
+        "Alex Luna"
+      ],
+      "clubes": [
+        "Instituto",
+        "River"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Instituto somete a Lázaro y Luna a cámara hiperbárica antes de River",
+    "caption": "Jeremías Lázaro y Alex Luna se trataron en una cámara hiperbárica para acelerar su recuperación antes del duelo contra River. El técnico Diego Flores mantuvo la información bajo reserva, mientras el médico Esteban Cecatto anticipó que llegarán en buen estado para los cuartos del Clausura. Instituto cuenta con John Córdoba y otras opciones como reemplazo.",
+    "ai_generated_at": "2026-11-26T20:42:45.152209+00:00"
   },
   {
     "id": "d23a7d51c3ad859521c5",
@@ -22892,6 +22916,23 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-26T20:23:39.337796+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "f76fe357d7243476e17f",
+    "title": "What will returning Magill bring to Northern Ireland?",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/cm93rdqrgkz2o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "As she gears up for her international return, what will Simone Magill bring to Northern Ireland against Greece in Friday's friendly?",
+    "published_at": "2026-11-26T18:34:20+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T20:42:45.152209+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
