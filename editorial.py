@@ -975,9 +975,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                         and not item.get("portrait_used")):
                     print(f"[PHOTO] Waiting for a verified subject portrait: {item['id']}")
                     continue
-                if REQUIRE_PHOTO and not item.get("match_result") and not item.get("photo_used"):
-                    print(f"[PHOTO] No relevant photo yet, holding: {item['id']}")
-                    continue
+                photo_required_missing = REQUIRE_PHOTO and not item.get("match_result") and not item.get("photo_used")
                 if item.get("ai_art_used"):
                     generated_art_this_run += 1
                 caption = clean_public_caption(strip_filler(item["caption"]))
@@ -992,12 +990,14 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 item.pop("photo_deferred_reason", None)
                 caption = append_promotion(caption, item)
                 video_path = None
-                if not item.get("match_result") and os.getenv("ENABLE_REELS", "").lower() == "true" and format_due(queue, reference, "reel", 60) and reels.eligible(item):
+                if not item.get("match_result") and os.getenv("ENABLE_REELS", "").lower() == "true" and format_due(queue, reference, "reel", 60) and (reels.eligible(item) or (photo_required_missing and len(reels.narration(item)) >= 2)):
                     try:
-                        video_path = reels.render(item, ROOT / "output" / "portraits" / (item["id"] + ".jpg"), ROOT / "output" / "reels" / (item["id"] + ".mp4"), BRAND)
+                        video_path = reels.render(item, path if not item.get("photo_used") else ROOT / "output" / "portraits" / (item["id"] + ".jpg"), ROOT / "output" / "reels" / (item["id"] + ".mp4"), BRAND)
                     except Exception as render_exc:
                         # Rendering failure is safe to fall back from: no Meta call occurred.
                         print(f"[REELS] Render unavailable: {type(render_exc).__name__}; publishing image")
+                if not video_path and photo_required_missing:
+                    continue
                 if not video_path and (remaining_meta_slots <= 0 or (not item.get("match_result") and (editorial_cap_reached or remaining_meta_slots <= (8 if os.getenv("ENABLE_REELS", "").lower() == "true" else 0) or not format_due(queue, reference, "image", 20)))):
                     continue
                 item["publish_format"] = "reel" if video_path else "image"
