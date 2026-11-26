@@ -12670,5 +12670,29 @@
     "source": "www.espn.com - SOCCER",
     "collected_at": "2026-11-26T19:48:46.970823+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "928b18340427805b6ad46f4e59741aa76a54528018d5edabf1523a0b20a75ed2",
+    "title": "Europa League: el uno por uno de los argentinos en la quinta fecha",
+    "url": "https://www.ole.com.ar/futbol-internacional/europa-league/europa-league-resultados-argentinos_0_0YPKUKMApF.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-26T19:56:55.399832+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "210ccc863ccc4d4b75fc36ceccd241cca4a37591768b8fc4379a2644cb70ab06",
+    "title": "Sin Prestianni, el Benfica sufrió una durísima goleada en la Europa League",
+    "url": "https://www.ole.com.ar/futbol-internacional/europa-league/benfica-viktoriaplzen-europaleague-goleada-prestianni-enzobarrenechea-diablitoecheverri_0_e4BDc2EQPG.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-26T19:56:55.399861+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "a3abbaf44218eb26f4b03bfdba081271bc364fbaf2136594dd90822b5c8d756f",
+    "title": "5 Live Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_five_live?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-26T19:56:56.052160+00:00",
+    "status": "pending_review"
   }
 ]
