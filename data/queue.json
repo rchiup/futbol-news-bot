@@ -20300,12 +20300,28 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T13:23:29.931993+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "article_context": "La eliminación de River ante Platense en cuartos de final del torneo de 2025. Foto: MARCELO CARROLL.\nEn las valijas, además de la ropa y los botines, la delegación de River también llevará casco, pico y pila. Porque cuando el equipo de Leonardo Ponzio pise el césped del Monumental de Alta Córdoba tendrá enfrente a Instituto y deberá romper la pared de los cuartos de final , un desafío complejo en Núñez teniendo en cuenta la tendencia negativa en los últimos 10 años al llegar a este casillero.\nA tres pasos de un título que el Millonario tiene la obligación de levantar por historia y por la necesidad de jugar la Libertadores 2027, la estadística arroja un pequeño llamado de atención. Entre 2020 y lo que va de este 2026, River disputó 12 veces esta instancia contando todas las competencias oficiales (Copa Libertadores, Copa Argentina y los distintos formatos del torneo local) y el saldo es negativo: cinco triunfos contra siete eliminaciones (41,6% de efectividad), siendo además la única década del profesionalismo (desde 1930) con números rojos en cuartos.\nEl contraste según el escenario es marcado. Mientras que en las series a doble partido de Copa Libertadores pudo sacar pecho ante Nacional de Uruguay en 2020 (8-2 global) y Colo-Colo en 2024 (2-1 global), tropezando contra los brasileños Atlético Mineiro en 2021 y Palmeiras en 2025 , el mayor dolor de cabeza para el CARP apareció en los cruces a partido único del fútbol argentino, con golpes duros que frenaron campañas que invitaban a la ilusión y la espina de los penales.\nTeniendo en cuenta que en caso de igualdad en Córdoba habrá alargue y de persistir la igualdad llegarán los remates desde los 12 pasos, el León ya tomó nota de que tres de las siete eliminaciones llegaron por esa vía tras empatar en los 90/120 minutos: frente a Boca en la Copa de la Liga 2021 (1-1; 2-4) , ante Patronato en la Copa Argentina 2022 (2-2; 3-4) y contra Platense en el Apertura 2025 en el Monumental (1-1; 2-4) .\nAdemás, en la columna negativa del Excel, también se quedó con las manos vacías en tiempo regular frente a Tigre en 2022 (1-2 en Núñez) y en el superclásico de la Copa de la Liga 2024 en Córdoba (2-3).\nLa buena para River es que los antecedentes más frescos invitan a creer en poder dar el golpe en la casa de la Gloria, donde el equipo del Traductor Flores aún no perdió en el semestre. En 2025 eliminó a Racing de la Copa Argentina y en mayo de este mismo año, por los cuartos del Apertura 2026, River superó por 2-0 a Gimnasia en el Monumental , triunfo que le abrió el camino hasta la final del certamen y que supo ser uno de los mejores partidos de la era de Eduardo Coudet.\nCopa Libertadores 2020 vs. Nacional (Uruguay): ganó 8-2 en el global (2-0 de local en Avellaneda y goleada 6-2 de visitante en Montevideo).\nCopa de la Liga 2021 vs. Boca: perdió por penales 4-2 tras empatar 1-1 en los 90 minutos en La Bombonera.\nCopa Libertadores 2021 vs. Atlético Mineiro: perdió 4-0 en el global (caída 1-0 en el Monumental y 0-3 en Belo Horizonte).\nCopa de la Liga 2022 vs. Tigre: perdió 2-1 a partido único en el Monumental.\nCopa Argentina 2022 vs. Patronato: perdió por penales 4-3 tras igualar 2-2 en tiempo reglamentario.\nCopa de la Liga 2023 vs. Belgrano: ganó 2-1 a partido único en el Mario Alberto Kempes.\nCopa de la Liga 2024 vs. Boca: perdió 3-2 en el superclásico disputado en el Kempes.\nCopa Libertadores 2024 vs. Colo Colo: ganó 2-1 en el global (empate 1-1 en Santiago y triunfo 1-0 en el Monumental).\nTorneo Apertura 2025 vs. Platense: perdió por penales 4-2 luego de empatar 1-1 en los 90 minutos en el Monumental.\nCopa Libertadores 2025 vs. Palmeiras: perdió 5-2 en el global (derrota 2-1 en Núñez y caída 3-1 en San Pablo).\nCopa Argentina 2025 vs. Racing: ganó 1-0 a partido único en el Gigante de Arroyito.\nTorneo Apertura 2026 vs. Gimnasia (LP): ganó 2-0 a partido único en el Monumental.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Instituto"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Córdoba"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "River Plate buscará romper la pared de cuartos ante Instituto",
+    "caption": "River Plate se enfrentará a Instituto en los cuartos de final en el Monumental de Alta Córdoba, intentando romper la histórica \"pared\" que le ha costado siete eliminaciones en la última década. El equipo dirigido por Leonardo Ponzio llega tras vencer a Gimnasia 2‑0 en el Apertura 2026 y busca asegurar un puesto en la Libertadores 2027.",
+    "ai_generated_at": "2026-11-26T14:01:27.264440+00:00"
   },
   {
     "id": "62c3b115ccce13929a25",
@@ -20386,6 +20402,40 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-26T13:52:26.791588+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "b4d2064ffbb57a134b37",
+    "title": "Aston Martin espera dejar atrás Las Vegas y Krack apunta a una mejora en Qatar",
+    "source_url": "https://es.motorsport.com/f1/news/aston-martin-dejar-atras-las-vegas-mejora-qatar/10877881",
+    "source": "Motorsport F1",
+    "description": "Aston Martin espera dejar atrás el complicado fin de semana de Las Vegas en el Gran Premio de Qatar 2026 de la F1. Mike Krack reconoce que el circuito de Losail presenta características muy diferentes a las de la última cita y considera que el equipo estará en una posición un poco más favorable, aunque admite que resulta difícil anticipar dónde estarán en términos de ... Sigue leyendo",
+    "published_at": "2026-11-26T13:59:17+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-26T14:01:27.264440+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "f76d232f9bf168819314",
+    "title": "No va más: Diego Martínez dejó de ser el técnico de Huracán",
+    "source_url": "https://www.ole.com.ar/huracan/diego-martinez-deja-tecnico-huracan_0_aGNSWgH0M4.html",
+    "source": "Olé Argentina",
+    "description": "Después de un año, el entrenador se va del Globo tras quedar eliminado en octavos de final del Clausura.",
+    "published_at": "2026-11-26T13:50:49+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T14:01:27.264440+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
