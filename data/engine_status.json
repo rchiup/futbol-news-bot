@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-26T12:03:47.051003+00:00",
+  "checked_at_utc": "2026-11-26T12:07:13.792881+00:00",
   "local_hour": 9,
   "statuses": {
     "published": 158,
@@ -38,9 +38,9 @@
     "last_success": "groq",
     "providers": {
       "groq": {
-        "attempts": 92,
+        "attempts": 94,
         "success": 19,
-        "failures": 73,
+        "failures": 75,
         "avg_latency_ms": 2329,
         "avg_readability": 99.2,
         "last_error": "http_429"
