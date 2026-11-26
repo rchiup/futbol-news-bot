@@ -23430,5 +23430,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "f5a7f26582be8745005a",
+    "title": "Euro Leagues",
+    "source_url": "https://www.bbc.co.uk/sounds/play/p0pq4ydb?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Is Jude Bellingham the best midfielder in the world, & even better than Zidane once was?!",
+    "published_at": "2026-11-26T22:13:00+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-26T22:24:07.015848+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
