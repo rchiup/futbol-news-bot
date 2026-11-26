@@ -12830,5 +12830,21 @@
     "source": "www.ole.com.ar - Home",
     "collected_at": "2026-11-26T20:51:05.299591+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "78ca0191b0b3f79c736a0725d3912b7c2b04337f98e2af5f073b2995a9e8d7e9",
+    "title": "Europa League: Bournemouth make it 10 wins in a row despite early red for Diakité",
+    "url": "https://www.theguardian.com/football/2026/nov/26/europa-league-roundup-bournemouth-celta-vigo-celtic-milan-benfica",
+    "source": "Football | The Guardian",
+    "collected_at": "2026-11-26T20:56:18.722893+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "b67bda1f34ca1c5d9f9cbbfd544b72377c94a405fd8ea48104b334238a79742a",
+    "title": "Xtiende: la plataforma chilena con IA que ayuda a liquidar sobrestock sin pérdidas",
+    "url": "https://www.cooperativa.cl/noticias/economia/pymes/xtiende-la-plataforma-chilena-con-ia-que-ayuda-a-liquidar-sobrestock/2026-11-26/173930.html",
+    "source": "Cooperativa.cl: Noticias de Chile y el mundo - País, Deportes y más",
+    "collected_at": "2026-11-26T20:56:23.126334+00:00",
+    "status": "pending_review"
   }
 ]

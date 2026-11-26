@@ -23030,5 +23030,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "b67bda1f34ca1c5d9f9c",
+    "title": "Xtiende: la plataforma chilena con IA que ayuda a liquidar sobrestock sin pérdidas",
+    "source_url": "https://www.cooperativa.cl/noticias/economia/pymes/xtiende-la-plataforma-chilena-con-ia-que-ayuda-a-liquidar-sobrestock/2026-11-26/173930.html",
+    "source": "Cooperativa Deportes Chile",
+    "description": "La plataforma chilena Xtiende comenzó sus operaciones en el mercado local con más de 600 empresas incorporadas , apostando por el uso de inteligencia artificial para resolver dos fallas del ecosistema productivo: la dificultad de hallar proveedores técnicos en tiempos acotados y la pérdida financiera provocada por los inventarios estancados en bodega . El desarrollo tecnológico fue diseñado a partir de la experiencia directa en faenas y distribución de materias primas . En entrevista con Esa es la Idea de Cooperativa , su fundador y director ej",
+    "published_at": "2026-11-26T20:39:30+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-26T20:56:23.360397+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
