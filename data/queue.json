@@ -26978,7 +26978,7 @@
     "headline": "Maresca admite defensa filtrada de City contra Arsenal",
     "caption": "Enzo Maresca reconoce que la defensa del Manchester City ha sido filtrada, con apenas cinco porterías a cero en la temporada. El conjunto inglés se dirige al Emirates para enfrentar al Arsenal, que sólo ha concedido siete goles en sus 11 partidos de Premier League y lidera la tabla. Un revés podría afectar seriamente sus ambiciones de título.",
     "ai_generated_at": "2026-11-27T14:56:19.545610+00:00",
-    "photo_checked_at": "2026-11-27T14:57:29.872045+00:00",
+    "photo_checked_at": "2026-11-27T15:02:53.322882+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -26992,7 +26992,20 @@
     "format_attempt_at": "2026-11-27T14:56:19.545610+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-27T14:56:19.545610+00:00",
-    "instagram_media_id": "18080419862451843"
+    "instagram_media_id": "18080419862451843",
+    "video_style": "tiktok",
+    "video_hook_variant": "fact_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 17.5,
+      "mean_db": -19.8
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795791784/football-news-bot/reels/35a8cad1bcdab63edf5a-cross.mp4",
+    "crosspost_attempt_at": "2026-11-27T15:01:48.259469+00:00",
+    "tiktok_attempt_at": "2026-11-27T15:01:48.259469+00:00",
+    "zernio_tiktok_status": "failed",
+    "zernio_tiktok_id": "6b099baa3a25e277dcc6b5ce",
+    "zernio_tiktok_error": "provider_failure"
   },
   {
     "id": "abb9a7240da3d09a8064",
