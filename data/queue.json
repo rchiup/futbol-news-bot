@@ -27741,7 +27741,18 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "River firma sponsor con Loma Negra para obra del Monumental",
     "caption": "River Plate cerró un acuerdo comercial con la cementera Loma Negra hasta 2030, que proveerá el hormigón necesario para la ampliación y techado del Monumental. El convenio llega en la fase de excavación de 17.000 m³ y la fundición de más de 17 mil toneladas de hormigón, mientras el plantel de Leonardo Ponzio se prepara para el mata‑mata contra Instituto.",
-    "ai_generated_at": "2026-11-27T18:09:44.093586+00:00"
+    "ai_generated_at": "2026-11-27T18:09:44.093586+00:00",
+    "photo_checked_at": "2026-11-27T18:15:56.939166+00:00",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 11.8,
+      "mean_db": -19.5
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795803366/football-news-bot/reels/bb9eee00cb526c1ca354-cross.mp4",
+    "crosspost_attempt_at": "2026-11-27T18:14:44.056326+00:00",
+    "tiktok_attempt_at": "2026-11-27T18:14:44.056326+00:00"
   },
   {
     "id": "82850bdbec0b5dcae561",
