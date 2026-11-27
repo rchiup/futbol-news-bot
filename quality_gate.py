@@ -124,3 +124,24 @@ def sports_topic(item):
     if re.search(r"\b(?:boca|river|racing|independiente|universidad de chile|la u)\b",story) and re.search(r"\b(?:juego|plantel|equipo|titulares|once|11 de memoria|clasico|derbi|tecnico|entrenador)\b",story):
         return True
     return bool(re.search(sport,story))
+
+
+def certainty_error(item):
+    """Catch high-impact changes of certainty in the original headline."""
+    if item.get("match_result"):
+        return ""
+    source=norm(item.get("title",""))
+    headline=norm(item.get("headline",""))
+    body=norm(item.get("caption",""))
+    raw=norm(" ".join(str(item.get(k) or "") for k in ("title","description","article_context")))
+    almost=r"\b(?:a un paso de|a un triunfo de|a una victoria de|a las puertas de|one win away from|one step away from|on the brink of)\b"
+    qualified=r"\b(?:clasifica(?:do|da|dos|das)?|clasifico|clasifican|avanza|avanzo|asegura|aseguro|sella|sello|consigue|consiguio|logra|logro)\b.{0,65}\b(?:mundial|world cup|clasificacion|boleto|cupo|plaza)\b"
+    if re.search(almost,source) and re.search(qualified,headline) and not re.search(almost,headline):
+        return "qualification_not_yet_secured"
+    tentative=r"\b(?:ganaria|seria|podria|estaria|se perfila|corre con ventaja|posible ingreso|in contention|could start|may start)\b"
+    definitive=r"\b(?:sera titular|es titular|titular confirmado|confirma su titularidad|ya es titular)\b"
+    if re.search(tentative,source+" "+norm(item.get("description",""))) and re.search(definitive,headline) and not re.search(r"\b(?:confirmo|confirmado|alineacion oficial|confirmed starting)\b",raw):
+        return "unconfirmed_lineup_as_fact"
+    if re.search(r"\b(?:last summer|last season|last year|el verano pasado|la temporada pasada|el ano pasado)\b",raw) and re.search(r"\b(?:ficha por|se va a|deja .{1,45} y se va|acaba de fichar)\b",headline) and not re.search(r"\b(?:pasad[oa]|recuerda|analiza|recordo|balance|tras su salida)\b",headline):
+        return "historical_transfer_as_current"
+    return ""

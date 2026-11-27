@@ -35,7 +35,7 @@ import tennis_scorecards
 import reels
 import platform_strategy
 import delivery_scheduler
-from quality_gate import score_error, photo_safe, identity_error, sports_topic
+from quality_gate import score_error, photo_safe, identity_error, sports_topic, certainty_error
 import buffer_publish
 from growth import append_promotion
 from news_novelty import duplicate_reason, novelty_priority, same_story
@@ -397,6 +397,7 @@ def ai_messages(item: dict) -> list[dict]:
         "Si la fuente dice molestias, no lo conviertas en lesión grave. Si no hay un hecho concreto, devuelve headline y caption vacíos.\n"
         "Prioriza un primer dato concreto y sorprendente que un hincha compartiría por mensaje; nada de clickbait vacío. Ordena el contexto del hecho a su consecuencia. "
         "Nunca traduzcas nombres propios de personas. Conserva exactamente Alexander Zverev, Arthur Fery y cualquier nombre de la fuente. En torneos por equipos distingue el resultado individual del resultado colectivo; si el jugador ganó, no digas que perdió. "
+        "CERTEZA Y TIEMPO: conserva el grado de certeza de la fuente. A un paso de clasificar NO es clasificado. Podría ser titular NO es será titular. Un traspaso del verano pasado no es un fichaje actual; enfoca la noticia en el rendimiento actual. "
         "HEADLINE: 6 a 12 palabras, máximo 75 caracteres. Oración completa con sujeto + verbo + dato clave, como titular de diario. "
         "Incluye nombre y apellido o club. Nada telegráfico ('Pep rechaza selección italiana' está MAL; "
         "'Guardiola descarta dirigir a Italia, pero no cierra la puerta' está BIEN). Sin mayúsculas sostenidas, sin emojis, sin signos de exclamación.\n"
@@ -499,6 +500,8 @@ def validate_llm_copy(result: dict, item: dict) -> dict:
         raise ValueError("Filler phrasing")
     if score_error({**item, "headline": headline, "caption": caption}) in {"draw_described_as_win_or_loss", "unequal_score_described_as_draw"}:
         raise ValueError("Contradictory match result")
+    if certainty_error({**item,"headline":headline,"caption":caption}):
+        raise ValueError("Headline overstates or misdates source facts")
     if identity_error({**item,"headline":headline,"caption":caption}):
         raise ValueError("Incorrect person identity or individual result")
     if not on_topic(item, headline, caption):
@@ -778,7 +781,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
     # Reconsider recent held stories once, using the same factual checks.
     for held in queue:
         date = parse_iso(held.get("published_at", ""))
-        if held.get("status") == "needs_review" and not held.get("editorial_rechecked") and date and 0 <= (reference-date).total_seconds() <= MAX_POST_AGE_HOURS*3600 and not news_missing_critical_details(held) and not low_value_match_preview(held) and not missing_promised_media(held):
+        if held.get("status") == "needs_review" and not held.get("editorial_rechecked") and date and 0 <= (reference-date).total_seconds() <= MAX_POST_AGE_HOURS*3600 and not news_missing_critical_details(held) and not low_value_match_preview(held) and not missing_promised_media(held) and sports_topic(held):
             held["editorial_rechecked"] = True
             held["status"] = "awaiting_ai"
     for item in sorted(fresh, key=lambda x: novelty_priority(x, reference), reverse=True):
@@ -867,7 +870,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 continue
             if not candidate.get("match_result") and (not candidate.get("ai_generated_at") or candidate.get("score",0)<MIN_PUBLISH_SCORE or is_low_interest(candidate) or news_missing_critical_details(candidate) or not on_topic(candidate,candidate.get("headline",""),candidate.get("caption",""))):
                 continue
-            if score_error(candidate,queue) or identity_error(candidate) or not sports_topic(candidate):
+            if score_error(candidate,queue) or identity_error(candidate) or certainty_error(candidate) or not sports_topic(candidate):
                 continue
             if len(reels.narration(candidate))<2:
                 continue
@@ -927,7 +930,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 continue  # Old one-off launch items are never republished.
             if item.get("status") != "draft" and not (item.get("status") == "needs_review" and (item.get("photo_deferred_reason") == "no_relevant_photo" or item.get("visual_mode") == "original_graphic") and item.get("headline") and item.get("caption")):
                 continue
-            problem = score_error(item, queue) or identity_error(item) or ("" if sports_topic(item) else "not_sports_news")
+            problem = score_error(item, queue) or identity_error(item) or certainty_error(item) or ("" if sports_topic(item) else "not_sports_news")
             if problem:
                 item["quality_hold"] = problem
                 item["status"] = "needs_review"
