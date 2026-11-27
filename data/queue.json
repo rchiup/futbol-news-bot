@@ -27078,11 +27078,30 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-27T15:08:25.744655+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "Ponzio"
+      ],
+      "clubes": [
+        "Instituto",
+        "River"
+      ],
+      "competicion": [
+        "Torneo Clausura 2026"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Instituto se enfrenta a River en la jornada del Clausura 2026",
+    "caption": "Instituto, dirigido por Ponzio, recibirá a River en su estadio, buscando consolidarse entre los cuatro primeros. La Gloria llega con la intención de aprovechar la visita para escalar posiciones en la tabla del Clausura 2026.",
+    "ai_generated_at": "2026-11-27T17:17:29.013186+00:00"
   },
   {
     "id": "cb113679d314228a746c",
