@@ -13806,7 +13806,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T12:09:19.594927+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -23407,12 +23407,33 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T22:17:12.860107+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "article_context": "La Reserva de Boca dio otro paso firme en el Torneo Clausura. En la Villa Olímpica, el equipo de Mariano Herrón goleó 4-0 a Vélez por los cuartos de final y se clasificó a las semifinales donde espera por el ganador de Independiente o Gimnasia de Mendoza.\nEl Xeneize llegó a Liniers con confianza después de haber conseguido el pasaje a los playoffs con un contundente 3-0 ante Lanús. Y volvió a demostrar que está para cosas importantes. Ante un rival que había terminado segundo en su zona, Boca fue contundente y no dejó dudas.\nLa gran figura de la tarde fue Rodrigo Bacidalupe, autor de dos de los cuatro tantos . El delantero apareció por duplicado para encaminar la goleada y convertirse en uno de los protagonistas de una victoria clave. Joaquín Piñeyro también tuvo su tarde soñada: marcó los otros dos goles y completó el póker xeneize.\nCon dos dobletes, Boca construyó una diferencia contundente y resolvió la serie sin dejar lugar a dudas. El equipo de Herrón mostró eficacia en ataque, mantuvo el arco en cero y dio una nueva muestra de carácter en una instancia de eliminación directa.\nDespués de haber superado a Lanús en los octavos de final, la Reserva volvió a responder ante un rival exigente. Esta vez fue Vélez el que sufrió el poder de fuego del Xeneize, que ya está entre los cuatro mejores del campeonato.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Rodrigo Bacidalupe",
+    "visual_entities": {
+      "personas": [
+        "Rodrigo Bacidalupe",
+        "Mariano Herrón",
+        "Joaquín Piñeyro"
+      ],
+      "clubes": [
+        "Boca",
+        "Vélez",
+        "Independiente",
+        "Gimnasia de Mendoza"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Boca Reserva vence 4-0 a Vélez y avanza a semifinales",
+    "caption": "El equipo dirigido por Mariano Herrón derrotó 4-0 a Vélez, con dobletes de Rodrigo Bacidalupe y Joaquín Piñeyro. Con este triunfo, Boca Reserva se clasifica a semifinales del Torneo Clausura, donde esperará al ganador entre Independiente y Gimnasia de Mendoza.",
+    "ai_generated_at": "2026-11-27T00:00:55.845677+00:00"
   },
   {
     "id": "3f8d880696ee47dcc327",
@@ -23564,7 +23585,7 @@
     "sport": "FUTBOL",
     "score": 34,
     "queued_at": "2026-11-26T22:46:11.020489+00:00",
-    "status": "draft",
+    "status": "published",
     "article_context": "Estudiantes sueña con disputar el Mundial de Clubes 2029.\nAntes de la final de la Libertadores 2026, la carrera por clasificarse al Mundial de Clubes 2029 tendrá un nuevo capítulo. Estudiantes y Palmeiras se enfrentarán este sábado, desde las 17, en el Centenario de Montevideo, en un partido que también tendrá impacto en el ranking sudamericano rumbo al próximo torneo de clubes de la FIFA.\nA la espera de la confirmación oficial del formato y los criterios de clasificación, y tomando como referencia el sistema utilizado en la última edición, Flamengo, Palmeiras y Estudiantes lideran el ranking con los puntos acumulados en las Libertadores de 2025 y 2026.\nEl Pincha es el equipo argentino mejor posicionado, con 62 unidades , seguido por Racing (35), Independiente Rivadavia, Platense y Vélez (24). Más atrás aparecen River (23) y Boca (10). ¿Cómo puede cambiar el panorama después de la final de este sábado?\nSi gana Estudiantes: el Pincha llegará a los 65 puntos y Palmeiras se mantendrá con 82. El equipo argentino obtendría, además, la clasificación directa por ser campeón.\nSi gana Palmeiras: el Verdao alcanzará los 85 puntos y superará a Flamengo en la cima del ranking. Estudiantes seguirá con 62 unidades, pero quedará como el equipo mejor ubicado entre aquellos que todavía no tendrían asegurado su boleto.\nSi la final se define por penales: ambos equipos sumarán un punto. Palmeiras llegará a los 83, igualando a Flamengo, mientras que Estudiantes alcanzará los 63. El ganador de la tanda obtendría la clasificación directa.\nEn cualquiera de los escenarios, Estudiantes seguirá siendo el equipo argentino mejor posicionado en el ranking. Todavía quedan por disputarse las ediciones 2027 y 2028 de la Copa Libertadores.\nPuntos acumulados en la Libertadores 2025 y 2026. Estudiantes avanzó a la final por penales ante Flamengo. Equipos argentinos destacados.\n6° por puntos en el ranking sudamericano, con 35 unidades: 35 en 2025 y 0 en 2026. Sus 35 puntos corresponden a 2025.\n12° por puntos en el ranking sudamericano, con 24 unidades: 0 en 2025 y 24 en 2026. Empató los dos partidos ante Fluminense y quedó afuera por penales en octavos.\n12° por puntos en el ranking sudamericano, con 24 unidades: 0 en 2025 y 24 en 2026. Superó a Coquimbo por penales y perdió la serie con Fluminense en cuartos.\n12° por puntos en el ranking sudamericano, con 24 unidades: 24 en 2025 y 0 en 2026. Sus 24 puntos corresponden a 2025.\n16° por puntos en el ranking sudamericano, con 23 unidades: 23 en 2025 y 0 en 2026. Sus 23 puntos corresponden a 2025. La Sudamericana no suma en esta cuenta.\nAclaración I: ganar una tanda de penales no suma una victoria adicional. Se conserva el resultado del partido y se agrega el premio por avanzar.\nAclaración II: los equipos que compiten en Sudamérica no suman puntos para la clasificación al Mundial de Clubes.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "visual_subject": "",
     "visual_entities": {
@@ -23588,7 +23609,7 @@
     "ai_generated_at": "2026-11-26T23:06:15.143794+00:00",
     "quality_hold": "unverified_numeric_score",
     "editorial_rechecked": true,
-    "photo_checked_at": "2026-11-26T23:18:25.689120+00:00",
+    "photo_checked_at": "2026-11-27T00:04:12.023517+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -23601,10 +23622,24 @@
       "mean_db": -19.5
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795735116/football-news-bot/reels/374add860eda9220a3c8.mp4",
-    "publish_format": "reel",
-    "format_attempt_at": "2026-11-26T23:16:50.606147+00:00",
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-27T00:00:55.845677+00:00",
     "crosspost_attempt_at": "2026-11-26T23:16:50.606147+00:00",
-    "buffer_youtube_status": "check_required"
+    "buffer_youtube_status": "check_required",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "Estudiantes",
+        "Palmeiras",
+        "River",
+        "Boca"
+      ],
+      "mentions": []
+    },
+    "ig_variant": "single",
+    "posted_at": "2026-11-27T00:00:55.845677+00:00",
+    "instagram_media_id": "18183336199440471"
   },
   {
     "id": "378ed374c5891382df9a",
@@ -23856,5 +23891,22 @@
     "portrait_used": false,
     "reference_photo_used": false,
     "editorial_rechecked": true
+  },
+  {
+    "id": "87749ed1864b4066ceef",
+    "title": "Hearts' European hopes hang by a thread but Vrancken proud",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/cqr7g49ej14ko?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Hearts head coach Wouter Vrancken expresses both pride and disappointment after his team came out on the wrong side of a five-goal thriller against Monaco.",
+    "published_at": "2026-11-26T23:59:43+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-27T00:00:55.845677+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
