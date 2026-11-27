@@ -28369,5 +28369,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "d19cd4d4c3269603103c",
+    "title": "Insólita invasión de cancha en Polonia: ¡un hincha entró en monopatín al campo de juego!",
+    "source_url": "https://www.ole.com.ar/fuera-de-juego/insolito-momento-invasion-cancha-polonia_0_0WMF9jvTxR.html",
+    "source": "Olé Argentina",
+    "description": "El bizarro momento ocurrió en un partido de la tercera división.",
+    "published_at": "2026-11-27T20:23:32+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-27T20:32:43.276987+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
