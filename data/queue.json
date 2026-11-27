@@ -28670,11 +28670,34 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-27T22:15:22.863313+00:00",
-    "status": "awaiting_ai",
+    "status": "duplicate",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Morgan Gibbs-White",
+    "visual_entities": {
+      "personas": [
+        "Morgan Gibbs-White",
+        "Igor Jesus",
+        "Wesley Fofana",
+        "Liam Delap"
+      ],
+      "clubes": [
+        "Nottingham Forest",
+        "Chelsea",
+        "Leicester City",
+        "Liverpool"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Gibbs-White e Igor Jesus llevan a Nottingham Forest a vencer a Chelsea",
+    "caption": "Morgan Gibbs-White y Igor Jesus anotaron, superando a un Chelsea tembloroso. El partido, marcado por burlas a Wesley Fofana tras su entrevista polémica, terminó con la victoria de Nottingham Forest.",
+    "ai_generated_at": "2026-11-27T23:58:03.542186+00:00",
+    "duplicate_of": "same_story_as:59179ddc7fa41493e468"
   },
   {
     "id": "59179ddc7fa41493e468",
@@ -28933,7 +28956,7 @@
     "headline": "Xabi Alonso pide unidad tras tercera derrota del Chelsea",
     "caption": "Chelsea cayó por tercera derrota consecutiva ante Nottingham Forest en la Premier League. Alonso subrayó la necesidad de mantenerse unidos en este momento difícil y buscará revertir la racha en los próximos partidos.",
     "ai_generated_at": "2026-11-27T23:52:40.893944+00:00",
-    "photo_checked_at": "2026-11-27T23:54:07.648393+00:00",
+    "photo_checked_at": "2026-11-27T23:59:25.911238+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -28949,7 +28972,18 @@
     "format_attempt_at": "2026-11-27T23:52:40.893944+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-27T23:52:40.893944+00:00",
-    "instagram_media_id": "18077207477758675"
+    "instagram_media_id": "18077207477758675",
+    "video_style": "tiktok",
+    "video_hook_variant": "fact_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 11.0,
+      "mean_db": -19.7
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795823975/football-news-bot/reels/0d0c902a9b343e8bd8db-cross.mp4",
+    "crosspost_attempt_at": "2026-11-27T23:58:03.542186+00:00",
+    "youtube_attempt_at": "2026-11-27T23:58:03.542186+00:00",
+    "buffer_youtube_status": "check_required"
   },
   {
     "id": "266e4f3520e7a458ffb2",
@@ -29175,6 +29209,23 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-27T23:33:22.238166+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "484f6f75cffde795a6ce",
+    "title": "Empiezan los cuartos del Clausura: la marcada tendencia que dejaron los primeros cruces y puede ser determinante",
+    "source_url": "https://www.ole.com.ar/futbol-primera/torneoclausura-cuartosdefinal-tendencia-playoffs-localia-cruces-cuadro_0_EOpGG9XN0N.html",
+    "source": "Olé Argentina",
+    "description": "Este sábado comienza a disputarse la segunda ronda de los playoffs del campeonato y, a priori, la mitad de los equipos contarán con una \"ventaja\" que fue clave en los octavos de final.",
+    "published_at": "2026-11-27T23:46:36+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-27T23:58:03.542186+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
