@@ -120,3 +120,5 @@ Verify independent delivery and network quota checks
 Restore morning engine after sports filter regression
 
 Verify quota handling and morning editorial regressions
+
+Verify provider quota recovery and independent video delivery
