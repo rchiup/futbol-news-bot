@@ -1,19 +1,19 @@
 {
-  "checked_at_utc": "2026-11-27T00:00:55.845677+00:00",
+  "checked_at_utc": "2026-11-27T00:05:42.675317+00:00",
   "local_hour": 21,
   "statuses": {
     "published": 183,
-    "draft": 22,
-    "awaiting_ai": 139,
+    "draft": 27,
+    "awaiting_ai": 133,
     "needs_review": 131,
     "publish_error": 27,
     "duplicate": 56
   },
-  "fresh_candidates": 157,
-  "queued_new": 1,
-  "ai_generated": 1,
+  "fresh_candidates": 155,
+  "queued_new": 0,
+  "ai_generated": 5,
   "preview_images": 5,
-  "published": 1,
+  "published": 0,
   "duplicates_suppressed": 0,
   "no_photo_deferred": 0,
   "total_queue": 702,
@@ -35,7 +35,7 @@
   ],
   "free_llm_metrics": {
     "date_utc": "2026-11-27",
-    "last_success": "groq",
+    "last_success": "gemini",
     "providers": {
       "groq": {
         "attempts": 2,
@@ -46,25 +46,25 @@
         "last_error": "http_429"
       },
       "gemini": {
-        "attempts": 2,
-        "success": 0,
-        "failures": 2,
-        "avg_latency_ms": null,
-        "avg_readability": null,
+        "attempts": 8,
+        "success": 3,
+        "failures": 5,
+        "avg_latency_ms": 886,
+        "avg_readability": 95.0,
         "last_error": "invalid_output"
       },
       "openrouter": {
-        "attempts": 2,
-        "success": 0,
-        "failures": 2,
-        "avg_latency_ms": null,
-        "avg_readability": null,
+        "attempts": 5,
+        "success": 2,
+        "failures": 3,
+        "avg_latency_ms": 63448,
+        "avg_readability": 100.0,
         "last_error": "invalid_output"
       },
       "cloudflare": {
-        "attempts": 2,
+        "attempts": 3,
         "success": 0,
-        "failures": 2,
+        "failures": 3,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "invalid_output"
@@ -78,9 +78,9 @@
         "last_error": "http_410"
       },
       "zai": {
-        "attempts": 2,
+        "attempts": 3,
         "success": 0,
-        "failures": 2,
+        "failures": 3,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "invalid_output"
