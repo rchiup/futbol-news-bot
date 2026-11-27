@@ -27617,5 +27617,22 @@
     "zernio_tiktok_status": "failed",
     "zernio_tiktok_id": "6b09b9fb0e3f9315f1b890d4",
     "zernio_tiktok_error": "provider_failure"
+  },
+  {
+    "id": "bd165bc785dd9a01be95",
+    "title": "Exclusiva: la FIA congelará los actuales motores de F1 y limitará el desarrollo de los V8",
+    "source_url": "https://es.motorsport.com/f1/news/fia-congelara-actuales-motores-2028-restringira-desarrollo-v8-exclusiva/10878340",
+    "source": "Motorsport F1",
+    "description": "Los fabricantes de motores de Fórmula 1 ya no podrán seguir desarrollando la actual generación de unidades de potencia a partir de mediados de 2028, tal y como ha revelado el director de monoplazas de la FIA, Nikolas Tombazis, en una entrevista exclusiva con Motorsport.com. La medida, adelantada por Motorsport.com durante el fin de semana del Gran Premio de Las Vegas, tiene como objetivo ... Sigue leyendo",
+    "published_at": "2026-11-27T17:25:07+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-27T17:32:15.847327+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
