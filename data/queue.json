@@ -26297,7 +26297,7 @@
     "headline": "Ronaldo declara que el Ballon d'Or de Harry Kane está bien merecido",
     "caption": "Ronaldo elogió el Balón de Oro de Harry Kane, calificándolo de merecido y celebró el regreso del número 9. Kane, capitán de Inglaterra, superó a Mbappé y Yamal y es el primer delantero en ganar el premio desde Benzema, aunque se recupera de una rotura de ligamento en el tobillo izquierdo antes de la fase decisiva de la temporada.",
     "ai_generated_at": "2026-11-27T12:44:42.932636+00:00",
-    "photo_checked_at": "2026-11-27T12:45:39.590699+00:00",
+    "photo_checked_at": "2026-11-27T13:04:56.291040+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -26316,7 +26316,19 @@
     "format_attempt_at": "2026-11-27T13:00:05.640996+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-27T13:00:05.640996+00:00",
-    "instagram_media_id": "18016248978002437"
+    "instagram_media_id": "18016248978002437",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 9.3,
+      "mean_db": -19.4
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795784702/football-news-bot/reels/fd5e20a0d3e19b7dfcbf-cross.mp4",
+    "crosspost_attempt_at": "2026-11-27T13:04:04.337511+00:00",
+    "tiktok_attempt_at": "2026-11-27T13:04:04.337511+00:00",
+    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_id": "6b0980009bff0a2a8ae4e0ff"
   },
   {
     "id": "b63fbaf32efe013de3d2",
