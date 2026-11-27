@@ -27177,7 +27177,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-27T15:48:20.563373+00:00",
-    "status": "draft",
+    "status": "published",
     "article_context": "LONDON COLNEY, England -- Arsenal boss Mikel Arteta said he hopes the wait to learn Manchester City 's punishment for breaking Premier League rules does not overshadow Sunday's meeting between the two sides and urged the Gunners to win the title on the pitch regardless.\nCity were found guilty on 114 counts of breaching financial regulations over a nine-year period to 2018 but continue to protest their innocence.\nThey have appealed the verdicts with an outcome expected in December or January but at present, City face a range of punishments including expulsion from the league, a points deduction and a huge fine.\nCity are currently odds-on with bookmakers to be relegated from the Premier League this season, putting a strange complexion on what would otherwise be a big game between two title challengers at Emirates Stadium.\nAsked whether the wait to learn City's fate overshadowed the match in any way, Arteta said: \"I hope that it doesn't because as well this is a process that is still open, it is not resolved and we don't know what is going to happen.\n\"I think when we have two teams at the level that they are both at right now with the quality players they have on that pitch, it is a massive game and a big game to enjoy I think.\"\nArsenal could open up a nine-point gap over City with a victory and pushed on whether he wanted his team to ensure they didn't rely on a point deduction and win the title on the pitch, Arteta replied: \"That's the only thing that we should put the energy and focus in, there is nothing else.\"\nArteta was evasive when asked whether David Raya would be fit to face City. Raya missed Wednesday's 1-1 Champions League draw with Borussia Dortmund due to a shoulder problem but was pictured at the game without any sling or shoulder support.\nArteta suggested Raya was training but refused to confirm if the Spaniard would be available.\n\"I don't know,\" he said. \"We still have a few hours before the game. We're still trying to get everyone back.\"\n- Erling Haaland relishing battle with rival Gabriel as Man City go to Arsenal",
     "visual_subject": "Mikel Arteta",
     "visual_entities": {
@@ -27211,7 +27211,12 @@
         "PremierLeague"
       ],
       "mentions": []
-    }
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-27T15:58:50.288372+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-27T15:58:50.288372+00:00",
+    "instagram_media_id": "18111978260258202"
   },
   {
     "id": "8fe6a17a5d04a58c785c",
@@ -27243,6 +27248,42 @@
     "score": 20,
     "queued_at": "2026-11-27T15:48:20.563373+00:00",
     "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "e96f19e7b4eae7907e2b",
+    "title": "Las virtudes de Estudiantes y el aviso de Palmeiras antes de la final: \"Sabe jugar bajo presión\"",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/libertadores/virtudes-estudiantes-aviso-palmeiras-final_0_KvMDxrrxe5.html",
+    "source": "Olé Argentina",
+    "description": "El DT Abel Ferreira y el capitán Gustavo Gómez brindaron una conferencia de prensa antes del partido decisivo de la Libertadores frente al Pincha.",
+    "published_at": "2026-11-27T15:45:42+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-27T15:58:50.288372+00:00",
+    "status": "awaiting_ai",
+    "article_context": "Abel Ferreira y Gustavo Góez. (Foto: Juano Tesone)\nAbel Ferreira , DT de Palmeiras , y Gustavo Gómez , el capitán, hablaron en conferencia de prensa este viernes, a un día de la gran final de la Libertadores ante Estudiantes en el Centenario de Montevideo (sábado 17:00). Y allí, ambos hicieron un análisis del Pincha; el entrenador refiriéndose puntualmente a las virtudes de tres futbolistas rivales y el paraguayo al aspecto mental.\n\"Mañana tendremos un partido extremadamente difícil contra un equipo intenso y competitivo, que ataca muy bien los espacios a la espalda de la defensa. Tiene un centrodelantero muy fuerte en el juego aéreo, (Guido) Carrillo; también tiene a (Joaquín Tobio) Burgos, que ataca bien los espacios en profundidad, y a (Alexis) Castro, que también sabe atacar esos espacios por los costados. Es un jugador zurdo, talentoso, más pícaro, al que le gusta jugar detrás del centrodelantero o partir desde la izquierda hacia el centro\", expresó Ferreira.\n\"Pero, como dije, lo más importante mañana será la capacidad de Palmeiras para imponer su juego en todo momento. Tanto cuando tengamos la pelota como cuando no la tengamos, tendremos que ser inteligentes y hacer un partido inteligente para llegar al final y ganar esta final . Esa es nuestra intención\", agregó.\nEl marcador central Gómez, por su lado, resaltó que el Pincha es un equipo que \"sabe jugar bajo presión\" y recordó los grandes rivales que dejó en el camino en esta Copa: \"Creo que el profesor ya respondió. Considero que no es solamente la pelota parada el punto fuerte de Estudiantes, sino que es un equipo muy competitivo \".\n\"Tenemos que recordar que eliminó a Corinthians y a Flamengo . Es un equipo que sabe jugar partidos bajo presión. Por eso tenemos que cuidar todos los detalles para contrarrestar todas las virtudes que tiene Estudiantes. Ojalá sea un día en el que Palmeiras pueda, como dije, neutralizar todo eso y conseguir el título \", añadió.\nFerreira mencionó también cuál es el aspecto en el que más se trabaja de cara a esta final: \" Lo que más se puede trabajar es el aspecto emocional . Si pudiera desconectarles algo a mis jugadores, les desconectaría el lado emocional para que estuvieran únicamente concentrados y enfocados en las tareas que tienen que realizar y en el objetivo claro que nos trazamos el 7 de enero: luchar para ganar esta competencia\".\n\"En resumen, se trata de trabajar más en el aspecto emocional de los jugadores , para que entiendan que es completamente normal lo que están sintiendo, porque sabemos lo que está en juego: un trofeo muy importante. Es normal que haya jugadores que vivan esta final emocionalmente de distintas maneras: algunos más nerviosos, otros más confiados, algunos más alegres, otros más entusiasmados e incluso algunos con miedo\", agregó.\n\"Pero lo más importante es que nuestro equipo haga aquello para lo que se preparó : que corra durante todo el partido, que se muestre, que compita —porque va a ser necesario competir—, que sabemos el valor que tiene nuestro adversario, y que juegue al fútbol, que es lo que sabemos hacer\", comentó.\nY recordó que a principios de año conversó con todo el grupo para que, de cara a esta Libertadores, no vuelvan a llevarse la tristeza de perder, como les sucedió en 2025 ante Flamengo: \"Recuerdo perfectamente que, a principios de este año, tuve una reunión con los jugadores para hablar de lo que había sucedido el año anterior, en la última Libertadores, y les dije que no íbamos a permitirnos volver a vivir una situación de aquella manera \".\n\"Si vamos a ganar o perder, no puedo adivinarlo. Sé lo que queremos y sé para lo que estamos preparados. Lo único que quiero es que mis jugadores se pongan a ellos mismos en primer lugar y que cada uno termine el partido con la tranquilidad de conciencia de saber que hicimos todo lo posible para ganarlo . Y vamos a seguir de la misma manera, como lo hicimos el año pasado y hace tres años. La vida continúa. Pase lo que pase, la vida va a seguir. Y eso es lo único que quiero\", agregó.\n\" Tenemos que jugar mejor de lo que lo hicimos en la última final . Creo que aquella derrota nos dolió y fue muy dura para nosotros, pero hay algo que este equipo sabe hacer: seguir luchando y volver a estar acá para pelear por otra oportunidad de ganar este trofeo . Pero, por encima de todo, quiero que aprovechen esta oportunidad para jugar por nosotros mismos, por nuestros jugadores, que se lo merecen porque hicieron un año absolutamente increíble en todos los aspectos; por nuestras familias, que seguramente mañana estarán acá para apoyarnos; y por el alma del club, que son nuestros hinchas\", señaló.\n\"El fútbol brasileño me enseñó que hay que ser competitivo . Me enseñó que, incluso con dos o tres días de descanso, hay que dejar las excusas de lado y buscar soluciones. El fútbol brasileño me enseñó a ser un mejor entrenador y a estar preparado para afrontar cualquier situación. Creo que las ganas, la gratitud y la oportunidad de jugar una final están por encima de cualquier cansancio \", cerró.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "93d8220f7678e9b066c3",
+    "title": "Abel Ferreira: qué dijo sobre dirigir en Argentina y \"me acostumbré a ver siempre a Boca y a River en la Libertadores\"",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/america/abel-ferreira-libertadores-palmeiras-estudiantes-boca-river-argentina_0_jG9UQ1T6Qb.html",
+    "source": "Olé Argentina",
+    "description": "El entrenador de Palmeiras palpitó la final de la Copa Libertadores ante Estudiantes y fue tajante cuando le preguntaron por su futuro.",
+    "published_at": "2026-11-27T15:42:50+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-27T15:58:50.288372+00:00",
+    "status": "awaiting_ai",
+    "article_context": "Con la mira puesta en la final de la Copa Libertadores, Abel Ferreira tiene claro que quiere cerrar una etapa de su carrera. El entrenador de Palmeiras (que previamente palpitó el cruce que tendrá contra Estudiantes ) tiene contrato con el club hasta fines de 2027. Sin embargo, descartó dirigir en Argentina y manifestó su deseo por volver a Europa.\nCon un tono descontracturado, el técnico cortó con todo tipo de rumor. \" Sudamérica ya es suficiente \", advirtió entre risas cuando le preguntaron si le gustaría dirigir en otra parte de la región.\nLuego, reconoció el poderío de nuestro país en las competencias continentales e, incluso, trajo una anécdota a la mesa. \" Me acostumbré, y les pido disculpas a los brasileños, a ver siempre a Boca y River en la Libertadores: Boca, River, River, Boca, Boca, River \", recalcó. Acto seguido, rememoró: \"Recuerdo que cuando era entrenador del Braga, un día teníamos entrenamiento a las 10 de la mañana y faltaron dos o tres jugadores. Pregunté dónde estaban y me dijeron que se habían ido a Madrid a ver el Boca-River \".\nMás tarde, utilizó ese punto de partida para hablar de su futuro y hacer un repaso por su trayectoria en la institución. \"Mi intención es volver a casa con mis padres, que están todos al otro lado. Espero verlos el 16 de diciembre en la final de la Copa Intercontinental. Brasil, ya basta, Palmeiras, ya basta . Desde que me convertí en entrenador, no he parado ni un año. Todos sabemos cuántos partidos tengo en mis piernas y en mi cabeza, miren cuántos partidos he jugado\", insistió.\nYa de cara al encuentro decisivo, fue tajante y destacó el nivel del Pincha, que quiere ganar la quinta: \" Mañana será un partido muy difícil, y trataremos de ganar nuestra final, que es nuestra intención \".\nHasta el momento, Abel Ferreira dirigió 420 partidos en Palmeiras : ganó 248, empató 92 y perdió los 80 restantes. Además, conquistó 11 títulos.\nTal como marca el calendario, Estudiantes y Palmeiras se enfrentarán el sábado 28 de noviembre en Montevideo, donde irán en busca de la gloria eterna.\nLa final de la Copa Libertadores comenzará a las 17.00 horas de Argentina. En caso de igualdad en los 90 minutos, habrá un alargue de 30' en el Centenario. Y de persistir, penales.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
