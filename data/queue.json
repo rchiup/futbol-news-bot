@@ -26829,5 +26829,84 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "2f680c2186d35ba8a032",
+    "title": "Mourinho apuntó contra la IA al hablar del Real Madrid en la Champions League: \"Es una mierda\"",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/espana/jose-mourinho-real-madrid-favoritismo-champions-league-laliga-alaves-vinicius_0_conlUSazLz.html",
+    "source": "Olé Argentina",
+    "description": "En la previa del encuentro ante el Alavés, el entrenador portugués volvió a referirse, además, al lugar que ocupa Vinicius en el equipo tras los cuestionamientos por su rendimiento y llenó de elogios a Bellingham.",
+    "published_at": "2026-11-27T14:29:04+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-27T14:37:27.112382+00:00",
+    "status": "draft",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "Mourinho",
+        "Vinicius",
+        "Bellingham"
+      ],
+      "clubes": [
+        "Real Madrid",
+        "Alavés"
+      ],
+      "competicion": [
+        "Champions League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Mourinho critica la IA del Real Madrid en la Champions",
+    "caption": "Mourinho dijo que la IA del Real Madrid es una mierda antes del partido contra el Alavés. También valoró el papel de Vinicius y elogió a Bellingham en la previa de la Champions League.",
+    "ai_generated_at": "2026-11-27T14:37:27.112382+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "7e5ca95320bbfa2578c0",
+    "title": "Antonelli aún no quiere vacaciones y domina sobrado la FP1 de Qatar",
+    "source_url": "https://es.motorsport.com/f1/news/resumen-resultados-fp1-qatar-2026/10878266",
+    "source": "Motorsport F1",
+    "description": "El campeón no está aún de vacaciones. Y es que Andrea Kimi Antonelli dominó el inicio del GP de Qatar de F1, la primera sesión de libres, sacando más de medio segundo al resto pese a no montar el neumático más blando de Pirelli, algo que sí hicieron sus rivales. La sesión empezó muy activa y Max Verstappen se colocó al frente con un 1:26.105 a las primeras de cambio con neumáticos ... Sigue leyendo",
+    "published_at": "2026-11-27T14:33:31+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-27T14:37:27.112382+00:00",
+    "status": "published",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "source_brief",
+    "llm_model": "none",
+    "headline": "Antonelli aún no quiere vacaciones y domina sobrado la FP1 de Qatar",
+    "caption": "La sesión empezó muy activa y Max Verstappen se colocó al frente con un 1:26.105 a las primeras de cambio con neumáticos ... (Motorsport F1)",
+    "ai_generated_at": "2026-11-27T14:37:27.112382+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-27T14:38:06.063192+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Formula1"
+      ],
+      "mentions": []
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-27T14:37:27.112382+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-27T14:37:27.112382+00:00",
+    "instagram_media_id": "18649235764014753"
   }
 ]
