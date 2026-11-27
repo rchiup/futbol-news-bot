@@ -21130,7 +21130,8 @@
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Germany international Laura Freigang will miss next year's Women's World Cup after being handed a 16-month suspension for failing to report for or attend three doping tests.\nFreigang, 28, is the captain of Eintracht Frankfurt and has 45 caps for Germany, but will not be allowed to play competitive football again until Oct. 8, 2027. She is permitted to restart training in August 2027, but that timeframe, with the suspension applying retroactively from June 8 2026, means she will miss the World Cup in Brazil.\nThe three reporting and/or testing failures were between March 11, 2025, and February 23, 2026. The June 8, 2026, starting date for the suspension applies to when the DFB notified the relevant anti-doping bodies.\nThe settlement came from discussions with the World Anti-Doping Agency (WADA), the National Anti-Doping Agency of Germany (NADA) and the German Football Association (DFB), alongside the club and player.\nIn a video on her Instagram channel, Freigang said \"it is important for me to emphasise once again that at no time was there any suspicion of doping against me.\"\nShe said she accepted this suspension because of the \"high financial, mental and emotional burden\" of continuing to fight the case. She also said she's \"chosen this path, hoping to find some peace, clarity and perspective,\" and apologised to her club and national team.\n\"It breaks my heart to not be on the pitch for now, helping my team and getting to live the everyday life I love so much,\" she added.\nFreigang has featured prominently for Eintracht Frankfurt this season but despite the ban being backdated to June, their results are unaffected. The club will hold discussions with the player on whether she has a future at Eintracht, with her contract up in June 2027.\n- FIFA's Jill Ellis: '27 Women's World Cup will be first to turn a profit - 'Once in a generation' -- UK's Women's World Cup ambitions are sky high\nKatharina Kiel, director of women's football at Eintracht Frankfurt, said: \"The agreement now reached provides clarity and planning security in a process unprecedented for Eintracht Frankfurt -- for us as a club, but above all for Laura.\n\"The way she and the team have handled the situation in recent months, and how Laura personally led by example with her performance on the pitch during a very difficult time, deserves the highest recognition.\n\"As Eintracht Frankfurt, we have experienced a great sense of unity, which is a hallmark of this club. At the same time, the identified shortcomings, despite the agreement to settle the dispute, have resulted in a suspension, which means the loss of a key player for the remainder of the season, a loss we must and will compensate for. We will discuss the future and the details of our collaboration with Laura in a calm and thorough manner.\""
   },
   {
     "id": "7318a74f376dca998471",
@@ -21217,7 +21218,7 @@
     "headline": "Madrid homenajea a la selección española",
     "caption": "El circuito de F1 de Madrid tendrá una curva con el nombre de 'Dos Estrellas' en honor a los títulos de la selección española. La curva 2 estará pintada de rojo con dos estrellas amarillas.",
     "ai_generated_at": "2026-11-27T01:46:53.629705+00:00",
-    "photo_checked_at": "2026-11-27T01:48:19.957923+00:00",
+    "photo_checked_at": "2026-11-27T02:11:46.029061+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -21409,7 +21410,7 @@
     "headline": "Patten y Skupski clasifican a Gran Bretaña",
     "caption": "Henry Patten y Neal Skupski ganaron el partido de dobles decisivo contra Alemania. El equipo británico avanzó a las semifinales de la Copa Davis por primera vez desde 2019. Ahora se enfrentarán a España el sábado.",
     "ai_generated_at": "2026-11-27T01:46:53.629705+00:00",
-    "photo_checked_at": "2026-11-27T01:48:19.221093+00:00",
+    "photo_checked_at": "2026-11-27T02:11:33.708077+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -22822,7 +22823,7 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-26T18:03:48.112291+00:00",
-    "status": "draft",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -22853,7 +22854,12 @@
         "LeedsUnited"
       ],
       "mentions": []
-    }
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-27T02:11:01.337147+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-27T02:11:01.337147+00:00",
+    "instagram_media_id": "17969115567210091"
   },
   {
     "id": "b25281d9efbfa1716847",
