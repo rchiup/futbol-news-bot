@@ -2,19 +2,21 @@
   "date_utc": "2026-11-27",
   "providers": {
     "groq": {
-      "attempts": 5,
-      "success": 2,
-      "failures": 3,
+      "attempts": 8,
+      "success": 3,
+      "failures": 5,
       "latencies_ms": [
         2253,
-        2291
+        2291,
+        3267
       ],
       "quality": [
+        100,
         100,
         100
       ],
       "last_error": "http_429",
-      "blocked_until_utc": 1795740372
+      "blocked_until_utc": 1795742564
     },
     "gemini": {
       "attempts": 20,
@@ -44,16 +46,21 @@
       "blocked_until_utc": 1795739378
     },
     "openrouter": {
-      "attempts": 17,
-      "success": 6,
-      "failures": 11,
+      "attempts": 24,
+      "success": 11,
+      "failures": 13,
       "latencies_ms": [
         111739,
         15157,
         46334,
         59554,
         49817,
-        46348
+        46348,
+        13599,
+        263481,
+        48404,
+        45366,
+        214103
       ],
       "quality": [
         100,
@@ -61,39 +68,50 @@
         100,
         100,
         85,
+        100,
+        100,
+        100,
+        85,
+        100,
         100
       ],
       "last_error": "invalid_output"
     },
     "cloudflare": {
-      "attempts": 11,
-      "success": 1,
-      "failures": 10,
+      "attempts": 13,
+      "success": 2,
+      "failures": 11,
       "latencies_ms": [
-        1685
+        1685,
+        1720
       ],
       "quality": [
+        100,
         100
       ],
       "last_error": "invalid_output"
     },
     "nvidia": {
-      "attempts": 2,
+      "attempts": 3,
       "success": 0,
-      "failures": 2,
+      "failures": 3,
       "latencies_ms": [],
       "quality": [],
       "last_error": "http_410",
-      "blocked_until_utc": 1795740781
+      "blocked_until_utc": 1795743038
     },
     "zai": {
-      "attempts": 10,
-      "success": 0,
+      "attempts": 11,
+      "success": 1,
       "failures": 10,
-      "latencies_ms": [],
-      "quality": [],
+      "latencies_ms": [
+        24359
+      ],
+      "quality": [
+        100
+      ],
       "last_error": "invalid_output"
     }
   },
-  "last_success": "openrouter"
+  "last_success": "zai"
 }

@@ -23387,7 +23387,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-27T00:40:22.585090+00:00",
+    "photo_checked_at": "2026-11-27T01:17:05.111598+00:00",
     "video_style": "tiktok",
     "video_hook_variant": "fact_hook",
     "reel_quality": {
@@ -23478,7 +23478,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-27T00:40:22.323256+00:00"
+    "photo_checked_at": "2026-11-27T01:17:04.973266+00:00"
   },
   {
     "id": "1af4f90b744ebf5c4943",
@@ -23586,7 +23586,7 @@
     "headline": "Boca Reserva vence 4-0 a Vélez y avanza a semifinales",
     "caption": "El equipo dirigido por Mariano Herrón derrotó 4-0 a Vélez, con dobletes de Rodrigo Bacidalupe y Joaquín Piñeyro. Con este triunfo, Boca Reserva se clasifica a semifinales del Torneo Clausura, donde esperará al ganador entre Independiente y Gimnasia de Mendoza.",
     "ai_generated_at": "2026-11-27T00:00:55.845677+00:00",
-    "photo_checked_at": "2026-11-27T00:44:44.433209+00:00",
+    "photo_checked_at": "2026-11-27T01:17:02.084692+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -23628,11 +23628,26 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-26T22:24:07.015848+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Use BBC.com or the new BBC App to listen to BBC podcasts, Radio 4 and the World Service outside the UK.\nIs Jude Bellingham the best midfielder in the world? Even better than Zinedine Zidane once was?! Plus, Diego Simeone breaks the La Liga record for most managerial wins! John Bennett, Guillem Balague and James Horncastle discuss it all. And has Bayern's treatment of Jamal Musiala backfired? Bayern commentator Taufig Khalil joins the pod to reveal just what Joshua Kimmich told him about the situation. Timecodes: 07'00 Is Bellingham the world's best? 20'00 Bayern's treatment of Musiala 31'00 Record-breaking Simeone",
+    "visual_subject": "Jude Bellingham",
+    "visual_entities": {
+      "personas": [
+        "Jude Bellingham"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "zai",
+    "llm_model": "glm-4.5-flash",
+    "headline": "Bellingham supera a Zidane como mejor mediocampista del mundo",
+    "caption": "Jude Bellingham es comparado con Zidane en el Euro Leagues. Simeone rompe récord de victorias en La Liga. Bayern Munich enfrenta críticas por su trato a Musiala.",
+    "ai_generated_at": "2026-11-27T01:05:07.047082+00:00"
   },
   {
     "id": "32a20ee3ce26cfd1f181",
@@ -23761,13 +23776,16 @@
       "competicion": [
         "Europa League"
       ],
-      "ciudad": []
+      "ciudad": [
+        "Bournemouth"
+      ]
     },
     "llm_provider": "openrouter",
     "llm_model": "openrouter/free",
-    "headline": "Bournemouth sueña con título tras ganar sus primeros cinco partidos europeos",
-    "caption": "Bournemouth ganó sus primeros cinco partidos europeos y lidera la tabla actual. Fans ya reservan hoteles en Frankfurt para la final del 26 de mayo. Clasificarse en el top eight les permitiría saltar la ronda de play-off y ir directo a octavos.",
-    "ai_generated_at": "2026-11-27T00:41:33.114812+00:00"
+    "headline": "Bournemouth sueña con ganar la Europa League tras cinco triunfos",
+    "caption": "Bournemouth sueña con ganar la Europa League tras sumar cinco victorias europeas consecutivas y una remontada con diez jugadores. El entrenador Marco Rose dijo que siempre está permitido soñar, mientras los hinchas ya reservan hotel en Frankfurt para la final del 26 de mayo.",
+    "ai_generated_at": "2026-11-27T01:05:07.047082+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "2c70660cf8e4aed39265",
@@ -23800,14 +23818,16 @@
         "Europa League"
       ],
       "ciudad": [
-        "Wearside"
+        "Wearside",
+        "Bialystok"
       ]
     },
-    "llm_provider": "openrouter",
-    "llm_model": "openrouter/free",
-    "headline": "El Sunderland empata con el Jagiellonia por error de Reinildo",
-    "caption": "El Sunderland igualó con el Jagiellonia en la Europa League tras un error de Reinildo. El equipo de Adrian Siemieniec empató casi de inmediato tras ir en desventaja y exigió varias atajadas a Robin Roefs. Sunderland volvió a mostrar dificultades para definir frente al arco.",
-    "ai_generated_at": "2026-11-27T00:41:33.114812+00:00"
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Reinildo error mantiene a Sunderland y Jagiellonia empata en Europa",
+    "caption": "Reinildo cometió un error que dejó a Sunderland sin vencer y Jagiellonia se quedó con el punto en la Europa League. El técnico Adrian Siemieniec calificó el viaje a Wearside como uno de los momentos más destacados de su carrera, y su equipo reaccionó al caer detrás con un gol casi inmediato, obligando al portero Robin Roefs a realizar atajadas exigentes.",
+    "ai_generated_at": "2026-11-27T01:05:07.047082+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "374add860eda9220a3c8",
@@ -23887,7 +23907,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T22:46:11.020489+00:00",
-    "status": "draft",
+    "status": "published",
     "article_context": "A menos de una semana de la final de la Copa Argentina , Platense se prepara para enfrentar a Boca , que llega envalentonado tras consagrarse en la tabla anual. Y mientras se acerca el esperado cruce, Martín Palermo y Santiago Silva ya empezaron a palpitarlo , con un recuerdo que los une desde sus días en el Xeneize.\n“Muchas batallas, miles de historias y una misma pasión: el fútbol. Los goles quedan en la memoria, pero las personas y los momentos quedan para siempre”, escribió el Tanque en sus redes sociales , junto a una imagen que compartió con el Titán.\nLa historia entre ambos tiene un capítulo especial en Boca. Silva llegó en enero de 2012 para ocupar el lugar que había dejado Palermo tras su retiro. Después de destacarse en Vélez y Banfield, asumió el desafío de convertirse en el nueve xeneize y fue protagonista de la campaña que llevó al equipo a la final de la Copa Libertadores de ese año. En total, disputó 55 partidos, convirtió 19 goles y conquistó la Copa Argentina 2012 .\nPero el vínculo no terminó ahí. Años después, Palermo volvió a tenerlo bajo sus órdenes como entrenador : primero en Arsenal, durante 2015, y luego en Aldosivi, en 2022. Dos viejos conocidos que ahora vuelven a encontrarse, esta vez con la final de la Copa Argentina como escenario.\nLa sede para la final entre Boca y Platense, por la Copa Argentina, será el Madre de Ciudades de Santiago del Estero, el próximo miércoles 2 de diciembre a las 20:00. La noticia la dio a conocer la propia Copa Argentina a través de un posteo en sus redes sociales.\nDesde la AFA también informaron las autoridades del cotejo: Leandro Rey Hilfer como juez principal y a Silvio Trucco como encargado del VAR (también estará en Rosario Central-Barracas Central por los cuartos de Clausura).\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "visual_entities": {
       "personas": [],
@@ -23904,7 +23924,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-27T00:39:36.047555+00:00",
+    "photo_checked_at": "2026-11-27T01:16:03.745110+00:00",
     "video_style": "tiktok",
     "video_hook_variant": "fact_hook",
     "reel_quality": {
@@ -23913,8 +23933,8 @@
       "mean_db": -19.9
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795733251/football-news-bot/reels/378ed374c5891382df9a.mp4",
-    "publish_format": "reel",
-    "format_attempt_at": "2026-11-26T22:46:11.020489+00:00",
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-27T01:05:07.047082+00:00",
     "crosspost_attempt_at": "2026-11-26T22:46:11.020489+00:00",
     "buffer_youtube_status": "check_required",
     "visual_mode": "editorial_typography",
@@ -23923,7 +23943,10 @@
         "Futbol"
       ],
       "mentions": []
-    }
+    },
+    "ig_variant": "single",
+    "posted_at": "2026-11-27T01:05:07.047082+00:00",
+    "instagram_media_id": "18120878030011747"
   },
   {
     "id": "00632b79c5275ed44260",
@@ -23956,7 +23979,7 @@
     "headline": "Ezequiel Piovi afirma que Estudiantes irá al frente contra Palmeiras",
     "caption": "El volante de Estudiantes asegura que el equipo entrará al ataque en la final de la Copa Libertadores contra Palmeiras. El partido se disputará en el Estadio Centenario de Montevideo y Piovi lo califica como el encuentro más importante de su carrera, con el plantel listo y concentrado. Palmeiras llega con carga de partidos, pero Piovi insiste en que será un duelo aparte.",
     "ai_generated_at": "2026-11-26T23:20:00.986724+00:00",
-    "photo_checked_at": "2026-11-27T00:39:36.466675+00:00",
+    "photo_checked_at": "2026-11-27T01:16:32.708890+00:00",
     "video_style": "tiktok",
     "video_hook_variant": "fact_hook",
     "reel_quality": {
@@ -24028,7 +24051,7 @@
       "photo_provider": "Wikidata photo bank",
       "verified_at": "2026-11-24T16:03:16.356578+00:00"
     },
-    "photo_checked_at": "2026-11-27T00:39:36.741484+00:00",
+    "photo_checked_at": "2026-11-27T01:16:32.939677+00:00",
     "visual_mode": "licensed_photo",
     "photo_credit_full": "",
     "promotion": {
@@ -24106,11 +24129,12 @@
       "competicion": [],
       "ciudad": []
     },
-    "llm_provider": "gemini",
-    "llm_model": "gemini-3.1-flash-lite",
-    "headline": "San Lorenzo promete saldar deudas salariales ante malestar de Facundo Farías",
-    "caption": "La dirigencia de San Lorenzo se comprometió a pagar los sueldos de agosto tras semanas de incertidumbre económica. El caso de Facundo Farías genera preocupación, ya que el jugador no ha recibido pagos desde su llegada y exige garantías ante una posible compra de su pase.",
-    "ai_generated_at": "2026-11-27T00:41:33.114812+00:00"
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "Facundo Farías exige firma y comisión por seguir en San Lorenzo",
+    "caption": "Facundo Farías acumula nueve partidos y un gol en San Lorenzo, pero no cobra desde su llegada. La dirigencia prometió saldar deudas de agosto y retener al jugador, mientras él exige firma y comisión por la opción de compra de 3 millones de dólares",
+    "ai_generated_at": "2026-11-27T01:05:07.047082+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "764e93cb544615405be8",
@@ -24185,11 +24209,12 @@
       ],
       "ciudad": []
     },
-    "llm_provider": "gemini",
-    "llm_model": "gemini-3.1-flash-lite",
-    "headline": "Bournemouth impone récord histórico para clubes ingleses en Europa",
-    "caption": "El Bournemouth alcanzó su quinta victoria consecutiva en la Europa League. Con este registro, el equipo de la costa sur se convierte en el club inglés debutante con mejor arranque en competiciones continentales.",
-    "ai_generated_at": "2026-11-27T00:41:33.114812+00:00"
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "Bournemouth estableció récord debutante inglés en Europa League con 5 victorias",
+    "caption": "Bournemouth hizo historia al sumar cinco victorias consecutivas en su debut en Europa League, récord para club inglés. El equipo de la costa sur disputa su fase de grupos continental y busca mantener el impulso en la competición.",
+    "ai_generated_at": "2026-11-27T01:05:07.047082+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "c6c012a2bedee6e28ef5",
@@ -24217,11 +24242,12 @@
       "competicion": [],
       "ciudad": []
     },
-    "llm_provider": "gemini",
-    "llm_model": "gemini-3.1-flash-lite",
-    "headline": "Fernando Muslera busca la gloria en la final de Copa Libertadores",
-    "caption": "El arquero de Estudiantes enfrentará a Palmeiras en el Estadio Centenario de Montevideo. Muslera, quien comenzó su carrera como delantero en el club Cosmos, llega al duelo decisivo tras ser figura en la serie de semifinales ante Flamengo.",
-    "ai_generated_at": "2026-11-27T00:41:33.114812+00:00"
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "Fernando Muslera pasó de delantera a arquero en Cosmos",
+    "caption": "Fernando Muslera empezó como delantera y hoy es arquero en Cosmos, el club que lo convirtió en golero. Antes de la final de Copa Libertadores contra Palmeiras en el Centenario, el uruguayo busca un nuevo capítulo con Estudiantes.",
+    "ai_generated_at": "2026-11-27T01:05:07.047082+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "9578664c41d9035d1b83",
@@ -24254,11 +24280,12 @@
         "Ezeiza"
       ]
     },
-    "llm_provider": "gemini",
-    "llm_model": "gemini-3.1-flash-lite",
-    "headline": "Tristán Suárez recibe a Gimnasia y Tiro por el ascenso argentino",
-    "caption": "Tristán Suárez y Gimnasia y Tiro definen este viernes en Ezeiza el paso a semifinales del Reducido. Tras el 0-0 en la ida, el Lechero tiene ventaja deportiva y clasifica con un empate, mientras que el Albo está obligado a ganar para seguir en carrera.",
-    "ai_generated_at": "2026-11-27T00:41:33.114812+00:00"
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "Tristán Suárez define ante Gimnasia y Tiro con ventaja deportiva",
+    "caption": "Tristán Suárez recibe a Gimnasia y Tiro este viernes 27, desde las 21.00, en el estadio 20 de Octubre de Ezeiza, por la vuelta de los cuartos de final del Reducido. La ida terminó 0-0 y al Lechero le basta otro empate para clasificar; el Albo está obligado a ganar.",
+    "ai_generated_at": "2026-11-27T01:05:07.047082+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "3883e56a42bc64e6e048",
@@ -24384,10 +24411,22 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-27T00:11:16.269878+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Apple enfrenta acusación por abuso de posición monopólica",
+    "caption": "La Fiscalía Nacional Económica acusó a Apple por abuso de posición dominante. La empresa impone restricciones en el sistema operativo iOS desde 2019.",
+    "ai_generated_at": "2026-11-27T01:05:07.047082+00:00"
   }
 ]
