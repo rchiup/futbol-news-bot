@@ -2,9 +2,9 @@
   "date_utc": "2026-11-27",
   "providers": {
     "groq": {
-      "attempts": 15,
+      "attempts": 16,
       "success": 4,
-      "failures": 11,
+      "failures": 12,
       "latencies_ms": [
         2253,
         2291,
@@ -18,7 +18,7 @@
         100
       ],
       "last_error": "http_429",
-      "blocked_until_utc": 1795744220
+      "blocked_until_utc": 1795744550
     },
     "gemini": {
       "attempts": 20,
@@ -91,9 +91,9 @@
       "blocked_until_utc": 1795747226
     },
     "cloudflare": {
-      "attempts": 39,
-      "success": 18,
-      "failures": 21,
+      "attempts": 47,
+      "success": 24,
+      "failures": 23,
       "latencies_ms": [
         1685,
         1720,
@@ -112,9 +112,21 @@
         2491,
         3908,
         3601,
-        1845
+        1845,
+        2936,
+        2223,
+        3537,
+        3193,
+        1949,
+        3528
       ],
       "quality": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
         100,
         100,
         100,
@@ -137,28 +149,30 @@
       "last_error": "invalid_output"
     },
     "nvidia": {
-      "attempts": 4,
+      "attempts": 5,
       "success": 0,
-      "failures": 4,
+      "failures": 5,
       "latencies_ms": [],
       "quality": [],
       "last_error": "http_410",
-      "blocked_until_utc": 1795744029
+      "blocked_until_utc": 1795745074
     },
     "zai": {
-      "attempts": 21,
-      "success": 4,
-      "failures": 17,
+      "attempts": 23,
+      "success": 5,
+      "failures": 18,
       "latencies_ms": [
         24359,
         23437,
         35329,
-        33089
+        33089,
+        30521
       ],
       "quality": [
         100,
         100,
         85,
+        100,
         100
       ],
       "last_error": "invalid_output"

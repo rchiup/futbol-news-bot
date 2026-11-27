@@ -19232,8 +19232,20 @@
     "sport": "FUTBOL",
     "score": 25,
     "queued_at": "2026-11-26T11:32:31.230580+00:00",
-    "status": "awaiting_ai",
-    "article_context": "Fifa has confirmed it has been the victim of a cyber attack which resulted in personal and business information being stolen.\nHowever, BBC Sport understands the data breach did not include any documents relating to the controversial Fifa Forward Enterprise proposal, president Gianni Infantino's failed World Cup sell-off plot.\nFootball Association chair Debbie Hewitt was this week granted access to the files upon condition of signing a non-disclosure agreement.\nIt is understood not to be a systems or technology failure at the world football governing body, with criminals able to gain access to the documents by impersonating and taking advantage of staff.\n\"Fifa can confirm that it has been the victim of a criminal cyber-attack resulting in unauthorised access to a limited set of personal and business information,\" Fifa said in a statement.\n\"Fifa is working closely with the relevant authorities, including law enforcement.\n\"Fifa condemns in the strongest possible terms the unlawful acquisition and publication of information, particularly personal data.\n\"Such actions constitute a serious and unacceptable violation of privacy and can have significant consequences for the individuals concerned.\"\nResponsibility has been claimed online by a group called the Handsome Boy Hacking Club, which last week posted screenshots of Fifa files.\nThe group claims to have gained access to 12GB of data. Analysis indicates this is less than 0.1% of all data held by Fifa and was targeted at the company rather than individuals.\nGet football news sent straight to your phone\nDavis Cup Finals: Fery facing world number one Zverev after Norrie wins\nPremier League news conferences: Alonso to speak with issues mounting\n'Laughing gas has ended careers' - so how common is it in football?\nFirst look: Strike and Robin return to take on a dangerous cult\nThe Spanish town that ditched the euro and brought back the peseta\nThe extraordinary journey of the humble banana\nMotorcycle passenger who took stunning cricket catch found\nDivots, howlers and bad decisions - dissecting Man Utd's draw in Lisbon\n'Best midfielder in the world' - where does Bellingham rank?\nFour-time MVP Rodgers released and may have played last NFL game\nSooryavanshi, 15, breaks sixes record in 204 off 53 balls\nSterling - from England icon to suspended jail sentence\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland's tearaway quick bowler reinvented as a top-order batter\nThe sandpaper plot - who was there, who said what?\nJosh Kerr: The making of the man behind the shades\nThe 3pm football blackout: Outdated or still relevant in 2026?\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking."
+    "status": "expired",
+    "article_context": "Fifa has confirmed it has been the victim of a cyber attack which resulted in personal and business information being stolen.\nHowever, BBC Sport understands the data breach did not include any documents relating to the controversial Fifa Forward Enterprise proposal, president Gianni Infantino's failed World Cup sell-off plot.\nFootball Association chair Debbie Hewitt was this week granted access to the files upon condition of signing a non-disclosure agreement.\nIt is understood not to be a systems or technology failure at the world football governing body, with criminals able to gain access to the documents by impersonating and taking advantage of staff.\n\"Fifa can confirm that it has been the victim of a criminal cyber-attack resulting in unauthorised access to a limited set of personal and business information,\" Fifa said in a statement.\n\"Fifa is working closely with the relevant authorities, including law enforcement.\n\"Fifa condemns in the strongest possible terms the unlawful acquisition and publication of information, particularly personal data.\n\"Such actions constitute a serious and unacceptable violation of privacy and can have significant consequences for the individuals concerned.\"\nResponsibility has been claimed online by a group called the Handsome Boy Hacking Club, which last week posted screenshots of Fifa files.\nThe group claims to have gained access to 12GB of data. Analysis indicates this is less than 0.1% of all data held by Fifa and was targeted at the company rather than individuals.\nGet football news sent straight to your phone\nBournemouth 'allowed to dream' as fans book Europa League final hotels\nFury 'never received' schizophrenia diagnosis\nPant joins New Zealand club match under false name\nFirst look: Strike and Robin return to take on a dangerous cult\nThe Spanish town that ditched the euro and brought back the peseta\nThe extraordinary journey of the humble banana\nLammens - the Man Utd goalkeeper under scrutiny like never before\n440 players, three days, one venue - the Nations Championship logistics logjam\nNot even making a 12-man bench - what next for Garnacho?\nSelby faces tough UK opener while Allen set to feature\n'Laughing gas has ended careers' - so how common is it in football?\nMotorcycle passenger who took stunning cricket catch found\nDivots, howlers and bad decisions - dissecting Man Utd's draw in Lisbon\n'Best midfielder in the world' - where does Bellingham rank?\nFour-time MVP Rodgers released and may have played last NFL game\nSooryavanshi, 15, breaks sixes record in 204 off 53 balls\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland's tearaway quick bowler reinvented as a top-order batter\nJosh Kerr: The making of the man behind the shades\nThe 3pm football blackout: Outdated or still relevant in 2026?\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "zai",
+    "llm_model": "glm-4.5-flash",
+    "headline": "Confirman ciberataque a FIFA roba información personal y empresarial",
+    "caption": "Fifa confirma ciberataque que robó información personal y empresarial. El grupo 'Handsome Boy Hacking Club' se atribuye el acceso a 12GB de datos, menos del 0.1% del total de la organización.",
+    "ai_generated_at": "2026-11-27T01:49:25.508594+00:00"
   },
   {
     "id": "46718279124c0e32fe63",
@@ -19272,11 +19284,31 @@
     "sport": "FUTBOL",
     "score": 25,
     "queued_at": "2026-11-26T11:32:31.230580+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "El Vasco, muy ovacionado en la Bombonera (Marcelo Carroll).\n\"Ahora, cuando vamos a cenar, ya pensamos en Gimnasia , en la recuperación de los jugadores. Disfruto, capaz mi cara no lo dice mucho. Disfruto a mi manera. En este club hay que ganar, ganar, ganar, ganar y ganar . Y ser protagonistas. Vamos a serlo. No sé si nos va a dar la nafta, espero que sí. Tenemos muchos partidos importantes y esperamos estar a la altura\".\nFeliz como pocos. En una noche de fiesta en la Bombonera, casi que no había nadie en Boca con semejante sonrisa como el Vasco Arruabarrena , viviendo el gran sueño que tenía como entrenador incluso desde su primera etapa hace poco más de una década. Disfrutó al máximo este triunfo contra Independiente Rivadavia y la fiesta posterior por la obtención de la Copa Sudamericana , fue ovacionado por el público en diversas ocasiones y estuvo en la vuelta olímpica, pero sabe que todavía quedan objetivos y no se baja de nada .\n\"Queremos seguir haciendo historia, demostrar que a pesar de los títulos no nos conformamos. Somos Boca y nos van a querer eliminar, pero tenemos hambre y lo queremos demostrar\", explicó el entrenador luego del pase a cuartos del Clausura , marcando claramente la postura y sus ideas. Nadie se deja estar, pese al gran semestre del equipo: \"Está llegando el fin de año y me preocupa el cansancio mental, volver a concentrar, tener mucha rutina... Pero también tenemos la sensación de que podemos aspirar a pelear otro título , lo que nos da mucha confianza. Tenemos que estar fresquitos de la cabeza\", marcó.\nEl DT de Boca habló tras el triunfo por 2-0 ante Independiente Rivadavia y se refirió a la comparación con Carlos Bianchi. @catasarra\n¿Bianchi? \" Sería irrespetuoso que me comparen con Carlos, es el mejor entrenador del club . Ni un 2% de sabiduría ni manejo de grupo tengo en comparación con él. Obvio que tengo recuerdos, el tema del grupo es muy importante a mi entender. De Carlos siempre me gustó su manejo de grupo, los jugadores que tienen pocos minutos son importantes a lo largo del año, sobre todo en equipos como nosotros que jugamos tanto\".\n-\"Lo importante es que el equipo volvió a decir presente después de un viaje largo y de conseguir un título: puede haber un relajamiento, pero los chicos estuvieron muy bien. Quisieron estar todos y lo hicieron, salvo el Ruso, que el otro día no sé cómo jugó la final. Tuve que tomar la decisión de no ponerlo de inicio. Me pone feliz la ilusión del hincha, se sienten identificados. Hicimos un partido serio , quizás abusamos un poco sobre el final de la posesión, tendríamos que haber sido más directos, pero estoy contento. Hay que seguir, dentro de cuatro días volvemos a jugar, hay que ver en qué horario\".\n-\"El estar constantemente con partidos cada tres o cuatro días... No pensás en lo que hiciste. Cuando te vas, ves los logros que conseguiste. Trato de inculcarles que en este club hay que seguir ganando y, cuando estás en un buen momento, tratar de aprovecharlo. No hay que relajarse, son todos equipos muy duros, Independiente Rivadavia lo fue. Tuvimos la ocasión de abrir el marcador en el momento justo, pero no hay que relajarse , hay que seguir insistiendo. Tenemos que seguir cuidándonos, el descanso, la alimentación. El equipo está bien y me pone contento que el hincha se sienta identificado\".\n-(Bianchi) \" Sería irrespetuoso que me comparen con Carlos , es el mejor entrenador del club . Ni un 2% de sabiduría ni manejo de grupo tengo en comparación con él. Obvio que tengo recuerdos, el tema del grupo es muy importante a mi entender. Soy sincero y voy de frente: hay un montón de jugadores que quisieran tener más minutos, pero tiran para adelante porque entienden que es lo mejor. En diciembre nos sentaremos y hablaremos, me dirán que no les gusta mi cara o cómo me visto, y se irán o quedarán. Pero nosotros tenemos que conseguir cosas para el club. De Carlos siempre me gustó su manejo de grupo, los jugadores que tienen pocos minutos son importantes a lo largo del año, sobre todo en equipos como nosotros que jugamos tanto\".\nEl Xeneize festejo la consagración de la Copa Sudamericana. Con goles de Paredes y Merentiel, el Xeneize le ganó a Independiente Rivadavia y pasó a cuartos del Clausura. @catasarra\n-(Villa) \"Ha crecido muchísimo, es un jugador de jerarquía , en el uno contra uno hace diferencia, en los partidos importantes aparece . Está teniendo un muy buen nivel, como el equipo. Cuando hay un buen rendimiento colectivo, resaltan las individualidades. Tiene que seguir, hay competencia en los puestos, cuando creí que tenía que jugar Leo (Flores), jugó Leo\".\n-Disfruto a mi manera. Ahora, cuando vamos a cenar, ya pensamos en Gimnasia, en la recuperación de los jugadores. Disfruto, capaz mi cara no lo dice mucho. Disfruto a mi manera. En este club hay que ganar, ganar, ganar, ganar y ganar . Y ser protagonistas. Vamos a serlo. No sé si nos va a dar la nafta, espero que sí. Tenemos muchos partidos importantes y esperamos estar a la altura.\"\n-\" Nunca estoy conforme y no lo voy a estar nunca. En el fútbol hay muchas variantes y cada uno tiene sus gustos. Tratamos de que el hincha de Boca se sienta identificado con el equipo , saliendo jugando, tirándose al piso, haciendo jugadas de finalización, directas. Esto es Boca. Queremos un equipo que deje todo . Y no me puedo quejar\".\nMientras se preparaba para ejecutar un tiro de esquina, el capitán de Boca fue ovacionado en La Bombonera.\n-\" Siempre vamos a tener que hacer rotación , vamos a buscar el momento justo. Hoy el Ruso no jugó ni un minuto, estará el próximo partido. Hay que cuidar jugadores, hay que ver y charlar. Leandro el otro día no pudo terminar, hoy cumplió los 90'. Tengo un banco de suplentes en el que confío. Está llegando el fin de año y me preocupa el cansancio mental , volver a concentrar, tener mucha rutina... También tenemos la sensación de que podemos aspirar a pelear otro título , lo que nos da mucha confianza. Tenemos que estar fresquitos de la cabeza\".\n-\"Podría ser que Battaglia sea el 5 y Paredes vaya más al costado . Pero Ascacibar está bien, tuve que poner un abogado para que no juegue, ja. Hay que ver el oponente. Lamentablemente Alarcón tuvo una lesión , hay que ver lo de Delgado, no creo que sea grave. Hay variantes, incluso en Reserva hay chicos que lo pueden hacer bien\".\n-\"Sinceramente, haber conseguido la tabla anual nos sacó una mochila . Se venía de mucho tiempo sin un título. Hemos visto en estos últimos tres partidos que fuimos más",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "Arruabarrena"
+      ],
+      "clubes": [
+        "Boca",
+        "Independiente Rivadavia"
+      ],
+      "competicion": [
+        "Clausura"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Arruabarrena quiere más títulos con Boca",
+    "caption": "El DT de Boca se mostró feliz por el triunfo ante Independiente Rivadavia. Arruabarrena busca seguir haciendo historia con el equipo. El Xeneize pasó a cuartos del Clausura con goles de Paredes y Merentiel.",
+    "ai_generated_at": "2026-11-27T01:49:25.508594+00:00"
   },
   {
     "id": "1ce007d945c14849eb7e",
@@ -19289,11 +19321,27 @@
     "sport": "FUTBOL",
     "score": 25,
     "queued_at": "2026-11-26T11:32:31.230580+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Luis Caputo",
+    "visual_entities": {
+      "personas": [
+        "Luis Caputo"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": [
+        "Argentina"
+      ]
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Luis Caputo relativiza recesión argentina",
+    "caption": "El ministro de Economía de Argentina, Luis Caputo, considera que la definición de recesión es casi arbitraria. El país registró dos trimestres de desempeño negativo en el Producto Interno Bruto.",
+    "ai_generated_at": "2026-11-27T01:49:25.508594+00:00"
   },
   {
     "id": "2c533a94a7b6fe916c58",
@@ -19775,7 +19823,25 @@
     "sport": "FUTBOL",
     "score": 25,
     "queued_at": "2026-11-26T11:36:41.404214+00:00",
-    "status": "awaiting_ai"
+    "status": "draft",
+    "article_context": "Boca va por todo: ya ganó la Tabla Anual , la Copa Sudamericana , está en la final de la Copa Argentina y este miércoles venció a Independiente Rivadavia para meterse en los cuartos de final del Torneo Clausura . Con goles de Leandro Paredes y Miguel Merentiel, el Xeneize superó a la Lepra mendocina y avanzó de ronda. Ahora, se le viene Gimnasia de La Plata. En Olé , te contamos todos los detalles de este partido.\nBoca llega a los cuartos de final tras finalizar segundo en la Zona A del Torneo Clausura 2026 y luego de coronarse campeón de la Tabla Anual . El conjunto dirigido por Rodolfo Arruabarrena consiguió ubicarse entre los primeros puestos de su grupo y por eso tendrá la ventaja de definir como local en La Bombonera . En octavos ya la aprovechó: venció a Independiente Rivadavia por 2 a 0 .\nAdemás, el Xeneize viene de derrotar 2-0 a Atlético Mineiro en la final de la Copa Sudamericana el pasado sábado 21 de noviembre. De esa manera, cortó una sequía de 18 años sin títulos internacionales y dio su segunda vuelta olímpica esta temporada.\nAhora, el Vasco tendrá que pensar si darle descanso a algunos futbolistas : su equipo jugará por tercera vez en nueve días y solo tres días después definirá al campeón de la Copa Argentina en Santiago del Estero, ante Platense.\nGimnasia atraviesa un gran inmejorable en el Torneo Clausura y llega con el ánimo por las nubes tras cerrar la fase regular en la tercera posición del Grupo B con 31 unidades. Además, el Lobo viene de superar 4 a 2 a Newell's en unos calientes octavos de final y sueña con dar el gran batacazo en la Bombonera .\nEl conjunto dirigido por Ariel Pereyra destacó en el certamen por su contundencia ofensiva: anotó 29 goles en 17 partidos . Ahora, tratará de vencer a la valla menos vencida del año en la Liga Profesional y volver a plantarse en semifinales (ya lo hizo en el Clausura 2025).\nEl encuentro entre Boca y el Gimnasia se disputará este domingo 29 de noviembre en la Bombonera. Si bien desde la LPF habían publicado que el duelo entre el Xeneize y el Lobo iba a las 22.00 , por el amistoso de la Selección Femenina ante Alemania en La Plata, este cotejo podría ser a las 21 , por pedido del CABJ.\nBoca tendrá ventaja de localía dado a que finalizó segundo en la Zona A, mientras que Gimnasia fue tercero en el Grupo B. Al igual que en cuartos, habrá alargue en caso de empate y, de persistir la igualdad, todo se definirá por penales.\nMientras los cuartos de final se jugarán el fin de semana del 28 y 29 de noviembre , las semifinales se desarrollarán entre el 5 y 6 de diciembre. La gran final está prevista para el sábado 12 de diciembre , en el estadio Diego Maradona de La Plata.\nEn todas las instancias, si hay empate en los 90 minutos, se juega tiempo suplementario (dos tiempos de 15’) y, de persistir la igualdad, definición por penales , según el reglamento vigente para la temporada 2026.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Boca",
+        "Independiente Rivadavia"
+      ],
+      "competicion": [
+        "Torneo Clausura"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Boca supera a Independiente Rivadavia",
+    "caption": "El Xeneize venció 2-0 a Independiente Rivadavia y avanzó a los cuartos de final del Torneo Clausura. Ahora se enfrentará a Gimnasia de La Plata en La Bombonera. Boca busca seguir sumando títulos después de ganar la Tabla Anual y la Copa Sudamericana.",
+    "ai_generated_at": "2026-11-27T01:49:25.508594+00:00"
   },
   {
     "id": "896ec4e86d7d75707681",
@@ -20074,11 +20140,27 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-26T12:09:12.581195+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [
+        "Fórmula 1"
+      ],
+      "ciudad": [
+        "Qatar"
+      ]
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "F1 enfrenta desafío logístico en Qatar y Abu Dabi",
+    "caption": "La Fórmula 1 viajará a Oriente Medio para disputar las últimas carreras de la temporada. La crisis geopolítica complica el traslado de material al Golfo Pérsico. La logística se vuelve un desafío clave para el éxito de las carreras.",
+    "ai_generated_at": "2026-11-27T01:49:25.508594+00:00"
   },
   {
     "id": "86a631aef50446812a11",
@@ -20586,11 +20668,29 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-26T13:28:08.766141+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Fernando Alonso",
+    "visual_entities": {
+      "personas": [
+        "Fernando Alonso"
+      ],
+      "clubes": [],
+      "competicion": [
+        "Gran Premio de Las Vegas"
+      ],
+      "ciudad": [
+        "Las Vegas"
+      ]
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Alonso detecta problema en motor",
+    "caption": "Fernando Alonso sintió una anomalía en su motor durante el Gran Premio de Las Vegas y decidió abandonar. Aunque Honda revisó los datos y la unidad de potencia, no encontraron ninguna debilidad técnica. La investigación sigue en curso para determinar la causa del problema.",
+    "ai_generated_at": "2026-11-27T01:49:25.508594+00:00"
   },
   {
     "id": "7457c1ce6143e3c6009c",
@@ -20603,11 +20703,29 @@
     "sport": "TENIS",
     "score": 26,
     "queued_at": "2026-11-26T13:30:25.304424+00:00",
-    "status": "awaiting_ai",
+    "status": "duplicate",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Alexander Zverev",
+    "visual_entities": {
+      "personas": [
+        "Alexander Zverev",
+        "Arthur Fery"
+      ],
+      "clubes": [],
+      "competicion": [
+        "Davis Cup"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Zverev vence a Fery en cuartos de final de la Davis Cup",
+    "caption": "Alexander Zverev derrotó a Arthur Fery en sets corridos. El alemán igualó la serie 1-1 para Alemania en su duelo contra Gran Bretaña.",
+    "ai_generated_at": "2026-11-27T01:49:25.508594+00:00",
+    "duplicate_of": "same_story_as:897f3796b2b87d9a4cd6"
   },
   {
     "id": "b76d42493e7ff28247ae",
