@@ -2,9 +2,9 @@
   "date_utc": "2026-11-27",
   "providers": {
     "groq": {
-      "attempts": 39,
-      "success": 14,
-      "failures": 25,
+      "attempts": 45,
+      "success": 17,
+      "failures": 28,
       "latencies_ms": [
         2253,
         2291,
@@ -19,7 +19,10 @@
         1093,
         1893,
         1737,
-        2704
+        2704,
+        3603,
+        1528,
+        1770
       ],
       "quality": [
         100,
@@ -35,6 +38,9 @@
         100,
         100,
         100,
+        100,
+        100,
+        85,
         100
       ],
       "last_error": "invalid_output",
@@ -190,26 +196,30 @@
       "blocked_until_utc": 1795782705
     },
     "zai": {
-      "attempts": 33,
-      "success": 5,
-      "failures": 28,
+      "attempts": 36,
+      "success": 7,
+      "failures": 29,
       "latencies_ms": [
         24359,
         23437,
         35329,
         33089,
-        30521
+        30521,
+        34444,
+        36545
       ],
       "quality": [
         100,
         100,
         85,
         100,
+        100,
+        100,
         100
       ],
-      "last_error": "invalid_output",
+      "last_error": "timeout",
       "blocked_until_utc": 1795748411
     }
   },
-  "last_success": "groq"
+  "last_success": "zai"
 }

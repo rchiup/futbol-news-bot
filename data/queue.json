@@ -19949,7 +19949,7 @@
     "sport": "FUTBOL",
     "score": 17,
     "queued_at": "2026-11-26T11:36:41.404214+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -25470,9 +25470,7 @@
     "status": "needs_review",
     "visual_subject": "",
     "visual_entities": {
-      "personas": [
-        "Keir"
-      ],
+      "personas": [],
       "clubes": [
         "Ross County",
         "Cove Rangers"
@@ -25486,14 +25484,15 @@
     },
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
-    "headline": "Ross County empata 1-1 con Cove Rangers y mantiene ventaja histórica",
-    "caption": "Ross County igualó 1-1 ante Cove Rangers con gol de Keir al minuto 52. El equipo de Dingwall anotó cuatro goles en los últimos 17 minutos, ampliando su diferencia de goles a +45 tras 14 victorias en 16 partidos, la mejor arrancada del fútbol senior británico.",
-    "ai_generated_at": "2026-11-27T12:16:22.371209+00:00",
+    "headline": "Ross County lidera con 102 goles y +45 de diferencia",
+    "caption": "Ross County ha anotado 102 goles y lleva una diferencia de +45 tras 16 partidos (14 victorias y 2 empates). El empate 1‑1 contra Cove Rangers mantuvo su racha, con cuatro goles en los últimos 17 minutos que ampliaron la ventaja.",
+    "ai_generated_at": "2026-11-27T12:23:31.059245+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "quality_hold": "unverified_numeric_score"
+    "quality_hold": "unverified_numeric_score",
+    "editorial_rechecked": true
   },
   {
     "id": "2164e1ced4f2f7d28ace",
@@ -25626,11 +25625,12 @@
       "competicion": [],
       "ciudad": []
     },
-    "llm_provider": "groq",
-    "llm_model": "openai/gpt-oss-120b",
-    "headline": "Jesús Owono entrena solo tras la muerte de Jesús de Miguel",
-    "caption": "El arquero ecuatoguineco retomó entrenamientos individuales después del trágico choque que cobró la vida del delantero Jesús de Miguel. Su primera aparición pública fue durante el partido contra el Leganés en el Nou Estadi de la FAF de Encamp, y su regreso al grupo dependerá de su evolución personal y apoyo psicológico.",
-    "ai_generated_at": "2026-11-27T12:21:18.410128+00:00"
+    "llm_provider": "zai",
+    "llm_model": "glm-4.5-flash",
+    "headline": "Owono retoma entrenamientos individuales tras tragedia",
+    "caption": "Owono retoma entrenamientos individuales tras la muerte de Jesús de Miguel. El arquero de Andorra no tiene plazos definidos para reincorporarse al plantel, según su técnico Carles Manso.",
+    "ai_generated_at": "2026-11-27T12:23:31.059245+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "7068389088079e26ca4a",
@@ -25654,9 +25654,10 @@
     },
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
-    "headline": "Senado aprueba ley que prohibirá apuestas en el fútbol argentino",
-    "caption": "El Senado aprobó por unanimidad la Ley de Prevención de la Ludopatía, que prohíbe el patrocinio y la publicidad de casas de apuestas en el fútbol argentino. La norma obligará a clubes como Boca y River, a la AFA, a la Liga Profesional y a los medios a retirar esos anuncios, mientras el Ejecutivo tiene diez días para promulgarla y 120 para reglamentarla.",
-    "ai_generated_at": "2026-11-27T12:21:18.410128+00:00"
+    "headline": "Senado aprueba ley que prohibirá apuestas en fútbol argentino",
+    "caption": "El Senado aprobó por unanimidad la Ley de Prevención de la Ludopatía, que prohíbe el patrocinio y la publicidad de casas de apuestas en el fútbol argentino. La norma deberá ser promulgada por el Ejecutivo en diez días y, una vez publicada, clubes como Boca y River, la AFA, la Liga Profesional y los canales de TV deberán retirar esos anuncios en los próximos 120 días.",
+    "ai_generated_at": "2026-11-27T12:23:31.059245+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "340af565625916d0ce3e",
@@ -25676,20 +25677,22 @@
         "Emmanuel Macron"
       ],
       "clubes": [
-        "Levski Sofía"
+        "Marseille",
+        "Levski Sofia"
       ],
       "competicion": [
         "European football"
       ],
       "ciudad": [
-        "Sofía"
+        "Marseille"
       ]
     },
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
-    "headline": "Macron condena violencia en el partido de Marsella vs Levski",
-    "caption": "Violentas protestas empañaron varios encuentros de fútbol europeo el jueves por la noche, entre ellos el duelo de Olympique de Marsella contra Levski Sofía. El presidente francés, Emmanuel Macron, denunció los incidentes y pidió mayor seguridad en los estadios.",
-    "ai_generated_at": "2026-11-27T12:21:18.410128+00:00"
+    "headline": "Macron condena la violencia en el partido Marseille vs Levski",
+    "caption": "Violentas protestas estallaron durante el encuentro entre el Olympique de Marsella y el Levski Sofía, obligando a la policía a intervenir. El presidente Emmanuel Macron condenó los hechos, señalando que la seguridad en los partidos europeos es prioridad.",
+    "ai_generated_at": "2026-11-27T12:23:31.059245+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "8ed43416c2efbd5801cb",
@@ -25702,7 +25705,21 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-27T12:21:18.410128+00:00",
-    "status": "awaiting_ai"
+    "status": "needs_review",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [
+        "Liga Profesional"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "zai",
+    "llm_model": "glm-4.5-flash",
+    "headline": "Ranking de juveniles en Liga Profesional 2026",
+    "caption": "Olé analizó el uso de jugadores jóvenes en los 30 equipos de Primera. Hubo un líder sorpresa y un grande que destacó en la promoción de talentos locales.",
+    "ai_generated_at": "2026-11-27T12:23:31.059245+00:00"
   },
   {
     "id": "d571b6f48c244489110b",
@@ -25783,6 +25800,104 @@
     "sport": "FUTBOL",
     "score": 25,
     "queued_at": "2026-11-27T12:21:18.410128+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "342f5dc0e46ccd1b67e2",
+    "title": "Duki reveló que simpatiza por Boca: \"Fui hincha de Independiente, pero ahora soy bastante bostero\"",
+    "source_url": "https://www.ole.com.ar/fuera-de-juego/duki-simpatia-boca-independiente-hincha-encuentro-riquelme_0_doFaZ27KBy.html",
+    "source": "Olé Argentina",
+    "description": "El trapero contó que de chico era del Rojo, pero \"después me desconecté del fútbol\". Sin embargo, ahora volvió a interesarse y dio detalles de su particular encuentro con Riquelme.",
+    "published_at": "2026-11-27T00:25:36+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 25,
+    "queued_at": "2026-11-27T12:23:31.059245+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "07b2a8072b48a1a68644",
+    "title": "Goodwin backs Sapsford for Australia call-up - gossip",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/c95y127xxye5o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Dundee United manager backs striker for international call-up as Hibs boss offers advice to forward.",
+    "published_at": "2026-11-27T07:21:15+00:00",
+    "category": "PARTIDOS",
+    "sport": "FUTBOL",
+    "score": 23,
+    "queued_at": "2026-11-27T12:23:31.059245+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "f35fc5b7f31cde1d0c33",
+    "title": "Skupski and Patten win to send GB into Davis Cup semi-finals",
+    "source_url": "https://www.bbc.co.uk/sport/tennis/videos/cmn0lrjdd9n5o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Tennis",
+    "description": "Great Britain's Neal Skupski and Henry Patten produce a stunning victory against Germany's Kevin Krawietz and Tim Puetz to win the decisive doubles match and secure Great Britain's place in the Davis Cup semi-finals for the first time since 2019.",
+    "published_at": "2026-11-26T15:54:42+00:00",
+    "category": "TENIS",
+    "sport": "TENIS",
+    "score": 19,
+    "queued_at": "2026-11-27T12:23:31.059245+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "e034da9bb3376bd61710",
+    "title": "What makes or breaks a high press?",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/crgqxn1k283zo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "A good high press has been the basis for some of the most successful sides in modern football, but what determines whether a press works or fails? And how are the always-adapting Premier League teams exploiting high presses this season?",
+    "published_at": "2026-11-27T07:17:13+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 17,
+    "queued_at": "2026-11-27T12:23:31.059245+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "0032f418d5b1ae379ee0",
+    "title": "Man City owners should be forced to sell, say clubs",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/cwp809d7yp4go?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Manchester City's owners must be forced to sell the club as punishment for breaking financial rules, senior figures at some Premier League clubs tell BBC Sport.",
+    "published_at": "2026-11-27T06:38:14+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 17,
+    "queued_at": "2026-11-27T12:23:31.059245+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "40a30bec461fdcd163ef",
+    "title": "'Priceless' Duran proves 'the man' but is he papering over cracks at Celtic?",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/c62klz1wwdn7o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Camilo Duran's 15-goal haul this season has made him an invaluable player for a Celtic side fighting for European progression.",
+    "published_at": "2026-11-27T00:18:44+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 13,
+    "queued_at": "2026-11-27T12:23:31.059245+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
