@@ -1,20 +1,20 @@
 {
-  "checked_at_utc": "2026-11-27T02:29:23.070584+00:00",
+  "checked_at_utc": "2026-11-27T02:31:14.489183+00:00",
   "local_hour": 23,
   "statuses": {
-    "published": 193,
-    "draft": 30,
+    "published": 194,
+    "draft": 28,
     "awaiting_ai": 81,
     "needs_review": 150,
     "publish_error": 27,
-    "duplicate": 61
+    "duplicate": 62
   },
   "fresh_candidates": 145,
   "queued_new": 0,
   "ai_generated": 0,
   "preview_images": 5,
-  "published": 0,
-  "duplicates_suppressed": 0,
+  "published": 1,
+  "duplicates_suppressed": 1,
   "no_photo_deferred": 0,
   "total_queue": 704,
   "per_run_cap": 2,

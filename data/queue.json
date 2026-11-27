@@ -21965,7 +21965,7 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-26T16:25:50.852187+00:00",
-    "status": "draft",
+    "status": "duplicate",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -22004,7 +22004,8 @@
         "GranPremiodeLasVegas"
       ],
       "mentions": []
-    }
+    },
+    "duplicate_of": "same_story_as:3e04cfc6a60b16911301"
   },
   {
     "id": "8ca2d202e6190de090d6",
@@ -22421,7 +22422,7 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-26T17:31:41.493039+00:00",
-    "status": "draft",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -22454,7 +22455,12 @@
         "Ferrari"
       ],
       "mentions": []
-    }
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-27T02:31:14.489183+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-27T02:31:14.489183+00:00",
+    "instagram_media_id": "17977070226170908"
   },
   {
     "id": "122754c51e3f8e1faa29",
@@ -22767,7 +22773,7 @@
     "headline": "Stroll critica carrera de Las Vegas",
     "caption": "Lance Stroll calificó la carrera de Las Vegas como estúpida. La carrera ha generado debate en el paddock de la Fórmula 1 sobre las carreras artificiales. Stroll expresó su opinión antes del fin de semana de carreras de Qatar.",
     "ai_generated_at": "2026-11-27T01:42:46.446615+00:00",
-    "photo_checked_at": "2026-11-27T02:06:03.094791+00:00",
+    "photo_checked_at": "2026-11-27T02:31:24.121902+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -22781,7 +22787,20 @@
     "format_attempt_at": "2026-11-27T02:21:07.501838+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-27T02:21:07.501838+00:00",
-    "instagram_media_id": "18653874802053614"
+    "instagram_media_id": "18653874802053614",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 12.2,
+      "mean_db": -19.9
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795746700/football-news-bot/reels/5aa9ae7bdace03871fd7-cross.mp4",
+    "crosspost_attempt_at": "2026-11-27T02:31:14.489183+00:00",
+    "youtube_attempt_at": "2026-11-27T02:31:14.489183+00:00",
+    "buffer_youtube_status": "error",
+    "buffer_youtube_id": "6b08eb8e7c3f43554e4ed6c6",
+    "buffer_youtube_error": "daily_limit"
   },
   {
     "id": "b6159fdcc480e94c89d3",
@@ -24836,11 +24855,15 @@
       "mean_db": -19.3
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795745750/football-news-bot/reels/1054ed391c6c29a96ecc-cross.mp4",
-    "crosspost_attempt_at": "2026-11-27T02:14:37.335365+00:00",
+    "crosspost_attempt_at": "2026-11-27T02:31:14.489183+00:00",
     "youtube_attempt_at": "2026-11-27T02:14:37.335365+00:00",
     "buffer_youtube_status": "error",
     "buffer_youtube_id": "6b08e7d88899c4e7790baf7f",
-    "buffer_youtube_error": "daily_limit"
+    "buffer_youtube_error": "daily_limit",
+    "tiktok_attempt_at": "2026-11-27T02:31:14.489183+00:00",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b08eb7a8899c4e7790d0694",
+    "buffer_tiktok_error": "provider_failure"
   },
   {
     "id": "3d7669c43f5d1adc6d32",
