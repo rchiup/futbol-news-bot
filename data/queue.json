@@ -27724,12 +27724,24 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-27T18:02:42.784667+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "article_context": "El acuerdo entre River y Loma Negra. Foto: prensa River.\nMientras el plantel de Leonardo Ponzio se enfoca en el mata-mata frente a Instituto por los cuartos del Clausura, en el Monumental los trabajos no se detienen. Para dar un paso más en el plan de ampliación y techado del estadio, River firmó un acuerdo comercial hasta 2030 con la cementera Loma Negra , que se convirtió en nuevo sponsor oficial del club y proveerá el hormigón necesario para levantar la megaestructura.\nLa alianza llega en la etapa más pesada de los trabajos que se vienen realizando en el perímetro del estadio. Es que, además del desmontaje de la histórica pantalla gigante de la popular Sívori -que será reemplazada por dos pantallas de formato wide en ambos extremos-, la obra transita la fase de excavación de 17.000 metros cúbicos (a una profundidad de entre 16 y 27 metros) y en la fundición de 1.684 toneladas de acero y 17.230 toneladas de hormigón para construir las bases del proyecto.\nSobre esos cimientos se apoyarán las 100 columnas en V exteriores que sostendrán tanto la quinta bandeja de 13 filas (sumará 16.000 localidades sin costo extra para los socios), alcanzando las 40.000 gratuitas, y elevará la capacidad de 85.018 a 101.000 espectadores) como el techo de 360° grados. La cubierta, diseñada junto a la firma alemana SBP y prevista para mediados de 2029 con vistas al Mundial 2030 , combinará una membrana traslúcida para cuidar el césped híbrido, paneles acústicos y un mirador panorámico en las alturas al estilo europeo.\nA cambio del abastecimiento de hormigón para la obra , el convenio contempla la presencia de la empresa en el estadio, en el River Camp, en las conferencias de prensa y en las redes oficiales del club , además de experiencias con el plantel en la previa de los partidos del torneo local, eventos corporativos en las instalaciones, visitas a prácticas y recorridos por el Museo River.\n\"Sumar a Loma Negra como sponsor oficial representa un paso muy importante para continuar impulsando la transformación del Monumental. Su experiencia y liderazgo en la industria de la construcción serán fundamentales para acompañar este nuevo desafío y seguir consolidando un estadio preparado para recibir a millones de personas cada año\", destacó el presidente Stefano Di Carlo sobre una ingeniería comercial clave para seguir renovando el Monumental.\n\"La iniciativa reúne a dos instituciones argentinas centenarias, protagonistas de sus respectivas actividades y unidas por una trayectoria construida sobre la pasión, el trabajo y la búsqueda permanente de la excelencia. Loma Negra aportará su experiencia, capacidad técnica y soluciones para la construcción de un proyecto emblemático para River , sus socios e hinchas\", expresó el club.\nPara montar la quinta bandeja que ampliará la capacidad y será la base que sostendrá el techado, es necesario sacar las cintas de iluminación , donde actualmente se encuentran todos los leds que iluminan el estadio. Lo que se hará es pasarlos un poco más abajo, por eso se están construyendo a unos apoyos (columnas y vigas) que sostendrán las luces desde el inicio de la temporada 2027 hasta que se terminen las obras. Naturalmente, en ese momento serán quitadas.\nCuando el plantel de Leo Ponzio entre en receso y ya no haya encuentros en el Monumental, será el momento de bajar toda la iluminación a esta nueva estructura provisoria , que por ahora los hinchas la verán únicamente en la platea Belgrano alta (luego será el turno de la San Martín). Y a partir de ahí, retirar las cintas y comenzar ya con los trabajos para montar ese quinto anillo de tribunas que llevará al Monumental a un lugar inédito en el fútbol argentino y sudamericano.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "River firma sponsor con Loma Negra para obra del Monumental",
+    "caption": "River Plate cerró un acuerdo comercial con la cementera Loma Negra hasta 2030, que proveerá el hormigón necesario para la ampliación y techado del Monumental. El convenio llega en la fase de excavación de 17.000 m³ y la fundición de más de 17 mil toneladas de hormigón, mientras el plantel de Leonardo Ponzio se prepara para el mata‑mata contra Instituto.",
+    "ai_generated_at": "2026-11-27T18:09:44.093586+00:00"
   },
   {
     "id": "82850bdbec0b5dcae561",
