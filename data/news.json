@@ -13238,5 +13238,45 @@
     "source": "Cooperativa.cl: Noticias de Chile y el mundo - País, Deportes y más",
     "collected_at": "2026-11-27T00:11:16.078383+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "40a30bec461fdcd163ef3eb1b06363d027782df70506f562d05079d68ae0933f",
+    "title": "'Priceless' Duran proves 'the man' but is he papering over cracks at Celtic?",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c62klz1wwdn7o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-27T00:37:47.321150+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "15ad1658e83e44d861f23fc2d5e0823557da78a7e79795362ef467a994e9aa00",
+    "title": "Carlé ganó el duelo albiceleste ante Podoroska y avanzó a cuartos del WTA Argentina Open",
+    "url": "https://www.ole.com.ar/tenis/carle-gano-duelo-albiceleste-podoroska-metio-cuartos-wta-argentina-open_0_yGKF4mKrsR.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-27T00:37:48.943960+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "342f5dc0e46ccd1b67e278454617c60b2b09ae8d639a8e93c412ffa2b8e19d9c",
+    "title": "Duki reveló que simpatiza por Boca: \"Fui hincha de Independiente, pero ahora soy bastante bostero\"",
+    "url": "https://www.ole.com.ar/fuera-de-juego/duki-simpatia-boca-independiente-hincha-encuentro-riquelme_0_doFaZ27KBy.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-27T00:37:48.943978+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "420a8d73152941fa04bf54c64013fb2d0224b3c3ecb8e57c741989f29326b505",
+    "title": "Tapia le entregó a Artime un trofeo de Belgrano campeón en 1986",
+    "url": "https://www.ole.com.ar/belgrano/claudiotapia-luisfabianartime-belgrano-afa-jjlopez_0_ZVvK9x48tm.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-27T00:37:48.943984+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "26e55dda2b749feb762845ddbee9cf5502e4a8035921eaf09a8c74be7506e9fa",
+    "title": "Torneo Proyección: los cruces de semifinales y la chance de un Boca - River en la final",
+    "url": "https://www.ole.com.ar/futbol-primera/torneo-proyeccion-clausura-semifinales-superclasico-boca-river_0_zPqW34l14W.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-27T00:37:48.943990+00:00",
+    "status": "pending_review"
   }
 ]
