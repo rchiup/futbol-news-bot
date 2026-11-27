@@ -2,9 +2,9 @@
   "date_utc": "2026-11-27",
   "providers": {
     "groq": {
-      "attempts": 24,
+      "attempts": 26,
       "success": 5,
-      "failures": 19,
+      "failures": 21,
       "latencies_ms": [
         2253,
         2291,
@@ -20,7 +20,7 @@
         100
       ],
       "last_error": "http_429",
-      "blocked_until_utc": 1795747251
+      "blocked_until_utc": 1795747973
     },
     "gemini": {
       "attempts": 20,
@@ -50,9 +50,9 @@
       "blocked_until_utc": 1795739378
     },
     "openrouter": {
-      "attempts": 37,
+      "attempts": 38,
       "success": 16,
-      "failures": 21,
+      "failures": 22,
       "latencies_ms": [
         111739,
         15157,
@@ -90,7 +90,7 @@
         100
       ],
       "last_error": "http_429",
-      "blocked_until_utc": 1795747226
+      "blocked_until_utc": 1795750891
     },
     "cloudflare": {
       "attempts": 60,
