@@ -25450,7 +25450,7 @@
     "headline": "Ipswich Town Women fichan a Princess Ademiluyi por récord",
     "caption": "Ipswich Town Women confirmó la contratación definitiva de la delantera Princess Ademiluyi por una tarifa récord del club. La internacional sub‑19 y sub‑20 de Inglaterra, procedente de Gotham FC, firmó un contrato de tres años y medio mientras el equipo se mantiene en el tercer puesto de la WSL2. Ademiluyi también ha sido convocada por la selección sub‑23 para los próximos amistosos contra Bélgica y Portugal.",
     "ai_generated_at": "2026-11-27T12:16:22.371209+00:00",
-    "photo_checked_at": "2026-11-27T12:19:42.751039+00:00",
+    "photo_checked_at": "2026-11-27T22:19:09.294878+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -25468,7 +25468,18 @@
     "format_attempt_at": "2026-11-27T12:16:22.371209+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-27T12:16:22.371209+00:00",
-    "instagram_media_id": "18118097921332101"
+    "instagram_media_id": "18118097921332101",
+    "video_style": "tiktok",
+    "video_hook_variant": "fact_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 22.7,
+      "mean_db": -19.6
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795817967/football-news-bot/reels/51da42148495387d4a05-cross.mp4",
+    "crosspost_attempt_at": "2026-11-27T22:17:49.189286+00:00",
+    "youtube_attempt_at": "2026-11-27T22:17:49.189286+00:00",
+    "buffer_youtube_status": "check_required"
   },
   {
     "id": "5bd018728d7ab2590ab6",
@@ -28303,9 +28314,9 @@
       "mean_db": -19.4
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795809159/football-news-bot/reels/fb20fdbc3dfb30a7d610-cross.mp4",
-    "crosspost_attempt_at": "2026-11-27T22:00:31.469359+00:00",
+    "crosspost_attempt_at": "2026-11-27T22:17:49.189286+00:00",
     "youtube_attempt_at": "2026-11-27T19:51:29.694229+00:00",
-    "tiktok_attempt_at": "2026-11-27T22:00:31.469359+00:00",
+    "tiktok_attempt_at": "2026-11-27T22:17:49.189286+00:00",
     "buffer_youtube_status": "check_required",
     "visual_mode": "editorial_typography",
     "promotion": {
