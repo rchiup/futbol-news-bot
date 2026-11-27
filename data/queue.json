@@ -27062,5 +27062,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "cb113679d314228a746c",
+    "title": "Renée Slegers leaves job as Arsenal Women’s coach after dismal run of results",
+    "source_url": "https://www.theguardian.com/football/2026/nov/27/renee-slegers-leaves-arsenal-women-head-coach",
+    "source": "The Guardian",
+    "description": "Club languishing sixth in WSL after six home draws Held high hopes of mounting title challenge this term Renée Slegers has left her job as Arsenal Women’s head coach after a dismal set of results, with the club saying she has gone by mutual consent. The 37-year-old had been under contract until 2029 after signing a three-and-a-half-year deal in January but six consecutive home draws in the Women’s Super League this season have left Arsenal languishing in sixth, 12 points behind the leaders, Chelsea, and eight points adrift of a European place. ",
+    "published_at": "2026-11-27T15:11:25+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-27T15:28:50.534298+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
