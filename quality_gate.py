@@ -119,4 +119,8 @@ def sports_topic(item):
     sport=r"\b(?:futbol|football|soccer|tenis|tennis|basketball|baloncesto|nba|rugby|formula 1|f1|motogp|ufc|boxeo|golf|atletismo|ciclismo|volleyball|voleibol|hockey|beisbol|baseball|champions|libertadores|sudamericana|premier league|copa davis|davis cup|atp|wta|grand slam|mundial|world cup|gol|goles|penal|penales|arbitro|fichaje|delantero|portero|tenista|jugador|players?|coach|manager|goals?|striker|quarterfinals?|semifinals?|playoffs?|touchdown|nfl|mlb|nhl|seleccion|estadio|torneo|tournament|match|partido|liga|league|club|boca juniors|real madrid|barcelona|psg|bayern|colo colo|manchester|arsenal|liverpool|chelsea|neymar|messi|ronaldo|zverev|alcaraz|sinner|djokovic)\b"
     if re.search(commercial,title) and not re.search(sport,title):
         return False
+    # A club nickname alone can be ambiguous (e.g. Boca), but a nickname
+    # accompanied by sporting language or a known lineup phrase is valid.
+    if re.search(r"\b(?:boca|river|racing|independiente|universidad de chile|la u)\b",story) and re.search(r"\b(?:juego|plantel|equipo|titulares|once|11 de memoria|clasico|derbi|tecnico|entrenador)\b",story):
+        return True
     return bool(re.search(sport,story))
