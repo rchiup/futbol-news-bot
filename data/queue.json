@@ -14780,7 +14780,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T14:59:58.682232+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
