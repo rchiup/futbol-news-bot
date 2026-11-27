@@ -22027,7 +22027,18 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Instituto somete a Lázaro y Luna a cámara hiperbárica antes de River",
     "caption": "Jeremías Lázaro y Alex Luna se trataron en una cámara hiperbárica para acelerar su recuperación antes del duelo contra River. El técnico Diego Flores mantuvo la información bajo reserva, mientras el médico Esteban Cecatto anticipó que llegarán en buen estado para los cuartos del Clausura. Instituto cuenta con John Córdoba y otras opciones como reemplazo.",
-    "ai_generated_at": "2026-11-26T20:42:45.152209+00:00"
+    "ai_generated_at": "2026-11-26T20:42:45.152209+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "JeremiasLazaro",
+        "DiegoFlores",
+        "AlexLuna",
+        "Instituto"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "d23a7d51c3ad859521c5",
@@ -22357,7 +22368,16 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Joy‑Lance Mickels marca contra el Barcelona y Sabah pierde 4‑1",
     "caption": "Joy‑Lance Mickels, delantero del Sabah FK, anotó el único gol del equipo ante el Barcelona en la fase de grupos de la Champions League, aunque el conjunto local cayó 4‑1. El gol, obra de su zurda en el minuto 63, simboliza su ascenso desde la quinta división alemana hasta la máxima competición europea.",
-    "ai_generated_at": "2026-11-26T19:25:15.072673+00:00"
+    "ai_generated_at": "2026-11-26T19:25:15.072673+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "SabahFK",
+        "Barcelona"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "b1a1230afd5c838a405a",
@@ -22408,7 +22428,16 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Laura Freigang suspendida 16 meses por infracciones antidopaje",
     "caption": "Laura Freigang, capitana del Eintracht Frankfurt, recibió una sanción de 16 meses por tres incumplimientos de controles antidopaje. La medida la deja fuera del amistoso contra Argentina en La Plata y del Mundial Femenino 2027. La decisión fue acordada entre la jugadora, la AMA, la NADA y la DFB.",
-    "ai_generated_at": "2026-11-26T18:55:15.726149+00:00"
+    "ai_generated_at": "2026-11-26T18:55:15.726149+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "LauraFreigang",
+        "EintrachtFrankfurt"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "52aea03d91096c90d231",
@@ -22540,7 +22569,17 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "River renueva a Santiago Beltrán hasta 2028 sin garantía de futuro",
     "caption": "El arquero Santiago Beltrán firmará un nuevo contrato con River hasta diciembre de 2028, aunque el club aclara que no implica una permanencia a largo plazo. La renovación se formalizará a inicios de diciembre y el joven de 22 años sigue atrayendo el interés de Juventus y Fiorentina, además de la posible llegada de Yassine Bounou.",
-    "ai_generated_at": "2026-11-26T19:46:17.392178+00:00"
+    "ai_generated_at": "2026-11-26T19:46:17.392178+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "River",
+        "Juventus",
+        "Fiorentina"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "1bad0f768231c22a0c3e",
@@ -22571,7 +22610,15 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "River avanza en la renovación de Santiago Beltrán",
     "caption": "River avanza en la renovación del joven arquero Santiago Beltrán. El club busca sellar la extensión del vínculo en las oficinas del Monumental, con miras al 2027.",
-    "ai_generated_at": "2026-11-26T20:35:11.852428+00:00"
+    "ai_generated_at": "2026-11-26T20:35:11.852428+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "SantiagoBeltran"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "a2f8386ab345d30f8623",
@@ -22878,7 +22925,17 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Claudio Úbeda se aleja de Central Córdoba por interés de Emelec",
     "caption": "Claudio Úbeda, exentrenador de Boca Juniors, quedó fuera de Central Córdoba tras la propuesta del gigante ecuatoriano Emelec, que frenó las negociaciones. El club santafesino, que perdió a Sebastián Domínguez, busca pronto un nuevo técnico para la pretemporada tras una temporada sin victorias.",
-    "ai_generated_at": "2026-11-26T20:35:11.852428+00:00"
+    "ai_generated_at": "2026-11-26T20:35:11.852428+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "ClaudioUbeda",
+        "CentralCordoba",
+        "Emelec"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "bc46b23edf8548605c19",
@@ -23033,7 +23090,7 @@
     "headline": "Leila Pereira anuncia que dejará Palmeiras en 2027",
     "caption": "Leila Pereira, presidenta de Palmeiras, confirmó que su mandato concluirá en diciembre de 2027 y no buscará un tercer período. Lo anunció en una rueda de prensa en Montevideo, a dos días de la final de la Copa Libertadores contra Estudiantes, y aseguró que el entrenador Abel Ferreira seguirá al mando. Además, dejó abierta la posibilidad de trabajar en otro club brasileño después de 2028.",
     "ai_generated_at": "2026-11-26T20:59:12.213327+00:00",
-    "photo_checked_at": "2026-11-26T21:14:35.651882+00:00",
+    "photo_checked_at": "2026-11-27T00:17:24.540733+00:00",
     "portrait_info": null,
     "video_style": "tiktok",
     "video_hook_variant": "headline_hook",
@@ -23049,7 +23106,17 @@
     "buffer_tiktok_status": "error",
     "buffer_tiktok_id": "6b08a14cf0a96d0f2190116b",
     "buffer_youtube_status": "error",
-    "buffer_youtube_id": "6b08a14ef0a96d0f21901208"
+    "buffer_youtube_id": "6b08a14ef0a96d0f21901208",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "LeilaPereira",
+        "Palmeiras",
+        "Estudiantes"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "76b3f631807e98f3f916",
@@ -23193,12 +23260,28 @@
     "sport": "TENIS",
     "score": 26,
     "queued_at": "2026-11-26T21:04:19.282619+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "article_context": "Use BBC.com or the new BBC App to listen to BBC podcasts, Radio 4 and the World Service outside the UK.\nKyle Edmund, Ryan Harrison and Russell Fuller join Katie Smith to discuss the end of Leon Smith's tenure as Great Britain Davis Cup captain, 'divas' on tour, and drama in doubles."
+    "article_context": "Use BBC.com or the new BBC App to listen to BBC podcasts, Radio 4 and the World Service outside the UK.\nKyle Edmund, Ryan Harrison and Russell Fuller join Katie Smith to discuss the end of Leon Smith's tenure as Great Britain Davis Cup captain, 'divas' on tour, and drama in doubles.",
+    "visual_subject": "Katie Smith",
+    "visual_entities": {
+      "personas": [
+        "Katie Smith",
+        "Kyle Edmund",
+        "Ryan Harrison",
+        "Russell Fuller"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "BBC analiza la salida de Leon Smith como capitán de Copa Davis",
+    "caption": "El podcast 5 Live Sport de la BBC debate el fin del ciclo de Leon Smith al frente del equipo británico de Copa Davis. Kyle Edmund, Ryan Harrison y Russell Fuller acompañan a Katie Smith para repasar también las 'divas' del circuito y la tensión en el dobles."
   },
   {
     "id": "1729d7a137b38935077f",
@@ -23289,7 +23372,14 @@
     "buffer_tiktok_status": "error",
     "buffer_tiktok_id": "6b08a885de5162ee91b2a21c",
     "buffer_youtube_status": "error",
-    "buffer_youtube_id": "6b08a887860e3591ea32580e"
+    "buffer_youtube_id": "6b08a887860e3591ea32580e",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "e0112ad0d2b3b16c7584",
@@ -23350,7 +23440,14 @@
     "caption": "Boca defiende 16 partidos invicto local ante Gimnasia por cuartos. Boca administrará cargas pensando en la final de Copa Argentina contra Platense el 2 de diciembre",
     "ai_generated_at": "2026-11-27T00:05:42.675317+00:00",
     "quality_hold": "unverified_numeric_score",
-    "editorial_rechecked": true
+    "editorial_rechecked": true,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "1af4f90b744ebf5c4943",
@@ -23457,7 +23554,20 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Boca Reserva vence 4-0 a Vélez y avanza a semifinales",
     "caption": "El equipo dirigido por Mariano Herrón derrotó 4-0 a Vélez, con dobletes de Rodrigo Bacidalupe y Joaquín Piñeyro. Con este triunfo, Boca Reserva se clasifica a semifinales del Torneo Clausura, donde esperará al ganador entre Independiente y Gimnasia de Mendoza.",
-    "ai_generated_at": "2026-11-27T00:00:55.845677+00:00"
+    "ai_generated_at": "2026-11-27T00:00:55.845677+00:00",
+    "photo_checked_at": "2026-11-27T00:18:10.846984+00:00",
+    "portrait_info": null,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "RodrigoBacidalupe",
+        "MarianoHerron",
+        "JoaquinPineyro",
+        "Boca"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "3f8d880696ee47dcc327",
@@ -23722,7 +23832,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-26T22:47:25.665925+00:00",
+    "photo_checked_at": "2026-11-27T00:17:31.353501+00:00",
     "video_style": "tiktok",
     "video_hook_variant": "fact_hook",
     "reel_quality": {
@@ -23734,7 +23844,14 @@
     "publish_format": "reel",
     "format_attempt_at": "2026-11-26T22:46:11.020489+00:00",
     "crosspost_attempt_at": "2026-11-26T22:46:11.020489+00:00",
-    "buffer_youtube_status": "check_required"
+    "buffer_youtube_status": "check_required",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "00632b79c5275ed44260",
@@ -23767,7 +23884,7 @@
     "headline": "Ezequiel Piovi afirma que Estudiantes irá al frente contra Palmeiras",
     "caption": "El volante de Estudiantes asegura que el equipo entrará al ataque en la final de la Copa Libertadores contra Palmeiras. El partido se disputará en el Estadio Centenario de Montevideo y Piovi lo califica como el encuentro más importante de su carrera, con el plantel listo y concentrado. Palmeiras llega con carga de partidos, pero Piovi insiste en que será un duelo aparte.",
     "ai_generated_at": "2026-11-26T23:20:00.986724+00:00",
-    "photo_checked_at": "2026-11-26T23:48:52.611144+00:00",
+    "photo_checked_at": "2026-11-27T00:17:31.653527+00:00",
     "video_style": "tiktok",
     "video_hook_variant": "fact_hook",
     "reel_quality": {
@@ -23779,7 +23896,15 @@
     "publish_format": "reel",
     "format_attempt_at": "2026-11-26T23:47:22.340398+00:00",
     "crosspost_attempt_at": "2026-11-26T23:47:22.340398+00:00",
-    "buffer_youtube_status": "check_required"
+    "buffer_youtube_status": "check_required",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "Palmeiras"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "1054ed391c6c29a96ecc",
@@ -23794,10 +23919,10 @@
     "queued_at": "2026-11-26T22:46:11.020489+00:00",
     "status": "draft",
     "ai_art_used": false,
-    "photo_used": false,
-    "portrait_used": false,
+    "photo_used": true,
+    "portrait_used": true,
     "reference_photo_used": false,
-    "visual_subject": "",
+    "visual_subject": "Neymar",
     "visual_entities": {
       "personas": [
         "Neymar"
@@ -23812,7 +23937,36 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Neymar impulsa al campeón de Serie B a cambiar de nombre",
     "caption": "El campeón de la Serie B brasileña anunció que adoptará una nueva identidad en 2027 tras sellar una alianza con la organización de esports que cuenta con Neymar como embajador. El cambio de nombre busca reforzar la marca del club y aprovechar el auge de los deportes electrónicos en el país.",
-    "ai_generated_at": "2026-11-26T23:30:13.117786+00:00"
+    "ai_generated_at": "2026-11-26T23:30:13.117786+00:00",
+    "portrait_info": {
+      "subject": "Neymar",
+      "wikidata_id": "Q142794",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Neymar_-_Santos_vs_Juventude_-_04-08-2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "license": "cc0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "commons_filename": "Neymar - Santos vs Juventude - 04-08-2025.jpg",
+      "photographer": "",
+      "credit_required": false,
+      "share_alike": false,
+      "width": 1200,
+      "height": 1600,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Neymar_-_Santos_vs_Juventude_-_04-08-2025.jpg",
+      "entity_kind": "person",
+      "entity_qid": "Q142794",
+      "photo_provider": "Wikidata photo bank",
+      "verified_at": "2026-11-24T16:03:16.356578+00:00"
+    },
+    "photo_checked_at": "2026-11-27T00:17:31.885082+00:00",
+    "visual_mode": "licensed_photo",
+    "photo_credit_full": "",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "Neymar",
+        "SerieB"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "3d7669c43f5d1adc6d32",
@@ -23844,7 +23998,14 @@
     "llm_model": "gemini-3.1-flash-lite",
     "headline": "Argentina vence a Egipto en el Mundial de Talla Baja con incidentes",
     "caption": "La selección argentina de talla baja derrotó 3 a 2 a Egipto en los cuartos de final del Mundial de Marruecos. Tras el pitazo final, jugadores egipcios reaccionaron con violencia ante el festejo argentino y uno de ellos debió ser retirado por la organización. El equipo dirigido por Mariano Rojas se mantiene invicto en el torneo tras una fase de grupos perfecta.",
-    "ai_generated_at": "2026-11-27T00:05:42.675317+00:00"
+    "ai_generated_at": "2026-11-27T00:05:42.675317+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "fe114ccf76d8d43c0190",
@@ -24000,11 +24161,29 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-27T00:00:55.845677+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Hearts' hopes of a memorable draw with Monaco were dashed in the 94th minute\nThere was a bittersweet feeling at Tynecastle after Folarin Balogun's 94th-minute winner preserved Monaco's perfect Conference League record and condemned Hearts to a third defeat from four.\nWouter Vrancken's side had gone toe-to-toe with one of the best teams in the tournament, scored two glorious goals, but ultimately came away with nothing for their efforts.\nNow they have little to no margin for error in their two remaining league phase matches.\nThey will likely have to beat both Borac Banja Luka of Bosnia and Cyprus' Pafos to reach the knockout stages, but if they perform as they did against Monaco, they will give themselves a fighting chance.\nHearts have garnered a reputation as entertainers under Vrancken - scoring a raft of goals while being porous at the back.\nThis game was their season in microcosm. The goals - scored by Jordi Altena and Sabah Kerjota - were things of beauty, picture-perfect strikes worthy of any stage.\nBut as thrilling as Hearts were in attack, they were as baffling at the back.\nJamie McCart unnecessarily tripped Matthis Abline, allowing Balogun to score from the penalty spot and Monaco's second came from Altena giving the ball away.\n\"It's Gladiators - are we not entertained? It's sensational,\" said Hearts legend John Robertson at half-time, with the game finely poised at 2-2.\nMonaco strike in 94th minute to break Hearts in five-goal epic\nBoth teams had chances to win it in the second half, but it was Monaco who took theirs in the final stages. Mamadou Coulibaly was afforded too much space and he slipped Balogun through to beat Beau Reus.\n\"It's a lack of nous and a little bit of naivety,\" former Hearts midfielder Michael Stewart said on TNT Sports. \"McCart backs off and allows the ball to be played into Balogun's feet.\"\nDespite the frustrating nature of the late concession, Vrancken's overwhelming emotion was of pride.\n\"I'm very disappointed with how we give the goal away at the end,\" he said.\n\"The biggest thing is the pride for the performance today. Against a side of Monaco's [quality] - we're still missing nine players through injury - this performance was really pleasing.\"\nBefore the recent international break, Hearts were beaten 3-1 by Swiss outfit Thun, before a shock 5-2 home defeat by high-flying Falkirk in the Scottish Premiership.\nHowever, they bounced back with a ruthless 8-0 win at Dundee on Saturday and carried that confidence into this game against a team with a far bigger budget.\n\"You saw that the confidence was there from the weekend and there was conviction around their box,\" Vrancken added. \"It will not work every time, but the conviction and energy was there again.\n\"Our team kept their heads in the game and kept going for it, not being pleased with 2-2. Really pleased with what I saw.\"\nAside from his dismay at Balogun's winner and how it came about, Vrancken's main gripe was with the officials.\nHe felt there was a foul on Kerjota in the build-up to Monaco's second goal and was bemused at the fact neither Takumi Minamino and Denis Zakaria were sent off.\nMinamino - already on a yellow card - wiped out Sabri Guendouz on the edge of the Monaco box, but got away with a warning. And VAR opted not to intervene after Zakaria went over the top of the ball and caught Pierre Landry Kabore on the shin.\n\"The second goal, they pulled Sabah [Kerjota] and he can't do his defensive work,\" Vrancken said.\n\"It was not the only refereeing decision that was interesting tonight. I don't know how it's possible not to give a red card for the tackle on [Pierre Landry Kabore]. It's clearly above the ankle, so it's always a red card.\n\"And why didn't Minamino get a second yellow before half-time? He prevents a shot from Sabri at the edge of the box.\n\"The explanation of the fourth official was even more crazy - he explained it could be for his first yellow card, but not for his second yellow. It was clearly a yellow card and then we were against 10 in the second half.\"\nBournemouth 'allowed to dream' as fans book Europa League final hotels\nFury 'never received' schizophrenia diagnosis\nPant joins New Zealand club match under false name\nFirst look: Strike and Robin return to take on a dangerous cult\nThe Spanish town that ditched the euro and brought back the peseta\nThe extraordinary journey of the humble banana\nHow Scotland reached the World Cup - told by those who made it happen\nScotland men's internationals to be shown live on BBC\nHow Team GB is leading the way in curling's arms race\nHow McTominay became a Napoli icon after Man Utd exit\nWhy is it so special to be part of Team Scotland?\nLammens - the Man Utd goalkeeper under scrutiny like never before\n440 players, three days, one venue - the Nations Championship logistics logjam\nNot even making a 12-man bench - what next for Garnacho?\nSelby faces tough UK opener while Allen set to feature\n'Laughing gas has ended careers' - so how common is it in football?\nMotorcycle passenger who took stunning cricket catch found\nDivots, howlers and bad decisions - dissecting Man Utd's draw in Lisbon\n'Best midfielder in the world' - where does Bellingham rank?\nFour-time MVP Rodgers released and may have played last NFL game\nSooryavanshi, 15, breaks sixes record in 204 off 53 balls\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland's tearaway quick bowler reinvented as a top-order batter\nJosh Kerr: The making of the man behind the shades\nThe 3pm football blackout: Outdated or still relevant in 2026?\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "visual_subject": "Wouter Vrancken",
+    "visual_entities": {
+      "personas": [
+        "Wouter Vrancken"
+      ],
+      "clubes": [
+        "Hearts",
+        "Monaco"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "Vrancken siente orgullo pero decepcionado por caída de Hearts ante Mónaco",
+    "caption": "Hearts perdió ante Mónaco en Conference League tras gol en el 94. Vrancken elogia rendimiento pero critica falta de roja a Minamino y Zakaria. Deberán vencer a Borac Banja Luka y Pafos para clasificar",
+    "ai_generated_at": "2026-11-27T00:14:34.833068+00:00"
   },
   {
     "id": "9ee9a3141da788087a46",
@@ -24036,7 +24215,16 @@
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-27T00:17:31.127595+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "IndependienteRivadavia"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "eb98ea917fe7c0cd1d04",

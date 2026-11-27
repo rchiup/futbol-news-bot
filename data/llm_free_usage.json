@@ -15,9 +15,9 @@
       "blocked_until_utc": 1795738611
     },
     "gemini": {
-      "attempts": 11,
+      "attempts": 12,
       "success": 4,
-      "failures": 7,
+      "failures": 8,
       "latencies_ms": [
         942,
         837,
@@ -30,26 +30,31 @@
         100,
         100
       ],
-      "last_error": "invalid_output"
+      "last_error": "http_503",
+      "blocked_until_utc": 1795739378
     },
     "openrouter": {
-      "attempts": 7,
-      "success": 2,
-      "failures": 5,
+      "attempts": 11,
+      "success": 4,
+      "failures": 7,
       "latencies_ms": [
         111739,
-        15157
+        15157,
+        46334,
+        59554
       ],
       "quality": [
+        100,
+        100,
         100,
         100
       ],
       "last_error": "invalid_output"
     },
     "cloudflare": {
-      "attempts": 5,
+      "attempts": 7,
       "success": 0,
-      "failures": 5,
+      "failures": 7,
       "latencies_ms": [],
       "quality": [],
       "last_error": "invalid_output"
@@ -64,13 +69,13 @@
       "blocked_until_utc": 1795738675
     },
     "zai": {
-      "attempts": 5,
+      "attempts": 7,
       "success": 0,
-      "failures": 5,
+      "failures": 7,
       "latencies_ms": [],
       "quality": [],
       "last_error": "invalid_output"
     }
   },
-  "last_success": "gemini"
+  "last_success": "openrouter"
 }
