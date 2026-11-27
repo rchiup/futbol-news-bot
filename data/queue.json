@@ -27730,5 +27730,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "82850bdbec0b5dcae561",
+    "title": "La millonada de Estudiantes en juego: el título, el premio económico y múltiples clasificaciones",
+    "source_url": "https://www.ole.com.ar/estudiantes/millonada-estudiantes-juego-titulo-premio-economico-multiples-clasificaciones_0_UCHTZWauoA.html",
+    "source": "Olé Argentina",
+    "description": "El Pincha va por mucho en esta final de la Libertadores ante Palmeiras. No es solo la Copa, sino también el dinero que podría ganar y los otros certámenes que podría jugar por ser campeón.",
+    "published_at": "2026-11-27T17:57:10+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-27T18:07:43.569268+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
