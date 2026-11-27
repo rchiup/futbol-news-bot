@@ -27101,7 +27101,19 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Instituto se enfrenta a River en la jornada del Clausura 2026",
     "caption": "Instituto, dirigido por Ponzio, recibirá a River en su estadio, buscando consolidarse entre los cuatro primeros. La Gloria llega con la intención de aprovechar la visita para escalar posiciones en la tabla del Clausura 2026.",
-    "ai_generated_at": "2026-11-27T17:17:29.013186+00:00"
+    "ai_generated_at": "2026-11-27T17:17:29.013186+00:00",
+    "photo_checked_at": "2026-11-27T17:27:57.608960+00:00",
+    "portrait_info": null,
+    "video_style": "tiktok",
+    "video_hook_variant": "fact_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 12.6,
+      "mean_db": -19.6
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795800487/football-news-bot/reels/68f591cb273560249d31-cross.mp4",
+    "crosspost_attempt_at": "2026-11-27T17:27:00.016864+00:00",
+    "tiktok_attempt_at": "2026-11-27T17:27:00.016864+00:00"
   },
   {
     "id": "cb113679d314228a746c",
