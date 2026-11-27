@@ -27112,8 +27112,8 @@
       "mean_db": -19.6
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795800487/football-news-bot/reels/68f591cb273560249d31-cross.mp4",
-    "crosspost_attempt_at": "2026-11-27T17:27:00.016864+00:00",
-    "tiktok_attempt_at": "2026-11-27T17:27:00.016864+00:00"
+    "crosspost_attempt_at": "2026-11-27T17:42:03.679731+00:00",
+    "tiktok_attempt_at": "2026-11-27T17:42:03.679731+00:00"
   },
   {
     "id": "cb113679d314228a746c",
@@ -27630,6 +27630,24 @@
     "score": 26,
     "queued_at": "2026-11-27T17:32:15.847327+00:00",
     "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "86486f5e13047d919aa9",
+    "title": "Oficial: Gimnasia de Mendoza anunció el regreso de Luca Marcogiuseppe como DT",
+    "source_url": "https://www.ole.com.ar/gimnasia-de-mendoza/oficial-gimnasia-mendoza-nuevo-dt-marcogiuseppe_0_zYfVwrHSRh.html",
+    "source": "Olé Argentina",
+    "description": "Mediante un comunicado, el Lobo mendocino anunció la contratación del entrenador, que tendrá su segundo ciclo en el club tras un breve paso en 2022, en la B.",
+    "published_at": "2026-11-27T17:34:09+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 25,
+    "queued_at": "2026-11-27T17:42:03.679731+00:00",
+    "status": "awaiting_ai",
+    "article_context": "Luca Marcogiuseppe, nuevo entrenador de Gimnasia de Mendoza. (@GimnasiaMendoza)\nVuelve un viejo conocido. Gimnasia de Mendoza confirmó que Luca Marcogiuseppe será su nuevo DT para la próxima temporada . El Tano tendrá su segundo ciclo luego de 2022, año en el que dirigió al Lobo en la Primera Nacional.\nEl anuncio llega luego de la salida de Darío Franco . La dirigencia cerró el ciclo del técnico a pesar de que el equipo aseguró la permanencia en Primera División con siete fechas de anticipación y clasificó a los playoffs, donde cayó ante Rosario Central, en los octavos de final, por 3-1.\n¡Bienvenido nuevamente, Tano! Gimnasia y Esgrima informa que Luca Marcogiuseppe es el nuevo director técnico de nuestro plantel profesional de cara a la temporada 2027. #VamosLobo pic.twitter.com/3vxOp7nfHP\nLuego de sus primeras experiencias en Real Pilar y Unión La Calera, Marcogiuseppe asumió en Gimnasia de Mendoza para dirigir la temporada 2022 de la Primera Nacional .\nLuego de quedar en la cuarta posición, el Lobo quedó eliminado en las semifinales del Reducido ante Estudiantes (BA). Días después, el técnico anunció en una carta abierta que no seguiría en el club. \"Momento de cerrar un ciclo, para algún día tener la posibilidad de volver\", expresó.\nLuego de su salida, tuvo un breve paso por Audax Italiano de Chile y regresó al fútbol argentino como ayudante de campo . Primero estuvo en Huracán, con Frank Darío Kudelka, y en 2026 se sumó al cuerpo técnico de Carlos Tevez .\nEl Tano también había formado parte del equipo de trabajo de Marcelo Bielsa en el Athletic de Bilbao .\nFranco había llegado a fines de marzo de 2026 para reemplazar a Ariel Broggi. Terminó 11.º en el Apertura y 8.º en el Clausura, donde clasificó a los playoffs y cayó 3-1 ante Rosario Central, en Arroyito, en los octavos de final.\nEn su comunicado, el club agradeció el compromiso del DT y de su cuerpo técnico y destacó la identidad de juego del equipo: \"Con ellos al frente, el Lobo aseguró su permanencia en Primera División jugando a un gran nivel, con una idea clara y el carácter para competir en cada partido\". Franco había manifestado su deseo de seguir, pero su contrato, que vencía el 31 de diciembre, no se renovó.\nGimnasia y Esgrima informa que Darío Franco, junto a su ayudante de campo, Matías Ballini, y su preparador físico, Nicolás Coluccini, cierran su etapa al frente del plantel profesional. Desde el club queremos agradecerles por el compromiso y el trabajo de todos los días. Con… pic.twitter.com/lSGHGLSj9S\nEn la Liga Profesional, el equipo de Franco ganó nueve partidos, empató cinco y perdió ocho de 22. En la Copa Argentina quedó afuera por penales ante Gimnasia y Tiro, de Salta.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
