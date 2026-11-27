@@ -25922,7 +25922,7 @@
     "sport": "FUTBOL",
     "score": 25,
     "queued_at": "2026-11-27T12:21:18.410128+00:00",
-    "status": "draft",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": true,
     "portrait_used": true,
@@ -25969,7 +25969,18 @@
         "FantasyPremierLeague"
       ],
       "mentions": []
-    }
+    },
+    "video_style": "instagram",
+    "reel_quality": {
+      "version": 2,
+      "duration": 20.3,
+      "mean_db": -19.5
+    },
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-27T13:18:55.887056+00:00",
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795785666/football-news-bot/reels/6c12b32aa5a6f3d39d44.mp4",
+    "posted_at": "2026-11-27T13:18:55.887056+00:00",
+    "instagram_media_id": "18151473517572171"
   },
   {
     "id": "15ad1658e83e44d861f2",
@@ -26477,5 +26488,46 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "4aff1444a2492fe2478f",
+    "title": "Maidana: \"River viene de menor a mayor\" y el fuerte respaldo a Ponzio",
+    "source_url": "https://www.ole.com.ar/river-plate/river-plate-leonardo-ponzio-jonatan-maidana_0_9twRcNMniJ.html",
+    "source": "Olé Argentina",
+    "description": "El ex defensor del Millonario habló con Olé sobre el momento que atraviesa el equipo y le dio su apoyo total al León: \"Está sacando puntos...\".",
+    "published_at": "2026-11-27T13:01:31+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-27T13:18:55.887056+00:00",
+    "status": "draft",
+    "article_context": "Maidana junto a Ponzio, en los tiempos que compartían vestuario en Núñez. Prensa River.\nDecir Jonatan Maidana es sinónimo a palabra autorizada en Núñez. El ex defensor, que supo construir su estatus de ídolo siendo guerrero de mil batallas con la camiseta de River , sabe perfectamente lo que es jugar instancias decisivas. A pesar de su paso por el club de la Ribera, Núñez se transformó en su casa y, después de vivir tiempos difíciles, con el descenso incluido, el fútbol le dio revancha y fue uno de los grandes héroes en la inolvidable final de la Copa Libertadores 2018 en Madrid.\nHoy, a sus 41 años, mientras sigue defendiendo los colores del Millonario jugando para el Senior y sorprende a los hinchas luciendo su pelo largo , un look totalmente opuesto a la histórica cabeza rapada que lo caracterizó en su etapa profesional, Joni habló sobre el presente del Millonario y destacó a Leonardo Ponzio .\n\"River viene de menor a mayor. Está pasando un momento que quisiera estar mejor, pero está sacando puntos. Leo ganó muchos partidos, de a poco creo que se va a ir acomodando y agarrando la experiencia necesaria\" , expresó JM desde Uruguay tras jugar el partido de las Leyendas, evento que formó parte de la previa de la final de la Libertadores entre Estudiantes y Palmeiras que se disputará este sábado en el estadio Centenario.\nTal como lo expresó en su última conferencia de prensa, e l León tiene ganas de borrar la palabra interino y asumir el cargo de DT de forma definitiva en 2027. Y en la charla con Olé , con la misma seguridad que en sus tiempos en la zaga, Maidana le dio un espaldarazo a su ex compañero y amigo: \"Ojalá que pueda seguir en el puesto y seguir demostrando que quiere al club , que va aprendiendo y que va mejorando al plantel y a cada jugador\".\nEn aquellos tiempos que compartieron vestuario durante la época dorada de Marcelo Gallardo , tanto Maidana como Ponzio fueron líderes absolutos y referentes de los más jóvenes. ¿Se imaginaba en aquel entonces que Leo iba a terminar con el buzo y el pizarrón? \"No sé si lo veíamos como técnico, pero sí siempre aplicado, atento, hablando mucho, ordenando... Ya tenía esa voz de mando, por algo era el capitán del equipo también en muchos momentos. Está demostrando y agarrando experiencia desde otro lado y ojalá junto a su cuerpo técnico y los jugadores sigan por el buen camino y lleguen a lo más alto como ellos quieren\".\nPor último, en la previa de los cuartos de final del Clausura frente a Instituto, mandó las mejores vibras desde la otra orilla del Río de la Plata: \"Siempre a River le voy a desear lo mejor desde el lugar que esté. Vamos bien encaminados\".\nJonatan Maidana habló con Olé sobre el presente del Millonario dirigido por Ponzio tras un partido de Leyendas en la previa de la final Estudiantes-Palmeiras - @lucasbenda @maxifriggieri enviados especiales Olé.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Millonario"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Jonatan Maidana respalda a Leonardo Ponzio y su proyecto en River",
+    "caption": "Maidana, ex defensor de River y actual jugador del Millonario, elogió a Leonardo Ponzio diciendo que el equipo está sacando puntos y avanza de menor a mayor. Comentó esto tras el partido de las Leyendas, previo a la final de la Copa Libertadores entre Estudiantes y Palmeiras en el Estadio Centenario. Además, deseó que Ponzio continúe al mando del club.",
+    "ai_generated_at": "2026-11-27T13:18:55.887056+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-27T13:20:00.672881+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "Millonario"
+      ],
+      "mentions": []
+    }
   }
 ]
