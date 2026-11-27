@@ -28324,5 +28324,22 @@
     "crosspost_attempt_at": "2026-11-27T20:07:18.006703+00:00",
     "youtube_attempt_at": "2026-11-27T20:07:18.006703+00:00",
     "buffer_youtube_status": "check_required"
+  },
+  {
+    "id": "86079a1a005692de3545",
+    "title": "Lakers' Reaves available vs. Spurs after missing 5 games with heel bruise",
+    "source_url": "https://www.espn.com/nba/story/_/id/50613364/lakers-reaves-available-missing-5-games-heel-bruise",
+    "source": "ESPN NBA",
+    "description": "Lakers guard Austin Reaves is available to play in Friday night's NBA Cup matchup against the Spurs after missing the past five games with a heel bruise.",
+    "published_at": "2026-11-27T20:09:21+00:00",
+    "category": "NBA",
+    "sport": "NBA",
+    "score": 26,
+    "queued_at": "2026-11-27T20:12:56.642192+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
