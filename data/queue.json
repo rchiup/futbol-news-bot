@@ -14262,7 +14262,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T13:31:04.293080+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -23631,7 +23631,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-26T22:24:07.015848+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -23643,14 +23643,16 @@
         "Jude Bellingham"
       ],
       "clubes": [],
-      "competicion": [],
+      "competicion": [
+        "Euro Leagues"
+      ],
       "ciudad": []
     },
-    "llm_provider": "zai",
-    "llm_model": "glm-4.5-flash",
-    "headline": "Bellingham supera a Zidane como mejor mediocampista del mundo",
-    "caption": "Jude Bellingham es comparado con Zidane en el Euro Leagues. Simeone rompe récord de victorias en La Liga. Bayern Munich enfrenta críticas por su trato a Musiala.",
-    "ai_generated_at": "2026-11-27T01:05:07.047082+00:00",
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "Jude Bellingham es candidato al mejor mediocampista mundial",
+    "caption": "Se ha debatido si Jude Bellingham es el mejor mediocampista del mundo. El estudio de BBC pregunta si puede superar a Zinedine Zidane. El torneo Euro Leagues aún está en curso.",
+    "ai_generated_at": "2026-11-27T01:28:52.633639+00:00",
     "editorial_rechecked": true
   },
   {
@@ -23711,22 +23713,24 @@
       "personas": [
         "Thomas Frank",
         "Dwight McNeil",
-        "Jon Martin",
         "Jean-Philippe Mateta",
+        "Jon Martin",
         "Mamadou Sarr"
       ],
       "clubes": [
-        "Crystal Palace",
-        "Real Sociedad"
+        "Crystal Palace"
       ],
       "competicion": [],
-      "ciudad": []
+      "ciudad": [
+        "London"
+      ]
     },
     "llm_provider": "openrouter",
     "llm_model": "openrouter/free",
-    "headline": "McNeil sentenció la remontada de Crystal Palace ante Real Sociedad",
-    "caption": "Dwight McNeil sentenció la remontada de Crystal Palace ante Real Sociedad tras el tanto de Mamadou Sarr y la expulsión de Jon Martin. La victoria llegó en el primer partido en casa de Thomas Frank al mando.",
-    "ai_generated_at": "2026-11-27T01:18:30.345855+00:00"
+    "headline": "Thomas Frank consigue primer triunfo tras gol de McNeil con Crystal Palace",
+    "caption": "Crystal Palace remontó tras gol de Sarr: Mateta penal y McNeil definieron la victoria. Jon Martin fue expulsado por impedir el empate de Jean-Philippe Mateta, cambió el rumbo del partido. Thomas Frank logró su primer triunfo al mando del Crystal Palace en su estreno casero.",
+    "ai_generated_at": "2026-11-27T01:28:52.633639+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "26380a220ef1f39cb52f",
@@ -24040,7 +24044,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T22:46:11.020489+00:00",
-    "status": "draft",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": true,
     "portrait_used": true,
@@ -24089,7 +24093,12 @@
         "SerieB"
       ],
       "mentions": []
-    }
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-27T01:28:52.633639+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-27T01:28:52.633639+00:00",
+    "instagram_media_id": "18405852469202837"
   },
   {
     "id": "3d7669c43f5d1adc6d32",
@@ -24452,7 +24461,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-27T00:11:16.269878+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -24464,11 +24473,11 @@
       "competicion": [],
       "ciudad": []
     },
-    "llm_provider": "cloudflare",
-    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-    "headline": "Apple enfrenta acusación por abuso de posición monopólica",
-    "caption": "La Fiscalía Nacional Económica acusó a Apple por abuso de posición dominante. La empresa impone restricciones en el sistema operativo iOS desde 2019.",
-    "ai_generated_at": "2026-11-27T01:05:07.047082+00:00",
+    "llm_provider": "zai",
+    "llm_model": "glm-4.5-flash",
+    "headline": "Fiscalía Económica acusa a Apple por abuso de posición dominante",
+    "caption": "La Fiscalía Nacional Económica presentó requerimiento contra Apple por imponer restricciones a la libre competencia en iOS desde 2019. La FNE solicita medidas para garantizar el término de estas prácticas en mercados de aplicaciones y bienes digitales.",
+    "ai_generated_at": "2026-11-27T01:28:52.633639+00:00",
     "editorial_rechecked": true
   }
 ]
