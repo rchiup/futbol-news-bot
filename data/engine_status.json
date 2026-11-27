@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-27T16:42:59.257051+00:00",
+  "checked_at_utc": "2026-11-27T16:46:07.382682+00:00",
   "local_hour": 13,
   "statuses": {
     "published": 213,
@@ -9,12 +9,12 @@
     "publish_error": 27,
     "duplicate": 64
   },
-  "fresh_candidates": 155,
-  "queued_new": 1,
-  "ai_generated": 1,
+  "fresh_candidates": 195,
+  "queued_new": 0,
+  "ai_generated": 0,
   "preview_images": 5,
   "published": 0,
-  "duplicates_suppressed": 1,
+  "duplicates_suppressed": 0,
   "no_photo_deferred": 0,
   "total_queue": 759,
   "per_run_cap": 3,
