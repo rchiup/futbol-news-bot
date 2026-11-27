@@ -27359,7 +27359,21 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Abel Ferreira descarta dirigir en Argentina y apunta a Europa",
     "caption": "El técnico de Palmeiras afirmó que no tiene interés en entrenar en Argentina y que su objetivo es volver a Europa. Con contrato hasta 2027, se concentra en la final de la Copa Libertadores contra Estudiantes en Montevideo, donde buscará el quinto título del club.",
-    "ai_generated_at": "2026-11-27T16:23:35.240616+00:00"
+    "ai_generated_at": "2026-11-27T16:23:35.240616+00:00",
+    "photo_checked_at": "2026-11-27T16:39:05.006104+00:00",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 17.6,
+      "mean_db": -19.6
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795797555/football-news-bot/reels/93d8220f7678e9b066c3-cross.mp4",
+    "crosspost_attempt_at": "2026-11-27T16:38:11.170505+00:00",
+    "tiktok_attempt_at": "2026-11-27T16:38:11.170505+00:00",
+    "zernio_tiktok_status": "failed",
+    "zernio_tiktok_id": "6b09b234d50fe0f0ae6840b7",
+    "zernio_tiktok_error": "provider_failure"
   },
   {
     "id": "e71faa673989d4a6defc",
@@ -27389,6 +27403,23 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-27T16:08:38.175853+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "00e134b72420ca56d0f5",
+    "title": "El presidente de Lanús amenazó con romper el contrato con la TV: \"Lo que estamos cobrando es una vergüenza\"",
+    "source_url": "https://www.ole.com.ar/lanus/nicolas-russo-lanus-dijo-presidente-derechos-television-cobran-clubes-verguenza-afa_0_iA7kyxK9YH.html",
+    "source": "Olé Argentina",
+    "description": "Nicolás Russo cuestionó los ingresos que perciben los clubes por las transmisiones del fútbol local y comparó los montos con el fútbol chileno y español.",
+    "published_at": "2026-11-27T16:19:55+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-27T16:38:11.170505+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
