@@ -25519,7 +25519,7 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-27T12:16:22.371209+00:00",
-    "status": "draft",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -25555,7 +25555,12 @@
         "LosAngelesLakers"
       ],
       "mentions": []
-    }
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-27T12:37:40.087017+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-27T12:37:40.087017+00:00",
+    "instagram_media_id": "17989114553891876"
   },
   {
     "id": "0cba5fa62907324e904d",
@@ -25624,8 +25629,9 @@
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Nico Rosberg se consagró campeón del mundo de Fórmula 1",
-    "caption": "Nico Rosberg se alzó como campeón del mundo de Fórmula 1, sumándose a los 36 pilotos que han logrado el título en más de 75 años de historia de la categoría. Su victoria marcó un hito en la era moderna del automovilismo.",
-    "ai_generated_at": "2026-11-27T12:32:35.973476+00:00"
+    "caption": "El piloto alemán Nico Rosberg logró el título, sumándose a los 36 campeones en los más de 75 años de historia de la F1. Su victoria marcó un hito para el automovilismo alemán y para la categoría en general.",
+    "ai_generated_at": "2026-11-27T12:37:40.087017+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "100e7c51950be819db2d",
@@ -26027,7 +26033,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "article_context": "Dundee United manager Jim Goodwin believes Australia will not be able to keep overlooking forward Zac Sapsford if the 24-year-old continues scoring. ( Courier - subscription required , external )\nCeltic banked another £375,000 by winning Thursday's Europa League match away to Torreense . ( Glasgow Times , external )\nArbroath co-manager David Gold is unsurprised Aberdeen are reaping the benefits of giving Findlay Marshall, 20, a new contract, having had the midfielder on loan at Gayfield last season. ( Record - subscription required , external )\nHibernian manager Marink Reedijk urges forward Thibaut Klidje to keep focusing on the next scoring opportunity. ( Edinburgh Evening News - subscription required , external )\nHaaland considers Man City exit - Friday's gossip\nDundee United's Farrugia out until new year - gossip\nRoss County assistant Stevie Frail says the Scottish League 2 leaders will prepare for Saturday's Scottish Cup tie at home to Highland League Brora Rangers like they did for the recent League Cup meeting with Premiership Hibernian . ( Press and Journal - subscription required , external )\nDunfermline Athletic manager Neil Lennon believes last season's Scottish Cup finalists can get themselves back to the Hampden showpiece. ( Courier - subscription required , external )\nA proposed £1m takeover of Stirling Albion by Canadian Eric Perez could still go through, the club say. ( Herald - subscription required , external )\nScottish referee Nick Walsh earned plaudits for his handling of Barcelona's 4-1 Champions League win away to Sabah . ( Glasgow Times , external )\nFury cleared to fight Joshua after medical checks\nEngland outclass Aussies again to take series lead\nMan City owners should be forced to sell, say clubs\nSteve Coogan joins Paul and Bob for a festive fishing tour\nLegendary snooker player, Ronnie O'Sullivan, soundtracks his life\nA caring, new comedy with Vittorio Angelone and Hannah McClean\nThe truth behind Black Friday's biggest bargains\nHow Scotland reached the World Cup - told by those who made it happen\nScotland men's internationals to be shown live on BBC\nHow Team GB is leading the way in curling's arms race\nHow McTominay became a Napoli icon after Man Utd exit\nWhy is it so special to be part of Team Scotland?\nWhat happens now for Bayern Munich and Musiala?\nLammens - the Man Utd goalkeeper under scrutiny like never before\n440 players, three days, one venue - the Nations Championship logistics logjam\nPant joins New Zealand club match under false name\nNot even making a 12-man bench - what next for Garnacho?\nSelby faces tough UK opener while Allen set to feature\n'Laughing gas has ended careers' - so how common is it in football?\nMotorcycle passenger who took stunning cricket catch found\n'Best midfielder in the world' - where does Bellingham rank?\nSooryavanshi, 15, breaks sixes record in 204 off 53 balls\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland's tearaway quick bowler reinvented as a top-order batter\nJosh Kerr: The making of the man behind the shades\nThe 3pm football blackout: Outdated or still relevant in 2026?\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "article_context": "Dundee United manager Jim Goodwin believes Australia will not be able to keep overlooking forward Zac Sapsford if the 24-year-old continues scoring. ( Courier - subscription required , external )\nCeltic banked another £375,000 by winning Thursday's Europa League match away to Torreense . ( Glasgow Times , external )\nArbroath co-manager David Gold is unsurprised Aberdeen are reaping the benefits of giving Findlay Marshall, 20, a new contract, having had the midfielder on loan at Gayfield last season. ( Record - subscription required , external )\nHibernian manager Marink Reedijk urges forward Thibaut Klidje to keep focusing on the next scoring opportunity. ( Edinburgh Evening News - subscription required , external )\nHaaland considers Man City exit - Friday's gossip\nDundee United's Farrugia out until new year - gossip\nRoss County assistant Stevie Frail says the Scottish League 2 leaders will prepare for Saturday's Scottish Cup tie at home to Highland League Brora Rangers like they did for the recent League Cup meeting with Premiership Hibernian . ( Press and Journal - subscription required , external )\nDunfermline Athletic manager Neil Lennon believes last season's Scottish Cup finalists can get themselves back to the Hampden showpiece. ( Courier - subscription required , external )\nA proposed £1m takeover of Stirling Albion by Canadian Eric Perez could still go through, the club say. ( Herald - subscription required , external )\nScottish referee Nick Walsh earned plaudits for his handling of Barcelona's 4-1 Champions League win away to Sabah . ( Glasgow Times , external )\nFury cleared to fight Joshua after medical checks\nEngland outclass Aussies again to take series lead\nAustralia set to drop Lyon for first New Zealand Test\nSteve Coogan joins Paul and Bob for a festive fishing tour\nLegendary snooker player, Ronnie O'Sullivan, soundtracks his life\nA caring, new comedy with Vittorio Angelone and Hannah McClean\nThe truth behind Black Friday's biggest bargains\nHow Scotland reached the World Cup - told by those who made it happen\nScotland men's internationals to be shown live on BBC\nHow Team GB is leading the way in curling's arms race\nHow McTominay became a Napoli icon after Man Utd exit\nWhy is it so special to be part of Team Scotland?\nWhat happens now for Bayern Munich and Musiala?\nLammens - the Man Utd goalkeeper under scrutiny like never before\n440 players, three days, one venue - the Nations Championship logistics logjam\nPant joins New Zealand club match under false name\nNot even making a 12-man bench - what next for Garnacho?\nSelby faces tough UK opener while Allen set to feature\n'Laughing gas has ended careers' - so how common is it in football?\nMotorcycle passenger who took stunning cricket catch found\n'Best midfielder in the world' - where does Bellingham rank?\nSooryavanshi, 15, breaks sixes record in 204 off 53 balls\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland's tearaway quick bowler reinvented as a top-order batter\nJosh Kerr: The making of the man behind the shades\nThe 3pm football blackout: Outdated or still relevant in 2026?\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
     "visual_subject": "",
     "visual_entities": {
       "personas": [],
@@ -26035,15 +26041,14 @@
         "Dundee United"
       ],
       "competicion": [],
-      "ciudad": [
-        "Dundee"
-      ]
+      "ciudad": []
     },
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
-    "headline": "Jim Goodwin cree que Zac Sapsford será llamado por Australia",
-    "caption": "El entrenador de Dundee United, Jim Goodwin, asegura que Australia no podrá seguir ignorando al delantero de 24 años Zac Sapsford si mantiene su nivel de gol. Sapsford ha sido clave en la ofensiva del club escocés y el llamado internacional se perfila para los próximos partidos de la Albiceleste.",
-    "ai_generated_at": "2026-11-27T12:32:35.973476+00:00"
+    "headline": "Jim Goodwin respalda a Zac Sapsford para convocatoria de Australia",
+    "caption": "Jim Goodwin asegura que Australia no podrá seguir ignorando a Zac Sapsford si continúa marcando. El delantero de 24 años ha brillado en Dundee United, lo que ha puesto al seleccionado australiano bajo la lupa.",
+    "ai_generated_at": "2026-11-27T12:37:40.087017+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "f35fc5b7f31cde1d0c33",
@@ -26173,10 +26178,11 @@
     "crosspost_attempt_at": "2026-11-27T12:32:35.973476+00:00",
     "youtube_attempt_at": "2026-11-27T12:32:35.973476+00:00",
     "tiktok_attempt_at": "2026-11-27T12:32:35.973476+00:00",
-    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_status": "published",
     "zernio_tiktok_id": "6b097909fa1d875aa6f27f91",
     "buffer_youtube_status": "error",
     "buffer_youtube_id": "6b09790d049983dcfbbc0551",
-    "buffer_youtube_error": "daily_limit"
+    "buffer_youtube_error": "daily_limit",
+    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712828912551709959"
   }
 ]
