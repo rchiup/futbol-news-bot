@@ -21565,7 +21565,7 @@
     "headline": "Lille derrota a Bayern con autogol histórico en Champions",
     "caption": "Lille consigue su primera victoria en la Champions League sobre Bayern Múnich con un autogol espectacular de Aleksandar Pavlović. El Bayern, que ocupa el puesto 15 en la tabla de la competición, sigue sin poder contar con Harry Kane lesionado mientras su entrenador Vincent Kompany se recupera de su propio problema de salud.",
     "ai_generated_at": "2026-11-27T01:34:54.699411+00:00",
-    "photo_checked_at": "2026-11-27T01:41:22.379975+00:00",
+    "photo_checked_at": "2026-11-27T02:00:12.829229+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -21577,11 +21577,24 @@
       ],
       "mentions": []
     },
-    "publish_format": "image",
-    "format_attempt_at": "2026-11-27T01:55:04.235910+00:00",
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-27T01:58:42.003324+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-27T01:55:04.235910+00:00",
-    "instagram_media_id": "17923642473241266"
+    "instagram_media_id": "17923642473241266",
+    "video_style": "tiktok",
+    "video_hook_variant": "fact_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 15.7,
+      "mean_db": -19.5
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795744840/football-news-bot/reels/46c1e4020f357a08ac46.mp4",
+    "crosspost_attempt_at": "2026-11-27T01:58:42.003324+00:00",
+    "zernio_tiktok_status": "failed",
+    "zernio_tiktok_id": "6b08e44a721c44c32a169324",
+    "buffer_youtube_status": "error",
+    "buffer_youtube_id": "6b08e44d548b6e180d505e31"
   },
   {
     "id": "f94a8a37697c4c0812f3",
@@ -24413,7 +24426,7 @@
     "sport": "TENIS",
     "score": 26,
     "queued_at": "2026-11-26T22:32:28.832618+00:00",
-    "status": "draft",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -24447,7 +24460,12 @@
       ],
       "mentions": []
     },
-    "portrait_info": null
+    "portrait_info": null,
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-27T01:58:42.003324+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-27T01:58:42.003324+00:00",
+    "instagram_media_id": "17920792980539549"
   },
   {
     "id": "59738e1033a2897afe49",
