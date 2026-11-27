@@ -28581,5 +28581,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "dd2d2026848fb8c3e18f",
+    "title": "El Cacique Medina y Guido Carrillo ya juegan la final: \"No hay presión\" y \"ojalá que el hincha disfrute\"",
+    "source_url": "https://www.ole.com.ar/estudiantes/libertadores-conferencia-estudiantes-palmeiras-final-carrillo-medina-cacique_0_cIopAdKrU6.html",
+    "source": "Olé Argentina",
+    "description": "En la previa de la gran final de este sábado, hablaron el capitán y el entrenador de Estudiantes, que va por su quinta Libertadores.",
+    "published_at": "2026-11-27T21:44:46+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-27T21:52:59.265776+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
