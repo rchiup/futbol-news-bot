@@ -2,9 +2,9 @@
   "date_utc": "2026-11-27",
   "providers": {
     "groq": {
-      "attempts": 84,
+      "attempts": 86,
       "success": 40,
-      "failures": 44,
+      "failures": 46,
       "latencies_ms": [
         1093,
         1893,
@@ -70,7 +70,7 @@
         100
       ],
       "last_error": "http_429",
-      "blocked_until_utc": 1795788391
+      "blocked_until_utc": 1795789141
     },
     "gemini": {
       "attempts": 20,
@@ -213,13 +213,13 @@
       "last_error": "invalid_output"
     },
     "nvidia": {
-      "attempts": 16,
+      "attempts": 17,
       "success": 0,
-      "failures": 16,
+      "failures": 17,
       "latencies_ms": [],
       "quality": [],
       "last_error": "http_410",
-      "blocked_until_utc": 1795788439
+      "blocked_until_utc": 1795789444
     },
     "zai": {
       "attempts": 40,
