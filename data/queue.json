@@ -27096,5 +27096,151 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "51098a7aff0c59c14b30",
+    "title": "Arsenal split with Slegers by mutual consent after WSL slump",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50071795/arsenal-women-coach-renee-slegers-wsl",
+    "source": "ESPN",
+    "description": "Arsenal have parted ways with Champions League-winning head coach Renée Slegers by mutual consent follorn g",
+    "published_at": "2026-11-27T15:38:03+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-27T15:48:20.563373+00:00",
+    "status": "published",
+    "article_context": "Arsenal have parted ways with Champions League-winning head coach Renée Slegers by mutual consent following their worst start to a domestic campaign in more than a decade.\nSlegers made history during her time at the club, initially stepping in as interim manager in October 2024 before being appointed permanently in January 2025. Her first full season in charge proved highly successful, guiding Arsenal to a historic Champions League triumph with a 1-0 victory over Barcelona in the final.\nShe also led the club to victory in the inaugural Champions Cup, further adding to an impressive start to her tenure.\nHowever, this season has been a very different story. Arsenal find themselves 12 points behind Chelsea after managing just three wins from their opening 11 WSL fixtures, drawing six consecutive home league games in the process. Their performances have fallen well below expectations, with both their attacking output and defensive solidity coming under scrutiny.\nAssistant coach Aaron D'Antino has also left his role with Melissa Clarke-Reed, former Brighton and Angel City coach taking charge in the interim.\nCEO Richard Garlick said in a club statement: \"Our ambition is to compete for and win major trophies consistently, and our recent results have led us to conclude that a change is necessary to give us the best opportunity to achieve those goals.\"\nArsenal have scored just 11 goals from an xG of 20.1, a shortfall of 9.1 -- the largest in the division this season. Their inability to convert chances has been a significant factor in their struggles, while defensively they have conceded just as many goals as they have scored.\nWith their WSL title ambitions seemingly out of reach -- a trophy they have not won since 2019 -- even qualifying for the Champions League next season is far from guaranteed. Arsenal currently sit eight points behind London City Lionesses who are in third, leaving the Gunners' hopes of returning to European competition hanging in the balance.\nDirector of Women's Football Clare Wheatley said: \"It was an extremely difficult decision to part ways with Renée, who has led the team with dedication and commitment throughout her time here.\n\"In leading us to glory in the Champions League and the inaugural FIFA Champions Cup, Renée has made a significant and lasting contribution to the history of Arsenal Football Club, with close support from Aaron.\n\"After careful reflection, it is clear that results have been below the expected level, and change is necessary.\"",
+    "visual_subject": "Renée Slegers",
+    "visual_entities": {
+      "personas": [
+        "Renée Slegers"
+      ],
+      "clubes": [
+        "Arsenal"
+      ],
+      "competicion": [
+        "Champions League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Arsenal femenino despide a Renée Slegers tras inicio de temporada deficiente",
+    "caption": "Arsenal ha terminado la relación con la entrenadora Renée Slegers por mutuo acuerdo después de una mala arrancada en la WSL. El equipo solo ha conseguido tres victorias en sus primeros 11 partidos, quedando 12 puntos detrás del Chelsea y con la clasificación a la Champions League en riesgo. Melissa Clarke‑Reed asumirá el cargo de forma interina mientras el club busca revertir la situación.",
+    "ai_generated_at": "2026-11-27T15:48:20.563373+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-27T15:49:16.579297+00:00",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 19.2,
+      "mean_db": -19.4
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795794569/football-news-bot/reels/51098a7aff0c59c14b30-cross.mp4",
+    "crosspost_attempt_at": "2026-11-27T15:48:20.563373+00:00",
+    "tiktok_attempt_at": "2026-11-27T15:48:20.563373+00:00",
+    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_id": "6b09a68afbdeb1f79a337457",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "ReneeSlegers",
+        "Arsenal",
+        "ChampionsLeague"
+      ],
+      "mentions": []
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-27T15:48:20.563373+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-27T15:48:20.563373+00:00",
+    "instagram_media_id": "18120701273020873"
+  },
+  {
+    "id": "4e3c22ee1483c600f33f",
+    "title": "Arteta: Arsenal vs. City shouldn't be overshadowed by Premier League case",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50611692/arsenal-man-city-mikel-arteta-premier-league-case",
+    "source": "ESPN",
+    "description": "Arsenal boss Mikel Arteta said he hopes the wait to learn Man City's punishment for breaking Premier League rules does not overshadow Sunday's match.",
+    "published_at": "2026-11-27T15:38:03+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-27T15:48:20.563373+00:00",
+    "status": "draft",
+    "article_context": "LONDON COLNEY, England -- Arsenal boss Mikel Arteta said he hopes the wait to learn Manchester City 's punishment for breaking Premier League rules does not overshadow Sunday's meeting between the two sides and urged the Gunners to win the title on the pitch regardless.\nCity were found guilty on 114 counts of breaching financial regulations over a nine-year period to 2018 but continue to protest their innocence.\nThey have appealed the verdicts with an outcome expected in December or January but at present, City face a range of punishments including expulsion from the league, a points deduction and a huge fine.\nCity are currently odds-on with bookmakers to be relegated from the Premier League this season, putting a strange complexion on what would otherwise be a big game between two title challengers at Emirates Stadium.\nAsked whether the wait to learn City's fate overshadowed the match in any way, Arteta said: \"I hope that it doesn't because as well this is a process that is still open, it is not resolved and we don't know what is going to happen.\n\"I think when we have two teams at the level that they are both at right now with the quality players they have on that pitch, it is a massive game and a big game to enjoy I think.\"\nArsenal could open up a nine-point gap over City with a victory and pushed on whether he wanted his team to ensure they didn't rely on a point deduction and win the title on the pitch, Arteta replied: \"That's the only thing that we should put the energy and focus in, there is nothing else.\"\nArteta was evasive when asked whether David Raya would be fit to face City. Raya missed Wednesday's 1-1 Champions League draw with Borussia Dortmund due to a shoulder problem but was pictured at the game without any sling or shoulder support.\nArteta suggested Raya was training but refused to confirm if the Spaniard would be available.\n\"I don't know,\" he said. \"We still have a few hours before the game. We're still trying to get everyone back.\"\n- Erling Haaland relishing battle with rival Gabriel as Man City go to Arsenal",
+    "visual_subject": "Mikel Arteta",
+    "visual_entities": {
+      "personas": [
+        "Mikel Arteta"
+      ],
+      "clubes": [
+        "Arsenal"
+      ],
+      "competicion": [
+        "Premier League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Arteta asegura que caso de City no opacará el duelo Arsenal‑City",
+    "caption": "Mikel Arteta espera que la espera por el castigo a Manchester City no distraiga a su equipo en el enfrentamiento del domingo. El club inglés fue hallado culpable de 114 infracciones y enfrenta posibles sanciones como expulsión, deducción de puntos y multa, con la apelación prevista para diciembre o enero. Arsenal podría ampliar su ventaja de nueve puntos con una victoria, mientras la disponibilidad de David Raya sigue sin confirmarse.",
+    "ai_generated_at": "2026-11-27T15:48:20.563373+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-27T15:49:59.083649+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "MikelArteta",
+        "Arsenal",
+        "PremierLeague"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "8fe6a17a5d04a58c785c",
+    "title": "Arsenal sack Slegers amid WSL woes, but who could replace her?",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50573221/arsenal-renee-slegers-manager-wsl",
+    "source": "ESPN",
+    "description": "Renee Slegers' successor will be leading one of the biggest clubs in Europe in one of the worst runs of form the club has ever seen.",
+    "published_at": "2026-11-27T15:32:38+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-27T15:48:20.563373+00:00",
+    "status": "awaiting_ai",
+    "article_context": "As Arsenal bid farewell to the manager who won them the UEFA Women's Champions League (UWCL) in 2025, ending an 18-year wait for the coveted trophy, thoughts will turn to who could replace Renee Slegers.\nBut Slegers' successor will be leading one of the biggest clubs in Europe in one of the worst runs of form the club has ever seen. No women's club has ever started the Women's Super League (WSL) campaign with six consecutive home draws and the Gunners, who are yet to win at the Emirates this season, sit 12 points off leaders Chelsea after 10 games.\nThanks mainly to their record low shot conversion (5%) and pitiful tally of just 11 goals thus far, the three-time champions are sixth in the WSL and, having failed to end the UWCL league phase in the top four, will have to endure the playoffs in February.\nThe club's current predicament means there will be huge pressure on the new appointment to turn Arsenal's torrid season around.\nHere are a few candidates worth considering, plus some others, that Arsenal could look at to replace Slegers less than two years on from that historic evening in Lisbon.\nOne thing Arsenal should avoid is to appoint one of their existing assistant coaches as a permanent replacement. At most, an internal candidate could be considered as an interim solution until the start of 2027 -- Melissa Clarke-Reed will lead the club in the immediate term, with Slegers' assistant Aaron D'Antino also having left.\nThe interim option would give the club time to conduct a thorough search for a new head coach while also taking on a more substantial review of the club's wider footballing structure.\nThe shortcomings of this season cannot be attributed to Slegers alone, and it would be too simplistic to suggest that changing the head coach would resolve everything. While she undoubtedly has to shoulder some responsibility for the team's performances, the club's senior management, coaching staff and backroom setup must also be held accountable for the poor mentality, tactical shortcomings and alarming drop in form.\nSlegers remains a capable manager, but there is an argument that she has not been given the right support around her to succeed. Had there been greater changes to the coaching and backroom staff following Jonas Eidevall's departure in 2023, this season may have unfolded very differently, so Arsenal must look beyond the dugout when considering their next steps.\nArsenal should use the opportunity to bring in an entirely fresh perspective, reassess the wider coaching and hierarchical structure and ensure that the next appointment is supported by the necessary changes behind the scenes. Otherwise, there is a genuine risk that they simply repeat the same cycle under a different manager.\nDue to his extensive experience managing at the highest level of English women's football -- he previously coached Birmingham City and Manchester United -- Skinner understands the demands of the WSL, the competitiveness of the domestic game, and is good at managing the expectations needed to build a squad capable of challenging Chelsea and Manchester City .\nDuring his five-year spell at United, Skinner transformed the team into contenders, guiding them to second place in the WSL in 2022-23 and securing their first-ever qualification for the UWCL. He also delivered the club's first major women's trophy, with the 2024 FA Cup.\nThere are concerns over his squad management and player development, while his tenure at United ended in frustration following a lack of investment and ambition from those higher up. But, while he might not be the most revolutionary appointment, he would provide Arsenal with a head coach who knows exactly what it takes to compete in the WSL.\nStraus would be an intriguing appointment. The Norwegian established himself as one of the most respected coaches in the women's game during his time at Bayern Munich , winning consecutive Frauen Bundesliga titles in 2022-23 and 2023-24, and he was on Arsenal's shortlist when they were considering hiring a replacement for former manager Jonas Eidevall in early 2025. Indeed, according to sources, he was among the final few candidates before Slegers got the job.\nTactically, Straus could offer Arsenal a slightly different approach. His teams have demonstrated an ability to dominate possession, press aggressively and create chances through structured attacking patterns. He places considerable emphasis on positional understanding, collective movement and developing players within a clear tactical framework.\nDisney+ will be the only place football fans can watch all 75 matches live each season. Visit the Disney+ website to get access.\nThese qualities could suit an Arsenal squad that possess technically gifted midfielders and attacking players capable of operating in fluid systems. He also understands the importance of squad depth, tactical preparation and managing players who expect to win trophies.\nThere are, however, some reservations. His spell at NWSL side Angel City ended in June 2026 following disappointing results, so his ability to translate his European success into another competitive environment is under question.\nNevertheless, Straus would represent an ambitious appointment. His experience, tactical detail and winning record make him an attractive candidate if Arsenal wanted a coach capable of developing a distinctive playing identity while challenging for major trophies.\nCushing spent several years managing one of Arsenal's biggest domestic rivals, Manchester City, and understands the standards required to compete for major honors. He enjoyed an extremely successful spell at City between 2013 and 2020 -- winning the WSL, FA Cup and League Cup -- and his ability to build a winning team, develop talented players and establish a recognizable identity makes him a credible candidate for a club of Arsenal's ambitions.\nHis City side became renowned for their attacking quality and Cushing could bring a tactical emphasis based on intelligent movement and keeping hold of possession. Arsenal have traditionally enjoyed a similar attractive style, and his philosophy could complement the technical qualities within the squad. Also, his experience of developing young players at City could prove valuable when considering Arsenal's need to maintain a competitive squad over multiple seasons.\nThere are questions surrounding his more recent managerial experience, particularly his spell at men's side New York City FC and subsequent move to the NWSL ",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "57a2c0450a6da84db570",
+    "title": "A 10 años de la gloria en la Copa Davis, la confesión de Del Potro: \"Sentí que no iba a estar más en deuda\"",
+    "source_url": "https://www.ole.com.ar/tenis/10-anos-historica-copa-davis-argentina-confesion-potro-senti-iba-deuda_0_CKUnUBpFxz.html",
+    "source": "Olé Argentina",
+    "description": "La Torre de Tandil recordó lo que significó para su carrera y para el tenis argentino la histórica conquista de la Ensaladera de Plata en Croacia, en 2016.",
+    "published_at": "2026-11-27T15:35:53+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-27T15:48:20.563373+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
