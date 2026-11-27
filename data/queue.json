@@ -27539,6 +27539,20 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Mariano Andújar califica a Palmeiras como el peor rival en la final",
     "caption": "Mariano Andújar, ex arquero de Estudiantes, declaró que Palmeiras es el peor equipo para enfrentar en la final de la Copa Libertadores. El duelo se jugará el 28 de noviembre en Montevideo, donde ambos equipos buscarán la gloria eterna. Andújar destacó la fortaleza del mediocampo y la efectividad en pelota parada del conjunto brasileño.",
-    "ai_generated_at": "2026-11-27T17:06:51.959624+00:00"
+    "ai_generated_at": "2026-11-27T17:06:51.959624+00:00",
+    "photo_checked_at": "2026-11-27T17:12:11.961283+00:00",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 21.4,
+      "mean_db": -19.4
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795799545/football-news-bot/reels/d1143d2e35ccaa75d433-cross.mp4",
+    "crosspost_attempt_at": "2026-11-27T17:11:12.476260+00:00",
+    "tiktok_attempt_at": "2026-11-27T17:11:12.476260+00:00",
+    "zernio_tiktok_status": "failed",
+    "zernio_tiktok_id": "6b09b9fb0e3f9315f1b890d4",
+    "zernio_tiktok_error": "provider_failure"
   }
 ]
