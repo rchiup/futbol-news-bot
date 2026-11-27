@@ -28647,5 +28647,22 @@
     "portrait_used": false,
     "reference_photo_used": false,
     "editorial_rechecked": true
+  },
+  {
+    "id": "c57279fbf60558718368",
+    "title": "Gibbs-White and Igor Jesus fire Nottingham Forest past shaky Chelsea",
+    "source_url": "https://www.theguardian.com/football/2026/nov/27/nottingham-forest-chelsea-premier-league-match-report",
+    "source": "The Guardian",
+    "description": "Wesley Fofana, as a former Leicester City player, might have expected the celebrating Nottingham Forest fans to give him a hard time. But, at the end of a week in which he invited opprobrium by making light of missing a penalty at Liverpool in an unsanctioned French interview, he endured the ultimate ignominy when Chelsea supporters chanted: “Fuck off Fofana, you’re not welcome here”. Fofana was humiliated by Liam Delap before fouling the former Chelsea striker to allow Morgan Gibbs-White to score a penalty for the first of his two goals that u",
+    "published_at": "2026-11-27T22:10:35+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-27T22:15:22.863313+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
