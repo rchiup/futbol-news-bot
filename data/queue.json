@@ -24628,7 +24628,7 @@
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795735116/football-news-bot/reels/374add860eda9220a3c8.mp4",
     "publish_format": "image",
     "format_attempt_at": "2026-11-27T00:00:55.845677+00:00",
-    "crosspost_attempt_at": "2026-11-26T23:16:50.606147+00:00",
+    "crosspost_attempt_at": "2026-11-27T02:14:37.335365+00:00",
     "buffer_youtube_status": "check_required",
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -24643,7 +24643,11 @@
     },
     "ig_variant": "single",
     "posted_at": "2026-11-27T00:00:55.845677+00:00",
-    "instagram_media_id": "18183336199440471"
+    "instagram_media_id": "18183336199440471",
+    "tiktok_attempt_at": "2026-11-27T02:14:37.335365+00:00",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b08e796548b6e180d51eed3",
+    "buffer_tiktok_error": "provider_failure"
   },
   {
     "id": "378ed374c5891382df9a",
@@ -24803,7 +24807,7 @@
       "photo_provider": "Wikidata photo bank",
       "verified_at": "2026-11-24T16:03:16.356578+00:00"
     },
-    "photo_checked_at": "2026-11-27T01:16:32.939677+00:00",
+    "photo_checked_at": "2026-11-27T02:14:47.989871+00:00",
     "visual_mode": "licensed_photo",
     "photo_credit_full": "",
     "promotion": {
@@ -24818,7 +24822,20 @@
     "format_attempt_at": "2026-11-27T01:28:52.633639+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-27T01:28:52.633639+00:00",
-    "instagram_media_id": "18405852469202837"
+    "instagram_media_id": "18405852469202837",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 17.9,
+      "mean_db": -19.3
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795745750/football-news-bot/reels/1054ed391c6c29a96ecc-cross.mp4",
+    "crosspost_attempt_at": "2026-11-27T02:14:37.335365+00:00",
+    "youtube_attempt_at": "2026-11-27T02:14:37.335365+00:00",
+    "buffer_youtube_status": "error",
+    "buffer_youtube_id": "6b08e7d88899c4e7790baf7f",
+    "buffer_youtube_error": "daily_limit"
   },
   {
     "id": "3d7669c43f5d1adc6d32",
