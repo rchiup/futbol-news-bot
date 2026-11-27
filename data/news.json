@@ -13198,5 +13198,45 @@
     "source": "BBC Sport",
     "collected_at": "2026-11-27T00:00:51.206902+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "f1e971a7aa6fa4278cb1c088696c0e15427802ce6724fb32e6e1615009d6a0ff",
+    "title": "Premier League: 10 things to look out for this weekend",
+    "url": "https://www.theguardian.com/football/2026/nov/27/premier-league-10-things-to-look-out-for-this-weekend",
+    "source": "Football | The Guardian",
+    "collected_at": "2026-11-27T00:11:12.470086+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "656adaee646a7b2515bd3a1de9b29aab8f21f70c7e2c3cbeeb7f07414333f546",
+    "title": "Chip, chip, señores: la fórmula del Boca ganador que construyó Arruabarrena",
+    "url": "https://www.ole.com.ar/boca-juniors/chip-chip-senores-formula-boca-ganador-construyo-arruabarrena_0_fdiRKJpwN8.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-27T00:11:13.883484+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "9ee9a3141da788087a469a0231300b5e8a4c91c834faa8da4252cae902a7d878",
+    "title": "Boca se liberó y el juego fluye con los 11 de memoria",
+    "url": "https://www.ole.com.ar/opinion/boca-libero-juegi-fluye-arruabarrena-11-memoria_0_FadtfshMib.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-27T00:11:13.883502+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "b49f8541194d4a471b53c921ef3759edb17b5b21fbc508823419f57f10993959",
+    "title": "CMPC aspira a no superar los 360 incendios forestales, límite al que llegó el año pasado",
+    "url": "https://www.cooperativa.cl/noticias/pais/desastres-naturales/incendios-forestales/cmpc-aspira-a-no-superar-los-360-incendios-forestales-limite-al-que/2026-11-26/210402.html",
+    "source": "Cooperativa.cl: Noticias de Chile y el mundo - País, Deportes y más",
+    "collected_at": "2026-11-27T00:11:16.078367+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "eb98ea917fe7c0cd1d04dfbe65dd7af281b118559eac54255f1513c04456f924",
+    "title": "Fiscalía Económica acusó a Apple por abuso de posición monopólica",
+    "url": "https://www.cooperativa.cl/noticias/economia/competitividad/libre-competencia/fiscalia-economica-acuso-a-apple-por-abuso-de-posicion-monopolica/2026-11-26/204622.html",
+    "source": "Cooperativa.cl: Noticias de Chile y el mundo - País, Deportes y más",
+    "collected_at": "2026-11-27T00:11:16.078383+00:00",
+    "status": "pending_review"
   }
 ]

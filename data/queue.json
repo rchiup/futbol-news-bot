@@ -23134,7 +23134,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T20:56:23.360397+00:00",
-    "status": "draft",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -23158,7 +23158,12 @@
         "Futbol"
       ],
       "mentions": []
-    }
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-27T00:11:16.269878+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-27T00:11:16.269878+00:00",
+    "instagram_media_id": "17922254337530082"
   },
   {
     "id": "78ca0191b0b3f79c736a",
@@ -23192,7 +23197,8 @@
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Use BBC.com or the new BBC App to listen to BBC podcasts, Radio 4 and the World Service outside the UK.\nKyle Edmund, Ryan Harrison and Russell Fuller join Katie Smith to discuss the end of Leon Smith's tenure as Great Britain Davis Cup captain, 'divas' on tour, and drama in doubles."
   },
   {
     "id": "1729d7a137b38935077f",
@@ -23994,6 +24000,55 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-27T00:00:55.845677+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "9ee9a3141da788087a46",
+    "title": "Boca se liberó y el juego fluye con los 11 de memoria",
+    "source_url": "https://www.ole.com.ar/opinion/boca-libero-juegi-fluye-arruabarrena-11-memoria_0_FadtfshMib.html",
+    "source": "Olé Argentina",
+    "description": "La consagración en la Sudamericana y la victoria ante Independiente Rivadavia terminaron de consolidar el despegue de un Xeneize que brilla como hace mucho tiempo no sucedía.",
+    "published_at": "2026-11-26T23:58:25+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-27T00:11:16.269878+00:00",
+    "status": "draft",
+    "article_context": "Boca brilla con un 11 de memoria (Marcelo Carroll).\nCuando un equipo toma envión y se libera, como es el caso de Boca , el juego empieza a fluir y se genera un ritmo y una dinámica difíciles de encontrar en el fútbol argentino. Pasó en algunos pasajes de la final contra Mineiro, que le dio otro perfil al título, y se potenció después del 2-0 a Independiente Rivadavia , ya herido por la diferencia y por la no expulsión de Lozano sobre el final del PT, que le dio una mano importante al campeón de la Anual.\nAhora, más allá de los fallos arbitrales, de las amarillas no sacadas a Paredes y de todo lo que cuestiona el que no gana para intentar bajar el precio, hay que destacar que Arruabarrena , el mismo que veía un “cementerio” en la primera fecha contra Riestra, logró algo dificilísimo: darle una identidad a Boca. Un intento de juego por abajo, una actitud aguerrida para pelear todas las pelotas como la última y la búsqueda constante del arco de enfrente. Siempre con la cuota de suerte necesaria, incluso para los grandes equipos, como ocurrió con las contras no aprovechadas por Independiente. Y lo más importante es que el entrenador encontró aquel 11 de memoria del que siempre hablaba el Coco Basile en 2005.\nHoy, después de mucho tiempo, se sabe a qué juega Boca , qué propone y con qué nombres, estando todos a disposición, sale a la cancha. Consolidó la dupla central de Boca Predio (Di Lollo-Jagger), dos laterales profundos, un medio con Ascacibar-Paredes-Delgado y Aranda o Velasco, y arriba Villa (relegó a Flores) y Merentiel. Puede haber retoques, pero la base, la columna vertebral, ya no deja dudas. Es momento de confianza, con la Anual (¡lo que valió el gol de Valencia!) y la Sudamericana en el bolsillo: todos tocan rápido, buscan la descarga, no se desesperan, tocan para atrás si es necesario, abren la cancha y el loop es positivo. Con identidad y el liderazgo de Paredes, ya empiezan a jugar de memoria.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Independiente Rivadavia"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Boca consolida su mejor momento con un equipo de memoria",
+    "caption": "Boca atraviesa un presente sólido tras ganar la Copa Sudamericana y vencer a Independiente Rivadavia. El técnico Arruabarrena logró definir una columna vertebral clara y un estilo de juego definido que le permite liderar la tabla anual.",
+    "ai_generated_at": "2026-11-27T00:11:16.269878+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "eb98ea917fe7c0cd1d04",
+    "title": "Fiscalía Económica acusó a Apple por abuso de posición monopólica",
+    "source_url": "https://www.cooperativa.cl/noticias/economia/competitividad/libre-competencia/fiscalia-economica-acuso-a-apple-por-abuso-de-posicion-monopolica/2026-11-26/204622.html",
+    "source": "Cooperativa Deportes Chile",
+    "description": "La Fiscalía Nacional Económica presentó ante el Tribunal de Defensa de la Libre Competencia un requerimiento por abuso de posición dominante en contra de Apple Inc. . La FNE acusó a la tecnológica de imponer restricciones a la libre competencia en el sistema operativo iOS en los mercados de distribución de aplicaciones, y de distribución de bienes digitales de pago dentro de las aplicaciones, al menos desde 2019 a la fecha . En su requerimiento, solicitó al Tribunal que ordene a Apple cumplir una serie de medidas que garanticen el término de la",
+    "published_at": "2026-11-26T23:46:22+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-27T00:11:16.269878+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
