@@ -28152,5 +28152,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "d24a0f8df13b2a50fda3",
+    "title": "Nottingham Forest v Chelsea: Premier League – live",
+    "source_url": "https://www.theguardian.com/football/live/2026/nov/27/nottingham-forest-v-chelsea-premier-league-live",
+    "source": "The Guardian",
+    "description": "⚽ Updates on the Friday night kick-off at the City Ground ⚽ Fixtures | Tables | Sign up for Football Daily | Mail Scott Jamie Carragher and Toby Alderweireld eviscerated Chelsea’s defence earlier this week on Monday Night Football. Xabi Alonso seems to have taken that criticism seriously, because by the looks of it, he’s dropped Levi Colwill and replaced him in the centre of defence by Moisés Caicedo, with Jordan Henderson deputising for the Ecuadorian in midfield. That’s a ballsy call, given that Chelsea’s midfield crumbled to a premium grade ",
+    "published_at": "2026-11-27T19:09:12+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-27T19:31:17.582052+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]

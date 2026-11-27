@@ -14398,5 +14398,13 @@
     "source": "www.espn.com - NBA",
     "collected_at": "2026-11-27T19:29:04.245918+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "d24a0f8df13b2a50fda30c767672025678fa8522b65e1ca226bb92186a783c3e",
+    "title": "Nottingham Forest v Chelsea: Premier League – live",
+    "url": "https://www.theguardian.com/football/live/2026/nov/27/nottingham-forest-v-chelsea-premier-league-live",
+    "source": "Football | The Guardian",
+    "collected_at": "2026-11-27T19:31:12.826811+00:00",
+    "status": "pending_review"
   }
 ]
