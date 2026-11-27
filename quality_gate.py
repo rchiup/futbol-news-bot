@@ -108,3 +108,15 @@ def identity_error(item):
                 if re.search(r"\b"+surname+r"\s+(?:cae|cayo|pierde|perdio|queda eliminado)\b",h) and re.search(r"\b"+surname+r"\s+(?:gano|vencio|se impuso)\b",c):
                     return "individual_win_misrepresented_as_loss"
     return ""
+
+
+def sports_topic(item):
+    if item.get("match_result"):
+        return True
+    title=norm(item.get("title",""))
+    story=norm(" ".join(str(item.get(k) or "") for k in ("title","description")))
+    commercial=r"\b(?:sobrestock|liquidar stock|plataforma chilena con ia|inventario|ecommerce|real estate|criptomonedas)\b"
+    sport=r"\b(?:futbol|football|soccer|tenis|tennis|basketball|baloncesto|nba|rugby|formula 1|f1|motogp|ufc|boxeo|golf|atletismo|ciclismo|volleyball|voleibol|hockey|beisbol|baseball|champions|libertadores|sudamericana|premier league|copa davis|davis cup|atp|wta|grand slam|mundial|world cup|gol|goles|penal|penales|arbitro|fichaje|delantero|portero|tenista|jugador|players?|coach|manager|goals?|striker|quarterfinals?|semifinals?|playoffs?|touchdown|nfl|mlb|nhl|seleccion|estadio|torneo|tournament|match|partido|liga|league|club|boca juniors|real madrid|barcelona|psg|bayern|colo colo|manchester|arsenal|liverpool|chelsea|neymar|messi|ronaldo|zverev|alcaraz|sinner|djokovic)\b"
+    if re.search(commercial,title) and not re.search(sport,title):
+        return False
+    return bool(re.search(sport,story))

@@ -35,7 +35,7 @@ import tennis_scorecards
 import reels
 import platform_strategy
 import delivery_scheduler
-from quality_gate import score_error, photo_safe, identity_error
+from quality_gate import score_error, photo_safe, identity_error, sports_topic
 import buffer_publish
 from growth import append_promotion
 from news_novelty import duplicate_reason, novelty_priority, same_story
@@ -456,7 +456,7 @@ def strip_filler(caption: str) -> str:
 def is_low_interest(item: dict) -> bool:
     """Gossip, off-field marketing, how-to-watch guides and newsletters are not news posts."""
     text = " ".join(str(item.get(k) or "") for k in ("title", "headline"))
-    return bool(LOW_INTEREST.search(text))
+    return bool(LOW_INTEREST.search(text)) or not sports_topic(item)
 
 
 def _name_tokens(text: str) -> set[str]:
@@ -867,7 +867,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 continue
             if not candidate.get("match_result") and (not candidate.get("ai_generated_at") or candidate.get("score",0)<MIN_PUBLISH_SCORE or is_low_interest(candidate) or news_missing_critical_details(candidate) or not on_topic(candidate,candidate.get("headline",""),candidate.get("caption",""))):
                 continue
-            if score_error(candidate,queue) or identity_error(candidate):
+            if score_error(candidate,queue) or identity_error(candidate) or not sports_topic(candidate):
                 continue
             if len(reels.narration(candidate))<2:
                 continue
@@ -927,7 +927,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 continue  # Old one-off launch items are never republished.
             if item.get("status") != "draft" and not (item.get("status") == "needs_review" and (item.get("photo_deferred_reason") == "no_relevant_photo" or item.get("visual_mode") == "original_graphic") and item.get("headline") and item.get("caption")):
                 continue
-            problem = score_error(item, queue) or identity_error(item)
+            problem = score_error(item, queue) or identity_error(item) or ("" if sports_topic(item) else "not_sports_news")
             if problem:
                 item["quality_hold"] = problem
                 item["status"] = "needs_review"

@@ -43,45 +43,48 @@ def eligible(item):
     return not item.get("match_result") and bool(item.get("photo_used")) and len(narration(item))>=2
 
 def frame(cover, chunk, item, index, count, destination, brand):
-    # Never crop a square editorial card into a vertical video.
-    with Image.open(cover) as src:
-        photo=ImageOps.exif_transpose(src).convert("RGB")
-        if item.get("photo_used") and not item.get("match_result"):
-            im=ImageOps.fit(photo,(1080,1920),centering=(0.5,0.30)).convert("RGBA")
-        else:
-            im=Image.new("RGBA",(1080,1920),(12,22,37,255))
-            panel=ImageOps.contain(photo,(840,720))
-            im.paste(panel,((960-panel.width)//2,250+(720-panel.height)//2))
+    accent=(205,255,75)
+    im=Image.new("RGB",(1080,1920),(9,15,24))
+    has_photo=bool(item.get("photo_used") and not item.get("match_result"))
+    if has_photo:
+        with Image.open(cover) as src:
+            im=ImageOps.fit(ImageOps.exif_transpose(src).convert("RGB"),(1080,1920),centering=(.5,.28))
     overlay=Image.new("RGBA",im.size)
     d=ImageDraw.Draw(overlay)
     for y in range(1920):
-        alpha=int(220*max(0,1-y/430,(y-730)/1190))
-        if alpha: d.line((0,y,1080,y),fill=(7,13,21,alpha))
-    im=Image.alpha_composite(im,overlay).convert("RGB")
+        alpha=int(min(245,max(0,185*(1-y/380),245*(y-650)/850)))
+        d.line((0,y,1080,y),fill=(5,10,18,alpha))
+    im=Image.alpha_composite(im.convert("RGBA"),overlay).convert("RGB")
     d=ImageDraw.Draw(im)
-    accent=(208,249,92)
-    d.rectangle((56,190,70,248),fill=accent)
-    d.text((88,190),brand,font=font(37),fill="white")
-    d.text((88,245),str(item.get("sport","DEPORTES")).upper()+"  /  NOTICIAS",font=font(26),fill=accent)
-    d.rounded_rectangle((54,1000,900,1330),radius=28,fill=(10,18,30),outline=(47,65,79),width=2)
-    d.rectangle((78,1030,138,1037),fill=accent)
-    if item.get("video_style") == "tiktok":
-        d.text((150,1020),"EL DATO" if index==0 else "EN CONTEXTO",font=font(23),fill=accent)
-    # Large, central burned-in captions; keep clear of platform controls.
-    size=68 if item.get("video_style")=="tiktok" and index==0 else 62
-    while size>42:
-        lines=_wrap(d,chunk.upper().split(),font(size),760)
+    if not has_photo:
+        # Native vertical composition: never embed a square headline card.
+        for x in range(-1000,1800,110):
+            d.line((x,340,x+700,1040),fill=(20,32,44),width=2)
+        d.text((70,360),str(item.get("sport","DEPORTES")).upper(),font=font(100),fill=(38,53,65))
+        if item.get("match_result"):
+            with Image.open(cover) as src:
+                panel=ImageOps.contain(src.convert("RGB"),(860,630))
+                im.paste(panel,((940-panel.width)//2,350))
+        else:
+            d.rectangle((72,650,220,662),fill=accent)
+            d.text((72,700),"EN DESARROLLO" if index else "ACTUALIDAD",font=font(44),fill=accent)
+    d.rounded_rectangle((65,215,129,279),radius=14,fill=accent)
+    d.text((97,247),"CF",font=font(32),fill=(9,15,24),anchor="mm")
+    d.text((150,219),brand,font=font(35),fill="white")
+    d.text((150,263),str(item.get("sport","DEPORTES")).upper(),font=font(25),fill=accent)
+    size=84
+    while size>44:
+        lines=_wrap(d,chunk.upper().split(),font(size),790)
         if len(lines)<=3: break
         size-=2
-    lines=_wrap(d,chunk.upper().split(),font(size),760)
-    line_h=size+12
-    y=int(1170-len(lines)*line_h/2)
-    for line in lines:
-        d.text((477,y),line,font=font(size),fill=accent if index==0 else "white",stroke_width=1,stroke_fill=(8,13,20),anchor="mt")
-        y+=line_h
-    d.rectangle((60,1390,910,1398),fill=(65,77,79))
-    d.rectangle((60,1390,60+850*(index+1)/count,1398),fill=accent)
-    d.text((60,1420),("FUENTE: "+str(item.get("source","")).upper())[:55],font=font(24),fill="white")
+    lines=_wrap(d,chunk.upper().split(),font(size),790)
+    y=1120-len(lines)*(size+10)//2
+    for i,line in enumerate(lines):
+        d.text((72,y),line,font=font(size),fill=accent if i==0 else "white",stroke_width=2,stroke_fill=(5,10,18))
+        y+=size+10
+    d.rectangle((72,1350,870,1355),fill=(55,68,77))
+    d.rectangle((72,1350,72+798*(index+1)/count,1355),fill=accent)
+    d.text((72,1380),str(item.get("source","")).upper()[:50],font=font(24),fill=(180,195,205))
     im.save(destination)
 
 def command(args,timeout=90,input_text=None):
