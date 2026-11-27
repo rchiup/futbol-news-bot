@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-27T13:13:19.149631+00:00",
+  "checked_at_utc": "2026-11-27T13:15:48.347095+00:00",
   "local_hour": 10,
   "statuses": {
     "published": 204,
@@ -54,9 +54,9 @@
         "last_error": "invalid_output"
       },
       "openrouter": {
-        "attempts": 39,
+        "attempts": 40,
         "success": 16,
-        "failures": 23,
+        "failures": 24,
         "avg_latency_ms": 74149,
         "avg_readability": 98.1,
         "last_error": "http_429"
