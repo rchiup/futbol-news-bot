@@ -60,7 +60,7 @@ def submit_tiktok(video_url, caption, session=requests, channel=None):
         metadata: { tiktok: { isAiGenerated: true } }
         assets: [{video: {url: %s}}]
       }) {
-        ... on PostActionSuccess { post { id status } }
+        ... on PostActionSuccess { post { id status externalLink error { message } } }
         ... on MutationError { message }
       }
     }""" % (literal(caption[:2100]), literal(channel), literal(video_url))
@@ -74,7 +74,7 @@ def submit_tiktok(video_url, caption, session=requests, channel=None):
     post = result.get("post") or {}
     if not post.get("id"):
         raise RuntimeError("Buffer did not accept the TikTok post")
-    return {"id":str(post["id"]),"status":str(post.get("status") or "accepted")}
+    return {"id":str(post["id"]),"status":str(post.get("status") or "accepted"),"url":post.get("externalLink"),"error":(post.get("error") or {}).get("message")}
 
 def buffer_tiktok(item, video_url, caption, session=requests, persist=None):
     if not configured() or item.get("buffer_tiktok_status"):
@@ -95,7 +95,9 @@ def buffer_tiktok(item, video_url, caption, session=requests, persist=None):
         result = submit_tiktok(video_url, caption, session=session, channel=channel)
         item["buffer_tiktok_id"] = result["id"]
         item["buffer_tiktok_status"] = result["status"]
-        print("[BUFFER] TikTok accepted post "+result["id"])
+        if result.get("url"): item["buffer_tiktok_url"]=result["url"]
+        if result.get("error"): item["buffer_tiktok_error"]=classify_error(result["error"])
+        print("[BUFFER] TikTok "+item["buffer_tiktok_status"]+" "+result["id"])
     except Exception as exc:
         item["buffer_tiktok_status"] = "check_required"
         item["buffer_tiktok_error"] = type(exc).__name__
@@ -135,7 +137,7 @@ def buffer_youtube(item, video_url, caption, session=requests, persist=None):
       aiAssisted: true needsApproval: false
       metadata: { youtube: { title: %s categoryId: "17" madeForKids: false } }
       assets: [{video: {url: %s}}]
-    }) { ... on PostActionSuccess { post { id status } } ... on MutationError { message } } }""" % (
+    }) { ... on PostActionSuccess { post { id status externalLink error { message } } } ... on MutationError { message } } }""" % (
         literal(caption[:4900]),literal(channel),literal(title),literal(video_url))
     try:
         data = graphql(query, session)
@@ -144,22 +146,24 @@ def buffer_youtube(item, video_url, caption, session=requests, persist=None):
             raise RuntimeError("Buffer rejected YouTube post")
         item["buffer_youtube_id"] = str(post["id"])
         item["buffer_youtube_status"] = str(post.get("status") or "accepted")
-        print("[BUFFER] YouTube accepted " + item["buffer_youtube_id"])
+        if post.get("externalLink"): item["buffer_youtube_url"]=post["externalLink"]
+        if (post.get("error") or {}).get("message"): item["buffer_youtube_error"]=classify_error(post["error"]["message"])
+        print("[BUFFER] YouTube "+item["buffer_youtube_status"]+" "+item["buffer_youtube_id"])
     except Exception as exc:
         item["buffer_youtube_status"] = "check_required"
         print("[BUFFER] YouTube unconfirmed: " + type(exc).__name__)
 
-def crosspost(item, video_url, caption, session=requests, persist=None):
+def crosspost(item, video_url, caption, session=requests, persist=None, platforms=("tiktok","youtube")):
     # Keep each platform and provider independent; never retry an ambiguous POST.
     import zernio_publish
     from platform_strategy import crosspost_caption
     for platform, fallback in (("tiktok", buffer_tiktok), ("youtube", buffer_youtube)):
-        if item.get("buffer_"+platform+"_status") or item.get("zernio_"+platform+"_status"):
+        if platform not in platforms or item.get("buffer_"+platform+"_status") or item.get("zernio_"+platform+"_status"):
             continue
         try:
             tailored = crosspost_caption(item, caption, platform)
             outcome = zernio_publish.submit(item, platform, video_url, tailored, session, persist)
-            if outcome == "not_submitted":
+            if outcome == "not_submitted" or (outcome == "submitted" and item.get("zernio_"+platform+"_status") in {"failed","error","rejected"} and not item.get("zernio_"+platform+"_url") and item.get("zernio_"+platform+"_error") == "provider_failure"):
                 fallback(item, video_url, tailored, session, persist)
         except Exception as exc:
             item.setdefault("crosspost_"+platform+"_error", type(exc).__name__)
@@ -167,3 +171,45 @@ def crosspost(item, video_url, caption, session=requests, persist=None):
             print("[CROSSPOST] "+platform+" requires verification: "+type(exc).__name__)
         if persist:
             persist()
+
+def classify_error(message):
+    value=str(message).lower()
+    if "daily posting limit" in value or "upload limit" in value or "quota" in value:
+        return "daily_limit"
+    if "rate limit" in value or "too many requests" in value:
+        return "rate_limit"
+    if "disconnect" in value or "authorization" in value or "permission" in value:
+        return "authorization"
+    return "provider_failure"
+
+def refresh(item,platform,session=requests):
+    field="buffer_"+platform
+    identifier=item.get(field+"_id")
+    if not configured() or not identifier or (item.get(field+"_status") in {"sent","published"} and item.get(field+"_url")):
+        return
+    try:
+        post=graphql("query { post(input:{id:%s}) { id status externalLink error { message } } }"%json.dumps(identifier),session).get("post") or {}
+        if post.get("id")!=identifier:
+            return
+        if post.get("status"): item[field+"_status"]=post["status"]
+        if post.get("externalLink"): item[field+"_url"]=post["externalLink"]
+        if (post.get("error") or {}).get("message"): item[field+"_error"]=classify_error(post["error"]["message"])
+    except Exception as exc:
+        print("[BUFFER] Status lookup unavailable: "+type(exc).__name__)
+
+def network_has_capacity(platform,session=requests):
+    """Check the network daily limit before attempting a new submission."""
+    if not configured():
+        return True
+    try:
+        channel=os.getenv("BUFFER_YOUTUBE_CHANNEL_ID","").strip() if platform=="youtube" else resolve_channel(session)
+        if not channel:
+            return True
+        data=graphql("query { dailyPostingLimits(input:{channelIds:[%s]}) { channelId isAtLimit limit scheduled sent } }"%json.dumps(channel),session)
+        match=next((r for r in data.get("dailyPostingLimits",[]) if r.get("channelId")==channel),{})
+        if match.get("isAtLimit") is True:
+            print("[BUFFER] "+platform+" daily network limit reached; defer")
+            return False
+    except Exception as exc:
+        print("[BUFFER] Quota lookup unavailable: "+type(exc).__name__)
+    return True

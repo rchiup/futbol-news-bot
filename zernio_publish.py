@@ -55,6 +55,10 @@ def submit(item, platform, url, caption, session=requests, persist=None):
         item[field+"_status"]=str(result.get("status") or post.get("status") or "accepted")
         if result.get("platformPostUrl"):
             item[field+"_url"]=result["platformPostUrl"]
+        if item[field+"_status"] in {"failed","error","rejected"}:
+            from buffer_publish import classify_error
+            detail=result.get("error") or result.get("errorMessage") or post.get("error")
+            item[field+"_error"]=classify_error(detail) if detail else "unknown_failure"
         print("[ZERNIO] "+platform+" "+item[field+"_status"]+" "+item[field+"_id"])
         return "submitted"
     except Exception as exc:

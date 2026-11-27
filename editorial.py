@@ -34,6 +34,7 @@ import scorecards
 import tennis_scorecards
 import reels
 import platform_strategy
+import delivery_scheduler
 from quality_gate import score_error, photo_safe
 import buffer_publish
 from growth import append_promotion
@@ -735,10 +736,6 @@ def morning_burst_settings(reference: datetime, queue: list[dict]) -> tuple[int,
 
 def format_due(queue, reference, kind, minutes):
     for item in queue:
-        if kind == "reel" and item.get("crosspost_attempt_at"):
-            when = parse_iso(item["crosspost_attempt_at"])
-            if when and reference - timedelta(minutes=minutes) < when <= reference:
-                return False
         if item.get("publish_format") != kind:
             continue
         raw = item.get("format_attempt_at") or item.get("posted_at")
@@ -754,42 +751,12 @@ def run(reference: datetime | None = None, session=None) -> dict:
     queue = load_queue()
     if session is None and os.getenv("ENABLE_PUBLISH", "").lower()=="true":
         import zernio_publish
-        for previous in queue[-100:]:
+        recent_deliveries=sorted((x for x in queue if any(x.get(p+"_"+n+"_id") for p in ("buffer","zernio") for n in ("tiktok","youtube"))),key=lambda x:x.get("crosspost_attempt_at") or x.get("posted_at") or "",reverse=True)[:8]
+        for previous in recent_deliveries:
             for platform in ("tiktok", "youtube"):
                 zernio_publish.refresh(previous, platform)
+                buffer_publish.refresh(previous, platform)
         save_queue(queue)
-    # Backfill the explicitly requested first Reel without republishing to IG.
-    if session is None and buffer_publish.configured() and os.getenv("ENABLE_PUBLISH", "").lower()=="true":
-        try:
-            channel = buffer_publish.resolve_channel()
-            if channel:
-                for item in queue:
-                    if item.get("status")!="published" or item.get("publish_format")!="reel" or item.get("buffer_tiktok_status"):
-                        continue
-                    if score_error(item, queue) or (item.get("photo_used") and not item.get("match_result") and not photo_safe(item.get("portrait_info"), item)):
-                        print("[QUALITY] Blocked unsafe old video: "+item["id"])
-                        continue
-                    if (item.get("reel_quality") or {}).get("version") != 2:
-                        print("[BUFFER] Skipping unverified old Reel "+item["id"])
-                        continue
-                    posted = parse_iso(item.get("posted_at",""))
-                    if item.get("id")!="reel-launch-20261124" and (not posted or reference-posted>timedelta(hours=24)):
-                        continue
-                    url = item.get("reel_video_url")
-                    if not url and item.get("id")=="reel-launch-20261124":
-                        url = buffer_publish.recover_original_video(item["id"])
-                    if not url:
-                        print("[BUFFER] Original video not available for "+item["id"])
-                        continue
-                    item["reel_video_url"] = url
-                    caption = clean_public_caption(item["caption"])
-                    credit = photo_attribution_compact(item.get("portrait_info"))
-                    if credit:
-                        caption += "\n\n"+credit
-                    buffer_publish.crosspost(item, url, append_promotion(caption,item), persist=lambda: save_queue(queue))
-                    save_queue(queue)
-        except Exception as exc:
-            print("[BUFFER] Startup check: "+type(exc).__name__)
     if session is None:
         known = {x.get("id") for x in queue}
         for feed in (scorecards, tennis_scorecards):
@@ -881,49 +848,48 @@ def run(reference: datetime | None = None, session=None) -> dict:
             if rendered >= 5:
                 break
 
-    # Independent cross-platform video lane: no Instagram quota or photo gate.
-    print("[CROSSPOST] 15-minute video due="+str(format_due(queue, reference, "reel", 15)))
-    if session is None and os.getenv("ENABLE_PUBLISH", "").lower() == "true" and os.getenv("AUTO_APPROVE", "").lower() == "true" and os.getenv("ENABLE_REELS", "").lower() == "true" and format_due(queue, reference, "reel", 15):
+    # Independent clocks, verified account limits and shared video rendering.
+    if session is None and os.getenv("ENABLE_PUBLISH","").lower()=="true" and os.getenv("AUTO_APPROVE","").lower()=="true" and os.getenv("ENABLE_REELS","").lower()=="true":
         from publisher import upload_public_video
-        for candidate in sorted(queue, key=lambda x: (bool(x.get("match_result")), (bool(re.search(r"(?i)\b(VAR|polémic\w*|roja|penal|escándalo|controvers\w*|derrota|despido|fichaje|rivalidad)\b", str(x.get("headline",""))+" "+str(x.get("caption","")))), novelty_priority(x, reference))), reverse=True):
-            if candidate.get("status") not in {"draft", "published"} or all(any(candidate.get(p+"_"+platform+"_status") for p in ("buffer","zernio")) for platform in ("tiktok","youtube")):
+        due_platforms=[p for p in delivery_scheduler.PLATFORMS if delivery_scheduler.due(queue,p,reference,15) and buffer_publish.network_has_capacity(p)]
+        print("[CROSSPOST] Available video destinations: "+str(due_platforms))
+        for candidate in sorted(queue,key=lambda x:(bool(x.get("match_result")),novelty_priority(x,reference)),reverse=True):
+            if not due_platforms:
+                break
+            destinations=[p for p in due_platforms if delivery_scheduler.pending_platform(candidate,p)]
+            if not destinations or candidate.get("status") not in {"draft","published","crossposted_only"}:
                 continue
-            date = parse_iso(candidate.get("published_at", ""))
+            date=parse_iso(candidate.get("published_at",""))
             if not date or not 0 <= (reference-date).total_seconds() <= MAX_POST_AGE_HOURS*3600:
                 continue
-            if not candidate.get("match_result") and (not candidate.get("ai_generated_at") and candidate.get("llm_provider") in {None,"source_brief"} or candidate.get("score",0)<MIN_PUBLISH_SCORE or is_low_interest(candidate) or news_missing_critical_details(candidate)):
+            if not candidate.get("match_result") and (not candidate.get("ai_generated_at") or candidate.get("score",0)<MIN_PUBLISH_SCORE or is_low_interest(candidate) or news_missing_critical_details(candidate) or not on_topic(candidate,candidate.get("headline",""),candidate.get("caption",""))):
                 continue
-            problem = score_error(candidate, queue)
-            if problem:
-                candidate["quality_hold"] = problem
-                if candidate.get("status") == "draft":
-                    candidate["status"] = "needs_review"
-                print("[QUALITY] Crosspost held: "+candidate["id"]+" "+problem)
+            if score_error(candidate,queue):
                 continue
-            if len(reels.narration(candidate)) < 2:
+            if len(reels.narration(candidate))<2:
                 continue
             try:
-                cover = make_card(candidate, lookup=True, network_lookup=True)
-                portrait = ROOT / "output" / "portraits" / (candidate["id"] + ".jpg")
-                candidate["video_style"] = "tiktok"
-                candidate["video_hook_variant"] = platform_strategy.variant(candidate)
-                video = reels.render(candidate, portrait if candidate.get("photo_used") and portrait.exists() else cover, ROOT / "output" / "reels" / (candidate["id"] + ".mp4"), BRAND)
-                candidate["reel_video_url"] = upload_public_video(video, candidate["id"])
-                candidate["publish_format"] = "reel"
-                candidate["format_attempt_at"] = iso(reference)
-                candidate["crosspost_attempt_at"] = iso(reference)
+                if not delivery_scheduler.safe_existing_video(candidate) or (candidate.get("photo_used") and not photo_safe(candidate.get("portrait_info"),candidate)):
+                    cover=make_card(candidate,lookup=True,network_lookup=True)
+                    portrait=ROOT/"output"/"portraits"/(candidate["id"]+".jpg")
+                    candidate["video_style"]="tiktok"
+                    candidate["video_hook_variant"]=platform_strategy.variant(candidate)
+                    video=reels.render(candidate,portrait if candidate.get("photo_used") and portrait.exists() else cover,ROOT/"output"/"reels"/(candidate["id"]+".mp4"),BRAND)
+                    candidate["reel_video_url"]=upload_public_video(video,candidate["id"]+"-cross")
+                candidate["crosspost_attempt_at"]=iso(reference)
+                for platform in destinations:
+                    candidate[platform+"_attempt_at"]=iso(reference)
                 save_queue(queue)
-                video_caption = clean_public_caption(strip_filler(candidate["caption"]))
-                credit = photo_attribution(candidate.get("portrait_info")) if candidate.get("photo_used") else ""
+                caption=clean_public_caption(strip_filler(candidate["caption"]))
+                credit=photo_attribution(candidate.get("portrait_info")) if candidate.get("photo_used") else ""
                 if credit:
-                    video_caption += "\n\n"+credit
-                buffer_publish.crosspost(candidate, candidate["reel_video_url"], video_caption, persist=lambda: save_queue(queue))
-                print("[CROSSPOST] Independent video outcome: "+candidate["id"]+" "+str({k:v for k,v in candidate.items() if k.endswith("_status") and k.startswith(("zernio_","buffer_"))}))
+                    caption+="\n\n"+credit
+                buffer_publish.crosspost(candidate,candidate["reel_video_url"],caption,persist=lambda:save_queue(queue),platforms=destinations)
+                due_platforms=[p for p in due_platforms if p not in destinations]
+                print("[CROSSPOST] Delivery outcome "+candidate["id"]+" "+str({k:v for k,v in candidate.items() if k.endswith("_status") and k.startswith(("buffer_","zernio_"))}))
                 save_queue(queue)
-                break
             except Exception as exc:
-                print("[CROSSPOST] Independent video error: "+type(exc).__name__)
-                continue
+                print("[CROSSPOST] Video unavailable: "+type(exc).__name__)
 
     published_count = 0
     duplicates_suppressed = 0
@@ -1079,12 +1045,9 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     from publisher import upload_public_video
                     item["reel_video_url"] = upload_public_video(video_path, item["id"])
                     save_queue(queue)
-                    item["crosspost_attempt_at"] = iso(reference)
-                    buffer_publish.crosspost(item, item["reel_video_url"], crosspost_base_caption, persist=lambda: save_queue(queue))
                     if remaining_meta_slots <= 0 or editorial_cap_reached or photo_required_missing:
-                        item["status"] = "crossposted_only"
+                        item["status"] = "draft"
                         save_queue(queue)
-                        published_count += 1
                         continue
                     media_id = publish_reel(video_path, caption, item["id"], public_url=item["reel_video_url"])
                     print(f"[REELS] Published {item['id']}")
