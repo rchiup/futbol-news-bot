@@ -19284,7 +19284,7 @@
     "sport": "FUTBOL",
     "score": 25,
     "queued_at": "2026-11-26T11:32:31.230580+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -19308,7 +19308,8 @@
     "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
     "headline": "Arruabarrena quiere más títulos con Boca",
     "caption": "El DT de Boca se mostró feliz por el triunfo ante Independiente Rivadavia. Arruabarrena busca seguir haciendo historia con el equipo. El Xeneize pasó a cuartos del Clausura con goles de Paredes y Merentiel.",
-    "ai_generated_at": "2026-11-27T01:49:25.508594+00:00"
+    "ai_generated_at": "2026-11-27T01:49:25.508594+00:00",
+    "quality_hold": "not_sports_news"
   },
   {
     "id": "1ce007d945c14849eb7e",
@@ -19825,7 +19826,7 @@
     "sport": "FUTBOL",
     "score": 25,
     "queued_at": "2026-11-26T11:36:41.404214+00:00",
-    "status": "draft",
+    "status": "expired",
     "article_context": "Boca va por todo: ya ganó la Tabla Anual , la Copa Sudamericana , está en la final de la Copa Argentina y este miércoles venció a Independiente Rivadavia para meterse en los cuartos de final del Torneo Clausura . Con goles de Leandro Paredes y Miguel Merentiel, el Xeneize superó a la Lepra mendocina y avanzó de ronda. Ahora, se le viene Gimnasia de La Plata. En Olé , te contamos todos los detalles de este partido.\nBoca llega a los cuartos de final tras finalizar segundo en la Zona A del Torneo Clausura 2026 y luego de coronarse campeón de la Tabla Anual . El conjunto dirigido por Rodolfo Arruabarrena consiguió ubicarse entre los primeros puestos de su grupo y por eso tendrá la ventaja de definir como local en La Bombonera . En octavos ya la aprovechó: venció a Independiente Rivadavia por 2 a 0 .\nAdemás, el Xeneize viene de derrotar 2-0 a Atlético Mineiro en la final de la Copa Sudamericana el pasado sábado 21 de noviembre. De esa manera, cortó una sequía de 18 años sin títulos internacionales y dio su segunda vuelta olímpica esta temporada.\nAhora, el Vasco tendrá que pensar si darle descanso a algunos futbolistas : su equipo jugará por tercera vez en nueve días y solo tres días después definirá al campeón de la Copa Argentina en Santiago del Estero, ante Platense.\nGimnasia atraviesa un gran inmejorable en el Torneo Clausura y llega con el ánimo por las nubes tras cerrar la fase regular en la tercera posición del Grupo B con 31 unidades. Además, el Lobo viene de superar 4 a 2 a Newell's en unos calientes octavos de final y sueña con dar el gran batacazo en la Bombonera .\nEl conjunto dirigido por Ariel Pereyra destacó en el certamen por su contundencia ofensiva: anotó 29 goles en 17 partidos . Ahora, tratará de vencer a la valla menos vencida del año en la Liga Profesional y volver a plantarse en semifinales (ya lo hizo en el Clausura 2025).\nEl encuentro entre Boca y el Gimnasia se disputará este domingo 29 de noviembre en la Bombonera. Si bien desde la LPF habían publicado que el duelo entre el Xeneize y el Lobo iba a las 22.00 , por el amistoso de la Selección Femenina ante Alemania en La Plata, este cotejo podría ser a las 21 , por pedido del CABJ.\nBoca tendrá ventaja de localía dado a que finalizó segundo en la Zona A, mientras que Gimnasia fue tercero en el Grupo B. Al igual que en cuartos, habrá alargue en caso de empate y, de persistir la igualdad, todo se definirá por penales.\nMientras los cuartos de final se jugarán el fin de semana del 28 y 29 de noviembre , las semifinales se desarrollarán entre el 5 y 6 de diciembre. La gran final está prevista para el sábado 12 de diciembre , en el estadio Diego Maradona de La Plata.\nEn todas las instancias, si hay empate en los 90 minutos, se juega tiempo suplementario (dos tiempos de 15’) y, de persistir la igualdad, definición por penales , según el reglamento vigente para la temporada 2026.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "visual_subject": "",
     "visual_entities": {
@@ -20230,7 +20231,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T12:41:42.423265+00:00",
-    "status": "draft",
+    "status": "expired",
     "article_context": "Boca le ganó a Indendiente Rivadavia y dio la vuelta en el Templo con la Sudamericana (Marcelo Carroll).\nBoca consiguió adelantar el partido contra Gimnasia LP y jugará este domingo a las 20.30 en la Bombonera, por los cuartos de final del Clausura. El encuentro estaba programado para las 22, pero el club pidió modificarlo por el desgaste que acumula el plantel y la cercanía de la final de la Copa Argentina ante Platense , que disputará el miércoles en Santiago del Estero.\nSegún pudo saber Olé , el cambio respondió exclusivamente a esa gestión del Xeneize . Apenas terminó el triunfo ante Independiente Rivadavia , desde la Boca salió el pedido hacia las oficinas de la Liga Profesional en Puerto Madero: adelantar el comienzo para evitar que otra noche de competencia se extendiera prácticamente hasta el lunes. A la seguidilla de partidos se sumará, además, un nuevo viaje para buscar otro título.\nLa modificación se resolvió sobre la marcha . La Liga llegó a publicar en sus redes el cronograma de cuartos después del encuentro del miércoles y lo hizo con Boca-Gimnasia a las 22. Horas después retiró aquella publicación y difundió la programación actualizada, ya con las 20.30 como horario confirmado . El domingo también se adelantó Rosario Central-Barracas Central, que pasó de las 17.30 a las 17.\nPara el equipo de Rodolfo Arruabarrena , ganar una hora y media tiene sentido dentro de un calendario que casi no ofrece pausas . El sábado fue la final de la Sudamericana en Barranquilla, el plantel regresó a la Argentina en la madrugada del lunes y el miércoles volvió a competir en la Bombonera. Ahora tendrá el cruce con el Lobo y, tres días después, la definición de la Copa Argentina , con traslado a Santiago incluido.\nEl Xeneize festejo la consagración de la Copa Sudamericana. Con goles de Paredes y Merentiel, el Xeneize le ganó a Independiente Rivadavia y pasó a cuartos del Clausura. @catasarra\nTambién pesa el formato del partido del domingo: si hay empate en los 90 minutos, se jugará un alargue de media hora y, de persistir la igualdad, penales . Con el horario original, esa posibilidad podía llevar la definición a la madrugada del lunes. Boca buscó anticipar el cierre de la jornada sin modificar el día del encuentro.\nLas 22 iniciales tenían otra explicación: evitar la superposición con el amistoso de la Selección femenina ante Alemania , previsto para el mismo domingo a las 20.15 en el Estadio Único Diego Armando Maradona de La Plata, en su reinauguración.\nCon el adelanto de Boca-Gimnasia, también se evaluó mover el horario del seleccionado para que ambos encuentros no coincidieran. Sin embargo, por ahora ese partido mantiene su programación .\nRodolfo Arruabarrena resaltó el nivel del equipo, las alternativas que tiene en el plantel y la felicidad de la gente\nBoca le ganó a Independiente Rivadavia y pasó a cuartos del Clausura. @catasarra\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "visual_subject": "",
     "visual_entities": {
@@ -21008,7 +21009,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T14:22:55.734495+00:00",
-    "status": "draft",
+    "status": "expired",
     "article_context": "El Huevo Acuña en el Camp. Foto: prensa River.\nEste jueves por la mañana, Leonardo Ponzio recibió la mejor noticia en la práctica de River: Marcos Acuña y Lucas Beltrán se entrenaron a la par del grupo en el Camp y se perfilan para jugar ante Instituto.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
@@ -21066,7 +21067,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T14:22:55.734495+00:00",
-    "status": "draft",
+    "status": "expired",
     "article_context": "Alexander Barboza y Marlon Freitas en su llegada a Montevideo. (Foto: Reuters)\nSe acerca la gran final de la Copa Libertadores 2026 entre Estudiantes y Palmeiras , que tendrá lugar este sábado (17:00) en el Centenario de Montevideo, Uruguay. Y ya con ambos planteles en el país vecino, hubo un futbolista del Verdao que, en diálogo con la prensa, ya se ve campeón frente al Pincha .\n\"Estoy muy feliz de estar nuevamente en una final de la Libertadores . La primera la gané en 2024, en mi casa (Argentina), y la segunda la voy a ganar en mi segunda casa, Uruguay. Así que es un sentimiento muy lindo saber que toda mi familia va a estar acá para presenciar este momento\", expresó el marcador central Alexander Barboza .\nLa primera Copa que menciona el nacido en Villa Celina, La Matanza, la obtuvo con Botafogo , cuando se impuso 3-1 frente a Atlético Mineiro en el Monumental. Y ya aseguró que ganará también esta en Uruguay , país del que también tiene la nacionalidad porque su padre es uruguayo. De hecho, Diego Forlán lo incluyó en la prelista de la reciente fecha FIFA, aunque finalmente no lo citó.\nEntre otros temas, Barboza contó que irán ni más ni menos que 75 familiares suyos a presenciar esta final de la Libertadores al Centenario: \"Viene casi toda mi familia de Argentina, unas 50 personas, pero también vienen los de acá, así que son muchos\".\nPor otro lado, consultado por su gran semestre, luego de haber llegado desde Botafogo a mitad de año y haberse ganado la titularidad en Palmeiras , hizo un elogio general a todo el equipo: \"Cuando llegué a Palmeiras, Abel fue muy claro conmigo respecto de cuál era la idea y qué tipo de fútbol quería que practicáramos dentro de la cancha. La fase defensiva es fundamental para nosotros , para que el equipo pueda ganar\".\n\" Si mantenés el arco en cero, estás mucho más cerca de conseguirlo , y más todavía con los jugadores de calidad que tenemos para ganar los partidos. Eso va a ser fundamental en encuentros de eliminación directa como estos, especialmente en una final, donde todo se define en un solo partido. Por eso, esta faceta del juego es clave\", completó.\nCampeón en Montevideo en 2021, el conjunto brasileño buscará su cuarta Libertadores luego de las obtenidas en ese año, en 1999 y en 2020. De conseguirlo, serían tres Copas obtenidas bajo la dirección técnica del portugués Abel Ferreira .\nEstudiantes, con Alexander Cacique Medina a la cabeza, irá por la quinta después de las ganadas en 1968, 1969, 1970 y 2009.\nLa final de este sábado reeditará la de 1968 , cuando el equipo que por entonces dirigía Osvaldo Zubeldía se impuso por 2-0 a Palmeiras en un juego de desempate, también disputado en el Centenario, que se llevó gracias a los tantos de Felipe Ribaudo y Juan Ramón la Bruja Verón, padre del actual presidente del Pincha, Juan Sebastián Verón.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
@@ -21161,7 +21162,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T14:32:34.433040+00:00",
-    "status": "draft",
+    "status": "expired",
     "article_context": "El uruguayo está en el aire: gol a la Lepra mendocina para seguir metiéndose en la historia de Boca (Marcelo Carroll).\nMiguel Merentiel sigue sumando goles para Boca y nombres propios a su lado en las tablas históricas. El derechazo de aire que selló el 2-0 ante Independiente Rivadavia, por los octavos del Clausura, lo dejó a la par de un ídolo en la Bombonera y a cuatro tantos de alcanzar la línea del top 20 de goleadores del club . Todo en una semana en la que también convirtió su gol más importante con esta camiseta.\nCon el festejo del miércoles, la Bestia llegó a 28 goles en la Bombonera e igualó a Marcelo Delgado . El Chelo necesitó 91 encuentros para conseguir esa cifra; el uruguayo la alcanzó en 80. También quedó a la par de Severino Varela, otro nombre de peso en la historia azul y oro, y dejó atrás a Ricardo Gareca, con 27.\nEn casa, el próximo escalón es Alfredo Hugo Rojas, que convirtió 30. Pero el Chucky de Boca también tiene objetivos cercanos en la tabla general: ya acumula 67 goles en 192 partidos oficiales y figura en el puesto 22. Está a uno de Hugo Curioni , que terminó con 68, y a cuatro de Paulo Valentim y Darío Benedetto , ambos con 71, en los lugares 19 y 20 del listado. Llegar a esa cifra le permitiría compartir ese escalón.\nLa cercanía con Valentim abre otra puerta: alcanzarlo también significaría igualar al tercer máximo goleador extranjero de Boca . Por delante del brasileño están Delfín Benítez Cáceres, con 114, y Sergio Martínez, con 86. Entre los uruguayos, Merentiel ya es segundo, detrás de Manteca.\nEl Xeneize festejo la consagración de la Copa Sudamericana. Con goles de Paredes y Merentiel, el Xeneize le ganó a Independiente Rivadavia y pasó a cuartos del Clausura. @catasarra\nEl presente explica cómo se fue acercando. Lleva 17 goles en 2026 : cinco en el Apertura, seis en el Clausura, cinco en la Sudamericana y uno en la Libertadores. Está a uno de igualar su mejor año en Boca , los 18 de 2023, y a dos de establecer una nueva marca personal. Todavía tiene por delante el cruce con Gimnasia y la final de la Copa Argentina contra Platense, además de lo que pueda avanzar en el torneo local.\nY sus últimos dos gritos llegaron en partidos que no admitían revancha. El sábado, ante Mineiro, hizo el primero de su carrera en una final con Boca . Una cuenta pendiente que había reconocido y que pudo saldar después de un primer tiempo en el que desperdició situaciones claras. En el inicio del segundo apareció para empujar el centro de Villa y convertir el 2-0 . Después llegaron el desahogo, las lágrimas y el abrazo con Arruabarrena.\nEse gol cerró una Sudamericana en la que marcó en cada instancia que disputó Boca : O'Higgins, Recoleta, San Pablo, Vasco y Mineiro. Cuatro días después volvió a aparecer en una eliminación directa. A los siete minutos del complemento, conectó de primera el centro de Lozano y encaminó el pase a cuartos .\nSe sacó una mochila en Barranquilla y siguió convirtiendo en la Bombonera, de donde este miércoles se llevó flor de ovación . Ahora tiene al Chelo al lado y otras marcas a tiro.\nMiguel Merentiel convirtió el 2-0 de Boca sobre Mineiro y desató la locura de la hinchada y el banco de suplentes.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
@@ -21294,7 +21295,7 @@
     "sport": "FUTBOL",
     "score": 25,
     "queued_at": "2026-11-26T14:47:36.468921+00:00",
-    "status": "draft",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -21387,7 +21388,7 @@
     "sport": "TENIS",
     "score": 26,
     "queued_at": "2026-11-26T15:08:38.514492+00:00",
-    "status": "draft",
+    "status": "expired",
     "article_context": "Highlights: Skupski and Patten win thrilling doubles match to seal Davis Cup win\nGreat Britain advanced to the semi-finals of the Davis Cup for the first time since 2019 as Henry Patten and Neal Skupski won a decisive doubles tie against third seeds Germany in Bologna.\nPatten and Skupski, playing together for the first time since announcing their doubles partnership for the 2027 season, proved too clinical for Kevin Krawietz and Tim Puetz.\nThey converted two break points and saved five in the first set, before overturning a mini-break in the tie-break to win 6-2 7-6 (8-6).\nSkupski was involved in a Davis Cup quarter-final loss playing alongside Joe Salisbury against the same German doubles pair in December 2021 - a defeat that was in his mind as Thursday's decider progressed.\n\"I thought about that match during the match today and I was determined not to let that happen again,\" Skupski told BBC Radio 5 Live.\n\"No matter what was happening today, we weren't going to come off the court very easily with a loss.\"\nWorld number one Alexander Zverev had earlier sent the tie to its full distance by defeating British number one Arthur Fery in straight sets to cancel out Cameron Norrie's three-set victory over Jan-Lennard Struff.\nGreat Britain's semi-final is scheduled for Saturday, when they will face Spain.\nSpaniards Daniel Merida and Rafael Jodar won their singles matches, meaning the team did not need to play doubles, allowing Carlos Alcaraz to rest.\nCaptain David Ferrer said Alcaraz may be in contention to play in the singles against Great Britain.\nDefending champions Italy will play the Czech Republic in Friday's first semi-final.\nRecap: GB's Davis Cup quarter-final win against Germany as it happened\nSmith will step down as captain at the end of the tournament and Great Britain retain hopes of a second victory under his leadership, following the most recent of their 10 Davis Cup successes in 2015.\n\"I felt the same sort of pressure, nerves and butterflies beforehand and during the matches,\" said Smith, who has been captain since 2010.\n\"You sit for a long time in that chair on your own on a day like this, a lot of thoughts go through your head and one of the things I kept reminding myself is how much of a privilege it is to be in this situation.\n\"I loved it but, more importantly, I'm thrilled for the guys. They've committed so well to this, they've been to a few different places over the past 18 months to get to this opportunity and I'm delighted they've got to the final four now.\"\nHighlights: Norrie beats Struff in three sets to give GB lead in Davis Cup\nWorld number 52 Norrie had got Great Britain off to the perfect start with a three-set win against Struff, a player 13 places above him in the world rankings.\nThe left-hander raced through the first set in just 23 minutes but a break late in the second set by Struff forced a decider.\nThe key moment came at 2-2 in the final set when Norrie saved four break points to hold serve, after which he won 12 of the next 14 points to complete a 6-3 3-6 6-2 victory.\nNorrie's success meant a win for Fery against Zverev, a two-time major champion in 2026, would have been enough to secure Great Britain's passage through to the last four.\nHowever, as he did in their Wimbledon semi-final in July, Zverev proved too strong for 24-year-old Fery and ended as a 6-3 6-2 winner.\nHighlights: Zverev beats Fery to draw Germany level in Davis Cup\nPatten and Skupski have found themselves unusually in the spotlight over the past week following the former's \"ruthless\" split from Harri Heliovaara in favour of joining forces with his compatriot next season.\nWhile their partnership is in its infancy, there were few signs of teething problems as they extended their Davis Cup record as a pair to 3-0.\nPatten's pinpoint returns and sharp reactions at the net coupled with Skupski's impressive serving proved too strong for Krawietz and Puetz, who were left to rue missed opportunities.\nIn a sticky opening service game, Patten double-faulted on the opening point and faced a break point, while Skupski saved four in game seven of the opening set.\nNeither pair earned a break point in the second set, with the British duo dropping just five points on serve.\nTrailing 3-1 in what turned out to be a thrilling tie-break, they fought back to lead 6-5 before closing out the win at the second opportunity.\n\"It doesn't feel like the end of the season for those two because they've just paired up,\" Smith said. \"There's been a buoyancy in their practice sessions because it's a new start.\n\"They were brilliant today. You don't know if you're going to get a match or not [as doubles players] but I saw them 20 minutes before their match and you could just see they were delighted to get this opportunity and that gave them a huge lift.\"\nAustralia's sandpapergate probe to also include 2017-18 Ashes\nFury 'never received' schizophrenia diagnosis\nBournemouth 'allowed to dream' as fans book Europa League final hotels\nFirst look: Strike and Robin return to take on a dangerous cult\nThe Spanish town that ditched the euro and brought back the peseta\nThe extraordinary journey of the humble banana\nLammens - the Man Utd goalkeeper under scrutiny like never before\n440 players, three days, one venue - the Nations Championship logistics logjam\nPant joins New Zealand club match under false name\nNot even making a 12-man bench - what next for Garnacho?\nSelby faces tough UK opener while Allen set to feature\n'Laughing gas has ended careers' - so how common is it in football?\nMotorcycle passenger who took stunning cricket catch found\nDivots, howlers and bad decisions - dissecting Man Utd's draw in Lisbon\n'Best midfielder in the world' - where does Bellingham rank?\nFour-time MVP Rodgers released and may have played last NFL game\nSooryavanshi, 15, breaks sixes record in 204 off 53 balls\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland's tearaway quick bowler reinvented as a top-order batter\nJosh Kerr: The making of the man behind the shades\nThe 3pm football blackout: Outdated or still relevant in 2026?\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
     "ai_art_used": false,
     "photo_used": false,
@@ -21432,7 +21433,7 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-26T15:08:38.514492+00:00",
-    "status": "draft",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -21488,7 +21489,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T15:23:48.179581+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "article_context": "Los jugadores de la Lepra le reclaman a Lobo Medina (Foto: Marcelo Carroll).\nIndependiente Rivadavia se fue con mucha bronca de la Bombonera , tras caer 2-0 con Boca y quedar eliminado del Torneo Clausura . En el elenco mendocino quedaron calientes con los polémicos fallos del árbitro Lobo Medina , sobre todo por el planchazo de Leandro Lozano, que debió ser expulsado, a Matías Fernández.\n\"El árbitro tampoco ayudó tanto. Boca no necesita estas cosas. Creo que fue para roja, eso hubiera cambiado el partido\" , aseguró Álex Arce , capitán de la Lepra. El análisis del delantero paraguayo fue sumamente certero: en el segundo tiempo, el lateral derecho -que tendría que haber sido expulsado- dio la asistencia en el tanto de Miguel Merentiel para el 2-0 definitivo.\nArce fue amonestado por una patada sobre Paredes , aunque en primera instancia Lobo Medina le había mostrado la amarilla a Elordi.\nEl partido lo abrió Paredes, de penal. El juez Luis Lobo Medina no lo cobró en el momento, pero fue llamado por José Carreras -encargado del VAR- para que la revise en el campo de juego y no dudó en sancionar mano de Ezequiel Bonifacio, que está de espaldas pero amplía volúmen del cuerpo.\n\"Me pega en el tríceps, siento que el golpe me da ahí. Después en el VAR se la frenan cuando la pelota ya está pasando y se nota que está a la altura del codo. Me pega después de pasar el hombro, ya no sabés cuál es el criterio\", sostuvo Bonifacio en zona mixta.\nDe cualquier manera, el defensor de Independiente Rivadavia no justificó la derrota por el juez: \"Tampoco me quiero detenerme en eso, hay cosas en las que uno tiene que hacer autocrítica personal y grupal. Perdimos 2-0, es la realidad\".\nEl juez erró en distintas situaciones y tuvo que ser corregido por el VAR durante más de una oportunidad en el duelo de octavos de final del Clausura. Todo esto despertó un particular y risueño ida y vuelta entre Sebastián Vignolo y Gustavo López, los dos encargados de la transmisión oficial de ESPN...\nEl árbitro principal tuvo que apoyarse en el llamado de José Carreras para identificar la mano de Bonifacio que derivó en el 1-0 xeneize. Además, sancionó con amarilla un duro planchazo de Lozano sobre Matías Fernández, tuvo que modificar una tarjeta por corrección de identidad y dio marcha atrás con dos corners por haber fallado a la hora de visualizar la jugada. Insólito.\nLógicamente, toda esta serie de decisiones de Lobo Medina despertaron la crítica y una serie de comentarios de todo tipo de la dupla televisiva. \"¿Medina va a salir de ahí o va a dirigir desde el círculo central?\", afirmó el relator en un principio. Y la respuesta de López fue tajante: \"Le manejan el partido por el VAR\".\nActo seguido, ante la dura infracción del lateral derecho de Boca, Lozano, sobre el 10 de la Lepra mendocina, Gustavo también aprovechó para puntualizar en la actuación del juez: \"Tremenda patada, ¿el VAR? ¿No? Está todo marcado, aplaude Berti, eh\".\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
@@ -21530,7 +21531,8 @@
     "buffer_youtube_status": "sent",
     "buffer_youtube_id": "6b08e06d70e2a88e2ce96fc9",
     "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712661062763482374",
-    "buffer_youtube_url": "https://www.youtube.com/shorts/lWggpvDP4Gs"
+    "buffer_youtube_url": "https://www.youtube.com/shorts/lWggpvDP4Gs",
+    "quality_hold": "not_sports_news"
   },
   {
     "id": "46c1e4020f357a08ac46",
@@ -21613,7 +21615,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T15:33:29.758246+00:00",
-    "status": "draft",
+    "status": "expired",
     "visual_subject": "",
     "visual_entities": {
       "personas": [
@@ -21780,7 +21782,7 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-26T15:43:37.295433+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -21801,7 +21803,8 @@
     "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
     "headline": "Arruabarrena descarta lesión grave de Milton Delgado",
     "caption": "Milton Delgado sufrió una molestia en la rodilla y fue reemplazado en el partido. Los estudios médicos revelaron una inflamación en la rodilla pero no una lesión. Su presencia para el partido contra Gimnasia es incierta.",
-    "ai_generated_at": "2026-11-27T01:42:46.446615+00:00"
+    "ai_generated_at": "2026-11-27T01:42:46.446615+00:00",
+    "quality_hold": "not_sports_news"
   },
   {
     "id": "fc4c364c5d76ae349a5a",
@@ -21814,7 +21817,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T15:49:06.637375+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "article_context": "Acuña con los hinchas de River. Foto: prensa River.\nEsta vez, los hinchas de River que viven en Córdoba y sus alrededores no harán la vigilia por la noche, como ya es prácticamente una costumbre cuando los jugadores llegan a la provincia y son recibidos a puro color y calor. Para visitar a Instituto , la logística será algo diferente a la acostumbrada en cada excursión fuera de Buenos Aires y, en lugar de trasladarse el día anterior, la delegación millonaria alterará esa rutina y viajará el mismo día del partido (sábado) rumbo a La Docta.\nLa hoja de ruta quedó diagramada al detalle con el visto bueno de Leonardo Ponzio . Después del último ensayo futbolístico del viernes por la tarde en el estadio Monumental , donde el León terminará de pulir la pelota parada, confirmará los 11 titulares y anunciará la lista con el regreso de Gonzalo Montiel y con Marcos Acuña y Lucas Beltrán a disposición , los futbolistas que dirán presente en Alta Córdoba cenarán y pasarán la noche concentrados en las instalaciones del Liberti.\nTeniendo en cuenta que la capacidad hotelera en Córdoba está completa para la noche del viernes ante una alta demanda por un evento y con la ventaja de que el encuentro comenzará recién a las 22, el plantel descansará cómodamente en Núñez y, luego de un traslado de apenas unas cuadras, se subirán al chárter en Aeroparque el sábado por la mañana para aterrizar temprano en suelo cordobés.\nEste cambio en el cronograma también modificará la agenda de la multitud riverplatense que aguarda con expectativa al equipo. Teniendo en cuenta que el choque en la cancha de Instituto se disputará únicamente con socios locales y sin público visitante ante la decisión de la dirigencia de priorizar la localía por sobre una mayor recaudación en el Kempes , el calor de los simpatizantes se concentrará por completo en la calle.\nDe esta forma, el clásico recibimiento de los hinchas, que habitualmente tiñe de rojo y blanco las noches en la llegada del micro, y los autógrafos y las selfies con los jugadores detrás del vallado serán el sábado cerca del mediodía.\nEn las horas previas al encuentro, la delegación encabezada por Ponzio se alojará en el tradicional hotel Quinto Centenario , su búnker habitual en cada visita a la capital provincial. Allí el plantel almorzará, cumplirá con la siesta y tendrá la charla técnica final antes de subirse al micro rumbo al corazón de Alta Córdoba. Todo listo para una excursión bien distinta pero con el objetivo de siempre: ganar.\nSantiago Beltrán; Gonzalo Montiel, Nicolás Otamendi, Lautaro Rivero, Marcos Acuña; Tobías Andrada, Santiago Espíndola, Tomás Galván; Thiago Almada; Ángel Correa y Lucas Beltrán.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
@@ -21860,7 +21863,8 @@
     "buffer_tiktok_status": "sending",
     "buffer_tiktok_id": "6b0874e41fa409158286f074",
     "buffer_youtube_status": "error",
-    "buffer_youtube_id": "6b0874ef9068b6e0795202fa"
+    "buffer_youtube_id": "6b0874ef9068b6e0795202fa",
+    "quality_hold": "not_sports_news"
   },
   {
     "id": "88db542d1572a3517adb",
@@ -21890,7 +21894,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T16:19:08.376343+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "article_context": "Le pelear por evitar el descenso en el Brasileirao.\nLa famosa calculadora siempre está presente. Esta vez, el foco está puesto en el Brasileirao , donde cinco equipos llegan a las últimas dos fechas sin haber asegurado su permanencia . El empate por 1-1 de Corinthians ante Atlético Mineiro, en el cierre de la jornada 36, modificó el panorama: el Timao salió de la zona de descenso, Mirassol cayó al 17° puesto y Vitória aseguró su continuidad en Primera División.\nCon Chapecoense y Remo ya descendidos, apenas quedan tres lugares disponibles entre los cinco clubes involucrados. La particularidad es que cuatro de ellos supieron conquistar la Copa Libertadores y, al menos, uno deberá disputar la Serie B en 2027 .\nEste domingo, desde las 18.30 (horario Argentina), se disputarán tres encuentros en simultáneo que podrían empezar a resolver la incógnita .\nA diez años de haber perdido la categoría por primera vez, el fantasma del descenso vuelve a hacerse presente en Porto Alegre. El Internacional ocupa el antepenúltimo puesto con 38 unidades y, aun en el mejor de los escenarios, solo puede llegar a los 44 puntos. Es el único de los cinco involucrados que no depende de sí mismo para salvarse .\nAnte Red Bull Bragantino, en el Beira-Rio, los hinchas tendrán que estar pendientes tanto de lo que suceda con su equipo como de los resultados en San Pablo , donde Corinthians y Gremio se enfrentarán entre sí y Mirassol recibirá a Athletico Paranaense.\nNi siquiera un empate ante Bragantino le garantizará llegar con chances a la última jornada. En cambio, un triunfo estirará la definición hasta el miércoles, cuando visite a Cruzeiro en Belo Horizonte .\nEn el Neo Química Arena se enfrentarán dos históricos del fútbol brasileño que tienen 41 puntos y la misma cantidad de victorias . La diferencia de gol favorece a Corinthians (-2) por sobre Gremio (-7).\nEl Timao podría asegurar su permanencia este domingo si vence al Tricolor y ni Internacional ni Mirassol ganan sus respectivos encuentros . Además, cerrará el campeonato ante el ya descendido Remo, mientras que los de Porto Alegre ( si no descienden jugarán la Libertadores 2027 ) recibirán a Mirassol en otro duelo directo.\nA ambos les alcanzará con sumar una victoria y un empate en las dos jornadas restantes para mantenerse en Primera División sin depender de otros resultados .\nLa gran diferencia aparece en el peor de los escenarios: Corinthians podría salvarse incluso perdiendo sus dos compromisos , aunque dependerá de los resultados de Mirassol e Internacional y de los criterios de desempate. En cambio, si Gremio pierde ambos partidos, consumará el cuarto descenso de su historia .\nPese a tener la misma cantidad de puntos que Corinthians y Gremio (41), Mirassol se encuentra en zona de descenso por su diferencia de gol (-10) . El conjunto paulista recibirá a Athletico Paranaense y cerrará el campeonato ante el Tricolor en Porto Alegre.\nUna victoria y un empate le garantizarán la permanencia . Incluso perdiendo ambos encuentros podría salvarse, aunque para ello necesitará que Corinthians tampoco sume puntos, que Internacional no supere las 41 unidades y que los criterios de desempate lo favorezcan.\nBotafogo , por su parte, es el menos comprometido de los cinco equipos . Con 43 puntos, el campeón de la Libertadores 2024 tiene la posibilidad de resolver su situación antes de los tres partidos del domingo: si vence a Bahía este sábado, asegurará su continuidad en la máxima categoría del fútbol brasileño.\nDe no conseguirlo, tendrá una última oportunidad ante Santos en Vila Belmiro. Dos empates también le alcanzarán para mantener la categoría.\nLa última fecha se disputará el próximo miércoles 2 de diciembre , con todos los encuentros programados para las 21.30 de Argentina.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
@@ -21914,7 +21918,8 @@
     "llm_model": "glm-4.5-flash",
     "headline": "Internacional, Gremio, Corinthians y Botafogo en riesgo de descenso en Brasil",
     "caption": "Cuatro grandes del fútbol brasileño se juegan la permanencia en la última fecha del Brasileirao. Internacional, Gremio, Corinthians y Botafogo dependen de resultados propios y ajenos para evitar el descenso.",
-    "ai_generated_at": "2026-11-27T01:34:54.699411+00:00"
+    "ai_generated_at": "2026-11-27T01:34:54.699411+00:00",
+    "quality_hold": "not_sports_news"
   },
   {
     "id": "2ede5f9d2198792a786a",
@@ -22068,7 +22073,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T16:28:15.879167+00:00",
-    "status": "draft",
+    "status": "expired",
     "article_context": "Fernando Batista y su último paso como DT de Costa Rica. EFE.\nHay una búsqueda en River que tiene bastante menos exposición que la de un refuerzo para la Primera pero que, proyectada en el tiempo, puede resultar igual de trascendente. O incluso más. Porque encontrar al sucesor de Gabriel Rodríguez , el hombre que durante 27 años de trabajo en Núñez contribuyó a moldear futbolistas de elite mundial , supone también depositar en alguien la responsabilidad de abastecer de talento al plantel profesional durante los próximos años. Y en ese proceso apareció el nombre de Fernando Batista .\nYa se dieron al menos dos conversaciones con el último entrenador de la selección de Costa Rica , cuyo perfil, tanto por su formación como por su experiencia específica en el cargo, es el que más seduce por estas horas en la órbita de Núñez. Allí donde ya se está proyectando el River 2027, con Stéfano Di Carlo naturalmente a la cabeza pero también con Pablo Longoria , su director deportivo, involucrado en la logística y en el diseño de las estructuras futbolísticas que pretende consolidar el club.\nEl Bocha, de 56 años, tiene un currículum en el que quizás los nombres propios tengan tanto peso como los títulos. Porque, más allá de sus últimas experiencias como entrenador de Venezuela y de Costa Rica -de donde se desvinculó el 28 de septiembre luego de cinco derrotas y un empate- , Batista hizo de la formación de futbolistas su especialidad. Una vocación que heredó de su padre y que desarrolló bajo la influencia de José Pekerman , quien lo había dirigido en las Inferiores de Argentinos Juniors.\nPrecisamente en La Paternal, donde coordinó el fútbol juvenil entre 2005 y 2016, fue uno de los responsables de la formación de una de las camadas más importantes de la historia reciente del Bicho: Nicolás González, los tres hermanos Mac Allister (Alexis, Kevin y Francis), Damián Batallini y Esteban Rolón , entre otros. A los hijos del Colorado, de hecho, los conocía desde sus tiempos en el Club Parque y fue quien los llevó a Argentinos.\nPero hay también un punto de conexión entre Batista y algunos de los exponentes más exitosos de la cantera de River. Porque el Bocha, que formó parte del actual ciclo de Lionel Scaloni en la Selección Argentina al mando del Sub 20, dirigió a Julián Álvarez en el Mundial de la categoría que se jugó en Polonia en 2019 y convocó a Enzo Fernández para trabajar en Ezeiza a fines de 2020 , cuando el volante empezaba a despuntar en Defensa y Justicia. Dos pibes que terminarían siendo campeones del mundo y por cuya formación en Núñez había trabajado Gabriel Rodríguez. Curiosa coincidencia.\nColaborador de Claudio Ubeda en la Sub 20 durante 2017 y con una experiencia posterior en las juveniles de Armenia, Batista asumió a finales de 2018 la conducción de los seleccionados juveniles argentinos. Fue subcampeón sudamericano Sub 20 en Chile, ganó la medalla dorada en los Panamericanos de Lima 2019 y se consagró en el Preolímpico de Colombia 2020, clasificando a la Argentina para los Juegos de Tokio.\nPor sus seleccionados también pasaron futbolistas como Thiago Almada, Facundo Medina, Nehuén Pérez, Leonardo Balerdi, Francisco Ortega, Aníbal Moreno y Fausto Vera. Y en sus diferentes etapas de trabajo en la estructura de la AFA coincidió con otros futuros campeones del mundo: Gonzalo Montiel, Cristian Romero, Lisandro Martínez, Nahuel Molina, Exequiel Palacios y Lautaro Martínez.\nEl Bocha, que en noviembre de 2021 dejó la AFA para acompañar a Pekerman en Venezuela y que posteriormente asumió la conducción plena de la Vinotinto, podría reencontrarse ahora con la esencia de su profesión. River busca quién se encargue de pulir a los futbolistas que todavía no tienen nombre para el gran público , pero que algún día podrían terminar en las portadas de los diarios. Y Batista sabe bastante de eso...\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
@@ -22591,7 +22596,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T17:42:17.307740+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "article_context": "Los jugadores de Instituto dentro de la cámara hiperbárica.\nAsí como Goku se sumergía en aquella recordada cápsula médica en Dragon Ball Z para curar sus heridas a contrarreloj antes de la batalla contra el malvado Freezer, en Alta Córdoba apelaron a una receta científica similar -y real- para tratar de recuperar a dos de sus mejores figuras. Con el reloj corriendo rumbo a los cuartos del Clausura , Jeremías Lázaro y Alex Luna , las dos piezas ofensivas de Instituto que arrastran molestias físicas, usaron una cámara hiperbárica para acelerar los tiempos biológicos y tratar de decir presente en el duelo frente a River .\nEste martes, el entrenador Diego Flores había optado por blindar la información en el predio de La Agustina. Consultado ante los micrófonos, no quiso compartir detalles puntuales y decidió preservar para la intimidad del grupo el estado de sus lesionados. Sin embargo, más allá del misterio del Traductor, lo concreto es que ambos futbolistas vienen trabajando de manera diferenciada y por ahora no se baja del mata-mata ante el conjunto de Leonardo Ponzio .\nCon el foco puesto en realizar una optimización en su recuperación muscular, Lázaro y Luna se trasladaron hasta la clínica Eucalia , donde estuvieron acompañados por Matías Gallardo, uno de los hijos del Muñeco. Allí se sometieron al tratamiento bajo la supervisión del médico Esteban Cecatto , quien dejó un diagnóstico alentador para la Gloria: \"Creo que al sábado llegan muy bien\".\nLos propios protagonistas también mostraron su entusiasmo tras completar el procedimiento. \"Estuvo muy bueno y sirve para llegar en óptimas condiciones al partido y dar lo mejor\" , valoró Luna, una de las cartas más desequilibrantes del equipo. Y en la misma línea, Lázaro remarcó que \"vinimos para optimizar nuestro rendimiento en el campo de juego\".\nEl método elegido por los jugadores de Instituto es furor en el alto rendimiento, al punto de que estrellas como Cristiano Ronaldo tienen una propia instalada en su casa , y se utiliza de forma habitual en diferentes lesiones, ya sean fracturas o aspectos musculares.\nSu principio fisiológico es tan puntual como efectivo: el deportista ingresa en una cámara presurizada donde respira oxígeno al 100% a lo largo de sesiones de 60 minutos , sometido a una presión atmosférica que equivale a estar a unos 14 metros bajo el mar. Esa presión superior ayuda a que el oxígeno -que alcanza una cantidad mucho mayor en el plasma que cuando se respira aire común- se disuelva rápidamente en la sangre y llegue mejor a los tejidos dañados.\n¿El resultado? Genera un gran efecto analgésico que sirve para disminuir la inflamación aguda y el dolor , permite que los tejidos se regeneren más rápido y hace que la recuperación pueda demorar hasta la mitad del tiempo habitual. Una puesta a punto de otro a contrarreloj para recibir a River, mientras Flores tiene a mano a John Córdoba como reemplazo habitual de Lázaro y a Jonas Acevedo o Matías Tissera como alternativas de Luna.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
@@ -22626,7 +22631,8 @@
         "Instituto"
       ],
       "mentions": []
-    }
+    },
+    "quality_hold": "not_sports_news"
   },
   {
     "id": "d23a7d51c3ad859521c5",
@@ -23045,7 +23051,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T18:41:45.752350+00:00",
-    "status": "draft",
+    "status": "expired",
     "article_context": "Joy-Lance uno de los jugadores destacados del Sabah FK\nEl futbol suele regalar historias que desafían cualquier lógica, y la de Joy-Lance Mickels es una de las más sonaron en la quinta fecha de la Champions League . A sus 32 años, el atacante germano-ruandés se convirtió en tendencia por marcarle un gol ante el Barcelona con la camiseta del Sabah FK de Azerbaiyán.\nPese a que el encuentro en Bakú terminó en derrota por 4-1 pare el equipo local, su definición de zurda en el complemento representó un gran momento en su carrera, construida a base de resiliencia lejos de los grandes focos europeos.\nPara entender la dimensión de su noche europea hay que retroceder apenas siete años atrás. Tras formarse en las categorías inferiores del Borussia Mönchengladbach y pasar por el filial del Schalke 04 sin lograr debutar en la Bundesliga , el camino de Mickels se fue apagando en las categorías regionales de Alemania. En 2019, con 25 años y golpeado por una dura lesión de rodilla que frenó su progresión, terminó jugando en la Reserva del Wacker Nordhausen, en la NOFV-Oberliga, la Quinta División del fútbol alemán .\nLejos de rendirse cuando aquel club entró en bancarrota, Mickels inició un recorrido atípico que lo llevó a buscar oportunidades fuera de su país natal. Tuvo un breve paso por el Carl Zeiss Jena en la tercera categoría alemana antes de dar el salto al MVV Maastricht , de la Segunda División de los Países Bajos.\nFue recién en 2021 cuando encontró su lugar en el mundo al fichar por el Sabah FK de Azerbaiyán , club en el que se consolidó como figura . Tuvo un breve paso por el fútbol de Arabia Saudita con el Al-Faisaly FC en la temporada 2023-24, y en julio del 2024 volvió al club azerbaiyano donde finalmente encontró la regularidad que le había sido esquiva en su juventud.\nEl crecimiento sostenido en el fútbol azerbaiyano no solo le permitió ser pieza clave en la histórica clasificación del Sabah FK a la fase principal de la UEFA Champions League , sino que también le abrió las puertas del fútbol de selecciones. En marzo de 2026, gracias a las raíces por parte de su padre, debutó oficialmente con la selección nacional de Ruanda , estrenándose en la red en su primer encuentro internacional ante Granada y sumando un nuevo capítulo a su tardía explosión deportiva.\nLa recompensa máxima llegó este miércoles en el estadio de Bakú ante uno de los gigantes de Europa. Tras ingresar en el entretiempo en reemplazo de Khayal Aliyev con el marcador adverso, Mickels esperó su oportunidad hasta el minuto 63: presionó alto, aprovechó un error en la salida del conjunto blaugrana y definió con frialdad dentro del área ante el arquero Joan García.\nMás allá del resultado final, ese gol simbolizó el triunfo de la perseverancia de un futbolista que, en menos de una década, pasó de las canchas semi-amateurs de Alemania a escribir su nombre en la máxima competición de clubes del planeta.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
@@ -23106,7 +23112,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T18:51:51.916688+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "article_context": "Jugadora de Alemanina suspendida por 16 meses.(REUTERS/Stephane Mahe)\nUna noticia sacudió al fútbol femenino alemán a pocos días de su encuentro frente a la Selección Argentina . Laura Freigang, una de las 24 jugadoras que había sido citada por Christian Wuck para la doble fecha internacional, fue suspendida por 16 meses después de tres incumplimientos vinculados con los controles antidopaje.\nLa decisión fue comunicada este jueves por la Federación Alemana de Fútbol (DFB) y el Eintracht Frankfurt , club en el que la delantera de 28 años es capitana. El castigo se decidió mediante un acuerdo entre la futbolista, la Agencia Mundial Antidopaje (AMA), la Agencia Nacional Antidopaje Alemana (NADA) y la propia Federación.\nDe esta manera, aunque ya había sido puesta en duda por un cuadro gripal, Freigang quedó fuera de la actividad y no podrá participar del amistoso contra el conjunto de Germán Portanova , previsto para este domingo 29 de noviembre , a las 20.15, en la reinauguración oficial del Estadio Único Tricampeones del Mundo, en La Plata.\nLa jugadora nacida en Kiel, que es parte del grupo de deportistas sometidas a controles periódicos de la NADA desde octubre de 2024, acumuló tres incumplimientos de las obligaciones de localización entre el 11 de marzo de 2025 y el 23 de febrero de 2026 .\nEste sistema exige que los atletas informen con precisión dónde se encuentran y en qué horarios pueden ser sometidos a pruebas sorpresa. No presentarse o no estar disponible en el lugar declarado puede constituir una infracción antidopaje, incluso sin que exista un resultado positivo en un análisis.\nLa sanción establece 16 meses de inhabilitación de manera retroactiva desde el 8 de junio de 2026 , fecha en la que la DFB notificó formalmente a la jugadora. Por eso, Freigang podrá volver a competir a partir del 8 de octubre de 2027 y reincorporarse a los entrenamientos dos meses antes. De todos modos, será una baja para Alemania en el Mundial Femenino en julio de ese mismo año .\nLa última fecha FIFA del año, ante Uruguay y Alemania, será importante para Argentina, que ya tiene la mira puesta en la próxima Copa del Mundo femenina, prevista para 2027 en Brasil. El sorteo de la fase de grupos se realizará el 11 de diciembre en Río de Janeiro, mientras que el inicio del torneo está programado para mediados del próximo año.\nAntes de la competencia, los seleccionados tendrán otras tres ventanas internacionales para completar su preparación: una a fines de febrero, otra a mediados de abril y una última en la previa del Mundial.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
@@ -23136,7 +23142,8 @@
         "EintrachtFrankfurt"
       ],
       "mentions": []
-    }
+    },
+    "quality_hold": "not_sports_news"
   },
   {
     "id": "52aea03d91096c90d231",
@@ -23247,7 +23254,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T19:27:35.582151+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "article_context": "Santiago Beltrán en la práctica de River (Prensa River).\nMientras que en River aspiran a que su 2026 futbolístico no termine abruptamente en la penúltima medianoche de noviembre, en paralelo el club trabaja para finiquitar burocráticamente en las primeras horas de diciembre lo que en términos verbales está muy avanzado: la renovación del contrato de Santiago Beltrán . Que no será equivalente a una continuidad a largo plazo .\nAbordadas con una cautela hasta sepulcral, las tratativas por la prórroga del vínculo del arquero hasta diciembre de 2028 están muy próximas -ahora sí- de documentarse, con firma del pibe de 22 años que es hit principal del álbum de los grandes éxitos de River de esta temporada. Esa que el equipo de Leo Ponzio desea cerrar con un purificador título -y con el ticket a la Libertadores 27.\nCon Instituto por delante, otro mata-mata más en su breve carrera en la élite, la prioridad de ambas partes ha sido que Beltrán se mantenga enfocado en lo deportivo en un año que lo catapultó no sólo al arco más grande del mundo sino también a la Selección: desde que integró la lista preliminar del Mundial (fue parte del staff y se quedó más allá del debut ante Argelia en Kansas City) no dejó de formar parte de las convocatorias de Lionel Scaloni .\nUna temporada que atrajo, por caso, el interés de clubes que lo proyectan como opción a partir de junio . Como la Fiorentina , en donde David De Gea tiene contrato pero también una latente chance de emigrar en el mercado de verano UEFA. O la Juventus, que consultó condiciones hace unos meses. Son apenas dos de los varios sondeos que han ido llegando desde la irrupción de Superman a la Primera de River y a la órbita de la Mayor.\nEn Núñez son conscientes de que el pibe de 1,90 metro no estará para siempre. Que posiblemente reciba una propuesta seductora a corto plazo (¿enero?) para al menos evaluar una salida. La extensión brindará tranquilidad para poder sentarse a charlar. Aunque en paralelo, no se dejará de seguir estudiando alternativas para el arco .\nEs precisamente por eso que hace tiempo que comenzaron los contactos formales entre las oficinas del Monumental y el entorno de Yassine Bounou : el marroquí que está vinculado hasta el 2028 con el Al-Hilal, públicamente manifestó que quiere cumplir el anhelo de jugar en River . Y, por ende, podría hacer fuerza para interrumpir su ciclo en Arabia Saudita si la propuesta argentina lo tienta.\nEs cierto que la expectativa que genera la extensión del contrato de Beltrán es enorme. Tanto como que el viaje a Córdoba para ir en busca de las semifinales del Clausura es el primer ítem que figura en la agenda de Santiago.\nY es que en el Monumental de Alta Córdoba el juvenil que creció de golpe tendrá por delante una nueva serie mata-mata . Para dimensionar el rodaje que tuvo en River durante su primer año, hasta el momento Santiago disputó ocho cruces de eliminación directa (a ida y vuelta o a un solo partido), de los cuales ganó cinco con altísima responsabilidad en las victorias. En especial, las que se dieron por penales.\nDesde su primera prueba en Copa Argentina (1-0 ante Ciudad de Bolívar, todavía con Marcelo Gallardo en el banco) hasta estos cuartos de final del Clausura pasaron la victoria ante San Lorenzo (salvó el match point en contra al contenerle un tiro a Gregorio Rodríguez y luego atajó el remate de Mathias de Rittis), las fases superadas ante Gimnasia y Central antes de la caída ante Belgrano en la final del Apertura, la derrota frente a Aldosivi, la enorme performance que no logró evitar la caída por penales ante Independiente Santa Fe ni siquiera desviando tres (Emmanuel Olivera, Jhojan Torres y Jeison Angulo; él falló el suyo y fue consolado por el Monumental) y el triunfo ante Lanús.\nBeltrán va por más. Porque quizás sabe que este torneo podría representar algo más en su carrera : si durante el verano se da un éxodo, ya no habrá otra chance de ponerse el buzo. Ni de tener las tapadas que le valieron el elogio y la bendición nada menos que de Ubaldo Matildo Fillol .\nY es que ni siquiera una renovación será garantía de más atajadas suyas, al menos no por mucho tiempo.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
@@ -23279,7 +23286,8 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-27T01:27:27.362596+00:00"
+    "photo_checked_at": "2026-11-27T01:27:27.362596+00:00",
+    "quality_hold": "not_sports_news"
   },
   {
     "id": "1bad0f768231c22a0c3e",
@@ -23292,7 +23300,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T19:27:35.582151+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -23318,7 +23326,8 @@
         "SantiagoBeltran"
       ],
       "mentions": []
-    }
+    },
+    "quality_hold": "not_sports_news"
   },
   {
     "id": "a2f8386ab345d30f8623",
@@ -23605,7 +23614,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T20:12:14.339355+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "article_context": "Coach Claudio Ubeda of Argentina's Boca Juniors reacts during a Copa Libertadores Group D soccer match against Chile's Universidad Catolica in Buenos Aires, Argentina, Thursday, May 28, 2026. (AP Photo/Gustavo Garello)\nCentral Córdoba está en la búsqueda de su próximo entrenador tras la salida anticipada de Sebastián Domínguez. En las últimas horas, parecía concretarse la llegada de Claudio Úbeda tras su fugaz paso por Boca . Sin embargo, el interés de un gigante sudamericano como Emelec de Ecuador parece haber frenado las negociaciones entre el Sifón y el Ferroviario.\nEl entrenador de 57 años tomó las riendas del Xeneize , tras el fallecimiento de Miguel Ángel Russo, a fines de octubre del año pasado. Tras un comienzo que parecía prometedor, la dolorosa derrota ante Racing en la semifinal del Torneo Clausura puso en el ojo de la tormenta a Úbeda por el cambio llamativo de Ezequiel Zeballos, una de las figuras de Boca aquella tarde y la eliminación en fase de grupos de este año ante Universidad Católica en la Bombonera decretó su salida como entrenador de Boca.\nEl elenco santiagueño cerró una de sus peores temporadas desde que está en Primera División . Bajo el ciclo de Sebastián Domínguez , el Ferroviario comenzó con dos triunfos en los primeros tres encuentros y parecía mejor el presente del equipo con respecto al discreto papel en el Torneo Apertura . Sin embargo, volvió a caer en un pozo que no pudo salir y que terminó el 2026 con doce partidos al hilo sin victorias.\nAhora, ya sin competencias en juego, la dirigencia santiagueña buscará cerrar cuanto antes al sucesor para encarar la pretemporada y renovar un plantel golpeado.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
@@ -23639,7 +23648,8 @@
       "mentions": []
     },
     "photo_checked_at": "2026-11-27T01:27:03.788162+00:00",
-    "portrait_info": null
+    "portrait_info": null,
+    "quality_hold": "not_sports_news"
   },
   {
     "id": "bc46b23edf8548605c19",
@@ -23800,7 +23810,7 @@
     "sport": "FUTBOL",
     "score": 33,
     "queued_at": "2026-11-26T20:48:17.743524+00:00",
-    "status": "draft",
+    "status": "expired",
     "article_context": "Leila Pereira, presidenta de Palmeiras en la consagración del Brasileirao 2023. (REUTER)\nA dos días de la final de la Copa Libertadores ante Estudiantes , una noticia sacudió al mundo Palmeiras . Leila Pereira, presidenta del conjunto brasileño y una de las dirigentes más influyentes del fútbol sudamericano, confirmó que dejará su cargo en diciembre de 2027 , cuando finalice su segundo mandato. En esta sintonía la mandamás brasileña dio una rueda de prensa desde Montevideo.\nA solo dos días de la gran final de la Copa Libertadores ante Estudiantes , Pereira ya se encuentra en Montevideo para acompañar a su equipo, en ese contexto participó de una rueda de prensa, en la que reconoció que no tiene intención de continuar más allá del 2027 : \"Es inteligente saber cuándo llega el final\" y sentenció \"creo que en 2027 termina mi ciclo en Palmeiras\" .\nMás adelante, la propia Leila habló sobre el partido contra Estudiantes y remarcó la importancia de alcanzar la final : \"El año pasado no fue un año perdido. Ser subcampeón no es una derrota \", y continuó: \"Es imposible ganar todo, somos optimistas, pero puede que no ocurra. Estamos preparados para ganar. Si no llega, no considero que haya sido un año perdido. Lucharemos con todas nuestras fuerzas.”\nFinalmente, la presidenta finalizó la rueda de prensa con una fuerte banca hacia el entrenador Abel Ferreira , a quien defendió y confirmó para 2027 sin importar los resultados en las próximas finales: \"Tendremos el mismo entrenador, el mismo director de futbol, el trabajo va a continuar\".\nPor otro lado, Leila también se comunicó con los hinchas mediante sus redes sociales. Desde allí, publicó un video en el que hizo hincapié en estar muy orgullosa de que Palmeiras esté nuevamente en una final , y agregó: \"Todo va a salir bien\".\nLeila Pereira, presidenta de Palmeiras, dejó un mensaje para los hinchas del Verdao en sus redes sociales. (leilapereiralp)\nAdemás, en el mismo video, envió un mensaje especial de agradecimiento a los hinchas que acompañan a Palmeiras en Montevideo y los calificó como \"la mejor hinchada de Brasil, la mejor hinchada del mundo\". Todo esto, solo horas después de anunciar que no continuará al frente del equipo paulista .\nEn el marco del Summit CBF Academy, un evento realizado en San Pablo, Pereira explicó que no tiene intenciones de continuar al frente del Verdao . Si bien algunos consejeros le habían planteado la posibilidad de modificar el estatuto del club para permitirle un tercer mandato, la empresaria descartó esa alternativa y aseguró que considera cumplida su etapa en la institución .\nAunque su intención inicial es volver a dedicarse a sus empresas, la dirigente reconoció que le gustaría mantenerse vinculada al fútbol. Y, en ese sentido, dejó abierta la posibilidad de trabajar en otro equipo brasileño a partir de 2028 , siempre y cuando reciba una propuesta que le permita seguir aportando al desarrollo del deporte en su país.\nUno de los clubes que surgió alrededor de esta posibilidad fue Vasco da Gama, debido a que Marcos Lamacchia, su hijastro, está involucrado en la adquisición de la Sociedad Anónima del Fútbol (SAF) del conjunto carioca. En rueda de prensa, Pereira declaró \"el Vasco siempre fue un aliado\". Sin embargo, negó tener participación en la operación y aclaró que, hasta el final de su mandato, estará completamente abocada a Palmeiras .\nEn diciembre de 2021, Pereira asumió como la primera mujer en presidir el club y, tres años más tarde, consiguió la reelección. Desde entonces, el primer equipo masculino levantó ocho trofeos: cuatro Campeonatos Paulistas, dos Brasileiraos, una Recopa Sudamericana y una Supercopa de Brasil. Si se tienen en cuenta el fútbol femenino y las divisiones inferiores, la cifra asciende a 48 títulos en 55 finales disputadas .\nAhora, con poco más de un año por delante al frente de la institución, Pereira tendrá la oportunidad de conquistar su primera Copa Libertadores como presidenta este sábado. El Verdao viene de perder en la final de la Copa Libertadores 2025 frente a Flamengo, y este año buscará la revancha cuando se enfrente a Estudiantes en el estadio Centenario de Montevideo.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
@@ -24090,7 +24100,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T21:27:52.301582+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "article_context": "El entrenador de la Gloria busca romper la mala racha contra River.\nInstituto se prepara para un duelo que puede hacer historia . Un cara a cara con el River de Leonardo Ponzio que puede determinar la clasificación a la semifinal del torneo Clausura . Tras una campaña que ya tiene mucho de épica, soñar con el título es lo que le falta a Diego Flores para consagrarse. Para esto, el Millonario deberá visitar Alta Córdoba este sábado a las 22. Aunque enfrente habrá un rival que deseará vencerlo. Por varias razones.\nY es que hay una estadística que puede preocupar entre la gente de la Gloria. Una racha negativa que viene acarreando hace casi 40 años. Instituto no le gana un duelo oficial a River desde 1987: en el campeonato de Primera División de ese, Instituto le ganó a River sus dos partidos , por 3-2 y 4-1. Sin saber, La Gloria, que ese sería el comienzo de una racha negativa que se extiende hasta hoy .\nA partir de esa fecha, se enfrentaron en seis ocasiones, en tres campeonatos consecutivos previo al descenso en 1990. En estas, el Millo sumó cuatro victorias y solo dos empates. Luego, en su vuelta a la máxima categoría del fútbol argentino en la temporada 99/00, volvieron a enfrentarse y el equipo de la banda volvió a ganar, en ambas oportunidades .\nEse año, los de Córdoba volverían a descender y deberían esperar hasta 2004 para volver a jugar con River. Desde ese partido, hasta 2006, jugaron seis duelos. Todos culminaron con los tres puntos a favor del CARP .\nTras un bache de cinco años en la segunda categoría, el descenso de River abrió las puertas a dos nuevos enfrentamientos, pero Instituto sumó un empate y una derrota frente a los de Núñez. Su siguiente cruce sería un mata-mata, en la 2da ronda de la Copa Argentina de 2016/2017. Pero también hubo victoria de River: 4-1 .\nFinalmente, después de volver a la primera división en 2022, y hasta la fecha, disputaron otros seis encuentros. La Gloria logró rescatar un solo punto de los 18 posibles .\nPor su parte, Diego FLores se enfrentó dos veces a River : fue como DT de Godoy Cruz y de Gimnasia, en ese orden. En ambas ocasiones, Diego perdió 3-0 , una en 2023 con el Tomba y la otra en 2025 con el Lobo.\nCon una marca que se extiende hace 38 años, Flores deberá romper el maleficio y luchar por hacer historia en Córdoba. Siendo el único equipo de esa provincia en pie, y enfrentándose a uno de los grandes del país, todo Instituto sueña con llegar a semis y se ilusiona con cerrar con broche de oro una campaña única. \"Con el cuchillo entre los dientes\", dijo el DT .\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "visual_entities": {
       "personas": [],
@@ -24131,7 +24141,8 @@
       "mentions": []
     },
     "buffer_tiktok_error": "provider_failure",
-    "buffer_youtube_error": "daily_limit"
+    "buffer_youtube_error": "daily_limit",
+    "quality_hold": "not_sports_news"
   },
   {
     "id": "e0112ad0d2b3b16c7584",
@@ -24173,7 +24184,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T21:31:07.695097+00:00",
-    "status": "draft",
+    "status": "expired",
     "article_context": "Los ex Boca que buscarán dar el golpe con Gimnasia.\nEl cruce a partido único de este domingo, a las 20.30, entre Boca Juniors y Gimnasia de La Plata tendrá un condimento especial. Porque además de que el Lobo llega con un invicto de 11 partidos, cuenta en su plantel con seis futbolistas con pasado en el Xeneize que buscarán hacer valer la ley del ex.\nCuatro de ellos son Lucas Jansson, Ignacio Miramón, Pedro Silva Torrejón y Marcelo Torres, que fueron titulares en la victoria por 4-2 ante Newell's , por los octavos de final, pero en el plantel también se encuentran Renzo Giampaoli, que ingresó desde el banco, y Maximiliano Zalazar, que es otra alternativa en ataque.\nLucas Janson: Es uno de los nombres más recientes y reconocidos de esta lista. Llegó a Boca en 2023, procedente de Vélez, pero no logró la continuidad que esperaba. A comienzos de 2026 salió a préstamo rumbo a La Plata, donde recuperó protagonismo. En el último encuentro ante Newell's se destacó con una asistencia de taco.\nIgnacio Miramón: El mediocampista regresó al fútbol argentino a mediados de 2024 para vestir la camiseta azul y oro, a préstamo desde el Lille de Francia. Después de un paso irregular por el club de La Ribera, que terminó a fines de 2025, volvió a Gimnasia, en donde se formó. Hoy es una pieza importante en el mediocampo tripero.\nMarcelo Chelo Torres: Aunque no llegó a debutar oficialmente en la Primera de Boca, el delantero fue una de las grandes apariciones de las Inferiores xeneizes. Además, se destacó como goleador de la Reserva dirigida por Rolando Schiavi entre 2016 y 2017. Luego de un recorrido por el exterior y distintas categorías del fútbol argentino, encontró continuidad en el Bosque y se convirtió en una alternativa de gol.\nRenzo Giampaoli: Formado en el club y capitán de la Reserva, debutó en la Primera de Boca en mayo de 2021, durante el ciclo de Miguel Ángel Russo. Sin demasiadas oportunidades en el plantel profesional, acumuló distintas experiencias a préstamo hasta llegar a Gimnasia en 2026. Allí busca ganarse un lugar en la defensa.\nPedro Silva Torrejón: El lateral surgió de las Inferiores xeneizes y llegó a disputar dos partidos oficiales en Primera durante 2016, frente a Argentinos Juniors y Huracán, bajo la conducción de Guillermo Barros Schelotto. Actualmente, es una de las opciones habituales del equipo platense por la banda izquierda.\nMaximiliano Zalazar: Otro futbolista surgido de Boca Predio. Tuvo su estreno en la máxima categoría en septiembre de 2022, frente a Lanús, y después pasó por varios préstamos en busca de continuidad. Ahora integra el plantel tripero y aparece como una alternativa para el frente de ataque.\nEl Xeneize atraviesa un gran presente y defiende un invicto de 16 partidos en el ámbito local. En los octavos dejó afuera a Independiente Rivadavia con un triunfo por 2-0, gracias a los goles de Leandro Paredes, de penal, y Miguel Merentiel. Además, llega con el impulso anímico de haberse consagrado campeón de la Tabla Anual y la Copa Sudamericana .\nSin embargo, el cuerpo técnico deberá administrar las cargas físicas: apenas tres días después, el miércoles 2 de diciembre, disputará la final de la Copa Argentina contra Platense .\nPor su parte, Gimnasia llega en uno de sus mejores momentos del semestre. Acumula 11 encuentros sin conocer la derrota y viene de dar un golpe importante en los octavos de final, donde superó 4-2 a Newell's. Con confianza y una ofensiva que llega encendida, el Lobo buscará aprovechar el desgaste de su rival y dar el golpe en la Bombonera para meterse entre los cuatro mejores.\nCon todo esto, los ex Boca buscarán su revancha y amargarle la noche al Xeneize, mientras que el equipo de La Ribera intentará extender su gran presente y seguir avanzando en la competencia.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
@@ -24324,7 +24335,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T22:17:12.860107+00:00",
-    "status": "draft",
+    "status": "expired",
     "article_context": "La Reserva de Boca dio otro paso firme en el Torneo Clausura. En la Villa Olímpica, el equipo de Mariano Herrón goleó 4-0 a Vélez por los cuartos de final y se clasificó a las semifinales donde espera por el ganador de Independiente o Gimnasia de Mendoza.\nEl Xeneize llegó a Liniers con confianza después de haber conseguido el pasaje a los playoffs con un contundente 3-0 ante Lanús. Y volvió a demostrar que está para cosas importantes. Ante un rival que había terminado segundo en su zona, Boca fue contundente y no dejó dudas.\nLa gran figura de la tarde fue Rodrigo Bacidalupe, autor de dos de los cuatro tantos . El delantero apareció por duplicado para encaminar la goleada y convertirse en uno de los protagonistas de una victoria clave. Joaquín Piñeyro también tuvo su tarde soñada: marcó los otros dos goles y completó el póker xeneize.\nCon dos dobletes, Boca construyó una diferencia contundente y resolvió la serie sin dejar lugar a dudas. El equipo de Herrón mostró eficacia en ataque, mantuvo el arco en cero y dio una nueva muestra de carácter en una instancia de eliminación directa.\nDespués de haber superado a Lanús en los octavos de final, la Reserva volvió a responder ante un rival exigente. Esta vez fue Vélez el que sufrió el poder de fuego del Xeneize, que ya está entre los cuatro mejores del campeonato.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
@@ -24904,7 +24915,7 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-26T22:46:11.020489+00:00",
-    "status": "draft",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -25345,7 +25356,7 @@
     "crosspost_attempt_at": "2026-11-27T12:16:22.371209+00:00",
     "youtube_attempt_at": "2026-11-27T12:16:22.371209+00:00",
     "tiktok_attempt_at": "2026-11-27T12:16:22.371209+00:00",
-    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_status": "published",
     "zernio_tiktok_id": "6b097517838759873dcb0a35",
     "buffer_youtube_status": "error",
     "buffer_youtube_id": "6b09751c776ce21276165cb7",
@@ -25363,7 +25374,8 @@
     "publish_format": "reel",
     "format_attempt_at": "2026-11-27T12:16:22.371209+00:00",
     "posted_at": "2026-11-27T12:16:22.371209+00:00",
-    "instagram_media_id": "18033478418914191"
+    "instagram_media_id": "18033478418914191",
+    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712824644666952980"
   },
   {
     "id": "2933e986cd0b14cc5e72",
@@ -25455,7 +25467,7 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-27T12:16:22.371209+00:00",
-    "status": "draft",
+    "status": "needs_review",
     "visual_subject": "",
     "visual_entities": {
       "personas": [
@@ -25480,7 +25492,8 @@
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "quality_hold": "unverified_numeric_score"
   },
   {
     "id": "2164e1ced4f2f7d28ace",
@@ -25493,11 +25506,43 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-27T12:16:22.371209+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Luka Dončić",
+    "visual_entities": {
+      "personas": [
+        "Luka Dončić"
+      ],
+      "clubes": [
+        "Dallas Mavericks",
+        "Los Angeles Lakers"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Los Angeles",
+        "Dallas"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Luka Dončić llega a los Lakers y ya juega a nivel MVP",
+    "caption": "Luka Dončić, tras su sorprendente traspaso del Dallas Mavericks al Los Angeles Lakers, está rindiendo a nivel MVP. El equipo, tras una reforma de plantilla y una intensa unión en pretemporada, se perfila como candidato a contender.",
+    "ai_generated_at": "2026-11-27T12:21:18.410128+00:00",
+    "photo_checked_at": "2026-11-27T12:22:20.316493+00:00",
+    "portrait_info": null,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "NBA",
+        "LukaDoncic",
+        "DallasMavericks",
+        "LosAngelesLakers"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "0cba5fa62907324e904d",
@@ -25510,11 +25555,31 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-27T12:16:22.371209+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Pilotos de F1 usan Kahoot! para debatir comisarios",
+    "caption": "Los pilotos participaron en la cumbre anual de la FIA y respondieron un concurso online Kahoot! para expresar su opinión sobre la consistencia de los comisarios. El ejercicio buscó recoger un amplio abanico de puntos de vista en medio de un debate que suele polarizar entre una minoría ruidosa y los que prefieren no involucrarse.",
+    "ai_generated_at": "2026-11-27T12:21:18.410128+00:00",
+    "photo_checked_at": "2026-11-27T12:22:21.740311+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Formula1"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "9a3158320c70b5ca988f",
@@ -25544,6 +25609,180 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-27T12:16:22.371209+00:00",
+    "status": "needs_review",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "article_context": "Carles Manso, DT de Andorra en conferencia de prensa.\nA casi un mes de la tragedia que sacudió al fútbol español, Jesús Owono dio un nuevo paso en su recuperación. El arquero de Andorra retomó algunas de sus actividades habituales luego del fallecimiento de Jesús de Miguel , delantero de Tenerife que murió luego de chocar accidentalmente con él en la cancha. Por lo tanto, desde el cuerpo técnico se pronunciaron sobre su situación.\n“ Está intentando volver a la normalidad, si se puede decir así ”, expresó Carles Manso, quien reconoció que el regreso a las prácticas colectivas dependerá de la evolución personal del jugador y del trabajo que realiza junto a los profesionales que lo acompañan .\nEl futbolista de Guinea Ecuatorial volvió a entrenarse de manera individual. Además, el viernes 20 de noviembre hizo su primera aparición pública tras lo ocurrido , durante el encuentro frente al Leganés en el Nou Estadi de la FAF de Encamp, correspondiente a la fecha 15 de la Segunda División de España.\nSin embargo, todavía no existen plazos establecidos para su reincorporación al plantel . Carles Manso, referente del cuerpo técnico del conjunto vinculado a Gerard Piqué y Jaume Nogués, explicó cómo transita Jesús estas semanas y destacó la importancia del acompañamiento psicológico.\n\"No sé cuándo volverá a estar con el grupo. Este es un proceso que él está haciendo con los psicólogos . Él necesitaba salir de casa y volver a esta vida que llevaba desde pequeñito, es decir, entrenando, moviéndose y que le toque el aire\", explicó el entrenador.\nEn esa misma línea, Manso detalló los motivos por los cuales decidió ejercitarse por su cuenta: \"Él ha decidido entrenarse en solitario y está intentando tener sensaciones y confianza después de esta desgracia que le ha tocado vivir. Es un proceso sobre el cual él ya nos dirá cómo se va sintiendo. Eso sí, nos pone muy contentos verle por aquí \".\nLa tragedia tuvo lugar el 2 de noviembre, durante el enfrentamiento entre Andorra y Tenerife por el campeonato de ascenso. Un choque entre el arquero y Jesús de Miguel derivó en el fallecimiento del atacante horas más tarde.\nTras aquel episodio, el ecuatoguineano recibió una sanción de 12 partidos de suspensión , de los cuales ya cumplió uno. Más allá del castigo deportivo, su regreso a la competencia también estará condicionado por el proceso de recuperación emocional que atraviesa.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "Jesús de Miguel"
+      ],
+      "clubes": [
+        "Andorra"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Jesús Owono entrena solo tras la muerte de Jesús de Miguel",
+    "caption": "El arquero ecuatoguineco retomó entrenamientos individuales después del trágico choque que cobró la vida del delantero Jesús de Miguel. Su primera aparición pública fue durante el partido contra el Leganés en el Nou Estadi de la FAF de Encamp, y su regreso al grupo dependerá de su evolución personal y apoyo psicológico.",
+    "ai_generated_at": "2026-11-27T12:21:18.410128+00:00"
+  },
+  {
+    "id": "7068389088079e26ca4a",
+    "title": "Qué cambiará en el fútbol argentino tras la sanción de la Ley de Prevención de la Ludopatía",
+    "source_url": "https://www.ole.com.ar/informacion-general/ley-ludopatia-futbol-argentino-cambiara_0_CcWQ85MCph.html",
+    "source": "Olé Argentina",
+    "description": "El Senado aprobó por unanimidad el proyecto que, entre otros puntos, prohíbe el patrocinio de casas de apuestas en entidades deportivas.",
+    "published_at": "2026-11-27T10:48:24+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-27T12:21:18.410128+00:00",
+    "status": "needs_review",
+    "article_context": "Votación contra la Ludopatía en Senado. Foto: Federico Lopez Claro\nLa sanción de la Ley de Prevención de la Ludopatía y Regulación de los Juegos de Azar y Apuestas en Línea alcanzó al fútbol argentino y obligará a club como Boca y River a modificar acuerdos comerciales.\nEl Senado aprobó por unanimidad el proyecto, que prohíbe el patrocinio y la publicidad de casas de apuestas en el deporte. De esta manera, tanto los canales de televisión que emiten los partidos como los clubes, la AFA , la Liga Profesional y la Selección Argentina no podrán auspiciar con este sector.\nEl alcance de la restricción no se limita únicamente a entidades: también se extiende a figuras y comunicadores. La prohibición apunta a futbolistas, entrenadores, ex futbolistas, árbitros, periodistas deportivos e influencers. Por lo tanto, ninguno de los antes mencionados podrá protagonizar campañas publicitarias ni difundir códigos promocionales o promover plataformas de apuestas a través de medios tradicionales y redes sociales.\nAunque ya cuenta con sanción definitiva del Congreso, la prohibición no se aplica de forma automática. El Poder Ejecutivo dispone de un plazo de diez días hábiles para promulgar la norma y publicarla en el Boletín Oficial, instancia a partir de la cual entrará formalmente en vigencia.\nDesde entonces, el Gobierno tendrá hasta 120 días para completar su reglamentación y definir los mecanismos de control y adecuación para los contratos publicitarios vigentes en clubes, estadios y señales televisivas.\nAmbos clubes exhiben marcas de apuestas deportivas en sus camisetas, en la cartelería de sus estadios y en la vía pública. Además, incorporan los logos de las marcas en piezas gráficas que difunden a través de redes sociales. Por lo tanto, con la vigencia de la restricción, esos espacios deberán reconfigurarse y dejar de funcionar como vitrina de plataformas de juego.\nEl alcance de la medida también se proyecta sobre la estructura institucional y los seleccionados nacionales. Aunque la camiseta de Argentina no lleva el nombre de una casa de apuestas, la Asociación del Fútbol Argentino y la Liga Profesional incluyen este tipo de marcas en sus plataformas digitales, en los banners dispuestos durante conferencias de prensa y en pautas publicitarias televisivas. Por ende, también deberán reemplazarlos.\nLas señales televisivas encargadas de emitir los encuentros integran hoy diversas firmas vinculadas a las apuestas deportivas, tanto dentro de su programación habitual como durante la televisación de los partidos.\nA partir de la reglamentación y los plazos de adecuación previstos por la norma, clubes, organismos rectores y medios deberán redefinir fuentes de financiamiento y espacios publicitarios sin depender de este rubro.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Senado aprueba ley que prohibirá apuestas en el fútbol argentino",
+    "caption": "El Senado aprobó por unanimidad la Ley de Prevención de la Ludopatía, que prohíbe el patrocinio y la publicidad de casas de apuestas en el fútbol argentino. La norma obligará a clubes como Boca y River, a la AFA, a la Liga Profesional y a los medios a retirar esos anuncios, mientras el Ejecutivo tiene diez días para promulgarla y 120 para reglamentarla.",
+    "ai_generated_at": "2026-11-27T12:21:18.410128+00:00"
+  },
+  {
+    "id": "340af565625916d0ce3e",
+    "title": "Clashes mar European games as Macron condemns violence",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/c69q8y5x03ywo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Violent clashes mar a number of European football matches on Thursday night, with French president Emmanuel Macron condemning trouble at Marseille's home game against Levski Sofia.",
+    "published_at": "2026-11-27T10:24:24+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-27T12:21:18.410128+00:00",
+    "status": "needs_review",
+    "visual_subject": "Emmanuel Macron",
+    "visual_entities": {
+      "personas": [
+        "Emmanuel Macron"
+      ],
+      "clubes": [
+        "Levski Sofía"
+      ],
+      "competicion": [
+        "European football"
+      ],
+      "ciudad": [
+        "Sofía"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Macron condena violencia en el partido de Marsella vs Levski",
+    "caption": "Violentas protestas empañaron varios encuentros de fútbol europeo el jueves por la noche, entre ellos el duelo de Olympique de Marsella contra Levski Sofía. El presidente francés, Emmanuel Macron, denunció los incidentes y pidió mayor seguridad en los estadios.",
+    "ai_generated_at": "2026-11-27T12:21:18.410128+00:00"
+  },
+  {
+    "id": "8ed43416c2efbd5801cb",
+    "title": "Rayos X de los pibes en la Liga Profesional 2026: quién usa más juveniles, el uno por uno de cada club y cuánto pesan en sus equipos",
+    "source_url": "https://www.ole.com.ar/futbol-primera/rayos-x-pibes-juveniles-liga-profesional-informe-ole_0_2KgjkWznrb.html",
+    "source": "Olé Argentina",
+    "description": "Olé hizo un relevamiento sobre cuánto lugar le dieron durante el año a sus pibes los 30 equipos de Primera. Hubo un líder sorpresa, un grande que les ganó a todos los demás y un equipo que no puso a ningún juvenil de la casa.",
+    "published_at": "2026-11-27T10:14:20+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-27T12:21:18.410128+00:00",
+    "status": "awaiting_ai"
+  },
+  {
+    "id": "d571b6f48c244489110b",
+    "title": "Can Borussia Dortmund finally end their title wait? Three big questions for Bundesliga leaders",
+    "source_url": "https://www.theguardian.com/football/2026/nov/27/borussia-dortmund-bundesliga",
+    "source": "The Guardian",
+    "description": "Niko Kovac’s team lead the way and, with Bayern Munich wounded, have a golden chance to be German champions for the first time in 15 years Borussia Dortmund’s dreams have a habit of becoming nightmares, like when they somehow handed Bayern Munich the Bundesliga title on the final day of the 2022-23 season. Or when an 89th-minute Arjen Robben goal won the 2013 Champions League final for the same opponents. Whenever Dortmund suffer heartbreak, it usually involves Bayern. As things stand, however, Niko Kovac’s side hold a two-point lead over Bayer",
+    "published_at": "2026-11-27T10:00:01+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-27T12:21:18.410128+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "78a6037d3849a7031515",
+    "title": "Tarik Muharemovic: ‘Dad is at every Leeds game. I sometimes hear him shouting from the stands’",
+    "source_url": "https://www.theguardian.com/football/2026/nov/27/tarik-muharemovic-leeds-bosnia-dad-parents",
+    "source": "The Guardian",
+    "description": "Bosnia centre-half on learning from Chiellini and Bonucci, his club’s European ambitions and the debt he owes his refugee parents Tarik Muharemovic is proving one of the best signings of this Premier League season and there will be special resonance when his upwardly mobile Leeds side host Coventry on Saturday. Whereas Muharemovic’s father, Rasim, has been a matchday regular since the defender’s £34.1m move from Sassuolo, his mother, Elmedina, will watch her son play for Leeds for the first time. Continue reading...",
+    "published_at": "2026-11-27T09:57:44+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-27T12:21:18.410128+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "0380417fb4b6b80b5f29",
+    "title": "Liam Delap’s struggles are symbolic of damaging Chelsea churn",
+    "source_url": "https://www.theguardian.com/football/2026/nov/27/liam-delap-struggles-damaging-chelsea-churn",
+    "source": "The Guardian",
+    "description": "The constant turnover of players and staff has made consistency an elusive quality at Stamford Bridge Liam Delap came and went. He joined Chelsea in the summer of 2025 and was hailed by Enzo Maresca as the next Harry Kane. Fast forward a year, though, and there was no chance of Delap joining Kane in England’s World Cup squad. The striker’s form was miserable and the only surprise was that Chelsea made a profit when they sold him to Nottingham Forest for £50m last summer. On one level it looks like good business. Delap’s only season at Stamford ",
+    "published_at": "2026-11-27T08:00:57+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 25,
+    "queued_at": "2026-11-27T12:21:18.410128+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "6c12b32aa5a6f3d39d44",
+    "title": "Is it time to sell Haaland? - FPL gameweek 12 dilemmas",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/cjvg2w35rn63o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "BBC Sport's Fantasy Premier League expert Holly Shand gives her answers to some of the biggest dilemmas facing managers in gameweek 12.",
+    "published_at": "2026-11-27T06:58:33+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 25,
+    "queued_at": "2026-11-27T12:21:18.410128+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "15ad1658e83e44d861f2",
+    "title": "Carlé ganó el duelo albiceleste ante Podoroska y avanzó a cuartos del WTA Argentina Open",
+    "source_url": "https://www.ole.com.ar/tenis/carle-gano-duelo-albiceleste-podoroska-metio-cuartos-wta-argentina-open_0_yGKF4mKrsR.html",
+    "source": "Olé Argentina",
+    "description": "La bonaerense se impuso en sets corridos en un duelo muy parejo ante la rosarina y se metió entre las ocho mejores del certamen.",
+    "published_at": "2026-11-27T00:28:04+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 25,
+    "queued_at": "2026-11-27T12:21:18.410128+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
