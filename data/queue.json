@@ -25590,7 +25590,7 @@
     "headline": "Pilotos de F1 usan Kahoot! para debatir comisarios",
     "caption": "Los pilotos participaron en la cumbre anual de la FIA y respondieron un concurso online Kahoot! para expresar su opinión sobre la consistencia de los comisarios. El ejercicio buscó recoger un amplio abanico de puntos de vista en medio de un debate que suele polarizar entre una minoría ruidosa y los que prefieren no involucrarse.",
     "ai_generated_at": "2026-11-27T12:21:18.410128+00:00",
-    "photo_checked_at": "2026-11-27T12:22:21.740311+00:00",
+    "photo_checked_at": "2026-11-27T12:45:40.810651+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -26184,5 +26184,242 @@
     "buffer_youtube_id": "6b09790d049983dcfbbc0551",
     "buffer_youtube_error": "daily_limit",
     "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712828912551709959"
+  },
+  {
+    "id": "7949f67829464c57a172",
+    "title": "Quién es Fabricio Pérez, el juvenil que le ganaría la pulseada a Edwuin Cetré por un lugar en la final de la Libertadores",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/libertadores/estudiantes-plata-fabricio-perez-copa-libertadores_0_HLJ7VkNmPm.html",
+    "source": "Olé Argentina",
+    "description": "La roja a Baltasar Rodríguez en la semifinal contra Flamengo obligó al Cacique a buscar recambio para enfrentar a Palmeiras. Hoy, el juvenil corre con ventaja sobre el colombiano.",
+    "published_at": "2026-11-27T12:35:19+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-27T12:44:42.932636+00:00",
+    "status": "draft",
+    "article_context": "Fabricio Pérez se perfila como titular para la final ante Palmeiras.\nLa tarjeta roja que recibió Baltasar Rodríguez apenas comenzado el segundo tiempo ante Flamengo en el Maracaná obligó a Alexander Medina a encontrarle un reemplazante para la final de la Copa Libertadores . Así, la expulsión del volante dejó un hueco en el mediocampo que asoma como la única duda del Cacique a solo tres días de la ansiada definición ante Palmeiras , para la que ya tiene diez de los once nombres prácticamente definidos.\nEn esa línea, si bien en un principio se habló de un posible ingreso de Edwuin Cetré, quien hoy corre con ventaja para ir de la partida es Fabricio Pérez . El juvenil de 20 años podría tener una oportunidad inmejorable en el partido más importante de su todavía corta carrera, con características similares a Rodríguez y que permitirían mantener el funcionamiento colectivo. Y aunque recién empieza a dar sus primeros pasos en Estudiantes , su vínculo con el Pincha ya tiene varios capítulos y hasta una anécdota particular con uno de los máximos ídolos de la institución: Juan Sebastián Verón .\nEl primer encuentro entre ambos no se dio en una cancha ni en un entrenamiento, sino en una reunión familiar : “Lo conocí en un cumpleaños que fui con un amigo, que es su cuñado. Me preguntó por qué no estaba haciendo goles en Reserva y me dio un par de consejos”, contó Fabricio. La Brujita fue más allá e incluso les ofreció incluso llevarlo a la casa: “Verón nos dijo a mí y a mi amigo, que también juega en el club, ‘Son las 11.30 de la noche y ustedes acá...’ Y nos hizo irnos porque a esa hora teníamos que estar descansando para jugar el día siguiente” , recordó.\nPero mucho antes de aquella escena con la Brujita, Pérez ya había comenzado a hacer su camino en las divisiones inferiores de Estudiantes . Nacido en San Juan y surgido de las juveniles de Trinidad, su crecimiento fue rápido: con apenas 15 años ya había debutado en la Primera del club, y en 2022 llegó al club platense, después de una prueba que le abrió las puertas: “Por tres meses venía una semana por mes hasta La Plata para irme adaptando de a poco. Ya en 2023 me instalé en la pensión y no me fui por un año y medio, después nos mudamos juntos con dos chicos del club”.\nSu primera oportunidad en Primera División llegó en septiembre de 2024, cuando Eduardo Domínguez , a quien se le reclamaba que utilizaba poco a los juveniles, decidió hacerlo debutar frente a Platense, en el empate 1-1 en UNO. Ese año sumó 11 partidos con el primer equipo. Pero su capítulo más determinante en el Pincha llegó en febrero de 2025, cuando convirtió el gol que evitó un papelón en la primera ronda de la Copa Argentina: puso el 2-1 agónico ante Sarmiento de La Banda, equipo del Federal A, y selló la clasificación.\nEn ese recorrido, encontró en Emmanuel Mas , campeón de la Libertadores 2014 con San Lorenzo y otro sanjuanino que supo vestir la camiseta de Estudiantes, un referente que fue clave para su adaptación lejos de su casa y su familia: “Él siempre me apoyaba cada vez que me llevaban a Primera, me decía que tenía condiciones y que, de lo que tuviese dudas, le preguntara. Así me fue guiando”.\nDesde aquel debut con 18 años, Pérez siguió sumando rodaje: acumula 66 partidos, con ocho goles y tres asistencias con la camiseta albirroja. Además, viene de ser titular en la reciente consagración frente a Independiente Rivadavia (3-2) por la Supercopa Argentina .\nCon 20 años y varios pasos importantes ya dados en el club, Pérez está ante un escenario que puede marcar un antes y un después en su carrera en el escenario mas importante del fútbol del continente.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "Fabricio Pérez",
+    "visual_entities": {
+      "personas": [
+        "Fabricio Pérez",
+        "Baltasar Rodríguez",
+        "Edwuin Cetré"
+      ],
+      "clubes": [
+        "Palmeiras",
+        "Flamengo"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Fabricio Pérez será titular en la final de la Libertadores",
+    "caption": "Fabricio Pérez, de 20 años, está a punto de ser titular del Cacique en la final de la Copa Libertadores contra Palmeiras. La expulsión de Baltasar Rodríguez en la semifinal contra Flamengo obligó a Alexander Medina a buscar un reemplazo. Antes se barajó a Edwuin Cetré, pero el juvenil lleva ventaja tras su desempeño reciente.",
+    "ai_generated_at": "2026-11-27T12:44:42.932636+00:00",
+    "photo_checked_at": "2026-11-27T12:45:37.457814+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "FabricioPerez",
+        "BaltasarRodriguez",
+        "EdwuinCetre",
+        "Palmeiras"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "fd5e20a0d3e19b7dfcbf",
+    "title": "Brazil icon Ronaldo on Kane's 'deserved' Ballon d'Or: 'The No. 9 is back'",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50610076/ronaldo-harry-kane-ballon-dor-stick-football-disney+",
+    "source": "ESPN",
+    "description": "Ronaldo has said that Harry Kane's Ballon d'Or was \"well deserved\" and that he was delighted to see a fellow No. 9 win the award.",
+    "published_at": "2026-11-27T12:25:22+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-27T12:44:42.932636+00:00",
+    "status": "draft",
+    "article_context": "Ronaldo has said that Harry Kane 's Ballon d'Or was \"well deserved\" and that he was delighted to see a fellow No. 9 win the award.\nThe Brazil legend, who won the Ballon d'Or in 1997 and again in 2002, announced Kane as the winner at the star-studded event at the London Palladium last month.\nThe 33-year-old England captain starred for Bayern Munich in the Bundesliga and the Champions League and led his country to the World Cup semifinals, scoring 73 goals in the process. He is the fifth English player to receive the honour and the first since Michael Owen in 2001.\nKane beat the likes of Kylian Mbappé and Lamine Yamal to the prestigious award. He is the first recognised striker to win the Ballon d'Or since Karim Benzema in 2022.\nSpeaking on the Stick to Football podcast on Disney+, Ronaldo said: \"It was nice and well deserved for him, I think.\n\"And I was happy for him and for me too because the No. 9 is back. I'm so happy. [It's been a] long time without the No. 9 winning something important. And then he's also very nice guy. So well deserved. I was very, very happy for him.\"\nAsked by Jamie Carragher how important the award is in Brazil in comparison to in England, Ronaldo said: \"Well, for us it's very important. Everywhere it's important. Maybe in England because you won only with Michael Owen last time, now it's important again with Harry Kane.\n\"But I think it's very important to the players to get together and talk about the last season, what they did. There is still not transparency about how the criteria to put the best players in the world. We know that the captains vote and the journalists vote, but for sure he's the best striker.\"\nKane has since torn a ligament in his left ankle and is aiming for a return at the \"business end of the season.\"\nRonaldo's brilliant career is synonymous with two major knee injuries, the second of which occurred just six minutes into his comeback and sidelined him for over a year. He said he thinks modern-day strikers have it \"much easier\" than his generation did.\n\"I wish I had protection in that time,\" he said. \"We suffered so much in that time. In our generation was killers, killers everywhere. Everywhere I played so many killers and we are not protected. Now, thank God, they are very protected and it's fair.\n\"I just regret I didn't have that protection in my time.\"",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "Ronaldo",
+        "Harry Kane"
+      ],
+      "clubes": [],
+      "competicion": [
+        "Ballon d'Or"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Ronaldo declara que el Ballon d'Or de Harry Kane está bien merecido",
+    "caption": "Ronaldo elogió el Balón de Oro de Harry Kane, calificándolo de merecido y celebró el regreso del número 9. Kane, capitán de Inglaterra, superó a Mbappé y Yamal y es el primer delantero en ganar el premio desde Benzema, aunque se recupera de una rotura de ligamento en el tobillo izquierdo antes de la fase decisiva de la temporada.",
+    "ai_generated_at": "2026-11-27T12:44:42.932636+00:00",
+    "photo_checked_at": "2026-11-27T12:45:39.590699+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "Ronaldo",
+        "HarryKane",
+        "BallondOr"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "b63fbaf32efe013de3d2",
+    "title": "Sources: Late decision on unwell Fernandes for Man United vs. Brentford",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50610575/bruno-fernandes-man-united-brentford",
+    "source": "ESPN",
+    "description": "Bruno Fernandes will be assessed ahead of Manchester United's Premier League clash with Brentford on Saturday after missing training on Friday because of illness, sources have told ESPN.",
+    "published_at": "2026-11-27T12:25:22+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-27T12:44:42.932636+00:00",
+    "status": "needs_review",
+    "visual_subject": "Bruno Fernandes",
+    "visual_entities": {
+      "personas": [
+        "Bruno Fernandes"
+      ],
+      "clubes": [
+        "Manchester United",
+        "Brentford"
+      ],
+      "competicion": [
+        "Premier League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Bruno Fernandes será evaluado antes del partido United contra Brentford",
+    "caption": "Bruno Fernandes será evaluado antes del encuentro de Premier League entre Manchester United y Brentford tras ausentarse del entrenamiento por una enfermedad. El club busca confirmar su disponibilidad para el duelo del sábado en Old Trafford, donde ambos equipos intentan sumar puntos cruciales.",
+    "ai_generated_at": "2026-11-27T12:44:42.932636+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "631438a82a60c21cd6f1",
+    "title": "Mourinho hails Bellingham's form but refuses to draw Zidane comparisons",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50610604/jose-mourinho-jude-bellingham-zidane",
+    "source": "ESPN",
+    "description": "José Mourinho called Jude Bellingham \"one of the best players of his generation\" on Friday, but refused to compare the England star with Real Madrid legend Zinedine Zidane.",
+    "published_at": "2026-11-27T12:25:22+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-27T12:44:42.932636+00:00",
+    "status": "needs_review",
+    "article_context": "José Mourinho called Jude Bellingham \"one of the best players of his generation\" on Friday, but refused to compare the England star with Real Madrid legend Zinedine Zidane.\nBellingham -- who wears Zidane's No. 5 shirt with Madrid -- scored a stunning goal in the team's 5-1 comeback Champions League win over PSV Eindhoven on Tuesday, continuing his superb start to the season.\nThe midfielder's form has helped Madrid keep pace with Barcelona at the top of the LaLiga table, with a three-point gap between the pair going into this weekend's games.\n\"I don't like to compare players from different generations,\" Mourinho said in a news conference on Friday when asked to rank Bellingham with Zidane.\n\"Zidane was one of the best in the world of his generation. Jude is already one of the best players of his generation. I don't like to compare.\"\nMourinho rested Bellingham for the first half against PSV, only to see his team struggle and go 1-0 down -- and the coach responded by sending on Bellingham at halftime to turn the match around.\nBellingham and Kylian Mbappé are two of the Madrid players who have featured most in LaLiga this season, with 1047 and 1163 minutes respectively.\n\"The reason Kylian and Jude have played so many minutes isn't their names, or a rule,\" Mourinho said. \"It's their performance. If their performance is incomparable with what another player can do, that makes the difference. We feel what it's like to play with, and to play without, Jude.\"\n- Jude Bellingham: I don't care about the Ballon d'Or - Jobe Bellingham teases Jude over wonder-goal: 'Off his shin!'\nThe victory over PSV left Madrid top of the Champions League table on 15 points from five games, but Mourinho wouldn't accept that his side are now among the favourites to win the competition. \"It's very early,\" Mourinho said. \"We don't know how the teams will arrive at the key moment, the knockout. Right now the only thing I want is not to play the playoffs.\nMourinho said Trent Alexander-Arnold was unavailable to face Alavés on Saturday with illness, while he insisted that he doesn't want to add to his squad in the January window.\n\"I don't want anyone to come in, or anyone to leave,\" Mourinho said. \"The door is closed in both ways... I don't want to see news about the market, because I don't want anyone.\"",
+    "visual_subject": "Jude Bellingham",
+    "visual_entities": {
+      "personas": [
+        "Jude Bellingham",
+        "José Mourinho",
+        "Zinedine Zidane"
+      ],
+      "clubes": [
+        "Real Madrid"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Madrid"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Mourinho elogia Bellingham pero rechaza compararlo con Zidane",
+    "caption": "José Mourinho afirmó que Jude Bellingham es uno de los mejores jugadores de su generación, pero se negó a equiparlo con Zinedine Zidane. El inglés anotó un gol espectacular en la victoria 5‑1 del Madrid sobre el PSV Eindhoven, manteniendo al club a tres puntos del Barcelona en la tabla de LaLiga.",
+    "ai_generated_at": "2026-11-27T12:44:42.932636+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "4b1c4efa3e0142b960b9",
+    "title": "'Game of their lives': USWNT expects tough El Salvador test with WC at stake",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50606990/usa-women-soccer-world-cup-2027-el-salvador-emma-hayes",
+    "source": "ESPN",
+    "description": "USWNT head coach Emma Hayes said she expects El Salvador to play \"the game of their lives\" on Friday when a place in the Women's World Cup will be on the line.",
+    "published_at": "2026-11-27T12:25:22+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-27T12:44:42.932636+00:00",
+    "status": "duplicate",
+    "article_context": "MANSFIELD, Texas -- United States women's national team head coach Emma Hayes said she expects El Salvador to play \"the game of their lives\" in Friday's Concacaf W Championship quarterfinal.\nThe winner will automatically qualify for the 2027 Women's World Cup in Brazil .\n\"I always respect every opponent, and you have to start with that,\" Hayes told reporters on Thursday at Texas Health Mansfield Stadium. \"I think if you start looking at things like rankings, then you prime your brain to say things like, 'Oh, it's going to be an easy game.'\n\"More often than not, from my experiences, they end up being more challenging for lots of reasons. First of all, for El Salvador, this is going to be the game of their lives. They get the opportunity to qualify for the World Cup.\"\nEl Salvador are ranked No. 78 in the world and making their first appearance at the Concacaf W Championship after winning their pre-qualifying group.\nThe United States has qualified for all nine previous Women's World Cups and won four of them, more than any other country. The Americans are ranked second in the world behind Spain and are one of the contenders to win the 2027 edition. They are also the reigning Olympic champions.\n\"They have a lot of pride, and they want to perform for their country,\" Hayes said about El Salvador. \"There's something at stake, and because of that, it's not a friendly game. And disrupting a team like the United States it might not be going toe-to-toe with us in certain parts of the game, but making it difficult for us? One hundred percent I think that will be the case.\"\nHayes praised El Salvador's ability to create opportunities in counterattacks and one-v-one opportunities. She also pointed to El Salvador's threat on set pieces.\nEarlier in the day at training, U.S. captain Lindsey Heaps told ESPN and a small group of reporters that there is more game footage of Concacaf opponents than in previous cycles, which allows for more specific preparation.\nHeaps echoed Hayes, saying that \"we do not take any of these games lightly,\" and that the team prepared for El Salvador like they did for matches against world No. 1 Spain last month.\nU.S. forward Sophia Wilson said that each game is like a final, which is good preparation for the World Cup.\n\"Any Concacaf tournament, we know it's going to be a challenge in a different way,\" Wilson said. \"It's going to be maybe a little bit of a chaotic game, but I think that's a good test for us.\"\nHayes told reporters at Saturday's NWSL Championship in Washington, D.C., that she was excited to finally have the opportunity to start the self-proclaimed \"Triple Espresso\" of Wilson, Trinity Rodman and Mallory Swanson together for the first time since the 2024 Olympics.\nAbout an hour later, in the opening minutes of the Washington Spirit's 2-1 loss to the Kansas City Current , Rodman was tackled hard and injured her shoulder.\nRodman stayed in the match and scored the Spirit's lone goal in second-half stoppage time. She said after the game that her shoulder felt \"phenomenal,\" but U.S. Soccer announced earlier this week that Rodman would miss World Cup qualifying . She was replaced on the roster by forward Jaedyn Shaw .\n\"For Trin, she took a pretty hard hit,\" Hayes said on Thursday. \"She was pretty beat up after the game. This happens, and unfortunately, she's not fit for this camp, but I'm sure she will be back by January.\"\nAlso absent from the U.S. roster is forward and attacking midfielder Pietra Tordin , who earned her first call-up and first cap last month against Spain. Tordin is training with Brazil in Japan during this international window. She holds dual citizenship with the U.S. and Brazil and has played for both countries at the youth international level.\n\"She was with us, and obviously she's got Brazilian heritage.,\" Hayes said. \"She's going to train with Brazil. No more than that, so she's not cap-tied. I understand. It was a conversation that I've had, particularly with her agent, and yeah, there's no more to be said on it.\"\nEl Salvador's federation announced earlier this week that it would pay the players a $1 million shared bonus if they qualify for the World Cup for the first time.\nThe losers of the four Concacaf quarterfinals will get second chances at qualification in play-in games next week. The two winners of those matches will advance to next year's FIFA global playoff, where the final World Cup berths will be secured.\n\"Process is a really, really, really heavy word,\" El Salvador head coach Erick Acuña told reporters on Friday. \"We are just trying to go step by step. And every step that we made, we have to be really secure. But we don't want to dream; we want to do.\n\"At the end of everything, we have to believe in step by step, because I don't want to be lucky. I just want to be secure that we are going to be in these stages all the time, and the only way to do it is believe. We have to believe in our process but inside of the process, there's a lot of things that we have to do. We have to invest. Without investment, there is no progression.\"",
+    "visual_subject": "Emma Hayes",
+    "visual_entities": {
+      "personas": [
+        "Emma Hayes"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Emma Hayes advierte a El Salvador antes del decisivo partido",
+    "caption": "La entrenadora de la selección femenina, Emma Hayes, señaló que El Salvador jugará el partido de su vida en el cuarto de final del Concacaf W Championship, con un puesto a la Copa del Mundo 2027 en juego. EE. UU., segunda en el ranking, busca confirmar su presencia en Brasil, mientras la escuadra salvadoreña, novena en el ranking, persigue su primera clasificación.",
+    "ai_generated_at": "2026-11-27T12:44:42.932636+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "duplicate_of": "same_story_as:e0122903cac00fbdb551"
+  },
+  {
+    "id": "d6f7b3beb1ad3f9e7557",
+    "title": "How do MLS' European-bred stars adjust to the playoffs? 'It's a challenge'",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50604609/mls-cup-playoffs-european-soccer-stars",
+    "source": "ESPN",
+    "description": "For MLS' biggest stars, they've spent their careers crowning champions based on the table. For them, adapting to the idea of the playoffs isn't easy.",
+    "published_at": "2026-11-27T10:39:07+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-27T12:44:42.932636+00:00",
+    "status": "awaiting_ai",
+    "article_context": "After a stop-start, nine-month regular season, the MLS Cup playoffs are here, and for players, now is when the real work begins. The 34 games played between February and early November are a distant memory, useful for qualifying clubs for the postseason, but now is the competition that matters.\nFor European-bred stars joining the North American league, the playoffs are a curiosity, a novelty. After all, in the biggest domestic competitions across the Old World, the champion is the team that picks up the most points over the course of the campaign. So, in their new surrounds, does the regular season matter? How do players adjust to the postseason? Should teams focus solely on making a run to MLS Cup and disregard the Supporters' Shield?\nAll questions that don't have one single answer. Still, newcomers have their opinions. Former LA Galaxy superstar Zlatan Ibrahimovic called the system \"s---\" in 2019, while Inter Miami CF midfielder Rodrigo De Paul made headlines for saying that winning MLS Cup is harder than lifting the UEFA Champions League trophy.\nMLS ' current playoff format takes the top seven teams from each conference, while teams in eighth and ninth face off in a wild card match. The winners of the one-game play-in then complete the 16-team postseason field. Those 16 teams then contest the best-of-three Round 1 series, before the winners go on to the single-elimination conference semifinals, conference finals and MLS Cup.\n\"You play 34 games and then the real business starts,\" San Jose Earthquakes forward Timo Werner said to ESPN.\nThe transition can be difficult for newcomers joining from a traditional football structure.\nGoalkeeper Roman Bürki moved to St. Louis City in 2023 after a decorated career spent at Borussia Dortmund , SC Freiburg and four clubs in Switzerland. St. Louis made history by becoming the first expansion team to win their first four matches and conclude the regular season in first place of the Western Conference.\nThe team looked to be set up for success, but their playoff run told a different story. St. Louis fell to eighth-place Sporting Kansas City in just two matches in Round 1.\nFrustration and shock filled the dressing room following the first loss. Players looked defeated even before traveling for the second match of the series.\n\"I remember being very, very tired in my head because it was my first time playing a whole year without a real break,\" Bürki told ESPN. \"Back then, we played from January into November and so on. I just remember being mentally very tired.\n\"We were winning a lot and we had confidence and everything, and then towards the end of the season, like you could see the energy level was lower and lower and like it's just so hard for me to adapt to. I'm not new to playing a lot of games. In Europe we also played cup, played league games, we played in Champions League, but then at some point you had a break for at least three weeks. Something like this and just to keep going, it was very hard for me and hard to adjust.\"\nWerner, who joined San Jose in January after playing in the Bundesliga and Premier League , was similarly concerned about exhaustion prior to his first ever MLS Cup playoffs.\n\"It's difficult because also at the end of the season, after a long year, you're tired,\" he said. \"You think you are over the finish line, but no, we are not over the finish line. We still have the best to come, so it's a challenge. It is a challenge to be mentally focused on that, because knowing that the real deal is coming after the season, after the 34 games.\"\nFormer Inter Miami defender Jordi Alba called the league's postseason \"unfair\" in 2024 after falling to Atlanta United in the first round after winning the Supporters' Shield and setting the record for most points in a single regular season.\nMiami entered that postseason as the clear favorite with a star-studded roster, a historic 22W-8D-4L record and a three-game winning streak. But the league's ultimate glamor club fell in three games to Atlanta in a shocking upset.\n\"This format seems a little unfair to me,\" Alba said. \"It is clear that it has been done this way for many years, but if you ask me, if it were up to me, I would have to be the champion of one conference against the champion of the other, to make it as fair as possible, that's how it is.\"\nThe format left Alba questioning whether the regular season even mattered.\nHerculez Gomez and Alejandro Moreno debate the biggest storylines and break down the best highlights that soccer in the Americas has to offer. Stream on ESPN+ (U.S. only)\nMLS rewards the winner of the regular season with the Supporters' Shield and homefield advantage throughout the playoffs, but to most in and around the league, the Shield trails MLS Cup in importance, devaluing the effort of consistency throughout the season.\nIbrahimovic criticized the league's format for encouraging complacency during the regular season. After decades of playing for Europe's biggest clubs and sharpening a famously competitive attitude, the Swedish striker was appalled by a format he thought rewarded mediocrity.\n\"When you talk about the playoffs, we just need to make the playoffs, win the playoffs and that's it,\" Ibrahimovic said in 2019. \"It doesn't matter if you lose or win [during regular season]. How can you learn mentality if you just need to learn the playoffs? I think the system is s--- ... Here you are in seventh place, you make the playoffs and you win. So, how do you create that mentality to be on your toes 24 hours a day? It's very difficult.\"\nAnd now, since the number of clubs that qualify increased from six teams in each conference in 2018 to eight teams plus a play-in match in 2023, players feel an even lesser sense of urgency.\n\"It doesn't matter as much if you lose games in the regular season because the most important thing is making the playoffs, right?\" Bürki said. \"Seattle played like an average regular season [in 2024], but towards the end, they started to perform and make the playoffs and went to the first two rounds. And that's just the way you probably should approach the whole season.\n\"I wouldn't say it's meaningless, the regular season, but because you have that format, you don't necessarily need to get upset as much as when you don't win. In Europe, we have 34 games and that's it to win the trophy, and every game counts. Here, not every game counts the same way.\"\nHe isn't wrong. Seattle kicked off the 2024 campaign with just two wins in their first 11 matc",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "c12c3f74f18562a22399",
+    "title": "Everyone keeps linking USMNT players to Man United: Could an American help the club?",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50607825/usmnt-man-united-pochettino-transfers-sign-premier-league-usa",
+    "source": "ESPN",
+    "description": "Now that USMNT manager Mauricio Pochettino has taken over Man United, would it make sense for USMNT players to join their ex-coach?",
+    "published_at": "2026-11-27T09:02:01+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 17,
+    "queued_at": "2026-11-27T12:44:42.932636+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
