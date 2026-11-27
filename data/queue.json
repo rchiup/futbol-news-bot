@@ -27669,5 +27669,46 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "d40740a2da9c930a79a0",
+    "title": "A qué hora es la clasificación de F1 en Qatar y cómo verla",
+    "source_url": "https://es.motorsport.com/f1/news/hora-clasificacion-formula1-qatar-como-verla/10878095",
+    "source": "Motorsport F1",
+    "description": "Este sábado llega la penúltima clasificación de la temporada 2026 de F1, la del GP de Qatar en el Circuito Internacional de Losail. A qué hora es la clasificación del GP de Qatar de F1 2026 A qué hora es la clasificación del GP Qatar de F1 2026: sábado a las 19:00h de España A qué hora es la clasificación del GP Qatar de F1 2026 en horario local: sábado a las ... Sigue leyendo",
+    "published_at": "2026-11-27T17:45:57+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-27T17:49:58.559169+00:00",
+    "status": "published",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "source_brief",
+    "llm_model": "none",
+    "headline": "A qué hora es la clasificación de F1 en Qatar y cómo verla",
+    "caption": "Este sábado llega la penúltima clasificación de la temporada 2026 de F1, la del GP de Qatar en el Circuito Internacional de Losail. (Motorsport F1)",
+    "ai_generated_at": "2026-11-27T17:49:58.559169+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-27T17:50:54.665134+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Formula1"
+      ],
+      "mentions": []
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-27T17:49:58.559169+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-27T17:49:58.559169+00:00",
+    "instagram_media_id": "17918197569507425"
   }
 ]
