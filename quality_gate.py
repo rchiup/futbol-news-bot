@@ -85,3 +85,26 @@ def photo_safe(info, item):
     if any(1900<=int(y)<1980 and y not in story.split() for y in re.findall(r"\b(?:19\d{2})\b",filename)):
         return False
     return True
+
+
+def identity_error(item):
+    raw=" ".join(str(item.get(k) or "") for k in ("title","description","article_context"))
+    copy=" ".join(str(item.get(k) or "") for k in ("headline","caption"))
+    # Preserve source spelling of full personal names, including common translated given names.
+    aliases={"alexander":{"alejandro","alexandre","alessandro"},"arthur":{"arturo"},"john":{"juan"},"james":{"jaime","santiago"},"michael":{"miguel"},"william":{"guillermo"},"charles":{"carlos"},"george":{"jorge"},"peter":{"pedro"},"louis":{"luis"},"harry":{"enrique"},"robert":{"roberto"},"thomas":{"tomas"}}
+    source=norm(raw)
+    output=norm(copy)
+    for given,translations in aliases.items():
+        for surname in re.findall(r"\b"+given+r" ([a-z]{3,})\b",source):
+            if any(re.search(r"\b"+a+" "+surname+r"\b",output) and not re.search(r"\b"+a+" "+surname+r"\b",source) for a in translations):
+                return "translated_person_name"
+    if item.get("sport")=="TENIS":
+        # Team elimination is not an individual singles defeat.
+        h=norm(item.get("headline",""))
+        c=norm(item.get("caption",""))
+        if re.search(r"\b(?:davis cup|copa davis|billie jean king)\b",source+" "+c) and re.search(r"\b(?:gano|vencio|se impuso)\b.{0,65}\b(?:singles|individual|individuales)\b",c) and re.search(r"\b(?:cae|cayo|pierde|perdio|derrotado|eliminado)\b",h):
+            for name in re.findall(r"\b([A-ZÁÉÍÓÚ][a-záéíóú]+ [A-ZÁÉÍÓÚ][a-záéíóú]+)\b",raw):
+                surname=norm(name).split()[-1]
+                if re.search(r"\b"+surname+r"\s+(?:cae|cayo|pierde|perdio|queda eliminado)\b",h) and re.search(r"\b"+surname+r"\s+(?:gano|vencio|se impuso)\b",c):
+                    return "individual_win_misrepresented_as_loss"
+    return ""
