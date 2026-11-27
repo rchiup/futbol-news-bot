@@ -21538,7 +21538,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T15:26:08.545331+00:00",
-    "status": "draft",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -21576,7 +21576,12 @@
         "Lille"
       ],
       "mentions": []
-    }
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-27T01:55:04.235910+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-27T01:55:04.235910+00:00",
+    "instagram_media_id": "17923642473241266"
   },
   {
     "id": "f94a8a37697c4c0812f3",
