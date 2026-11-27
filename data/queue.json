@@ -20342,7 +20342,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-26T12:46:52.471377+00:00",
-    "status": "awaiting_ai"
+    "status": "expired"
   },
   {
     "id": "556fd0371dd0c77e4d65",
@@ -29083,5 +29083,22 @@
     "crosspost_attempt_at": "2026-11-27T23:25:25.879398+00:00",
     "youtube_attempt_at": "2026-11-27T23:25:25.879398+00:00",
     "buffer_youtube_status": "check_required"
+  },
+  {
+    "id": "677ef47c073b7a8e6c34",
+    "title": "Guido Carrillo y Estudiantes: una historia de amor que merecía una segunda parte",
+    "source_url": "https://www.ole.com.ar/estudiantes/estudiantes-plata-guido-carrillo-palmeiras-copa-libertadores_0_HqsaqysRpA.html",
+    "source": "Olé Argentina",
+    "description": "Lo quisieron Boca y River, pero el delantero eligió “darle más lugar al sentimiento que a la razón”. Después de ser compañero de Mbappé y Falcao, volvió al país y va por la gloria.",
+    "published_at": "2026-11-27T23:29:59+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-27T23:33:22.238166+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
