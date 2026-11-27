@@ -19915,7 +19915,7 @@
     "sport": "FUTBOL",
     "score": 17,
     "queued_at": "2026-11-26T11:36:41.404214+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -26642,7 +26642,7 @@
     "headline": "Sebastián Villa celebra Copa Sudamericana y sueña con la selección",
     "caption": "Sebastián Villa levantó la Copa Sudamericana con Boca Juniors tras vencer al Atlético Mineiro en Barranquilla. El delantero emocionó al escuchar el himno de Colombia y reiteró su deseo de volver a la selección nacional.",
     "ai_generated_at": "2026-11-27T13:51:23.145490+00:00",
-    "photo_checked_at": "2026-11-27T13:52:20.492844+00:00",
+    "photo_checked_at": "2026-11-27T13:57:37.110465+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -26654,6 +26654,22 @@
     "format_attempt_at": "2026-11-27T13:51:23.145490+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-27T13:51:23.145490+00:00",
-    "instagram_media_id": "18109963610367257"
+    "instagram_media_id": "18109963610367257",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 14.9,
+      "mean_db": -19.7
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795787867/football-news-bot/reels/2d0220361be9a565ac67-cross.mp4",
+    "crosspost_attempt_at": "2026-11-27T13:56:48.035411+00:00",
+    "tiktok_attempt_at": "2026-11-27T13:56:48.035411+00:00",
+    "zernio_tiktok_status": "failed",
+    "zernio_tiktok_id": "6b098c5c9d33fe968cebd697",
+    "zernio_tiktok_error": "provider_failure",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b098c5fbb117e5ba74e5605",
+    "buffer_tiktok_error": "provider_failure"
   }
 ]
