@@ -16608,7 +16608,7 @@
     "sport": "FUTBOL",
     "score": 23,
     "queued_at": "2026-11-25T18:57:12.328245+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -24217,7 +24217,8 @@
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Falta cada vez menos para conocer al próximo campeón de la Copa Davis . Con República Checa e Italia como las primeras clasificadas, este jueves se conocieron a los otros dos países semifinalistas en el Final 8 que se disputa en Bolonia: España cumplió y Gran Bretaña dio la sorpresa para conformar el cuadro.\nLa jornada de este jueves comenzó con el gran golpe de los británicos : dieron la talla ante la Alemania de Zverev y la eliminaron por 2-1. La serie se definió en los dobles (Cameron Norrie había adelantado a Gran Bretaña y el Sasha puso el 1-1), cuando Patten y Skupski se impusieron a Krawietz y Puetz por 6-2 y 7-6 (6). Es la primera vez en siete años que Reino Unido accede a las semis.\nEn el segundo turno , España le ganó de manera contundente a Austria: fue 2-0, con los triunfos de Daniel Mérida y Rafael Jódar , sin necesidad de disputarse los dobles. Así, los ibéricos vuelven a formar parte de los cuatro mejores del certamen, al igual que en 2025: en aquella edición, le habían ganado a Alemania por 2-1, pero cayeron ante Italia por 2-0 en la final.\nLos cruces de semifinales de la Copa Davis tendrán lugar el próximo fin de semana. El primer finalista del certamen se definirá el viernes 27 de noviembre, cuando Italia y República Checa se midan desde las 12.00 (horario argentino). Por su parte, la otra semi se jugará el sábado 28 desde las 8.00 (horario argentino) entre España y Gran Bretaña. La gran final entre los ganadores de ambos cruces se disputará el domingo 29 de noviembre.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados."
   },
   {
     "id": "2f063f33cf1df07111c6",
