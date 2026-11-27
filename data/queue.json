@@ -22445,7 +22445,7 @@
     "headline": "Hamilton dice que Ferrari enfrenta tiempos muy desafiantes",
     "caption": "Lewis Hamilton afirma que Ferrari está pasando por momentos difíciles debido a los incidentes en pista entre él y su compañero de equipo Charles Leclerc. Ambos pilotos tuvieron una reunión para discutir el incidente en Las Vegas. La relación entre Hamilton y Leclerc se ha vuelto tensa después de varios incidentes en pista.",
     "ai_generated_at": "2026-11-27T01:42:46.446615+00:00",
-    "photo_checked_at": "2026-11-27T02:27:33.696465+00:00",
+    "photo_checked_at": "2026-11-27T02:47:33.684215+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -22460,7 +22460,20 @@
     "format_attempt_at": "2026-11-27T02:31:14.489183+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-27T02:31:14.489183+00:00",
-    "instagram_media_id": "17977070226170908"
+    "instagram_media_id": "17977070226170908",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 19.6,
+      "mean_db": -19.2
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795747702/football-news-bot/reels/3e04cfc6a60b16911301-cross.mp4",
+    "crosspost_attempt_at": "2026-11-27T02:47:22.787955+00:00",
+    "youtube_attempt_at": "2026-11-27T02:47:22.787955+00:00",
+    "buffer_youtube_status": "sent",
+    "buffer_youtube_id": "6b08ef781fd46e62e707dbe8",
+    "buffer_youtube_url": "https://www.youtube.com/watch?v=o0aTBcUPw2k"
   },
   {
     "id": "122754c51e3f8e1faa29",
@@ -24772,7 +24785,7 @@
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795736945/football-news-bot/reels/00632b79c5275ed44260.mp4",
     "publish_format": "image",
     "format_attempt_at": "2026-11-27T01:18:30.345855+00:00",
-    "crosspost_attempt_at": "2026-11-26T23:47:22.340398+00:00",
+    "crosspost_attempt_at": "2026-11-27T02:47:22.787955+00:00",
     "buffer_youtube_status": "check_required",
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -24784,7 +24797,11 @@
     },
     "ig_variant": "single",
     "posted_at": "2026-11-27T01:18:30.345855+00:00",
-    "instagram_media_id": "17986519035124713"
+    "instagram_media_id": "17986519035124713",
+    "tiktok_attempt_at": "2026-11-27T02:47:22.787955+00:00",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b08ef43062ed764a8d90663",
+    "buffer_tiktok_error": "provider_failure"
   },
   {
     "id": "1054ed391c6c29a96ecc",
