@@ -28341,5 +28341,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "55533bea17d0a94422fa",
+    "title": "Why have things started to go wrong for Manchester City under Enzo Maresca?",
+    "source_url": "https://www.theguardian.com/football/2026/nov/27/why-things-started-go-wrong-manchester-city-under-enzo-maresca",
+    "source": "The Guardian",
+    "description": "A sensational start for the Italian was swiftly followed by a dismal run and long faces in the team This is the great known unknown in Manchester City’s run of one win – in addition to victory on penalties against Brighton in the Carabao Cup – in seven matches. After guilty verdicts were returned regarding the breaking of Premier League financial rules, Enzo Maresca’s team went to Anfield and handed Liverpool a 3-0 schooling . Yet this proved the falsest of dawns, with Andoni Iraola’s nascent side perhaps caught in a bad moment. City have since",
+    "published_at": "2026-11-27T20:00:19+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-27T20:15:22.101763+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
