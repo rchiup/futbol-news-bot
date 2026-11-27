@@ -26732,8 +26732,82 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-27T14:26:00.755287+00:00",
-    "status": "awaiting_ai",
+    "status": "published",
     "article_context": "Manchester United have triggered their one-year option on captain Bruno Fernandes' contract.\nThe 32-year-old's deal was due to expire next summer but sources with an understanding of the situation say both parties decided it was in their best interests to trigger the option.\nIt means overseas clubs will not be able to approach Fernandes when the transfer window opens on 1 January.\nThe Portugal international confirmed on Tuesday that discussions over a new contract had been paused.\nSources say they will resume once United's league position has improved.\nPre-match, post-match and topical United content\nSubscribe and listen for everything you love about the Red Devils\nLatest Manchester United news, analysis and fan views\nCA may not like sandpaper forum findings - Vaughan\nMan Utd trigger Fernandes' one-year contract extension\nEngland outclass Aussies again to take series lead\nSteve Coogan joins Paul and Bob for a festive fishing tour\nLegendary snooker player, Ronnie O'Sullivan, soundtracks his life\nThe truth behind Black Friday's biggest bargains\nWhat happens now for Bayern Munich and Musiala?\nLammens - the Man Utd goalkeeper under scrutiny like never before\n440 players, three days, one venue - the Nations Championship logistics logjam\nPant joins New Zealand club match under false name\nNot even making a 12-man bench - what next for Garnacho?\nSelby faces tough UK opener while Allen set to feature\n'Laughing gas has ended careers' - so how common is it in football?\nMotorcycle passenger who took stunning cricket catch found\n'Best midfielder in the world' - where does Bellingham rank?\nSooryavanshi, 15, breaks sixes record in 204 off 53 balls\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland's tearaway quick bowler reinvented as a top-order batter\nJosh Kerr: The making of the man behind the shades\nThe 3pm football blackout: Outdated or still relevant in 2026?\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "ai_art_used": false,
+    "photo_used": true,
+    "portrait_used": true,
+    "reference_photo_used": false,
+    "visual_subject": "Bruno Fernandes",
+    "visual_entities": {
+      "personas": [
+        "Bruno Fernandes"
+      ],
+      "clubes": [
+        "Manchester United"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Manchester United activa prórroga de un año a Bruno Fernandes",
+    "caption": "El club inglés ha activado la opción de extensión de un año en el contrato del capitán Bruno Fernandes. El acuerdo, que vencía el próximo verano, impide que clubes extranjeros le hagan propuestas hasta el 1 de enero, y ambas partes reanudarán negociaciones cuando mejore la posición en la liga.",
+    "ai_generated_at": "2026-11-27T14:28:07.765789+00:00",
+    "portrait_info": {
+      "subject": "Bruno Fernandes",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Bruno_Fernandes_USMNT_v_Portugal_Mar_31_2026-27.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commons_filename": "Bruno Fernandes USMNT v Portugal Mar 31 2026-27.jpg",
+      "photographer": "Bryan Berlin / WikiPortraits",
+      "credit_required": true,
+      "share_alike": true,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Bruno_Fernandes_USMNT_v_Portugal_Mar_31_2026-27.jpg",
+      "photo_provider": "Curated Commons",
+      "verified": "2026-11-23"
+    },
+    "photo_checked_at": "2026-11-27T14:29:11.294546+00:00",
+    "video_style": "instagram",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 15.2,
+      "mean_db": -19.2
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795789836/football-news-bot/reels/800125dea2a6e646bc36.mp4",
+    "crosspost_attempt_at": "2026-11-27T14:28:07.765789+00:00",
+    "tiktok_attempt_at": "2026-11-27T14:28:07.765789+00:00",
+    "zernio_tiktok_status": "failed",
+    "zernio_tiktok_id": "6b0993f97a982d29ec46d630",
+    "zernio_tiktok_error": "provider_failure",
+    "visual_mode": "licensed_photo",
+    "photo_credit_full": "📷 Foto: Bryan Berlin / WikiPortraits · CC BY-SA 4.0 · Wikimedia Commons (recorte y edición). https://commons.wikimedia.org/wiki/File:Bruno_Fernandes_USMNT_v_Portugal_Mar_31_2026-27.jpg · https://creativecommons.org/licenses/by-sa/4.0/ · Gráfica adaptada bajo la misma licencia CC BY-SA.",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "BrunoFernandes",
+        "ManchesterUnited"
+      ],
+      "mentions": []
+    },
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-27T14:28:07.765789+00:00",
+    "posted_at": "2026-11-27T14:28:07.765789+00:00",
+    "instagram_media_id": "18143860792543427"
+  },
+  {
+    "id": "1ef75440221acce4f138",
+    "title": "La fiebre del GTA en la F1: de las mejores excursiones a un piloto cerca de completarlo",
+    "source_url": "https://es.motorsport.com/f1/news/fiebre-gta-pilotos-formula1/10878262",
+    "source": "Motorsport F1",
+    "description": "Nadie es ajeno al Gran Thef Auto VI, y allá donde vayas habrás escuchado a alguien hablar del videojuego lanzado el pasado 19 de noviembre. Y cómo no, en la parrilla de pilotos de F1 también es un tema recurrente. Quizás no sea una sorpresa que Max Verstappen sea el más avanzado, y mientras lees esto, es probable que haya completado la historia principal del juego. Y es que el ... Sigue leyendo",
+    "published_at": "2026-11-27T06:23:43+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 23,
+    "queued_at": "2026-11-27T14:28:07.765789+00:00",
+    "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,

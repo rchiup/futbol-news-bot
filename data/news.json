@@ -13830,5 +13830,21 @@
     "source": "BBC Sport",
     "collected_at": "2026-11-27T14:25:55.816506+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "fe65c2714132a45f7fa3e4fc27999066d2b1f5ebb4370995596ea3c88f3fbb34",
+    "title": "Con Instituto como favorito ante River, así cerró la encuesta de Olé de cara a los cuartos del Clausura",
+    "url": "https://www.ole.com.ar/futbol-primera/torneo-clausura-cuartos-encuesta-ole-resultados_0_DMZU7OGLCg.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-27T14:28:04.646279+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "e2aa3e094cdfe9b67854635ded9e257ce2ea2937dff503dc0aa8fa0610505da3",
+    "title": "La fiebre del GTA en la F1: de las mejores excursiones a un piloto cerca de completarlo",
+    "url": "https://es.motorsport.com/f1/news/fiebre-gta-pilotos-formula1/10878262/?utm_source=RSS&utm_medium=referral&utm_campaign=RSS-F1&utm_term=News&utm_content=es",
+    "source": "Motorsport.com - Fórmula 1 - Historias",
+    "collected_at": "2026-11-27T14:28:06.132265+00:00",
+    "status": "pending_review"
   }
 ]
