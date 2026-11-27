@@ -35,6 +35,7 @@ import tennis_scorecards
 import reels
 import platform_strategy
 import delivery_scheduler
+import publish_cooldowns
 from quality_gate import score_error, photo_safe, identity_error, sports_topic, certainty_error
 import buffer_publish
 from growth import append_promotion
@@ -755,13 +756,24 @@ def format_due(queue, reference, kind, minutes):
 def run(reference: datetime | None = None, session=None) -> dict:
     reference = reference or now_utc()
     queue = load_queue()
+    publish_cooldowns.configure(queue)
     if session is None and os.getenv("ENABLE_PUBLISH", "").lower()=="true":
         import zernio_publish
         recent_deliveries=sorted((x for x in queue if any(x.get(p+"_"+n+"_id") for p in ("buffer","zernio") for n in ("tiktok","youtube"))),key=lambda x:x.get("crosspost_attempt_at") or x.get("posted_at") or "",reverse=True)[:8]
+        terminal={"published","sent","error","failed","rejected","cancelled"}
+        polls=0
         for previous in recent_deliveries:
             for platform in ("tiktok", "youtube"):
-                zernio_publish.refresh(previous, platform)
-                buffer_publish.refresh(previous, platform)
+                for provider,module in (("zernio",zernio_publish),("buffer",buffer_publish)):
+                    field=provider+"_"+platform
+                    if polls>=2 or not publish_cooldowns.available(provider) or not previous.get(field+"_id") or previous.get(field+"_status") in terminal:
+                        continue
+                    last=parse_iso(previous.get(field+"_checked_at","")) or parse_iso(previous.get("crosspost_attempt_at",""))
+                    if last and reference-last<timedelta(minutes=30):
+                        continue
+                    previous[field+"_checked_at"]=iso(reference)
+                    module.refresh(previous,platform)
+                    polls+=1
         save_queue(queue)
     if session is None:
         known = {x.get("id") for x in queue}
@@ -857,10 +869,10 @@ def run(reference: datetime | None = None, session=None) -> dict:
     # Independent clocks, verified account limits and shared video rendering.
     if session is None and os.getenv("ENABLE_PUBLISH","").lower()=="true" and os.getenv("AUTO_APPROVE","").lower()=="true" and os.getenv("ENABLE_REELS","").lower()=="true":
         from publisher import upload_public_video
-        due_platforms=[p for p in delivery_scheduler.PLATFORMS if delivery_scheduler.due(queue,p,reference,15) and buffer_publish.network_has_capacity(p)]
+        due_platforms=[p for p in delivery_scheduler.PLATFORMS if delivery_scheduler.due(queue,p,reference,15) and (publish_cooldowns.available("zernio") or publish_cooldowns.available("buffer"))]
         print("[CROSSPOST] Available video destinations: "+str(due_platforms))
         for candidate in sorted(queue,key=lambda x:(bool(x.get("match_result")),novelty_priority(x,reference)),reverse=True):
-            if not due_platforms:
+            if not due_platforms or not (publish_cooldowns.available("zernio") or publish_cooldowns.available("buffer")):
                 break
             destinations=[p for p in due_platforms if delivery_scheduler.pending_platform(candidate,p)]
             if not destinations or candidate.get("status") not in {"draft","published","crossposted_only"}:

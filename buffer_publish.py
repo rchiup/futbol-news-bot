@@ -2,6 +2,7 @@
 import json
 import os
 import requests
+import publish_cooldowns as cooldown
 
 _resolved_channel = None
 
@@ -12,6 +13,7 @@ def graphql(query, session=requests):
     key = os.environ["BUFFER_API_KEY"].strip()
     response = session.post("https://api.buffer.com", json={"query":query},
         headers={"Authorization":"Bearer "+key,"Content-Type":"application/json"}, timeout=45)
+    cooldown.observe("buffer",response)
     response.raise_for_status()
     payload = response.json()
     if payload.get("errors"):
@@ -66,6 +68,7 @@ def submit_tiktok(video_url, caption, session=requests, channel=None):
     }""" % (literal(caption[:2100]), literal(channel), literal(video_url))
     response = session.post("https://api.buffer.com", json={"query":query},
         headers={"Authorization":"Bearer "+key,"Content-Type":"application/json"}, timeout=45)
+    cooldown.observe("buffer",response)
     response.raise_for_status()
     payload = response.json()
     if payload.get("errors"):
@@ -77,7 +80,7 @@ def submit_tiktok(video_url, caption, session=requests, channel=None):
     return {"id":str(post["id"]),"status":str(post.get("status") or "accepted"),"url":post.get("externalLink"),"error":(post.get("error") or {}).get("message")}
 
 def buffer_tiktok(item, video_url, caption, session=requests, persist=None):
-    if not configured() or item.get("buffer_tiktok_status"):
+    if not configured() or not cooldown.available("buffer") or item.get("buffer_tiktok_status"):
         return
     try:
         channel = resolve_channel(session)
@@ -99,6 +102,10 @@ def buffer_tiktok(item, video_url, caption, session=requests, persist=None):
         if result.get("error"): item["buffer_tiktok_error"]=classify_error(result["error"])
         print("[BUFFER] TikTok "+item["buffer_tiktok_status"]+" "+result["id"])
     except Exception as exc:
+        if cooldown.observe_exception("buffer",exc):
+            item.pop("buffer_tiktok_status",None)
+            item["buffer_tiktok_error"]="rate_limit"
+            return
         item["buffer_tiktok_status"] = "check_required"
         item["buffer_tiktok_error"] = type(exc).__name__
         print("[BUFFER] TikTok submission unconfirmed: "+type(exc).__name__)
@@ -122,7 +129,7 @@ def recover_original_video(identifier, session=requests):
     return None
 
 def buffer_youtube(item, video_url, caption, session=requests, persist=None):
-    if not configured() or item.get("buffer_youtube_status"):
+    if not configured() or not cooldown.available("buffer") or item.get("buffer_youtube_status"):
         return
     channel = os.getenv("BUFFER_YOUTUBE_CHANNEL_ID", "").strip()
     if not channel:
@@ -150,6 +157,10 @@ def buffer_youtube(item, video_url, caption, session=requests, persist=None):
         if (post.get("error") or {}).get("message"): item["buffer_youtube_error"]=classify_error(post["error"]["message"])
         print("[BUFFER] YouTube "+item["buffer_youtube_status"]+" "+item["buffer_youtube_id"])
     except Exception as exc:
+        if cooldown.observe_exception("buffer",exc):
+            item.pop("buffer_youtube_status",None)
+            item["buffer_youtube_error"]="rate_limit"
+            return
         item["buffer_youtube_status"] = "check_required"
         print("[BUFFER] YouTube unconfirmed: " + type(exc).__name__)
 
@@ -162,7 +173,7 @@ def crosspost(item, video_url, caption, session=requests, persist=None, platform
             continue
         try:
             tailored = crosspost_caption(item, caption, platform)
-            outcome = zernio_publish.submit(item, platform, video_url, tailored, session, persist)
+            outcome = zernio_publish.submit(item, platform, video_url, tailored, session, persist) if cooldown.available("zernio") else "not_submitted"
             if outcome == "not_submitted" or (outcome == "submitted" and item.get("zernio_"+platform+"_status") in {"failed","error","rejected"} and not item.get("zernio_"+platform+"_url") and item.get("zernio_"+platform+"_error") == "provider_failure"):
                 fallback(item, video_url, tailored, session, persist)
         except Exception as exc:
@@ -185,7 +196,7 @@ def classify_error(message):
 def refresh(item,platform,session=requests):
     field="buffer_"+platform
     identifier=item.get(field+"_id")
-    if not configured() or not identifier or (item.get(field+"_status") in {"sent","published"} and item.get(field+"_url")):
+    if not configured() or not cooldown.available("buffer") or not identifier or (item.get(field+"_status") in {"sent","published"} and item.get(field+"_url")) or item.get(field+"_status") in {"error","failed","rejected","cancelled"}:
         return
     try:
         post=graphql("query { post(input:{id:%s}) { id status externalLink error { message } } }"%json.dumps(identifier),session).get("post") or {}
