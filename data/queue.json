@@ -22743,7 +22743,7 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-26T17:57:22.201610+00:00",
-    "status": "draft",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -22776,7 +22776,12 @@
       ],
       "mentions": []
     },
-    "portrait_info": null
+    "portrait_info": null,
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-27T02:21:07.501838+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-27T02:21:07.501838+00:00",
+    "instagram_media_id": "18653874802053614"
   },
   {
     "id": "b6159fdcc480e94c89d3",
