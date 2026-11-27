@@ -2,9 +2,9 @@
   "date_utc": "2026-11-27",
   "providers": {
     "groq": {
-      "attempts": 52,
-      "success": 22,
-      "failures": 30,
+      "attempts": 60,
+      "success": 28,
+      "failures": 32,
       "latencies_ms": [
         2253,
         2291,
@@ -27,7 +27,13 @@
         1569,
         2714,
         4703,
-        2344
+        2344,
+        2046,
+        2038,
+        2737,
+        1507,
+        2008,
+        6500
       ],
       "quality": [
         100,
@@ -51,10 +57,16 @@
         100,
         100,
         100,
-        85
+        85,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
       ],
       "last_error": "http_429",
-      "blocked_until_utc": 1795782622
+      "blocked_until_utc": 1795782934
     },
     "gemini": {
       "attempts": 20,
@@ -197,18 +209,18 @@
       "last_error": "invalid_output"
     },
     "nvidia": {
-      "attempts": 10,
+      "attempts": 11,
       "success": 0,
-      "failures": 10,
+      "failures": 11,
       "latencies_ms": [],
       "quality": [],
       "last_error": "http_410",
-      "blocked_until_utc": 1795782705
+      "blocked_until_utc": 1795783719
     },
     "zai": {
-      "attempts": 38,
-      "success": 7,
-      "failures": 31,
+      "attempts": 40,
+      "success": 8,
+      "failures": 32,
       "latencies_ms": [
         24359,
         23437,
@@ -216,12 +228,14 @@
         33089,
         30521,
         34444,
-        36545
+        36545,
+        30848
       ],
       "quality": [
         100,
         100,
         85,
+        100,
         100,
         100,
         100,
@@ -231,5 +245,5 @@
       "blocked_until_utc": 1795748411
     }
   },
-  "last_success": "groq"
+  "last_success": "zai"
 }

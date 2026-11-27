@@ -21127,12 +21127,26 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-26T14:28:19.696004+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "article_context": "Germany international Laura Freigang will miss next year's Women's World Cup after being handed a 16-month suspension for failing to report for or attend three doping tests.\nFreigang, 28, is the captain of Eintracht Frankfurt and has 45 caps for Germany, but will not be allowed to play competitive football again until Oct. 8, 2027. She is permitted to restart training in August 2027, but that timeframe, with the suspension applying retroactively from June 8 2026, means she will miss the World Cup in Brazil.\nThe three reporting and/or testing failures were between March 11, 2025, and February 23, 2026. The June 8, 2026, starting date for the suspension applies to when the DFB notified the relevant anti-doping bodies.\nThe settlement came from discussions with the World Anti-Doping Agency (WADA), the National Anti-Doping Agency of Germany (NADA) and the German Football Association (DFB), alongside the club and player.\nIn a video on her Instagram channel, Freigang said \"it is important for me to emphasise once again that at no time was there any suspicion of doping against me.\"\nShe said she accepted this suspension because of the \"high financial, mental and emotional burden\" of continuing to fight the case. She also said she's \"chosen this path, hoping to find some peace, clarity and perspective,\" and apologised to her club and national team.\n\"It breaks my heart to not be on the pitch for now, helping my team and getting to live the everyday life I love so much,\" she added.\nFreigang has featured prominently for Eintracht Frankfurt this season but despite the ban being backdated to June, their results are unaffected. The club will hold discussions with the player on whether she has a future at Eintracht, with her contract up in June 2027.\n- FIFA's Jill Ellis: '27 Women's World Cup will be first to turn a profit - 'Once in a generation' -- UK's Women's World Cup ambitions are sky high\nKatharina Kiel, director of women's football at Eintracht Frankfurt, said: \"The agreement now reached provides clarity and planning security in a process unprecedented for Eintracht Frankfurt -- for us as a club, but above all for Laura.\n\"The way she and the team have handled the situation in recent months, and how Laura personally led by example with her performance on the pitch during a very difficult time, deserves the highest recognition.\n\"As Eintracht Frankfurt, we have experienced a great sense of unity, which is a hallmark of this club. At the same time, the identified shortcomings, despite the agreement to settle the dispute, have resulted in a suspension, which means the loss of a key player for the remainder of the season, a loss we must and will compensate for. We will discuss the future and the details of our collaboration with Laura in a calm and thorough manner.\""
+    "article_context": "Germany international Laura Freigang will miss next year's Women's World Cup after being handed a 16-month suspension for failing to report for or attend three doping tests.\nFreigang, 28, is the captain of Eintracht Frankfurt and has 45 caps for Germany, but will not be allowed to play competitive football again until Oct. 8, 2027. She is permitted to restart training in August 2027, but that timeframe, with the suspension applying retroactively from June 8 2026, means she will miss the World Cup in Brazil.\nThe three reporting and/or testing failures were between March 11, 2025, and February 23, 2026. The June 8, 2026, starting date for the suspension applies to when the DFB notified the relevant anti-doping bodies.\nThe settlement came from discussions with the World Anti-Doping Agency (WADA), the National Anti-Doping Agency of Germany (NADA) and the German Football Association (DFB), alongside the club and player.\nIn a video on her Instagram channel, Freigang said \"it is important for me to emphasise once again that at no time was there any suspicion of doping against me.\"\nShe said she accepted this suspension because of the \"high financial, mental and emotional burden\" of continuing to fight the case. She also said she's \"chosen this path, hoping to find some peace, clarity and perspective,\" and apologised to her club and national team.\n\"It breaks my heart to not be on the pitch for now, helping my team and getting to live the everyday life I love so much,\" she added.\nFreigang has featured prominently for Eintracht Frankfurt this season but despite the ban being backdated to June, their results are unaffected. The club will hold discussions with the player on whether she has a future at Eintracht, with her contract up in June 2027.\n- FIFA's Jill Ellis: '27 Women's World Cup will be first to turn a profit - 'Once in a generation' -- UK's Women's World Cup ambitions are sky high\nKatharina Kiel, director of women's football at Eintracht Frankfurt, said: \"The agreement now reached provides clarity and planning security in a process unprecedented for Eintracht Frankfurt -- for us as a club, but above all for Laura.\n\"The way she and the team have handled the situation in recent months, and how Laura personally led by example with her performance on the pitch during a very difficult time, deserves the highest recognition.\n\"As Eintracht Frankfurt, we have experienced a great sense of unity, which is a hallmark of this club. At the same time, the identified shortcomings, despite the agreement to settle the dispute, have resulted in a suspension, which means the loss of a key player for the remainder of the season, a loss we must and will compensate for. We will discuss the future and the details of our collaboration with Laura in a calm and thorough manner.\"",
+    "visual_subject": "Laura Freigang",
+    "visual_entities": {
+      "personas": [
+        "Laura Freigang"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "zai",
+    "llm_model": "glm-4.5-flash",
+    "headline": "Freigang pierde Mundial por suspensión antidopaje",
+    "caption": "Laura Freigang, capitana de Alemania, se pierde el Mundial por suspensión de 16 meses por no presentarse a controles antidopaje. La jugadora de Eintracht Frankfurt niega dopar y aceptó la sanción por el costo emocional de seguir luchando el caso.",
+    "ai_generated_at": "2026-11-27T12:32:35.973476+00:00"
   },
   {
     "id": "7318a74f376dca998471",
@@ -25591,11 +25605,27 @@
     "sport": "F1",
     "score": 23,
     "queued_at": "2026-11-27T12:16:22.371209+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Nico Rosberg",
+    "visual_entities": {
+      "personas": [
+        "Nico Rosberg"
+      ],
+      "clubes": [],
+      "competicion": [
+        "Fórmula 1"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Nico Rosberg se consagró campeón del mundo de Fórmula 1",
+    "caption": "Nico Rosberg se alzó como campeón del mundo de Fórmula 1, sumándose a los 36 pilotos que han logrado el título en más de 75 años de historia de la categoría. Su victoria marcó un hito en la era moderna del automovilismo.",
+    "ai_generated_at": "2026-11-27T12:32:35.973476+00:00"
   },
   {
     "id": "100e7c51950be819db2d",
@@ -25741,8 +25771,7 @@
     "visual_subject": "Niko Kovac",
     "visual_entities": {
       "personas": [
-        "Niko Kovac",
-        "Arjen Robben"
+        "Niko Kovac"
       ],
       "clubes": [
         "Borussia Dortmund",
@@ -25755,9 +25784,10 @@
     },
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
-    "headline": "Borussia Dortmund lidera la Bundesliga con ventaja de dos puntos",
-    "caption": "Borussia Dortmund encabeza la Bundesliga con dos puntos de ventaja sobre el Bayern. El equipo de Niko Kovac se acerca a romper una sequía de 15 años sin título, mientras el Bayern sufre una lesión clave.",
-    "ai_generated_at": "2026-11-27T12:27:30.851646+00:00"
+    "headline": "Borussia Dortmund lidera la Bundesliga con dos puntos sobre Bayer",
+    "caption": "Borussia Dortmund encabeza la tabla con una ventaja de dos puntos frente a Bayer Leverkusen. Con el Bayern Munich golpeado por lesiones, el equipo de Niko Kovac tiene una oportunidad de coronarse campeón alemán por primera vez en 15 años.",
+    "ai_generated_at": "2026-11-27T12:32:35.973476+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "78a6037d3849a7031515",
@@ -25779,29 +25809,22 @@
     "visual_entities": {
       "personas": [
         "Tarik Muharemovic",
-        "Rasim",
-        "Elmedina",
-        "Chiellini",
-        "Bonucci"
+        "Elmedina"
       ],
-      "clubes": [
-        "Sassuolo",
-        "Coventry"
-      ],
+      "clubes": [],
       "competicion": [
         "Premier League"
       ],
       "ciudad": [
-        "Leeds",
-        "Coventry",
-        "Sassuolo"
+        "Leeds"
       ]
     },
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
-    "headline": "Tarik Muharemovic confirma que su padre está en cada juego de Leeds",
-    "caption": "El defensor bosnio Tarik Muharemovic asegura que su padre, Rasim, asiste a todos los partidos del Leeds United, mientras su madre, Elmedina, lo verá por primera vez. Leeds recibirá a Coventry este sábado y el centrocampista, llegado por 34,1 millones de euros desde el Sassuolo, habla de sus ambiciones europeas y del apoyo familiar.",
-    "ai_generated_at": "2026-11-27T12:27:30.851646+00:00"
+    "headline": "Tarik Muharemovic siente el apoyo de su padre en Leeds",
+    "caption": "El defensa bosnio Tarik Muharemovic asegura que su padre, Rasim, está presente en cada partido del Leeds y a veces lo escucha animar desde las gradas. El centrocampista, fichado por £34,1 millones del Sassuolo, se prepara para el duelo contra Coventry este sábado, cuando su madre, Elmedina, lo verá jugar en vivo por primera vez.",
+    "ai_generated_at": "2026-11-27T12:32:35.973476+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "0380417fb4b6b80b5f29",
@@ -25937,12 +25960,26 @@
     "sport": "FUTBOL",
     "score": 25,
     "queued_at": "2026-11-27T12:21:18.410128+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "article_context": "María Lourdes Carlé venció a Nadia Podoroska y se metió en cuartos.\nEn el duelo albiceleste por los octavos de final del WTA Argentina Open, María Lourdes Carlé (246ª) superó a Nadia Podoroska (181ª) por 6-4 y 7-6 y se metió entre las ocho mejores del certamen.\nEn un inicio de partido marcado por la irregularidad de ambas con sus servicios, la rosarina quebró de entrada, pero la bonaerense respondió de inmediato para igualar 1-1. Luego, ambas volvieron a intercambiar quiebres hasta que, en el octavo game, Carlé golpeó para ponerse 5-3 arriba. Si bien Podoroska recuperó el break, la oriunda de la provincia de Buenos Aires volvió a quebrar en el décimo game, en el que apenas cedió un punto, para quedarse con el primer parcial.\nEn el segundo capítulo, la historia se repitió: ninguna logró sostener su saque en los primeros cuatro games. En el séptimo, Podoroska consiguió otro quiebre y luego lo ratificó con su servicio para adelantarse 5-3. Sin embargo, Carlé reaccionó e igualó 5-5. Tras un nuevo intercambio de quiebres, la definición se trasladó al tie break, donde la bonaerense consiguió cuatro miniquiebres contra dos de su rival para sellar el triunfo y el pase a cuartos.\nLa acción de las argentinas en el WTA Argentina Open continuará este viernes. Desde las 12, Julia Riera (139ª) se medirá con la española Alicia Herrero Liñana (228ª), quien viene de superar a su compatriota Ariana Geerlings Martínez (276ª) por doble 7-5.\nEn tanto, desde las 16.30, Carlé irá ante otra española, Guiomar Maristany (147ª), que eliminó a la italiana Nuria Brancaccio (223ª) por 1-6, 6-3 y 6-1. Ambos encuentros se podrán seguir en vivo por TyC Sports Play.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados."
+    "article_context": "María Lourdes Carlé venció a Nadia Podoroska y se metió en cuartos.\nEn el duelo albiceleste por los octavos de final del WTA Argentina Open, María Lourdes Carlé (246ª) superó a Nadia Podoroska (181ª) por 6-4 y 7-6 y se metió entre las ocho mejores del certamen.\nEn un inicio de partido marcado por la irregularidad de ambas con sus servicios, la rosarina quebró de entrada, pero la bonaerense respondió de inmediato para igualar 1-1. Luego, ambas volvieron a intercambiar quiebres hasta que, en el octavo game, Carlé golpeó para ponerse 5-3 arriba. Si bien Podoroska recuperó el break, la oriunda de la provincia de Buenos Aires volvió a quebrar en el décimo game, en el que apenas cedió un punto, para quedarse con el primer parcial.\nEn el segundo capítulo, la historia se repitió: ninguna logró sostener su saque en los primeros cuatro games. En el séptimo, Podoroska consiguió otro quiebre y luego lo ratificó con su servicio para adelantarse 5-3. Sin embargo, Carlé reaccionó e igualó 5-5. Tras un nuevo intercambio de quiebres, la definición se trasladó al tie break, donde la bonaerense consiguió cuatro miniquiebres contra dos de su rival para sellar el triunfo y el pase a cuartos.\nLa acción de las argentinas en el WTA Argentina Open continuará este viernes. Desde las 12, Julia Riera (139ª) se medirá con la española Alicia Herrero Liñana (228ª), quien viene de superar a su compatriota Ariana Geerlings Martínez (276ª) por doble 7-5.\nEn tanto, desde las 16.30, Carlé irá ante otra española, Guiomar Maristany (147ª), que eliminó a la italiana Nuria Brancaccio (223ª) por 1-6, 6-3 y 6-1. Ambos encuentros se podrán seguir en vivo por TyC Sports Play.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [
+        "WTA Argentina Open"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "María Lourdes Carlé supera a Nadia Podoroska y avanza a cuartos",
+    "caption": "María Lourdes Carlé venció a Nadia Podoroska 6‑4 y 7‑6 y se clasificó a los cuartos del WTA Argentina Open. El duelo se jugó en los octavos de final y la argentina de 246ª enfrentará a la española Guiomar Maristany en la siguiente ronda.",
+    "ai_generated_at": "2026-11-27T12:32:35.973476+00:00"
   },
   {
     "id": "342f5dc0e46ccd1b67e2",
@@ -25955,7 +25992,24 @@
     "sport": "FUTBOL",
     "score": 25,
     "queued_at": "2026-11-27T12:23:31.059245+00:00",
-    "status": "awaiting_ai"
+    "status": "expired",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "Duki"
+      ],
+      "clubes": [
+        "Independiente",
+        "Boca"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Duki confiesa que ahora es fan de Boca",
+    "caption": "El trapero reveló que, tras haber sido hincha de Independiente, ahora se considera bastante bostero. Comentó su reciente encuentro con Juan Román Riquelme y cómo volvió a interesarse por el fútbol.",
+    "ai_generated_at": "2026-11-27T12:32:35.973476+00:00"
   },
   {
     "id": "07b2a8072b48a1a68644",
@@ -25968,11 +26022,28 @@
     "sport": "FUTBOL",
     "score": 23,
     "queued_at": "2026-11-27T12:23:31.059245+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Dundee United manager Jim Goodwin believes Australia will not be able to keep overlooking forward Zac Sapsford if the 24-year-old continues scoring. ( Courier - subscription required , external )\nCeltic banked another £375,000 by winning Thursday's Europa League match away to Torreense . ( Glasgow Times , external )\nArbroath co-manager David Gold is unsurprised Aberdeen are reaping the benefits of giving Findlay Marshall, 20, a new contract, having had the midfielder on loan at Gayfield last season. ( Record - subscription required , external )\nHibernian manager Marink Reedijk urges forward Thibaut Klidje to keep focusing on the next scoring opportunity. ( Edinburgh Evening News - subscription required , external )\nHaaland considers Man City exit - Friday's gossip\nDundee United's Farrugia out until new year - gossip\nRoss County assistant Stevie Frail says the Scottish League 2 leaders will prepare for Saturday's Scottish Cup tie at home to Highland League Brora Rangers like they did for the recent League Cup meeting with Premiership Hibernian . ( Press and Journal - subscription required , external )\nDunfermline Athletic manager Neil Lennon believes last season's Scottish Cup finalists can get themselves back to the Hampden showpiece. ( Courier - subscription required , external )\nA proposed £1m takeover of Stirling Albion by Canadian Eric Perez could still go through, the club say. ( Herald - subscription required , external )\nScottish referee Nick Walsh earned plaudits for his handling of Barcelona's 4-1 Champions League win away to Sabah . ( Glasgow Times , external )\nFury cleared to fight Joshua after medical checks\nEngland outclass Aussies again to take series lead\nMan City owners should be forced to sell, say clubs\nSteve Coogan joins Paul and Bob for a festive fishing tour\nLegendary snooker player, Ronnie O'Sullivan, soundtracks his life\nA caring, new comedy with Vittorio Angelone and Hannah McClean\nThe truth behind Black Friday's biggest bargains\nHow Scotland reached the World Cup - told by those who made it happen\nScotland men's internationals to be shown live on BBC\nHow Team GB is leading the way in curling's arms race\nHow McTominay became a Napoli icon after Man Utd exit\nWhy is it so special to be part of Team Scotland?\nWhat happens now for Bayern Munich and Musiala?\nLammens - the Man Utd goalkeeper under scrutiny like never before\n440 players, three days, one venue - the Nations Championship logistics logjam\nPant joins New Zealand club match under false name\nNot even making a 12-man bench - what next for Garnacho?\nSelby faces tough UK opener while Allen set to feature\n'Laughing gas has ended careers' - so how common is it in football?\nMotorcycle passenger who took stunning cricket catch found\n'Best midfielder in the world' - where does Bellingham rank?\nSooryavanshi, 15, breaks sixes record in 204 off 53 balls\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland's tearaway quick bowler reinvented as a top-order batter\nJosh Kerr: The making of the man behind the shades\nThe 3pm football blackout: Outdated or still relevant in 2026?\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Dundee United"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Dundee"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Jim Goodwin cree que Zac Sapsford será llamado por Australia",
+    "caption": "El entrenador de Dundee United, Jim Goodwin, asegura que Australia no podrá seguir ignorando al delantero de 24 años Zac Sapsford si mantiene su nivel de gol. Sapsford ha sido clave en la ofensiva del club escocés y el llamado internacional se perfila para los próximos partidos de la Albiceleste.",
+    "ai_generated_at": "2026-11-27T12:32:35.973476+00:00"
   },
   {
     "id": "f35fc5b7f31cde1d0c33",
@@ -26075,7 +26146,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-27T12:30:02.921303+00:00",
+    "photo_checked_at": "2026-11-27T12:35:07.775526+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -26090,6 +26161,22 @@
     "format_attempt_at": "2026-11-27T12:27:30.851646+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-27T12:27:30.851646+00:00",
-    "instagram_media_id": "18104119466644601"
+    "instagram_media_id": "18104119466644601",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 15.1,
+      "mean_db": -19.3
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795782919/football-news-bot/reels/ce6136e83784b6e881a8-cross.mp4",
+    "crosspost_attempt_at": "2026-11-27T12:32:35.973476+00:00",
+    "youtube_attempt_at": "2026-11-27T12:32:35.973476+00:00",
+    "tiktok_attempt_at": "2026-11-27T12:32:35.973476+00:00",
+    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_id": "6b097909fa1d875aa6f27f91",
+    "buffer_youtube_status": "error",
+    "buffer_youtube_id": "6b09790d049983dcfbbc0551",
+    "buffer_youtube_error": "daily_limit"
   }
 ]
