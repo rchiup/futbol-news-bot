@@ -19700,11 +19700,25 @@
     "sport": "FUTBOL",
     "score": 31,
     "queued_at": "2026-11-26T11:34:57.012553+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [
+        "Concacaf W Championship"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "Estados Unidos puede sellar su cupo al Mundial femenino 2027",
+    "caption": "La selección estadounidense tiene en el Premundial de Concacaf la opción de asegurar su lugar en el Mundial femenino de 2027. El torneo regional entrega boletos directos a la cita mundialista, y el equipo llega como uno de los principales candidatos a conseguirlos.",
+    "ai_generated_at": "2026-11-27T01:34:54.699411+00:00"
   },
   {
     "id": "c2f496a25b7df4f5f5b3",
@@ -20132,20 +20146,25 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T12:41:42.423265+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "article_context": "Boca le ganó a Indendiente Rivadavia y dio la vuelta en el Templo con la Sudamericana (Marcelo Carroll).\nBoca consiguió adelantar el partido contra Gimnasia LP y jugará este domingo a las 20.30 en la Bombonera, por los cuartos de final del Clausura. El encuentro estaba programado para las 22, pero el club pidió modificarlo por el desgaste que acumula el plantel y la cercanía de la final de la Copa Argentina ante Platense , que disputará el miércoles en Santiago del Estero.\nSegún pudo saber Olé , el cambio respondió exclusivamente a esa gestión del Xeneize . Apenas terminó el triunfo ante Independiente Rivadavia , desde la Boca salió el pedido hacia las oficinas de la Liga Profesional en Puerto Madero: adelantar el comienzo para evitar que otra noche de competencia se extendiera prácticamente hasta el lunes. A la seguidilla de partidos se sumará, además, un nuevo viaje para buscar otro título.\nLa modificación se resolvió sobre la marcha . La Liga llegó a publicar en sus redes el cronograma de cuartos después del encuentro del miércoles y lo hizo con Boca-Gimnasia a las 22. Horas después retiró aquella publicación y difundió la programación actualizada, ya con las 20.30 como horario confirmado . El domingo también se adelantó Rosario Central-Barracas Central, que pasó de las 17.30 a las 17.\nPara el equipo de Rodolfo Arruabarrena , ganar una hora y media tiene sentido dentro de un calendario que casi no ofrece pausas . El sábado fue la final de la Sudamericana en Barranquilla, el plantel regresó a la Argentina en la madrugada del lunes y el miércoles volvió a competir en la Bombonera. Ahora tendrá el cruce con el Lobo y, tres días después, la definición de la Copa Argentina , con traslado a Santiago incluido.\nEl Xeneize festejo la consagración de la Copa Sudamericana. Con goles de Paredes y Merentiel, el Xeneize le ganó a Independiente Rivadavia y pasó a cuartos del Clausura. @catasarra\nTambién pesa el formato del partido del domingo: si hay empate en los 90 minutos, se jugará un alargue de media hora y, de persistir la igualdad, penales . Con el horario original, esa posibilidad podía llevar la definición a la madrugada del lunes. Boca buscó anticipar el cierre de la jornada sin modificar el día del encuentro.\nLas 22 iniciales tenían otra explicación: evitar la superposición con el amistoso de la Selección femenina ante Alemania , previsto para el mismo domingo a las 20.15 en el Estadio Único Diego Armando Maradona de La Plata, en su reinauguración.\nCon el adelanto de Boca-Gimnasia, también se evaluó mover el horario del seleccionado para que ambos encuentros no coincidieran. Sin embargo, por ahora ese partido mantiene su programación .\nRodolfo Arruabarrena resaltó el nivel del equipo, las alternativas que tiene en el plantel y la felicidad de la gente\nBoca le ganó a Independiente Rivadavia y pasó a cuartos del Clausura. @catasarra\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "visual_subject": "",
     "visual_entities": {
       "personas": [],
-      "clubes": [],
-      "competicion": [],
+      "clubes": [
+        "Boca",
+        "Gimnasia LP"
+      ],
+      "competicion": [
+        "Liga Profesional"
+      ],
       "ciudad": []
     },
-    "llm_provider": "groq",
-    "llm_model": "openai/gpt-oss-120b",
-    "headline": "Boca adelanta su partido contra Gimnasia LP a las 20:30",
-    "caption": "El Xeneize solicitó adelantar el encuentro de cuartos de final del Clausura contra Gimnasia LP, que se disputará este domingo a las 20:30 en la Bombonera. La decisión responde al desgaste del plantel y a la cercanía de la final de la Copa Argentina contra Platense el miércoles. Además, el cambio evita que, de empatar, el alargue se extienda hasta la madrugada del lunes.",
-    "ai_generated_at": "2026-11-26T12:41:42.423265+00:00",
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Boca adelanta partido contra Gimnasia LP",
+    "caption": "Boca jugará contra Gimnasia LP este domingo a las 20.30 en la Bombonera, por los cuartos de final del Clausura. El encuentro estaba programado para las 22, pero el club pidió modificarlo por el desgaste del plantel. El equipo de Rodolfo Arruabarrena busca evitar una noche de competencia extendida hasta el lunes.",
+    "ai_generated_at": "2026-11-27T01:34:54.699411+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -21183,12 +21202,31 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T15:23:48.179581+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "article_context": "Los jugadores de la Lepra le reclaman a Lobo Medina (Foto: Marcelo Carroll).\nIndependiente Rivadavia se fue con mucha bronca de la Bombonera , tras caer 2-0 con Boca y quedar eliminado del Torneo Clausura . En el elenco mendocino quedaron calientes con los polémicos fallos del árbitro Lobo Medina , sobre todo por el planchazo de Leandro Lozano, que debió ser expulsado, a Matías Fernández.\n\"El árbitro tampoco ayudó tanto. Boca no necesita estas cosas. Creo que fue para roja, eso hubiera cambiado el partido\" , aseguró Álex Arce , capitán de la Lepra. El análisis del delantero paraguayo fue sumamente certero: en el segundo tiempo, el lateral derecho -que tendría que haber sido expulsado- dio la asistencia en el tanto de Miguel Merentiel para el 2-0 definitivo.\nArce fue amonestado por una patada sobre Paredes , aunque en primera instancia Lobo Medina le había mostrado la amarilla a Elordi.\nEl partido lo abrió Paredes, de penal. El juez Luis Lobo Medina no lo cobró en el momento, pero fue llamado por José Carreras -encargado del VAR- para que la revise en el campo de juego y no dudó en sancionar mano de Ezequiel Bonifacio, que está de espaldas pero amplía volúmen del cuerpo.\n\"Me pega en el tríceps, siento que el golpe me da ahí. Después en el VAR se la frenan cuando la pelota ya está pasando y se nota que está a la altura del codo. Me pega después de pasar el hombro, ya no sabés cuál es el criterio\", sostuvo Bonifacio en zona mixta.\nDe cualquier manera, el defensor de Independiente Rivadavia no justificó la derrota por el juez: \"Tampoco me quiero detenerme en eso, hay cosas en las que uno tiene que hacer autocrítica personal y grupal. Perdimos 2-0, es la realidad\".\nEl juez erró en distintas situaciones y tuvo que ser corregido por el VAR durante más de una oportunidad en el duelo de octavos de final del Clausura. Todo esto despertó un particular y risueño ida y vuelta entre Sebastián Vignolo y Gustavo López, los dos encargados de la transmisión oficial de ESPN...\nEl árbitro principal tuvo que apoyarse en el llamado de José Carreras para identificar la mano de Bonifacio que derivó en el 1-0 xeneize. Además, sancionó con amarilla un duro planchazo de Lozano sobre Matías Fernández, tuvo que modificar una tarjeta por corrección de identidad y dio marcha atrás con dos corners por haber fallado a la hora de visualizar la jugada. Insólito.\nLógicamente, toda esta serie de decisiones de Lobo Medina despertaron la crítica y una serie de comentarios de todo tipo de la dupla televisiva. \"¿Medina va a salir de ahí o va a dirigir desde el círculo central?\", afirmó el relator en un principio. Y la respuesta de López fue tajante: \"Le manejan el partido por el VAR\".\nActo seguido, ante la dura infracción del lateral derecho de Boca, Lozano, sobre el 10 de la Lepra mendocina, Gustavo también aprovechó para puntualizar en la actuación del juez: \"Tremenda patada, ¿el VAR? ¿No? Está todo marcado, aplaude Berti, eh\".\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Álex Arce",
+    "visual_entities": {
+      "personas": [
+        "Álex Arce",
+        "Lobo Medina",
+        "Ezequiel Bonifacio"
+      ],
+      "clubes": [
+        "Independiente Rivadavia",
+        "Boca"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Álex Arce critica arbitraje de Lobo Medina",
+    "caption": "Independiente Rivadavia se queja por los polémicos fallos del juez en la derrota 2-0 con Boca. Álex Arce considera que la falta de Leandro Lozano debió ser roja. El equipo mendocino queda eliminado del Torneo Clausura.",
+    "ai_generated_at": "2026-11-27T01:34:54.699411+00:00"
   },
   {
     "id": "46c1e4020f357a08ac46",
@@ -21201,11 +21239,45 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T15:26:08.545331+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Aleksandar Pavlović",
+    "visual_entities": {
+      "personas": [
+        "Aleksandar Pavlović",
+        "Vincent Kompany",
+        "Harry Kane"
+      ],
+      "clubes": [
+        "Lille",
+        "Bayern Múnich",
+        "Bayern Munich"
+      ],
+      "competicion": [
+        "Champions League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "zai",
+    "llm_model": "glm-4.5-flash",
+    "headline": "Lille derrota a Bayern con autogol histórico en Champions",
+    "caption": "Lille consigue su primera victoria en la Champions League sobre Bayern Múnich con un autogol espectacular de Aleksandar Pavlović. El Bayern, que ocupa el puesto 15 en la tabla de la competición, sigue sin poder contar con Harry Kane lesionado mientras su entrenador Vincent Kompany se recupera de su propio problema de salud.",
+    "ai_generated_at": "2026-11-27T01:34:54.699411+00:00",
+    "photo_checked_at": "2026-11-27T01:41:22.379975+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "AleksandarPavlovic",
+        "VincentKompany",
+        "HarryKane",
+        "Lille"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "f94a8a37697c4c0812f3",
@@ -21458,12 +21530,31 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-26T16:19:08.376343+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "article_context": "Le pelear por evitar el descenso en el Brasileirao.\nLa famosa calculadora siempre está presente. Esta vez, el foco está puesto en el Brasileirao , donde cinco equipos llegan a las últimas dos fechas sin haber asegurado su permanencia . El empate por 1-1 de Corinthians ante Atlético Mineiro, en el cierre de la jornada 36, modificó el panorama: el Timao salió de la zona de descenso, Mirassol cayó al 17° puesto y Vitória aseguró su continuidad en Primera División.\nCon Chapecoense y Remo ya descendidos, apenas quedan tres lugares disponibles entre los cinco clubes involucrados. La particularidad es que cuatro de ellos supieron conquistar la Copa Libertadores y, al menos, uno deberá disputar la Serie B en 2027 .\nEste domingo, desde las 18.30 (horario Argentina), se disputarán tres encuentros en simultáneo que podrían empezar a resolver la incógnita .\nA diez años de haber perdido la categoría por primera vez, el fantasma del descenso vuelve a hacerse presente en Porto Alegre. El Internacional ocupa el antepenúltimo puesto con 38 unidades y, aun en el mejor de los escenarios, solo puede llegar a los 44 puntos. Es el único de los cinco involucrados que no depende de sí mismo para salvarse .\nAnte Red Bull Bragantino, en el Beira-Rio, los hinchas tendrán que estar pendientes tanto de lo que suceda con su equipo como de los resultados en San Pablo , donde Corinthians y Gremio se enfrentarán entre sí y Mirassol recibirá a Athletico Paranaense.\nNi siquiera un empate ante Bragantino le garantizará llegar con chances a la última jornada. En cambio, un triunfo estirará la definición hasta el miércoles, cuando visite a Cruzeiro en Belo Horizonte .\nEn el Neo Química Arena se enfrentarán dos históricos del fútbol brasileño que tienen 41 puntos y la misma cantidad de victorias . La diferencia de gol favorece a Corinthians (-2) por sobre Gremio (-7).\nEl Timao podría asegurar su permanencia este domingo si vence al Tricolor y ni Internacional ni Mirassol ganan sus respectivos encuentros . Además, cerrará el campeonato ante el ya descendido Remo, mientras que los de Porto Alegre ( si no descienden jugarán la Libertadores 2027 ) recibirán a Mirassol en otro duelo directo.\nA ambos les alcanzará con sumar una victoria y un empate en las dos jornadas restantes para mantenerse en Primera División sin depender de otros resultados .\nLa gran diferencia aparece en el peor de los escenarios: Corinthians podría salvarse incluso perdiendo sus dos compromisos , aunque dependerá de los resultados de Mirassol e Internacional y de los criterios de desempate. En cambio, si Gremio pierde ambos partidos, consumará el cuarto descenso de su historia .\nPese a tener la misma cantidad de puntos que Corinthians y Gremio (41), Mirassol se encuentra en zona de descenso por su diferencia de gol (-10) . El conjunto paulista recibirá a Athletico Paranaense y cerrará el campeonato ante el Tricolor en Porto Alegre.\nUna victoria y un empate le garantizarán la permanencia . Incluso perdiendo ambos encuentros podría salvarse, aunque para ello necesitará que Corinthians tampoco sume puntos, que Internacional no supere las 41 unidades y que los criterios de desempate lo favorezcan.\nBotafogo , por su parte, es el menos comprometido de los cinco equipos . Con 43 puntos, el campeón de la Libertadores 2024 tiene la posibilidad de resolver su situación antes de los tres partidos del domingo: si vence a Bahía este sábado, asegurará su continuidad en la máxima categoría del fútbol brasileño.\nDe no conseguirlo, tendrá una última oportunidad ante Santos en Vila Belmiro. Dos empates también le alcanzarán para mantener la categoría.\nLa última fecha se disputará el próximo miércoles 2 de diciembre , con todos los encuentros programados para las 21.30 de Argentina.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Internacional",
+        "Gremio",
+        "Corinthians",
+        "Botafogo"
+      ],
+      "competicion": [
+        "Brasileirao"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "zai",
+    "llm_model": "glm-4.5-flash",
+    "headline": "Internacional, Gremio, Corinthians y Botafogo en riesgo de descenso en Brasil",
+    "caption": "Cuatro grandes del fútbol brasileño se juegan la permanencia en la última fecha del Brasileirao. Internacional, Gremio, Corinthians y Botafogo dependen de resultados propios y ajenos para evitar el descenso.",
+    "ai_generated_at": "2026-11-27T01:34:54.699411+00:00"
   },
   {
     "id": "2ede5f9d2198792a786a",
@@ -23527,11 +23618,30 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-26T21:51:56.135299+00:00",
-    "status": "awaiting_ai",
+    "status": "duplicate",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Ezequiel Piovi",
+    "visual_entities": {
+      "personas": [
+        "Ezequiel Piovi"
+      ],
+      "clubes": [
+        "Estudiantes"
+      ],
+      "competicion": [
+        "Champions Liga"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Ezequiel Piovi se consolida como pieza clave en Estudiantes",
+    "caption": "Ezequiel Piovi, volante del Pincha, es dueño del mediocampo y lidera al equipo en su búsqueda de otra gloria continental. Tras pasar por la Champions Liga y recorrer el Ascenso, su carácter y autoridad lo convierten en referente del conjunto.",
+    "ai_generated_at": "2026-11-27T01:34:54.699411+00:00",
+    "duplicate_of": "same_story_as:00632b79c5275ed44260"
   },
   {
     "id": "9ea3d270f304045bbf35",
@@ -23544,11 +23654,33 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-26T21:57:30.106013+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Gabriel Torres es el nuevo técnico de San Miguel.\nLuego del duro golpe que significó el descenso a la Primera B , San Miguel decidió apostar por el sentido de pertenencia para empezar a reconstruirse y sacar al equipo del pozo. El elegido para tomar el timón del Trueno Verde es un viejo conocido e hincha confeso de la institución: Gabriel Peter Torres , quien afrontará su segundo ciclo al frente del primer equipo.\nSegún la información a la que pudo acceder Olé , ya está todo acordado entre las partes : el entrenador firmará su contrato este viernes y el próximo lunes arrancará formalmente a trabajar en Polvorines. Como el plantel profesional se encuentra de licencia, la primera tarea de Torres pasará por meterse de lleno en la planificación y el armado del equipo para afrontar la temporada que viene.\nEsta será la segunda experiencia de Peter al mando de San Miguel , luego de su anterior etapa entre 2019 y 2022. En aquel ciclo, Torres dirigió un total de 50 partidos, con un saldo de 14 victorias, 14 empates y 22 derrotas.\nSu salida en 2022 se produjo de manera temprana, apenas en la cuarta fecha del Torneo Apertura, tras un mal arranque sin triunfos que se cerró con una derrota por 1-0 frente a Dock Sud. Ahora, con más recorrido en el lomo, regresa al club de sus amores en busca de revancha .\nMás allá de su identificación con los colores, el regreso de Torres se sustenta en el gran trabajo que realizó en su última experiencia en Real Pilar . Allí dejó una huella imborrable tras consagrarse campeón invicto de la Primera C en 2024 y sostener una regularidad notable en el Ascenso.\nEn el Monarca estuvo al mando durante 135 partidos, en los que cosechó 66 triunfos, 45 empates y apenas 24 caídas, hasta alcanzar una efectividad del 60% de los puntos disputados . Con esas credenciales bajo el brazo, Polvorines vuelve a darle luz verde a Peter para ir por la resurrección del Trueno y recuperar el lugar que perdió en esta temporada.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "Gabriel Torres",
+    "visual_entities": {
+      "personas": [
+        "Gabriel Torres"
+      ],
+      "clubes": [
+        "San Miguel"
+      ],
+      "competicion": [
+        "Primera B",
+        "Primera C"
+      ],
+      "ciudad": [
+        "Polvorines"
+      ]
+    },
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "Gabriel Torres vuelve a San Miguel para encabezar la reconstrucción",
+    "caption": "El entrenador firma este viernes y comienza el lunes en Polvorines tras el descenso a Primera B. Llega con el crédito de haber ganado la Primera C invicto con Real Pilar en 2024. Su primer ciclo en el Trueno Verde fue entre 2019 y 2022 con 50 partidos dirigidos.",
+    "ai_generated_at": "2026-11-27T01:34:54.699411+00:00"
   },
   {
     "id": "d8159781b37b08d1758c",

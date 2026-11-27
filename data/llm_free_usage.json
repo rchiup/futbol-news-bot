@@ -2,21 +2,23 @@
   "date_utc": "2026-11-27",
   "providers": {
     "groq": {
-      "attempts": 11,
-      "success": 3,
-      "failures": 8,
+      "attempts": 14,
+      "success": 4,
+      "failures": 10,
       "latencies_ms": [
         2253,
         2291,
-        3267
+        3267,
+        1606
       ],
       "quality": [
+        100,
         100,
         100,
         100
       ],
       "last_error": "http_429",
-      "blocked_until_utc": 1795743239
+      "blocked_until_utc": 1795743850
     },
     "gemini": {
       "attempts": 20,
@@ -46,9 +48,9 @@
       "blocked_until_utc": 1795739378
     },
     "openrouter": {
-      "attempts": 32,
-      "success": 14,
-      "failures": 18,
+      "attempts": 37,
+      "success": 16,
+      "failures": 21,
       "latencies_ms": [
         111739,
         15157,
@@ -63,7 +65,9 @@
         214103,
         173504,
         28394,
-        52463
+        52463,
+        13177,
+        4946
       ],
       "quality": [
         100,
@@ -75,23 +79,30 @@
         100,
         100,
         85,
+        100,
+        100,
         100,
         100,
         100,
         100,
         100
       ],
-      "last_error": "invalid_output"
+      "last_error": "http_429",
+      "blocked_until_utc": 1795747226
     },
     "cloudflare": {
-      "attempts": 18,
-      "success": 2,
-      "failures": 16,
+      "attempts": 23,
+      "success": 4,
+      "failures": 19,
       "latencies_ms": [
         1685,
-        1720
+        1720,
+        3528,
+        4538
       ],
       "quality": [
+        100,
+        100,
         100,
         100
       ],
@@ -107,19 +118,23 @@
       "blocked_until_utc": 1795744029
     },
     "zai": {
-      "attempts": 16,
-      "success": 2,
-      "failures": 14,
+      "attempts": 19,
+      "success": 4,
+      "failures": 15,
       "latencies_ms": [
         24359,
-        23437
+        23437,
+        35329,
+        33089
       ],
       "quality": [
         100,
+        100,
+        85,
         100
       ],
       "last_error": "invalid_output"
     }
   },
-  "last_success": "openrouter"
+  "last_success": "cloudflare"
 }
