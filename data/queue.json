@@ -28022,11 +28022,25 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-27T19:08:26.734952+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "article_context": "Jugó dos años en Boca y con ese tiempo le alcanzó para grabar su nombre en la memoria de los hinchas. Se dice por la Bombonera y alrededores que quien le convierte un gol a River, y en el Monumental, nunca será olvidado. Y algo de eso ocurre con Nicolás Lodeiro , el uruguayo que pasó por el club entre 2015 y 2016, ganó dos títulos y hasta se animó a llevar la 10 , nada menos. Y en una charla con Olé, reveló que fue a ver la final de la Copa Sudamericana en la que el team de Arruabarrena se coronó campeón: \"Lo vi, fuimos con mi hijo a Barranquilla. Contento por el momento, por el Vasco, por el cuerpo técnico que los conozco, ellos fueron los que me llevaron a Boca y a conocer el Mundo Boca\", soltó desde Montevideo, en la previa a otra definición Conmebol, la Libertadores.\n\"La verdad es que Boca está jugando muy bien , es la realidad. Me alegro mucho por el club, lo seguimos siempre. Un placer estar cerca\", dijo Nico, vestido de uruguayo, ya que volvió a ponerse los botines (se retiró en agosto de este año) para jugar el Partido de Leyendas en la cancha de Montevideo Wanderers, un evento que le da un poco más de color y acción a la final de la Copa Libertadores que este sábado definirán Estudiantes y Palmeiras.\nLodeiro llegó en 2015 a Boca , proveniente de Corinthians, y no le tuvo miedo a vestir la mítica 10. Luego se la cedió a Carlos Tevez, cuando el Apache volvió al club. Nico, un picante zurdo adentro y buenudo afuera, se fue del Xeneize en 2026 tras 11 goles y 14 asistencias en 51 partidos. Conquistó el Torneo de Primera División y la Copa Argentina en 2015 , y le quedó la espina de la Libertadores, donde fue eliminado en octavos en 2015 y semis en 2016.\nLodeiro habló con Olé sobre el presente de Boca tras un partido de Leyendas en la previa de la final Estudiantes-Palmeiras - @lucasbenda @maxifriggieri enviados especiales Olé.\nUna de las imágenes de Lodeiro que más recuerda el hincha de Boca tiene fecha y lugar: domingo 13 de septiembre del 2015, en el Monumental . Ese día, por la 24° fecha del torneo argentino, Nico fue suplente y a los 4' ingresó por el lesionado Gago, pasando Betancur al medio junto a Erbes y Meli y dejando al uruguayo más arriba, a la par de Sebastián Palacios y Tevez. A los 19', tras un rechazo y corrida de Palacios, Barovero adivinó la gambeta de Tevez, la pelota quedó picando y ahí apareció Lodeiro para meter un zurdazo fuerte . Fue 1-0 , inolvidable para él y para varios.\nLuego de su paso por Boca, el charrúa fue a la MLS para ganar todo con Seattle Sounders (MLS Cup, Concachampions...) y se retiró en Nacional , club que lo vio nacer, también siendo campeón del torneo uruguayo 2025.\nCon respecto a la final de la Copa que se definirá en su tierra, Lodeiro le dijo a Ole: \"Ahora a disfrutar la Libertadores que se juega en casa , un lindo partido y que gane el mejor. Tengo conocidos y compañeros en los dos equipos. Que sea una fiesta, disfrutar, contento que sea acá en Uruguay\". No se la jugó por Estudiantes o Palmeiras , ahora disfruta de afuera.\nLodeiro fue de los más ovacionados por los hinchas en el Estadio Parque Alfredo Víctor Viera, la cancha del Wanderers, donde Uruguay le ganó a un combinado sudamericano. \"Después de que me retiré no jugué más. Ahora vine porque nunca se le dice que no a la selección , aparte tenía ganas de reencontrarme con amigos que marcaron una etapa de mi vida. A la gente alentando a la selección, había que venir, pero estoy alejado de las canchas . Se extraña la gente y el ambiente, pero jugar no. Algún tirito con mi hijo en casa, pero después no juego ningún partido ni nada, quizás en algún momento voy a retomar\", cerró.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": [
+        "Barranquilla"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Nicolás Lodeiro viajó a Barranquilla para ver a Boca campeón",
+    "caption": "Nicolás Lodeiro viajó a Barranquilla con su hijo para ver a Boca Juniors coronarse campeón de la Copa Sudamericana. El ex Xeneize elogió el fútbol del club y recordó que la final de la Libertadores se jugará en Uruguay entre Estudiantes y Palmeiras.",
+    "ai_generated_at": "2026-11-27T19:15:41.907434+00:00"
   }
 ]
