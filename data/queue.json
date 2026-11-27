@@ -27306,7 +27306,20 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Abel Ferreira y Gustavo Gómez analizan a Estudiantes antes de la final",
     "caption": "El entrenador Abel Ferreira y el capitán Gustavo Gómez dieron conferencia de prensa y analizaron las virtudes de Estudiantes, el Pincha, a un día de la final de la Libertadores. Palmeiras buscará neutralizar a Guido Carrillo, Joaquín Tobio y Alexis Castro para retomar el título que perdió en 2025 contra Flamengo.",
-    "ai_generated_at": "2026-11-27T16:08:38.175853+00:00"
+    "ai_generated_at": "2026-11-27T16:08:38.175853+00:00",
+    "photo_checked_at": "2026-11-27T16:22:06.969372+00:00",
+    "video_style": "tiktok",
+    "video_hook_variant": "fact_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 16.9,
+      "mean_db": -19.6
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795796538/football-news-bot/reels/e96f19e7b4eae7907e2b-cross.mp4",
+    "crosspost_attempt_at": "2026-11-27T16:21:13.857991+00:00",
+    "tiktok_attempt_at": "2026-11-27T16:21:13.857991+00:00",
+    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_id": "6b09ae3b66b7095e01265497"
   },
   {
     "id": "93d8220f7678e9b066c3",
