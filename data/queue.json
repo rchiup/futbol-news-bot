@@ -25843,7 +25843,7 @@
     "sport": "FUTBOL",
     "score": 25,
     "queued_at": "2026-11-27T12:21:18.410128+00:00",
-    "status": "draft",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": true,
     "portrait_used": true,
@@ -25893,7 +25893,18 @@
         "NottinghamForest"
       ],
       "mentions": []
-    }
+    },
+    "video_style": "instagram",
+    "reel_quality": {
+      "version": 2,
+      "duration": 17.6,
+      "mean_db": -19.6
+    },
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-27T12:47:51.148263+00:00",
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795783811/football-news-bot/reels/0380417fb4b6b80b5f29.mp4",
+    "posted_at": "2026-11-27T12:47:51.148263+00:00",
+    "instagram_media_id": "18118345385177032"
   },
   {
     "id": "6c12b32aa5a6f3d39d44",
@@ -26196,7 +26207,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-27T12:44:42.932636+00:00",
-    "status": "draft",
+    "status": "published",
     "article_context": "Fabricio Pérez se perfila como titular para la final ante Palmeiras.\nLa tarjeta roja que recibió Baltasar Rodríguez apenas comenzado el segundo tiempo ante Flamengo en el Maracaná obligó a Alexander Medina a encontrarle un reemplazante para la final de la Copa Libertadores . Así, la expulsión del volante dejó un hueco en el mediocampo que asoma como la única duda del Cacique a solo tres días de la ansiada definición ante Palmeiras , para la que ya tiene diez de los once nombres prácticamente definidos.\nEn esa línea, si bien en un principio se habló de un posible ingreso de Edwuin Cetré, quien hoy corre con ventaja para ir de la partida es Fabricio Pérez . El juvenil de 20 años podría tener una oportunidad inmejorable en el partido más importante de su todavía corta carrera, con características similares a Rodríguez y que permitirían mantener el funcionamiento colectivo. Y aunque recién empieza a dar sus primeros pasos en Estudiantes , su vínculo con el Pincha ya tiene varios capítulos y hasta una anécdota particular con uno de los máximos ídolos de la institución: Juan Sebastián Verón .\nEl primer encuentro entre ambos no se dio en una cancha ni en un entrenamiento, sino en una reunión familiar : “Lo conocí en un cumpleaños que fui con un amigo, que es su cuñado. Me preguntó por qué no estaba haciendo goles en Reserva y me dio un par de consejos”, contó Fabricio. La Brujita fue más allá e incluso les ofreció incluso llevarlo a la casa: “Verón nos dijo a mí y a mi amigo, que también juega en el club, ‘Son las 11.30 de la noche y ustedes acá...’ Y nos hizo irnos porque a esa hora teníamos que estar descansando para jugar el día siguiente” , recordó.\nPero mucho antes de aquella escena con la Brujita, Pérez ya había comenzado a hacer su camino en las divisiones inferiores de Estudiantes . Nacido en San Juan y surgido de las juveniles de Trinidad, su crecimiento fue rápido: con apenas 15 años ya había debutado en la Primera del club, y en 2022 llegó al club platense, después de una prueba que le abrió las puertas: “Por tres meses venía una semana por mes hasta La Plata para irme adaptando de a poco. Ya en 2023 me instalé en la pensión y no me fui por un año y medio, después nos mudamos juntos con dos chicos del club”.\nSu primera oportunidad en Primera División llegó en septiembre de 2024, cuando Eduardo Domínguez , a quien se le reclamaba que utilizaba poco a los juveniles, decidió hacerlo debutar frente a Platense, en el empate 1-1 en UNO. Ese año sumó 11 partidos con el primer equipo. Pero su capítulo más determinante en el Pincha llegó en febrero de 2025, cuando convirtió el gol que evitó un papelón en la primera ronda de la Copa Argentina: puso el 2-1 agónico ante Sarmiento de La Banda, equipo del Federal A, y selló la clasificación.\nEn ese recorrido, encontró en Emmanuel Mas , campeón de la Libertadores 2014 con San Lorenzo y otro sanjuanino que supo vestir la camiseta de Estudiantes, un referente que fue clave para su adaptación lejos de su casa y su familia: “Él siempre me apoyaba cada vez que me llevaban a Primera, me decía que tenía condiciones y que, de lo que tuviese dudas, le preguntara. Así me fue guiando”.\nDesde aquel debut con 18 años, Pérez siguió sumando rodaje: acumula 66 partidos, con ocho goles y tres asistencias con la camiseta albirroja. Además, viene de ser titular en la reciente consagración frente a Independiente Rivadavia (3-2) por la Supercopa Argentina .\nCon 20 años y varios pasos importantes ya dados en el club, Pérez está ante un escenario que puede marcar un antes y un después en su carrera en el escenario mas importante del fútbol del continente.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "visual_subject": "Fabricio Pérez",
     "visual_entities": {
@@ -26217,7 +26228,7 @@
     "headline": "Fabricio Pérez será titular en la final de la Libertadores",
     "caption": "Fabricio Pérez, de 20 años, está a punto de ser titular del Cacique en la final de la Copa Libertadores contra Palmeiras. La expulsión de Baltasar Rodríguez en la semifinal contra Flamengo obligó a Alexander Medina a buscar un reemplazo. Antes se barajó a Edwuin Cetré, pero el juvenil lleva ventaja tras su desempeño reciente.",
     "ai_generated_at": "2026-11-27T12:44:42.932636+00:00",
-    "photo_checked_at": "2026-11-27T12:45:37.457814+00:00",
+    "photo_checked_at": "2026-11-27T12:48:42.802313+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -26232,7 +26243,28 @@
         "Palmeiras"
       ],
       "mentions": []
-    }
+    },
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 20.6,
+      "mean_db": -19.6
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795783734/football-news-bot/reels/7949f67829464c57a172-cross.mp4",
+    "crosspost_attempt_at": "2026-11-27T12:47:51.148263+00:00",
+    "youtube_attempt_at": "2026-11-27T12:47:51.148263+00:00",
+    "tiktok_attempt_at": "2026-11-27T12:47:51.148263+00:00",
+    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_id": "6b097c377a2870717d42f8d7",
+    "buffer_youtube_status": "error",
+    "buffer_youtube_id": "6b097c3be94385a8fda54ac2",
+    "buffer_youtube_error": "daily_limit",
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-27T12:47:51.148263+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-27T12:47:51.148263+00:00",
+    "instagram_media_id": "17880201438650671"
   },
   {
     "id": "fd5e20a0d3e19b7dfcbf",
@@ -26309,12 +26341,13 @@
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Bruno Fernandes será evaluado antes del partido United contra Brentford",
-    "caption": "Bruno Fernandes será evaluado antes del encuentro de Premier League entre Manchester United y Brentford tras ausentarse del entrenamiento por una enfermedad. El club busca confirmar su disponibilidad para el duelo del sábado en Old Trafford, donde ambos equipos intentan sumar puntos cruciales.",
-    "ai_generated_at": "2026-11-27T12:44:42.932636+00:00",
+    "caption": "Bruno Fernandes se perdió el entrenamiento del viernes por una molestia y será evaluado antes del encuentro de Premier League del sábado entre Manchester United y Brentford. El club londinense busca definir su presencia en el choque que podría influir en la tabla.",
+    "ai_generated_at": "2026-11-27T12:47:51.148263+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "editorial_rechecked": true
   },
   {
     "id": "631438a82a60c21cd6f1",
@@ -26327,7 +26360,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-27T12:44:42.932636+00:00",
-    "status": "needs_review",
+    "status": "awaiting_ai",
     "article_context": "José Mourinho called Jude Bellingham \"one of the best players of his generation\" on Friday, but refused to compare the England star with Real Madrid legend Zinedine Zidane.\nBellingham -- who wears Zidane's No. 5 shirt with Madrid -- scored a stunning goal in the team's 5-1 comeback Champions League win over PSV Eindhoven on Tuesday, continuing his superb start to the season.\nThe midfielder's form has helped Madrid keep pace with Barcelona at the top of the LaLiga table, with a three-point gap between the pair going into this weekend's games.\n\"I don't like to compare players from different generations,\" Mourinho said in a news conference on Friday when asked to rank Bellingham with Zidane.\n\"Zidane was one of the best in the world of his generation. Jude is already one of the best players of his generation. I don't like to compare.\"\nMourinho rested Bellingham for the first half against PSV, only to see his team struggle and go 1-0 down -- and the coach responded by sending on Bellingham at halftime to turn the match around.\nBellingham and Kylian Mbappé are two of the Madrid players who have featured most in LaLiga this season, with 1047 and 1163 minutes respectively.\n\"The reason Kylian and Jude have played so many minutes isn't their names, or a rule,\" Mourinho said. \"It's their performance. If their performance is incomparable with what another player can do, that makes the difference. We feel what it's like to play with, and to play without, Jude.\"\n- Jude Bellingham: I don't care about the Ballon d'Or - Jobe Bellingham teases Jude over wonder-goal: 'Off his shin!'\nThe victory over PSV left Madrid top of the Champions League table on 15 points from five games, but Mourinho wouldn't accept that his side are now among the favourites to win the competition. \"It's very early,\" Mourinho said. \"We don't know how the teams will arrive at the key moment, the knockout. Right now the only thing I want is not to play the playoffs.\nMourinho said Trent Alexander-Arnold was unavailable to face Alavés on Saturday with illness, while he insisted that he doesn't want to add to his squad in the January window.\n\"I don't want anyone to come in, or anyone to leave,\" Mourinho said. \"The door is closed in both ways... I don't want to see news about the market, because I don't want anyone.\"",
     "visual_subject": "Jude Bellingham",
     "visual_entities": {
@@ -26352,7 +26385,8 @@
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "editorial_rechecked": true
   },
   {
     "id": "4b1c4efa3e0142b960b9",
