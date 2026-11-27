@@ -27127,9 +27127,10 @@
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795798541/football-news-bot/reels/cb113679d314228a746c-cross.mp4",
     "crosspost_attempt_at": "2026-11-27T16:54:19.202819+00:00",
     "tiktok_attempt_at": "2026-11-27T16:54:19.202819+00:00",
-    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_status": "published",
     "zernio_tiktok_id": "6b09b60fe5f2f07453f1e65d",
-    "duplicate_of": "same_story_as:51098a7aff0c59c14b30"
+    "duplicate_of": "same_story_as:51098a7aff0c59c14b30",
+    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712895977824341266"
   },
   {
     "id": "51098a7aff0c59c14b30",
@@ -27494,6 +27495,24 @@
     "score": 26,
     "queued_at": "2026-11-27T16:42:59.257051+00:00",
     "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "d1143d2e35ccaa75d433",
+    "title": "Mariano Andújar destacó el poderío de Palmeiras: \"Era el peor equipo para enfrentar\"",
+    "source_url": "https://www.ole.com.ar/estudiantes/mariano-andujar-palmeiras-estudiantes-copa-libertadores_0_aGYkID6ina.html",
+    "source": "Olé Argentina",
+    "description": "De cara a la final de la Copa Libertadores, el ex arquero de Estudiantes analizó al próximo rival del Pincha y valoró su jerarquía.",
+    "published_at": "2026-11-27T16:44:01+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-27T16:57:06.281558+00:00",
+    "status": "awaiting_ai",
+    "article_context": "Fue campeón de la Copa Libertadores en 2009 con Estudiantes . Por lo tanto, con autoridad y conocimiento de causa, Mariano Andújar palpitó desde Montevideo la gran final que el Pincha tendrá ante Palmeiras , rival al que destacó por su poderío.\n\"Yo creo que es, de los equipos brasileros, el más aguerrido, el más competitivo y el más parecido en cuanto a lo que es el fútbol argentino\", reconoció en diálogo con ESPN. Acto seguido, insistió: \"Puede meterse en bloque bajo y no se le caen los anillos por tener que defender la mitad del partido. Tienen un mediocampo fuerte, buena pelota parada\".\nLuego, recalcó: \" Era el peor equipo para enfrentar en una final . Llegan los dos que merecieron llegar y tienen armas para estar en la final. Ya algo hiciste muy bien para llegar acá, así que los dos tendrán sus armas \".\nTal como marca el calendario, Estudiantes y Palmeiras se enfrentarán el sábado 28 de noviembre en Montevideo, donde irán en busca de la gloria eterna.\nLa final de la Copa Libertadores comenzará a las 17.00 horas de Argentina. En caso de igualdad en los 90 minutos, habrá un alargue de 30' en el Centenario. Y de persistir, penales.\nEn lo que respecta al equipo, la duda sigue siendo quién irá por Baltasar Rodríguez, expulsado en la semi. Las dos opciones que corren con ventaja son Fabrizio Pérez -si opta por un 11 más ofensivo- y Gastón Benedetti -si elige un poco más de marca-. Edwuin Cetré es la tercera alternativa.\nJoaquín Correa se recuperó de su desgarro sufrido el sábado 7 de noviembre en Córdoba y fue parte del entrenamiento, aunque sería una opción desde el banco.\nEl equipo sería con Fernando Muslera; Eros Mancuso, Santiago Núñez, Leandro González Pirez y Marcos Rojo; Pérez o Benedetti, Ezequiel Piovi, Alexis Castro y Joaquín Tobio Burgos; Tiago Palacios y Guido Carrillo.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
