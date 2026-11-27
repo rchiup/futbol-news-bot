@@ -28414,5 +28414,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "ca35c70dcc06a907948f",
+    "title": "La especiales medidas de seguridad en el GP de Qatar: de restricciones a la prensa a un protocolo ante posibles ataques",
+    "source_url": "https://www.ole.com.ar/autos/formula1-granpremiodeqatar-lusail-fia-mediooriente_0_BfVRAgl0gG.html",
+    "source": "Olé Argentina",
+    "description": "En medio de la tensión geopolítica en Medio Oriente, la Fórmula 1 afronta la anteúltima fecha del campeonato del mundo bajo estrictas medidas de seguridad.",
+    "published_at": "2026-11-27T20:40:35+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-27T20:48:41.178719+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
