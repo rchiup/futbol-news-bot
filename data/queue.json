@@ -26581,7 +26581,7 @@
     "headline": "Sánchez señala al Bernabéu para la final del Mundial 2030",
     "caption": "Pedro Sánchez, aficionado del Atlético, afirmó que le gustaría que la final del Mundial 2030 se jugara en el Wanda, aunque reconoce que el Bernabéu es la opción principal. La mención surgió durante el debate presidencial del 29 de noviembre, donde la candidatura española compite con Portugal y Marruecos por la sede del partido decisivo del 21 de julio de 2030.",
     "ai_generated_at": "2026-11-27T13:34:50.391581+00:00",
-    "photo_checked_at": "2026-11-27T13:35:40.034248+00:00",
+    "photo_checked_at": "2026-11-27T13:40:47.762572+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -26594,7 +26594,19 @@
     "format_attempt_at": "2026-11-27T13:34:50.391581+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-27T13:34:50.391581+00:00",
-    "instagram_media_id": "17985788616121384"
+    "instagram_media_id": "17985788616121384",
+    "video_style": "tiktok",
+    "video_hook_variant": "fact_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 19.3,
+      "mean_db": -19.0
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795786856/football-news-bot/reels/0237a97b8105f80ca39e-cross.mp4",
+    "crosspost_attempt_at": "2026-11-27T13:40:03.171049+00:00",
+    "tiktok_attempt_at": "2026-11-27T13:40:03.171049+00:00",
+    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_id": "6b09886eb146f4651545c976"
   },
   {
     "id": "2d0220361be9a565ac67",
