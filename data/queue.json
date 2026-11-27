@@ -28738,8 +28738,10 @@
       "mean_db": -19.7
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795819854/football-news-bot/reels/59179ddc7fa41493e468-cross.mp4",
-    "crosspost_attempt_at": "2026-11-27T22:50:08.481362+00:00",
-    "tiktok_attempt_at": "2026-11-27T22:50:08.481362+00:00"
+    "crosspost_attempt_at": "2026-11-27T22:54:48.629651+00:00",
+    "tiktok_attempt_at": "2026-11-27T22:50:08.481362+00:00",
+    "youtube_attempt_at": "2026-11-27T22:54:48.629651+00:00",
+    "buffer_youtube_status": "check_required"
   },
   {
     "id": "72e0bf051845780cf9a7",
@@ -28892,6 +28894,36 @@
     "score": 26,
     "queued_at": "2026-11-27T22:52:17.841196+00:00",
     "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "968d2a38626ebfb22520",
+    "title": "El momento de Erick Pulgar, el 5 que River tiene en carpeta para 2027",
+    "source_url": "https://www.ole.com.ar/river-plate/river-erick-pulgar-flamengo-chile-volante-central_0_7aMo21yLrK.html",
+    "source": "Olé Argentina",
+    "description": "En Núñez preocupa el recambio en la zona media por lesiones y préstamos que terminan, por lo que miran de cerca a una pieza clave del fútbol sudamericano. Así le fue en Flamengo y detalles de su pasado.",
+    "published_at": "2026-11-27T22:45:15+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-27T22:54:48.629651+00:00",
+    "status": "draft",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Flamengo"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "source_brief",
+    "llm_model": "none",
+    "headline": "El momento de Erick Pulgar, el 5 que River tiene en carpeta para 2027",
+    "caption": "En Núñez preocupa el recambio en la zona media por lesiones y préstamos que terminan, por lo que miran de cerca a una pieza clave del fútbol sudamericano. (Olé Argentina)",
+    "ai_generated_at": "2026-11-27T22:54:48.629651+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
