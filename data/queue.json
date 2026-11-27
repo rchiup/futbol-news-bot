@@ -28928,5 +28928,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "f5f102b5f972051c71ff",
+    "title": "Ayr beat Largs to book place in Scottish Cup fourth round",
+    "source_url": "https://www.bbc.co.uk/sport/football/videos/cm62pw2e18dwo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Watch the goals from Ayr United's Scottish Cup win over Largs Thistle.",
+    "published_at": "2026-11-27T22:57:03+00:00",
+    "category": "PARTIDOS",
+    "sport": "FUTBOL",
+    "score": 26,
+    "queued_at": "2026-11-27T22:59:51.159465+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
