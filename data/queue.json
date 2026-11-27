@@ -27915,9 +27915,9 @@
       "mean_db": -19.3
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795805450/football-news-bot/reels/b975a13b6df2b4245168.mp4",
-    "crosspost_attempt_at": "2026-11-27T19:04:03.486575+00:00",
+    "crosspost_attempt_at": "2026-11-27T19:20:36.584676+00:00",
     "youtube_attempt_at": "2026-11-27T18:48:41.504468+00:00",
-    "tiktok_attempt_at": "2026-11-27T19:04:03.486575+00:00",
+    "tiktok_attempt_at": "2026-11-27T19:20:36.584676+00:00",
     "buffer_youtube_status": "check_required",
     "visual_mode": "licensed_photo",
     "photo_credit_full": "",
@@ -28041,6 +28041,35 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Nicolás Lodeiro viajó a Barranquilla para ver a Boca campeón",
     "caption": "Nicolás Lodeiro viajó a Barranquilla con su hijo para ver a Boca Juniors coronarse campeón de la Copa Sudamericana. El ex Xeneize elogió el fútbol del club y recordó que la final de la Libertadores se jugará en Uruguay entre Estudiantes y Palmeiras.",
-    "ai_generated_at": "2026-11-27T19:15:41.907434+00:00"
+    "ai_generated_at": "2026-11-27T19:15:41.907434+00:00",
+    "photo_checked_at": "2026-11-27T19:21:51.899336+00:00",
+    "video_style": "tiktok",
+    "video_hook_variant": "fact_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 12.2,
+      "mean_db": -19.3
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795807320/football-news-bot/reels/475f83985ee9f65ae983-cross.mp4",
+    "crosspost_attempt_at": "2026-11-27T19:20:36.584676+00:00",
+    "youtube_attempt_at": "2026-11-27T19:20:36.584676+00:00",
+    "buffer_youtube_status": "check_required"
+  },
+  {
+    "id": "9b2297a84881328e9799",
+    "title": "Sainz lanza un dardo a Colapinto: \"No sé que hace los viernes, supongo que es joven\"",
+    "source_url": "https://es.motorsport.com/f1/news/sainz-declaraciones-viernes-qatar-2026/10878409",
+    "source": "Motorsport F1",
+    "description": "George Russell venía detrás y le bastaron dos palabras por radio para resumir la escena: \"Oh, wow\". Carlos Sainz estaba en plena vuelta en los Libres 2 del GP de Qatar de Fórmula 1 cuando Franco Colapinto se tiró por el interior y le adelantó. El argentino vio el hueco, el británico se llevó el susto y el español se guardó el comentario para cuando salió del coche. \"Ya van un par de ... Sigue leyendo",
+    "published_at": "2026-11-27T19:15:37+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-27T19:20:36.584676+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
