@@ -27225,11 +27225,15 @@
       "mean_db": -19.4
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795795503/football-news-bot/reels/4e3c22ee1483c600f33f-cross.mp4",
-    "crosspost_attempt_at": "2026-11-27T16:03:43.614576+00:00",
+    "crosspost_attempt_at": "2026-11-27T16:08:38.175853+00:00",
     "tiktok_attempt_at": "2026-11-27T16:03:43.614576+00:00",
     "zernio_tiktok_status": "failed",
     "zernio_tiktok_id": "6b09aa310bac3d0445055059",
-    "zernio_tiktok_error": "provider_failure"
+    "zernio_tiktok_error": "provider_failure",
+    "youtube_attempt_at": "2026-11-27T16:08:38.175853+00:00",
+    "zernio_youtube_status": "published",
+    "zernio_youtube_id": "6b09ab4d0e82aab769f26ca2",
+    "zernio_youtube_url": "https://www.youtube.com/watch?v=krZQvpsvHx4"
   },
   {
     "id": "8fe6a17a5d04a58c785c",
@@ -27277,12 +27281,32 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-27T15:58:50.288372+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "article_context": "Abel Ferreira y Gustavo Góez. (Foto: Juano Tesone)\nAbel Ferreira , DT de Palmeiras , y Gustavo Gómez , el capitán, hablaron en conferencia de prensa este viernes, a un día de la gran final de la Libertadores ante Estudiantes en el Centenario de Montevideo (sábado 17:00). Y allí, ambos hicieron un análisis del Pincha; el entrenador refiriéndose puntualmente a las virtudes de tres futbolistas rivales y el paraguayo al aspecto mental.\n\"Mañana tendremos un partido extremadamente difícil contra un equipo intenso y competitivo, que ataca muy bien los espacios a la espalda de la defensa. Tiene un centrodelantero muy fuerte en el juego aéreo, (Guido) Carrillo; también tiene a (Joaquín Tobio) Burgos, que ataca bien los espacios en profundidad, y a (Alexis) Castro, que también sabe atacar esos espacios por los costados. Es un jugador zurdo, talentoso, más pícaro, al que le gusta jugar detrás del centrodelantero o partir desde la izquierda hacia el centro\", expresó Ferreira.\n\"Pero, como dije, lo más importante mañana será la capacidad de Palmeiras para imponer su juego en todo momento. Tanto cuando tengamos la pelota como cuando no la tengamos, tendremos que ser inteligentes y hacer un partido inteligente para llegar al final y ganar esta final . Esa es nuestra intención\", agregó.\nEl marcador central Gómez, por su lado, resaltó que el Pincha es un equipo que \"sabe jugar bajo presión\" y recordó los grandes rivales que dejó en el camino en esta Copa: \"Creo que el profesor ya respondió. Considero que no es solamente la pelota parada el punto fuerte de Estudiantes, sino que es un equipo muy competitivo \".\n\"Tenemos que recordar que eliminó a Corinthians y a Flamengo . Es un equipo que sabe jugar partidos bajo presión. Por eso tenemos que cuidar todos los detalles para contrarrestar todas las virtudes que tiene Estudiantes. Ojalá sea un día en el que Palmeiras pueda, como dije, neutralizar todo eso y conseguir el título \", añadió.\nFerreira mencionó también cuál es el aspecto en el que más se trabaja de cara a esta final: \" Lo que más se puede trabajar es el aspecto emocional . Si pudiera desconectarles algo a mis jugadores, les desconectaría el lado emocional para que estuvieran únicamente concentrados y enfocados en las tareas que tienen que realizar y en el objetivo claro que nos trazamos el 7 de enero: luchar para ganar esta competencia\".\n\"En resumen, se trata de trabajar más en el aspecto emocional de los jugadores , para que entiendan que es completamente normal lo que están sintiendo, porque sabemos lo que está en juego: un trofeo muy importante. Es normal que haya jugadores que vivan esta final emocionalmente de distintas maneras: algunos más nerviosos, otros más confiados, algunos más alegres, otros más entusiasmados e incluso algunos con miedo\", agregó.\n\"Pero lo más importante es que nuestro equipo haga aquello para lo que se preparó : que corra durante todo el partido, que se muestre, que compita —porque va a ser necesario competir—, que sabemos el valor que tiene nuestro adversario, y que juegue al fútbol, que es lo que sabemos hacer\", comentó.\nY recordó que a principios de año conversó con todo el grupo para que, de cara a esta Libertadores, no vuelvan a llevarse la tristeza de perder, como les sucedió en 2025 ante Flamengo: \"Recuerdo perfectamente que, a principios de este año, tuve una reunión con los jugadores para hablar de lo que había sucedido el año anterior, en la última Libertadores, y les dije que no íbamos a permitirnos volver a vivir una situación de aquella manera \".\n\"Si vamos a ganar o perder, no puedo adivinarlo. Sé lo que queremos y sé para lo que estamos preparados. Lo único que quiero es que mis jugadores se pongan a ellos mismos en primer lugar y que cada uno termine el partido con la tranquilidad de conciencia de saber que hicimos todo lo posible para ganarlo . Y vamos a seguir de la misma manera, como lo hicimos el año pasado y hace tres años. La vida continúa. Pase lo que pase, la vida va a seguir. Y eso es lo único que quiero\", agregó.\n\" Tenemos que jugar mejor de lo que lo hicimos en la última final . Creo que aquella derrota nos dolió y fue muy dura para nosotros, pero hay algo que este equipo sabe hacer: seguir luchando y volver a estar acá para pelear por otra oportunidad de ganar este trofeo . Pero, por encima de todo, quiero que aprovechen esta oportunidad para jugar por nosotros mismos, por nuestros jugadores, que se lo merecen porque hicieron un año absolutamente increíble en todos los aspectos; por nuestras familias, que seguramente mañana estarán acá para apoyarnos; y por el alma del club, que son nuestros hinchas\", señaló.\n\"El fútbol brasileño me enseñó que hay que ser competitivo . Me enseñó que, incluso con dos o tres días de descanso, hay que dejar las excusas de lado y buscar soluciones. El fútbol brasileño me enseñó a ser un mejor entrenador y a estar preparado para afrontar cualquier situación. Creo que las ganas, la gratitud y la oportunidad de jugar una final están por encima de cualquier cansancio \", cerró.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Abel Ferreira",
+    "visual_entities": {
+      "personas": [
+        "Abel Ferreira",
+        "Gustavo Gómez"
+      ],
+      "clubes": [
+        "Palmeiras",
+        "Estudiantes"
+      ],
+      "competicion": [
+        "Libertadores"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Abel Ferreira y Gustavo Gómez analizan a Estudiantes antes de la final",
+    "caption": "El entrenador Abel Ferreira y el capitán Gustavo Gómez dieron conferencia de prensa y analizaron las virtudes de Estudiantes, el Pincha, a un día de la final de la Libertadores. Palmeiras buscará neutralizar a Guido Carrillo, Joaquín Tobio y Alexis Castro para retomar el título que perdió en 2025 contra Flamengo.",
+    "ai_generated_at": "2026-11-27T16:08:38.175853+00:00"
   },
   {
     "id": "93d8220f7678e9b066c3",
@@ -27297,6 +27321,40 @@
     "queued_at": "2026-11-27T15:58:50.288372+00:00",
     "status": "awaiting_ai",
     "article_context": "Con la mira puesta en la final de la Copa Libertadores, Abel Ferreira tiene claro que quiere cerrar una etapa de su carrera. El entrenador de Palmeiras (que previamente palpitó el cruce que tendrá contra Estudiantes ) tiene contrato con el club hasta fines de 2027. Sin embargo, descartó dirigir en Argentina y manifestó su deseo por volver a Europa.\nCon un tono descontracturado, el técnico cortó con todo tipo de rumor. \" Sudamérica ya es suficiente \", advirtió entre risas cuando le preguntaron si le gustaría dirigir en otra parte de la región.\nLuego, reconoció el poderío de nuestro país en las competencias continentales e, incluso, trajo una anécdota a la mesa. \" Me acostumbré, y les pido disculpas a los brasileños, a ver siempre a Boca y River en la Libertadores: Boca, River, River, Boca, Boca, River \", recalcó. Acto seguido, rememoró: \"Recuerdo que cuando era entrenador del Braga, un día teníamos entrenamiento a las 10 de la mañana y faltaron dos o tres jugadores. Pregunté dónde estaban y me dijeron que se habían ido a Madrid a ver el Boca-River \".\nMás tarde, utilizó ese punto de partida para hablar de su futuro y hacer un repaso por su trayectoria en la institución. \"Mi intención es volver a casa con mis padres, que están todos al otro lado. Espero verlos el 16 de diciembre en la final de la Copa Intercontinental. Brasil, ya basta, Palmeiras, ya basta . Desde que me convertí en entrenador, no he parado ni un año. Todos sabemos cuántos partidos tengo en mis piernas y en mi cabeza, miren cuántos partidos he jugado\", insistió.\nYa de cara al encuentro decisivo, fue tajante y destacó el nivel del Pincha, que quiere ganar la quinta: \" Mañana será un partido muy difícil, y trataremos de ganar nuestra final, que es nuestra intención \".\nHasta el momento, Abel Ferreira dirigió 420 partidos en Palmeiras : ganó 248, empató 92 y perdió los 80 restantes. Además, conquistó 11 títulos.\nTal como marca el calendario, Estudiantes y Palmeiras se enfrentarán el sábado 28 de noviembre en Montevideo, donde irán en busca de la gloria eterna.\nLa final de la Copa Libertadores comenzará a las 17.00 horas de Argentina. En caso de igualdad en los 90 minutos, habrá un alargue de 30' en el Centenario. Y de persistir, penales.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "e71faa673989d4a6defc",
+    "title": "Spurs' Savio to miss festive fixtures after injury setback",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/cw4gnm4p3zxlo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Tottenham winger Savio will miss the club's Christmas fixtures with injury and could be out for up to 80 days, manager Roberto de Zerbi confirms.",
+    "published_at": "2026-11-27T16:05:30+00:00",
+    "category": "PARTIDOS",
+    "sport": "FUTBOL",
+    "score": 26,
+    "queued_at": "2026-11-27T16:08:38.175853+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "c780bea939b64ce26cfa",
+    "title": "Players 'definitely' believe in Parker, says Bowen",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/cw1mdpylnpveo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "West Ham captain Jarrod Bowen says the players \"definitely\" believe new boss Scott Parker can turn around their season.",
+    "published_at": "2026-11-27T14:40:11+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-27T16:08:38.175853+00:00",
+    "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
