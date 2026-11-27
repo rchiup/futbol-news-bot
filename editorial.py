@@ -882,11 +882,11 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 break
 
     # Independent cross-platform video lane: no Instagram quota or photo gate.
-    print("[CROSSPOST] 30-minute video due="+str(format_due(queue, reference, "reel", 30)))
-    if session is None and os.getenv("ENABLE_PUBLISH", "").lower() == "true" and os.getenv("AUTO_APPROVE", "").lower() == "true" and os.getenv("ENABLE_REELS", "").lower() == "true" and format_due(queue, reference, "reel", 30):
+    print("[CROSSPOST] 15-minute video due="+str(format_due(queue, reference, "reel", 15)))
+    if session is None and os.getenv("ENABLE_PUBLISH", "").lower() == "true" and os.getenv("AUTO_APPROVE", "").lower() == "true" and os.getenv("ENABLE_REELS", "").lower() == "true" and format_due(queue, reference, "reel", 15):
         from publisher import upload_public_video
         for candidate in sorted(queue, key=lambda x: (bool(x.get("match_result")), (bool(re.search(r"(?i)\b(VAR|polémic\w*|roja|penal|escándalo|controvers\w*|derrota|despido|fichaje|rivalidad)\b", str(x.get("headline",""))+" "+str(x.get("caption","")))), novelty_priority(x, reference))), reverse=True):
-            if candidate.get("status") not in {"draft", "published"} or candidate.get("publish_format") == "reel" or any(candidate.get(p+"_"+platform+"_status") for p in ("buffer","zernio") for platform in ("tiktok","youtube")):
+            if candidate.get("status") not in {"draft", "published"} or all(any(candidate.get(p+"_"+platform+"_status") for p in ("buffer","zernio")) for platform in ("tiktok","youtube")):
                 continue
             date = parse_iso(candidate.get("published_at", ""))
             if not date or not 0 <= (reference-date).total_seconds() <= MAX_POST_AGE_HOURS*3600:
