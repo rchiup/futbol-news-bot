@@ -28641,10 +28641,11 @@
     "llm_model": "none",
     "headline": "En Bolivia ya sancionaron al árbitro que trompeó a un arquero argentino",
     "caption": "El juez Jordy Alemán fue suspendido en forma provisoria hasta fin de año por la agresión a Christian Martínez, de Real Potosí. (Olé Argentina)",
-    "ai_generated_at": "2026-11-27T22:07:57.375385+00:00",
+    "ai_generated_at": "2026-11-27T22:10:18.755421+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "editorial_rechecked": true
   }
 ]
