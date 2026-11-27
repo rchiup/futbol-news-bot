@@ -25544,7 +25544,7 @@
     "headline": "Luka Dončić llega a los Lakers y ya juega a nivel MVP",
     "caption": "Luka Dončić, tras su sorprendente traspaso del Dallas Mavericks al Los Angeles Lakers, está rindiendo a nivel MVP. El equipo, tras una reforma de plantilla y una intensa unión en pretemporada, se perfila como candidato a contender.",
     "ai_generated_at": "2026-11-27T12:21:18.410128+00:00",
-    "photo_checked_at": "2026-11-27T12:22:20.316493+00:00",
+    "photo_checked_at": "2026-11-27T15:34:14.257890+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -25560,7 +25560,20 @@
     "format_attempt_at": "2026-11-27T12:37:40.087017+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-27T12:37:40.087017+00:00",
-    "instagram_media_id": "17989114553891876"
+    "instagram_media_id": "17989114553891876",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 15.7,
+      "mean_db": -19.3
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795793665/football-news-bot/reels/2164e1ced4f2f7d28ace-cross.mp4",
+    "crosspost_attempt_at": "2026-11-27T15:33:20.319326+00:00",
+    "tiktok_attempt_at": "2026-11-27T15:33:20.319326+00:00",
+    "zernio_tiktok_status": "failed",
+    "zernio_tiktok_id": "6b09a30341ecbae1b467af95",
+    "zernio_tiktok_error": "provider_failure"
   },
   {
     "id": "0cba5fa62907324e904d",
