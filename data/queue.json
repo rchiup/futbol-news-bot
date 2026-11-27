@@ -20986,11 +20986,33 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-26T14:32:34.433040+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": [
+        "Madrid"
+      ]
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Madrid homenajea a la selección española",
+    "caption": "El circuito de F1 de Madrid tendrá una curva con el nombre de 'Dos Estrellas' en honor a los títulos de la selección española. La curva 2 estará pintada de rojo con dos estrellas amarillas.",
+    "ai_generated_at": "2026-11-27T01:46:53.629705+00:00",
+    "photo_checked_at": "2026-11-27T01:48:19.957923+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Formula1"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "e0122903cac00fbdb551",
@@ -21152,12 +21174,39 @@
     "sport": "TENIS",
     "score": 26,
     "queued_at": "2026-11-26T15:08:38.514492+00:00",
-    "status": "awaiting_ai",
-    "article_context": "Highlights: Norrie beats Struff in three sets to give GB lead in Davis Cup\nGreat Britain advanced to the semi-finals of the Davis Cup for the first time since 2019 as Henry Patten and Neal Skupski won a decisive doubles tie against third seeds Germany in Bologna.\nPatten and Skupski, playing together for the first time since announcing their partnership for the 2027 season, proved too clinical for Kevin Krawietz and Tim Puetz.\nThey converted two break points and saved five in the first set, before overturning a mini-break in the tie-break to win 6-2 7-6 (8-6).\nWorld number one Alexander Zverev had earlier sent the tie to a decider by defeating British number one Arthur Fery in straight sets to cancel out Cameron Norrie's three-set victory over Jan-Lennard Struff.\nA nerveless Norrie saved four break points in the fifth game of the third set and carried that momentum throughout the remainder of the match to win 6-3 3-6 6-2.\nLeon Smith's team will discover their next opponents later on Thursday when Spain meet Austria in the last of the four quarter-finals, with their semi-final scheduled for Saturday.\nDefending champions Italy will play Czech Republic in Friday's first semi-final.\nLammens - the Man Utd goalkeeper under scrutiny like never before\nGB win decider to reach Davis Cup semi-finals\nNot even making a 12-man bench - what next for Garnacho?\nFirst look: Strike and Robin return to take on a dangerous cult\nThe Spanish town that ditched the euro and brought back the peseta\nThe extraordinary journey of the humble banana\n'Laughing gas has ended careers' - so how common is it in football?\nMotorcycle passenger who took stunning cricket catch found\nDivots, howlers and bad decisions - dissecting Man Utd's draw in Lisbon\n'Best midfielder in the world' - where does Bellingham rank?\nFour-time MVP Rodgers released and may have played last NFL game\nSooryavanshi, 15, breaks sixes record in 204 off 53 balls\nSterling - from England icon to suspended jail sentence\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland's tearaway quick bowler reinvented as a top-order batter\nThe sandpaper plot - who was there, who said what?\nJosh Kerr: The making of the man behind the shades\nThe 3pm football blackout: Outdated or still relevant in 2026?\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "status": "draft",
+    "article_context": "Highlights: Skupski and Patten win thrilling doubles match to seal Davis Cup win\nGreat Britain advanced to the semi-finals of the Davis Cup for the first time since 2019 as Henry Patten and Neal Skupski won a decisive doubles tie against third seeds Germany in Bologna.\nPatten and Skupski, playing together for the first time since announcing their doubles partnership for the 2027 season, proved too clinical for Kevin Krawietz and Tim Puetz.\nThey converted two break points and saved five in the first set, before overturning a mini-break in the tie-break to win 6-2 7-6 (8-6).\nSkupski was involved in a Davis Cup quarter-final loss playing alongside Joe Salisbury against the same German doubles pair in December 2021 - a defeat that was in his mind as Thursday's decider progressed.\n\"I thought about that match during the match today and I was determined not to let that happen again,\" Skupski told BBC Radio 5 Live.\n\"No matter what was happening today, we weren't going to come off the court very easily with a loss.\"\nWorld number one Alexander Zverev had earlier sent the tie to its full distance by defeating British number one Arthur Fery in straight sets to cancel out Cameron Norrie's three-set victory over Jan-Lennard Struff.\nGreat Britain's semi-final is scheduled for Saturday, when they will face Spain.\nSpaniards Daniel Merida and Rafael Jodar won their singles matches, meaning the team did not need to play doubles, allowing Carlos Alcaraz to rest.\nCaptain David Ferrer said Alcaraz may be in contention to play in the singles against Great Britain.\nDefending champions Italy will play the Czech Republic in Friday's first semi-final.\nRecap: GB's Davis Cup quarter-final win against Germany as it happened\nSmith will step down as captain at the end of the tournament and Great Britain retain hopes of a second victory under his leadership, following the most recent of their 10 Davis Cup successes in 2015.\n\"I felt the same sort of pressure, nerves and butterflies beforehand and during the matches,\" said Smith, who has been captain since 2010.\n\"You sit for a long time in that chair on your own on a day like this, a lot of thoughts go through your head and one of the things I kept reminding myself is how much of a privilege it is to be in this situation.\n\"I loved it but, more importantly, I'm thrilled for the guys. They've committed so well to this, they've been to a few different places over the past 18 months to get to this opportunity and I'm delighted they've got to the final four now.\"\nHighlights: Norrie beats Struff in three sets to give GB lead in Davis Cup\nWorld number 52 Norrie had got Great Britain off to the perfect start with a three-set win against Struff, a player 13 places above him in the world rankings.\nThe left-hander raced through the first set in just 23 minutes but a break late in the second set by Struff forced a decider.\nThe key moment came at 2-2 in the final set when Norrie saved four break points to hold serve, after which he won 12 of the next 14 points to complete a 6-3 3-6 6-2 victory.\nNorrie's success meant a win for Fery against Zverev, a two-time major champion in 2026, would have been enough to secure Great Britain's passage through to the last four.\nHowever, as he did in their Wimbledon semi-final in July, Zverev proved too strong for 24-year-old Fery and ended as a 6-3 6-2 winner.\nHighlights: Zverev beats Fery to draw Germany level in Davis Cup\nPatten and Skupski have found themselves unusually in the spotlight over the past week following the former's \"ruthless\" split from Harri Heliovaara in favour of joining forces with his compatriot next season.\nWhile their partnership is in its infancy, there were few signs of teething problems as they extended their Davis Cup record as a pair to 3-0.\nPatten's pinpoint returns and sharp reactions at the net coupled with Skupski's impressive serving proved too strong for Krawietz and Puetz, who were left to rue missed opportunities.\nIn a sticky opening service game, Patten double-faulted on the opening point and faced a break point, while Skupski saved four in game seven of the opening set.\nNeither pair earned a break point in the second set, with the British duo dropping just five points on serve.\nTrailing 3-1 in what turned out to be a thrilling tie-break, they fought back to lead 6-5 before closing out the win at the second opportunity.\n\"It doesn't feel like the end of the season for those two because they've just paired up,\" Smith said. \"There's been a buoyancy in their practice sessions because it's a new start.\n\"They were brilliant today. You don't know if you're going to get a match or not [as doubles players] but I saw them 20 minutes before their match and you could just see they were delighted to get this opportunity and that gave them a huge lift.\"\nAustralia's sandpapergate probe to also include 2017-18 Ashes\nFury 'never received' schizophrenia diagnosis\nBournemouth 'allowed to dream' as fans book Europa League final hotels\nFirst look: Strike and Robin return to take on a dangerous cult\nThe Spanish town that ditched the euro and brought back the peseta\nThe extraordinary journey of the humble banana\nLammens - the Man Utd goalkeeper under scrutiny like never before\n440 players, three days, one venue - the Nations Championship logistics logjam\nPant joins New Zealand club match under false name\nNot even making a 12-man bench - what next for Garnacho?\nSelby faces tough UK opener while Allen set to feature\n'Laughing gas has ended careers' - so how common is it in football?\nMotorcycle passenger who took stunning cricket catch found\nDivots, howlers and bad decisions - dissecting Man Utd's draw in Lisbon\n'Best midfielder in the world' - where does Bellingham rank?\nFour-time MVP Rodgers released and may have played last NFL game\nSooryavanshi, 15, breaks sixes record in 204 off 53 balls\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland's tearaway quick bowler reinvented as a top-order batter\nJosh Kerr: The making of the man behind the shades\nThe 3pm football blackout: Outdated or still relevant in 2026?\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Henry Patten",
+    "visual_entities": {
+      "personas": [
+        "Henry Patten",
+        "Neal Skupski"
+      ],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": [
+        "Bologna"
+      ]
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Patten y Skupski clasifican a Gran Bretaña",
+    "caption": "Henry Patten y Neal Skupski ganaron el partido de dobles decisivo contra Alemania. El equipo británico avanzó a las semifinales de la Copa Davis por primera vez desde 2019. Ahora se enfrentarán a España el sábado.",
+    "ai_generated_at": "2026-11-27T01:46:53.629705+00:00",
+    "photo_checked_at": "2026-11-27T01:48:19.221093+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Tenis",
+        "HenryPatten",
+        "NealSkupski"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "a6232da8357ab2ecbf17",
@@ -21170,11 +21219,33 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-26T15:08:38.514492+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Inoxidable: LeBron James , a sus 41 años, firmó este miércoles por la noche su primer triple-doble con los Philadelphia 76ers en la victoria sobre los Miami Heat por 111-104 , en un partido que era a vida o muerte para las aspiraciones de los Sixers en la Copa NBA.\nEl Rey terminó con 25 puntos, 10 rebotes y 12 asistencias , en otro partido sin Joel Embiid para los 76ers y en el que Jalen Brown tuvo que retirarse en el segundo tiempo por molestias. Tyrese Maxey, la otra estrella del equipo, aportó 30 puntos , formando una gran dupla con LeBron.\nLeBron anotó 14 puntos seguidos para Philadelphia en el segundo cuarto, una racha con la que los 76ers tomaron una ventaja que resultaría definitiva después de que los Heat controlasen el inicio del partido, del 33-36 al 47-41.\nLa leyenda, que el 30 de diciembre cumplirá 42 años, abrió esa racha con un 2+1, después encadenó tres triples cada uno desde más lejos que el otro y la cerró con otra bandeja.\nEl griego Giannis Antetokounmpo, por su lado, terminó el partido con 32 puntos y 14 rebotes , mientras que Davion Mitchell también firmó un doble-doble, con 20 puntos y 10 asistencias. Números que no alcanzaron para doblegar a este Bron intratable .\nLEBRON JUST RECORDED HIS FIRST TRIPLE-DOUBLE AS A SIXER. 👑 25 PTS (14 straight in 2Q) 👑 10 REB 👑 12 AST 👑 9-15 FGM 👑 4-6 3PM Sixers (2-1 in @emirates NBA Cup Group Play) stay in contention to win East Group B! pic.twitter.com/MhRxLJW69h\nLa victoria de Philadelphia rompió una racha de siete victorias consecutivas de los Heat, incluyendo rivales del calibre de los Houston Rockets, los Detroit Pistons o los Oklahoma City Thunder.\nLa victoria deja a los 76ers y a los Heat con un balance de 2-1 en el Grupo B del Este, igualados con los Cleveland Cavaliers , cuando a los tres equipos les queda un partido por disputar. En un eventual empate, el ganador del grupo se decidirá por los siguientes criterios de desempate , ordenados del primero al último: 1) enfrentamientos directos en la fase de grupos; 2) diferencia de puntos en los partidos de grupo; 3) total de puntos anotados en la fase de grupos; 4) récord de la temporada regular anterior de la NBA y 5) sorteo aleatorio si persistiera la igualdad (no ocurrirá en este caso).\nEl boleto directo se definirá en la última fecha del viernes , cuando los Sixers visiten a los Indiana Pacers y el Heat a los New York Knicks.\nLET IT FLY, LEBRON JAMES 👌 LeBron (25p, 10r, 12a) dropped his first triple-double as a Sixer to help Philly improve to 2-1 in @emirates NBA Cup Group Play and stay in contention to win East Group B! pic.twitter.com/WTUQCQbKVa https://t.co/fiPoS00aAS\nEn esta fase de grupos, los 30 equipos se dividen en seis grupos de cinco franquicias (Este A, B y C; Oeste A, B y C). Se armaron mediante bombos según el récord de la temporada regular 2025-26.\nCada equipo juega 4 partidos (dos como local y dos como visitante) frente a cada rival de su grupo.\nTodos los encuentros de fase de grupos cuentan para el récord de temporada regular (82 partidos por equipo), al igual que cuartos de final y semifinales. La final es el único partido que no computa para la temporada regular.\nAvanzan a cuartos de final 8 equipos : los 6 líderes de grupo (3 del Este y 3 del Oeste) y el mejor segundo de cada conferencia.\nLos cuartos de final, que se juegan a partido único , se disputarán el 4 y 5 de diciembre, mientras que las semifinales serán el 8 y/o 9 de diciembre. Esas instancias se disputarán en las ciudades de los equipos mejor ubicados .\nLa gran final será el viernes 11 de diciembre en el histórico Hinkle Fieldhouse de Indianápolis.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "LeBron James",
+    "visual_entities": {
+      "personas": [
+        "LeBron James"
+      ],
+      "clubes": [
+        "Philadelphia 76ers",
+        "Miami Heat"
+      ],
+      "competicion": [
+        "Copa NBA"
+      ],
+      "ciudad": [
+        "Miami"
+      ]
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "LeBron James firma triple doble con Sixers",
+    "caption": "LeBron James anotó 25 puntos, 10 rebotes y 12 asistencias en la victoria de Philadelphia 76ers sobre Miami Heat. La victoria deja a los 76ers con un balance de 2-1 en el Grupo B del Este. LeBron lideró a su equipo con 14 puntos seguidos en el segundo cuarto.",
+    "ai_generated_at": "2026-11-27T01:46:53.629705+00:00"
   },
   {
     "id": "eb142f8f899a7bd62c43",
@@ -21370,11 +21441,32 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-26T15:33:29.758246+00:00",
-    "status": "awaiting_ai",
+    "status": "duplicate",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "George Russell",
+    "visual_entities": {
+      "personas": [
+        "George Russell",
+        "Max Verstappen"
+      ],
+      "clubes": [],
+      "competicion": [
+        "Fórmula 1",
+        "Gran Premio de Qatar"
+      ],
+      "ciudad": [
+        "Losail"
+      ]
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Russell responde a críticas de Verstappen",
+    "caption": "George Russell minimizó las declaraciones de Max Verstappen. Russell se negó a aumentar la polémica en la rueda de prensa previa al Gran Premio de Qatar. No se retractó de sus declaraciones anteriores.",
+    "ai_generated_at": "2026-11-27T01:46:53.629705+00:00",
+    "duplicate_of": "same_story_as:4c88eb8449b4a00f464f"
   },
   {
     "id": "7b38d568650da0e8d2dc",
@@ -21601,11 +21693,32 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-26T16:19:08.376343+00:00",
-    "status": "awaiting_ai",
+    "status": "duplicate",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Russell and Verstappen have had several rows during the past few years\nGeorge Russell has said Max Verstappen can \"say what he wants\" and explained he found the Red Bull driver's criticisms of him after the Las Vegas Grand Prix \"quite amusing\".\nVerstappen said Russell was \"so far below my level\" after winning the race on Saturday.\nHis remarks were a response to Mercedes driver Russell saying \"somebody has to stand up to this guy\" after an on-track confrontation in practice.\nRussell said before this weekend's penultimate grand prix of the season in Qatar: \"I stand by what I said after practice, but he was the one who went out and won the race and I didn't, and I'm sure he had a bit of a laugh about that and it was reasonably amusing.\n\"He drove an incredible race and won it and he can afford to say what he wants.\"\nRussell v Verstappen: F1’s New Rivalry Explodes in Vegas\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nAsked whether he wanted to pursue reconciliation with Dutchman Verstappen, Russell said: \"We're all competitors out there. There's no right or wrong way about the mentality everybody has.\n\"We are all different in many regards and you don't need to agree with one another. I'm not looking to be best mates with anybody on the grid. I am just working and looking and fighting to win. Simple as that.\"\nBritish driver Russell said he had learned lessons from the incident in Vegas, which is the latest in a series of flashpoints between himself and four-time champion Verstappen dating back several years, and he might change how open he is with the media in future.\n\"It's all avoidable at the end of the day,\" Russell said. \"It's all a bit unnecessary. It's not something I am looking to continue. I am not looking to have a poor relationship with people. That's not really the kind of person I am.\n\"There are lessons to be taken from these situations. Maybe I am just too open and honest with the media. I need to remember I'm talking to a camera that is broadcasting to millions of people. That's the biggest takeaway.\n\"It is not a war of words off track. I maybe have been guilty of being too open and honest when I speak with you guys.\n\"I feel like I have a good relationship with the media and I sometimes forget I am not talking to one person - I am talking to millions of people on the television.\n\"That good relationship has probably hindered me a bit and that is life lessons. I respect Max immensely for his driving talent and what he has achieved on track.\"\nAustralia's sandpapergate probe to also include 2017-18 Ashes\nFury 'never received' schizophrenia diagnosis\nBournemouth 'allowed to dream' as fans book Europa League final hotels\nFirst look: Strike and Robin return to take on a dangerous cult\nThe Spanish town that ditched the euro and brought back the peseta\nThe extraordinary journey of the humble banana\nLammens - the Man Utd goalkeeper under scrutiny like never before\n440 players, three days, one venue - the Nations Championship logistics logjam\nPant joins New Zealand club match under false name\nNot even making a 12-man bench - what next for Garnacho?\nSelby faces tough UK opener while Allen set to feature\n'Laughing gas has ended careers' - so how common is it in football?\nMotorcycle passenger who took stunning cricket catch found\nDivots, howlers and bad decisions - dissecting Man Utd's draw in Lisbon\n'Best midfielder in the world' - where does Bellingham rank?\nFour-time MVP Rodgers released and may have played last NFL game\nSooryavanshi, 15, breaks sixes record in 204 off 53 balls\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland's tearaway quick bowler reinvented as a top-order batter\nJosh Kerr: The making of the man behind the shades\nThe 3pm football blackout: Outdated or still relevant in 2026?\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "visual_subject": "George Russell",
+    "visual_entities": {
+      "personas": [
+        "George Russell",
+        "Max Verstappen"
+      ],
+      "clubes": [
+        "Red Bull"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Las Vegas"
+      ]
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Russell encuentra criticas de Verstappen divertidas",
+    "caption": "George Russell calificó de divertidas las críticas de Max Verstappen después del Gran Premio de Las Vegas. Russell había dicho que alguien debía hacerle frente a Verstappen después de una confrontación en la práctica. Ahora, Russell dice que respetar a Verstappen por su talento como piloto.",
+    "ai_generated_at": "2026-11-27T01:46:53.629705+00:00",
+    "duplicate_of": "same_story_as:4c88eb8449b4a00f464f"
   },
   {
     "id": "a27f331b95631001d44d",
@@ -21618,11 +21731,46 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-26T16:25:50.852187+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Charles Leclerc",
+    "visual_entities": {
+      "personas": [
+        "Charles Leclerc",
+        "Lewis Hamilton"
+      ],
+      "clubes": [
+        "Ferrari"
+      ],
+      "competicion": [
+        "Gran Premio de Las Vegas"
+      ],
+      "ciudad": [
+        "Losail",
+        "Las Vegas"
+      ]
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Leclerc admite que no funciona con Hamilton",
+    "caption": "Charles Leclerc reconoció que su relación con Lewis Hamilton no funciona actualmente. El piloto de Ferrari busca una solución después del incidente en el Gran Premio de Las Vegas. La tensión entre ambos pilotos ha generado debate en el mundo del F1.",
+    "ai_generated_at": "2026-11-27T01:46:53.629705+00:00",
+    "photo_checked_at": "2026-11-27T01:48:05.192959+00:00",
+    "portrait_info": null,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Formula1",
+        "CharlesLeclerc",
+        "LewisHamilton",
+        "Ferrari",
+        "GranPremiodeLasVegas"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "8ca2d202e6190de090d6",
@@ -21635,11 +21783,39 @@
     "sport": "TENIS",
     "score": 26,
     "queued_at": "2026-11-26T16:25:50.852187+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "Henry Patten",
+        "Neal Skupski"
+      ],
+      "clubes": [],
+      "competicion": [
+        "Davis Cup"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Gran Bretaña vence a Alemania",
+    "caption": "Gran Bretaña derrota a Alemania y avanza a semifinales de la Davis Cup. Henry Patten y Neal Skupski lideran el equipo con su nueva sociedad en dobles. Es la primera vez que Gran Bretaña alcanza las semifinales desde 2019.",
+    "ai_generated_at": "2026-11-27T01:46:53.629705+00:00",
+    "photo_checked_at": "2026-11-27T01:48:14.817035+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Tenis",
+        "HenryPatten",
+        "NealSkupski",
+        "DavisCup"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "8024c73ea0bacdd9a850",
@@ -24043,7 +24219,7 @@
     "headline": "España vence a Austria y clasifica a semifinales de Copa Davis",
     "caption": "El equipo español superó la serie de cuartos de final sin Carlos Alcaraz tras los triunfos de Daniel Mérida y Rafael Jodar. España ahora enfrentará a Gran Bretaña en la siguiente ronda del torneo.",
     "ai_generated_at": "2026-11-27T00:05:42.675317+00:00",
-    "photo_checked_at": "2026-11-27T01:26:46.600969+00:00",
+    "photo_checked_at": "2026-11-27T01:47:59.738786+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [

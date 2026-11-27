@@ -1,20 +1,20 @@
 {
-  "checked_at_utc": "2026-11-27T01:42:46.446615+00:00",
+  "checked_at_utc": "2026-11-27T01:46:53.629705+00:00",
   "local_hour": 22,
   "statuses": {
     "published": 189,
-    "draft": 28,
-    "awaiting_ai": 104,
+    "draft": 33,
+    "awaiting_ai": 97,
     "needs_review": 145,
     "publish_error": 27,
-    "duplicate": 57
+    "duplicate": 59
   },
-  "fresh_candidates": 148,
+  "fresh_candidates": 146,
   "queued_new": 0,
-  "ai_generated": 6,
+  "ai_generated": 7,
   "preview_images": 5,
-  "published": 1,
-  "duplicates_suppressed": 0,
+  "published": 0,
+  "duplicates_suppressed": 2,
   "no_photo_deferred": 0,
   "total_queue": 704,
   "per_run_cap": 3,
@@ -38,9 +38,9 @@
     "last_success": "cloudflare",
     "providers": {
       "groq": {
-        "attempts": 14,
+        "attempts": 15,
         "success": 4,
-        "failures": 10,
+        "failures": 11,
         "avg_latency_ms": 2354,
         "avg_readability": 100.0,
         "last_error": "http_429"
@@ -62,10 +62,10 @@
         "last_error": "http_429"
       },
       "cloudflare": {
-        "attempts": 31,
-        "success": 11,
-        "failures": 20,
-        "avg_latency_ms": 2855,
+        "attempts": 39,
+        "success": 18,
+        "failures": 21,
+        "avg_latency_ms": 2866,
         "avg_readability": 100.0,
         "last_error": "invalid_output"
       },
@@ -78,12 +78,12 @@
         "last_error": "http_410"
       },
       "zai": {
-        "attempts": 20,
+        "attempts": 21,
         "success": 4,
-        "failures": 16,
+        "failures": 17,
         "avg_latency_ms": 29054,
         "avg_readability": 96.2,
-        "last_error": "timeout"
+        "last_error": "invalid_output"
       }
     }
   }
