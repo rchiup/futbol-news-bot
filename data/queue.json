@@ -28459,5 +28459,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "9ef0b9cac161dc19b13f",
+    "title": "Tandas largas de Qatar: Antonelli mete miedo con casi un segundo por vuelta de ventaja",
+    "source_url": "https://es.motorsport.com/f1/news/analisis-tandas-largas-qatar-2026/10878448",
+    "source": "Motorsport F1",
+    "description": "Andrea Kimi Antonelli se perfila como el gran favorito para el penúltimo fin de semana de carreras de la temporada 2026 de Fórmula 1 en Qatar. El campeón del mundo dominó la jornada de entrenamientos del viernes en el Circuito Internacional de Losail, tanto a una vuelta como en las simulaciones de carrera. Especialmente impresionante fue su ventaja en las tandas largas: su inmediato ... Sigue leyendo",
+    "published_at": "2026-11-27T21:04:52+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-27T21:10:43.374057+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
