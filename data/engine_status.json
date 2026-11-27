@@ -1,17 +1,17 @@
 {
-  "checked_at_utc": "2026-11-27T01:05:07.047082+00:00",
+  "checked_at_utc": "2026-11-27T01:18:30.345855+00:00",
   "local_hour": 22,
   "statuses": {
-    "published": 186,
-    "draft": 24,
-    "awaiting_ai": 122,
-    "needs_review": 142,
+    "published": 187,
+    "draft": 21,
+    "awaiting_ai": 121,
+    "needs_review": 141,
     "publish_error": 27,
     "duplicate": 56
   },
   "fresh_candidates": 150,
   "queued_new": 0,
-  "ai_generated": 8,
+  "ai_generated": 1,
   "preview_images": 5,
   "published": 1,
   "duplicates_suppressed": 0,
@@ -35,15 +35,15 @@
   ],
   "free_llm_metrics": {
     "date_utc": "2026-11-27",
-    "last_success": "zai",
+    "last_success": "openrouter",
     "providers": {
       "groq": {
-        "attempts": 8,
+        "attempts": 9,
         "success": 3,
-        "failures": 5,
+        "failures": 6,
         "avg_latency_ms": 2604,
         "avg_readability": 100.0,
-        "last_error": "http_429"
+        "last_error": "invalid_output"
       },
       "gemini": {
         "attempts": 20,
@@ -54,17 +54,17 @@
         "last_error": "invalid_output"
       },
       "openrouter": {
-        "attempts": 24,
-        "success": 11,
-        "failures": 13,
-        "avg_latency_ms": 83082,
-        "avg_readability": 97.3,
+        "attempts": 28,
+        "success": 12,
+        "failures": 16,
+        "avg_latency_ms": 90617,
+        "avg_readability": 97.5,
         "last_error": "invalid_output"
       },
       "cloudflare": {
-        "attempts": 13,
+        "attempts": 16,
         "success": 2,
-        "failures": 11,
+        "failures": 14,
         "avg_latency_ms": 1702,
         "avg_readability": 100.0,
         "last_error": "invalid_output"
@@ -78,9 +78,9 @@
         "last_error": "http_410"
       },
       "zai": {
-        "attempts": 11,
+        "attempts": 14,
         "success": 1,
-        "failures": 10,
+        "failures": 13,
         "avg_latency_ms": 24359,
         "avg_readability": 100.0,
         "last_error": "invalid_output"
