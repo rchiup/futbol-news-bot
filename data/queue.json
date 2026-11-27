@@ -27500,7 +27500,7 @@
     "headline": "Savio de Tottenham se perderá partidos navideños, 80 días fuera",
     "caption": "El extremo Savio no jugará los compromisos navideños del Tottenham por una lesión de isquiotibial y podría estar fuera hasta 80 días, según confirma Roberto de Zerbi. El jugador, que llegó del Manchester City por £75 millones, apenas ha disputado cinco partidos y aún busca su primera asistencia o gol en liga.",
     "ai_generated_at": "2026-11-27T17:29:23.934983+00:00",
-    "photo_checked_at": "2026-11-27T17:30:31.645790+00:00",
+    "photo_checked_at": "2026-11-27T19:04:48.965827+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -27515,7 +27515,18 @@
     "format_attempt_at": "2026-11-27T17:29:23.934983+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-27T17:29:23.934983+00:00",
-    "instagram_media_id": "17950825437070986"
+    "instagram_media_id": "17950825437070986",
+    "video_style": "tiktok",
+    "video_hook_variant": "fact_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 17.3,
+      "mean_db": -19.4
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795806299/football-news-bot/reels/e71faa673989d4a6defc-cross.mp4",
+    "crosspost_attempt_at": "2026-11-27T19:04:03.486575+00:00",
+    "youtube_attempt_at": "2026-11-27T19:04:03.486575+00:00",
+    "buffer_youtube_status": "check_required"
   },
   {
     "id": "c780bea939b64ce26cfa",
@@ -27904,9 +27915,9 @@
       "mean_db": -19.3
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795805450/football-news-bot/reels/b975a13b6df2b4245168.mp4",
-    "crosspost_attempt_at": "2026-11-27T18:48:41.504468+00:00",
+    "crosspost_attempt_at": "2026-11-27T19:04:03.486575+00:00",
     "youtube_attempt_at": "2026-11-27T18:48:41.504468+00:00",
-    "tiktok_attempt_at": "2026-11-27T18:48:41.504468+00:00",
+    "tiktok_attempt_at": "2026-11-27T19:04:03.486575+00:00",
     "buffer_youtube_status": "check_required",
     "visual_mode": "licensed_photo",
     "photo_credit_full": "",
