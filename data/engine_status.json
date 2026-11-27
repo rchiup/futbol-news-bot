@@ -1,17 +1,17 @@
 {
-  "checked_at_utc": "2026-11-27T01:49:25.508594+00:00",
+  "checked_at_utc": "2026-11-27T01:52:13.120373+00:00",
   "local_hour": 22,
   "statuses": {
     "published": 189,
     "draft": 35,
-    "awaiting_ai": 90,
-    "needs_review": 145,
+    "awaiting_ai": 84,
+    "needs_review": 150,
     "publish_error": 27,
-    "duplicate": 60
+    "duplicate": 61
   },
   "fresh_candidates": 146,
   "queued_new": 0,
-  "ai_generated": 7,
+  "ai_generated": 6,
   "preview_images": 5,
   "published": 0,
   "duplicates_suppressed": 1,
@@ -62,10 +62,10 @@
         "last_error": "http_429"
       },
       "cloudflare": {
-        "attempts": 47,
-        "success": 24,
-        "failures": 23,
-        "avg_latency_ms": 2873,
+        "attempts": 55,
+        "success": 30,
+        "failures": 25,
+        "avg_latency_ms": 2705,
         "avg_readability": 100.0,
         "last_error": "invalid_output"
       },
@@ -78,12 +78,12 @@
         "last_error": "http_410"
       },
       "zai": {
-        "attempts": 23,
+        "attempts": 25,
         "success": 5,
-        "failures": 18,
+        "failures": 20,
         "avg_latency_ms": 29347,
         "avg_readability": 97.0,
-        "last_error": "invalid_output"
+        "last_error": "timeout"
       }
     }
   }

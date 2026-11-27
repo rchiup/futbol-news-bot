@@ -91,9 +91,9 @@
       "blocked_until_utc": 1795747226
     },
     "cloudflare": {
-      "attempts": 47,
-      "success": 24,
-      "failures": 23,
+      "attempts": 55,
+      "success": 30,
+      "failures": 25,
       "latencies_ms": [
         1685,
         1720,
@@ -118,9 +118,21 @@
         3537,
         3193,
         1949,
-        3528
+        3528,
+        2409,
+        1816,
+        1889,
+        2140,
+        1842,
+        2091
       ],
       "quality": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
         100,
         100,
         100,
@@ -158,9 +170,9 @@
       "blocked_until_utc": 1795745074
     },
     "zai": {
-      "attempts": 23,
+      "attempts": 25,
       "success": 5,
-      "failures": 18,
+      "failures": 20,
       "latencies_ms": [
         24359,
         23437,
@@ -175,7 +187,7 @@
         100,
         100
       ],
-      "last_error": "invalid_output"
+      "last_error": "timeout"
     }
   },
   "last_success": "cloudflare"

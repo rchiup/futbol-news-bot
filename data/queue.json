@@ -19199,12 +19199,12 @@
     "sport": "F1",
     "score": 23,
     "queued_at": "2026-11-26T11:28:49.041910+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "article_context": "Our F1 correspondent Andrew Benson is again doing a weekly Q&A in 2026.\nSend in your questions below and we'll put the best to Andrew after the Qatar Grand Prix.\nSend us your question for F1 correspondent Andrew Benson\nMore ref frustration as Pochettino's chaotic start at Man Utd continues\nDavis Cup Finals: Fery facing world number one Zverev after Norrie wins\n'Laughing gas has ended careers' - so how common is it in football?\nFirst look: Strike and Robin return to take on a dangerous cult\nThe Spanish town that ditched the euro and brought back the peseta\nThe extraordinary journey of the humble banana\nMotorcycle passenger who took stunning cricket catch found\nDivots, howlers and bad decisions - dissecting Man Utd's draw in Lisbon\n'Best midfielder in the world' - where does Bellingham rank?\nFour-time MVP Rodgers released and may have played last NFL game\nSooryavanshi, 15, breaks sixes record in 204 off 53 balls\nSterling - from England icon to suspended jail sentence\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland's tearaway quick bowler reinvented as a top-order batter\nThe sandpaper plot - who was there, who said what?\nJosh Kerr: The making of the man behind the shades\nThe 3pm football blackout: Outdated or still relevant in 2026?\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "article_context": "Our F1 correspondent Andrew Benson is again doing a weekly Q&A in 2026.\nSend in your questions below and we'll put the best to Andrew after the Qatar Grand Prix.\nSend us your question for F1 correspondent Andrew Benson\nAustralia's sandpapergate probe to also include 2017-18 Ashes\nFury 'never received' schizophrenia diagnosis\nBournemouth 'allowed to dream' as fans book Europa League final hotels\nFirst look: Strike and Robin return to take on a dangerous cult\nThe Spanish town that ditched the euro and brought back the peseta\nThe extraordinary journey of the humble banana\nLammens - the Man Utd goalkeeper under scrutiny like never before\n440 players, three days, one venue - the Nations Championship logistics logjam\nPant joins New Zealand club match under false name\nNot even making a 12-man bench - what next for Garnacho?\nSelby faces tough UK opener while Allen set to feature\n'Laughing gas has ended careers' - so how common is it in football?\nMotorcycle passenger who took stunning cricket catch found\nDivots, howlers and bad decisions - dissecting Man Utd's draw in Lisbon\n'Best midfielder in the world' - where does Bellingham rank?\nFour-time MVP Rodgers released and may have played last NFL game\nSooryavanshi, 15, breaks sixes record in 204 off 53 balls\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland's tearaway quick bowler reinvented as a top-order batter\nJosh Kerr: The making of the man behind the shades\nThe 3pm football blackout: Outdated or still relevant in 2026?\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
     "visual_subject": "Andrew Benson",
     "visual_entities": {
       "personas": [
@@ -19214,11 +19214,11 @@
       "competicion": [],
       "ciudad": []
     },
-    "llm_provider": "groq",
-    "llm_model": "openai/gpt-oss-120b",
-    "headline": "Andrew Benson abre Q&A semanal tras el Gran Premio de Qatar",
-    "caption": "Andrew Benson invita a los seguidores a enviar sus preguntas para el Q&A semanal de F1. Las preguntas seleccionadas se publicarán después del Gran Premio de Qatar.",
-    "ai_generated_at": "2026-11-26T12:00:22.943037+00:00",
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Andrew Benson responderá preguntas de fans",
+    "caption": "El corresponsal de F1 de la BBC, Andrew Benson, realizará una sesión de preguntas y respuestas semanales. Los fans pueden enviar sus preguntas para ser respondidas después del Gran Premio de Qatar.",
+    "ai_generated_at": "2026-11-27T01:52:13.120373+00:00",
     "editorial_rechecked": true
   },
   {
@@ -20352,11 +20352,28 @@
     "sport": "NBA",
     "score": 23,
     "queued_at": "2026-11-26T12:46:52.471377+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "LaMelo Ball",
+    "visual_entities": {
+      "personas": [
+        "LaMelo Ball"
+      ],
+      "clubes": [
+        "Timberwolves",
+        "Thunder"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "LaMelo Ball se lesiona el tobillo izquierdo",
+    "caption": "LaMelo Ball sufrió una lesión en el tobillo izquierdo en el partido contra Thunder. El equipo no dio un informe sobre su estado después del juego. LaMelo Ball se retiró cojeando del partido que ganaron los Timberwolves.",
+    "ai_generated_at": "2026-11-27T01:52:13.120373+00:00"
   },
   {
     "id": "ab1fadfd22be660f114e",
@@ -20369,11 +20386,29 @@
     "sport": "NBA",
     "score": 23,
     "queued_at": "2026-11-26T12:46:52.471377+00:00",
-    "status": "awaiting_ai",
+    "status": "duplicate",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Jaylen Brown",
+    "visual_entities": {
+      "personas": [
+        "Jaylen Brown"
+      ],
+      "clubes": [
+        "76ers",
+        "Heat"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Jaylen Brown se retira con molestias en el tendón de la corva",
+    "caption": "Jaylen Brown abandonó el partido de los 76ers contra el Heat debido a molestias en el tendón de la corva izquierdo. Fue descartado para el resto del juego.",
+    "ai_generated_at": "2026-11-27T01:52:13.120373+00:00",
+    "duplicate_of": "same_story_as:764e93cb544615405be8"
   },
   {
     "id": "0be75f3ee416841c4bbc",
@@ -20386,11 +20421,28 @@
     "sport": "NBA",
     "score": 23,
     "queued_at": "2026-11-26T12:46:52.471377+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Austin Reaves",
+    "visual_entities": {
+      "personas": [
+        "Austin Reaves"
+      ],
+      "clubes": [
+        "Lakers",
+        "Spurs"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Austin Reaves se recupera de lesión",
+    "caption": "Austin Reaves regresó a su primera práctica completa desde que sufrió un golpe en el talón izquierdo. Su estado para el partido del viernes contra los Spurs es incierto. Reaves había estado ausente debido a la lesión.",
+    "ai_generated_at": "2026-11-27T01:52:13.120373+00:00"
   },
   {
     "id": "420b2d9017cef0b41805",
@@ -20403,11 +20455,32 @@
     "sport": "NBA",
     "score": 23,
     "queued_at": "2026-11-26T12:46:52.471377+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Chris Jent",
+    "visual_entities": {
+      "personas": [
+        "Chris Jent"
+      ],
+      "clubes": [
+        "Cleveland"
+      ],
+      "competicion": [
+        "NBA Cup"
+      ],
+      "ciudad": [
+        "New York",
+        "Cleveland"
+      ]
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Chris Jent regresa al equipo de Knicks",
+    "caption": "Chris Jent volvió al banquillo de New York para la victoria en la NBA Cup contra Cleveland. Estuvo ausente durante un mes.",
+    "ai_generated_at": "2026-11-27T01:52:13.120373+00:00"
   },
   {
     "id": "42c1c1cfeb65cc47592e",
@@ -20420,11 +20493,30 @@
     "sport": "NBA",
     "score": 23,
     "queued_at": "2026-11-26T12:46:52.471377+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "LeBron James",
+    "visual_entities": {
+      "personas": [
+        "LeBron James"
+      ],
+      "clubes": [
+        "76ers",
+        "Miami"
+      ],
+      "competicion": [
+        "NBA Cup"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "LeBron James lidera a 76ers con triple doble",
+    "caption": "LeBron James anotó 25 puntos y logró un triple doble en la victoria de 76ers sobre Miami. Con esta actuación, el futuro titular de los 42 años demostró su capacidad para llevar al equipo a la victoria. La victoria fue en la NBA Cup del miércoles",
+    "ai_generated_at": "2026-11-27T01:52:13.120373+00:00"
   },
   {
     "id": "f2c79d0cc14e8684c730",
@@ -23536,7 +23628,8 @@
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Use BBC.com or the new BBC App to listen to BBC podcasts, Radio 4 and the World Service outside the UK.\nIf you’re interested in this episode, you may also like: 'What on earth is going on at Celtic?' https://www.bbc.co.uk/sounds/play/m0032bqd Scotland will co-host the 2035 FIFA Women's World Cup alongside England, Wales and Northern Ireland. Laura asks the BBC's Chris McLaughlin and Alison McConnell from the 'A Level Playing Field' podcast whether the tournament will boost our women's game. Scotcast is the BBC’s Scottish news podcast. This episode is hosted by Laura Miller. Get in touch: scotcast@bbc.co.uk"
   },
   {
     "id": "49e78b63a138d44f8ecb",
