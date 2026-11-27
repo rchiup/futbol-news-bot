@@ -26960,11 +26960,13 @@
       "mean_db": -19.7
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795792714/football-news-bot/reels/7e5ca95320bbfa2578c0-cross.mp4",
-    "crosspost_attempt_at": "2026-11-27T15:17:21.566270+00:00",
+    "crosspost_attempt_at": "2026-11-27T21:12:59.915983+00:00",
     "tiktok_attempt_at": "2026-11-27T15:17:21.566270+00:00",
     "zernio_tiktok_status": "published",
     "zernio_tiktok_id": "6b099f4c9bc097a032e17a8c",
-    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712871009581321493"
+    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712871009581321493",
+    "youtube_attempt_at": "2026-11-27T21:12:59.915983+00:00",
+    "buffer_youtube_status": "check_required"
   },
   {
     "id": "f35a2765cb0cd14fe258",
@@ -28295,9 +28297,9 @@
       "mean_db": -19.4
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795809159/football-news-bot/reels/fb20fdbc3dfb30a7d610-cross.mp4",
-    "crosspost_attempt_at": "2026-11-27T20:56:18.571295+00:00",
+    "crosspost_attempt_at": "2026-11-27T21:12:59.915983+00:00",
     "youtube_attempt_at": "2026-11-27T19:51:29.694229+00:00",
-    "tiktok_attempt_at": "2026-11-27T20:56:18.571295+00:00",
+    "tiktok_attempt_at": "2026-11-27T21:12:59.915983+00:00",
     "buffer_youtube_status": "check_required",
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -28471,6 +28473,23 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-27T21:10:43.374057+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "1efe532f6499d7127868",
+    "title": "La ilusión de Aldana Cometti por el crecimiento de la Selección femenina: \"Ya no molestamos, somos parte\"",
+    "source_url": "https://www.ole.com.ar/futbol-femenino/ilusion-aldana-cometti-creciente-logros-argentina-seleccion-femenina-dijo-declaraciones-amistosos_0_dmx3VbmD1v.html",
+    "source": "Olé Argentina",
+    "description": "La capitana de la Albiceleste se mostró orgullosa por los logros del equipo en la previa al amistoso que jugarán ante Alemania.",
+    "published_at": "2026-11-27T21:06:35+00:00",
+    "category": "SELECCIONES",
+    "sport": "FUTBOL",
+    "score": 26,
+    "queued_at": "2026-11-27T21:12:59.915983+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
