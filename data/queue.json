@@ -27246,12 +27246,29 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-27T15:48:20.563373+00:00",
-    "status": "awaiting_ai",
+    "status": "duplicate",
     "article_context": "As Arsenal bid farewell to the manager who won them the UEFA Women's Champions League (UWCL) in 2025, ending an 18-year wait for the coveted trophy, thoughts will turn to who could replace Renee Slegers.\nBut Slegers' successor will be leading one of the biggest clubs in Europe in one of the worst runs of form the club has ever seen. No women's club has ever started the Women's Super League (WSL) campaign with six consecutive home draws and the Gunners, who are yet to win at the Emirates this season, sit 12 points off leaders Chelsea after 10 games.\nThanks mainly to their record low shot conversion (5%) and pitiful tally of just 11 goals thus far, the three-time champions are sixth in the WSL and, having failed to end the UWCL league phase in the top four, will have to endure the playoffs in February.\nThe club's current predicament means there will be huge pressure on the new appointment to turn Arsenal's torrid season around.\nHere are a few candidates worth considering, plus some others, that Arsenal could look at to replace Slegers less than two years on from that historic evening in Lisbon.\nOne thing Arsenal should avoid is to appoint one of their existing assistant coaches as a permanent replacement. At most, an internal candidate could be considered as an interim solution until the start of 2027 -- Melissa Clarke-Reed will lead the club in the immediate term, with Slegers' assistant Aaron D'Antino also having left.\nThe interim option would give the club time to conduct a thorough search for a new head coach while also taking on a more substantial review of the club's wider footballing structure.\nThe shortcomings of this season cannot be attributed to Slegers alone, and it would be too simplistic to suggest that changing the head coach would resolve everything. While she undoubtedly has to shoulder some responsibility for the team's performances, the club's senior management, coaching staff and backroom setup must also be held accountable for the poor mentality, tactical shortcomings and alarming drop in form.\nSlegers remains a capable manager, but there is an argument that she has not been given the right support around her to succeed. Had there been greater changes to the coaching and backroom staff following Jonas Eidevall's departure in 2023, this season may have unfolded very differently, so Arsenal must look beyond the dugout when considering their next steps.\nArsenal should use the opportunity to bring in an entirely fresh perspective, reassess the wider coaching and hierarchical structure and ensure that the next appointment is supported by the necessary changes behind the scenes. Otherwise, there is a genuine risk that they simply repeat the same cycle under a different manager.\nDue to his extensive experience managing at the highest level of English women's football -- he previously coached Birmingham City and Manchester United -- Skinner understands the demands of the WSL, the competitiveness of the domestic game, and is good at managing the expectations needed to build a squad capable of challenging Chelsea and Manchester City .\nDuring his five-year spell at United, Skinner transformed the team into contenders, guiding them to second place in the WSL in 2022-23 and securing their first-ever qualification for the UWCL. He also delivered the club's first major women's trophy, with the 2024 FA Cup.\nThere are concerns over his squad management and player development, while his tenure at United ended in frustration following a lack of investment and ambition from those higher up. But, while he might not be the most revolutionary appointment, he would provide Arsenal with a head coach who knows exactly what it takes to compete in the WSL.\nStraus would be an intriguing appointment. The Norwegian established himself as one of the most respected coaches in the women's game during his time at Bayern Munich , winning consecutive Frauen Bundesliga titles in 2022-23 and 2023-24, and he was on Arsenal's shortlist when they were considering hiring a replacement for former manager Jonas Eidevall in early 2025. Indeed, according to sources, he was among the final few candidates before Slegers got the job.\nTactically, Straus could offer Arsenal a slightly different approach. His teams have demonstrated an ability to dominate possession, press aggressively and create chances through structured attacking patterns. He places considerable emphasis on positional understanding, collective movement and developing players within a clear tactical framework.\nDisney+ will be the only place football fans can watch all 75 matches live each season. Visit the Disney+ website to get access.\nThese qualities could suit an Arsenal squad that possess technically gifted midfielders and attacking players capable of operating in fluid systems. He also understands the importance of squad depth, tactical preparation and managing players who expect to win trophies.\nThere are, however, some reservations. His spell at NWSL side Angel City ended in June 2026 following disappointing results, so his ability to translate his European success into another competitive environment is under question.\nNevertheless, Straus would represent an ambitious appointment. His experience, tactical detail and winning record make him an attractive candidate if Arsenal wanted a coach capable of developing a distinctive playing identity while challenging for major trophies.\nCushing spent several years managing one of Arsenal's biggest domestic rivals, Manchester City, and understands the standards required to compete for major honors. He enjoyed an extremely successful spell at City between 2013 and 2020 -- winning the WSL, FA Cup and League Cup -- and his ability to build a winning team, develop talented players and establish a recognizable identity makes him a credible candidate for a club of Arsenal's ambitions.\nHis City side became renowned for their attacking quality and Cushing could bring a tactical emphasis based on intelligent movement and keeping hold of possession. Arsenal have traditionally enjoyed a similar attractive style, and his philosophy could complement the technical qualities within the squad. Also, his experience of developing young players at City could prove valuable when considering Arsenal's need to maintain a competitive squad over multiple seasons.\nThere are questions surrounding his more recent managerial experience, particularly his spell at men's side New York City FC and subsequent move to the NWSL ",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Renee Slegers",
+    "visual_entities": {
+      "personas": [
+        "Renee Slegers"
+      ],
+      "clubes": [
+        "Arsenal"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Arsenal despide a Renee Slegers y busca nuevo entrenador",
+    "caption": "Arsenal ha despedido a la entrenadora Renee Slegers tras una campaña con seis empates en casa y solo 11 goles anotados. El club, a 12 puntos de Chelsea, buscará un nuevo técnico, con nombres como Skinner o Peter Straus en la lista. La presión aumenta mientras se preparan para los playoffs de febrero.",
+    "ai_generated_at": "2026-11-27T16:42:59.257051+00:00",
+    "duplicate_of": "same_story_as:51098a7aff0c59c14b30"
   },
   {
     "id": "57a2c0450a6da84db570",
@@ -27369,11 +27386,15 @@
       "mean_db": -19.6
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795797555/football-news-bot/reels/93d8220f7678e9b066c3-cross.mp4",
-    "crosspost_attempt_at": "2026-11-27T16:38:11.170505+00:00",
+    "crosspost_attempt_at": "2026-11-27T16:42:59.257051+00:00",
     "tiktok_attempt_at": "2026-11-27T16:38:11.170505+00:00",
     "zernio_tiktok_status": "failed",
     "zernio_tiktok_id": "6b09b234d50fe0f0ae6840b7",
-    "zernio_tiktok_error": "provider_failure"
+    "zernio_tiktok_error": "provider_failure",
+    "youtube_attempt_at": "2026-11-27T16:42:59.257051+00:00",
+    "zernio_youtube_status": "published",
+    "zernio_youtube_id": "6b09b35e1718ad7e6ff6c02c",
+    "zernio_youtube_url": "https://www.youtube.com/watch?v=BBatR9_Zjmc"
   },
   {
     "id": "e71faa673989d4a6defc",
@@ -27420,6 +27441,23 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-27T16:38:11.170505+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "177be7a4d132da08d33e",
+    "title": "El adiós a Márquez sacude al deporte español: del mensaje de Alonso al \"¿Qué dices?\" de Alcaraz",
+    "source_url": "https://es.motorsport.com/f1/news/adios-marquez-sacude-deporte-espanol-mensaje-alonso-que-dices-alcaraz/10878318",
+    "source": "Motorsport F1",
+    "description": "Marc Márquez aún tenía que salir a pista en Cheste cuando su despedida ya había cruzado medio mundo. En Bolonia, a Carlos Alcaraz se le cayó el móvil al enterarse. En Qatar, Fernando Alonso se acordó de algo mucho más cotidiano: lo que era sentarse un domingo a ver una carrera de MotoGP. A Fernando le daba igual que la carrera pareciera decidida. Si Marc Márquez seguía en pista, él ... Sigue leyendo",
+    "published_at": "2026-11-27T16:40:42+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-27T16:42:59.257051+00:00",
     "status": "awaiting_ai",
     "ai_art_used": false,
     "photo_used": false,
