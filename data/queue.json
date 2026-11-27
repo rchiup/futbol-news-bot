@@ -28495,5 +28495,33 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "f81c4d932c3768c69a68",
+    "title": "A qué hora fueron los Libres de F1 del GP de Qatar y cómo se pudieron ver",
+    "source_url": "https://es.motorsport.com/f1/news/hora-libres-fp1-fp2-qatar-como-ver-2026/10877823",
+    "source": "Motorsport F1",
+    "description": "El Gran Premio de Qatar 2026 de la Fórmula 1 arrancó este viernes 27 de noviembre con la disputa de las dos primera sesiones de entrenamientos libres. Mira a qué hora fueron los libres 1 y 2( FP1 y FP2) en horario local, de España y de Latinoamérica, así como la manera en la que pudiste verlo por TV u online desde todos los países de habla hispana. Así fue: Fórmula ... Sigue leyendo",
+    "published_at": "2026-11-27T07:20:18+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 19,
+    "queued_at": "2026-11-27T21:20:43.339951+00:00",
+    "status": "needs_review",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "source_brief",
+    "llm_model": "none",
+    "headline": "A qué hora fueron los Libres de F1 del GP de Qatar y cómo se pudieron ver",
+    "caption": "El Gran Premio de Qatar 2026 de la Fórmula 1 arrancó este viernes 27 de noviembre con la disputa de las dos primera sesiones de entrenamientos libres. (Motorsport F1)",
+    "ai_generated_at": "2026-11-27T21:20:43.339951+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
