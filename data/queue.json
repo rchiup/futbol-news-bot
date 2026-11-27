@@ -27091,11 +27091,45 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-27T15:28:50.534298+00:00",
-    "status": "awaiting_ai",
+    "status": "duplicate",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Renée Slegers",
+    "visual_entities": {
+      "personas": [
+        "Renée Slegers"
+      ],
+      "clubes": [
+        "Arsenal Women",
+        "Arsenal",
+        "Chelsea"
+      ],
+      "competicion": [
+        "Women's Super League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Renée Slegers deja el cargo de entrenadora del Arsenal Women",
+    "caption": "Renée Slegers abandona el Arsenal Women tras seis empates en casa y la permanencia en la sexta posición de la WSL. El club está a 12 puntos del líder Chelsea y ocho de un puesto europeo.",
+    "ai_generated_at": "2026-11-27T16:54:19.202819+00:00",
+    "photo_checked_at": "2026-11-27T16:55:32.665887+00:00",
+    "video_style": "tiktok",
+    "video_hook_variant": "fact_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 10.8,
+      "mean_db": -19.7
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795798541/football-news-bot/reels/cb113679d314228a746c-cross.mp4",
+    "crosspost_attempt_at": "2026-11-27T16:54:19.202819+00:00",
+    "tiktok_attempt_at": "2026-11-27T16:54:19.202819+00:00",
+    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_id": "6b09b60fe5f2f07453f1e65d",
+    "duplicate_of": "same_story_as:51098a7aff0c59c14b30"
   },
   {
     "id": "51098a7aff0c59c14b30",
