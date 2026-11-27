@@ -25705,7 +25705,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-27T12:21:18.410128+00:00",
-    "status": "needs_review",
+    "status": "awaiting_ai",
     "visual_subject": "",
     "visual_entities": {
       "personas": [],
@@ -25719,7 +25719,8 @@
     "llm_model": "glm-4.5-flash",
     "headline": "Ranking de juveniles en Liga Profesional 2026",
     "caption": "Olé analizó el uso de jugadores jóvenes en los 30 equipos de Primera. Hubo un líder sorpresa y un grande que destacó en la promoción de talentos locales.",
-    "ai_generated_at": "2026-11-27T12:23:31.059245+00:00"
+    "ai_generated_at": "2026-11-27T12:23:31.059245+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "d571b6f48c244489110b",
@@ -25732,11 +25733,31 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-27T12:21:18.410128+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Niko Kovac",
+    "visual_entities": {
+      "personas": [
+        "Niko Kovac",
+        "Arjen Robben"
+      ],
+      "clubes": [
+        "Borussia Dortmund",
+        "Bayern Munich"
+      ],
+      "competicion": [
+        "Bundesliga"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Borussia Dortmund lidera la Bundesliga con ventaja de dos puntos",
+    "caption": "Borussia Dortmund encabeza la Bundesliga con dos puntos de ventaja sobre el Bayern. El equipo de Niko Kovac se acerca a romper una sequía de 15 años sin título, mientras el Bayern sufre una lesión clave.",
+    "ai_generated_at": "2026-11-27T12:27:30.851646+00:00"
   },
   {
     "id": "78a6037d3849a7031515",
@@ -25749,11 +25770,38 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-27T12:21:18.410128+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Tarik Muharemovic",
+    "visual_entities": {
+      "personas": [
+        "Tarik Muharemovic",
+        "Rasim",
+        "Elmedina",
+        "Chiellini",
+        "Bonucci"
+      ],
+      "clubes": [
+        "Sassuolo",
+        "Coventry"
+      ],
+      "competicion": [
+        "Premier League"
+      ],
+      "ciudad": [
+        "Leeds",
+        "Coventry",
+        "Sassuolo"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Tarik Muharemovic confirma que su padre está en cada juego de Leeds",
+    "caption": "El defensor bosnio Tarik Muharemovic asegura que su padre, Rasim, asiste a todos los partidos del Leeds United, mientras su madre, Elmedina, lo verá por primera vez. Leeds recibirá a Coventry este sábado y el centrocampista, llegado por 34,1 millones de euros desde el Sassuolo, habla de sus ambiciones europeas y del apoyo familiar.",
+    "ai_generated_at": "2026-11-27T12:27:30.851646+00:00"
   },
   {
     "id": "0380417fb4b6b80b5f29",
@@ -25766,11 +25814,57 @@
     "sport": "FUTBOL",
     "score": 25,
     "queued_at": "2026-11-27T12:21:18.410128+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
-    "photo_used": false,
-    "portrait_used": false,
-    "reference_photo_used": false
+    "photo_used": true,
+    "portrait_used": true,
+    "reference_photo_used": false,
+    "visual_subject": "Liam Delap",
+    "visual_entities": {
+      "personas": [
+        "Liam Delap",
+        "Enzo Maresca"
+      ],
+      "clubes": [
+        "Chelsea",
+        "Nottingham Forest"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Liam Delap deja Chelsea y se va a Nottingham Forest por 50 millones",
+    "caption": "Liam Delap dejó Chelsea y fichó por Nottingham Forest por 50 millones de libras. El delantero, que llegó al club en 2025 tras ser promocionado por Enzo Maresca como el próximo Harry Kane, no logró consolidarse y quedó fuera de la lista de la selección inglesa para el Mundial. La venta dejó a Chelsea con un beneficio económico.",
+    "ai_generated_at": "2026-11-27T12:27:30.851646+00:00",
+    "photo_checked_at": "2026-11-27T12:30:30.096668+00:00",
+    "portrait_info": {
+      "subject": "Enzo Maresca",
+      "image_url": "https://live.staticflickr.com/65535/53700134482_b721150f2c_b.jpg",
+      "width": 1024,
+      "height": 1024,
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "commons_filename": "Enzo Maresca, Leicester City manager, lifts the Championship trophy",
+      "photographer": "",
+      "credit_required": false,
+      "share_alike": false,
+      "file_page": "https://www.flickr.com/photos/54677546@N02/53700134482",
+      "photo_provider": "Openverse",
+      "entity_kind": "person"
+    },
+    "visual_mode": "licensed_photo",
+    "photo_credit_full": "",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "LiamDelap",
+        "EnzoMaresca",
+        "Chelsea",
+        "NottinghamForest"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "6c12b32aa5a6f3d39d44",
@@ -25783,11 +25877,54 @@
     "sport": "FUTBOL",
     "score": 25,
     "queued_at": "2026-11-27T12:21:18.410128+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
-    "photo_used": false,
-    "portrait_used": false,
-    "reference_photo_used": false
+    "photo_used": true,
+    "portrait_used": true,
+    "reference_photo_used": false,
+    "article_context": "The Premier League heads into another big weekend and BBC Sport's Fantasy Premier League expert Holly Shand gives her answers to some of the biggest dilemmas facing managers heading into gameweek 12.\nErling Haaland (£15.8m) has blanked in three consecutive games for Manchester City , who have taken just one point in this period. More than 100,000 managers have transferred Haaland out this week, despite him being the most owned player in the game. Form and fixtures collide, with league leaders Arsenal up next.\nHe has a good record against the Gunners, scoring in their last four Premier League meetings. Additionally, I believe Haaland will be the best captain pick in the game for his next three home games against Leeds United , Chelsea and Hull City so I recommend holding the highest-scoring forward in the game.\nWith Haaland's appeal dwindling this week, there are other options to consider across our squads. Bruno Fernandes (£11.6m) leads the data informed approach, as Manchester United entertain Brentford for Mauricio Pochettino's first game at Old Trafford. Are you brave enough to back the new manager bounce?\nElsewhere, Dominic Calvert-Lewin (£6.0m) faces Coventry at home, scoring in three of his last five at Elland Road, while Nicolas Jackson (£7.5m) travels to Ipswich Town , with four goal involvements in four. Or could it be a week to back a defender with Brighton 's Maxim De Cuyper (£5.5m) ? He's the highest-scoring player in the game!\nIf you own four of more players from Arsenal and Manchester City , then there's a strong case to play the Free Hit in Gameweek 12 to avoid that fixture. Back Leeds and Brighton defences, at home to Coventry and Newcastle respectively with James Trafford (£5.1m) , Tarik Muharemovic (£5.1m) , Luka Vuskovic (£5.3m) and De Cuyper.\nLiverpool are among the form sides, with Florian Wirtz (£7.4m) and Alexander Isak (£9.1m) worth considering. Wirtz has hit a double digit return in his last two games. There's also places in the midfield for top performers Marcus Tavernier (£6.8m) and Pascal Gross (£6.3m) .\nCole Palmer has just one goal in his last five games which has frustrated his owners, and he picked up a red card in that period too. Chelsea 's attack has struggled to find the same intensity with Joao Pedro out injured, scoring just three goals in this time.\nWhile Palmer's time in our squads is coming to a close, he is nailed on for 90 minutes in a congested period of games, with Chelsea not involved in Europe. He deserves the benefit of the doubt with Nottingham Forest and Crystal Palace up next. Liverpool in Gameweek 14 is the obvious exit point.\nThe news coming out of Arsenal is still mixed on the fitness of the highest-owned goalkeeper in the game David Raya (£6.3m) . We do know he is not believed to need surgery, which means he is not expected to be out long term. He's probably a hold.\nIf news arrives he will only miss Gameweek 12, you could Free Hit, or go without a goalkeeper if your substitute goalkeeper is non-playing. Spurs ' Antonin Kinsky (£4.4m) leads the way for possible back-ups, with games against Sunderland and Fulham in the immediate schedule.\nIt is worth noting there is just 48 hours between Gameweek 12 drawing to a close and the midweek Gameweek 13 deadline, coming on Tuesday, 1 December at 6:30pm GMT. Set those alarms so that you don't miss any action over the congestion in the next six weeks!\nBe mindful that we might see increased rotation in the midweek rounds, particularly for wingers and full-backs. Those sides already involved in Europe are more likely to rotate, so having a strong bench in these instances could be key.\nAlso look out for players who are on four bookings, like Tavernier and Gross, as another yellow card could result in a one-match ban.\nI won FPL last season - here are my five best tips\nWho to pick, who to avoid - your team's FPL assets analysed\nFury cleared to fight Joshua after medical checks\nEngland outclass Aussies again to take series lead\nMan City owners should be forced to sell, say clubs\nSteve Coogan joins Paul and Bob for a festive fishing tour\nLegendary snooker player, Ronnie O'Sullivan, soundtracks his life\nA caring, new comedy with Vittorio Angelone and Hannah McClean\nThe truth behind Black Friday's biggest bargains\nWhat happens now for Bayern Munich and Musiala?\nLammens - the Man Utd goalkeeper under scrutiny like never before\n440 players, three days, one venue - the Nations Championship logistics logjam\nPant joins New Zealand club match under false name\nNot even making a 12-man bench - what next for Garnacho?\nSelby faces tough UK opener while Allen set to feature\n'Laughing gas has ended careers' - so how common is it in football?\nMotorcycle passenger who took stunning cricket catch found\n'Best midfielder in the world' - where does Bellingham rank?\nSooryavanshi, 15, breaks sixes record in 204 off 53 balls\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nOne of football's most-hyped 16-year-olds - what next for JJ Gabriel?\nEngland's tearaway quick bowler reinvented as a top-order batter\nJosh Kerr: The making of the man behind the shades\nThe 3pm football blackout: Outdated or still relevant in 2026?\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "visual_subject": "Erling Haaland",
+    "visual_entities": {
+      "personas": [
+        "Holly Shand"
+      ],
+      "clubes": [],
+      "competicion": [
+        "Premier League",
+        "Fantasy Premier League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Erling Haaland pierde protagonismo: 100 000 managers lo venden",
+    "caption": "Haaland ha quedado sin goles en tres partidos consecutivos y el Manchester City solo sumó un punto en ese tramo. Más de 100 000 managers de FPL ya lo han transferido fuera de sus equipos, pese a que sigue siendo el delantero más titular del juego. Con Arsenal como próximo rival, la recomendación es mantenerlo como capitán por sus buenos antecedentes contra los Gunners.",
+    "ai_generated_at": "2026-11-27T12:27:30.851646+00:00",
+    "portrait_info": {
+      "subject": "Erling Haaland",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Erling_Haaland_2023.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commons_filename": "Erling Haaland 2023.jpg",
+      "photographer": "Jacek Stanislawek",
+      "credit_required": true,
+      "share_alike": true,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Erling_Haaland_2023.jpg",
+      "photo_provider": "Curated Commons",
+      "verified": "2026-11-23"
+    },
+    "photo_checked_at": "2026-11-27T12:31:15.879446+00:00",
+    "visual_mode": "licensed_photo",
+    "photo_credit_full": "📷 Foto: Jacek Stanislawek · CC BY-SA 4.0 · Wikimedia Commons (recorte y edición). https://commons.wikimedia.org/wiki/File:Erling_Haaland_2023.jpg · https://creativecommons.org/licenses/by-sa/4.0/ · Gráfica adaptada bajo la misma licencia CC BY-SA.",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "HollyShand",
+        "PremierLeague",
+        "FantasyPremierLeague"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "15ad1658e83e44d861f2",
@@ -25804,7 +25941,8 @@
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "María Lourdes Carlé venció a Nadia Podoroska y se metió en cuartos.\nEn el duelo albiceleste por los octavos de final del WTA Argentina Open, María Lourdes Carlé (246ª) superó a Nadia Podoroska (181ª) por 6-4 y 7-6 y se metió entre las ocho mejores del certamen.\nEn un inicio de partido marcado por la irregularidad de ambas con sus servicios, la rosarina quebró de entrada, pero la bonaerense respondió de inmediato para igualar 1-1. Luego, ambas volvieron a intercambiar quiebres hasta que, en el octavo game, Carlé golpeó para ponerse 5-3 arriba. Si bien Podoroska recuperó el break, la oriunda de la provincia de Buenos Aires volvió a quebrar en el décimo game, en el que apenas cedió un punto, para quedarse con el primer parcial.\nEn el segundo capítulo, la historia se repitió: ninguna logró sostener su saque en los primeros cuatro games. En el séptimo, Podoroska consiguió otro quiebre y luego lo ratificó con su servicio para adelantarse 5-3. Sin embargo, Carlé reaccionó e igualó 5-5. Tras un nuevo intercambio de quiebres, la definición se trasladó al tie break, donde la bonaerense consiguió cuatro miniquiebres contra dos de su rival para sellar el triunfo y el pase a cuartos.\nLa acción de las argentinas en el WTA Argentina Open continuará este viernes. Desde las 12, Julia Riera (139ª) se medirá con la española Alicia Herrero Liñana (228ª), quien viene de superar a su compatriota Ariana Geerlings Martínez (276ª) por doble 7-5.\nEn tanto, desde las 16.30, Carlé irá ante otra española, Guiomar Maristany (147ª), que eliminó a la italiana Nuria Brancaccio (223ª) por 1-6, 6-3 y 6-1. Ambos encuentros se podrán seguir en vivo por TyC Sports Play.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados."
   },
   {
     "id": "342f5dc0e46ccd1b67e2",
@@ -25903,5 +26041,55 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "ce6136e83784b6e881a8",
+    "title": "La definición de Cristian Malaspina sobre la AFA: \"Tener peso significa que no te perjudiquen\"",
+    "source_url": "https://www.ole.com.ar/argentinos/cristian-malaspina-afa-argentinos-juniors_0_bBI2gFzzE7.html",
+    "source": "Olé Argentina",
+    "description": "El presidente de Argentinos Juniors analizó el manejo dirigencial del fútbol argentino y expuso su postura con respecto al rol que cumplen los clubes frente a los arbitrajes.",
+    "published_at": "2026-11-27T12:19:08+00:00",
+    "category": "FICHAJES",
+    "sport": "FUTBOL",
+    "score": 26,
+    "queued_at": "2026-11-27T12:27:30.851646+00:00",
+    "status": "published",
+    "article_context": "Cristian Malaspina, presidente de Argentinos. Foto: Luciano Thieberger\nTras ser eliminado del Torneo Clausura ante Independiente en octavos, Cristian Malaspina abordó el tema del momento: la injerencia de los clubes en AFA . Y una de sus definiciones se volvió viral.\nEl presidente de Argentinos Juniors explicó cómo funciona la dinámica entre los dirigentes. \" Tener peso es que vos puedas sacar cosas para tu club, que no te perjudiquen \", soltó en dialogo con AZZ.\nLa charla derivó rápidamente en la polémica arbitral que protagonizó su club en el partido frente a Independiente , donde le sancionaron un penal que generó ruido por la falta de intervención del VAR.\nAunque Cristian Malaspina evitó alimentar la polémica pública, admitió que la jugada llamó la atención. \" Fue raro que no vayan al VAR \", disparó. De todos modos, sostuvo: \" Son cosas del fútbol. Creo que hay que aceptarlas \".\nFrente a una repregunta, el dirigente insistió con que se trató de un error humano y no quiso escalar el conflicto: \" Son jugadas... Entiendo que sí, si no tengo que matar a alguien, pero pasa \".\nA su vez, respaldó el manejo vigente y explicó que las nuevas herramientas mejorarán la calidad del deporte. \" Creo que la tecnología va a cambiar un montón de cosas. De hecho, el año que viene vamos a tener el VAR semi-automático \", analizó.\nCristian Malaspina admitió públicamente las deudas salariales con el plantel profesional, cuestión por la que tres futbolistas, Sebastián Prieto, Hernán López Muñoz y Francisco Álvarez, se habían quejado luego de la eliminación con Independiente. \"Siempre hablé con los jugadores. Estamos gestionando para liquidar lo más rápido posible lo que se adeuda. También se les debe dos meses a los trabajadores del club, que son la prioridad\", afirmó el dirigente en Radio La Red.\nSobre las declaraciones de los futbolistas que expusieron la situación, reveló: \" Hablé con los jugadores y les dije que, para mí, se equivocaron \". Y agregó: \"Es cierto que se les debe, pero somos un club y unos dirigentes muy presentes\".\nLuego, amplió: \"Armamos presupuestos agresivos para competir con los equipos de arriba y lo respaldamos principalmente con la venta de jugadores. Nosotros ahora tenemos que vender jugadores para que se acomode la situación y después armar el presupuesto para el año que viene que vamos a jugar Libertadores. Con dos o tres ventas de jugadores vamos a estar muy tranquilos . El plantel está valuado en 60 millones de dólares. Eso respalda nuestro presupuesto. Todos los jugadores saben que si llega una oferta que sirva, lo vamos a vender porque somos un club vendedor\".\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "Cristian Malaspina",
+    "visual_entities": {
+      "personas": [
+        "Cristian Malaspina"
+      ],
+      "clubes": [
+        "Argentinos Juniors"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Cristian Malaspina defiende peso de los clubes ante polémica VAR",
+    "caption": "El presidente de Argentinos Juniors, Cristian Malaspina, explicó que ‘tener peso’ significa que los clubes puedan actuar sin que les perjudiquen y respaldó la decisión arbitral que sancionó un penal contra Independiente. Tras la eliminación en octavos del Torneo Clausura, advirtió que el VAR no intervino y señaló que el club afronta deudas salariales mientras se prepara para la Libertadores del próximo año.",
+    "ai_generated_at": "2026-11-27T12:27:30.851646+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-27T12:30:02.921303+00:00",
+    "portrait_info": null,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "CristianMalaspina",
+        "ArgentinosJuniors"
+      ],
+      "mentions": []
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-27T12:27:30.851646+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-27T12:27:30.851646+00:00",
+    "instagram_media_id": "18104119466644601"
   }
 ]
