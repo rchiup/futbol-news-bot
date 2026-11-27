@@ -28226,11 +28226,61 @@
     "sport": "FUTBOL",
     "score": 34,
     "queued_at": "2026-11-27T19:39:24.774800+00:00",
-    "status": "awaiting_ai",
+    "status": "published",
     "article_context": "El Madriid le renovó el contrato a Brahim (EFE/Juanjo Martín).\nEl Real Madrid sigue con su ola de renovaciones. Pensando a futuro, el Merengue se está asegurando la continuidad de jugadores importantes en el plantel o que pueden tomar un mayor protagonismo a futuro. Por eso, Brahim Díaz es el último en sumarse a la lista, quien firmó hasta junio del 2031. De este modo, es el cuarto jugador que renovó los últimos nueve días , sumándose a Arda Güler, Aurélien Tchouaméni y Thibaut Courtois.\nCabe destacar que Brahim tenía contrato hasta el 30 de junio de 2027, así que el nuevo vínculo le agrega cuatro temporadas . La decisión llega a pesar de que el jugador está teniendo un papel secundario en esta temporada, siendo suplente e ingresando en el segundo tiempo en la mayoría de los partidos.\nComunicado Oficial: renovación de @Brahim https://t.co/9C5LFOQkEP\nArda Güler extendió su contrato hasta junio de 2032 el pasado 18 de noviembre. Llegó en julio de 2023, con 18 años, suma 126 partidos y cinco títulos. En esta temporada se ganó la confianza de Mourinho y es un habitual titular tanto en La Liga como en la Champions League.\nUn día después, el 19, el Madrid anunció la extensión de Tchouaméni , también hasta 2032 : acumula 205 partidos y ocho títulos desde que llegó en 2022. Es otra pieza importante en el Merengue, muy tenido en cuenta por el DT.\nHoras después del anuncio del francés, la Casa Blanca hizo oficial la extensión de Thibaut Courtois hasta 2028 . El histórico arquero belga llegó del Chelsea en 2018. Lleva 350 partidos y 14 títulos, y defenderá el arco por al menos dos años más.\nAdemás de estas renovaciones, el Real Madrid ya tiene un acuerdo confirmado con Federico Valverde hasta 2031 , según adelantó el Diario AS.\nBrahim llegó al Madrid en 2019, con 19 años, y acumula 173 partidos y seis títulos : una Champions League, un Mundial de Clubes, una Supercopa de Europa, dos Ligas y una Supercopa de España.\nHasta ahora, anotó 22 goles y repartió 34 asistencias con la camiseta blanca. Entre 2020 y 2023 se fue cedido al AC Milan por falta de minutos. Regresó al conjunto español para la temporada tras su gran actuación en Italia.\nEn la Selección de Marruecos jugó 36 partidos y anotó 15 goles desde su debut en 2024. Fue una parte importantísima del plantel que logró la gran actuación en el Mundial de Estados Unidos 2026 .\nEn la última Copa África, Brahim tuvo el título en sus manos con un penal. Luego de que el equipo de Senegal volvió al campo, el mediocampista falló desde los 12 pasos y Marruecos terminó perdiendo el partido. El TAS ratificó el resultado este martes 24 de noviembre.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "Arda Güler",
+        "Aurélien Tchouaméni",
+        "Thibaut Courtois",
+        "Mourinho"
+      ],
+      "clubes": [
+        "Real Madrid"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Madrid"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Brahim Díaz renueva con el Real Madrid hasta 2031",
+    "caption": "Brahim Díaz firmó una extensión de contrato con el Real Madrid hasta junio de 2031. El delantero, que tenía vínculo hasta 2027, pasa a contar con cuatro temporadas más, pese a su rol de suplente en la presente campaña. La renovación se suma a la reciente ola de extensiones del club, que incluye a Arda Güler y Thibaut Courtois.",
+    "ai_generated_at": "2026-11-27T19:51:29.694229+00:00",
+    "photo_checked_at": "2026-11-27T19:52:30.631632+00:00",
+    "video_style": "tiktok",
+    "video_hook_variant": "fact_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 18.9,
+      "mean_db": -19.4
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795809159/football-news-bot/reels/fb20fdbc3dfb30a7d610-cross.mp4",
+    "crosspost_attempt_at": "2026-11-27T19:51:29.694229+00:00",
+    "youtube_attempt_at": "2026-11-27T19:51:29.694229+00:00",
+    "tiktok_attempt_at": "2026-11-27T19:51:29.694229+00:00",
+    "buffer_youtube_status": "check_required",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "ArdaGuler",
+        "AurelienTchouameni",
+        "ThibautCourtois",
+        "Mourinho"
+      ],
+      "mentions": []
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-27T19:51:29.694229+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-27T19:51:29.694229+00:00",
+    "instagram_media_id": "18105831152646086"
   }
 ]
