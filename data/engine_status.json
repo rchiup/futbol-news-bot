@@ -1,10 +1,10 @@
 {
-  "checked_at_utc": "2026-11-27T14:23:39.587581+00:00",
+  "checked_at_utc": "2026-11-27T14:26:00.755287+00:00",
   "local_hour": 11,
   "statuses": {
     "published": 208,
     "draft": 0,
-    "awaiting_ai": 63,
+    "awaiting_ai": 64,
     "needs_review": 173,
     "publish_error": 27,
     "duplicate": 63
@@ -16,7 +16,7 @@
   "published": 0,
   "duplicates_suppressed": 0,
   "no_photo_deferred": 0,
-  "total_queue": 739,
+  "total_queue": 740,
   "per_run_cap": 3,
   "morning_day_cap": 72,
   "auto_publish_enabled": true,
