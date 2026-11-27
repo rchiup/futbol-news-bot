@@ -26278,7 +26278,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-27T12:44:42.932636+00:00",
-    "status": "draft",
+    "status": "published",
     "article_context": "Ronaldo has said that Harry Kane 's Ballon d'Or was \"well deserved\" and that he was delighted to see a fellow No. 9 win the award.\nThe Brazil legend, who won the Ballon d'Or in 1997 and again in 2002, announced Kane as the winner at the star-studded event at the London Palladium last month.\nThe 33-year-old England captain starred for Bayern Munich in the Bundesliga and the Champions League and led his country to the World Cup semifinals, scoring 73 goals in the process. He is the fifth English player to receive the honour and the first since Michael Owen in 2001.\nKane beat the likes of Kylian Mbappé and Lamine Yamal to the prestigious award. He is the first recognised striker to win the Ballon d'Or since Karim Benzema in 2022.\nSpeaking on the Stick to Football podcast on Disney+, Ronaldo said: \"It was nice and well deserved for him, I think.\n\"And I was happy for him and for me too because the No. 9 is back. I'm so happy. [It's been a] long time without the No. 9 winning something important. And then he's also very nice guy. So well deserved. I was very, very happy for him.\"\nAsked by Jamie Carragher how important the award is in Brazil in comparison to in England, Ronaldo said: \"Well, for us it's very important. Everywhere it's important. Maybe in England because you won only with Michael Owen last time, now it's important again with Harry Kane.\n\"But I think it's very important to the players to get together and talk about the last season, what they did. There is still not transparency about how the criteria to put the best players in the world. We know that the captains vote and the journalists vote, but for sure he's the best striker.\"\nKane has since torn a ligament in his left ankle and is aiming for a return at the \"business end of the season.\"\nRonaldo's brilliant career is synonymous with two major knee injuries, the second of which occurred just six minutes into his comeback and sidelined him for over a year. He said he thinks modern-day strikers have it \"much easier\" than his generation did.\n\"I wish I had protection in that time,\" he said. \"We suffered so much in that time. In our generation was killers, killers everywhere. Everywhere I played so many killers and we are not protected. Now, thank God, they are very protected and it's fair.\n\"I just regret I didn't have that protection in my time.\"",
     "visual_subject": "",
     "visual_entities": {
@@ -26311,7 +26311,12 @@
         "BallondOr"
       ],
       "mentions": []
-    }
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-27T13:00:05.640996+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-27T13:00:05.640996+00:00",
+    "instagram_media_id": "18016248978002437"
   },
   {
     "id": "b63fbaf32efe013de3d2",
@@ -26361,7 +26366,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-27T12:44:42.932636+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "article_context": "José Mourinho called Jude Bellingham \"one of the best players of his generation\" on Friday, but refused to compare the England star with Real Madrid legend Zinedine Zidane.\nBellingham -- who wears Zidane's No. 5 shirt with Madrid -- scored a stunning goal in the team's 5-1 comeback Champions League win over PSV Eindhoven on Tuesday, continuing his superb start to the season.\nThe midfielder's form has helped Madrid keep pace with Barcelona at the top of the LaLiga table, with a three-point gap between the pair going into this weekend's games.\n\"I don't like to compare players from different generations,\" Mourinho said in a news conference on Friday when asked to rank Bellingham with Zidane.\n\"Zidane was one of the best in the world of his generation. Jude is already one of the best players of his generation. I don't like to compare.\"\nMourinho rested Bellingham for the first half against PSV, only to see his team struggle and go 1-0 down -- and the coach responded by sending on Bellingham at halftime to turn the match around.\nBellingham and Kylian Mbappé are two of the Madrid players who have featured most in LaLiga this season, with 1047 and 1163 minutes respectively.\n\"The reason Kylian and Jude have played so many minutes isn't their names, or a rule,\" Mourinho said. \"It's their performance. If their performance is incomparable with what another player can do, that makes the difference. We feel what it's like to play with, and to play without, Jude.\"\n- Jude Bellingham: I don't care about the Ballon d'Or - Jobe Bellingham teases Jude over wonder-goal: 'Off his shin!'\nThe victory over PSV left Madrid top of the Champions League table on 15 points from five games, but Mourinho wouldn't accept that his side are now among the favourites to win the competition. \"It's very early,\" Mourinho said. \"We don't know how the teams will arrive at the key moment, the knockout. Right now the only thing I want is not to play the playoffs.\nMourinho said Trent Alexander-Arnold was unavailable to face Alavés on Saturday with illness, while he insisted that he doesn't want to add to his squad in the January window.\n\"I don't want anyone to come in, or anyone to leave,\" Mourinho said. \"The door is closed in both ways... I don't want to see news about the market, because I don't want anyone.\"",
     "visual_subject": "Jude Bellingham",
     "visual_entities": {
@@ -26374,15 +26379,13 @@
         "Real Madrid"
       ],
       "competicion": [],
-      "ciudad": [
-        "Madrid"
-      ]
+      "ciudad": []
     },
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
-    "headline": "Mourinho elogia Bellingham pero rechaza compararlo con Zidane",
-    "caption": "José Mourinho afirmó que Jude Bellingham es uno de los mejores jugadores de su generación, pero se negó a equiparlo con Zinedine Zidane. El inglés anotó un gol espectacular en la victoria 5‑1 del Madrid sobre el PSV Eindhoven, manteniendo al club a tres puntos del Barcelona en la tabla de LaLiga.",
-    "ai_generated_at": "2026-11-27T12:44:42.932636+00:00",
+    "headline": "Mourinho elogia a Bellingham y rechaza compararlo con Zidane",
+    "caption": "Mourinho afirmó que Bellingham es uno de los mejores de su generación y evitó compararlo con Zinedine Zidane. El inglés anotó el gol de la remontada 5‑1 ante el PSV en Champions, manteniendo al Madrid cerca del liderato en LaLiga. Además, el técnico descartó cualquier refuerzo en la ventana de enero y confirmó la baja de Trent Alexander‑Arnold por enfermedad.",
+    "ai_generated_at": "2026-11-27T13:00:05.640996+00:00",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
