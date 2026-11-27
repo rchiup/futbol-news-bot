@@ -27877,5 +27877,41 @@
     "headline": "Argentina enfrentará a México en los 16avos del Mundial Sub 17",
     "caption": "Argentina jugará contra México en los 16avos de final del Mundial Sub 17, revancha del empate por penales del año pasado. El duelo se decidirá el 30 de noviembre y, de ganar, el Albiceleste conocerá al ganador de Uruguay vs Croacia.",
     "ai_generated_at": "2026-11-27T18:34:51.638595+00:00"
+  },
+  {
+    "id": "ddf7bb3162de8b34f522",
+    "title": "Desestimada la apelación de Audi contra Tsunoda en Monza: los motivos",
+    "source_url": "https://es.motorsport.com/f1/news/desestimada-apelacion-audi-tsunoda-monza/10878382",
+    "source": "Motorsport F1",
+    "description": "Más de dos meses después de la carrera de Fórmula 1 en Monza, por fin se ha confirmado el resultado. Audi creía que Yuki Tsunoda —quien regresó a la parrilla con Racing Bulls para sustituir a Liam Lawson tras el ascenso de éste a Red Bull para reemplazar a Isack Hadjar debido a su lesión de muñeca—, merecía una penalización por una posible infracción en la reanudación de la ... Sigue leyendo",
+    "published_at": "2026-11-27T18:37:19+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-27T18:42:10.416896+00:00",
+    "status": "draft",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "source_brief",
+    "llm_model": "none",
+    "headline": "Desestimada la apelación de Audi contra Tsunoda en Monza: los motivos",
+    "caption": "Más de dos meses después de la carrera de Fórmula 1 en Monza, por fin se ha confirmado el resultado. (Motorsport F1)",
+    "ai_generated_at": "2026-11-27T18:42:10.416896+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-27T18:43:05.994320+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Formula1"
+      ],
+      "mentions": []
+    }
   }
 ]
