@@ -14839,7 +14839,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-25T15:07:09.692414+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -19649,7 +19649,9 @@
     "buffer_tiktok_status": "error",
     "buffer_tiktok_id": "6b08af9e82b7c4bc16562a77",
     "buffer_youtube_status": "error",
-    "buffer_youtube_id": "6b08afa0860e3591ea356205"
+    "buffer_youtube_id": "6b08afa0860e3591ea356205",
+    "buffer_tiktok_error": "provider_failure",
+    "buffer_youtube_error": "daily_limit"
   },
   {
     "id": "021f5f8135b5d7332f35",
@@ -21522,10 +21524,12 @@
     "publish_format": "reel",
     "format_attempt_at": "2026-11-27T01:42:46.446615+00:00",
     "crosspost_attempt_at": "2026-11-27T01:42:46.446615+00:00",
-    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_status": "published",
     "zernio_tiktok_id": "6b08e0699f306e2a057af26f",
     "buffer_youtube_status": "sent",
-    "buffer_youtube_id": "6b08e06d70e2a88e2ce96fc9"
+    "buffer_youtube_id": "6b08e06d70e2a88e2ce96fc9",
+    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7712661062763482374",
+    "buffer_youtube_url": "https://www.youtube.com/shorts/lWggpvDP4Gs"
   },
   {
     "id": "46c1e4020f357a08ac46",
@@ -21594,7 +21598,8 @@
     "zernio_tiktok_status": "failed",
     "zernio_tiktok_id": "6b08e44a721c44c32a169324",
     "buffer_youtube_status": "error",
-    "buffer_youtube_id": "6b08e44d548b6e180d505e31"
+    "buffer_youtube_id": "6b08e44d548b6e180d505e31",
+    "buffer_youtube_error": "daily_limit"
   },
   {
     "id": "f94a8a37697c4c0812f3",
@@ -21986,7 +21991,7 @@
     "headline": "Leclerc admite que no funciona con Hamilton",
     "caption": "Charles Leclerc reconoció que su relación con Lewis Hamilton no funciona actualmente. El piloto de Ferrari busca una solución después del incidente en el Gran Premio de Las Vegas. La tensión entre ambos pilotos ha generado debate en el mundo del F1.",
     "ai_generated_at": "2026-11-27T01:46:53.629705+00:00",
-    "photo_checked_at": "2026-11-27T01:48:05.192959+00:00",
+    "photo_checked_at": "2026-11-27T02:08:31.904565+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -22033,7 +22038,7 @@
     "headline": "Gran Bretaña vence a Alemania",
     "caption": "Gran Bretaña derrota a Alemania y avanza a semifinales de la Davis Cup. Henry Patten y Neal Skupski lideran el equipo con su nueva sociedad en dobles. Es la primera vez que Gran Bretaña alcanza las semifinales desde 2019.",
     "ai_generated_at": "2026-11-27T01:46:53.629705+00:00",
-    "photo_checked_at": "2026-11-27T01:48:14.817035+00:00",
+    "photo_checked_at": "2026-11-27T02:09:09.692518+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -23395,7 +23400,9 @@
     },
     "ig_variant": "single",
     "posted_at": "2026-11-26T22:07:09.937398+00:00",
-    "instagram_media_id": "18137552545673611"
+    "instagram_media_id": "18137552545673611",
+    "buffer_tiktok_error": "provider_failure",
+    "buffer_youtube_error": "daily_limit"
   },
   {
     "id": "f9b7b72fb4002ed6a5ee",
@@ -23789,7 +23796,9 @@
         "Estudiantes"
       ],
       "mentions": []
-    }
+    },
+    "buffer_tiktok_error": "provider_failure",
+    "buffer_youtube_error": "daily_limit"
   },
   {
     "id": "76b3f631807e98f3f916",
@@ -23913,10 +23922,12 @@
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795739934/football-news-bot/reels/b67bda1f34ca1c5d9f9c.mp4",
     "crosspost_attempt_at": "2026-11-27T00:37:51.088735+00:00",
-    "buffer_tiktok_status": "sending",
+    "buffer_tiktok_status": "sent",
     "buffer_tiktok_id": "6b08d1208899c4e77901abf2",
     "buffer_youtube_status": "error",
-    "buffer_youtube_id": "6b08d12b70e2a88e2ce2b002"
+    "buffer_youtube_id": "6b08d12b70e2a88e2ce2b002",
+    "buffer_tiktok_url": "https://tiktok.com/@chaofelicevich/video/7712644296490454280",
+    "buffer_youtube_error": "daily_limit"
   },
   {
     "id": "78ca0191b0b3f79c736a",
@@ -24065,7 +24076,9 @@
         "Futbol"
       ],
       "mentions": []
-    }
+    },
+    "buffer_tiktok_error": "provider_failure",
+    "buffer_youtube_error": "daily_limit"
   },
   {
     "id": "e0112ad0d2b3b16c7584",
@@ -25151,10 +25164,12 @@
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795742712/football-news-bot/reels/9ee9a3141da788087a46.mp4",
     "crosspost_attempt_at": "2026-11-27T01:18:30.345855+00:00",
-    "buffer_tiktok_status": "sending",
+    "buffer_tiktok_status": "sent",
     "buffer_tiktok_id": "6b08dbfb70e2a88e2ce7a175",
     "buffer_youtube_status": "error",
-    "buffer_youtube_id": "6b08dc0607985b96e302c6e0"
+    "buffer_youtube_id": "6b08dc0607985b96e302c6e0",
+    "buffer_tiktok_url": "https://tiktok.com/@chaofelicevich/video/7712656224809946389",
+    "buffer_youtube_error": "daily_limit"
   },
   {
     "id": "eb98ea917fe7c0cd1d04",

@@ -1,10 +1,10 @@
 {
-  "checked_at_utc": "2026-11-27T02:05:31.272072+00:00",
+  "checked_at_utc": "2026-11-27T02:08:16.635174+00:00",
   "local_hour": 23,
   "statuses": {
     "published": 191,
     "draft": 33,
-    "awaiting_ai": 83,
+    "awaiting_ai": 82,
     "needs_review": 150,
     "publish_error": 27,
     "duplicate": 61
