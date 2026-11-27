@@ -116,3 +116,5 @@ Restore safe publishing cadence
 Run platform-specific creative experiment and verify regression tests
 
 Verify independent delivery and network quota checks
+
+Restore morning engine after sports filter regression
