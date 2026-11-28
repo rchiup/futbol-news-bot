@@ -1,17 +1,17 @@
 {
-  "checked_at_utc": "2026-11-28T01:11:16.692878+00:00",
+  "checked_at_utc": "2026-11-28T01:15:13.188136+00:00",
   "local_hour": 22,
   "statuses": {
     "published": 233,
     "draft": 18,
-    "awaiting_ai": 49,
-    "needs_review": 194,
+    "awaiting_ai": 48,
+    "needs_review": 195,
     "publish_error": 27,
     "duplicate": 74
   },
   "fresh_candidates": 155,
   "queued_new": 0,
-  "ai_generated": 2,
+  "ai_generated": 1,
   "preview_images": 5,
   "published": 0,
   "duplicates_suppressed": 0,
@@ -38,9 +38,9 @@
     "last_success": "cloudflare",
     "providers": {
       "groq": {
-        "attempts": 10,
+        "attempts": 12,
         "success": 2,
-        "failures": 8,
+        "failures": 10,
         "avg_latency_ms": 1680,
         "avg_readability": 100.0,
         "last_error": "http_429"
@@ -62,10 +62,10 @@
         "last_error": "invalid_output"
       },
       "cloudflare": {
-        "attempts": 25,
-        "success": 12,
-        "failures": 13,
-        "avg_latency_ms": 3777,
+        "attempts": 29,
+        "success": 13,
+        "failures": 16,
+        "avg_latency_ms": 3659,
         "avg_readability": 100.0,
         "last_error": "invalid_output"
       },
@@ -78,9 +78,9 @@
         "last_error": "http_410"
       },
       "zai": {
-        "attempts": 13,
+        "attempts": 16,
         "success": 1,
-        "failures": 12,
+        "failures": 15,
         "avg_latency_ms": 33034,
         "avg_readability": 100.0,
         "last_error": "invalid_output"

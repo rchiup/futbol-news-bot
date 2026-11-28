@@ -25791,21 +25791,21 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-27T12:21:18.410128+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "visual_subject": "",
     "visual_entities": {
       "personas": [],
       "clubes": [],
       "competicion": [
-        "Liga Profesional"
+        "Liga Profesional 2026"
       ],
       "ciudad": []
     },
-    "llm_provider": "zai",
-    "llm_model": "glm-4.5-flash",
-    "headline": "Ranking de juveniles en Liga Profesional 2026",
-    "caption": "Olé analizó el uso de jugadores jóvenes en los 30 equipos de Primera. Hubo un líder sorpresa y un grande que destacó en la promoción de talentos locales.",
-    "ai_generated_at": "2026-11-27T12:23:31.059245+00:00",
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Olé revela qué equipo lidera en uso de juveniles",
+    "caption": "Un líder sorpresa y un grande destacan en el uso de juveniles en la Liga Profesional 2026. Olé realizó un relevamiento sobre los 30 equipos de Primera.",
+    "ai_generated_at": "2026-11-28T01:15:13.188136+00:00",
     "editorial_rechecked": true
   },
   {
@@ -27936,7 +27936,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-28T00:52:36.606981+00:00",
+    "photo_checked_at": "2026-11-28T01:18:11.876760+00:00",
     "portrait_info": null
   },
   {
