@@ -34,6 +34,6 @@ def verified_story(reference, session=requests):
             result=f"{a}-{b}"
             headline="¡PAPELÓN! Messi eliminado en primera ronda"
             description=f"Columbus Crew venció {result} a Inter Miami en el segundo partido de la primera ronda de los playoffs de la MLS. Columbus ya había ganado el primer encuentro por 3-0."
-            caption=f"¡PAPELÓN EN LA MLS! Messi y el vigente campeón, eliminados en primera ronda: 0-3 y 0-1 ante Columbus Crew. Dos derrotas y ni un gol. ¿El mayor fracaso de Messi en Miami? Debate abierto."
+            caption=f"¡PAPELÓN EN LA MLS! Messi y el vigente campeón, eliminados en primera ronda: Columbus Crew ganó 3-0 y {result}. Dos derrotas y ni un gol. ¿El mayor fracaso de Messi en Miami? Debate abierto."
             return {"id":ID,"title":"Lionel Messi e Inter Miami eliminados por Columbus Crew en los playoffs de la MLS","source_url":MATCH_URL,"source":"ESPN / MLS","description":description,"headline":headline,"caption":caption,"published_at":reference.isoformat(),"queued_at":reference.isoformat(),"status":"draft","sport":"FUTBOL","category":"ACTUALIDAD","score":1000,"visual_subject":"Lionel Messi","visual_entities":{"personas":["Lionel Messi"],"clubes":["Inter Miami","Columbus Crew"],"competicion":["MLS"],"ciudad":[]},"llm_provider":"manual_verified","manual_requested":True}
     return None
