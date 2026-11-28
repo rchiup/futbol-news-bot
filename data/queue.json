@@ -27968,7 +27968,7 @@
     "sport": "FUTBOL",
     "score": 25,
     "queued_at": "2026-11-27T17:42:03.679731+00:00",
-    "status": "draft",
+    "status": "expired",
     "article_context": "Luca Marcogiuseppe, nuevo entrenador de Gimnasia de Mendoza. (@GimnasiaMendoza)\nVuelve un viejo conocido. Gimnasia de Mendoza confirmó que Luca Marcogiuseppe será su nuevo DT para la próxima temporada . El Tano tendrá su segundo ciclo luego de 2022, año en el que dirigió al Lobo en la Primera Nacional.\nEl anuncio llega luego de la salida de Darío Franco . La dirigencia cerró el ciclo del técnico a pesar de que el equipo aseguró la permanencia en Primera División con siete fechas de anticipación y clasificó a los playoffs, donde cayó ante Rosario Central, en los octavos de final, por 3-1.\n¡Bienvenido nuevamente, Tano! Gimnasia y Esgrima informa que Luca Marcogiuseppe es el nuevo director técnico de nuestro plantel profesional de cara a la temporada 2027. #VamosLobo pic.twitter.com/3vxOp7nfHP\nLuego de sus primeras experiencias en Real Pilar y Unión La Calera, Marcogiuseppe asumió en Gimnasia de Mendoza para dirigir la temporada 2022 de la Primera Nacional .\nLuego de quedar en la cuarta posición, el Lobo quedó eliminado en las semifinales del Reducido ante Estudiantes (BA). Días después, el técnico anunció en una carta abierta que no seguiría en el club. \"Momento de cerrar un ciclo, para algún día tener la posibilidad de volver\", expresó.\nLuego de su salida, tuvo un breve paso por Audax Italiano de Chile y regresó al fútbol argentino como ayudante de campo . Primero estuvo en Huracán, con Frank Darío Kudelka, y en 2026 se sumó al cuerpo técnico de Carlos Tevez .\nEl Tano también había formado parte del equipo de trabajo de Marcelo Bielsa en el Athletic de Bilbao .\nFranco había llegado a fines de marzo de 2026 para reemplazar a Ariel Broggi. Terminó 11.º en el Apertura y 8.º en el Clausura, donde clasificó a los playoffs y cayó 3-1 ante Rosario Central, en Arroyito, en los octavos de final.\nEn su comunicado, el club agradeció el compromiso del DT y de su cuerpo técnico y destacó la identidad de juego del equipo: \"Con ellos al frente, el Lobo aseguró su permanencia en Primera División jugando a un gran nivel, con una idea clara y el carácter para competir en cada partido\". Franco había manifestado su deseo de seguir, pero su contrato, que vencía el 31 de diciembre, no se renovó.\nGimnasia y Esgrima informa que Darío Franco, junto a su ayudante de campo, Matías Ballini, y su preparador físico, Nicolás Coluccini, cierran su etapa al frente del plantel profesional. Desde el club queremos agradecerles por el compromiso y el trabajo de todos los días. Con… pic.twitter.com/lSGHGLSj9S\nEn la Liga Profesional, el equipo de Franco ganó nueve partidos, empató cinco y perdió ocho de 22. En la Copa Argentina quedó afuera por penales ante Gimnasia y Tiro, de Salta.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
@@ -29304,7 +29304,7 @@
     "headline": "Aldana Cometti dice que la selección femenina ya no molesta",
     "caption": "Aldana Cometti, capitana de la selección argentina femenina, afirmó que el equipo ya no molesta y es parte del fútbol. La jugadora habló antes del amistoso de este sábado ante Alemania en el Estadio Único de La Plata. Argentina también jugará contra Uruguay el 4 de diciembre con miras al Mundial de 2027 en Brasil.",
     "ai_generated_at": "2026-11-28T00:08:00.318924+00:00",
-    "photo_checked_at": "2026-11-28T07:33:39.716579+00:00",
+    "photo_checked_at": "2026-11-28T07:46:46.092618+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -29318,7 +29318,20 @@
     "format_attempt_at": "2026-11-28T07:32:54.032633+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-28T07:32:54.032633+00:00",
-    "instagram_media_id": "18102581366552552"
+    "instagram_media_id": "18102581366552552",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 20.7,
+      "mean_db": -19.5
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795852018/football-news-bot/reels/1efe532f6499d7127868-cross.mp4",
+    "crosspost_attempt_at": "2026-11-28T07:46:02.507334+00:00",
+    "tiktok_attempt_at": "2026-11-28T07:46:02.507334+00:00",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b0a86f4fe7140cdac9cadc5",
+    "buffer_tiktok_error": "provider_failure"
   },
   {
     "id": "f81c4d932c3768c69a68",
