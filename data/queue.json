@@ -21163,7 +21163,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-26T14:28:19.696004+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -28533,7 +28533,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-28T02:04:12.437480+00:00"
+    "photo_checked_at": "2026-11-28T02:26:42.547105+00:00"
   },
   {
     "id": "4df920aa7e3730f1bcea",
