@@ -28533,7 +28533,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-28T02:26:42.547105+00:00"
+    "photo_checked_at": "2026-11-28T02:49:22.894782+00:00"
   },
   {
     "id": "4df920aa7e3730f1bcea",
@@ -30614,11 +30614,33 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-28T02:43:16.573838+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "article_context": "Tristán Suárez empató con Gimnasia y Tiro y se metió en semis.\nSi no se sufre no vale. Esa frase resume a la perfección el camino de Tristán Suárez en esta revancha por el segundo ascenso de la Primera Nacional . Después del duro golpe que significó perder la final por el ascenso directo ante Godoy Cruz, el Lechero tenía todo dado para pisar fuerte en Ezeiza.\nTras el 0-0 en Salta, definía ante su gente, contaba con ventaja deportiva y enfrentaba a Gimnasia y Tiro , el rival de peor campaña tras entrar octavo al Reducido . Sin embargo, la historia le exigió transpirar hasta el límite para seguir con vida en el torneo. Fue 1-1 en Ezeiza con tantos de Rinaldi para los salteños y Gallo para el local para meter a los de José María Martínez en semifinales .\nEn la etapa inicial se vio un trámite entretenido y dinámico, donde cada uno respetó su libreto y puso en aprietos al otro en distintos pasajes. Dentro de esa paridad, el local fue un poco mejor y contó con las situaciones más claras para romper el cero, pero chocó una y otra vez contra la enorme tarea del arquero Federico Cosentino , la gran figura de esa primera mitad.\nLa pesadilla pareció instalarse en el arranque del complemento y puso en jaque todos los pronósticos previos. A los tres minutos, tras un tiro libre desde la izquierda y un gran centro al área, Nicolás Rinaldi ganó muy bien arriba y dejó inmóvil a Bigo para poner el 1-0 salteño , silenciar el estadio y obligar al dueño de casa a reaccionar de inmediato para evitar la eliminación.\nCuando los fantasmas de la final perdida ante el Tomba sobrevolaban Ezeiza, apareció la respuesta anímica y futbolística del equipo. A los 20 minutos del segundo tiempo, tras una serie de rebotes dentro del área rival, el recién ingresado Gallo sacó un zurdazo espectacular que se clavó en el ángulo para estampar el 1-1 y desatar la locura en las tribunas.\nCon esa igualdad muy trabajada, Tristán Suárez sostuvo la diferencia, hizo valer la ventaja deportiva y sacó boleto hacia las semifinales . En la próxima instancia del Reducido lo espera un cruce de alto voltaje frente a Colón , que viene de dejar en el camino a Deportivo Morón con un 1-0 en el resultado global. El Lechero tendrá el plus de definir de local y ventaja deportiva.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [
+        "Gallo"
+      ],
+      "clubes": [
+        "Tristán Suárez",
+        "Gimnasia y Tiro"
+      ],
+      "competicion": [
+        "Reducido"
+      ],
+      "ciudad": [
+        "Ezeiza",
+        "Salta"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Tristán Suárez empata 1-1 y avanza a semifinales",
+    "caption": "Tristán Suárez igualó 1-1 ante Gimnasia y Tiro con el golazo de Gallo y se clasificó a semifinales del Reducido. El Lechero, con ventaja deportiva, ahora medirá fuerzas con Colón, que dejó fuera a Deportivo Morón.",
+    "ai_generated_at": "2026-11-28T02:48:20.990924+00:00"
   }
 ]
