@@ -124,3 +124,5 @@ Verify quota handling and morning editorial regressions
 Verify provider quota recovery and independent video delivery
 
 Publish requested Pellegrini story
+
+Verify MLS final score and prioritize Messi elimination across networks
