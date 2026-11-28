@@ -1,17 +1,17 @@
 {
-  "checked_at_utc": "2026-11-28T00:53:50.833033+00:00",
-  "local_hour": 21,
+  "checked_at_utc": "2026-11-28T01:06:46.065039+00:00",
+  "local_hour": 22,
   "statuses": {
-    "published": 232,
-    "draft": 19,
-    "awaiting_ai": 51,
-    "needs_review": 192,
+    "published": 233,
+    "draft": 18,
+    "awaiting_ai": 49,
+    "needs_review": 194,
     "publish_error": 27,
     "duplicate": 74
   },
-  "fresh_candidates": 156,
+  "fresh_candidates": 192,
   "queued_new": 0,
-  "ai_generated": 7,
+  "ai_generated": 5,
   "preview_images": 5,
   "published": 1,
   "duplicates_suppressed": 0,
@@ -62,28 +62,28 @@
         "last_error": "invalid_output"
       },
       "cloudflare": {
-        "attempts": 14,
-        "success": 5,
-        "failures": 9,
-        "avg_latency_ms": 3593,
+        "attempts": 21,
+        "success": 10,
+        "failures": 11,
+        "avg_latency_ms": 4006,
         "avg_readability": 100.0,
         "last_error": "invalid_output"
       },
       "nvidia": {
-        "attempts": 3,
+        "attempts": 4,
         "success": 0,
-        "failures": 3,
+        "failures": 4,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "http_410"
       },
       "zai": {
-        "attempts": 9,
+        "attempts": 11,
         "success": 1,
-        "failures": 8,
+        "failures": 10,
         "avg_latency_ms": 33034,
         "avg_readability": 100.0,
-        "last_error": "invalid_output"
+        "last_error": "timeout"
       }
     }
   }

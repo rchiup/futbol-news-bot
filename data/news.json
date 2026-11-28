@@ -15006,5 +15006,29 @@
     "source": "Cooperativa.cl: Noticias de Chile y el mundo - País, Deportes y más",
     "collected_at": "2026-11-28T00:53:50.642150+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "7c16c1ff80fb7914cbfbbf7822da2117c32d81f84164e3a5252a52920cbec0af",
+    "title": "Follow live: Messi, Miami look to stave off elimination vs. Columbus",
+    "url": "https://www.espn.com/soccer/match/_/gameId/401933727/inter-miami-cf-columbus-crew",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-28T01:06:43.378036+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "11da7a644abb1486361d1cf9dca5c8f9b2661aee4115957d7edbfeaac5ed4b93",
+    "title": "A horas de la final de la Libertadores, las probables formaciones de Estudiantes y Palmeiras",
+    "url": "https://www.ole.com.ar/futbol-internacional/libertadores/estudiantes-palmeiras-final-copalibertadores-probables-formaciones_0_vldXzun1dv.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-28T01:06:44.120458+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "e202a1981144fd239ab50131f61bd74447f71e83402f0b476dc30948966db4be",
+    "title": "Warriors rule Curry out for next three games with oblique injury",
+    "url": "https://www.espn.com/nba/story/_/id/50616740/golden-state-warriors-rule-steph-curry-next-3-games",
+    "source": "www.espn.com - NBA",
+    "collected_at": "2026-11-28T01:06:45.005366+00:00",
+    "status": "pending_review"
   }
 ]
