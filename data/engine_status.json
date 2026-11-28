@@ -1,19 +1,19 @@
 {
-  "checked_at_utc": "2026-11-28T01:19:28.471872+00:00",
+  "checked_at_utc": "2026-11-28T01:24:32.379734+00:00",
   "local_hour": 22,
   "statuses": {
     "published": 234,
     "draft": 17,
-    "awaiting_ai": 48,
+    "awaiting_ai": 47,
     "needs_review": 195,
     "publish_error": 27,
     "duplicate": 74
   },
-  "fresh_candidates": 155,
+  "fresh_candidates": 192,
   "queued_new": 0,
   "ai_generated": 0,
   "preview_images": 5,
-  "published": 1,
+  "published": 0,
   "duplicates_suppressed": 0,
   "no_photo_deferred": 0,
   "total_queue": 813,
@@ -62,25 +62,25 @@
         "last_error": "invalid_output"
       },
       "cloudflare": {
-        "attempts": 32,
+        "attempts": 35,
         "success": 13,
-        "failures": 19,
+        "failures": 22,
         "avg_latency_ms": 3659,
         "avg_readability": 100.0,
         "last_error": "invalid_output"
       },
       "nvidia": {
-        "attempts": 4,
+        "attempts": 5,
         "success": 0,
-        "failures": 4,
+        "failures": 5,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "http_410"
       },
       "zai": {
-        "attempts": 19,
+        "attempts": 22,
         "success": 1,
-        "failures": 18,
+        "failures": 21,
         "avg_latency_ms": 33034,
         "avg_readability": 100.0,
         "last_error": "invalid_output"

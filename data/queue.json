@@ -20750,7 +20750,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-26T13:25:44.006933+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -27973,7 +27973,16 @@
     "llm_model": "openrouter/free",
     "headline": "Gimnasia de Mendoza confirma el regreso de Luca Marcogiuseppe como DT",
     "caption": "Luca Marcogiuseppe vuelve a Gimnasia de Mendoza para su segundo ciclo como DT, tras dirigir al Lobo en la Primera Nacional 2022. Reemplaza a Darío Franco, cuyo contrato vencía el 31 de diciembre pese a asegurar la permanencia y clasificar a los playoffs, donde el equipo cayó 3-1 ante Rosario Central.",
-    "ai_generated_at": "2026-11-28T00:38:01.713748+00:00"
+    "ai_generated_at": "2026-11-28T00:38:01.713748+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "LucaMarcogiuseppe",
+        "GimnasiadeMendoza"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "435b45b12b9b1b2d742a",
@@ -28377,7 +28386,8 @@
         "IndependienteRivadavia"
       ],
       "mentions": []
-    }
+    },
+    "photo_checked_at": "2026-11-28T01:27:06.688566+00:00"
   },
   {
     "id": "2d18a4bdaee39e096204",
@@ -28417,7 +28427,8 @@
         "AlHilal"
       ],
       "mentions": []
-    }
+    },
+    "photo_checked_at": "2026-11-28T01:27:07.179741+00:00"
   },
   {
     "id": "475f83985ee9f65ae983",
@@ -28834,7 +28845,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-27T20:08:30.430188+00:00",
+    "photo_checked_at": "2026-11-28T01:27:06.320611+00:00",
     "video_style": "tiktok",
     "video_hook_variant": "fact_hook",
     "reel_quality": {
@@ -29017,7 +29028,9 @@
         "Palmeiras"
       ],
       "mentions": []
-    }
+    },
+    "photo_checked_at": "2026-11-28T01:27:05.718504+00:00",
+    "portrait_info": null
   },
   {
     "id": "ca35c70dcc06a907948f",
@@ -29313,7 +29326,7 @@
     "headline": "Juan Sebastián Verón viajó a Montevideo para la final de Libertadores",
     "caption": "El presidente de Estudiantes se trasladó a Uruguay junto a su familia para seguir el duelo ante Palmeiras desde la platea. El dirigente busca celebrar desde la tribuna la quinta estrella continental del club, tal como lo hizo como capitán en 2009.",
     "ai_generated_at": "2026-11-28T00:01:34.141654+00:00",
-    "photo_checked_at": "2026-11-28T00:36:37.302251+00:00",
+    "photo_checked_at": "2026-11-28T01:27:04.530304+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -29395,7 +29408,7 @@
     "headline": "Gimnasia busca romper la racha de Boca en duelos directos",
     "caption": "El Lobo ganó tres de los últimos cuatro mano a mano decisivos ante Boca. Ambos equipos se enfrentan este domingo por los cuartos de final del Torneo Clausura con el objetivo de meterse entre los cuatro mejores del campeonato.",
     "ai_generated_at": "2026-11-28T00:01:34.141654+00:00",
-    "photo_checked_at": "2026-11-28T00:36:35.402968+00:00",
+    "photo_checked_at": "2026-11-28T01:27:03.568808+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
