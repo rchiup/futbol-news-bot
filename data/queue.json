@@ -16,7 +16,7 @@
     "posted_at": "2026-11-23T02:28:07.513251+00:00",
     "instagram_media_id": "18126608645298781",
     "provider_cooldowns": {
-      "zernio": "2026-11-28T04:47:41.616206+00:00",
+      "zernio": "2026-11-28T05:19:54.766290+00:00",
       "buffer": "2026-11-28T00:37:52.238229+00:00"
     }
   },
@@ -22262,7 +22262,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-26T16:51:06.511799+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -30038,7 +30038,7 @@
     "headline": "Werder Bremen remonta un 3-1 y empata ante Borussia M'gladbach",
     "caption": "Borussia M'gladbach, colista de la Bundesliga, ganaba 3-1 en Bremen y terminó empatando en un partido de seis goles. El Werder Bremen remontó para rescatar un punto.",
     "ai_generated_at": "2026-11-28T00:08:00.318924+00:00",
-    "photo_checked_at": "2026-11-28T04:42:50.628548+00:00",
+    "photo_checked_at": "2026-11-28T04:49:44.184217+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -30053,7 +30053,20 @@
     "format_attempt_at": "2026-11-28T04:42:11.685028+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-28T04:42:11.685028+00:00",
-    "instagram_media_id": "18080096390750199"
+    "instagram_media_id": "18080096390750199",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 14.2,
+      "mean_db": -19.5
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795841393/football-news-bot/reels/266e4f3520e7a458ffb2-cross.mp4",
+    "crosspost_attempt_at": "2026-11-28T04:48:52.632259+00:00",
+    "tiktok_attempt_at": "2026-11-28T04:48:52.632259+00:00",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b0a5d7323fb5b77001d55ca",
+    "buffer_tiktok_error": "provider_failure"
   },
   {
     "id": "968d2a38626ebfb22520",
