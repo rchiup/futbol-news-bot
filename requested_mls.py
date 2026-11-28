@@ -7,7 +7,7 @@ MATCH_URL="https://www.mlssoccer.com/playoffs/2026/news/columbus-crew-oust-leo-m
 API="https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
 
 def verified_story(reference, session=requests):
-    if not datetime(2026,11,28,1,tzinfo=timezone.utc)<=reference<=datetime(2026,11,28,16,tzinfo=timezone.utc):
+    if not datetime(2026,11,28,1,tzinfo=timezone.utc)<=reference<=datetime(2026,11,29,6,tzinfo=timezone.utc):
         return None
     response=session.get(API,params={"dates":"20261127-20261128"},timeout=12)
     response.raise_for_status()
