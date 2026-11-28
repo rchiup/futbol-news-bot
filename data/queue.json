@@ -31589,7 +31589,7 @@
     "headline": "Ocho uruguayos disputarán la Libertadores 2026 en Montevideo",
     "caption": "Ocho futbolistas uruguayos competirán en la Copa Libertadores 2026 en Montevideo. El torneo reúne a los mejores equipos sudamericanos y se jugará en la capital del país.",
     "ai_generated_at": "2026-11-28T13:37:34.517045+00:00",
-    "photo_checked_at": "2026-11-28T13:38:06.629731+00:00",
+    "photo_checked_at": "2026-11-28T13:50:49.259761+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -31603,7 +31603,19 @@
     "format_attempt_at": "2026-11-28T13:37:34.517045+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-28T13:37:34.517045+00:00",
-    "instagram_media_id": "18090688019701271"
+    "instagram_media_id": "18090688019701271",
+    "video_style": "tiktok",
+    "video_hook_variant": "fact_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 9.8,
+      "mean_db": -19.7
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795873859/football-news-bot/reels/56035a67fdec3e7dae5e-cross.mp4",
+    "crosspost_attempt_at": "2026-11-28T13:50:01.796144+00:00",
+    "tiktok_attempt_at": "2026-11-28T13:50:01.796144+00:00",
+    "buffer_tiktok_status": "sending",
+    "buffer_tiktok_id": "6b0adc45c6d7f1e722486b5d"
   },
   {
     "id": "72a0c8d67a358794abbf",
