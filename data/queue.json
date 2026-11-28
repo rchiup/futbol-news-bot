@@ -28656,7 +28656,7 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-27T19:29:05.749141+00:00",
-    "status": "draft",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -28691,7 +28691,12 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-28T02:46:53.187911+00:00"
+    "photo_checked_at": "2026-11-28T02:46:53.187911+00:00",
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-28T02:56:13.609902+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-28T02:56:13.609902+00:00",
+    "instagram_media_id": "18118423094022891"
   },
   {
     "id": "f98c0948e06497abfddc",
