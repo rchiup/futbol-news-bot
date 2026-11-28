@@ -28899,7 +28899,7 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-27T20:12:56.642192+00:00",
-    "status": "draft",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -28930,7 +28930,12 @@
         "NBACup"
       ],
       "mentions": []
-    }
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-28T02:32:51.677785+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-28T02:32:51.677785+00:00",
+    "instagram_media_id": "18134201956765174"
   },
   {
     "id": "55533bea17d0a94422fa",
@@ -30514,5 +30519,23 @@
     "buffer_tiktok_status": "error",
     "buffer_tiktok_id": "6b0a369570e80ae8f1c4234f",
     "buffer_tiktok_error": "provider_failure"
+  },
+  {
+    "id": "cda4f04a51bf4157b2c3",
+    "title": "Colón dio el golpe en el Oeste y se clasificó a las semifinales del Reducido",
+    "source_url": "https://www.ole.com.ar/futbol-ascenso/colon-moron-semifinales-ascenso-primeranacional-reducido-cuartos_0_Twm5G6xkDW.html",
+    "source": "Olé Argentina",
+    "description": "El Sabalero se impuso ante Morón en un partido pesado y sigue con el sueño del ascenso intacto: se enfrentará a Tristán Suárez en las semifinales de la Primera Nacional.",
+    "published_at": "2026-11-28T02:26:09+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-28T02:32:51.677785+00:00",
+    "status": "awaiting_ai",
+    "article_context": "Agustín Toledo, el autor del solitario gol de la noche. (Foto @ColonOficial)\nColón no tenía a Morón como único rival. Jugaba también contra un estadio a reventar, contra los datos y contra la ventaja deportiva. Para algunos, podría ser un panorama hostil donde es preferible salir a defenderse. Para otros, los más osados y los que terminan venciendo, una invitación a dar el golpe . El Sabalero lo entendió así desde que entró al terreno del Nuevo Francisco Urbano; el Gallo se tiró atrás, apoyado en el empate que le servía y recién se puso a jugar cuando estaba en desventaja.\nAferrarse a un resultado puede ser un tiro que salga por la culata. La línea de 5 inicial que puso Walter Otta no le dio la solidez defensiva necesaria y, a su vez, hizo que los de arriba casi no pudieran ni embarrarse los botines. El plan no salió y los de Santa Fe facturaron: Ignacio Lago, que había tenido un primer tiempo discreto, se tiró a jugar por izquierda, empezó a bicicletear y se la puso en la cabeza a Toledo, que la mandó a guardar con un testazo certero .\nCon el resultado a favor, el 10 sabalero empezó a manejar los hilos a su gusto y se jugó al ritmo que Nacho quiso. Gambeteó, hizo jugar a sus compañeros, hizo amonestar a rivales y hasta paralizó corazones: se paró como CR7 y estrelló un tiro libre contra el palo . ¡Hasta los de Morón gritaron \"uhhh\"! Por cuestiones lógicas de juego, el Rojinegro se tiró atrás sobre el final.\nEl papel del local se circunscribió a tirar pelotazos al área para intentar rescatar el gol que les diera la clasificación. Pero el partido de los zagueros del conjunto de Delfino fue impoluto y sacaron hasta los teros que aparecieron en la cancha. Tomás Giménez tuvo poca acción, en parte por los tímidos ataques de sus adversarios, y también porque sus guardianes despejaron todo. Colón metió un triunfazo en el Oeste y tiene el sueño intacto de volver a la LPF después de su descenso en 2023. Va con la Santa Fe.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
