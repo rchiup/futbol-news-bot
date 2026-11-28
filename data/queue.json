@@ -32908,5 +32908,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "0954037754d279c1d782",
+    "title": "Lampard credits high-flying Leeds after 3-0 loss",
+    "source_url": "https://www.bbc.co.uk/sport/football/videos/cm36gj95y3kgo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Coventry City head coach Frank Lampard post match reaction to his sides disappointing loss to Leeds United that leaves them three points above the drop with the clubs below them still to play.",
+    "published_at": "2026-11-28T17:45:10+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-28T17:48:01.219990+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
