@@ -15102,5 +15102,21 @@
     "source": "www.espn.com - SOCCER",
     "collected_at": "2026-11-28T04:06:53.551499+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "aa7229e51f2c6c03ecbc239bbbcf0f6187605891257eaa0fcce243289548f3d6",
+    "title": "The USWNT are going to the World Cup. Now the real work begins",
+    "url": "https://www.espn.com/soccer/story/_/id/50618473/uswnt-qualify-womens-world-cup",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-28T04:44:33.462454+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "498862c25c38ebfaf436f5a8d4ee7c12e6bb7c05a8f39147b357552a2fa52a0f",
+    "title": "Italy advances to Davis Cup final with win over Czech Republic",
+    "url": "https://www.espn.com/tennis/story/_/id/50618699/italy-advances-davis-cup-final-win-czech-republic",
+    "source": "www.espn.com - TENNIS",
+    "collected_at": "2026-11-28T04:44:34.747380+00:00",
+    "status": "pending_review"
   }
 ]
