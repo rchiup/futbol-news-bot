@@ -1,22 +1,22 @@
 {
-  "checked_at_utc": "2026-11-28T00:16:06.635380+00:00",
+  "checked_at_utc": "2026-11-28T00:23:42.380761+00:00",
   "local_hour": 21,
   "statuses": {
-    "published": 229,
+    "published": 230,
     "draft": 14,
-    "awaiting_ai": 76,
+    "awaiting_ai": 75,
     "needs_review": 181,
     "publish_error": 27,
-    "duplicate": 70
+    "duplicate": 71
   },
-  "fresh_candidates": 158,
-  "queued_new": 0,
+  "fresh_candidates": 156,
+  "queued_new": 1,
   "ai_generated": 7,
   "preview_images": 5,
-  "published": 0,
-  "duplicates_suppressed": 2,
+  "published": 1,
+  "duplicates_suppressed": 1,
   "no_photo_deferred": 0,
-  "total_queue": 812,
+  "total_queue": 813,
   "per_run_cap": 3,
   "morning_day_cap": 72,
   "auto_publish_enabled": true,
@@ -35,55 +35,55 @@
   ],
   "free_llm_metrics": {
     "date_utc": "2026-11-28",
-    "last_success": "openrouter",
+    "last_success": "gemini",
     "providers": {
       "groq": {
-        "attempts": 3,
-        "success": 0,
-        "failures": 3,
-        "avg_latency_ms": null,
-        "avg_readability": null,
+        "attempts": 5,
+        "success": 1,
+        "failures": 4,
+        "avg_latency_ms": 1584,
+        "avg_readability": 100.0,
         "last_error": "http_429"
       },
       "gemini": {
-        "attempts": 9,
-        "success": 6,
+        "attempts": 14,
+        "success": 11,
         "failures": 3,
-        "avg_latency_ms": 3427,
+        "avg_latency_ms": 2726,
         "avg_readability": 100.0,
         "last_error": "http_503"
       },
       "openrouter": {
-        "attempts": 14,
-        "success": 10,
-        "failures": 4,
-        "avg_latency_ms": 30107,
-        "avg_readability": 97.0,
+        "attempts": 16,
+        "success": 11,
+        "failures": 5,
+        "avg_latency_ms": 30813,
+        "avg_readability": 97.3,
         "last_error": "invalid_output"
       },
       "cloudflare": {
-        "attempts": 4,
+        "attempts": 5,
         "success": 0,
-        "failures": 4,
+        "failures": 5,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "invalid_output"
       },
       "nvidia": {
-        "attempts": 1,
+        "attempts": 2,
         "success": 0,
-        "failures": 1,
+        "failures": 2,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "http_410"
       },
       "zai": {
-        "attempts": 4,
+        "attempts": 5,
         "success": 1,
-        "failures": 3,
+        "failures": 4,
         "avg_latency_ms": 33034,
         "avg_readability": 100.0,
-        "last_error": "invalid_output"
+        "last_error": "timeout"
       }
     }
   }

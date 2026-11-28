@@ -2,17 +2,21 @@
   "date_utc": "2026-11-28",
   "providers": {
     "groq": {
-      "attempts": 3,
-      "success": 0,
-      "failures": 3,
-      "latencies_ms": [],
-      "quality": [],
+      "attempts": 5,
+      "success": 1,
+      "failures": 4,
+      "latencies_ms": [
+        1584
+      ],
+      "quality": [
+        100
+      ],
       "last_error": "http_429",
-      "blocked_until_utc": 1795825558
+      "blocked_until_utc": 1795826457
     },
     "gemini": {
-      "attempts": 9,
-      "success": 6,
+      "attempts": 14,
+      "success": 11,
       "failures": 3,
       "latencies_ms": [
         1115,
@@ -20,9 +24,19 @@
         5508,
         4628,
         4424,
-        2711
+        2711,
+        740,
+        2876,
+        922,
+        1341,
+        3539
       ],
       "quality": [
+        100,
+        100,
+        100,
+        100,
+        100,
         100,
         100,
         100,
@@ -34,9 +48,9 @@
       "blocked_until_utc": 1795825565
     },
     "openrouter": {
-      "attempts": 14,
-      "success": 10,
-      "failures": 4,
+      "attempts": 16,
+      "success": 11,
+      "failures": 5,
       "latencies_ms": [
         24660,
         11530,
@@ -47,7 +61,8 @@
         4441,
         34242,
         29725,
-        23872
+        23872,
+        37878
       ],
       "quality": [
         100,
@@ -59,39 +74,40 @@
         100,
         85,
         85,
+        100,
         100
       ],
       "last_error": "invalid_output"
     },
     "cloudflare": {
-      "attempts": 4,
+      "attempts": 5,
       "success": 0,
-      "failures": 4,
+      "failures": 5,
       "latencies_ms": [],
       "quality": [],
       "last_error": "invalid_output"
     },
     "nvidia": {
-      "attempts": 1,
+      "attempts": 2,
       "success": 0,
-      "failures": 1,
+      "failures": 2,
       "latencies_ms": [],
       "quality": [],
       "last_error": "http_410",
-      "blocked_until_utc": 1795825248
+      "blocked_until_utc": 1795826744
     },
     "zai": {
-      "attempts": 4,
+      "attempts": 5,
       "success": 1,
-      "failures": 3,
+      "failures": 4,
       "latencies_ms": [
         33034
       ],
       "quality": [
         100
       ],
-      "last_error": "invalid_output"
+      "last_error": "timeout"
     }
   },
-  "last_success": "openrouter"
+  "last_success": "gemini"
 }

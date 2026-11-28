@@ -28214,11 +28214,37 @@
     "sport": "FUTBOL",
     "score": 34,
     "queued_at": "2026-11-27T19:29:05.749141+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Arsenal"
+      ],
+      "competicion": [
+        "Premier League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Arsenal y Manchester City se enfrentan bajo la sombra de las sanciones",
+    "caption": "El duelo entre Arsenal y Manchester City pierde protagonismo tras el veredicto de culpabilidad contra el equipo de Guardiola. El encuentro de este domingo llega marcado por la incertidumbre sobre el futuro de los ciudadanos en la Premier League.",
+    "ai_generated_at": "2026-11-28T00:23:42.380761+00:00",
+    "photo_checked_at": "2026-11-28T00:32:02.313404+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "Arsenal",
+        "PremierLeague"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "dca3bfea22e569f6050b",
@@ -28521,11 +28547,12 @@
       ],
       "ciudad": []
     },
-    "llm_provider": "openrouter",
-    "llm_model": "openrouter/free",
-    "headline": "La Fórmula 1 cerró 11 horas el paddock de Qatar",
-    "caption": "La FIA cerró 11 horas el paddock y el centro de prensa de Lusail para una inspección de seguridad. La medida coincidió con la tensión en Medio Oriente y la ausencia de varias cadenas europeas. El Gran Premio de Qatar sigue en el calendario.",
-    "ai_generated_at": "2026-11-28T00:16:06.635380+00:00"
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Gran Premio de Qatar se desarrolla bajo estrictas medidas de seguridad",
+    "caption": "La Fórmula 1 enfrenta la penúltima fecha del año con protocolos especiales ante la inestabilidad en Medio Oriente. La FIA restringió el acceso al paddock y se difundieron planes de emergencia para el personal ante posibles ataques, aunque los organizadores locales calificaron las medidas como parte de la planificación habitual.",
+    "ai_generated_at": "2026-11-28T00:23:42.380761+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "13ec7269b929762f7f0e",
@@ -28794,11 +28821,12 @@
       "competicion": [],
       "ciudad": []
     },
-    "llm_provider": "openrouter",
-    "llm_model": "openrouter/free",
-    "headline": "Medina confirma a Muslera titular y niega presión en la final de Libertadores",
-    "caption": "Alexander Medina aseguró que Fernando Muslera será titular ante Palmeiras este sábado en el Centenario y restó presión al duelo. El técnico y el capitán Guido Carrillo pidieron disfrutar el momento, recordando la primera copa de 1968 en el mismo estadio. Estudiantes busca su quinta estrella continental.",
-    "ai_generated_at": "2026-11-28T00:16:06.635380+00:00"
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Alexander Medina y Guido Carrillo palpitan la final de la Libertadores",
+    "caption": "El entrenador y el capitán de Estudiantes destacaron la importancia del duelo ante Palmeiras este sábado en Montevideo. El equipo argentino busca su quinta corona continental en el estadio Centenario, escenario donde conquistaron su primer título en 1968.",
+    "ai_generated_at": "2026-11-28T00:23:42.380761+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "971514f4898bd1c6cb52",
@@ -29041,13 +29069,16 @@
         "Mónaco"
       ],
       "competicion": [],
-      "ciudad": []
+      "ciudad": [
+        "Mónaco"
+      ]
     },
-    "llm_provider": "openrouter",
-    "llm_model": "openrouter/free",
-    "headline": "Ansu Fati lanza 'Imagínate', su segundo single, aún de baja en Mónaco",
-    "caption": "Ansu Fati, formado en Barcelona y hoy en Mónaco, estrenó 'Imagínate', su segundo single tras 'Sea Como Sea'. La canción mezcla ritmos latinos y afrobeats y gira en torno a la superación personal. El delantero no juega desde octubre por una lesión muscular y trabaja para volver a las canchas.",
-    "ai_generated_at": "2026-11-28T00:16:06.635380+00:00"
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Ansu Fati lanza su segundo single \"Imagínate\"",
+    "caption": "El delantero del Mónaco, Ansu Fati, estrena la canción \"Imagínate\", su segundo single disponible en todas las plataformas. Después del éxito de \"Sea Como Sea\", que superó el millón de reproducciones, Fati usa la música para superar la lesión muscular que lo mantiene fuera de la cancha.",
+    "ai_generated_at": "2026-11-28T00:23:42.380761+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "e434eedc4fd924e87af4",
@@ -29542,7 +29573,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-27T23:22:52.551424+00:00",
-    "status": "draft",
+    "status": "published",
     "article_context": "El últomo fin de semana de noviembre tendrá a los futboleros prendidos a la TV, con una agenda cargada con acción en todos lados. Entre la definición de los cuartos de final del Torneo Clausura de la Liga Profesional, el cruce decisivo de Copa Libertadores , el ascenso argentino y lo mejor de las ligas europeas, hay fútbol para hacer zapping.\nEl sábado 28 la tarde promete emociones fuertes con el juego que sostendrán Palmeiras y Estudiantes de La Plata , en busca de nada más y nada menos que un campeón de la Copa Libertadores . En tanto, ya en horas de la noche darán inicio los cuartos de final de la Liga Profesional con dos cruces picantes : Vélez vs. Independiente e Instituto vs. River. También habrá acción de Primera Nacional y en Europa partidos interesantes de LaLiga, Premier League y Serie A.\nEl domingo 29 el foco vuelve a posarse sobre los cuartos de final del Clausura con Rosario Central - Barracas Central y el plato fuerte del día con Boca recibiendo a Gimnasia en La Bombonera. A eso se suman partidazos europeos como Arsenal vs. Manchester City o Everton vs. Liverpool, sumado a definiciones en el ascenso argentino.\n17:00 — Palmeiras vs. Estudiantes de La Plata (Disney+ / Telefe / Fox Sports)\n20:00 — Vélez Sarsfield vs. Independiente (TNT Sports)\n22:00 — Instituto vs. River Plate (ESPN Premium)\n20:00 — Deportivo Madryn vs. Gimnasia de Jujuy (LPF Play)\n10:00 — Real Betis vs. Rayo Vallecano (ESPN / Disney+)\n12:15 — Málaga CF vs. Athletic Club (Disney+)\n14:30 — Elche CF vs. Atlético de Madrid (Disney+)\n17:00 — Real Madrid vs. Alavés (ESPN / Disney+)\n12:00 — Manchester United vs. Brentford (ESPN / Disney+)\n12:00 — Leeds United vs. Coventry (ESPN / Disney+)\n14:30 — Ipswich vs. Aston Villa (ESPN / Disney+)\n16:45 — Inter Milan vs. Genoa (ESPN / Disney+)\n17:00 — Rosario Central vs. Barracas Central (ESPN Premium)\n20:30 — Boca Juniors vs. Gimnasia y Esgrima La Plata (TNT Sports)\n17:00 — Camioneros vs. Talleres RE (LPF Play)\n17:00 — Deportivo Armenio vs. Arsenal de Sarandí (LPF Play)\n17:00 — Cipolletti vs. Sarmiento de La Banda (LPF Play)\n12:15 — RC Deportivo vs. FC Barcelona (Disney+)\n14:30 — Celta de Vigo vs. Villarreal CF (Disney+)\n17:00 — Real Sociedad vs. Sevilla FC (ESPN / Disney+)\n09:00 — Everton vs. Liverpool (ESPN / Disney+)\n11:05 — Sunderland vs. Tottenham (ESPN / Disney+)\n11:05 — Crystal Palace vs. Hull City (ESPN / Disney+)\n11:05 — Brighton vs. Newcastle United (ESPN / Disney+)\n13:30 — Arsenal vs. Manchester City (ESPN / Disney+)\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "visual_entities": {
       "personas": [],
@@ -29559,7 +29590,7 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false,
-    "photo_checked_at": "2026-11-27T23:26:32.061639+00:00",
+    "photo_checked_at": "2026-11-28T00:31:35.276328+00:00",
     "video_style": "tiktok",
     "video_hook_variant": "fact_hook",
     "reel_quality": {
@@ -29570,7 +29601,19 @@
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795821996/football-news-bot/reels/8c5488fc0e5213acbef0-cross.mp4",
     "crosspost_attempt_at": "2026-11-27T23:25:25.879398+00:00",
     "youtube_attempt_at": "2026-11-27T23:25:25.879398+00:00",
-    "buffer_youtube_status": "check_required"
+    "buffer_youtube_status": "check_required",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol"
+      ],
+      "mentions": []
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-28T00:23:42.380761+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-28T00:23:42.380761+00:00",
+    "instagram_media_id": "18134138468477388"
   },
   {
     "id": "677ef47c073b7a8e6c34",
@@ -29591,23 +29634,18 @@
     "visual_subject": "Guido Carrillo",
     "visual_entities": {
       "personas": [
-        "Guido Carrillo",
-        "Mbappé",
-        "Falcao"
+        "Guido Carrillo"
       ],
-      "clubes": [
-        "Boca",
-        "River",
-        "Estudiantes"
-      ],
+      "clubes": [],
       "competicion": [],
       "ciudad": []
     },
-    "llm_provider": "openrouter",
-    "llm_model": "openrouter/free",
-    "headline": "Guido Carrillo prioriza sentimiento tras rechazar ofertas de Boca y River",
-    "caption": "['Guido Carrillo rechazó ofertas de Boca y River para priorizar el sentimiento', 'Retornó a Argentina después de compartir vestuario con Mbappé y Falcao']",
-    "ai_generated_at": "2026-11-28T00:16:06.635380+00:00"
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Guido Carrillo rechazó a Boca y River para volver a Estudiantes",
+    "caption": "El delantero priorizó su sentimiento por el club platense sobre las ofertas de los grandes de Argentina. Tras su paso por el fútbol europeo donde compartió equipo con Mbappé y Falcao, el atacante busca un nuevo título con la camiseta pincharrata.",
+    "ai_generated_at": "2026-11-28T00:23:42.380761+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "484f6f75cffde795a6ce",
@@ -29629,15 +29667,52 @@
     "visual_entities": {
       "personas": [],
       "clubes": [],
-      "competicion": [
-        "Clausura"
-      ],
+      "competicion": [],
       "ciudad": []
     },
-    "llm_provider": "zai",
-    "llm_model": "glm-4.5-flash",
-    "headline": "Empiezan cuartos del Clausura con ventaja clave para la mitad de equipos",
-    "caption": "Este sábado arranca la segunda ronda de playoffs donde la mitad de los equipos cuenta con una ventaja determinante tras los octavos. Esta tendencia marcó los cruces anteriores y podría definir el camino hacia el título del torneo.",
-    "ai_generated_at": "2026-11-28T00:16:06.635380+00:00"
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Cuartos de final del Clausura inician con una ventaja clave",
+    "caption": "Los cuartos de final del torneo Clausura comienzan este sábado con una tendencia marcada tras los octavos. La mitad de los equipos clasificados llega con una ventaja estratégica que resultó determinante en la fase anterior de los playoffs.",
+    "ai_generated_at": "2026-11-28T00:23:42.380761+00:00",
+    "editorial_rechecked": true
+  },
+  {
+    "id": "e28274f793370dc02908",
+    "title": "Camino a la Gloria: River, Instituto y un mano a mano de alta tensión futbolística",
+    "source_url": "https://www.ole.com.ar/river-plate/river-instituto-leoponzio-diegoflores-tobiasandrada_0_7rNMltSD9b.html",
+    "source": "Olé Argentina",
+    "description": "El elenco de Leo Ponzio visita Córdoba por los cuartos de final del torneo ante un rival entonado que llena su cancha para dar el gran golpe del campeonato.",
+    "published_at": "2026-11-28T00:16:31+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-28T00:23:42.380761+00:00",
+    "status": "duplicate",
+    "article_context": "Diego Flores y Leo Ponzio estarán cara a cara.\nEl camino los reunió. Al River obligado, presionado por el contexto , y al Instituto que fue Cenicienta y ahora juega por la hazaña de eliminar al gigante para, así, avanzar a semifinales . ¿Por qué no soñar en un año en el que Córdoba ya gritó campeón?\nEl sendero los unió. Van ambos por la gloria. Uno la necesita como el agua: el equipo de Leo Ponzio , ese León que mostró los dientes y aseguró que siente que se “ganó el lugar” pese a su interinato, aspira a que una vuelta oficie como una especie de control de daños. Que corrija el rumbo.\nQue le permita llegar a otra final para ganarla y así romper el círculo vicioso en el que parece haber quedado atrapado hace un tiempo. Para eso deberá refrendar en Alta Córdoba que tiene el pedigrí de candidato , que toda la inversión monumental que hizo en la génesis del segundo semestre está a la altura de soportar el peso de la coyuntura y ganar. Lo más difícil en el fútbol.\nInstituto no tiene más obligación que la que le impone su propia ilusión: haber hecho una fase regular del Clausura excelente generó orgullo pero también hambre. Por eso, Diego Flores atizó el fuego , tocó la fibra íntima de los suyos, avisando que ni los nombres ni todos los billetes que puso River para vigorizarse en la segunda parte del año “no intimidan” a un cuadro que desde el silencio y el buen juego rompió la barrera lo proyectado. Y sacó a Huracán. Y ahora desea repetir. Ir por más.\nY ahí se transforma en una falacia que Instituto no tiene nada que perder . ¿O acaso esa ilusión que promovió un recibimiento top en Córdoba no tiene su valor? Claro que tendrá por qué jugar. Y contará con esa inyección para imponerse ante un rival de otra escala presupuestaria. Que, en términos comparativos, sí puede llegar a sufrir más las consecuencias que el IACC en caso de un tropiezo.\nPero River demostró ante Lanús que guarda entereza: pasó inadvertido pero pudo recomponerse del 1-1 parcial y ganar . Algo que no suele ocurrirle con tanta frecuencia. ¿Señal de madurez? Por lo pronto, que Thiago Almada se haya destapado justo en los octavos de final , con poco descanso encima pero con un deseo irrefrenable de romperla en Núñez, es un indicio que genera expectativa.\nComo así también el nivel de Santiago Espíndola, que saltó a la cancha y en dos partidos dio señales de que puede bancarse el medio junto a Tobías Andrada. Y si Nico Otamendi saca a la cancha la chapa, y si Gonzalo Montiel vuelve descansado tras la suspensión y mantiene su peso ofensivo, y si Lucas Beltrán sigue siendo un 9 utilitario para que con su laburo sucio se luzca Ángel Correa... Si todo eso fluye, ¿por qué no pensar que Ponzio puede dar otro paso y seguir engrosando su estadística impactante ?\nPor lo pronto, esta noche habrá duelo entre dos de los equipos que más atacan , los que más vértigo generan, de los que más patean. De los que más buscan el arco de enfrente. De los que más proponen, sin escatimar riesgos en pos de mostrarse efectivos. Es por eso que se abre tanto el abanico de probabilidades para este escalón del caminito que lleva a la final. Ninguno especulará. Ninguno bajará la tensión. Difícilmente cedan el protagonismo.\nPorque saben que se juegan mucho. Porque entienden que desean seguir su camino a la Gloria.\nEl rojo y blanco copará Córdoba desde muy temprano. A partir de las 10 de este sábado, los hinchas de River se reunirán frente al hotel Quinto Centenario para recibir al equipo de Leonardo Ponzio, que estará arribando para la hora del almuerzo. Como en cada visita a La Docta, se esperan miles de personas , con bengalas y cotillón para otra fiesta que se empezó a organizar en redes sociales. Aunque de ambas partes habrá muchísimo color y cotillón.\nEsta vez, la ocupación hotelera en Córdoba alteró la rutina del plantel: River viajará el mismo día del partido y llegará al hotel al mediodía. El banderazo será la oportunidad de alentar a la Banda antes de los cuartos de final del Clausura, que se jugarán desde las 22 sin público visitante .\nEn el Monumental Presidente Perón habrá tribunas repletas teñidas de rojo y blanco, aunque ahí el aliento será para la Gloria. Instituto eligió quedarse en Alta Córdoba , pese a que una mudanza al Mario Alberto Kempes le habría permitido vender entradas para los visitantes, y la respuesta de sus hinchas se sintió en la venta de entradas: la Preferencial Klimowicz y la Platea Alta Kempes se agotaron en pocas horas .\nCon el Día del Club y la cuota de noviembre al día, los socios mayores debían pagar $65.000 en cualquier sector. Los menores de hasta 11 años tenían acceso gratis a las populares y pagaban $20.000 en la platea. Hubo entradas para acompañantes no socios de entre $100.000 y $150.000 . El club anticipó el marco con un video y una consigna: “Jugamos todos”.\nDiego Flores tiene motivos para defender la localía que se ganó en la fase regular: Instituto está invicto en su cancha en este Clausura , con siete triunfos y un empate, el 2-2 frente a Newell’s. River, por su parte, lleva seis visitas oficiales al estadio de Alta Córdoba sin derrotas .\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "Leo Ponzio",
+    "visual_entities": {
+      "personas": [
+        "Leo Ponzio"
+      ],
+      "clubes": [
+        "River",
+        "Instituto"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Córdoba"
+      ]
+    },
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "River visita a Instituto por cuartos de final sin público visitante",
+    "caption": "River visita a Instituto este sábado por los cuartos de final del Clausura en Alta Córdoba. Instituto no pierde en casa en este torneo y River suma seis visitas sin derrotas al estadio cordobés. El partido se jugará sin público visitante y el plantel de River llegará al hotel Quinto Centenario al mediodía.",
+    "ai_generated_at": "2026-11-28T00:23:42.380761+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "duplicate_of": "same_story_as:4aff1444a2492fe2478f"
   }
 ]
