@@ -1,13 +1,5 @@
 [
   {
-    "id": "56a76a057fcc6d9987ac2fb46d7da47325056b88ea206afe0c4e0b1e74e39e93",
-    "title": "Manchester City’s WSL title bid hit by Spurs after Vinberg and Naz’s late double",
-    "url": "https://www.theguardian.com/football/2026/nov/22/manchester-city-tottenham-wsl-match-report",
-    "source": "Football | The Guardian",
-    "collected_at": "2026-11-23T00:38:54.044163+00:00",
-    "status": "pending_review"
-  },
-  {
     "id": "b452ec5ccb41b57f50df583d247121e053653259d3e1685a4525de877e3379a0",
     "title": "European football: Barcelona roar back from two goals down to sink Villarreal",
     "url": "https://www.theguardian.com/football/2026/nov/22/european-football-barcelona-villarreal-juventus-milan-inter",
@@ -15997,6 +15989,14 @@
     "url": "https://www.ole.com.ar/futbol-internacional/espana/julian-alvarez-atletico-madrid-gol-liga-espana_0_NkeX6zt1pG.html",
     "source": "www.ole.com.ar - Home",
     "collected_at": "2026-11-28T18:54:40.169584+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "5f45b317119a8a257c9bc376ac4098b04d007e9748f2fb187456d8c25128181a",
+    "title": "From jeers to European dreams - how Farke transformed Leeds",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c60rk07wp22vo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-28T18:56:18.993508+00:00",
     "status": "pending_review"
   }
 ]

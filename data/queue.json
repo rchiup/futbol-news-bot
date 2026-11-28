@@ -33010,5 +33010,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "5f45b317119a8a257c9b",
+    "title": "From jeers to European dreams - how Farke transformed Leeds",
+    "source_url": "https://www.bbc.co.uk/sport/football/articles/c60rk07wp22vo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Leeds United fans are starting to dream of Europe after climbing to sixth in the Premier League - but what is behind the Whites' rise under boss Daniel Farke?",
+    "published_at": "2026-11-28T18:51:44+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-28T18:56:23.471724+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
