@@ -31294,5 +31294,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "679f7caa8a76461d8c4a",
+    "title": "Manchester United v Brentford buildup, Premier League news and more – matchday live",
+    "source_url": "https://www.theguardian.com/football/live/2026/nov/28/manchester-united-v-brentford-buildup-premier-league-news-and-more-matchday-live",
+    "source": "The Guardian",
+    "description": "Latest team news, Premier League buildup and more Get in touch: email the matchday live team Here’s our report on last night’s Nottingham Forest 3-2 Chelsea. Chelsea conceded two penalties in the whole of last season, nobody conceded fewer; the one that led to Forest’s second goal last was already the third of this campaign, and nobody has conceded more. Hello world! Another weekend dawns, and a Saturday with only three Premier League games, and none of the top five in action, but with plenty elsewhere to keep us occupied. We’ll also be looking",
+    "published_at": "2026-11-28T08:21:24+00:00",
+    "category": "PARTIDOS",
+    "sport": "FUTBOL",
+    "score": 34,
+    "queued_at": "2026-11-28T08:31:18.043626+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
