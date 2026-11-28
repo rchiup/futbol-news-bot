@@ -144,6 +144,16 @@ def same_story(candidate: dict, existing: dict, reference: datetime | None = Non
     first, second = story_time(candidate), story_time(existing)
     if first and second and abs((first - second).total_seconds()) > COOLDOWN_HOURS * 3600:
         return False
+    # A completed elimination is distinct from a pre-match preview or a testimonial.
+    # Keep ordinary deduplication for other reports of the same elimination.
+    def mls_elimination(item):
+        t = norm(" ".join(str(item.get(k) or "") for k in ("title","headline","description")))
+        return ("columbus" in t and "miami" in t and any(w in t for w in ("eliminad","elimination","ousted","knocked out","eliminacion")))
+    def clearly_other_event(item):
+        t = norm(" ".join(str(item.get(k) or "") for k in ("title","headline")))
+        return ("tevez" in t and any(w in t for w in ("despedida","testimonial","homenaje"))) or ("columbus" in t and "miami" in t and any(w in t for w in ("en vivo","live","arranco","previa","preview","busca victoria")))
+    if (mls_elimination(candidate) and clearly_other_event(existing) and not mls_elimination(existing)) or (mls_elimination(existing) and clearly_other_event(candidate) and not mls_elimination(candidate)):
+        return False
     # Checked before the sport guard: general feeds (e.g. Olé) tag tennis news as FUTBOL.
     if shared_protagonist(candidate, existing):
         return True
