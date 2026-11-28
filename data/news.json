@@ -15158,5 +15158,13 @@
     "source": "www.espn.com - NBA",
     "collected_at": "2026-11-28T06:02:24.494432+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "62f919b2ee85f773fc264a6dc9ac3ed5d7503cadf5bcae4ab0b26bbf0c9e3da0",
+    "title": "How a football team rebuilt after 19 players died in plane crash",
+    "url": "https://www.bbc.co.uk/sport/football/articles/ck0ev91zlwgpo?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-28T06:41:20.098191+00:00",
+    "status": "pending_review"
   }
 ]
