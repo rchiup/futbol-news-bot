@@ -776,6 +776,26 @@ def run(reference: datetime | None = None, session=None) -> dict:
                     print("[BREAKING] Verified Messi elimination; queued for all networks")
             except (requests.RequestException,ValueError,KeyError,TypeError) as exc:
                 print("[BREAKING] MLS result not verified: "+type(exc).__name__)
+    # Recover a verified breaking story held by the former protagonist-only dedupe.
+    if session is None:
+        manual = next((x for x in queue if x.get("id")==requested_mls.ID), None)
+        if manual and manual.get("status")=="duplicate" and manual.get("duplicate_of")=="same_story_as:7b38d568650da0e8d2dc" and not any(manual.get(k) for k in ("instagram_media_id","buffer_youtube_status","zernio_youtube_status","buffer_tiktok_status","zernio_tiktok_status")):
+            try:
+                verified = requested_mls.verified_story(reference)
+                if verified:
+                    original_date = manual.get("published_at")
+                    manual.update(verified)
+                    if original_date:
+                        manual["published_at"] = original_date
+                    manual.pop("duplicate_of", None)
+                    save_queue(queue)
+                    print("[BREAKING] Recovered verified Messi elimination from false duplicate")
+                else:
+                    print("[BREAKING] Recovery awaits completed MLS verification")
+            except (requests.RequestException, ValueError, KeyError, TypeError) as exc:
+                print("[BREAKING] Recovery verification failed: "+type(exc).__name__)
+        if manual:
+            print("[BREAKING] Messi state: "+str({k:v for k,v in manual.items() if k in ("id","status","duplicate_of","quality_hold","instagram_media_id") or k.endswith(("_status","_error","_attempt_at"))}))
     publish_cooldowns.configure(queue)
     if session is None and os.getenv("ENABLE_PUBLISH", "").lower()=="true":
         import zernio_publish
