@@ -126,9 +126,9 @@
       "last_error": "invalid_output"
     },
     "cloudflare": {
-      "attempts": 56,
+      "attempts": 59,
       "success": 15,
-      "failures": 41,
+      "failures": 44,
       "latencies_ms": [
         2310,
         1829,
@@ -166,13 +166,13 @@
       "last_error": "invalid_output"
     },
     "nvidia": {
-      "attempts": 6,
+      "attempts": 7,
       "success": 0,
-      "failures": 6,
+      "failures": 7,
       "latencies_ms": [],
       "quality": [],
       "last_error": "http_410",
-      "blocked_until_utc": 1795831064
+      "blocked_until_utc": 1795832103
     },
     "zai": {
       "attempts": 40,

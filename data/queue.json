@@ -28670,7 +28670,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-28T01:35:54.768646+00:00"
+    "photo_checked_at": "2026-11-28T02:01:10.071968+00:00"
   },
   {
     "id": "f98c0948e06497abfddc",
@@ -28899,7 +28899,7 @@
     "headline": "Austin Reaves vuelve a jugar con Lakers ante San Antonio Spurs",
     "caption": "Austin Reaves está disponible para el partido de esta noche ante los Spurs por la NBA Cup. El escolta regresa tras perderse los últimos cinco encuentros debido a una contusión en el talón.",
     "ai_generated_at": "2026-11-28T00:08:00.318924+00:00",
-    "photo_checked_at": "2026-11-28T01:35:52.181543+00:00",
+    "photo_checked_at": "2026-11-28T02:01:02.682086+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -30141,7 +30141,7 @@
     "headline": "Nico Paz prioriza fichar por Manchester United sobre volver al Madrid",
     "caption": "El volante argentino tiene la intención de continuar su carrera en la Premier League. El jugador busca consolidarse en Inglaterra y descarta un retorno inmediato al club español.",
     "ai_generated_at": "2026-11-28T00:33:26.745384+00:00",
-    "photo_checked_at": "2026-11-28T01:35:49.981996+00:00",
+    "photo_checked_at": "2026-11-28T02:00:34.906382+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -30268,8 +30268,10 @@
     "posted_at": "2026-11-28T00:23:42.380761+00:00",
     "instagram_media_id": "18134138468477388",
     "tiktok_attempt_at": "2026-11-28T01:28:19.166115+00:00",
-    "buffer_tiktok_status": "sending",
-    "buffer_tiktok_id": "6b0a2edd23fb5b77000bb8ee"
+    "buffer_tiktok_status": "sent",
+    "buffer_tiktok_id": "6b0a2edd23fb5b77000bb8ee",
+    "buffer_tiktok_checked_at": "2026-11-28T01:58:56.123480+00:00",
+    "buffer_tiktok_url": "https://tiktok.com/@chaofelicevich/video/7713028851709889800"
   },
   {
     "id": "677ef47c073b7a8e6c34",
@@ -30382,7 +30384,7 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-28T01:32:52.323922+00:00",
-    "status": "draft",
+    "status": "published",
     "article_context": "Inter Miami cayó por 3-0 el primer partido de la serie frente a Columbus Crew. Pero tiene a Lionel Messi. Y con la presencia del mejor jugador del mundo le basta y sobra para soñar que este no será el último partido del año. El equipo de la Florida va por un triunfo que lo mantenga con vida en los playoffs de la MLS. Seguilo en Olé.\nInter Miami se prepara para un partido sin mañana. Si pierde o empata, queda eliminado de la MLS.\nFinal preparations before the whistle. 😤 pic.twitter.com/kAoP10RVMP\nSt. Clair; Caicedo, Casemiro, Silva, Fray; De Paul, Segovia, Galarza; Messi, Riquelme y Berterame.\nInter Miami afrontará un compromiso determinante para su continuidad en los playoffs. El equipo dirigido por el Kily González viene de recibir un duro golpe en el primer encuentro, en el que perdió 3-0 como local y quedó obligado a ganar en Ohio para evitar la eliminación.\nLa derrota dejó en evidencia algunos problemas defensivos de Las Garzas, que no pudieron contener los ataques de su rival. Además, la expulsión de Gonzalo Luján condicionó el desarrollo del encuentro y el futbolista no estará disponible para la revancha por suspensión.\nAhora, con Lionel Messi como principal referencia, el conjunto de Florida intentará cambiar la imagen y conseguir un resultado que le permita seguir soñando con el bicampeonato. También será importante el aporte de Rodrigo De Paul, Luis Suárez y Germán Berterame en el frente ofensivo.\nEl árbitro designado para dirigir el encuentro entre Columbus Crew e Inter Miami será Drew Fischer.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "visual_subject": "",
     "visual_entities": {
@@ -30415,7 +30417,12 @@
         "ColumbusCrew"
       ],
       "mentions": []
-    }
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-28T01:58:56.123480+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-28T01:58:56.123480+00:00",
+    "instagram_media_id": "18112367831106249"
   },
   {
     "id": "31f39520d31c02b4899b",
