@@ -31764,7 +31764,7 @@
     "headline": "Los Spurs vencen a los Lakers 99-96 y avanzan",
     "caption": "Los Spurs superaron un déficit de 20 puntos y vencieron 99-96 a los Lakers en el Frost Bank Center, asegurando su pase a los cuartos de final del NBA Cup y recuperando el primer puesto de la Conferencia Oeste. Victor Wembanyama anotó 25 puntos y 16 rebotes, mientras Stephon Castle aportó 26 puntos y nueve asistencias.",
     "ai_generated_at": "2026-11-28T15:47:17.068540+00:00",
-    "photo_checked_at": "2026-11-28T15:48:14.223451+00:00",
+    "photo_checked_at": "2026-11-28T15:58:49.901491+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -31779,7 +31779,19 @@
     "format_attempt_at": "2026-11-28T15:47:17.068540+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-28T15:47:17.068540+00:00",
-    "instagram_media_id": "18124523122985887"
+    "instagram_media_id": "18124523122985887",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 22.4,
+      "mean_db": -19.6
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795881543/football-news-bot/reels/9b036c30a1916fb4e2e4-cross.mp4",
+    "crosspost_attempt_at": "2026-11-28T15:58:04.218658+00:00",
+    "tiktok_attempt_at": "2026-11-28T15:58:04.218658+00:00",
+    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_id": "6b0afa496d4459a26791bb0b"
   },
   {
     "id": "84d2c87dc7c244eb286f",
