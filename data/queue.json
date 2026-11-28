@@ -16,7 +16,7 @@
     "posted_at": "2026-11-23T02:28:07.513251+00:00",
     "instagram_media_id": "18126608645298781",
     "provider_cooldowns": {
-      "zernio": "2026-11-28T13:53:51.475695+00:00",
+      "zernio": "2026-11-28T14:54:38.564282+00:00",
       "buffer": "2026-11-28T00:37:52.238229+00:00"
     }
   },
@@ -31377,7 +31377,7 @@
     "headline": "Verón podría ser el primer campeón de la Libertadores como jugador‑presidente",
     "caption": "Juan Sebastián Verón, presidente de Estudiantes, está a un paso de lograr lo imposible: levantar la Copa Libertadores tanto como capitán en 2009 como dirigente del club. Si lo consigue, será el único en la historia del fútbol sudamericano en combinar ambos títulos, reforzando su legado en La Plata.",
     "ai_generated_at": "2026-11-28T14:21:21.583253+00:00",
-    "photo_checked_at": "2026-11-28T14:22:15.255046+00:00",
+    "photo_checked_at": "2026-11-28T14:24:40.165544+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -31390,7 +31390,19 @@
     "format_attempt_at": "2026-11-28T14:21:21.583253+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-28T14:21:21.583253+00:00",
-    "instagram_media_id": "18349789777250909"
+    "instagram_media_id": "18349789777250909",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 19.9,
+      "mean_db": -19.4
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795875897/football-news-bot/reels/cfe48fdd0dfb16380464-cross.mp4",
+    "crosspost_attempt_at": "2026-11-28T14:23:51.997132+00:00",
+    "tiktok_attempt_at": "2026-11-28T14:23:51.997132+00:00",
+    "buffer_tiktok_status": "sending",
+    "buffer_tiktok_id": "6b0ae43bb8ec87c6ced01d73"
   },
   {
     "id": "04cd1b1a17e2576596d3",
@@ -32040,14 +32052,18 @@
       "mean_db": -19.1
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795874877/football-news-bot/reels/9a3aa39c999ce479dabb-cross.mp4",
-    "crosspost_attempt_at": "2026-11-28T14:07:01.801796+00:00",
+    "crosspost_attempt_at": "2026-11-28T14:23:51.997132+00:00",
     "tiktok_attempt_at": "2026-11-28T14:07:01.801796+00:00",
     "zernio_tiktok_status": "failed",
     "zernio_tiktok_id": "6b0ae03fe928b059107835c4",
     "zernio_tiktok_error": "provider_failure",
     "buffer_tiktok_status": "error",
     "buffer_tiktok_id": "6b0ae043b8ec87c6cece7c53",
-    "buffer_tiktok_error": "provider_failure"
+    "buffer_tiktok_error": "provider_failure",
+    "youtube_attempt_at": "2026-11-28T14:23:51.997132+00:00",
+    "buffer_youtube_status": "error",
+    "buffer_youtube_id": "6b0ae4268e7dd71de79695f4",
+    "buffer_youtube_error": "daily_limit"
   },
   {
     "id": "de851c45da54f2914688",
