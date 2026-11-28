@@ -31969,11 +31969,43 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-28T13:20:48.510325+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Gabriel Bortoleto",
+    "visual_entities": {
+      "personas": [
+        "Gabriel Bortoleto"
+      ],
+      "clubes": [
+        "Audi"
+      ],
+      "competicion": [
+        "Gran Premio de Las Vegas"
+      ],
+      "ciudad": [
+        "Las Vegas"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Gabriel Bortoleto defiende los adelantamientos tras récord de 352 en Las Vegas",
+    "caption": "El piloto de Audi, Gabriel Bortoleto, dijo que no entiende las críticas de sus compañeros tras los 352 adelantamientos récord en el Gran Premio de Las Vegas 2026. El debate gira en torno a la utilidad de los sistemas que facilitan los adelantamientos en la F1.",
+    "ai_generated_at": "2026-11-28T15:18:12.059249+00:00",
+    "photo_checked_at": "2026-11-28T15:18:44.863307+00:00",
+    "portrait_info": null,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Formula1",
+        "GabrielBortoleto",
+        "Audi",
+        "GranPremiodeLasVegas"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "c8a1a9bcffec7bb20f1d",
@@ -32340,5 +32372,22 @@
     "ig_variant": "single",
     "posted_at": "2026-11-28T15:11:40.320572+00:00",
     "instagram_media_id": "18110428508630774"
+  },
+  {
+    "id": "76f3f93c4b5459e74365",
+    "title": "Championship roundup: Norwich’s Clement sent off in bad-tempered Preston draw",
+    "source_url": "https://www.theguardian.com/football/2026/nov/28/championship-roundup-norwichs-clement-sent-off-in-bad-tempered-preston-draw",
+    "source": "The Guardian",
+    "description": "Preston coach Chris Lucketti also sent off at Deepdale Blackburn 1-0 Charlton; Lincoln 0-0 Wolves Sam Field’s late equaliser ensured Norwich left Deepdale with a deserved share of the spoils in a 1-1 draw with Preston on a chilly east Lancashire afternoon but an ill-tempered affair ended with red cards for the visiting manager, Philippe Clement, and the Preston coach Chris Lucketti. The 28-year-old’s 86th-minute drive from the edge of the area found the net via a bounce and a slight deflection, cancelling out a penalty 12 minutes earlier from D",
+    "published_at": "2026-11-28T15:02:37+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-28T15:18:12.059249+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
