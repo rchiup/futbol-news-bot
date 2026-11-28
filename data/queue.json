@@ -28952,7 +28952,7 @@
     "headline": "Austin Reaves vuelve a jugar con Lakers ante San Antonio Spurs",
     "caption": "Austin Reaves está disponible para el partido de esta noche ante los Spurs por la NBA Cup. El escolta regresa tras perderse los últimos cinco encuentros debido a una contusión en el talón.",
     "ai_generated_at": "2026-11-28T00:08:00.318924+00:00",
-    "photo_checked_at": "2026-11-28T02:24:22.195662+00:00",
+    "photo_checked_at": "2026-11-28T04:01:30.541894+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -28967,7 +28967,20 @@
     "format_attempt_at": "2026-11-28T02:32:51.677785+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-28T02:32:51.677785+00:00",
-    "instagram_media_id": "18134201956765174"
+    "instagram_media_id": "18134201956765174",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 13.2,
+      "mean_db": -19.8
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795838499/football-news-bot/reels/86079a1a005692de3545-cross.mp4",
+    "crosspost_attempt_at": "2026-11-28T04:00:49.190282+00:00",
+    "tiktok_attempt_at": "2026-11-28T04:00:49.190282+00:00",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b0a522523fb5b770019220d",
+    "buffer_tiktok_error": "provider_failure"
   },
   {
     "id": "55533bea17d0a94422fa",
