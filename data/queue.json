@@ -26763,7 +26763,8 @@
     "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
     "headline": "Iordanescu asume el desafío en Watford",
     "caption": "Edward Iordanescu se convirtió en el nuevo entrenador de Watford, reemplazando a Alessio Dionisi. Iordanescu asume el desafío de sacar al equipo de la zona de descenso en la Championship. Su primer partido será el sábado contra Derby County.",
-    "ai_generated_at": "2026-11-28T01:06:46.065039+00:00"
+    "ai_generated_at": "2026-11-28T01:11:16.692878+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "a3172f53b62e87dd24b2",
@@ -26943,8 +26944,9 @@
     "llm_provider": "cloudflare",
     "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
     "headline": "Macron condena violencia en Marseille v Levski",
-    "caption": "El presidente francés Emmanuel Macron criticó los incidentes violentos en el partido entre Marseille y Levski Sofia. Se reportaron saludos nazis entre los hinchas de Levski y se vieron imágenes de agresiones a los visitantes en el estadio. La violencia ocurrió en el Stade Vélodrome durante un partido de la Europa League.",
-    "ai_generated_at": "2026-11-28T01:06:46.065039+00:00"
+    "caption": "El presidente francés Emmanuel Macron condenó los incidentes violentos en el partido entre Marseille y Levski Sofia. Se reportaron saludos nazis entre los hinchas de Levski Sofia. La violencia estalló en el Stade Vélodrome durante el partido de la Europa League.",
+    "ai_generated_at": "2026-11-28T01:11:16.692878+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "2f680c2186d35ba8a032",
@@ -28519,7 +28521,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-28T00:44:59.603720+00:00"
+    "photo_checked_at": "2026-11-28T01:14:03.733156+00:00"
   },
   {
     "id": "4df920aa7e3730f1bcea",
@@ -29540,8 +29542,10 @@
     "tiktok_attempt_at": "2026-11-28T00:38:01.713748+00:00",
     "youtube_attempt_at": "2026-11-27T22:54:48.629651+00:00",
     "buffer_youtube_status": "check_required",
-    "buffer_tiktok_status": "sending",
-    "buffer_tiktok_id": "6b0a23d123fb5b770006f95d"
+    "buffer_tiktok_status": "sent",
+    "buffer_tiktok_id": "6b0a23d123fb5b770006f95d",
+    "buffer_tiktok_checked_at": "2026-11-28T01:11:16.692878+00:00",
+    "buffer_tiktok_url": "https://tiktok.com/@chaofelicevich/video/7713015922906254593"
   },
   {
     "id": "72e0bf051845780cf9a7",
@@ -29580,7 +29584,7 @@
       "mean_db": -20.0
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795819190/football-news-bot/reels/72e0bf051845780cf9a7-cross.mp4",
-    "crosspost_attempt_at": "2026-11-27T22:38:42.223997+00:00",
+    "crosspost_attempt_at": "2026-11-28T01:11:16.692878+00:00",
     "youtube_attempt_at": "2026-11-27T22:38:42.223997+00:00",
     "buffer_youtube_status": "check_required",
     "visual_mode": "editorial_typography",
@@ -29594,7 +29598,11 @@
     "format_attempt_at": "2026-11-28T00:53:50.833033+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-28T00:53:50.833033+00:00",
-    "instagram_media_id": "18448905664178369"
+    "instagram_media_id": "18448905664178369",
+    "tiktok_attempt_at": "2026-11-28T01:11:16.692878+00:00",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b0a2ad4eab081a3f51118cd",
+    "buffer_tiktok_error": "provider_failure"
   },
   {
     "id": "d0144e0469a1c4ce4897",

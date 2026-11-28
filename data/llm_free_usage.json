@@ -2,9 +2,9 @@
   "date_utc": "2026-11-28",
   "providers": {
     "groq": {
-      "attempts": 9,
+      "attempts": 10,
       "success": 2,
-      "failures": 7,
+      "failures": 8,
       "latencies_ms": [
         1584,
         1775
@@ -14,7 +14,7 @@
         100
       ],
       "last_error": "http_429",
-      "blocked_until_utc": 1795828387
+      "blocked_until_utc": 1795828453
     },
     "gemini": {
       "attempts": 20,
@@ -126,9 +126,9 @@
       "last_error": "invalid_output"
     },
     "cloudflare": {
-      "attempts": 21,
-      "success": 10,
-      "failures": 11,
+      "attempts": 25,
+      "success": 12,
+      "failures": 13,
       "latencies_ms": [
         2310,
         1829,
@@ -139,9 +139,13 @@
         2689,
         6068,
         3232,
-        4300
+        4300,
+        2669,
+        2599
       ],
       "quality": [
+        100,
+        100,
         100,
         100,
         100,
@@ -165,16 +169,16 @@
       "blocked_until_utc": 1795828964
     },
     "zai": {
-      "attempts": 11,
+      "attempts": 13,
       "success": 1,
-      "failures": 10,
+      "failures": 12,
       "latencies_ms": [
         33034
       ],
       "quality": [
         100
       ],
-      "last_error": "timeout"
+      "last_error": "invalid_output"
     }
   },
   "last_success": "cloudflare"
