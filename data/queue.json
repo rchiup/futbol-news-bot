@@ -31824,7 +31824,7 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-28T12:44:25.688024+00:00",
-    "status": "draft",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -31848,7 +31848,12 @@
         "Formula1"
       ],
       "mentions": []
-    }
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-28T15:32:26.588102+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-28T15:32:26.588102+00:00",
+    "instagram_media_id": "18176785480459407"
   },
   {
     "id": "2e7430d5299ca7550864",
