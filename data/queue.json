@@ -31969,7 +31969,7 @@
     "sport": "F1",
     "score": 26,
     "queued_at": "2026-11-28T13:20:48.510325+00:00",
-    "status": "draft",
+    "status": "published",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -32005,7 +32005,12 @@
         "GranPremiodeLasVegas"
       ],
       "mentions": []
-    }
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-28T15:22:02.683409+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-28T15:22:02.683409+00:00",
+    "instagram_media_id": "18150199648582823"
   },
   {
     "id": "c8a1a9bcffec7bb20f1d",
