@@ -32559,11 +32559,72 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-28T16:05:03.256254+00:00",
-    "status": "awaiting_ai",
+    "status": "published",
     "article_context": "HAMBURG, Germany -- Bayern Munich captain Joshua Kimmich was sent off for pulling an opponent's hair during the Bundesliga game at Hamburger SV on Saturday.\nKimmich was shown a straight red card in the 44th minute after he retaliated against Alexander Rössing-Lelesiit for running into him off the ball. He grabbed his hair from behind and pulled the Danish player back.\nKimmich put his hand to his head after being sent off, as if questioning his own reaction.\nInjury-hit Bayern was looking for a win to keep the pressure on league leader Borussia Dortmund , which was two points clear after 10 rounds.\nForwards Harry Kane , Michael Olise and Jamal Musiala are among those injured.\nBayern coach Vincent Kompany opted to start the 19-year-old Noah Codjo-Evora up front for his first start, while 18-year-old Bara Sapoko Ndiaye and the rarely-played Sacha Boey were also surprising choices.\n- Vincent Kompany dismisses talk of Bayern unrest amid Jamal Musiala controversy - Bayern Munich, Jamal Musiala mess shows German champs at their worst",
     "ai_art_used": false,
-    "photo_used": false,
-    "portrait_used": false,
-    "reference_photo_used": false
+    "photo_used": true,
+    "portrait_used": true,
+    "reference_photo_used": false,
+    "visual_subject": "Joshua Kimmich",
+    "visual_entities": {
+      "personas": [
+        "Joshua Kimmich"
+      ],
+      "clubes": [
+        "Bayern Munich",
+        "Hamburger SV"
+      ],
+      "competicion": [
+        "Bundesliga"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Joshua Kimmich es expulsado por tirar del pelo a Alexander Rössing-Lelesiit",
+    "caption": "Kimmich recibió tarjeta roja directa en el minuto 44 por agarrar del pelo al danés Alexander Rössing-Lelesiit. El capitán salió del campo mientras el Bayern, golpeado por lesiones, buscaba la victoria ante el Hamburgo para seguir presionando a Borussia Dortmund, líder con dos puntos de ventaja tras diez jornadas.",
+    "ai_generated_at": "2026-11-28T16:09:43.487936+00:00",
+    "portrait_info": {
+      "subject": "Joshua Kimmich",
+      "wikidata_id": "Q13865408",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/2017_Confederations_Cup_-_Final_-_Joshua_Kimmich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "license": "cc0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "commons_filename": "2017 Confederations Cup - Final - Joshua Kimmich.jpg",
+      "photographer": "",
+      "credit_required": false,
+      "share_alike": false,
+      "width": 422,
+      "height": 998,
+      "file_page": "https://commons.wikimedia.org/wiki/File:2017_Confederations_Cup_-_Final_-_Joshua_Kimmich.jpg",
+      "entity_kind": "person",
+      "entity_qid": "Q13865408",
+      "photo_provider": "Wikidata photo bank",
+      "verified_at": "2026-11-26T11:29:11.012057+00:00"
+    },
+    "photo_checked_at": "2026-11-28T16:10:25.899919+00:00",
+    "visual_mode": "licensed_photo",
+    "photo_credit_full": "",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "JoshuaKimmich",
+        "BayernMunich",
+        "HamburgerSV",
+        "Bundesliga"
+      ],
+      "mentions": []
+    },
+    "video_style": "instagram",
+    "reel_quality": {
+      "version": 2,
+      "duration": 16.7,
+      "mean_db": -19.4
+    },
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-28T16:09:43.487936+00:00",
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795882269/football-news-bot/reels/be339c3916468846d919.mp4",
+    "posted_at": "2026-11-28T16:09:43.487936+00:00",
+    "instagram_media_id": "18119735567032188"
   }
 ]
