@@ -31796,7 +31796,7 @@
     "headline": "Estudiantes se aliará con Peñarol y Palmeiras con Nacional en la final",
     "caption": "Estudiantes jugará junto a Peñarol y Palmeiras acompañará a Nacional en la final de la Libertadores. El duelo tendrá un capítulo extra en las tribunas del Estadio Centenario, donde las amistades entre hinchadas reavivan una rivalidad histórica del fútbol uruguayo.",
     "ai_generated_at": "2026-11-28T13:12:05.200100+00:00",
-    "photo_checked_at": "2026-11-28T13:12:48.412595+00:00",
+    "photo_checked_at": "2026-11-28T13:15:33.390518+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -31812,6 +31812,18 @@
     "format_attempt_at": "2026-11-28T13:12:05.200100+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-28T13:12:05.200100+00:00",
-    "instagram_media_id": "18001322913028270"
+    "instagram_media_id": "18001322913028270",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 13.2,
+      "mean_db": -19.4
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795871744/football-news-bot/reels/833fa80977cc146489f4-cross.mp4",
+    "crosspost_attempt_at": "2026-11-28T13:14:44.246470+00:00",
+    "tiktok_attempt_at": "2026-11-28T13:14:44.246470+00:00",
+    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_id": "6b0ad402545df6fb4d2a1f66"
   }
 ]
