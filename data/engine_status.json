@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-28T12:52:40.977983+00:00",
+  "checked_at_utc": "2026-11-28T12:54:30.340983+00:00",
   "local_hour": 9,
   "statuses": {
     "published": 255,
@@ -9,7 +9,7 @@
     "publish_error": 27,
     "duplicate": 74
   },
-  "fresh_candidates": 155,
+  "fresh_candidates": 122,
   "queued_new": 0,
   "ai_generated": 0,
   "preview_images": 5,
@@ -38,9 +38,9 @@
     "last_success": "groq",
     "providers": {
       "groq": {
-        "attempts": 108,
+        "attempts": 109,
         "success": 9,
-        "failures": 99,
+        "failures": 100,
         "avg_latency_ms": 2245,
         "avg_readability": 96.7,
         "last_error": "http_429"
