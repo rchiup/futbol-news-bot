@@ -15478,5 +15478,21 @@
     "source": "Football News, Transfers, Opinion - talkSPORT",
     "collected_at": "2026-11-28T12:35:26.266299+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "1369cc77d503e640f2ec251864d2e296b0158934cdfd40f20caef79d7d836d31",
+    "title": "Inter Miami lost their identity. It cost them and Messi a shot at another MLS Cup",
+    "url": "https://www.espn.com/soccer/story/_/id/50620427/lionel-messi-inter-miami-mls-cup",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-28T12:37:54.747584+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "9b036c30a1916fb4e2e43fe3772e27c57ff49bd7198a608a1882fc6ce0e6d93c",
+    "title": "The Lakers just got an important playoff lesson from the Spurs",
+    "url": "https://www.espn.com/nba/story/_/id/50619806/lakers-spurs-luka-wemby-playoff-lesson-mvp",
+    "source": "www.espn.com - NBA",
+    "collected_at": "2026-11-28T12:37:57.422127+00:00",
+    "status": "pending_review"
   }
 ]

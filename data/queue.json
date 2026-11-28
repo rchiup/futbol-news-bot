@@ -31604,5 +31604,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "9b036c30a1916fb4e2e4",
+    "title": "The Lakers just got an important playoff lesson from the Spurs",
+    "source_url": "https://www.espn.com/nba/story/_/id/50619806/lakers-spurs-luka-wemby-playoff-lesson-mvp",
+    "source": "ESPN NBA",
+    "description": "Victor Wembanyama's Spurs got the better of Luka Doncic's Lakers in an NBA Cup game with playoff-like intensity.",
+    "published_at": "2026-11-28T12:28:32+00:00",
+    "category": "NBA",
+    "sport": "NBA",
+    "score": 26,
+    "queued_at": "2026-11-28T12:37:58.901763+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
