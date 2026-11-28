@@ -756,6 +756,15 @@ def format_due(queue, reference, kind, minutes):
 def run(reference: datetime | None = None, session=None) -> dict:
     reference = reference or now_utc()
     queue = load_queue()
+    if session is None:
+        # Explicitly requested, source-checked editorial submissions, idempotent by ID.
+        try:
+            manual = json.loads((ROOT / "data" / "manual_story.json").read_text(encoding="utf-8"))
+            if manual.get("manual_requested") and not any(x.get("id")==manual.get("id") or x.get("source_url")==manual.get("source_url") for x in queue):
+                queue.append(manual)
+                save_queue(queue)
+        except (OSError, ValueError, AttributeError):
+            pass
     publish_cooldowns.configure(queue)
     if session is None and os.getenv("ENABLE_PUBLISH", "").lower()=="true":
         import zernio_publish
@@ -871,7 +880,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
         from publisher import upload_public_video
         due_platforms=[p for p in delivery_scheduler.PLATFORMS if delivery_scheduler.due(queue,p,reference,15) and (publish_cooldowns.available("zernio") or publish_cooldowns.available("buffer"))]
         print("[CROSSPOST] Available video destinations: "+str(due_platforms))
-        for candidate in sorted(queue,key=lambda x:(bool(x.get("match_result")),novelty_priority(x,reference)),reverse=True):
+        for candidate in sorted(queue,key=lambda x:(bool(x.get("manual_requested")),bool(x.get("match_result")),novelty_priority(x,reference)),reverse=True):
             if not due_platforms or not (publish_cooldowns.available("zernio") or publish_cooldowns.available("buffer")):
                 break
             destinations=[p for p in due_platforms if delivery_scheduler.pending_platform(candidate,p)]
@@ -880,7 +889,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
             date=parse_iso(candidate.get("published_at",""))
             if not date or not 0 <= (reference-date).total_seconds() <= MAX_POST_AGE_HOURS*3600:
                 continue
-            if not candidate.get("match_result") and (not candidate.get("ai_generated_at") or candidate.get("score",0)<MIN_PUBLISH_SCORE or is_low_interest(candidate) or news_missing_critical_details(candidate) or not on_topic(candidate,candidate.get("headline",""),candidate.get("caption",""))):
+            if not candidate.get("match_result") and ((not candidate.get("ai_generated_at") and candidate.get("llm_provider")!="manual_verified") or candidate.get("score",0)<MIN_PUBLISH_SCORE or is_low_interest(candidate) or news_missing_critical_details(candidate) or not on_topic(candidate,candidate.get("headline",""),candidate.get("caption",""))):
                 continue
             if score_error(candidate,queue) or identity_error(candidate) or certainty_error(candidate) or not sports_topic(candidate):
                 continue
@@ -932,7 +941,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
         # Novelty and recency outrank a saved portrait; never publish the
         # same protagonist again just because their news came via another feed.
         already_posted = [x for x in queue if x.get("status") == "published"]
-        for item in sorted(queue, key=lambda x: (bool(x.get('match_result')), novelty_priority(x, reference)), reverse=True):
+        for item in sorted(queue, key=lambda x: (bool(x.get('manual_requested')), bool(x.get('match_result')), novelty_priority(x, reference)), reverse=True):
             if published_count >= allowed_this_run:
                 break
             editorial_cap_reached = rolling_post_count(queue, reference) >= POSTS_PER_DAY
@@ -969,7 +978,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 continue
             if not item.get("match_result") and item.get("llm_provider") in {None, "source_brief"} and not item.get("ai_generated_at"):
                 continue  # Require verified edited copy, including older drafts.
-            if not item.get("match_result") and recent_from_source(queue, item.get("source", ""), reference) >= MAX_PER_SOURCE_6H:
+            if not item.get("match_result") and not item.get("manual_requested") and recent_from_source(queue, item.get("source", ""), reference) >= MAX_PER_SOURCE_6H:
                 continue  # Avoid one outlet flooding the feed; retry next run.
             if not item.get("match_result") and news_missing_critical_details(item):
                 item["status"] = "needs_review"

@@ -1,0 +1,28 @@
+{
+  "id": "manual-pellegrini-20261127",
+  "title": "Selección de Estados Unidos inició contactos con Manuel Pellegrini",
+  "source_url": "https://www.cooperativa.cl/noticias/deportes/futbol/manuel-pellegrini/seleccion-de-estados-unidos-inicio-contactos-con-manuel-pellegrini/2026-11-27/191204.html",
+  "source": "Cooperativa Deportes",
+  "description": "Según Cooperativa, que cita a La Tercera, Estados Unidos sondeó al entrenador de Real Betis para reemplazar a Mauricio Pochettino. Pellegrini habría descartado la opción y solo estaría dispuesto a considerar dirigir a Chile.",
+  "headline": "Pellegrini habría rechazado a EE.UU. y solo consideraría a Chile",
+  "caption": "Según Cooperativa, que cita a La Tercera, Estados Unidos sondeó a Manuel Pellegrini para asumir su selección. El DT del Real Betis habría descartado esa opción y mantendría abierta únicamente la posibilidad de dirigir a La Roja. No hay acuerdo confirmado con Chile.",
+  "published_at": "2026-11-27T22:11:00+00:00",
+  "queued_at": "2026-11-28T02:31:00+00:00",
+  "status": "draft",
+  "sport": "FUTBOL",
+  "category": "ACTUALIDAD",
+  "score": 1000,
+  "visual_subject": "Manuel Pellegrini",
+  "visual_entities": {
+    "personas": [
+      "Manuel Pellegrini"
+    ],
+    "clubes": [
+      "Real Betis"
+    ],
+    "competicion": [],
+    "ciudad": []
+  },
+  "llm_provider": "manual_verified",
+  "manual_requested": true
+}
