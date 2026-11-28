@@ -31825,5 +31825,22 @@
     "tiktok_attempt_at": "2026-11-28T13:14:44.246470+00:00",
     "zernio_tiktok_status": "uploading",
     "zernio_tiktok_id": "6b0ad402545df6fb4d2a1f66"
+  },
+  {
+    "id": "2aeb1fbc1b70af6acffb",
+    "title": "\"¿Qué demonios quieren?\" Un piloto de F1, molesto por las críticas de sus compañeros por los adelantamientos",
+    "source_url": "https://es.motorsport.com/f1/news/que-demonios-quieren-piloto-molesto-criticas-adelantamientos/10878317",
+    "source": "Motorsport F1",
+    "description": "Los 352 adelantamientos récord del Gran Premio de Las Vegas 2026 han reavivado el debate sobre la utilidad o la inutilidad de los sistemas que sirven para ayudar a los adelantamiento en la Fórmula 1. Mientras que muchos pilotos critican estos movimientos artificiales, el piloto de Audi, Gabriel Bortoleto, cada vez entiende menos las quejas de sus compañeros. \"Tengo que decir que la ... Sigue leyendo",
+    "published_at": "2026-11-28T13:17:45+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-28T13:20:48.510325+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
