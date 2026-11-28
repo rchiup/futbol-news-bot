@@ -195,5 +195,23 @@
     "entity_kind": "person",
     "entity_qid": "Q104737263",
     "photo_provider": "Wikidata roster"
+  },
+  "person:pau torres": {
+    "subject": "Pau Torres",
+    "wikidata_id": "Q43384100",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Pau_Torres_April_2026_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "license": "cc0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "commons_filename": "Pau Torres April 2026 (cropped).jpg",
+    "photographer": "",
+    "credit_required": false,
+    "share_alike": false,
+    "width": 1352,
+    "height": 1984,
+    "file_page": "https://commons.wikimedia.org/wiki/File:Pau_Torres_April_2026_%28cropped%29.jpg",
+    "entity_kind": "person",
+    "entity_qid": "Q43384100",
+    "photo_provider": "Wikidata photo bank",
+    "verified_at": "2026-11-28T16:51:37.384657+00:00"
   }
 }
