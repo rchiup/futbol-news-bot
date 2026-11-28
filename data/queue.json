@@ -22713,7 +22713,7 @@
     "sport": "FUTBOL",
     "score": 17,
     "queued_at": "2026-11-26T17:54:42.814146+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -30548,7 +30548,7 @@
     "caption": "Según Cooperativa, que cita a La Tercera, Estados Unidos sondeó a Manuel Pellegrini para asumir su selección. El DT del Real Betis habría descartado esa opción y mantendría abierta únicamente la posibilidad de dirigir a La Roja. No hay acuerdo confirmado con Chile.",
     "published_at": "2026-11-27T22:11:00+00:00",
     "queued_at": "2026-11-28T02:31:00+00:00",
-    "status": "draft",
+    "status": "published",
     "sport": "FUTBOL",
     "category": "ACTUALIDAD",
     "score": 1000,
@@ -30579,7 +30579,7 @@
       "mean_db": -19.6
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795833435/football-news-bot/reels/manual-pellegrini-20261127-cross.mp4",
-    "crosspost_attempt_at": "2026-11-28T02:35:55.486203+00:00",
+    "crosspost_attempt_at": "2026-11-28T02:43:16.573838+00:00",
     "tiktok_attempt_at": "2026-11-28T02:35:55.486203+00:00",
     "buffer_tiktok_status": "error",
     "buffer_tiktok_id": "6b0a3e5eeada83daa6bb3fea",
@@ -30592,6 +30592,33 @@
         "RealBetis"
       ],
       "mentions": []
-    }
+    },
+    "youtube_attempt_at": "2026-11-28T02:43:16.573838+00:00",
+    "buffer_youtube_status": "sent",
+    "buffer_youtube_id": "6b0a3ffb2a2e4f66caf2cdd0",
+    "buffer_youtube_url": "https://www.youtube.com/watch?v=nqytT8D2jpI",
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-28T02:43:16.573838+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-28T02:43:16.573838+00:00",
+    "instagram_media_id": "18174451447476038"
+  },
+  {
+    "id": "b208088b98d2898444a2",
+    "title": "Tristán Suárez sufrió en Ezeiza, empató con un golazo de Gallo y pasó a semifinales del Reducido",
+    "source_url": "https://www.ole.com.ar/futbol-ascenso/tristansuarez-gimnasiaytiro-reducido-primeranacional-semifinales-ascenso_0_2siCqZTaDx.html",
+    "source": "Olé Argentina",
+    "description": "El Lechero igualó 1-1 como local frente a Gimnasia y Tiro de Salta y se metió en la próxima ronda por el segundo ascenso a la máxima categoría del fútbol argentino.",
+    "published_at": "2026-11-28T02:29:25+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-28T02:43:16.573838+00:00",
+    "status": "awaiting_ai",
+    "article_context": "Tristán Suárez empató con Gimnasia y Tiro y se metió en semis.\nSi no se sufre no vale. Esa frase resume a la perfección el camino de Tristán Suárez en esta revancha por el segundo ascenso de la Primera Nacional . Después del duro golpe que significó perder la final por el ascenso directo ante Godoy Cruz, el Lechero tenía todo dado para pisar fuerte en Ezeiza.\nTras el 0-0 en Salta, definía ante su gente, contaba con ventaja deportiva y enfrentaba a Gimnasia y Tiro , el rival de peor campaña tras entrar octavo al Reducido . Sin embargo, la historia le exigió transpirar hasta el límite para seguir con vida en el torneo. Fue 1-1 en Ezeiza con tantos de Rinaldi para los salteños y Gallo para el local para meter a los de José María Martínez en semifinales .\nEn la etapa inicial se vio un trámite entretenido y dinámico, donde cada uno respetó su libreto y puso en aprietos al otro en distintos pasajes. Dentro de esa paridad, el local fue un poco mejor y contó con las situaciones más claras para romper el cero, pero chocó una y otra vez contra la enorme tarea del arquero Federico Cosentino , la gran figura de esa primera mitad.\nLa pesadilla pareció instalarse en el arranque del complemento y puso en jaque todos los pronósticos previos. A los tres minutos, tras un tiro libre desde la izquierda y un gran centro al área, Nicolás Rinaldi ganó muy bien arriba y dejó inmóvil a Bigo para poner el 1-0 salteño , silenciar el estadio y obligar al dueño de casa a reaccionar de inmediato para evitar la eliminación.\nCuando los fantasmas de la final perdida ante el Tomba sobrevolaban Ezeiza, apareció la respuesta anímica y futbolística del equipo. A los 20 minutos del segundo tiempo, tras una serie de rebotes dentro del área rival, el recién ingresado Gallo sacó un zurdazo espectacular que se clavó en el ángulo para estampar el 1-1 y desatar la locura en las tribunas.\nCon esa igualdad muy trabajada, Tristán Suárez sostuvo la diferencia, hizo valer la ventaja deportiva y sacó boleto hacia las semifinales . En la próxima instancia del Reducido lo espera un cruce de alto voltaje frente a Colón , que viene de dejar en el camino a Deportivo Morón con un 1-0 en el resultado global. El Lechero tendrá el plus de definir de local y ventaja deportiva.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
