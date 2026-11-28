@@ -2,9 +2,9 @@
   "date_utc": "2026-11-28",
   "providers": {
     "groq": {
-      "attempts": 34,
+      "attempts": 36,
       "success": 6,
-      "failures": 28,
+      "failures": 30,
       "latencies_ms": [
         1584,
         1775,
@@ -22,7 +22,7 @@
         100
       ],
       "last_error": "http_429",
-      "blocked_until_utc": 1795839360
+      "blocked_until_utc": 1795840225
     },
     "gemini": {
       "attempts": 20,
