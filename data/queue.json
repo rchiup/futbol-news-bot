@@ -31583,12 +31583,44 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-28T12:28:19.668350+00:00",
-    "status": "awaiting_ai",
+    "status": "duplicate",
     "article_context": "El Flaco López en San Lorenzo de Villa Castells.\nHay pueblos que apenas aparecen en el mapa y, sin embargo, terminan dejando su huella en el fútbol grande. San Lorenzo, en Corrientes, tiene apenas 600 habitantes. De ahí salió Juan Manuel López, el Flaco para todos, hasta para Wikipedia. Hoy, con 25 años y una temporada brillante en Palmeiras, está a las puertas de jugar la primera final de Copa Libertadores de su carrera . Y contra un rival que conoce bien: ¿es cierto que jugó en Estudiantes? Lo que sí es verídico es que pasó por un club platense en el que la rompió toda.\nLos números explican parte del fenómeno: 24 goles y 14 asistencias en 2026 , un valor de mercado cercano a los 30 millones de euros y un lugar cada vez más importante en el gigante brasileño. Pero el camino estuvo lejos de ser sencillo. A los nueve años llegó a Independiente y una lesión de cadera estuvo cerca de alejarlo definitivamente del fútbol .\nVideo: @lucasbenda | @maxifriggieri - enviados Olé\nIncluso cuando el Rojo decidió no tenerlo en cuenta, López siguió insistiendo . Vivía en La Plata y estuvo cerca de probarse en Estudiantes -finalmente no sucedió- , pero su refugio fue San Lorenzo de Villa Castells , de la Liga Amateur Platense, donde todavía recuerdan al chico tímido que hacía cosas distintas.\n“Un chico muy tranquilo, muy educado. Hablaba con la pelota. Las cosas que le vimos hacer acá es una cosa de locos. Estuvo hasta diciembre del 2017. Después le salió la posibilidad de ir a Lanús y la rompió toda. Debutó en Primera con edad de Séptima u Octava \", le contó a Olé Sebastián Giommi, presidente del club.\nPor entonces jugaba de enganche, con la 10 y competía en categorías superiores porque hacía diferencias evidentes. Después llegaron Lanús, los goles y Palmeiras, que pagó cerca de 10 millones de dólares por el 70% de su ficha .\nNunca fue expulsado en su carrera, jugó el Mundial con la Selección y es protagonista en Brasil. Ahora, tras perder la final de Libertadores en 2025 , el correntino que salió de un pueblo de 600 habitantes buscará la revancha más importante de su carrera .\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Palmeiras",
+        "Estudiantes",
+        "San Lorenzo de Villa Castells"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Villa Castells"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Juan Manuel López lleva a Palmeiras a la final de la Libertadores",
+    "caption": "El delantero de 25 años, originario del pueblo de 600 habitantes de San Lorenzo de Villa Castells, llega a su primera final de Copa Libertadores con Palmeiras. Después de pasar por Lanús y una cesión del 70% de su ficha por cerca de 10 millones de dólares, busca revertir la derrota de 2025 contra Estudiantes.",
+    "ai_generated_at": "2026-11-28T13:33:32.059676+00:00",
+    "photo_checked_at": "2026-11-28T13:34:13.350453+00:00",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 21.3,
+      "mean_db": -19.6
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795872864/football-news-bot/reels/72a0c8d67a358794abbf-cross.mp4",
+    "crosspost_attempt_at": "2026-11-28T13:33:32.059676+00:00",
+    "tiktok_attempt_at": "2026-11-28T13:33:32.059676+00:00",
+    "buffer_tiktok_status": "sending",
+    "buffer_tiktok_id": "6b0ad861b8ec87c6cecaddc2",
+    "duplicate_of": "same_story_as:833fa80977cc146489f4"
   },
   {
     "id": "885f4bbaa7c6f736ff11",
