@@ -31208,5 +31208,22 @@
     "portrait_used": false,
     "reference_photo_used": false,
     "editorial_rechecked": true
+  },
+  {
+    "id": "643f7aa05f86fd424a3a",
+    "title": "Hankook prepara su candidatura a entrar en la F1 y amenaza el reinado de Pirelli",
+    "source_url": "https://es.motorsport.com/f1/news/hankook-prepara-candidatura-entrar-formula1/10878435",
+    "source": "Motorsport F1",
+    "description": "La aparición de otro serio candidato a hacerse con el contrato de suministro exclusivo de neumáticos de la Fórmula 1 es una nueva y clara demostración del creciente alcance mundial y de la popularidad de la categoría. Pirelli sustituyó a Bridgestone como proveedor único de neumáticos de la F1 en 2011 y, durante buena parte de su primera década, apenas se enfrentó a una competencia ... Sigue leyendo",
+    "published_at": "2026-11-28T08:02:10+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-28T08:06:17.575160+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
