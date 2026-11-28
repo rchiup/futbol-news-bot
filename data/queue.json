@@ -29444,8 +29444,10 @@
     "buffer_youtube_id": "6b0a31e770e80ae8f1c237c6",
     "buffer_youtube_error": "daily_limit",
     "tiktok_attempt_at": "2026-11-28T01:45:27.558305+00:00",
-    "buffer_tiktok_status": "sending",
-    "buffer_tiktok_id": "6b0a32f770e80ae8f1c2833f"
+    "buffer_tiktok_status": "sent",
+    "buffer_tiktok_id": "6b0a32f770e80ae8f1c2833f",
+    "buffer_tiktok_checked_at": "2026-11-28T02:16:04.573346+00:00",
+    "buffer_tiktok_url": "https://tiktok.com/@chaofelicevich/video/7713033324171775250"
   },
   {
     "id": "8aea7bd0ffec51e2057a",
