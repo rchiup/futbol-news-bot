@@ -32964,5 +32964,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "8135ec12f7e652c176c0",
+    "title": "Fact: Man United's defense is the worst in Europe",
+    "source_url": "https://www.espn.com/soccer/story/_/id/50622501/manchester-united-worst-defense-europe",
+    "source": "ESPN",
+    "description": "After 18 matches this season in all competitions, United have conceded 40 goals.",
+    "published_at": "2026-11-28T17:52:13+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-28T18:08:45.372781+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
