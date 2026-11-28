@@ -132,3 +132,5 @@ Confirmed Messi eliminated: Columbus 1-0, Santiago Rodriguez 92nd minute
 2026-11-28: Run verified Messi elimination story across connected platforms now.
 
 Retry verified Messi publication after score assertion fix.
+
+Retry Messi verified story with extended publication window.
