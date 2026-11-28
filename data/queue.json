@@ -28533,7 +28533,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-28T01:14:03.733156+00:00"
+    "photo_checked_at": "2026-11-28T01:40:51.006283+00:00"
   },
   {
     "id": "4df920aa7e3730f1bcea",
@@ -30388,6 +30388,17 @@
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-28T01:40:41.611638+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "KilyGonzalez",
+        "InterMiami",
+        "ColumbusCrew"
+      ],
+      "mentions": []
+    }
   }
 ]
