@@ -136,3 +136,5 @@ Retry verified Messi publication after score assertion fix.
 Retry Messi verified story with extended publication window.
 
 Recover false duplicate and retry verified Messi elimination.
+
+Restore existing verified Messi submission after transient scoreboard HTTP error.
