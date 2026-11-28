@@ -16,7 +16,7 @@
     "posted_at": "2026-11-23T02:28:07.513251+00:00",
     "instagram_media_id": "18126608645298781",
     "provider_cooldowns": {
-      "zernio": "2026-11-28T08:01:40.893816+00:00",
+      "zernio": "2026-11-28T08:34:40.958941+00:00",
       "buffer": "2026-11-28T00:37:52.238229+00:00"
     }
   },
@@ -23680,7 +23680,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-26T20:12:14.339355+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -31153,7 +31153,7 @@
     "headline": "Pirelli limita a 27 vueltas los neumáticos en Qatar",
     "caption": "Pirelli ha impuesto un máximo de 27 vueltas por juego de neumáticos en el Gran Premio de Qatar tras observar que se desgastan gravemente en apenas 15 vueltas. El circuito de Losail es el mayor reto del calendario y la medida busca evitar fallos críticos durante la carrera, obligando a estrategias de paradas más frecuentes.",
     "ai_generated_at": "2026-11-28T08:00:40.372080+00:00",
-    "photo_checked_at": "2026-11-28T08:01:38.653435+00:00",
+    "photo_checked_at": "2026-11-28T08:04:28.712725+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -31165,7 +31165,20 @@
     "format_attempt_at": "2026-11-28T08:00:40.372080+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-28T08:00:40.372080+00:00",
-    "instagram_media_id": "18133194812512303"
+    "instagram_media_id": "18133194812512303",
+    "video_style": "tiktok",
+    "video_hook_variant": "fact_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 16.6,
+      "mean_db": -19.6
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795853079/football-news-bot/reels/f17131790a0a58eeedfd-cross.mp4",
+    "crosspost_attempt_at": "2026-11-28T08:03:36.782725+00:00",
+    "tiktok_attempt_at": "2026-11-28T08:03:36.782725+00:00",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b0a8b19cf6d9177300ee2db",
+    "buffer_tiktok_error": "provider_failure"
   },
   {
     "id": "69823e1b6a69ecc1b7e0",
