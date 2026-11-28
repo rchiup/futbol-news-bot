@@ -29942,9 +29942,13 @@
       "mean_db": -19.7
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795823975/football-news-bot/reels/0d0c902a9b343e8bd8db-cross.mp4",
-    "crosspost_attempt_at": "2026-11-27T23:58:03.542186+00:00",
+    "crosspost_attempt_at": "2026-11-28T03:27:00.753470+00:00",
     "youtube_attempt_at": "2026-11-27T23:58:03.542186+00:00",
-    "buffer_youtube_status": "check_required"
+    "buffer_youtube_status": "check_required",
+    "tiktok_attempt_at": "2026-11-28T03:27:00.753470+00:00",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b0a4a4270e80ae8f1cb78dc",
+    "buffer_tiktok_error": "provider_failure"
   },
   {
     "id": "266e4f3520e7a458ffb2",
@@ -30571,7 +30575,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-28T02:32:51.677785+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "article_context": "Agustín Toledo, el autor del solitario gol de la noche. (Foto @ColonOficial)\nColón no tenía a Morón como único rival. Jugaba también contra un estadio a reventar, contra los datos y contra la ventaja deportiva. Para algunos, podría ser un panorama hostil donde es preferible salir a defenderse. Para otros, los más osados y los que terminan venciendo, una invitación a dar el golpe . El Sabalero lo entendió así desde que entró al terreno del Nuevo Francisco Urbano; el Gallo se tiró atrás, apoyado en el empate que le servía y recién se puso a jugar cuando estaba en desventaja.\nAferrarse a un resultado puede ser un tiro que salga por la culata. La línea de 5 inicial que puso Walter Otta no le dio la solidez defensiva necesaria y, a su vez, hizo que los de arriba casi no pudieran ni embarrarse los botines. El plan no salió y los de Santa Fe facturaron: Ignacio Lago, que había tenido un primer tiempo discreto, se tiró a jugar por izquierda, empezó a bicicletear y se la puso en la cabeza a Toledo, que la mandó a guardar con un testazo certero .\nCon el resultado a favor, el 10 sabalero empezó a manejar los hilos a su gusto y se jugó al ritmo que Nacho quiso. Gambeteó, hizo jugar a sus compañeros, hizo amonestar a rivales y hasta paralizó corazones: se paró como CR7 y estrelló un tiro libre contra el palo . ¡Hasta los de Morón gritaron \"uhhh\"! Por cuestiones lógicas de juego, el Rojinegro se tiró atrás sobre el final.\nEl papel del local se circunscribió a tirar pelotazos al área para intentar rescatar el gol que les diera la clasificación. Pero el partido de los zagueros del conjunto de Delfino fue impoluto y sacaron hasta los teros que aparecieron en la cancha. Tomás Giménez tuvo poca acción, en parte por los tímidos ataques de sus adversarios, y también porque sus guardianes despejaron todo. Colón metió un triunfazo en el Oeste y tiene el sueño intacto de volver a la LPF después de su descenso en 2023. Va con la Santa Fe.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
@@ -30586,17 +30590,16 @@
         "Tristán Suárez"
       ],
       "competicion": [
-        "Primera Nacional"
+        "Primera Nacional",
+        "Reducido"
       ],
-      "ciudad": [
-        "Morón"
-      ]
+      "ciudad": []
     },
     "llm_provider": "groq",
     "llm_model": "openai/gpt-oss-120b",
-    "headline": "Colón se clasifica a semifinales del Reducido tras vencer a Morón",
-    "caption": "Colón derrotó a Morón y avanzó a semifinales de la Primera Nacional. El sabalero enfrentará a Tristán Suárez en la próxima ronda y mantiene vivo su sueño de volver a la LPF.",
-    "ai_generated_at": "2026-11-28T03:10:25.741737+00:00",
+    "headline": "Colón vence a Morón y avanza a semifinal del Reducido",
+    "caption": "Colón derrotó a Morón y se clasificó a la semifinal del Reducido de la Primera Nacional. El Sabalero enfrentará a Tristán Suárez y mantiene vivo el sueño de volver a la LPF tras su descenso en 2023.",
+    "ai_generated_at": "2026-11-28T03:27:00.753470+00:00",
     "editorial_rechecked": true
   },
   {
