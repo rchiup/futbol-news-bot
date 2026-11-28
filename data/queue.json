@@ -16,7 +16,7 @@
     "posted_at": "2026-11-23T02:28:07.513251+00:00",
     "instagram_media_id": "18126608645298781",
     "provider_cooldowns": {
-      "zernio": "2026-11-28T06:26:13.978658+00:00",
+      "zernio": "2026-11-28T06:57:35.959814+00:00",
       "buffer": "2026-11-28T00:37:52.238229+00:00"
     }
   },
@@ -23052,7 +23052,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-26T18:32:19.417857+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -29438,7 +29438,7 @@
     "headline": "Juan Sebastián Verón viajó a Montevideo para la final de Libertadores",
     "caption": "El presidente de Estudiantes se trasladó a Uruguay junto a su familia para seguir el duelo ante Palmeiras desde la platea. El dirigente busca celebrar desde la tribuna la quinta estrella continental del club, tal como lo hizo como capitán en 2009.",
     "ai_generated_at": "2026-11-28T00:01:34.141654+00:00",
-    "photo_checked_at": "2026-11-28T06:24:57.094549+00:00",
+    "photo_checked_at": "2026-11-28T06:27:23.085637+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -29452,7 +29452,20 @@
     "format_attempt_at": "2026-11-28T06:23:59.543937+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-28T06:23:59.543937+00:00",
-    "instagram_media_id": "18123109528995290"
+    "instagram_media_id": "18123109528995290",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 16.2,
+      "mean_db": -20.0
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795847253/football-news-bot/reels/107d736ad231c2db7c29-cross.mp4",
+    "crosspost_attempt_at": "2026-11-28T06:26:36.501915+00:00",
+    "tiktok_attempt_at": "2026-11-28T06:26:36.501915+00:00",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b0a7458fe7140cdac9599b6",
+    "buffer_tiktok_error": "provider_failure"
   },
   {
     "id": "dd2d2026848fb8c3e18f",
