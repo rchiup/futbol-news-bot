@@ -15894,5 +15894,13 @@
     "source": "www.espn.com - SOCCER",
     "collected_at": "2026-11-28T17:13:11.301967+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "fd499a99542c8479d2163e791b561773572c559eee30bb2b476dadaf887f54cf",
+    "title": "Manchester United mauled by Brentford in Pochettino’s ugly Old Trafford debut",
+    "url": "https://www.theguardian.com/football/2026/nov/28/manchester-united-brentford-premier-league-match-report",
+    "source": "Football | The Guardian",
+    "collected_at": "2026-11-28T17:20:56.885683+00:00",
+    "status": "pending_review"
   }
 ]
