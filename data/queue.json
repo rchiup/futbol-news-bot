@@ -31429,12 +31429,72 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-28T11:54:21.082354+00:00",
-    "status": "awaiting_ai",
+    "status": "published",
     "article_context": "Cole Palmer joined Chelsea from Man City for £42.5m in 2023\nCole Palmer left the City Ground without having a shot or a touch in the opposition box as Chelsea lost 3-2 at Nottingham Forest on Friday night.\nThe 24-year-old forward started the season by registering six goal involvements in his first six league games (two goals and four assists), with his penalty against Manchester United now his only goal contribution in the past six matches.\nLast weekend, after his side were booed off following the 4-1 defeat by Leeds United , Palmer appeared reluctant to take part in the customary post-match acknowledgement of the supporters.\nOn his way off the pitch, he appeared to ignore the club's player support and development officer Willie Isa, a former Wigan Warriors rugby league player, whose role includes helping to ensure that acknowledgement takes place regardless of the result.\nPalmer was then seen in a heated exchange with injured striker Joao Pedro as he headed down the tunnel.\nHis visible frustration comes during a difficult period for Chelsea under new manager Xabi Alonso.\nChelsea have lost their past three games and conceded 23 goals, their highest total after 12 matches since the 2015-16 season, with Alonso facing criticism for the leaky defence and constant line-up changes .\nOne positive had been the attack, with Chelsea scoring 18 times in six matches, largely because of the link-up play between Palmer, Morgan Rogers and Joao Pedro.\nClub-record signing Rogers, who cost £117m in the summer, has also become less effective, while Pedro remains sidelined by a groin injury.\nBut some observers argue Palmer needs to step up to help lift his team out of this difficult period.\nIt is nearly two years since he produced the form of his life, breaking Chelsea 's record with 39 goal involvements (26 goals and 13 assists) in the 2024 calendar year.\nNow many are asking whether he can return to that level.\nThere are no concerns about Palmer's attitude or behaviour internally at Chelsea .\nSenior sources inside the club say he has been ultra-focused behind the scenes, doing extra sessions and he is described as a \"leader\" by Alonso.\nBoth Palmer and Chelsea seem fully committed to each other.\nIn mid-April, deep into a dismal campaign in which Chelsea finished 10th having had three different managers, rumours were rife he was pining for a return to Manchester, with United - a club he still supports - linked.\nWhen speaking to the Guardian, he added: \"All my family are there, but I don't miss it. Maybe I'll miss it if I don't go for three months or something. But then when I get home I think there's nothing there for me anyway. I've got no plans to move from Chelsea .\"\nA move to United was never seriously explored by any of those involved and Palmer re-established his commitment to Chelsea by signing a lucrative deal until 2034.\nIt made him among the club's highest-paid players and followed similar deals for Reece James, Moises Caicedo and Joao Pedro.\nPalmer's mother, father and girlfriend were all present in the directors' box against Bournemouth after he signed the new deal.\nLike the others who have recently renewed, Palmer has been reassured by the sporting leadership team that Chelsea are ambitious, out to win trophies and have learned from past mistakes, hiring a high-calibre manager in Alonso and signing three over-30 players for the first time in four years to add experience to their squad.\nThat said, Palmer has not hit the heights of his first 18 months under former manager Mauricio Pochettino, now in charge of Manchester United , and then early into Enzo Maresca's reign.\nHaving been nicknamed \"Cold\" Palmer after his goal celebration, where he shrugs his shoulders and pretends to be cold, his decline began in early 2025.\nA persistent groin problem affected his form as the goals and assists began to dry up. Even so, Palmer produced man-of-the-match displays in the Conference League and Club World Cup finals to maintain his reputation as a big-game player.\nHe did not fully overcome the injury heading into the following season and his return of 10 goals and one assist in 25 matches represented a significant drop in output.\nIn a candid pre-season interview , Palmer explained: \"The first few months, with me being injured, I just wanted to go out and play, which I probably shouldn't have done.\n\"Obviously I couldn't play how I wanted to play. It was a bad season personally with injuries but I feel good now.\"\nHe added the impact on how he wanted to play affected his ability to move on the pitch and strike the ball with power.\nPalmer has also found the situation with England unhelpful.\nOver the summer, he was said by multiple sources close to him and inside Chelsea to have been bitterly disappointed to have missed out on the World Cup squad.\nIt has been further impacted by criticism from manager Thomas Tuchel, who said he \"misses too many opportunities\" to play for the Three Lions.\nSources at Stamford Bridge also reiterated Alonso's assertion that Palmer was unavailable throughout the extended England camp because of a muscle injury.\nIt was highlighted by the fact he did not take part in a behind-closed-doors friendly against Portsmouth towards the end of the break.\nPalmer was then not selected for the following camp in November, but multiple sources say he remains fully committed to regaining his place in the national team.\nTeam-mate Rogers told BBC Sport it was \"a lie\" that Palmer does not want to play for England , while another of his best friends in football, Tosin Adarabioyo, called it \"false, false, false\".\nFormer Manchester City and Chelsea defender Tosin, now at Tottenham , is known to have called him a \"little superstar\", and Palmer has found fame difficult to cope with at times.\nThe Wythenshawe-born forward is mobbed whenever he leaves Stamford Bridge, while he has posted pictures going out in a balaclava to try to live as normal a life as possible.\nChelsea fan Savage Dan thinks Cole Palmer's inconsistency is 'an issue'\nLastly, there is the question of whether the Chelsea project itself could be impacting him.\nThe club's use of ultra-long contracts has attracted criticism from some commentators and external sources, who have questioned whether such deals can affect motivation once a player's future is secured.\nCritics also argue such contracts may reduce a player's leverage if they later seek a move away.\nThere is little evidence to support that argument in individual cases, such as Palm",
     "ai_art_used": false,
-    "photo_used": false,
-    "portrait_used": false,
-    "reference_photo_used": false
+    "photo_used": true,
+    "portrait_used": true,
+    "reference_photo_used": false,
+    "visual_subject": "Cole Palmer",
+    "visual_entities": {
+      "personas": [
+        "Cole Palmer"
+      ],
+      "clubes": [
+        "Chelsea"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Leeds"
+      ]
+    },
+    "llm_provider": "groq",
+    "llm_model": "openai/gpt-oss-120b",
+    "headline": "Cole Palmer renueva con Chelsea hasta 2034",
+    "caption": "Cole Palmer firmó un nuevo contrato con Chelsea hasta 2034, convirtiéndose en uno de los jugadores mejor pagados del club. El delantero de 24 años atraviesa una mala racha, con Chelsea sin ganar en sus últimos tres partidos y con 23 goles recibidos, la cifra más alta desde 2015‑16. A pesar de los rumores de un regreso al Manchester United, Palmer reiteró su compromiso con el Blues.",
+    "ai_generated_at": "2026-11-28T12:21:29.122061+00:00",
+    "photo_checked_at": "2026-11-28T12:22:18.899345+00:00",
+    "portrait_info": {
+      "subject": "Cole Palmer",
+      "wikidata_id": "Q99760796",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Cole_Palmer_20042025_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "license": "cc0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "commons_filename": "Cole Palmer 20042025 (2).jpg",
+      "photographer": "",
+      "credit_required": false,
+      "share_alike": false,
+      "width": 824,
+      "height": 2320,
+      "file_page": "https://commons.wikimedia.org/wiki/File:Cole_Palmer_20042025_%282%29.jpg"
+    },
+    "video_style": "instagram",
+    "video_hook_variant": "fact_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 22.3,
+      "mean_db": -19.3
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795868625/football-news-bot/reels/9564af19f74bba12e2ff.mp4",
+    "crosspost_attempt_at": "2026-11-28T12:21:29.122061+00:00",
+    "youtube_attempt_at": "2026-11-28T12:21:29.122061+00:00",
+    "buffer_youtube_status": "error",
+    "buffer_youtube_id": "6b0ac7bec6d7f1e7223f3751",
+    "buffer_youtube_error": "daily_limit",
+    "visual_mode": "licensed_photo",
+    "photo_credit_full": "",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "ColePalmer",
+        "Chelsea"
+      ],
+      "mentions": []
+    },
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-28T12:21:29.122061+00:00",
+    "posted_at": "2026-11-28T12:21:29.122061+00:00",
+    "instagram_media_id": "18132886216857318"
   },
   {
     "id": "657dbef7acb6fe5fdfc2",
