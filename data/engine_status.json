@@ -1,10 +1,10 @@
 {
-  "checked_at_utc": "2026-11-28T08:10:09.462681+00:00",
+  "checked_at_utc": "2026-11-28T08:12:00.233149+00:00",
   "local_hour": 5,
   "statuses": {
     "published": 251,
     "draft": 0,
-    "awaiting_ai": 24,
+    "awaiting_ai": 23,
     "needs_review": 198,
     "publish_error": 27,
     "duplicate": 74
@@ -70,9 +70,9 @@
         "last_error": "invalid_output"
       },
       "nvidia": {
-        "attempts": 29,
+        "attempts": 30,
         "success": 0,
-        "failures": 29,
+        "failures": 30,
         "avg_latency_ms": null,
         "avg_readability": null,
         "last_error": "http_410"
