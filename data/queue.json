@@ -29161,11 +29161,15 @@
       "mean_db": -19.7
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795848302/football-news-bot/reels/7bfb533458ac69876193-cross.mp4",
-    "crosspost_attempt_at": "2026-11-28T06:44:10.298392+00:00",
+    "crosspost_attempt_at": "2026-11-28T07:17:37.409783+00:00",
     "tiktok_attempt_at": "2026-11-28T06:44:10.298392+00:00",
     "buffer_tiktok_status": "error",
     "buffer_tiktok_id": "6b0a7870cf6d9177300730fc",
-    "buffer_tiktok_error": "provider_failure"
+    "buffer_tiktok_error": "provider_failure",
+    "youtube_attempt_at": "2026-11-28T07:17:37.409783+00:00",
+    "buffer_youtube_status": "error",
+    "buffer_youtube_id": "6b0a803ad089f54571971dbd",
+    "buffer_youtube_error": "daily_limit"
   },
   {
     "id": "ca35c70dcc06a907948f",
