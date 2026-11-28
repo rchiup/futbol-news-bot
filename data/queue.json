@@ -31122,5 +31122,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "f17131790a0a58eeedfd",
+    "title": "Pirelli, ante un reto mayor: los neumáticos en Qatar, destrozados tras solo 15 vueltas",
+    "source_url": "https://es.motorsport.com/f1/news/pirelli-reducir-stints-qatar-neumaticos-destrozados/10878496",
+    "source": "Motorsport F1",
+    "description": "Cada año, el Circuito Internacional de Losail representa el mayor desafío del calendario de Fórmula 1 para su único proveedor de neumáticos, Pirelli. Precisamente por esa razón, esta temporada ha vuelto a imponer una duración máxima de stint, esta vez con un límite el límite de 27 vueltas por juego de neumáticos. Eso se basaba en las simulaciones previas al evento de Pirelli, pero en ... Sigue leyendo",
+    "published_at": "2026-11-28T07:46:39+00:00",
+    "category": "F1",
+    "sport": "F1",
+    "score": 26,
+    "queued_at": "2026-11-28T07:50:15.821620+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
