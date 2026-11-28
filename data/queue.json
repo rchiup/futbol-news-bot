@@ -31401,8 +31401,10 @@
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795875897/football-news-bot/reels/cfe48fdd0dfb16380464-cross.mp4",
     "crosspost_attempt_at": "2026-11-28T14:23:51.997132+00:00",
     "tiktok_attempt_at": "2026-11-28T14:23:51.997132+00:00",
-    "buffer_tiktok_status": "sending",
-    "buffer_tiktok_id": "6b0ae43bb8ec87c6ced01d73"
+    "buffer_tiktok_status": "sent",
+    "buffer_tiktok_id": "6b0ae43bb8ec87c6ced01d73",
+    "buffer_tiktok_checked_at": "2026-11-28T14:54:51.821972+00:00",
+    "buffer_tiktok_url": "https://tiktok.com/@chaofelicevich/video/7713228263052643605"
   },
   {
     "id": "04cd1b1a17e2576596d3",
@@ -32245,7 +32247,7 @@
     "headline": "Diego Flores buscará su primera victoria contra River con Instituto",
     "caption": "Diego Flores, técnico de Instituto, intentará romper su racha de dos derrotas contra River. En sus dos encuentros anteriores perdió 3-0, una con Godoy Cruz en 2023 y otra con Gimnasia en 2025. El duelo será en Córdoba y el equipo afronta la ausencia del expulsado Cerato y dudas de Alex Luna y Jeremías Lázaro.",
     "ai_generated_at": "2026-11-28T14:48:47.156107+00:00",
-    "photo_checked_at": "2026-11-28T14:49:30.215097+00:00",
+    "photo_checked_at": "2026-11-28T14:55:31.952287+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -32259,7 +32261,19 @@
     "format_attempt_at": "2026-11-28T14:48:47.156107+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-28T14:48:47.156107+00:00",
-    "instagram_media_id": "18242949667318693"
+    "instagram_media_id": "18242949667318693",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 22.4,
+      "mean_db": -19.3
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795877745/football-news-bot/reels/1a67b50893a4f834009e-cross.mp4",
+    "crosspost_attempt_at": "2026-11-28T14:54:51.821972+00:00",
+    "tiktok_attempt_at": "2026-11-28T14:54:51.821972+00:00",
+    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_id": "6b0aeb72a064217620ae63a5"
   },
   {
     "id": "10f2376fca28028071c7",
