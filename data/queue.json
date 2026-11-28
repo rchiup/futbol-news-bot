@@ -29137,13 +29137,26 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-28T06:39:42.843788+00:00",
+    "photo_checked_at": "2026-11-28T06:44:53.201477+00:00",
     "portrait_info": null,
     "publish_format": "image",
     "format_attempt_at": "2026-11-28T06:39:10.557055+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-28T06:39:10.557055+00:00",
-    "instagram_media_id": "18073858829612366"
+    "instagram_media_id": "18073858829612366",
+    "video_style": "tiktok",
+    "video_hook_variant": "fact_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 11.8,
+      "mean_db": -19.7
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795848302/football-news-bot/reels/7bfb533458ac69876193-cross.mp4",
+    "crosspost_attempt_at": "2026-11-28T06:44:10.298392+00:00",
+    "tiktok_attempt_at": "2026-11-28T06:44:10.298392+00:00",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b0a7870cf6d9177300730fc",
+    "buffer_tiktok_error": "provider_failure"
   },
   {
     "id": "ca35c70dcc06a907948f",
@@ -31005,6 +31018,24 @@
     "score": 20,
     "queued_at": "2026-11-28T06:41:24.810724+00:00",
     "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
+  },
+  {
+    "id": "f18d1ac1ef1a8411388d",
+    "title": "NBA Cup: Quarterfinal preview, updates and more",
+    "source_url": "https://www.espn.com/nba/story/_/id/49577473/2026-nba-season-tournament-cup-format-highlights-updates",
+    "source": "ESPN NBA",
+    "description": "Here's everything you need to know about the fourth annual in-season tournament, including which teams are headed to the quarterfinals.",
+    "published_at": "2026-11-28T06:03:19+00:00",
+    "category": "NBA",
+    "sport": "NBA",
+    "score": 26,
+    "queued_at": "2026-11-28T06:44:10.298392+00:00",
+    "status": "awaiting_ai",
+    "article_context": "Which two teams will face off inside Hinkle Fieldhouse in Indianapolis for the 2026 Emirates NBA Cup championship? After Friday night's action, the quarterfinals are set.\nOver the summer, the league unveiled the full group stage schedule for the in-season tournament, with action taking place every Friday from Oct. 30 to Nov. 27 and on special Cup nights during Thanksgiving week (Nov. 24-25). The quarterfinals will begin on Dec. 4, with the final set for Dec. 11.\nAfter the New York Knicks became the first team to win the NBA Cup and Finals in the same season, Jalen Brunson & Co. won't be able to keep their championship run going. They were eliminated on the final day of group play with a loss to the Miami Heat . The team the Knicks beat in the NBA Cup and NBA Finals last season -- the San Antonio Spurs -- stayed alive with a win over the Los Angeles Lakers .\nHere's what you need to know about the in-season tournament, now in its fourth year.\nAfter a Friday night full of comebacks, blowouts and intricate tiebreaker scenarios, the NBA Cup quarterfinals are set.\nThrough Friday's games, the Philadelphia 76ers , Detroit Pistons , Atlanta Hawks and Boston Celtics are the top four teams in the Eastern Conference standings -- and now they're the four Eastern teams advancing to the NBA Cup quarterfinals, too. Philadelphia will visit Atlanta while Boston visits Detroit as the single-elimination portion of the in-season tournament begins.\nIn the Western Conference, the Spurs will visit the Dallas Mavericks in an in-state rivalry game, while the Memphis Grizzlies visit the Portland Trail Blazers in a matchup of unlikely contenders.\nHere are two main trends and takeaways to watch as the quarterfinals commence next Friday night.\nOf the 10 players who made first- or second-team All-NBA last season, only three are advancing to the NBA Cup quarterfinals, and only one might be healthy next week: Victor Wembanyama , Cade Cunningham (who has missed the past two Pistons games with a knee injury) and Jaylen Brown (who has missed three of the past five 76ers games with a hamstring injury).\nSome stars who didn't make an All-NBA team last season due to injuries, such as Giannis Antetokounmpo , Stephen Curry and Anthony Edwards , will also be absent from remaining NBA Cup action, though Jayson Tatum will be available for Boston.\nThat's not to say that the knockout rounds will be devoid of stars, of course. With Philadelphia alone, even if Brown can't play, the 76ers should have Tyrese Maxey (a third-team All-NBA honoree last season), former MVP Joel Embiid and megastar LeBron James available in Atlanta next week. They'll face third-team All-NBA star Jalen Johnson .\nElsewhere, veteran star guards in Kyrie Irving and Damian Lillard are ready to go, and Deni Avdija and Paul George bring prestige and All-Star skills on the wings. Cooper Flagg is one of the NBA's most superb rising talents.\nBut in general, injuries and the results of group play have set the stage for a different sort of star power to shine in this year's NBA Cup. Among the league's most famous older veterans, only James is still playing, while players such as Curry, Kevin Durant and James Harden have been eliminated; even most of the top mid-career veteran stars, such as Antetokounmpo, Luka Doncic , Nikola Jokic and Shai Gilgeous-Alexander , are absent as well.\nIn their stead, younger talents have the chance to show out on a national stage. Wembanyama and his Spurs teammates already got that opportunity last spring, of course, but now they'll face 19-year-old Flagg in a must-see battle. Maxey could be the best player in the knockout rounds. Avdija or Cedric Coward could lead a Cinderella run to the final.\nWithout making too much of a small-sample tournament, one could consider this NBA Cup knockout stage as a sort of trial run for what might happen as a new generation takes center stage in the league.\nBefore this season, more NBA Cup group winners than not enjoyed a perfect record to clinch that spot. In 2023-24, the first year of the Cup, four teams won their groups with a 4-0 record, including eventual finalists (the Los Angeles Lakers and Indiana Pacers ). In 2024-25, two teams went 4-0, including the eventual champion Milwaukee Bucks . And in 2025-26, four more teams were undefeated in group play -- though the Knicks and Spurs, who met in the Cup final, won their groups with 3-1 marks.\nIn total, entering this season's tournament, 10 of the 18 group winners to date had gone 4-0.\nBut that trend changed in a dramatic way this season. Only one team finished 4-0, and that squad was a major surprise: Dallas, which already beat the Denver Nuggets , Houston Rockets and Utah Jazz in group play before engineering a comeback win in Phoenix on Friday, on the strength of a 35-14 fourth-quarter advantage.\nFor as well as Flagg and Irving have played this year, however, one would be hard-pressed to consider the Mavericks favorites in their next Cup game against San Antonio, let alone to win the entire tournament. And while the Spurs might profile as favorites, they just lost a Cup game in Portland and needed a furious second-half comeback to beat the Lakers and qualify for the knockout stages.\nIn fact, the other seven teams that reached the quarterfinals besides Dallas all went 3-1 in group play. Perhaps that change from recent history can be chalked up simply to a small sample size. But it also reflects the reality that there's no overwhelming favorite among the remaining teams. The NBA Cup race still looks wide open, even as the field dwindles from 30 teams to the final eight.\nDec. 8 and/or Dec. 9: Semifinals Dec. 11: Championship\nNBA commissioner Adam Silver has had a longstanding fascination with European soccer. Establishing an in-season cup competition within the NBA schedule came from soccer leagues having both a regular-season title, won by the team with the most points over the full year, and a separate tournament (or, in some leagues, multiple tournaments) that runs concurrently with the league season.\nIn England, for example, there are the various divisions -- led by the Premier League -- and also the FA Cup competition. But unlike those European leagues, which play their cup competitions outside of their league schedules, the NBA Cup is built in to the regular-season slate.\nThe 30 NBA teams are split into six five-team groups -- three featuring Eastern Conference teams and three comprising Western Conference teams -- with each team then playi",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
