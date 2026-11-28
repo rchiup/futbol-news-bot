@@ -28613,7 +28613,7 @@
     "headline": "Arsenal y Manchester City se enfrentan bajo la sombra de las sanciones",
     "caption": "El duelo entre Arsenal y Manchester City pierde protagonismo tras el veredicto de culpabilidad contra el equipo de Guardiola. El encuentro de este domingo llega marcado por la incertidumbre sobre el futuro de los ciudadanos en la Premier League.",
     "ai_generated_at": "2026-11-28T00:23:42.380761+00:00",
-    "photo_checked_at": "2026-11-28T01:57:36.861737+00:00",
+    "photo_checked_at": "2026-11-28T02:18:52.491860+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -28627,7 +28627,23 @@
     "format_attempt_at": "2026-11-28T02:10:44.972666+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-28T02:10:44.972666+00:00",
-    "instagram_media_id": "17986415648937958"
+    "instagram_media_id": "17986415648937958",
+    "video_style": "tiktok",
+    "video_hook_variant": "fact_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 11.5,
+      "mean_db": -19.6
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795832339/football-news-bot/reels/5f37836b82703b2c86ef-cross.mp4",
+    "crosspost_attempt_at": "2026-11-28T02:18:11.607048+00:00",
+    "tiktok_attempt_at": "2026-11-28T02:18:11.607048+00:00",
+    "zernio_tiktok_status": "failed",
+    "zernio_tiktok_id": "6b0a3a15e4d5ce9eeb03a7f9",
+    "zernio_tiktok_error": "provider_failure",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b0a3a1970e80ae8f1c57873",
+    "buffer_tiktok_error": "provider_failure"
   },
   {
     "id": "dca3bfea22e569f6050b",
