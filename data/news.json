@@ -15182,5 +15182,21 @@
     "source": "Football News, Transfers, Opinion - talkSPORT",
     "collected_at": "2026-11-28T07:02:40.940391+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "d7d56b9228790462371c29a095e51462906c10839fa2968f127dfea42cd79996",
+    "title": "'It doesn't come from me' - Eckert irked by Southampton's jibes at Boro",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cq8e0xrk2gwno?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-28T07:09:01.899557+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "d40640e53f0e4e0c2a5611bfa777ed52b6d27a5185881042594f8722040d328d",
+    "title": "Who am I? Plus today's other quizzes",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c35y1kgn2l90o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-28T07:09:01.899575+00:00",
+    "status": "pending_review"
   }
 ]
