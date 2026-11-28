@@ -31994,7 +31994,7 @@
     "headline": "Gabriel Bortoleto defiende los adelantamientos tras récord de 352 en Las Vegas",
     "caption": "El piloto de Audi, Gabriel Bortoleto, dijo que no entiende las críticas de sus compañeros tras los 352 adelantamientos récord en el Gran Premio de Las Vegas 2026. El debate gira en torno a la utilidad de los sistemas que facilitan los adelantamientos en la F1.",
     "ai_generated_at": "2026-11-28T15:18:12.059249+00:00",
-    "photo_checked_at": "2026-11-28T15:18:44.863307+00:00",
+    "photo_checked_at": "2026-11-28T15:27:38.231852+00:00",
     "portrait_info": null,
     "visual_mode": "editorial_typography",
     "promotion": {
@@ -32010,7 +32010,20 @@
     "format_attempt_at": "2026-11-28T15:22:02.683409+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-28T15:22:02.683409+00:00",
-    "instagram_media_id": "18150199648582823"
+    "instagram_media_id": "18150199648582823",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 20.2,
+      "mean_db": -19.3
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795879672/football-news-bot/reels/2aeb1fbc1b70af6acffb-cross.mp4",
+    "crosspost_attempt_at": "2026-11-28T15:26:46.486010+00:00",
+    "tiktok_attempt_at": "2026-11-28T15:26:46.486010+00:00",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b0af2fbc2294c5dfcd710ee",
+    "buffer_tiktok_error": "provider_failure"
   },
   {
     "id": "c8a1a9bcffec7bb20f1d",
