@@ -32190,7 +32190,12 @@
     "format_attempt_at": "2026-11-28T14:03:24.836773+00:00",
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795874688/football-news-bot/reels/d3c8c3b7b40a5bfd782a.mp4",
     "posted_at": "2026-11-28T14:03:24.836773+00:00",
-    "instagram_media_id": "18098233226668050"
+    "instagram_media_id": "18098233226668050",
+    "crosspost_attempt_at": "2026-11-28T14:39:15.359066+00:00",
+    "tiktok_attempt_at": "2026-11-28T14:39:15.359066+00:00",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b0ae7c1b793a21e71ef45ca",
+    "buffer_tiktok_error": "provider_failure"
   },
   {
     "id": "5c19e446dec3ba3cb0df",
