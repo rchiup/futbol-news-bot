@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-28T16:37:28.121543+00:00",
+  "checked_at_utc": "2026-11-28T16:40:00.604942+00:00",
   "local_hour": 13,
   "statuses": {
     "published": 268,
@@ -9,7 +9,7 @@
     "publish_error": 27,
     "duplicate": 75
   },
-  "fresh_candidates": 128,
+  "fresh_candidates": 158,
   "queued_new": 0,
   "ai_generated": 0,
   "preview_images": 5,
