@@ -30852,11 +30852,15 @@
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795842306/football-news-bot/reels/manual-messi-mls-20261127.mp4",
     "posted_at": "2026-11-28T05:03:00.817174+00:00",
     "instagram_media_id": "17988151772934683",
-    "crosspost_attempt_at": "2026-11-28T05:07:17.668780+00:00",
+    "crosspost_attempt_at": "2026-11-28T05:17:28.542974+00:00",
     "tiktok_attempt_at": "2026-11-28T05:07:17.668780+00:00",
     "buffer_tiktok_status": "error",
     "buffer_tiktok_id": "6b0a61c123fb5b77001f347e",
-    "buffer_tiktok_error": "provider_failure"
+    "buffer_tiktok_error": "provider_failure",
+    "youtube_attempt_at": "2026-11-28T05:17:28.542974+00:00",
+    "buffer_youtube_status": "error",
+    "buffer_youtube_id": "6b0a641870e80ae8f1d4b0c4",
+    "buffer_youtube_error": "daily_limit"
   },
   {
     "id": "236d0b3f32ac2d174bb0",
