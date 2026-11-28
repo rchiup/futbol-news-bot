@@ -15310,5 +15310,21 @@
     "source": "www.espn.com - SOCCER",
     "collected_at": "2026-11-28T10:03:45.778877+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "c8e98f61eed25d04f5b71d80cff600da80671658bb149ff8386652638be46902",
+    "title": "Partidos de HOY, sábado 28 de noviembre: agenda, horario y por dónde ver fútbol EN VIVO",
+    "url": "https://www.ole.com.ar/agenda-deportiva/partidos-hoy-sabado-28-noviembre-2026-agenda-ole-horario-ver-futbol-vivo_0_OBL43ArGqz.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-28T10:13:42.641794+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "ac5610f1d2edb3b426c5e428bd0dfc011c6ef72b90813beefe723b553c27673f",
+    "title": "A qué hora juega hoy Estudiantes vs. Palmeiras y por dónde se puede ver EN VIVO la final de la Copa Libertadores",
+    "url": "https://www.ole.com.ar/futbol-internacional/libertadores/estudiantes-vs-palmeiras-partido-final-copa-libertadores-2026-minuto-minuto-vivo_0_H3UTtA9g0E.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-28T10:13:42.641817+00:00",
+    "status": "pending_review"
   }
 ]
