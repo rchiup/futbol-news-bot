@@ -30704,5 +30704,41 @@
     "caption": "Tristán Suárez igualó 1-1 ante Gimnasia y Tiro en Ezeiza, con gol de Gallo. El tanto de Nicolás Rinaldi abrió el marcador para los salteños, pero el zurdazo de Gallo devolvió el empate y el Lechero se clasificó a semifinales del Reducido con ventaja deportiva. En la próxima ronda se medirá contra Colón, que superó a Deportivo Morón.",
     "ai_generated_at": "2026-11-28T03:00:49.357355+00:00",
     "editorial_rechecked": true
+  },
+  {
+    "id": "manual-messi-mls-20261127",
+    "title": "Lionel Messi e Inter Miami eliminados por Columbus Crew en los playoffs de la MLS",
+    "source_url": "https://www.thescore.com/news/3668527/messi-miami-ousted-from-mls-playoffs-with-dramatic-loss-to-columbus",
+    "source": "theScore / MLS",
+    "description": "Columbus Crew derrotó 1-0 a Inter Miami con un gol de Santiago Rodríguez al minuto 92. El vigente campeón perdió 3-0 en el primer partido y quedó eliminado en primera ronda sin anotar goles.",
+    "headline": "¡Batacazo! Messi queda eliminado de los playoffs de la MLS",
+    "caption": "El vigente campeón se despide de la MLS. Columbus Crew venció 1-0 a Inter Miami con un gol de Santiago Rodríguez al minuto 92. El equipo de Lionel Messi perdió los dos partidos de la serie y no marcó ningún gol. ¿Qué falló en Inter Miami?",
+    "published_at": "2026-11-28T03:05:00+00:00",
+    "queued_at": "2026-11-28T03:05:00+00:00",
+    "status": "duplicate",
+    "sport": "FUTBOL",
+    "category": "ACTUALIDAD",
+    "score": 1000,
+    "visual_subject": "Lionel Messi",
+    "visual_entities": {
+      "personas": [
+        "Lionel Messi"
+      ],
+      "clubes": [
+        "Inter Miami",
+        "Columbus Crew"
+      ],
+      "competicion": [
+        "MLS"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "manual_verified",
+    "manual_requested": true,
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "duplicate_of": "same_story_as:7b38d568650da0e8d2dc"
   }
 ]
