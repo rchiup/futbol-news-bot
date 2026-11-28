@@ -15766,5 +15766,21 @@
     "source": "www.ole.com.ar - Home",
     "collected_at": "2026-11-28T15:38:31.470863+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "94bd2925055f46269c79fb093ab810b29a451254a60b22acd6d527cd7ed0d5cd",
+    "title": "Ashley Cole holds talks with Bristol Rovers for first management job in England",
+    "url": "https://www.theguardian.com/football/2026/nov/28/ashley-cole-bristol-rovers-manager-steve-evans-league-two",
+    "source": "Football | The Guardian",
+    "collected_at": "2026-11-28T15:50:12.545311+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "29c7e83aceb9ae3042b4212b7e29b6c861075edce985e756ab1f4770d640842c",
+    "title": "Fan shoves Luka Dončić after Spurs eliminate Lakers from NBA Cup",
+    "url": "https://www.theguardian.com/sport/2026/nov/28/spurs-lakers-nba-cup-luka-doncic-fan-shove",
+    "source": "NBA | The Guardian",
+    "collected_at": "2026-11-28T15:50:15.956594+00:00",
+    "status": "pending_review"
   }
 ]
