@@ -31841,7 +31841,7 @@
     "headline": "La FIA evalúa volver a usar DRS y push‑to‑pass en 2026",
     "caption": "La FIA estudia reintroducir el DRS y el push‑to‑pass junto al nuevo motor V8 turbo de 2,1 L para la temporada 2026. La medida busca facilitar los adelantamientos en la normativa que reduce el componente eléctrico del coche.",
     "ai_generated_at": "2026-11-28T15:30:12.902972+00:00",
-    "photo_checked_at": "2026-11-28T15:30:44.689347+00:00",
+    "photo_checked_at": "2026-11-28T15:43:41.297622+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -31853,7 +31853,20 @@
     "format_attempt_at": "2026-11-28T15:32:26.588102+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-28T15:32:26.588102+00:00",
-    "instagram_media_id": "18176785480459407"
+    "instagram_media_id": "18176785480459407",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 17.4,
+      "mean_db": -19.9
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795880632/football-news-bot/reels/9f8152e5154fcf59cbe0-cross.mp4",
+    "crosspost_attempt_at": "2026-11-28T15:42:51.745727+00:00",
+    "tiktok_attempt_at": "2026-11-28T15:42:51.745727+00:00",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b0af6ba4ebef2b6d4e7bbac",
+    "buffer_tiktok_error": "provider_failure"
   },
   {
     "id": "2e7430d5299ca7550864",
