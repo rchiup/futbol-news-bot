@@ -14942,5 +14942,37 @@
     "source": "www.espn.com - NBA",
     "collected_at": "2026-11-28T00:01:32.600644+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "e7da4ec9192ce021bb102f3a8b3757040e070ed17a715aa2f4a48d585815273a",
+    "title": "Columbus Crew vs. Inter Miami, por los playoffs de la MLS 2026, EN VIVO: Messi va por la épica",
+    "url": "https://www.ole.com.ar/mls/inter-miami/messi-inter-miami-playoffs-mls-partido-columbus-crew-vivo_0_lmOMc4UC6d.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-28T00:07:56.633480+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "5898f0d26389a26416d8a8026a263df6a01c2db07094f3a5ea92f9bdb4fe2980",
+    "title": "Sigue la picadora del Nacional: un nuevo técnico dejó su cargo",
+    "url": "https://www.ole.com.ar/futbol-ascenso/primeranacional-estudiantesdecaseros-grelak-reducido-quilmes-joaquiniturreria_0_aGjUEQomIV.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-28T00:07:56.633500+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "278aa228269ea22fa4af993dfed47a485e56826a90449c366d64ba0821f66fdd",
+    "title": "Con un regreso esperado, la lista de River para los cuartos ante Instituto",
+    "url": "https://www.ole.com.ar/river-plate/river-lista-convocados-montiel-instituto-cuartos-final-clausura_0_6q2NoxYhMf.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-28T00:07:56.633506+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "4d780f4d61f4d9bbb21b4516157ae131c9cc5f73fab6ea57072f4eccb2d38553",
+    "title": "Tensión en Boedo: la Asamblea de San Lorenzo devolvió el presupuesto y el balance a la Comisión Directiva",
+    "url": "https://www.ole.com.ar/san-lorenzo/san-lorenzo-crisis-comision-directiva-asamblea-balance-presupuesto_0_2pxVTsnuvk.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-28T00:07:56.633511+00:00",
+    "status": "pending_review"
   }
 ]

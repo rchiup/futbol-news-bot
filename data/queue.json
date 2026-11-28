@@ -28389,11 +28389,38 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-27T20:12:56.642192+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Austin Reaves",
+    "visual_entities": {
+      "personas": [
+        "Austin Reaves"
+      ],
+      "clubes": [],
+      "competicion": [
+        "NBA Cup"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Austin Reaves vuelve a jugar con Lakers ante San Antonio Spurs",
+    "caption": "Austin Reaves está disponible para el partido de esta noche ante los Spurs por la NBA Cup. El escolta regresa tras perderse los últimos cinco encuentros debido a una contusión en el talón.",
+    "ai_generated_at": "2026-11-28T00:08:00.318924+00:00",
+    "photo_checked_at": "2026-11-28T00:13:38.162552+00:00",
+    "portrait_info": null,
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "NBA",
+        "AustinReaves",
+        "NBACup"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "55533bea17d0a94422fa",
@@ -28440,11 +28467,30 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-27T20:39:01.300640+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Alexis Castro",
+    "visual_entities": {
+      "personas": [
+        "Alexis Castro"
+      ],
+      "clubes": [
+        "Estudiantes",
+        "Palmeiras"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Uruguay"
+      ]
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Alexis Castro busca la gloria continental con Estudiantes ante Palmeiras",
+    "caption": "Alexis Castro se prepara para enfrentar a Palmeiras en Uruguay tras consolidarse como pieza clave en Estudiantes. El volante argentino atraviesa un gran presente deportivo después de superar etapas complejas en su carrera profesional.",
+    "ai_generated_at": "2026-11-28T00:08:00.318924+00:00"
   },
   {
     "id": "ca35c70dcc06a907948f",
@@ -28508,11 +28554,28 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-27T21:12:59.915983+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Aldana Cometti con la Selección. EFE/ Edison Suárez\nEn los últimos años, la Selección Argentina femenina ha crecido significativamente, tanto en lo deportivo como en su vínculo con la gente. Con actuaciones notables como el empate 2-2 de visitante ante Brasil en octubre, así como varias clasificaciones a torneos importantes, las Albicelestes se hicieron un lugar en el corazón del hincha argentino. Y así lo relató Aldana Cometti este jueves .\nEn la conferencia de prensa previa a los amistosos frente a Alemania y Uruguay , la defensora y capitana del combinado nacional destacó cómo evolucionó la Selección en los últimos años y su rol en la sociedad. \"Venimos de un momento donde esto no era la norma, pero nos estamos haciendo un hueco acá y nos están dando el lugar, que eso es lo importante\" , destacó.\nEn esa línea, Cometti agregó: \" Ya no molestamos, ya somos parte y es lindo que te hagan sentir parte con la inauguración de un estadio\", dijo haciendo referencia al reestreno del Estadio Único de La Plata - Diego Armando Maradona, que se llevará a cabo en el encuentro de este sábado a las 20.15 frente a las europeas .\nCon respecto a los últimos resultados, la defensora valoró lo conseguido por la Selección. \"Quiere decir que todo lo que se dice de ir juntos de la mano con la Federación se está cumpliendo. Competirle a Brasil de esa manera como lo hicimos con Estados Unidos y Canadá es nuestra forma de devolver y de demostrar que también nosotras estamos preparadas para crecer juntos\" , aseguró.\nPor último, la capitana del combinado nacional resaltó la actitud de sus compañeras. \"¿Qué tiene esta Selección? Hambre de conseguir cosas. Tiene gente que está trabajando alrededor (...) Y tiene jugadoras con unas ganas gigantes de ganar, de ser y de representar al país\" , cerró.\nLa última fecha FIFA del año, ante Alemania, este sábado, y Uruguay, el 4 de diciembre, será importante para Argentina, que ya tiene la mira puesta en la próxima Copa del Mundo femenina, prevista para 2027 en Brasil. El sorteo de la fase de grupos se realizará el 11 de diciembre en Río de Janeiro, mientras que el inicio del torneo está programado para mediados del próximo año.\nAntes de la competencia, los seleccionados tendrán otras tres ventanas internacionales para completar su preparación: una a fines de febrero, otra a mediados de abril y una última en la previa del Mundial.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "Aldana Cometti",
+    "visual_entities": {
+      "personas": [
+        "Aldana Cometti"
+      ],
+      "clubes": [],
+      "competicion": [
+        "amistoso"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "Aldana Cometti dice que la selección femenina ya no molesta",
+    "caption": "Aldana Cometti, capitana de la selección argentina femenina, afirmó que el equipo ya no molesta y es parte del fútbol. La jugadora habló antes del amistoso de este sábado ante Alemania en el Estadio Único de La Plata. Argentina también jugará contra Uruguay el 4 de diciembre con miras al Mundial de 2027 en Brasil.",
+    "ai_generated_at": "2026-11-28T00:08:00.318924+00:00"
   },
   {
     "id": "f81c4d932c3768c69a68",
@@ -28571,7 +28634,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-27T21:35:12.492100+00:00",
-    "status": "draft",
+    "status": "published",
     "article_context": "Premier League highlights: Nottingham Forest 3-2 Chelsea\nChelsea defender Wesley Fofana was subjected to repeated boos and told \"you're not welcome here\" by his own fans during Friday's Premier League defeat by Nottingham Forest .\nThe jeers aimed at the 25-year-old were heard every time he touched the ball and came after an unauthorised interview with French YouTuber Zach Nani was released.\nIn that controversial two-hour conversation, Fofana also appeared to joke about missing his penalty during last month's Carabao Cup shootout defeat by Liverpool .\nManager Xabi Alonso said the French centre-back had apologised and \"it won't be repeated\".\nBut Fofana endured a difficult time in his side's trip to Forest as supporters made their feelings known.\nAfter Chelsea went behind to a brilliant volley from Igor Jesus in the fifth minute, Fofana also conceded a penalty for the home side's second goal from Morgan Gibbs-White in the 51st minute.\nHe was booked for the foul on Liam Delap in the box, and then replaced by Levi Colwill in the 56th minute - just after Emmanuel Emegha had pulled a goal back for the visitors - before Gibbs-White made it 3-1 in the 72nd minute.\nEmegha scored again in the 89th minute to make it 3-2, but Forest held on to secure their first win over Chelsea at the City Ground since 1997.\nAlonso defended Fofana after the game and said in his post-match news conference: \"We have to stick together, and everyone that is in the changing room, everyone in the team is needed.\n\"We need to help, and we need to go through these tough moments all together, and we don't leave anyone apart.\n\"We need to support everyone. That is because we need everyone, and we need the fans.\n\"We need all the players. We need to stick together because if not, things will get more complicated, and that's what we want to do.\"\nAsked whether the reaction of the Chelsea fans will make it difficult to pick Fofana going forward, he added: \"Well, I'm thinking right after the game, and for the next games, we will see.\"\nWesley Fofana has made 10 appearances for Chelsea this season\nMeanwhile, Nani has moved to defend Fofana, saying the player was \"clearly\" not happy during the interview and admitted he had to perform better.\nFofana also explained he opted to take a penalty against Liverpool as one of the senior players on the pitch, having joined in a £75m move from Leicester City in 2022.\nBut he confessed football had reached a stage where he was \"more unhappy than happy\", before recovering physically and mentally.\nThe release of the interview has coincided with the club's poor run of form, with Chelsea losing 4-1 at home to Leeds United last weekend to make it three defeats in four matches.\nThe defence, in particular, has come in for criticism, with the Blues one of four clubs to have conceded more than 20 goals in the Premier League after 11 matches.\nHaving been subjected to racist abuse in the past, Fofana spoke about handling comments during a club-organised interview on this summer's pre-season tour of Asia.\nHe is understood to be one of the highest earners at Stamford Bridge.\nGibbs-White stars, Fofana struggles - player ratings for Forest v Chelsea\nPremier League: Chelsea suffer third straight defeat as Forest hang on to win\nForest condemn Chelsea to third successive defeat\nFive-try Ireland beat Australia in autumn finale\nMan Utd trigger Fernandes' one-year contract extension\nSteve Coogan joins Paul and Bob for a festive fishing tour\nLegendary snooker player, Ronnie O'Sullivan, soundtracks his life\nWhich portable heater gives the most heat for the lowest energy used?\nWilshere v Ramsey - Arsenal legends treading similar managerial paths\nDecline of deities - the long game the All Blacks cannot afford to lose\nWhy snooker could be the most mentally challenging sport\n'I am not a magician' - what can Maresca's Man City learn from watertight Arsenal?\nWhat happens now for Bayern Munich and Musiala?\nLammens - the Man Utd goalkeeper under scrutiny like never before\n440 players, three days, one venue - the Nations Championship logistics logjam\nPant joins New Zealand club match under false name\n'Laughing gas has ended careers' - so how common is it in football?\nMotorcycle passenger who took stunning cricket catch found\n'Best midfielder in the world' - where does Bellingham rank?\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
     "ai_art_used": false,
     "photo_used": false,
@@ -28610,7 +28673,12 @@
         "PremierLeague"
       ],
       "mentions": []
-    }
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-28T00:08:00.318924+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-28T00:08:00.318924+00:00",
+    "instagram_media_id": "18228840934337551"
   },
   {
     "id": "107d736ad231c2db7c29",
@@ -28935,11 +29003,68 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-27T22:44:46.691927+00:00",
-    "status": "awaiting_ai",
+    "status": "published",
     "ai_art_used": false,
-    "photo_used": false,
+    "photo_used": true,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Roberto De Zerbi",
+    "visual_entities": {
+      "personas": [
+        "Roberto De Zerbi"
+      ],
+      "clubes": [
+        "Tottenham",
+        "Sunderland"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Sunderland"
+      ]
+    },
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "De Zerbi analiza derrota 1-0 en Sunderland, Tottenham en zona de descenso",
+    "caption": "De Zerbi cayó 1-0 ante Sunderland en su debut al mando del Tottenham, dejando al equipo en zona de descenso. La permanencia se aseguró en el último día de la temporada pasada, según el técnico italiano. De Zerbi recordó la fuerte reacción en el vestuario tras el pitido final en el Stadium of Light.",
+    "ai_generated_at": "2026-11-28T00:08:00.318924+00:00",
+    "photo_checked_at": "2026-11-28T00:13:45.575117+00:00",
+    "portrait_info": {
+      "subject": "Tottenham",
+      "image_url": "https://live.staticflickr.com/65535/51599582372_6feedeb4b2_b.jpg",
+      "width": 1024,
+      "height": 768,
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "commons_filename": "Dolphins v Jaguars Tottenham Stadium",
+      "photographer": "ahisgett",
+      "credit_required": true,
+      "share_alike": false,
+      "file_page": "https://www.flickr.com/photos/37804979@N00/51599582372",
+      "photo_provider": "Openverse",
+      "entity_kind": "club"
+    },
+    "visual_mode": "licensed_photo",
+    "photo_credit_full": "📷 Foto: ahisgett · CC BY 2.0 · Flickr (Openverse) (recorte y edición). https://www.flickr.com/photos/37804979@N00/51599582372 · https://creativecommons.org/licenses/by/2.0/",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "RobertoDeZerbi",
+        "Tottenham",
+        "Sunderland"
+      ],
+      "mentions": []
+    },
+    "video_style": "instagram",
+    "reel_quality": {
+      "version": 2,
+      "duration": 15.9,
+      "mean_db": -19.5
+    },
+    "publish_format": "reel",
+    "format_attempt_at": "2026-11-28T00:08:00.318924+00:00",
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795824844/football-news-bot/reels/f6309a5acb85b59a90d8.mp4",
+    "posted_at": "2026-11-28T00:08:00.318924+00:00",
+    "instagram_media_id": "18119562542271173"
   },
   {
     "id": "279e81f3bcf0e761b22d",
@@ -29067,11 +29192,42 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-27T22:52:17.841196+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Bundesliga bottom side Borussia M'gladbach miss out on a much needed three points after surrendering a 3-1 lead at Werder Bremen.\nBremen fight back to earn draw in six-goal thriller. Video, 00:03:03 Bremen fight back to earn draw in six-goal thriller\nUp Next. Kane on Ballon d'Or hopes. Video, 00:01:57 Kane on Ballon d'Or hopes\nRed card must be taken into consideration for loss - Pochettino. Video, 00:01:08 Red card must be taken into consideration for loss - Pochettino\nBolivian referee punches goalkeeper after cup final. Video, 00:00:42 Bolivian referee punches goalkeeper after cup final\nMarc Marquez announces retirement Love Actually style. Video, 00:00:38 Marc Marquez announces retirement Love Actually style\nGreatest catch ever? Man on motorbike takes incredible grab. Video, 00:00:22 Greatest catch ever? Man on motorbike takes incredible grab\nBehind the scenes at Ipswich Town's new £35m training ground. Video, 00:08:10 Behind the scenes at Ipswich Town's new £35m training ground\nMarquez collects eighth MotoGP title. Video, 00:01:16 Marquez collects eighth MotoGP title\nFrom Watford to world champion. Video, 00:01:40 From Watford to world champion\nWhy Fury was born to fight Video, 00:01:34 Why Fury was born to fight\nI had to play regularly for my mental wellbeing - Trafford on summer move. Video, 00:02:05 I had to play regularly for my mental wellbeing - Trafford on summer move\nFans pay respects to Tenerife's De Miguel. Video, 00:01:01 Fans pay respects to Tenerife's De Miguel\nI don't know what 2027 looks like for me - Rahm. Video, 00:01:51 I don't know what 2027 looks like for me - Rahm\nAntonelli title win 'beginning of something special' Video, 00:01:43 Antonelli title win 'beginning of something special'\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Werder Bremen",
+        "Borussia M'gladbach"
+      ],
+      "competicion": [
+        "Bundesliga"
+      ],
+      "ciudad": [
+        "Bremen"
+      ]
+    },
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "Werder Bremen remonta un 3-1 y empata ante Borussia M'gladbach",
+    "caption": "Borussia M'gladbach, colista de la Bundesliga, ganaba 3-1 en Bremen y terminó empatando en un partido de seis goles. El Werder Bremen remontó para rescatar un punto.",
+    "ai_generated_at": "2026-11-28T00:08:00.318924+00:00",
+    "photo_checked_at": "2026-11-28T00:13:44.049482+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "WerderBremen",
+        "BorussiaMgladbach",
+        "Bundesliga"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "968d2a38626ebfb22520",
@@ -29126,11 +29282,40 @@
     "sport": "FUTBOL",
     "score": 26,
     "queued_at": "2026-11-27T22:59:51.159465+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "article_context": "Ayr beat Largs to book place in Scottish Cup fourth round. Video, 00:01:19 Ayr beat Largs to book place in Scottish Cup fourth round\nUp Next. Watch Rangers and Celtic fans invade pitch after cup tie. Video, 00:00:34 Watch Rangers and Celtic fans invade pitch after cup tie\nBolivian referee punches goalkeeper after cup final. Video, 00:00:42 Bolivian referee punches goalkeeper after cup final\nMarc Marquez announces retirement Love Actually style. Video, 00:00:38 Marc Marquez announces retirement Love Actually style\nGreatest catch ever? Man on motorbike takes incredible grab. Video, 00:00:22 Greatest catch ever? Man on motorbike takes incredible grab\nBehind the scenes at Ipswich Town's new £35m training ground. Video, 00:08:10 Behind the scenes at Ipswich Town's new £35m training ground\nMarquez collects eighth MotoGP title. Video, 00:01:16 Marquez collects eighth MotoGP title\nRed card must be taken into consideration for loss - Pochettino. Video, 00:01:08 Red card must be taken into consideration for loss - Pochettino\nFrom Watford to world champion. Video, 00:01:40 From Watford to world champion\nWhy Fury was born to fight Video, 00:01:34 Why Fury was born to fight\nI had to play regularly for my mental wellbeing - Trafford on summer move. Video, 00:02:05 I had to play regularly for my mental wellbeing - Trafford on summer move\nFans pay respects to Tenerife's De Miguel. Video, 00:01:01 Fans pay respects to Tenerife's De Miguel\nI don't know what 2027 looks like for me - Rahm. Video, 00:01:51 I don't know what 2027 looks like for me - Rahm\nAntonelli title win 'beginning of something special' Video, 00:01:43 Antonelli title win 'beginning of something special'\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Ayr United",
+        "Largs Thistle"
+      ],
+      "competicion": [
+        "Scottish Cup"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "Ayr United vence a Largs Thistle para cuartos de Scottish Cup",
+    "caption": "Ayr United ganó a Largs Thistle y obtuvo su plaza en el cuarto de final de la Copa Escocesa. El partido forma parte de una etapa donde los seguidores de Rangers y Celtic se preparan para el próximo duelo. Próximo se verá la entrada de equipos de Rangers e Celtics en el campo tras este encuentro.",
+    "ai_generated_at": "2026-11-28T00:08:00.318924+00:00",
+    "photo_checked_at": "2026-11-28T00:13:42.498512+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "AyrUnited",
+        "LargsThistle",
+        "ScottishCup"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "28f77a1685d9b6bf097d",
@@ -29143,11 +29328,43 @@
     "sport": "NBA",
     "score": 26,
     "queued_at": "2026-11-27T23:10:23.216895+00:00",
-    "status": "awaiting_ai",
+    "status": "draft",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Felix Okpara",
+    "visual_entities": {
+      "personas": [
+        "Felix Okpara",
+        "Rob Dillingham"
+      ],
+      "clubes": [
+        "Wizards",
+        "Westchester Knicks"
+      ],
+      "competicion": [
+        "G League"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.1-flash-lite",
+    "headline": "Felix Okpara golpea a Rob Dillingham en partido de G League",
+    "caption": "El alero de los Wizards, Felix Okpara, lanzó un puñetazo contra el guardia de los Westchester Knicks, Rob Dillingham, durante el encuentro del viernes. El incidente provocó una pelea breve entre ambos jugadores en el campo de juego.",
+    "ai_generated_at": "2026-11-28T00:08:00.318924+00:00",
+    "photo_checked_at": "2026-11-28T00:13:39.823064+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "NBA",
+        "FelixOkpara",
+        "RobDillingham",
+        "Wizards",
+        "WestchesterKnicks"
+      ],
+      "mentions": []
+    }
   },
   {
     "id": "cfc2a69afff26faf87dc",
