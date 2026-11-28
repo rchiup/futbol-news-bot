@@ -31663,9 +31663,11 @@
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795872864/football-news-bot/reels/72a0c8d67a358794abbf-cross.mp4",
     "crosspost_attempt_at": "2026-11-28T13:33:32.059676+00:00",
     "tiktok_attempt_at": "2026-11-28T13:33:32.059676+00:00",
-    "buffer_tiktok_status": "sending",
+    "buffer_tiktok_status": "sent",
     "buffer_tiktok_id": "6b0ad861b8ec87c6cecaddc2",
-    "duplicate_of": "same_story_as:833fa80977cc146489f4"
+    "duplicate_of": "same_story_as:833fa80977cc146489f4",
+    "buffer_tiktok_checked_at": "2026-11-28T14:07:01.801796+00:00",
+    "buffer_tiktok_url": "https://tiktok.com/@chaofelicevich/video/7713215237586980103"
   },
   {
     "id": "885f4bbaa7c6f736ff11",
@@ -31983,7 +31985,7 @@
     "headline": "Lotte Wubben-Moy convocada por Inglaterra para repechaje mundial",
     "caption": "Lotte Wubben-Moy, de 27 años, ha sido llamada a la selección inglesa para los partidos de repechaje de la Copa del Mundo contra Ucrania. La convocatoria llega tras la baja de Lauren Hemp por lesión y Jess Carter por motivos familiares; el primer encuentro será en España el 1 de diciembre y el regreso en Wembley el 5.",
     "ai_generated_at": "2026-11-28T13:52:27.908688+00:00",
-    "photo_checked_at": "2026-11-28T13:53:11.179396+00:00",
+    "photo_checked_at": "2026-11-28T14:07:44.097723+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -31999,7 +32001,23 @@
     "format_attempt_at": "2026-11-28T13:52:27.908688+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-28T13:52:27.908688+00:00",
-    "instagram_media_id": "18184359736442136"
+    "instagram_media_id": "18184359736442136",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 20.1,
+      "mean_db": -19.1
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795874877/football-news-bot/reels/9a3aa39c999ce479dabb-cross.mp4",
+    "crosspost_attempt_at": "2026-11-28T14:07:01.801796+00:00",
+    "tiktok_attempt_at": "2026-11-28T14:07:01.801796+00:00",
+    "zernio_tiktok_status": "failed",
+    "zernio_tiktok_id": "6b0ae03fe928b059107835c4",
+    "zernio_tiktok_error": "provider_failure",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b0ae043b8ec87c6cece7c53",
+    "buffer_tiktok_error": "provider_failure"
   },
   {
     "id": "de851c45da54f2914688",
