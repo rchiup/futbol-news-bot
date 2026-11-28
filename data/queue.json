@@ -32925,5 +32925,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "a9c0e0a4990e7d395cd0",
+    "title": "4-0 win over Man Utd a 'surreal' feeling - Andrews",
+    "source_url": "https://www.bbc.co.uk/sport/football/videos/cq36gj9x0kn9o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "Brentford head coach Keith Andrews is full of praise for his side after their massive 4-0 win at Old Trafford, highlighting their mentality to \"block out the noise\" and focus on their performance.",
+    "published_at": "2026-11-28T17:49:50+00:00",
+    "category": "PARTIDOS",
+    "sport": "FUTBOL",
+    "score": 26,
+    "queued_at": "2026-11-28T17:52:29.831741+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
