@@ -15206,5 +15206,13 @@
     "source": "www.espn.com - NBA",
     "collected_at": "2026-11-28T07:24:23.166817+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "b6d2b0f00875e84e75cd38c2f8377afa6968121238e69b67ada99ff190fcebbb",
+    "title": "I watched every Brighton game at Dortmund - Gross",
+    "url": "https://www.bbc.co.uk/sport/football/videos/cw5y1e747375o?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "collected_at": "2026-11-28T07:32:49.437350+00:00",
+    "status": "pending_review"
   }
 ]
