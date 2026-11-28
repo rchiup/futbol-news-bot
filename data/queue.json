@@ -30169,7 +30169,7 @@
     "headline": "Nico Paz prioriza fichar por Manchester United sobre volver al Madrid",
     "caption": "El volante argentino tiene la intención de continuar su carrera en la Premier League. El jugador busca consolidarse en Inglaterra y descarta un retorno inmediato al club español.",
     "ai_generated_at": "2026-11-28T00:33:26.745384+00:00",
-    "photo_checked_at": "2026-11-28T02:23:56.801604+00:00",
+    "photo_checked_at": "2026-11-28T02:54:19.819325+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -30184,7 +30184,20 @@
     "format_attempt_at": "2026-11-28T02:22:43.501148+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-28T02:22:43.501148+00:00",
-    "instagram_media_id": "18123453374070312"
+    "instagram_media_id": "18123453374070312",
+    "video_style": "tiktok",
+    "video_hook_variant": "fact_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 9.0,
+      "mean_db": -19.5
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795834483/football-news-bot/reels/cfc2a69afff26faf87dc-cross.mp4",
+    "crosspost_attempt_at": "2026-11-28T02:53:09.112146+00:00",
+    "tiktok_attempt_at": "2026-11-28T02:53:09.112146+00:00",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b0a427523fb5b770012ec5e",
+    "buffer_tiktok_error": "provider_failure"
   },
   {
     "id": "b1e63cc26874e965ef22",
