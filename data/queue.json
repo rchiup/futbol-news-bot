@@ -16,7 +16,7 @@
     "posted_at": "2026-11-23T02:28:07.513251+00:00",
     "instagram_media_id": "18126608645298781",
     "provider_cooldowns": {
-      "zernio": "2026-11-28T00:52:31.066795+00:00",
+      "zernio": "2026-11-28T01:34:43.232064+00:00",
       "buffer": "2026-11-28T00:37:52.238229+00:00"
     }
   },
@@ -26758,12 +26758,27 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-27T14:23:39.587581+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "article_context": "La última práctica de Estudiantes, en el predio del City Torque. (Foto: Juano Tesone)\nLa previa llega a su fin. Ya no habrá acción en cancha y con pelota hasta que Jesús Valenzuela pite el inicio de la final de la Copa Libertadores , el sábado desde las 17 en el mítico Centenario de Montevideo. Estudiantes realizó la última práctica antes del duelo vs. Palmeiras y el factor común fueron las risas, chistes y buena onda. Está listo.\nEl complejo del City Torque está ubicado en el camino Los Aromos, una zona tranquila con mucho verde, sin casas y alguna que otra fábrica. Ahí, bajo un sol pleno, el Pincha realizó los últimos movimientos en cancha .\nLa emoción e ilusión es tal que los jugadores llegaron al predio cantando y golpeando el micro . Ahí cerca, Delfina, una niña que justo hoy cumple 7 años y fue con su mamá (Pincha de La Plata) para llevar una cartel: “Me regalan una foto y la copa”.\nYa en el campo de juego del lindo predio, los jugadores arrancan con el famoso loco y el aviso: “Dale que está la prensa”. Decenas de cámaras y celulares filmaron los primeros 15 minutos de la práctica, en la que hasta el Cacique Medina se prendió a tocar la pelota e ir al medio. Muslera y los arqueros, más lejos, volando en el arco. Los dos uruguayos vivirán un partido especial : el DT por la final que siempre soñó , el arquero posiblemente jugando su último juego como profesional .\nEste sábado Estudiantes se enfrenta con Palmeiras por la Libertadores\nEn lo que respecta al equipo, la duda sigue siendo quién irá por Baltasar Rodríguez , expulsado en la semi. Las dos opciones que corren con ventaja son Fabrizio Pérez -si opta por un 11 más ofensivo- y Gastón Benedetti -si elige un poco más de marca-. Edwuin Cetré es la tercera alternativa.\nEste sábado se enfrentan con Palmeiras por la final de la Libertadores\nJoaquín Correa se recuperó de su desgarro sufrido el sábado 7 de noviembre en Córdoba y fue parte del entrenamiento, aunque sería una opción desde el banco .\nEl 11 sería con Fernando Muslera; Eros Mancuso, Santiago Núñez, Leandro González Pirez y Marcos Rojo; Pérez o Benedetti, Ezequiel Piovi, Alexis Castro y Joaquín Tobio Burgos; Tiago Palacios y Guido Carrillo.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Estudiantes",
+        "City Torque"
+      ],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Estudiantes lista para la final",
+    "caption": "El Pincha realizó su última práctica antes de la final de la Copa Libertadores contra Palmeiras. La duda sigue siendo quién reemplazará a Baltasar Rodríguez. Joaquín Correa se recuperó de su lesión y podría ser opción desde el banco.",
+    "ai_generated_at": "2026-11-28T00:53:50.833033+00:00"
   },
   {
     "id": "800125dea2a6e646bc36",
@@ -27026,12 +27041,31 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-27T14:39:43.612461+00:00",
-    "status": "awaiting_ai",
-    "article_context": "Falkirk and Rangers meet for a second time this season\nThe Scottish Premiership rolls into town again this weekend with crucial games in both halves of the table.\nLast week, Falkirk beat St Johnstone to secure six top-flight wins in a row for the first time since 1966.\nVictory at Ibrox on Saturday would make it seven in a row in the highest Scottish league for the first time since 1907, during a season in which the Bairns finished second.\nIn order to do that, John McGlynn's side would have to become the first Falkirk team to win against Rangers at Ibrox since a 1994 League Cup tie when Richard Cadette scored twice in a 2-1 victory.\nFalkirk are also looking to hold on to third place, with Hearts a point behind having played a game fewer.\nHowever, Rangers have their own motivation, not least extending their 14-match unbeaten run in all competitions - a sequence that has included 12 wins.\nBy winning their game in hand against Aberdeen on Tuesday, Rangers moved to within a point of Premiership leaders and reigning champions Celtic.\nTherefore, three points would take Rangers top before Celtic visit Hearts on Sunday.\nTwo games in, Mario Frick's reign as Aberdeen head coach has produced 11 goals - six for, five against - and one win and one loss. Heavy metal football, as he promised.\nBoth were away from home - against Kilmarnock and Rangers - and on Saturday, Frick takes charge of a game at Pittodrie for the first time, with Dundee the visitors.\nThe Dons have won just twice at home in the Premiership this season, their last such victory coming in mid-October.\nDundee are still licking their wounds after last Saturday's 8-0 home defeat by Hearts and Tuesday's 2-1 loss away to Hibs.\nSteven Pressley's side are on a three-match losing run after a promising start to the season.\nThough they are not in any immediate danger of being dragged down towards the relegation zone, such a scenario may not be far away unless they arrest their current slide.\nFour points separate St Johnstone in sixth and second bottom Motherwell.\nDundee are just below Saints on goal difference while three teams - Aberdeen, Hibernian and St Mirren - are a point above Well.\nIt's so tight and bottom side Kilmarnock, who visit St Mirren, are four points adrift and at risk of becoming detached.\nThis weekend's fixtures could make the order of the bottom seven look rather different come close of play on Saturday.\nSt Johnstone are away to fifth-placed Dundee United, but Aberdeen v Dundee, St Mirren v Kilmarnock and the evening meeting of Motherwell and Hibs at Fir Park pitch those congested sides up against one another.\n'He's priceless for us' - O'Neill on match winner Duran\nCeltic took only one point from last season's trips to Tynecastle but had the last laugh with victory over Hearts in Glasgow on the final day of the league season to tip Derek McInnes' side to the Premiership title.\nMcInnes' replacement Wouter Vrancken took his much-changed Hearts side to Celtic Park last month and were overrun in a 7-1 defeat, easily Celtic's best performance of the season so far.\nSunday is a chance for Hearts to atone for that loss and give Vrancken the sort of statement performance and win the home supporters are looking for.\nBoth sides had European fixtures on Thursday, with varying results.\nHearts were undone by a late goal in their 3-2 Conference League defeat at home to Monaco before Celtic boosted their hopes of Europa League progress with a 2-1 victory away to Portuguese side Torreense.\nEuropean hangovers notwithstanding, any goals would ensure an extension of no 0-0 draws between these sides since 2015.\nMcInnes tempers 'anxiety' as Rangers seek top spot\n'Priceless' Duran proves 'the man' but is he papering over cracks at Celtic?\nHearts' European hopes hang by a thread but Vrancken proud\nMan Utd trigger Fernandes' one-year contract extension\nCA may not like sandpaper forum findings - Vaughan\nPremier League latest: Savio's Tottenham setback; Garnacho attitude 'fantastic'\nSteve Coogan joins Paul and Bob for a festive fishing tour\nLegendary snooker player, Ronnie O'Sullivan, soundtracks his life\nThe truth behind Black Friday's biggest bargains\nHow Scotland reached the World Cup - told by those who made it happen\nScotland men's internationals to be shown live on BBC\nHow Team GB is leading the way in curling's arms race\nHow McTominay became a Napoli icon after Man Utd exit\nWhy is it so special to be part of Team Scotland?\n'I am not a magician' - what can Maresca's Man City learn from watertight Arsenal?\nWhat happens now for Bayern Munich and Musiala?\nLammens - the Man Utd goalkeeper under scrutiny like never before\n440 players, three days, one venue - the Nations Championship logistics logjam\nPant joins New Zealand club match under false name\nNot even making a 12-man bench - what next for Garnacho?\nSelby faces tough UK opener while Allen set to feature\n'Laughing gas has ended careers' - so how common is it in football?\nMotorcycle passenger who took stunning cricket catch found\n'Best midfielder in the world' - where does Bellingham rank?\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nEngland's tearaway quick bowler reinvented as a top-order batter\nJosh Kerr: The making of the man behind the shades\nThe 3pm football blackout: Outdated or still relevant in 2026?\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+    "status": "needs_review",
+    "article_context": "Falkirk and Rangers meet for a second time this season\nThe Scottish Premiership rolls into town again this weekend with crucial games in both halves of the table.\nLast week, Falkirk beat St Johnstone to secure six top-flight wins in a row for the first time since 1966.\nVictory at Ibrox on Saturday would make it seven in a row in the highest Scottish league for the first time since 1907, during a season in which the Bairns finished second.\nIn order to do that, John McGlynn's side would have to become the first Falkirk team to win against Rangers at Ibrox since a 1994 League Cup tie when Richard Cadette scored twice in a 2-1 victory.\nFalkirk are also looking to hold on to third place, with Hearts a point behind having played a game fewer.\nHowever, Rangers have their own motivation, not least extending their 14-match unbeaten run in all competitions - a sequence that has included 12 wins.\nBy winning their game in hand against Aberdeen on Tuesday, Rangers moved to within a point of Premiership leaders and reigning champions Celtic.\nTherefore, three points would take Rangers top before Celtic visit Hearts on Sunday.\nTwo games in, Mario Frick's reign as Aberdeen head coach has produced 11 goals - six for, five against - and one win and one loss. Heavy metal football, as he promised.\nBoth were away from home - against Kilmarnock and Rangers - and on Saturday, Frick takes charge of a game at Pittodrie for the first time, with Dundee the visitors.\nThe Dons have won just twice at home in the Premiership this season, their last such victory coming in mid-October.\nDundee are still licking their wounds after last Saturday's 8-0 home defeat by Hearts and Tuesday's 2-1 loss away to Hibs.\nSteven Pressley's side are on a three-match losing run after a promising start to the season.\nThough they are not in any immediate danger of being dragged down towards the relegation zone, such a scenario may not be far away unless they arrest their current slide.\nFour points separate St Johnstone in sixth and second bottom Motherwell.\nDundee are just below Saints on goal difference while three teams - Aberdeen, Hibernian and St Mirren - are a point above Well.\nIt's so tight and bottom side Kilmarnock, who visit St Mirren, are four points adrift and at risk of becoming detached.\nThis weekend's fixtures could make the order of the bottom seven look rather different come close of play on Saturday.\nSt Johnstone are away to fifth-placed Dundee United, but Aberdeen v Dundee, St Mirren v Kilmarnock and the evening meeting of Motherwell and Hibs at Fir Park pitch those congested sides up against one another.\n'He's priceless for us' - O'Neill on match winner Duran\nCeltic took only one point from last season's trips to Tynecastle but had the last laugh with victory over Hearts in Glasgow on the final day of the league season to tip Derek McInnes' side to the Premiership title.\nMcInnes' replacement Wouter Vrancken took his much-changed Hearts side to Celtic Park last month and were overrun in a 7-1 defeat, easily Celtic's best performance of the season so far.\nSunday is a chance for Hearts to atone for that loss and give Vrancken the sort of statement performance and win the home supporters are looking for.\nBoth sides had European fixtures on Thursday, with varying results.\nHearts were undone by a late goal in their 3-2 Conference League defeat at home to Monaco before Celtic boosted their hopes of Europa League progress with a 2-1 victory away to Portuguese side Torreense.\nEuropean hangovers notwithstanding, any goals would ensure an extension of no 0-0 draws between these sides since 2015.\nMcInnes tempers 'anxiety' as Rangers seek top spot\n'Priceless' Duran proves 'the man' but is he papering over cracks at Celtic?\nHearts' European hopes hang by a thread but Vrancken proud\nForest condemn Chelsea to third successive defeat\nFive-try Ireland beat Australia in autumn finale\nMan Utd trigger Fernandes' one-year contract extension\nSteve Coogan joins Paul and Bob for a festive fishing tour\nLegendary snooker player, Ronnie O'Sullivan, soundtracks his life\nWhich portable heater gives the most heat for the lowest energy used?\nHow Scotland reached the World Cup - told by those who made it happen\nScotland men's internationals to be shown live on BBC\nHow Team GB is leading the way in curling's arms race\nHow McTominay became a Napoli icon after Man Utd exit\nWhy is it so special to be part of Team Scotland?\nWilshere v Ramsey - Arsenal legends treading similar managerial paths\nDecline of deities - the long game the All Blacks cannot afford to lose\nWhy snooker could be the most mentally challenging sport\n'I am not a magician' - what can Maresca's Man City learn from watertight Arsenal?\nWhat happens now for Bayern Munich and Musiala?\nLammens - the Man Utd goalkeeper under scrutiny like never before\n440 players, three days, one venue - the Nations Championship logistics logjam\nPant joins New Zealand club match under false name\n'Laughing gas has ended careers' - so how common is it in football?\nMotorcycle passenger who took stunning cricket catch found\n'Best midfielder in the world' - where does Bellingham rank?\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Falkirk",
+        "Rangers",
+        "Celtic",
+        "Hearts"
+      ],
+      "competicion": [
+        "Scottish Premiership"
+      ],
+      "ciudad": []
+    },
+    "llm_provider": "openrouter",
+    "llm_model": "openrouter/free",
+    "headline": "Falkirk busca siete victorias al hilo en Ibrox ante Rangers",
+    "caption": "Falkirk visita a Rangers en Ibrox buscando su séptima victoria consecutiva en el Scottish Premiership, algo que no logra desde 1907. Un triunfo lo haría el primer equipo de Falkirk en ganar en Ibrox desde 1994 y lo mantendría tercero, con Hearts a un punto y un partido menos. Rangers puede quedar líder antes del Celtic contra Hearts del domingo.",
+    "ai_generated_at": "2026-11-28T00:53:50.833033+00:00"
   },
   {
     "id": "35a8cad1bcdab63edf5a",
@@ -27109,12 +27143,30 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-27T14:41:57.677607+00:00",
-    "status": "awaiting_ai",
+    "status": "needs_review",
     "article_context": "Marc Márquez tras haber anunciado su retiro (EFE).\nA una semana de haber logrado su octavo título en el MotoGP , con el que igualó a Giacomo Agostini como el máximo ganador, y en un escenario ideal, Marc Márquez anunció su retiro de la categoría reina. Durante las prácticas de cara al Gran Premio Motul en Valencia, el último del calendario, la leyenda española apareció en la transmisión y, sin pronunciar palabras, comunicó esta decisión.\nMinutos antes de que se largue la primera práctica en el Circuito Ricardo Tormo, el piloto de 33 años apareció desde el box de Ducati, su actual escudería, y dejó a todos boquiabiertos. \"A pocas palabras buen entendedor\", habrá pensado el piloto español, quien fue enfocado por la cámara y, sin hablar, empezó a mostrar carteles con los que reveló su decisión.\n\"Vamos a hablar más tarde, pero primero... Gracias a todos los que han sido parte de este camino, espero que lo hayan disfrutado tanto como lo hice yo. Esta será mi última carrera en MotoGP. Hicimos historia\" , fue el mensaje que Márquez mostró a la cámara. Y la reacción de los presentes en el circuito no tardó en llegar.\nA pesar del beso y el corazón que dedicó el catalán, la gente empezó a agarrarse la cabeza en las tribunas y su propio equipo se hundió en un aplauso conjunto para valorar toda la carrera de uno de los mejores pilotos de la historia del automovilismo.\nLos 10 títulos mundiales, de los cuales 8 fueron en MotoGP, y las más de 100 victorias ponen a Marc Márquez en la mesa chica de los más grandes de la historia, cabeza a cabeza con leyendas como Valentino Rossi y Giacomo Agostini. Cuando el número 93 irrumpió en MotoGP en 2013, pateó el tablero e impuso una nueva forma de manejar , ya que impuso la idea de ir siempre al límite y buscar los extremos.\nAntes de revolucionar la categoría reina, en su formación ya había destacado. Tras debutar en 2008, conquistó su primer campeonato mundial en 125cc en 2010 con Derbi y sumó la corona de Moto2 en 2012 arriba de una Suter. Ese talento lo hizo firmar con Honda, donde en 2013 se convirtió en el campeón más joven de la historia de MotoGP en su temporada de debut.\nEntre 2013 y 2019 construyó una dinastía casi absoluta con seis títulos de MotoGP (2013, 2014, 2016, 2017, 2018 y 2019). Durante ese ciclo quebró récords por doquier y dominó la categoría, especialmente en la temporada 2014, en la que ganó las primeras diez carreras de manera consecutiva.\nEste tremendo nivel tuvo un freno en 2020, cuando sufrió una fuerte fractura en el brazo derecho, la cual lo obligó a pasar cuatro veces por el quirófano y lo alejó de la pelea por el título durante varios años. Con el objetivo de volver al centro de la escena, el español decidió dejar Honda y firmar con Ducati, donde resurgió.\nEn 2025 volvió a gritar campeón en MotoGP para igualar los nueve títulos totales de Valentino Rossi. Y en 2026, tras protagonizar la mayor remontada de puntos de la historia de la categoría -descontó una desventaja de 102 unidades luego de una lesión-, selló su octava corona en la clase reina.\nDe esta manera, Márquez concluye su carrera con 106 victorias, 173 podios y 106 pole positions en todas las categorías , números que lo dejan como el único piloto de la era moderna en alcanzar las ocho coronas máximas de Giacomo Agostini y superar definitivamente en títulos globales a Rossi.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
-    "reference_photo_used": false
+    "reference_photo_used": false,
+    "visual_subject": "Marc Márquez",
+    "visual_entities": {
+      "personas": [
+        "Marc Márquez"
+      ],
+      "clubes": [],
+      "competicion": [
+        "MotoGP"
+      ],
+      "ciudad": [
+        "Valencia"
+      ]
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Marc Márquez se retira del MotoGP",
+    "caption": "El multicampeón catalán anunció su retiro en Valencia, después de lograr su octavo título en la categoría. Con 106 victorias y 173 podios, Márquez concluye su carrera como uno de los mejores pilotos de la historia del motociclismo.",
+    "ai_generated_at": "2026-11-28T00:53:50.833033+00:00"
   },
   {
     "id": "68f591cb273560249d31",
@@ -27422,17 +27474,23 @@
     "visual_subject": "",
     "visual_entities": {
       "personas": [],
-      "clubes": [],
-      "competicion": [
-        "Copa Davis"
+      "clubes": [
+        "Torre de Tandil"
       ],
-      "ciudad": []
+      "competicion": [
+        "Copa Davis",
+        "Ensaladera de Plata"
+      ],
+      "ciudad": [
+        "Tandil"
+      ]
     },
     "llm_provider": "openrouter",
     "llm_model": "openrouter/free",
-    "headline": "Juan Martín del Potro confiesa que la Copa Davis saldó su deuda",
-    "caption": "Juan Martín del Potro recordó la conquista de la Copa Davis 2016 y dijo que con ese título sintió que ya no estaba en deuda con el público argentino. Argentina venció a Croacia 3-2 en Zagreb, su primera Ensaladera de Plata, tras cuatro finales perdidas. Federico Delbonis cerró la serie ante Ivo Karlovic en el quinto punto decisivo.",
-    "ai_generated_at": "2026-11-28T00:46:07.760994+00:00"
+    "headline": "Juan Martín del Potro confesó que sintió deuda con el público",
+    "caption": "Juan Martín del Potro confesó que sintió deuda con el público tras ganar la Ensaladera de Plata en Croacia en 2016. Diez años después, el Final 8 de la Copa Davis se juega en Bolonia, y Italia se medirá ante República Checa.",
+    "ai_generated_at": "2026-11-28T00:53:50.833033+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "e96f19e7b4eae7907e2b",
@@ -27637,11 +27695,11 @@
     "portrait_used": false,
     "reference_photo_used": false,
     "article_context": "Bowen chose to stay at West Ham following their relegation to the Championship\nWest Ham captain Jarrod Bowen says the players \"definitely\" believe new manager Scott Parker can turn around their season.\nTuesday's 1-0 defeat at Portsmouth leaves the Hammers 13th in the Championship following last season's relegation from the Premier League.\nFormer West Ham captain Parker replaced the sacked Nuno Espirito Santo at the beginning of November but has failed to win any of his four matches in charge.\nBowen, speaking at an EFL Power of 72 campaign event, told BBC Radio London: \"You don't want to be drawn into saying 'we're unlucky', but the chances that we've had, we've been very unfortunate to lose.\n\"But ultimately we know what football is - it's a results business. He's a very, very positive manager. He's very demanding, passionate, he's played for the club.\n\"He understands what it means to play for West Ham, so we all have a really good understanding even in the small time we've been working together.\"\nAsked if the players feel Parker can reverse the Hammers' fortunes and lead them up the table, Bowen said: \"Yes definitely.\"\nThe forward, 29, joined West Ham from Hull City, then in the Championship, in 2020 and chose to stay at the club this summer despite their relegation.\nTuesday's loss at Fratton Park was his 300th appearance for the Londoners and he insists he does not feel the burden of expectation to bounce straight back to the top flight.\n\"I probably thrive on it because you don't let something that's positive wear you down,\" he adds.\n\"When I first came here there were probably question marks about me because I was signing from the Championship to a Premier League side.\n\"Then its all about having your opportunity and then it's down to you to go out and show everyone what you can do.\"\nParker made more than 500 appearances for club and country in his 20-year playing career and as a manager has led Fulham, Bournemouth and Burnley to promotion from the Championship.\nThe 46-year-old is determined to support his players as much as possible.\n\"I never experienced what these professional athletes experience now, in terms of being in the spotlight. The general noise around players and clubs is tenfold, really. So, I'm very consistent in what I demand and ask for.\"\nParker added he tries to \"be rational, in terms of not getting on the rollercoaster, the hype or the ridicule\" that the game sometimes provides.\n\"We know we're a big side in this division and we have to understand that, live with that and deal with that in order to get through that and get the right results,\" he said.\nAsk about West Ham - what do you want to know?\nForest condemn Chelsea to third successive defeat\nFive-try Ireland beat Australia in autumn finale\nMan Utd trigger Fernandes' one-year contract extension\nSteve Coogan joins Paul and Bob for a festive fishing tour\nLegendary snooker player, Ronnie O'Sullivan, soundtracks his life\nWhich portable heater gives the most heat for the lowest energy used?\nWilshere v Ramsey - Arsenal legends treading similar managerial paths\nDecline of deities - the long game the All Blacks cannot afford to lose\nWhy snooker could be the most mentally challenging sport\n'I am not a magician' - what can Maresca's Man City learn from watertight Arsenal?\nWhat happens now for Bayern Munich and Musiala?\nLammens - the Man Utd goalkeeper under scrutiny like never before\n440 players, three days, one venue - the Nations Championship logistics logjam\nPant joins New Zealand club match under false name\n'Laughing gas has ended careers' - so how common is it in football?\nMotorcycle passenger who took stunning cricket catch found\n'Best midfielder in the world' - where does Bellingham rank?\nIs Hamilton and Leclerc's Ferrari partnership sustainable? F1 Q&A\nCopyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
-    "visual_subject": "Scott Parker",
+    "visual_subject": "Jarrod Bowen",
     "visual_entities": {
       "personas": [
-        "Scott Parker",
-        "Jarrod Bowen"
+        "Jarrod Bowen",
+        "Scott Parker"
       ],
       "clubes": [
         "West Ham"
@@ -27651,9 +27709,10 @@
     },
     "llm_provider": "openrouter",
     "llm_model": "openrouter/free",
-    "headline": "Jarrod Bowen dice que jugadores confían en Parker para salvar West Ham",
-    "caption": "Jarrod Bowen asegura que jugadores confían en Parker para salvar West Ham tras caída 1-0 en Portsmouth. Parker, quien dirigió a Fulham, Bournemouth y Burnley, busca primera victoria al frente de los Hammers en Championship. West Ham, descendido de la Premier League, ocupa la decimotercera posición en la tabla del Championship.",
-    "ai_generated_at": "2026-11-28T00:46:07.760994+00:00"
+    "headline": "Jarrod Bowen respalda a Scott Parker pese a cuatro derrotas seguidas",
+    "caption": "El capitán Jarrod Bowen asegura que el plantel 'definitivamente' cree en Scott Parker para revertir la temporada, pese a la derrota 1-0 ante Portsmouth que deja a West Ham 13° en el Championship. Parker suma cuatro partidos sin ganar desde su llegada en noviembre, pero su historial de ascensos con Fulham, Bournemouth y Burnley respalda la confianza interna. Bowen, que cumplió 300 partidos, dice no sentir la presión de volver de inmediato a la Premier League.",
+    "ai_generated_at": "2026-11-28T00:53:50.833033+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "00e134b72420ca56d0f5",
@@ -27685,9 +27744,10 @@
     },
     "llm_provider": "openrouter",
     "llm_model": "openrouter/free",
-    "headline": "Nicolás Russo amenaza romper contrato de Lanús TV",
-    "caption": "Nicolás Russo, presidente de Lanús, dijo que cobran alrededor de tres millones de dólares por derechos televisivos. Señala que este monto es una vergüenza frente a un club argentino que paga 53 millones y medio de euros. Advierte que si hay que romper un contrato, hay que romperlo.",
-    "ai_generated_at": "2026-11-28T00:46:07.760994+00:00"
+    "headline": "Nicolás Russo amenaza con romper el contrato de TV de Lanús",
+    "caption": "Nicolás Russo, presidente de Lanús, dijo que su club cobra unos tres millones de dólares por TV y calificó el monto de vergüenza. Comparó que un club chileno chico recibe un 50% más que uno argentino y que un equipo español medio cobra 53 millones y medio de euros. Advirtió que, de ser necesario, romperán el contrato, y que este año habrá una discusión fuerte sobre los derechos de transmisión.",
+    "ai_generated_at": "2026-11-28T00:53:50.833033+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "177be7a4d132da08d33e",
@@ -27902,9 +27962,10 @@
     },
     "llm_provider": "openrouter",
     "llm_model": "openrouter/free",
-    "headline": "Garnacho suma apenas 34 minutos en Premier League con Villa",
-    "caption": "Alejandro Garnacho ha jugado apenas 34 minutos en la Premier League esta temporada con Aston Villa. Unai Emery dijo que el argentino tiene una actitud fantástica, pero que otros jugadores están por delante de él para ser seleccionado. Su última aparición fue un ingreso de tres minutos ante Fulham el 31 de octubre.",
-    "ai_generated_at": "2026-11-28T00:46:07.760994+00:00"
+    "headline": "Emery elogia a Garnacho, que ni siquiera fue suplente ante Galatasaray",
+    "caption": "Alejandro Garnacho ni siquiera estuvo en el banco de Aston Villa en la derrota 2-0 ante Galatasaray por la Champions League. Unai Emery elogió su actitud y dijo que otros jugadores están por delante. El argentino suma 95 minutos en todas las competiciones y aún no es titular.",
+    "ai_generated_at": "2026-11-28T00:53:50.833033+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "d40740a2da9c930a79a0",
@@ -28496,7 +28557,7 @@
     "headline": "Arsenal y Manchester City se enfrentan bajo la sombra de las sanciones",
     "caption": "El duelo entre Arsenal y Manchester City pierde protagonismo tras el veredicto de culpabilidad contra el equipo de Guardiola. El encuentro de este domingo llega marcado por la incertidumbre sobre el futuro de los ciudadanos en la Premier League.",
     "ai_generated_at": "2026-11-28T00:23:42.380761+00:00",
-    "photo_checked_at": "2026-11-28T00:32:02.313404+00:00",
+    "photo_checked_at": "2026-11-28T01:05:07.934900+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -29451,7 +29512,7 @@
     "sport": "FUTBOL",
     "score": 28,
     "queued_at": "2026-11-27T22:38:42.223997+00:00",
-    "status": "draft",
+    "status": "published",
     "article_context": "River juega otro partido de mucha trascendencia, este sábado a las 22 ante Instituto en Alta Córdoba, por los cuartos de final del Torneo Clausura . Allí, el equipo de Leonardo Ponzio debe ir por la victoria para seguir en busca del campeonato y el pase a la Copa Libertadores.\nPor eso, se viene un partido complejo ante la Gloria, que terminó como líder de la Zona A y encima se hace fuerte en su casa. Es así que te invitamos a que hagas del DT de River y elijas a los 11 que pensás que pueden lograr la clasificación. ¿Mantenés a Espíndola de cinco? ¿En la delantera lo ponés a Beltrán o a Driussi? Esas son tan solo algunas de las cuestiones que deberás resolver.\nEs así que acá tenés la posibilidad de armar el 11 que pensás que debería poner Ponzio.\nPor eso, en Olé te invitamos a que hagas de entrenador y armes el equipo que pondrías para afrontar los cuartos de final.\nLuego, antes del partido, se podrán conocer los resultados y cuál fue el 11 de River más elegido por los hinchas.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "visual_entities": {
       "personas": [],
@@ -29486,7 +29547,12 @@
         "Futbol"
       ],
       "mentions": []
-    }
+    },
+    "publish_format": "image",
+    "format_attempt_at": "2026-11-28T00:53:50.833033+00:00",
+    "ig_variant": "single",
+    "posted_at": "2026-11-28T00:53:50.833033+00:00",
+    "instagram_media_id": "18448905664178369"
   },
   {
     "id": "d0144e0469a1c4ce4897",
@@ -29830,7 +29896,7 @@
       "mean_db": -19.6
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795821093/football-news-bot/reels/968d2a38626ebfb22520-cross.mp4",
-    "crosspost_attempt_at": "2026-11-27T23:10:23.216895+00:00",
+    "crosspost_attempt_at": "2026-11-28T00:53:50.833033+00:00",
     "youtube_attempt_at": "2026-11-27T23:10:23.216895+00:00",
     "buffer_youtube_status": "check_required",
     "visual_mode": "editorial_typography",
@@ -29845,7 +29911,11 @@
     "format_attempt_at": "2026-11-28T00:38:01.713748+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-28T00:38:01.713748+00:00",
-    "instagram_media_id": "18133893157854728"
+    "instagram_media_id": "18133893157854728",
+    "tiktok_attempt_at": "2026-11-28T00:53:50.833033+00:00",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b0a28aceada83daa6b2e43a",
+    "buffer_tiktok_error": "provider_failure"
   },
   {
     "id": "f5f102b5f972051c71ff",

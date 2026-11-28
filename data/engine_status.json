@@ -1,19 +1,19 @@
 {
-  "checked_at_utc": "2026-11-28T00:46:07.760994+00:00",
+  "checked_at_utc": "2026-11-28T00:53:50.833033+00:00",
   "local_hour": 21,
   "statuses": {
-    "published": 231,
-    "draft": 20,
-    "awaiting_ai": 54,
-    "needs_review": 189,
+    "published": 232,
+    "draft": 19,
+    "awaiting_ai": 51,
+    "needs_review": 192,
     "publish_error": 27,
     "duplicate": 74
   },
-  "fresh_candidates": 155,
+  "fresh_candidates": 156,
   "queued_new": 0,
   "ai_generated": 7,
   "preview_images": 5,
-  "published": 0,
+  "published": 1,
   "duplicates_suppressed": 0,
   "no_photo_deferred": 0,
   "total_queue": 813,
@@ -35,12 +35,12 @@
   ],
   "free_llm_metrics": {
     "date_utc": "2026-11-28",
-    "last_success": "openrouter",
+    "last_success": "cloudflare",
     "providers": {
       "groq": {
-        "attempts": 7,
+        "attempts": 9,
         "success": 2,
-        "failures": 5,
+        "failures": 7,
         "avg_latency_ms": 1680,
         "avg_readability": 100.0,
         "last_error": "http_429"
@@ -54,18 +54,18 @@
         "last_error": "invalid_output"
       },
       "openrouter": {
-        "attempts": 34,
-        "success": 23,
-        "failures": 11,
-        "avg_latency_ms": 33372,
-        "avg_readability": 98.0,
+        "attempts": 40,
+        "success": 28,
+        "failures": 12,
+        "avg_latency_ms": 46359,
+        "avg_readability": 97.3,
         "last_error": "invalid_output"
       },
       "cloudflare": {
-        "attempts": 11,
-        "success": 3,
-        "failures": 8,
-        "avg_latency_ms": 4058,
+        "attempts": 14,
+        "success": 5,
+        "failures": 9,
+        "avg_latency_ms": 3593,
         "avg_readability": 100.0,
         "last_error": "invalid_output"
       },
@@ -78,9 +78,9 @@
         "last_error": "http_410"
       },
       "zai": {
-        "attempts": 8,
+        "attempts": 9,
         "success": 1,
-        "failures": 7,
+        "failures": 8,
         "avg_latency_ms": 33034,
         "avg_readability": 100.0,
         "last_error": "invalid_output"
