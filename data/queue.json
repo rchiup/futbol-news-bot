@@ -30321,7 +30321,7 @@
     "headline": "Felix Okpara golpea a Rob Dillingham en partido de G League",
     "caption": "El alero de los Wizards, Felix Okpara, lanzó un puñetazo contra el guardia de los Westchester Knicks, Rob Dillingham, durante el encuentro del viernes. El incidente provocó una pelea breve entre ambos jugadores en el campo de juego.",
     "ai_generated_at": "2026-11-28T00:08:00.318924+00:00",
-    "photo_checked_at": "2026-11-28T01:09:36.674323+00:00",
+    "photo_checked_at": "2026-11-28T08:20:40.443255+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -30338,7 +30338,20 @@
     "format_attempt_at": "2026-11-28T01:06:46.065039+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-28T01:06:46.065039+00:00",
-    "instagram_media_id": "18040746560766240"
+    "instagram_media_id": "18040746560766240",
+    "video_style": "tiktok",
+    "video_hook_variant": "fact_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 12.3,
+      "mean_db": -19.4
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795854049/football-news-bot/reels/28f77a1685d9b6bf097d-cross.mp4",
+    "crosspost_attempt_at": "2026-11-28T08:19:47.973783+00:00",
+    "tiktok_attempt_at": "2026-11-28T08:19:47.973783+00:00",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b0a8ee2db8a1c14ef17b025",
+    "buffer_tiktok_error": "provider_failure"
   },
   {
     "id": "cfc2a69afff26faf87dc",
