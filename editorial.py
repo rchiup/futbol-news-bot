@@ -917,6 +917,11 @@ def run(reference: datetime | None = None, session=None) -> dict:
     if session is None and os.getenv("ENABLE_PUBLISH","").lower()=="true" and os.getenv("AUTO_APPROVE","").lower()=="true" and os.getenv("ENABLE_REELS","").lower()=="true":
         from publisher import upload_public_video
         due_platforms=[p for p in delivery_scheduler.PLATFORMS if delivery_scheduler.due(queue,p,reference,15) and (publish_cooldowns.available("zernio") or publish_cooldowns.available("buffer"))]
+        # Reserve the first post-reset YouTube slot for the already scheduled
+        # verified Messi Short; Buffer will send its existing post, not a duplicate.
+        messi = next((x for x in queue if x.get("id")=="manual-messi-mls-20261127"), None)
+        if messi and messi.get("buffer_youtube_id")=="6b0a641870e80ae8f1d4b0c4" and messi.get("buffer_youtube_status") not in {"sent","published"} and datetime(2026,11,29,7,55,tzinfo=timezone.utc) <= reference <= datetime(2026,11,29,8,25,tzinfo=timezone.utc):
+            due_platforms = [p for p in due_platforms if p!="youtube"]
         print("[CROSSPOST] Available video destinations: "+str(due_platforms))
         for candidate in sorted(queue,key=lambda x:(x.get("id")=="manual-messi-mls-20261127",bool(x.get("manual_requested")),bool(x.get("match_result")),novelty_priority(x,reference)),reverse=True):
             if not due_platforms or not (publish_cooldowns.available("zernio") or publish_cooldowns.available("buffer")):
