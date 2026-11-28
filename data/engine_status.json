@@ -1,9 +1,9 @@
 {
-  "checked_at_utc": "2026-11-28T01:15:13.188136+00:00",
+  "checked_at_utc": "2026-11-28T01:19:28.471872+00:00",
   "local_hour": 22,
   "statuses": {
-    "published": 233,
-    "draft": 18,
+    "published": 234,
+    "draft": 17,
     "awaiting_ai": 48,
     "needs_review": 195,
     "publish_error": 27,
@@ -11,9 +11,9 @@
   },
   "fresh_candidates": 155,
   "queued_new": 0,
-  "ai_generated": 1,
+  "ai_generated": 0,
   "preview_images": 5,
-  "published": 0,
+  "published": 1,
   "duplicates_suppressed": 0,
   "no_photo_deferred": 0,
   "total_queue": 813,
@@ -62,9 +62,9 @@
         "last_error": "invalid_output"
       },
       "cloudflare": {
-        "attempts": 29,
+        "attempts": 32,
         "success": 13,
-        "failures": 16,
+        "failures": 19,
         "avg_latency_ms": 3659,
         "avg_readability": 100.0,
         "last_error": "invalid_output"
@@ -78,9 +78,9 @@
         "last_error": "http_410"
       },
       "zai": {
-        "attempts": 16,
+        "attempts": 19,
         "success": 1,
-        "failures": 15,
+        "failures": 18,
         "avg_latency_ms": 33034,
         "avg_readability": 100.0,
         "last_error": "invalid_output"
