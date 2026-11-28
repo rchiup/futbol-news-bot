@@ -32168,8 +32168,10 @@
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795883363/football-news-bot/reels/c8a1a9bcffec7bb20f1d-cross.mp4",
     "crosspost_attempt_at": "2026-11-28T16:28:31.201085+00:00",
     "tiktok_attempt_at": "2026-11-28T16:28:31.201085+00:00",
-    "buffer_tiktok_status": "sending",
-    "buffer_tiktok_id": "6b0b01648296eee1f188aed7"
+    "buffer_tiktok_status": "sent",
+    "buffer_tiktok_id": "6b0b01648296eee1f188aed7",
+    "buffer_tiktok_checked_at": "2026-11-28T16:59:56.206092+00:00",
+    "buffer_tiktok_url": "https://tiktok.com/@chaofelicevich/video/7713260320533384469"
   },
   {
     "id": "9a3aa39c999ce479dabb",
