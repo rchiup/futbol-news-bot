@@ -23421,7 +23421,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-26T19:38:52.275613+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
