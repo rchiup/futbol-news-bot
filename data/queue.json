@@ -21490,7 +21490,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-26T15:13:21.671553+00:00",
-    "status": "awaiting_ai",
+    "status": "expired",
     "ai_art_used": false,
     "photo_used": false,
     "portrait_used": false,
@@ -28636,14 +28636,18 @@
       "mean_db": -19.6
     },
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795832339/football-news-bot/reels/5f37836b82703b2c86ef-cross.mp4",
-    "crosspost_attempt_at": "2026-11-28T02:18:11.607048+00:00",
+    "crosspost_attempt_at": "2026-11-28T02:58:44.858384+00:00",
     "tiktok_attempt_at": "2026-11-28T02:18:11.607048+00:00",
     "zernio_tiktok_status": "failed",
     "zernio_tiktok_id": "6b0a3a15e4d5ce9eeb03a7f9",
     "zernio_tiktok_error": "provider_failure",
     "buffer_tiktok_status": "error",
     "buffer_tiktok_id": "6b0a3a1970e80ae8f1c57873",
-    "buffer_tiktok_error": "provider_failure"
+    "buffer_tiktok_error": "provider_failure",
+    "youtube_attempt_at": "2026-11-28T02:58:44.858384+00:00",
+    "buffer_youtube_status": "sent",
+    "buffer_youtube_id": "6b0a438d70e80ae8f1c8b35f",
+    "buffer_youtube_url": "https://www.youtube.com/watch?v=ESgSM7KTPCY"
   },
   {
     "id": "dca3bfea22e569f6050b",
