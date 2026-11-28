@@ -15046,5 +15046,21 @@
     "source": "www.ole.com.ar - Home",
     "collected_at": "2026-11-28T01:41:51.097772+00:00",
     "status": "pending_review"
+  },
+  {
+    "id": "abc41518f7441ad6b42c9abb9411b5ac87ecfd3846528c848fb55f616fb7c2a1",
+    "title": "Follow live: USWNT looks to punch ticket to World Cup vs. El Salvador",
+    "url": "https://www.espn.com/soccer/match/_/gameId/401870040/el-salvador-united-states",
+    "source": "www.espn.com - SOCCER",
+    "collected_at": "2026-11-28T01:50:51.690205+00:00",
+    "status": "pending_review"
+  },
+  {
+    "id": "074a7aa5613ca8cdf1fe1cd8046eee37155ce71c7c5b9738b7ffed010297e0d0",
+    "title": "Escandaloso audio atribuido a Lobo Medina",
+    "url": "https://www.ole.com.ar/futbol-primera/luislobomedina-nicolaswinazki-federicobeligoy-afa-facundodelgaiso_0_JaUC1mjSmJ.html",
+    "source": "www.ole.com.ar - Home",
+    "collected_at": "2026-11-28T01:50:52.623455+00:00",
+    "status": "pending_review"
   }
 ]
