@@ -29923,7 +29923,7 @@
     "headline": "Oliver Glasner elogia a Igor Jesus tras victoria 3-2 del Nottingham Forest",
     "caption": "Nottingham Forest venció 3-2 a Chelsea en casa, con Igor Jesus como figura clave. El entrenador Oliver Glasner destacó la inteligencia del delantero, y el triunfo impulsa al equipo en la Premier League mientras el conjunto londinense sigue en apuros.",
     "ai_generated_at": "2026-11-27T23:42:29.638081+00:00",
-    "photo_checked_at": "2026-11-27T23:44:18.033702+00:00",
+    "photo_checked_at": "2026-11-28T06:11:26.973520+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -29938,7 +29938,20 @@
     "format_attempt_at": "2026-11-27T23:42:29.638081+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-27T23:42:29.638081+00:00",
-    "instagram_media_id": "18143233504714649"
+    "instagram_media_id": "18143233504714649",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 17.3,
+      "mean_db": -19.6
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795846297/football-news-bot/reels/279e81f3bcf0e761b22d-cross.mp4",
+    "crosspost_attempt_at": "2026-11-28T06:10:28.142859+00:00",
+    "tiktok_attempt_at": "2026-11-28T06:10:28.142859+00:00",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b0a709bcf6d917730045f52",
+    "buffer_tiktok_error": "provider_failure"
   },
   {
     "id": "0d0c902a9b343e8bd8db",
