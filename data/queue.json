@@ -16,7 +16,7 @@
     "posted_at": "2026-11-23T02:28:07.513251+00:00",
     "instagram_media_id": "18126608645298781",
     "provider_cooldowns": {
-      "zernio": "2026-11-28T01:34:43.232064+00:00",
+      "zernio": "2026-11-28T02:14:06.825146+00:00",
       "buffer": "2026-11-28T00:37:52.238229+00:00"
     }
   },
@@ -27936,7 +27936,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-28T01:18:11.876760+00:00",
+    "photo_checked_at": "2026-11-28T01:44:12.074421+00:00",
     "portrait_info": null
   },
   {
@@ -29409,7 +29409,7 @@
     "headline": "Gimnasia busca romper la racha de Boca en duelos directos",
     "caption": "El Lobo ganó tres de los últimos cuatro mano a mano decisivos ante Boca. Ambos equipos se enfrentan este domingo por los cuartos de final del Torneo Clausura con el objetivo de meterse entre los cuatro mejores del campeonato.",
     "ai_generated_at": "2026-11-28T00:01:34.141654+00:00",
-    "photo_checked_at": "2026-11-28T01:27:03.568808+00:00",
+    "photo_checked_at": "2026-11-28T01:43:58.201459+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -29424,7 +29424,20 @@
     "format_attempt_at": "2026-11-28T01:32:52.323922+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-28T01:32:52.323922+00:00",
-    "instagram_media_id": "17879558175636688"
+    "instagram_media_id": "17879558175636688",
+    "video_style": "tiktok",
+    "video_hook_variant": "fact_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 11.1,
+      "mean_db": -19.7
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795830245/football-news-bot/reels/971514f4898bd1c6cb52-cross.mp4",
+    "crosspost_attempt_at": "2026-11-28T01:41:53.911525+00:00",
+    "youtube_attempt_at": "2026-11-28T01:41:53.911525+00:00",
+    "buffer_youtube_status": "error",
+    "buffer_youtube_id": "6b0a31e770e80ae8f1c237c6",
+    "buffer_youtube_error": "daily_limit"
   },
   {
     "id": "8aea7bd0ffec51e2057a",
@@ -30397,6 +30410,51 @@
         "KilyGonzalez",
         "InterMiami",
         "ColumbusCrew"
+      ],
+      "mentions": []
+    }
+  },
+  {
+    "id": "31f39520d31c02b4899b",
+    "title": "Estudiantes va por la gloria eterna ante Palmeiras: procesión histórica a Uruguay y mística a flor de piel",
+    "source_url": "https://www.ole.com.ar/estudiantes/estudiantes-copalibertadores-palmeiras-montevideo_0_98ZAUZUYOJ.html",
+    "source": "Olé Argentina",
+    "description": "El León busca su quinta Libertadores en el mítico Centenario frente al Verdao. Casi 40.000 hinchas del Pincha invadieron Montevideo en una movilización impactante e inolvidable.",
+    "published_at": "2026-11-28T01:31:11+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-28T01:41:53.911525+00:00",
+    "status": "draft",
+    "article_context": "Los jugadores del Pincha, en el entrenamiento previo a la final. (Foto: EFE)\nEstudiantes es de La Plata, eso está más que claro. Pero si tuviera que elegir otra ciudad, Montevideo no le vendría mal. Y ni hablar del Centenario, el mítico estadio uruguayo en donde el Pincha ganó dos veces la Copa Libertadores y pasó por las otras dos que conquistó. Es decir, cada estrella albirroja en el torneo top de Conmebol vivió un momento especial en el recinto que hoy recibirá la final de la edición 2026 ante Palmeiras , y que luego de eso se cerrará para remodelarse de cara al Mundial 2030. Mundial es la ilusión.\nMientras lo miles y miles de hinchas pincharratas fueron llegando a la capital uruguaya ( entre 35 y 40 mil ), el estadio ajusta detalles, prueba elementos y espera por un equipo que no se marea ahí. Para nada. Estudiantes se siente como en casa y esa sensación será todavia aún mayor cuando la gente Pincha llene la tribuna Amsterdam y gran parte de las plateas. Será local en busca de la quinta Libertadores y la séptima estrella internacional . Tiene con qué creer: la historia y el presente. Y de todo eso vamos a hablar.\nLa mística de Estudiantes nació mucho antes de la primera Libertadores, la de 1968 , pero en ese año se capitalizó en un título de los grandes. Aquella vez también fue contra Palmeiras, luego de ganar en La Plata, perder en Brasil y definir en el Centenario, un 2-0 inolvidable. Pero eso no es todo. Al año siguiente también jugó la final en ese estadio, aunque fue la ida, ante Nacional, con triunfo 1-0 y fiesta en La Plata, con el 2-0 de la revancha y 3-0 global. ¿Más? Sí, claro. En 1970, el tricampeonato de América . ¿Dónde? En el Centenario: 1-0 en Argentina y 0-0 frente a Peñarol en Uruguay para dar otra vuelta allí.\nSi bien hablar de historia puede ser repetitivo, lo que sucedió antes le da más fuerza a lo que está viviendo el pueblo del León en estos días. Porque la cuarta Copa, la de 2009, también pasó por ese histórico recinto del fútbol mundial: el equipo de Sabella eliminó a Defensor Sporting en cuartos y a Nacional en semis, para poner rumbo al tetra. Si se quiere hacer más fuerza en la idea, la Copa Interamericana 1969 se definió en Montevideo, con un tremendo 3-0 de Estudiantes sobre Toluca. El Pincha jugó 14 veces en la cancha encajada en el medio del Parque Batlle: ganó 6, perdió 5 y empató 3. Hasta el historial le sonríe .\nNo todo es mirar para atrás. El presente es soleado y cada vez más albirrojo por las calles montevideanas , con los más de 120 colectivos que ya llegaron y empezaron a copar el Fan Fest, la veintena de barcos que cruzó el charco, los aviones que no paran de aparecer por el cielo celeste y los autos que completan el combo de la invasión Pincha . Hasta un velero se animó a la travesía y otro que llegó en bicicleta. Así es la obsesión llamada Libertadores.\nMás allá del pasado y el color, hay un partido. Y ese ya lo está jugando el Cacique Medina, que hasta se prendió en el loco de la última práctica en el predio de City Torque. El entrenador uruguayo -como si faltaba algo, también hizo goles en el Centenario-, mantiene un interrogante que cambia esquema y busca complicar al Verdao: ¿quién va por el suspendido Baltasar Rodríguez? Fabrizio Pérez pica en punta , en una opción más conservadora, o Gastón Benedetti, apuntando a sumar gente más arriba. O Cetré. O Eric Meza. Como para que Abel Ferreira no termine de saber contra quién va a jugar.\nEstudiantes, además de todo, es una pesadilla para brasileños en este 2026 . En cuartos sacó al Corinthians y en semis al Flamengo , las dos series definidas como visitante. Todo eso lo sabe Palmeiras. No es un torneo más para el club. “En el Country se respira Libertadores”, soltó Carrillo, quien dijo que será “la final más importante de mi carrera”. El Cacique Medina no bajó la ansiedad: “Ganar la Copa es la gloria eterna”. El que logre llevarse esta Copa disputará el Mundial de Clubes y la Recopa frente a Boca , ganador de la Copa Sudamericana.\nHay nombres que se convirtieron en próceres de Estudiantes . Los Osvaldo Zubeldía, Carlos Bilardo, Juan Ramón y Juan Sebastián Verón, Alejandro Sabella... Todos ellos saben cuánto pesa la Libertadores y cómo se juega en el Centenario. La Torre de los Homenajes del estadio es un mirador que llega a los 100 metros sobre el nivel del mar. Desde ahí se pudo ver la valija llena de mística que llegó en 1968, 1969, 1970 y 2009. También en este 2026. Y hasta se escuchó el grito: “Le pido a los jugadores, lo único que quiero es ver al Pincha campeón, de la Libertadores”.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
+    "visual_subject": "",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [
+        "Estudiantes",
+        "Palmeiras"
+      ],
+      "competicion": [],
+      "ciudad": [
+        "Montevideo"
+      ]
+    },
+    "llm_provider": "cloudflare",
+    "llm_model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "headline": "Estudiantes busca quinta Libertadores ante Palmeiras",
+    "caption": "El equipo argentino enfrenta a Palmeiras en la final de la Copa Libertadores 2026. La final se disputará en el estadio Centenario de Montevideo, donde Estudiantes ha tenido un historial exitoso. El equipo busca su quinta Libertadores y la séptima estrella internacional.",
+    "ai_generated_at": "2026-11-28T01:41:53.911525+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false,
+    "photo_checked_at": "2026-11-28T01:44:09.508745+00:00",
+    "visual_mode": "editorial_typography",
+    "promotion": {
+      "hashtags": [
+        "Futbol",
+        "Estudiantes",
+        "Palmeiras"
       ],
       "mentions": []
     }
