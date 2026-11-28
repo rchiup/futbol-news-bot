@@ -31835,8 +31835,10 @@
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795870808/football-news-bot/reels/2e7430d5299ca7550864-cross.mp4",
     "crosspost_attempt_at": "2026-11-28T12:59:08.467928+00:00",
     "tiktok_attempt_at": "2026-11-28T12:59:08.467928+00:00",
-    "zernio_tiktok_status": "uploading",
-    "zernio_tiktok_id": "6b0ad05ac6ea71914772d8b0"
+    "zernio_tiktok_status": "published",
+    "zernio_tiktok_id": "6b0ad05ac6ea71914772d8b0",
+    "zernio_tiktok_checked_at": "2026-11-28T13:54:41.746148+00:00",
+    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7713206408174374162"
   },
   {
     "id": "833fa80977cc146489f4",
@@ -31900,12 +31902,14 @@
     "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795871744/football-news-bot/reels/833fa80977cc146489f4-cross.mp4",
     "crosspost_attempt_at": "2026-11-28T13:23:01.201491+00:00",
     "tiktok_attempt_at": "2026-11-28T13:14:44.246470+00:00",
-    "zernio_tiktok_status": "uploading",
+    "zernio_tiktok_status": "published",
     "zernio_tiktok_id": "6b0ad402545df6fb4d2a1f66",
     "youtube_attempt_at": "2026-11-28T13:23:01.201491+00:00",
     "buffer_youtube_status": "error",
     "buffer_youtube_id": "6b0ad5e8b793a21e71e796fc",
-    "buffer_youtube_error": "daily_limit"
+    "buffer_youtube_error": "daily_limit",
+    "zernio_tiktok_checked_at": "2026-11-28T13:54:41.746148+00:00",
+    "zernio_tiktok_url": "https://www.tiktok.com/@chaofelicevich/video/7713210445812862214"
   },
   {
     "id": "2aeb1fbc1b70af6acffb",
