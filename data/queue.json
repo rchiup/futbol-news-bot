@@ -32698,5 +32698,22 @@
     "portrait_used": false,
     "reference_photo_used": false,
     "editorial_rechecked": true
+  },
+  {
+    "id": "4026559cf7fd41479700",
+    "title": "Ipswich Town v Aston Villa: Premier League – live",
+    "source_url": "https://www.theguardian.com/football/live/2026/nov/28/ipswich-town-v-aston-villa-premier-league-live",
+    "source": "The Guardian",
+    "description": "️⚽️ U️pdates from 5.30pm (GMT) kick-off at Portman Road ⚽️ Get in touch: mail Scott about the game Aston Villa make one change to their line-up in the wake of their midweek 1-0 defeat at Galatasaray. Pau Torres replaces the benched Tyrone Mings. Ipswich make three changes to their starting XI following last Saturday’s lame 2-0 defeat at Tottenham Hotspur. Emersonn, Jack Clarke and Abdul Fatawu freshen up the attack, with Zian Flemming, Daizen Maeda and Darnell Furlong dropping to the bench. Continue reading...",
+    "published_at": "2026-11-28T16:25:10+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 28,
+    "queued_at": "2026-11-28T16:33:13.306357+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
