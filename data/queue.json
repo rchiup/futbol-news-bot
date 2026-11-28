@@ -31139,5 +31139,33 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "69823e1b6a69ecc1b7e0",
+    "title": "Tapia e Infantino juntos a cenar con Verón",
+    "source_url": "https://www.ole.com.ar/futbol-internacional/libertadores/claudiotapia-afa-gianniinfantino-fifa-copalibertadores-estadiocentenario_0_lkYq8cpqHd.html",
+    "source": "Olé Argentina",
+    "description": "El presidente de la AFA se encontró con su aliado titular de la FIFA en la noche previa a la final de la Libertadores.",
+    "published_at": "2026-11-28T00:25:16+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 17,
+    "queued_at": "2026-11-28T07:56:13.328523+00:00",
+    "status": "needs_review",
+    "visual_entities": {
+      "personas": [],
+      "clubes": [],
+      "competicion": [],
+      "ciudad": []
+    },
+    "llm_provider": "source_brief",
+    "llm_model": "none",
+    "headline": "Tapia e Infantino juntos a cenar con Verón",
+    "caption": "El presidente de la AFA se encontró con su aliado titular de la FIFA en la noche previa a la final de la Libertadores. (Olé Argentina)",
+    "ai_generated_at": "2026-11-28T07:56:13.328523+00:00",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
