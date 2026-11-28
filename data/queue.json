@@ -31947,5 +31947,22 @@
     "photo_used": false,
     "portrait_used": false,
     "reference_photo_used": false
+  },
+  {
+    "id": "de851c45da54f2914688",
+    "title": "Listen: Off the Ball with guests Mark Walters & Ronny Costello",
+    "source_url": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_scotland_fm?at_medium=RSS&at_campaign=rss",
+    "source": "BBC Sport",
+    "description": "The most petty and ill-informed football show on radio.",
+    "published_at": "2026-11-28T14:00:00+00:00",
+    "category": "ACTUALIDAD",
+    "sport": "FUTBOL",
+    "score": 20,
+    "queued_at": "2026-11-28T13:45:47.410101+00:00",
+    "status": "awaiting_ai",
+    "ai_art_used": false,
+    "photo_used": false,
+    "portrait_used": false,
+    "reference_photo_used": false
   }
 ]
