@@ -3,7 +3,7 @@ from datetime import datetime, timezone, timedelta
 import requests
 
 ID="manual-messi-mls-20261127"
-MATCH_URL="https://www.mlssoccer.com/competitions/mls-cup-playoffs/2026/matches/clbvsmia-11-27-2026/"
+MATCH_URL="https://www.mlssoccer.com/playoffs/2026/news/columbus-crew-oust-leo-messi-inter-miami-in-playoff-shocker"
 API="https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard"
 
 def verified_story(reference, session=requests):
@@ -32,8 +32,8 @@ def verified_story(reference, session=requests):
             if not str(a).isdigit() or not str(b).isdigit() or int(a)<=int(b):
                 continue  # Avoid guessing a shootout score from ordinary goals.
             result=f"{a}-{b}"
-            headline="Messi queda fuera de los playoffs de la MLS"
+            headline="¡PAPELÓN! Messi eliminado en primera ronda"
             description=f"Columbus Crew venció {result} a Inter Miami en el segundo partido de la primera ronda de los playoffs de la MLS. Columbus ya había ganado el primer encuentro por 3-0."
-            caption=f"¡Golpe en la MLS! Inter Miami de Lionel Messi quedó eliminado en primera ronda tras caer {result} ante Columbus Crew. El equipo de Ohio ganó los dos encuentros de la serie al mejor de tres y dejó fuera al vigente campeón."
+            caption=f"¡PAPELÓN EN LA MLS! Messi y el vigente campeón, eliminados en primera ronda: 0-3 y 0-1 ante Columbus Crew. Dos derrotas y ni un gol. ¿El mayor fracaso de Messi en Miami? Debate abierto."
             return {"id":ID,"title":"Lionel Messi e Inter Miami eliminados por Columbus Crew en los playoffs de la MLS","source_url":MATCH_URL,"source":"ESPN / MLS","description":description,"headline":headline,"caption":caption,"published_at":reference.isoformat(),"queued_at":reference.isoformat(),"status":"draft","sport":"FUTBOL","category":"ACTUALIDAD","score":1000,"visual_subject":"Lionel Messi","visual_entities":{"personas":["Lionel Messi"],"clubes":["Inter Miami","Columbus Crew"],"competicion":["MLS"],"ciudad":[]},"llm_provider":"manual_verified","manual_requested":True}
     return None
