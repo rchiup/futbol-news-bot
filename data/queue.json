@@ -16,7 +16,7 @@
     "posted_at": "2026-11-23T02:28:07.513251+00:00",
     "instagram_media_id": "18126608645298781",
     "provider_cooldowns": {
-      "zernio": "2026-11-28T07:31:20.366597+00:00",
+      "zernio": "2026-11-28T08:01:40.893816+00:00",
       "buffer": "2026-11-28T00:37:52.238229+00:00"
     }
   },
@@ -30233,7 +30233,7 @@
     "headline": "Ayr United vence a Largs Thistle para cuartos de Scottish Cup",
     "caption": "Ayr United ganó a Largs Thistle y obtuvo su plaza en el cuarto de final de la Copa Escocesa. El partido forma parte de una etapa donde los seguidores de Rangers y Celtic se preparan para el próximo duelo. Próximo se verá la entrada de equipos de Rangers e Celtics en el campo tras este encuentro.",
     "ai_generated_at": "2026-11-28T00:08:00.318924+00:00",
-    "photo_checked_at": "2026-11-28T01:09:59.229835+00:00",
+    "photo_checked_at": "2026-11-28T07:31:28.145217+00:00",
     "visual_mode": "editorial_typography",
     "promotion": {
       "hashtags": [
@@ -30248,7 +30248,20 @@
     "format_attempt_at": "2026-11-28T01:19:28.471872+00:00",
     "ig_variant": "single",
     "posted_at": "2026-11-28T01:19:28.471872+00:00",
-    "instagram_media_id": "18199504537395283"
+    "instagram_media_id": "18199504537395283",
+    "video_style": "tiktok",
+    "video_hook_variant": "headline_hook",
+    "reel_quality": {
+      "version": 2,
+      "duration": 18.4,
+      "mean_db": -19.9
+    },
+    "reel_video_url": "https://res.cloudinary.com/dwnghjkvr/video/upload/v1795851098/football-news-bot/reels/f5f102b5f972051c71ff-cross.mp4",
+    "crosspost_attempt_at": "2026-11-28T07:30:56.463407+00:00",
+    "tiktok_attempt_at": "2026-11-28T07:30:56.463407+00:00",
+    "buffer_tiktok_status": "error",
+    "buffer_tiktok_id": "6b0a835dd089f54571985326",
+    "buffer_tiktok_error": "provider_failure"
   },
   {
     "id": "28f77a1685d9b6bf097d",
