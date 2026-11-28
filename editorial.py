@@ -765,6 +765,17 @@ def run(reference: datetime | None = None, session=None) -> dict:
                 save_queue(queue)
         except (OSError, ValueError, AttributeError):
             pass
+    if session is None:
+        import requested_mls
+        if not any(x.get("id")==requested_mls.ID for x in queue):
+            try:
+                story=requested_mls.verified_story(reference)
+                if story:
+                    queue.append(story)
+                    save_queue(queue)
+                    print("[BREAKING] Verified Messi elimination; queued for all networks")
+            except (requests.RequestException,ValueError,KeyError,TypeError) as exc:
+                print("[BREAKING] MLS result not verified: "+type(exc).__name__)
     publish_cooldowns.configure(queue)
     if session is None and os.getenv("ENABLE_PUBLISH", "").lower()=="true":
         import zernio_publish
@@ -880,7 +891,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
         from publisher import upload_public_video
         due_platforms=[p for p in delivery_scheduler.PLATFORMS if delivery_scheduler.due(queue,p,reference,15) and (publish_cooldowns.available("zernio") or publish_cooldowns.available("buffer"))]
         print("[CROSSPOST] Available video destinations: "+str(due_platforms))
-        for candidate in sorted(queue,key=lambda x:(bool(x.get("manual_requested")),bool(x.get("match_result")),novelty_priority(x,reference)),reverse=True):
+        for candidate in sorted(queue,key=lambda x:(x.get("id")=="manual-messi-mls-20261127",bool(x.get("manual_requested")),bool(x.get("match_result")),novelty_priority(x,reference)),reverse=True):
             if not due_platforms or not (publish_cooldowns.available("zernio") or publish_cooldowns.available("buffer")):
                 break
             destinations=[p for p in due_platforms if delivery_scheduler.pending_platform(candidate,p)]
@@ -941,7 +952,7 @@ def run(reference: datetime | None = None, session=None) -> dict:
         # Novelty and recency outrank a saved portrait; never publish the
         # same protagonist again just because their news came via another feed.
         already_posted = [x for x in queue if x.get("status") == "published"]
-        for item in sorted(queue, key=lambda x: (bool(x.get('manual_requested')), bool(x.get('match_result')), novelty_priority(x, reference)), reverse=True):
+        for item in sorted(queue, key=lambda x: (x.get('id')=='manual-messi-mls-20261127', bool(x.get('manual_requested')), bool(x.get('match_result')), novelty_priority(x, reference)), reverse=True):
             if published_count >= allowed_this_run:
                 break
             editorial_cap_reached = rolling_post_count(queue, reference) >= POSTS_PER_DAY
