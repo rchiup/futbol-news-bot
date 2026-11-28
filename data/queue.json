@@ -27936,7 +27936,7 @@
       ],
       "mentions": []
     },
-    "photo_checked_at": "2026-11-28T02:51:50.134496+00:00",
+    "photo_checked_at": "2026-11-28T03:14:15.403197+00:00",
     "portrait_info": null
   },
   {
@@ -30562,7 +30562,7 @@
     "sport": "FUTBOL",
     "score": 20,
     "queued_at": "2026-11-28T02:32:51.677785+00:00",
-    "status": "needs_review",
+    "status": "awaiting_ai",
     "article_context": "Agustín Toledo, el autor del solitario gol de la noche. (Foto @ColonOficial)\nColón no tenía a Morón como único rival. Jugaba también contra un estadio a reventar, contra los datos y contra la ventaja deportiva. Para algunos, podría ser un panorama hostil donde es preferible salir a defenderse. Para otros, los más osados y los que terminan venciendo, una invitación a dar el golpe . El Sabalero lo entendió así desde que entró al terreno del Nuevo Francisco Urbano; el Gallo se tiró atrás, apoyado en el empate que le servía y recién se puso a jugar cuando estaba en desventaja.\nAferrarse a un resultado puede ser un tiro que salga por la culata. La línea de 5 inicial que puso Walter Otta no le dio la solidez defensiva necesaria y, a su vez, hizo que los de arriba casi no pudieran ni embarrarse los botines. El plan no salió y los de Santa Fe facturaron: Ignacio Lago, que había tenido un primer tiempo discreto, se tiró a jugar por izquierda, empezó a bicicletear y se la puso en la cabeza a Toledo, que la mandó a guardar con un testazo certero .\nCon el resultado a favor, el 10 sabalero empezó a manejar los hilos a su gusto y se jugó al ritmo que Nacho quiso. Gambeteó, hizo jugar a sus compañeros, hizo amonestar a rivales y hasta paralizó corazones: se paró como CR7 y estrelló un tiro libre contra el palo . ¡Hasta los de Morón gritaron \"uhhh\"! Por cuestiones lógicas de juego, el Rojinegro se tiró atrás sobre el final.\nEl papel del local se circunscribió a tirar pelotazos al área para intentar rescatar el gol que les diera la clasificación. Pero el partido de los zagueros del conjunto de Delfino fue impoluto y sacaron hasta los teros que aparecieron en la cancha. Tomás Giménez tuvo poca acción, en parte por los tímidos ataques de sus adversarios, y también porque sus guardianes despejaron todo. Colón metió un triunfazo en el Oeste y tiene el sueño intacto de volver a la LPF después de su descenso en 2023. Va con la Santa Fe.\nPropietario Arte Gráfico Editorial Argentino S.A. © 1996- 2026 Olé.com.ar - Todos los derechos reservados.",
     "ai_art_used": false,
     "photo_used": false,
@@ -30587,7 +30587,8 @@
     "llm_model": "openai/gpt-oss-120b",
     "headline": "Colón se clasifica a semifinales del Reducido tras vencer a Morón",
     "caption": "Colón derrotó a Morón y avanzó a semifinales de la Primera Nacional. El sabalero enfrentará a Tristán Suárez en la próxima ronda y mantiene vivo su sueño de volver a la LPF.",
-    "ai_generated_at": "2026-11-28T03:10:25.741737+00:00"
+    "ai_generated_at": "2026-11-28T03:10:25.741737+00:00",
+    "editorial_rechecked": true
   },
   {
     "id": "manual-pellegrini-20261127",
